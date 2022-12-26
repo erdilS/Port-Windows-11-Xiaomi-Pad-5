@@ -67,17 +67,6 @@ Tablet:
 
 </details> 
 
-<details> 
-
-<summary><strong>For people who followed the old guide, broke their partition table or want to uninstall Windows</strong></summary>
-
-- [English](guide/English/0-transition-en.md)
-
-- [Español](guide/Español/0-transicion-es.md)
- 
-- [Русский](/guide/Russian/0-transition-ru.md) 
-
-</details> 
 
 ### Windows installation instructions
 
