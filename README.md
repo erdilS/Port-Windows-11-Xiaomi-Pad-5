@@ -1,6 +1,6 @@
 # Running Windows on the Xiaomi Pad 5
 
-<img align="right" src="https://github.com/wormstest/src_vayu_windows/blob/main/Vayu-Windows11 (3).png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
+<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 ## ⚠️ **Warning**
 
