@@ -67,14 +67,6 @@ Tablet:
 
 </details> 
 
-<details> 
-
-<summary><strong>For people who followed the old guide, broke their partition table or want to uninstall Windows</strong></summary>
-
-- [English](guide/English/0-transition-en.md)
-
-</details> 
-
 
 ### Windows installation instructions
 
@@ -97,6 +89,8 @@ Tablet:
 - [If you just want to update the drivers follow these commands](guide/English/update-en.md)
 
 - [Dual booting and updating GPU driver](guide/English/otherthings-en.md)
+
+- [Uninstalling Windows](guide/English/uninstall-en.md)
   
 </details> 
 
