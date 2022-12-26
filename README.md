@@ -69,8 +69,6 @@ Tablet:
 
 <details> 
 
-<summary><strong>For people who followed the old guide, broke their partition table or want to uninstall Windows</strong></summary>
-
 
 ### Windows installation instructions
 
