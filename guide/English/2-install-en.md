@@ -23,7 +23,7 @@ adb shell sh /sbin/msc.sh
 
 #### Start the Windows disk manager
 
-> Once the X3 Pro is detected as a disk
+> Once the Xiaomi Pad 5 is detected as a disk
 
 ```cmd
 diskpart
