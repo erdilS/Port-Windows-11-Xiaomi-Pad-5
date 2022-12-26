@@ -90,7 +90,7 @@ Tablet:
 
 - [Dual booting and updating GPU driver](guide/English/otherthings-en.md)
 
--[Uninstalling Windows](guide/English/uninstall-en.md)
+- [Uninstalling Windows](guide/English/uninstall-en.md)
   
 </details> 
 
