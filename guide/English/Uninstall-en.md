@@ -1,6 +1,4 @@
-## Transition From old guide to the new one or uninstalling Windows from Xiaomi Pad 5
-> you don't need to do this step if you haven't followed the old guide
-
+## Uninstalling Windows
 
 
 > Replace <gpt_both0.bin> with the path to the gpt_both0.bin file. you can find it on the [releases page](../../../../releases/)
@@ -16,5 +14,3 @@ fastboot flash partition:0 <gpt_both0.bin>
 ```cmd
 fastboot -w
 ```
-
-## [Next step: Partiton](/guide/English/1-partition-en.md)
