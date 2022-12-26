@@ -79,26 +79,6 @@ Tablet:
 2 - [Install Windows](guide/English/2-install-en.md)
   
 </details> 
-  
-<details> 
-
-<summary><strong>Español</strong></summary>
-
-1 - [Crear particiones](guide/Español/1-particiones-es.md)
-
-2 - [Instalar Windows](guide/Español/2-instalacion-es.md)
-  
-</details> 
-
-<details> 
-  
-<summary><strong>Русский</strong></summary>
-
-1 - [Создание разделов](/guide/Russian/1-partition-ru.md)
-
-2 - [Установка Windows](/guide/Russian/2-install-ru.md)
-  
-</details> 
 
 ### Other guides:
 
@@ -110,29 +90,13 @@ Tablet:
   
 </details> 
 
-<details> 
-
-<summary><strong>Español</strong></summary>
-
-- [Si solo quieres actualizar los drivers sigue estos comandos](guide/Español/Actualizar-es.md)
-  
-</details> 
-
-<details> 
-
-<summary><strong>Русский</strong></summary>
-
-- [Если вы хотите обновить драйвера, следуйте этим командам](guide/Russian/update-ru.md)
-
-</details> 
-
 ## Contributors
 
 <details> 
 
 <summary><b><strong>Credits</strong></b></summary>
 
-- [Icesito68](https://github.com/Icesito68) ```Made Windows partitioning commands and made this repo```
+- [Icesito68](https://github.com/Icesito68) ```Made Windows partitioning commands and made original (vayu) repo```
 
 - [Map220v](https://github.com/map220v) ```Provided help and vayu UEFI uses nabu UFS patches and ACPI and also ported mi pad 5 drivers```
 
