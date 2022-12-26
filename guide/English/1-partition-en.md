@@ -7,6 +7,7 @@ This step is required so that we make partitions where our Windows installation 
 - Ignore `udevadm` warnings
 - Do not run the same command twice
 - On TWRP, screen not working.
+- DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/nabuwoa)
 
 #### Boot TWRP recovery through the PC with the command
 ```cmd
@@ -57,7 +58,7 @@ rm 31
 ### Create partitions
 > If you get any warning message telling you to ignore or cancel, just type i and enter
 
-#### For 128Gb models: If you have 128 GB model, please contact me on [Telegram](https://t.me/erdilS)
+#### For 128Gb models: If you have 128 GB model, please contact me on [Telegram chat](https://t.me/nabuwoa)
 
 
 #### For 256Gb models:
