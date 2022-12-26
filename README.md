@@ -67,8 +67,6 @@ Tablet:
 
 </details> 
 
-<details> 
-
 
 ### Windows installation instructions
 
