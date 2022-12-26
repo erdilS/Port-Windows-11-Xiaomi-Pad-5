@@ -1,7 +1,7 @@
-#### Start TWRP recovery through the PC with the command
+#### Start recovery through the PC with the command
 
 ```cmd
-fastboot boot <twrp.img>
+fastboot boot <recovery.img>
 ```
 
 ## Push script

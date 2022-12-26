@@ -1,5 +1,11 @@
 # Install Windows
 
+### Boot recovery back to start installing Windows
+
+```cmd
+fastboot boot <recovery.img>
+```
+
 ### Push msc script to /sbin
 
 ```cmd

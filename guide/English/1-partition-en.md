@@ -6,12 +6,12 @@ This step is required so that we make partitions where our Windows installation 
 - These commands have been tested.
 - Ignore `udevadm` warnings
 - Do not run the same command twice
-- On TWRP, screen not working.
+- On recovery, screen not working.
 - DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/nabuwoa)
 
-#### Boot TWRP recovery through the PC with the command
+#### Boot recovery through the PC with the command
 ```cmd
-fastboot boot <twrp.img>
+fastboot boot <recovery.img>
 ```
 > If you already have TWRP installed, just hold the power and vol+ buttons at startup
 
