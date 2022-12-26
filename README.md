@@ -24,7 +24,7 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [ ] Charging ```In progress, working partially ```
 - [x] Display
 - [ ] FM
-- [x] GPU
+- [x] GPU ``` [Read here for fixing GPU ](guide/English/otherthings-en.md) ```
 - [x] Touchscreen
 - [x] UFS
 - [x] USB ```PD hub needed```
@@ -63,7 +63,7 @@ PC:
 
 Tablet:
 
-- [UEFI image and TWRP](https://github.com/erdils/Port-Windows-11-Xiaomi-Pad-5/releases/latest)
+- [UEFI image and TWRP](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/1.0)
 
 </details> 
 
@@ -95,6 +95,8 @@ Tablet:
 <summary><strong>English</strong></summary>
 
 - [If you just want to update the drivers follow these commands](guide/English/update-en.md)
+
+- [Dual booting and updating GPU driver](guide/English/otherthings-en.md)
   
 </details> 
 
@@ -115,6 +117,10 @@ Tablet:
 - [Renegade Project Discord members](https://discord.gg/XXBWfag) ```Provided Help```
  
 - [MollySophia](https://github.com/MollySophia) ```Helped to fix battery status```
+
+- [bibarub](https://github.com/bibarub) ```Made original bat file for switching Windows to Android```
+
+- [entaromia](https://github.com/entaromia) ```Made application for switching Android to Windows```
 
 </details>  
 
