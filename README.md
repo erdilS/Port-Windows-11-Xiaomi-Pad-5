@@ -80,6 +80,16 @@ Tablet:
   
 </details> 
 
+<details> 
+
+<summary><strong>Türkçe</strong></summary>
+
+1 - [Bölümleri oluşturma](guide/Turkish/1-partition-tr.md)
+
+2 - [Windows kurulumu](guide/Turkish/2-install-tr.md)
+  
+</details> 
+
 ### Other guides:
 
 <details> 
@@ -92,7 +102,20 @@ Tablet:
 
 - [Uninstalling Windows](guide/English/uninstall-en.md)
   
+</details>
+
+<details> 
+
+<summary><strong>Türkçe</strong></summary>
+
+- [Sadece sürücüleri güncellemek istiyorsanız bu rehberi takip edin](guide/Turkish/update-tr.md)
+
+- [Dual boot işlemleri ve GPU sürücüsünü güncelleme rehberi](guide/Turkish/otherthings-tr.md)
+
+- [Windows'u kaldırmak](guide/Turkish/uninstall-tr.md)
+  
 </details> 
+
 
 ## Contributors
 
