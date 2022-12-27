@@ -23,7 +23,6 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [ ] Camera
 - [ ] Charging ```In progress, working partially ```
 - [x] Display
-- [ ] FM
 - [x] GPU [Read here for fixing GPU](guide/English/otherthings-en.md)
 - [x] Touchscreen
 - [x] UFS
@@ -45,7 +44,7 @@ Beta. Most of the hardware works, but some components do not work yet.
 
 Human:
 
-- Understand English
+- Understand English or Turkish
 
 - Understand how to use TWRP
 
