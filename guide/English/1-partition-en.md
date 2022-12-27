@@ -102,8 +102,15 @@ set 31 esp on
 ```sh
 quit
 ```
+### Reboot to bootloader
+```sh
+reboot bootloader
+```
 
-### Reboot to TWRP
+### Boot to recovery
+```cmd
+fastboot boot <recovery.img>
+```
 
 ### Start the shell again on your PC
 ```cmd
