@@ -1,74 +1,74 @@
-# Running Windows on the Xiaomi Pad 5
+# Xiaomi Pad 5'te Windows 11 Çalıştırma
 
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-## ⚠️ **Warning**
+## ⚠️ **UYARI**
 
-We're not responsible for bricked devices, missing recovery partitions, dead microSD cards, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
+Hardbrick olan cihazlardan, recovery bölümleri eksik olan cihazlardan, ölü microSD kartlarından, ölü kedi ve köpeklerden, veya Android'e bootlamayı unuttunuz ve alarmınız çalmadı diye oluşacak nükleer savaşlardan sorumlu değiliz.
 
-This project is in an early stage, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get. This is a delicate process, do it under your own risk and follow all the steps carefully.
+Bu proje daha erken aşamalarda, burdaki tüm dosyalar başka sizin gibi kullanıcılardan alınmıştır, burda çalışan dosyaları bulabilirsiniz. Bu yapmak riskli ve zor, bunu yaparken risk sizindir ve lütfen tüm aşamaları dikkatlice takip edin.
 
-**IF YOU AREN'T COMFORTABLE MODDING YOUR TABLET OR ITS PARTITION TABLE OR YOU ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU ARE ON YOUR OWN IF YOU BRICK YOUR DEVICE!!! AGAIN! YOU HAVE BEEN WARNED!!!**
+**EĞER TABLETİNİZİ MODLAMAKTAN VEYA DİSK TABANI İLE OYNAMAKTAN VEYA HARDBRİCK YEMEKTEN KORKUYORSANIZ HEMEN BURDAN AYRILIN!!! UYARILDINIZ, EĞER CİHAZINIZI BRİCK EDERSENİZ SİZİN SORUMLULUĞUNUZ ALTINDADIR!!! TEKRAR EDİYORUZ! UYARILDINIZ!!!**
 
-## Project status
+## Proje durumu
 
-Beta. Most of the hardware works, but some components do not work yet.
+Beta. Donanımın çoğu çalışıyor, fakat bazıları hala sorunlu/çalışmıyor.
 
-#### Features
+#### Özellikler
 
-- [ ] Audio ```Only by USB or Bluetooth```
-- [x] Battery status
+- [ ] Ses ```Sadece USB veya Bluetooth```
+- [x] Batarya durumu
 - [x] Bluetooth
-- [x] Brightness
-- [ ] Camera
-- [ ] Charging ```In progress, working partially ```
-- [x] Display
+- [x] Parlaklık
+- [ ] Kamera
+- [ ] Şarz ```Yapım aşamasında, yarım yamalak çalışıyor ```
+- [x] Ekran
 - [ ] FM
-- [x] GPU [Read here for fixing GPU](guide/English/otherthings-en.md)
-- [x] Touchscreen
+- [x] GPU [GPU düzeltmeyi okumak için buraya tıklayın](guide/English/otherthings-en.md)
+- [x] Dokunmatik ekran
 - [x] UFS
-- [x] USB ```PD hub needed```
+- [x] USB ```PD hub gerekli```
 - [x] Wi-Fi
 
-#### Sensors
+#### Sensörler
 - [x] Accelerometer
 - [x] Gyroscope
-- [x] Light sensor
-- [x] Magnetometer
-- [x] Proximity
+- [x] Parlaklık sensörü
+- [x] Mangnemator
+- [x] Yakınlık sensörü
 
 
-## Guides and requirements
+## Rehber & gerekenler
 
 <details> 
-<summary><strong>Required Tools/Files</strong></summary>
+<summary><strong>Gereken Programlar/Dosyalar</strong></summary>
 
-Human:
+Siz/İnsan:
 
-- Understand English
+- İngilizce bilmeli
 
-- Understand how to use TWRP
+- TWRP kullanımını anlamalı/bilmeli
 
-- Understand how to use CMD
+- CMD/komut yürütmeyi bilmeli
 
-- Functioning brain
+- Çalışan bir beyni olmalı
 
 PC:
 
-- [Windows on ARM image](https://uupdump.net/) (Windows 11 is recommended)
+- [Windows on ARM imajı](https://uupdump.net/) (Windows 11 önerilir)
 
 - [platform-tools](https://developer.android.com/studio/releases/platform-tools).
 
-- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/) to install the [drivers](https://github.com/map220v/MiPad5-Drivers)
+- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/) en son [driverları](https://github.com/map220v/MiPad5-Drivers) kurmak için linke tıklayın
 
 Tablet:
 
-- [UEFI image and TWRP](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/1.0)
+- [UEFI imajı ve TWRP](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/1.0)
 
 </details> 
 
 
-### Windows installation instructions
+### Windows kurulum detayları
 
 <details> 
 
@@ -77,10 +77,16 @@ Tablet:
 1 - [Create partitions](guide/English/1-partition-en.md)
 
 2 - [Install Windows](guide/English/2-install-en.md)
+
+<summary><strong>Türkçe</strong></summary>
+
+1 - [Diskleri oluşturun](guide/English/1-partition-en.md)
+
+2 - [Windows kurun](guide/English/2-install-en.md)
   
 </details> 
 
-### Other guides:
+### Diğer rehberler:
 
 <details> 
 
@@ -92,13 +98,21 @@ Tablet:
 
 - [Uninstalling Windows](guide/English/uninstall-en.md)
   
+<summary><strong>Türkçe</strong></summary>
+
+- [Eğer sadece driverları güncellemek istiyorsanız bu komutları takip edin](guide/English/update-en.md)
+
+- [Dual boot ve GPU driverları](guide/English/otherthings-en.md)
+
+- [Windows'u silme](guide/English/uninstall-en.md)
+ 
 </details> 
 
-## Contributors
+## Destek olanlar
 
 <details> 
 
-<summary><b><strong>Credits</strong></b></summary>
+<summary><b><strong>Teşekkürler</strong></b></summary>
 
 - [Icesito68](https://github.com/Icesito68) ```Made Windows partitioning commands and made original vayu repo```
 
