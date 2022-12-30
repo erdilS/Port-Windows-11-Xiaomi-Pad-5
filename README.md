@@ -23,7 +23,7 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [ ] Camera
 - [ ] Charging ```In progress, working partially ```
 - [x] Display
-- [x] GPU [Read here for fixing GPU](guide/English/otherthings-en.md)
+- [x] GPU [Read here for fixing GPU](guide/English/otherthings-en.md#fixing-gpu-on-windows)
 - [x] Touchscreen
 - [x] UFS
 - [x] USB ```PD hub needed```
