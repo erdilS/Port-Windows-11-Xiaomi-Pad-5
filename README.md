@@ -23,7 +23,7 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [ ] Camera
 - [ ] Charging ```In progress, working partially ```
 - [x] Display
-- [x] GPU [Read here for fixing GPU](guide/English/otherthings-en.md)
+- [x] GPU [Read here for fixing GPU](guide/English/otherthings-en.md#fixing-gpu-on-windows)
 - [x] Touchscreen
 - [x] UFS
 - [x] USB ```PD hub needed```
@@ -158,6 +158,8 @@ Tablet:
 - [bibarub](https://github.com/bibarub) ```Made original bat file for switching Windows to Android```
 
 - [entaromia](https://github.com/entaromia) ```Made application for switching Android to Windows```
+
+- [ciyanogen](https://github.com/ciyanogen) ```Made turkish translation``
 
 - [ArturoGC06](https://github.com/ArturoGC06) ```Made spanish translation```
 
