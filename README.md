@@ -23,7 +23,7 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [ ] Camera
 - [ ] Charging ```In progress, working partially ```
 - [x] Display
-- [x] GPU [Read here for fixing GPU](guide/English/otherthings-en.md#fixing-gpu-on-windows)
+- [x] GPU [Read here for fixing GPU](guide/English/otherthings-en.md)
 - [x] Touchscreen
 - [x] UFS
 - [x] USB ```PD hub needed```
@@ -44,7 +44,7 @@ Beta. Most of the hardware works, but some components do not work yet.
 
 Human:
 
-- Understand English or Turkish
+- Understand English or Spanish
 
 - Understand how to use TWRP
 
@@ -75,17 +75,27 @@ Tablet:
 
 1 - [Create partitions](guide/English/1-partition-en.md)
 
-2 - [Install Windows](guide/English/2-install-en.md)
+2 - [Install Windows](guide/English/2-instalacion-en.md)
   
-</details> 
-
-<details> 
+ </details>
+ 
+ <details> 
 
 <summary><strong>Türkçe</strong></summary>
 
 1 - [Bölümleri oluşturma](guide/Turkish/1-partition-tr.md)
 
 2 - [Windows kurulumu](guide/Turkish/2-install-tr.md)
+  
+ </details>
+ 
+ <details>
+  
+  <summary><strong>Español</strong></summary>
+
+1 - [Crear particiones](guide/Español/1-particiones-es.md)
+
+2 - [Instalar Windows](guide/Español/2-instalacion-es.md)
   
 </details> 
 
@@ -101,20 +111,31 @@ Tablet:
 
 - [Uninstalling Windows](guide/English/uninstall-en.md)
   
-</details>
-
-<details> 
+  </details>
+  
+  <details> 
 
 <summary><strong>Türkçe</strong></summary>
 
-- [Sadece sürücüleri güncellemek istiyorsanız bu rehberi takip edin](guide/Turkish/update-tr.md)
+- [Sadece sürücüleri güncellemek istiyorsanız bu rehberi takip edin](guide/Türkçe/update-tr.md)
 
-- [Dual boot işlemleri ve GPU sürücüsünü güncelleme rehberi](guide/Turkish/otherthings-tr.md)
+- Dual boot işlemleri ve GPU sürücüsünü güncelleme rehberi](guide/Türkçe/otherthings-tr.md)
 
-- [Windows'u kaldırmak](guide/Turkish/uninstall-tr.md)
+- [Windows'u kaldırmak](guide/Türkçe/uninstall-tr.md)
   
-</details> 
+  </details>
+    
+  <details>
+  
+  <summary><strong>Español</strong></summary>
 
+- [Si solo quieres actualizar los drivers sigue estos comandos](guide/Español/actualizar-es.md)
+
+- [Dual boot y actualizar el driver de GPU](guide/Español/otras-cosas-es.md)
+
+- [Desinstalar Windows](guide/Español/desinstalar-es.md)
+    
+</details> 
 
 ## Contributors
 
@@ -122,7 +143,7 @@ Tablet:
 
 <summary><b><strong>Credits</strong></b></summary>
 
-- [Icesito68](https://github.com/Icesito68) ```Made Windows partitioning commands and made original vayu repo```
+- [Icesito68](https://github.com/Icesito68) ```Made Windows partitioning commands, made original vayu repo and made spanish translation```
 
 - [Map220v](https://github.com/map220v) ```Maintains UEFI and Drivers```
   
@@ -137,6 +158,8 @@ Tablet:
 - [bibarub](https://github.com/bibarub) ```Made original bat file for switching Windows to Android```
 
 - [entaromia](https://github.com/entaromia) ```Made application for switching Android to Windows```
+
+- [ArturoGC06](https://github.com/ArturoGC06) ```Made spanish translation```
 
 </details>  
 
