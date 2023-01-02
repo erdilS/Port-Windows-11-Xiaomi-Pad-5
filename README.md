@@ -129,11 +129,11 @@ Tablet:
   
   <summary><strong>Español</strong></summary>
 
-- [Si solo quieres actualizar los drivers sigue estos comandos](guide/Español/actualizar-es.md)
+- [Si solo quieres actualizar los drivers sigue estos comandos](guide/Español/Actualizar-es.md)
 
-- [Dual boot y actualizar el driver de GPU](guide/Español/otras-cosas-es.md)
+- [Dual boot y actualizar el driver de GPU](guide/Español/Otras-cosas-es.md)
 
-- [Desinstalar Windows](guide/Español/desinstalar-es.md)
+- [Desinstalar Windows](guide/Español/Desinstalar-es.md)
     
 </details> 
 
