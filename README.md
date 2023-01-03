@@ -159,7 +159,7 @@ Tablet:
 
 - [entaromia](https://github.com/entaromia) ```Made application for switching Android to Windows```
 
-- [ciyanogen](https://github.com/ciyanogen) ```Made turkish translation``
+- [ciyanogen](https://github.com/ciyanogen) ```Made turkish translation```
 
 - [ArturoGC06](https://github.com/ArturoGC06) ```Made spanish translation```
 
