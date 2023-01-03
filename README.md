@@ -75,7 +75,7 @@ Tablet:
 
 1 - [Create partitions](guide/English/1-partition-en.md)
 
-2 - [Install Windows](guide/English/2-instalacion-en.md)
+2 - [Install Windows](guide/English/2-install-en.md)
   
  </details>
  
