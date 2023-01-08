@@ -117,11 +117,11 @@ Tablet:
 
 <summary><strong>Türkçe</strong></summary>
 
-- [Sadece sürücüleri güncellemek istiyorsanız bu rehberi takip edin](guide/Türkçe/update-tr.md)
+- [Sadece sürücüleri güncellemek istiyorsanız bu rehberi takip edin](guide/Turkish/update-tr.md)
 
-- [Dual boot işlemleri](guide/Türkçe/otherthings-tr.md)
+- [Dual boot işlemleri](guide/Turkish/otherthings-tr.md)
 
-- [Windows'u kaldırmak](guide/Türkçe/uninstall-tr.md)
+- [Windows'u kaldırmak](guide/Turkish/uninstall-tr.md)
   
   </details>
     
