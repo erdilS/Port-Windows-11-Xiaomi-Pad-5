@@ -30,14 +30,3 @@
 
 - Click "Switch to Windows" if you want to switch Windows.
 
-# Fixing GPU on Windows
-
-- Go to Device Manager (hold the Windows logo and find Device Manager)
-- Find Display adapters and expand it
-- Hold the Microsoft Basic Display Adapter
-- Select Update driver
-- Select "Browse my computer for drivers"
-- Select "Let me pick from a list of available drivers on my computer"
-- Select "Mi Pad 5 Adreno 640 GPU" and click next
-- Display will flicker when updating
-- Done!
