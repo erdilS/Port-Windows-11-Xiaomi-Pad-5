@@ -30,14 +30,3 @@
 
 - Toca "Switch to Windows" si quieres reiniciar a Windows.
 
-# Arreglar la GPU en Windows
-
-- Ve al Administrador de dispositivos (Mantén pulsado el logo de Windows y toca Administrador de dispositivos).
-- Busca adaptadores de pantalla y expándelo.
-- Mantén pulsado "Microsoft Basic Display Adapter".
-- Selecciona actualizar driver.
-- Selecciona "Examinar mi PC en busca de controladores".
-- Selecciona "Elegir en una lista de controladores disponibles en el equipo".
-- Selecciona "Mi Pad 5 Adreno 640 GPU" y pulsa siguiente.
-- La pantalla parpadeará mientras se instala el driver.
-- ¡Hecho!
