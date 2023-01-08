@@ -107,7 +107,7 @@ Tablet:
 
 - [If you just want to update the drivers follow these commands](guide/English/update-en.md)
 
-- [Dual booting and updating GPU driver](guide/English/otherthings-en.md)
+- [Dual booting](guide/English/otherthings-en.md)
 
 - [Uninstalling Windows](guide/English/uninstall-en.md)
   
@@ -119,7 +119,7 @@ Tablet:
 
 - [Sadece sürücüleri güncellemek istiyorsanız bu rehberi takip edin](guide/Türkçe/update-tr.md)
 
-- [Dual boot işlemleri ve GPU sürücüsünü güncelleme rehberi](guide/Türkçe/otherthings-tr.md)
+- [Dual boot işlemleri](guide/Türkçe/otherthings-tr.md)
 
 - [Windows'u kaldırmak](guide/Türkçe/uninstall-tr.md)
   
@@ -131,7 +131,7 @@ Tablet:
 
 - [Si solo quieres actualizar los drivers sigue estos comandos](guide/Español/Actualizar-es.md)
 
-- [Dual boot y actualizar el driver de GPU](guide/Español/Otras-cosas-es.md)
+- [Dual boot](guide/Español/Otras-cosas-es.md)
 
 - [Desinstalar Windows](guide/Español/Desinstalar-es.md)
     
