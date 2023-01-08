@@ -110,7 +110,7 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 ### Make a backup of your existing boot image
 
 ```cmd
-adb shell "dd if=/dev/block/bootdevice/by-name/boot of=/tmp/boot.img"
+adb shell "dd if=/dev/block/bootdevice/by-name/boot_a of=/tmp/boot.img"
 ```
 
 ##### Pull backup to computer
