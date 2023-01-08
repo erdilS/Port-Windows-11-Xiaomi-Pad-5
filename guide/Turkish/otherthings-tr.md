@@ -30,14 +30,3 @@
 
 - "Switch to Windows" butonuna bastığınızda cihaz yeniden başlatılacak ve Windows'a giriş yapacaktır.
 
-# GPU'yu Windows'da çalıştırmak
-
-- Aygıt yöneticisine giriş yapın. (Windows logosuna basılı tutun ve Aygıt Yöneticisi'ni seçin)
-- "Görüntü bağdaştırıcıları" sekmesini bulun ve genişletin.
-- Microsoft Temel Görüntü Bağdaştırıcısı'na basılı tutun.
-- "Sürücüyü yazılımını güncelleştir" seçeneğini seçin.
-- "Sürücüler için bilgisayarımı tara" seçeneğini seçin.
-- "Bilgisayarımdaki kullanılabilir sürücülerin bir listesinden seçmeme izin ver" seçeneğini seçin
-- Listelenen sürüclerden "Mi Pad 5 Adreno 640 GPU" sürücüsünü seçin ve "İleri" tuşuna basın
-- Sürücü güncellenirken ekran gidip gelecektir.
-- Sürücü başarıyla güncellendi uyarısını aldığınızda işlem tamamlanmıştır.
