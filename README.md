@@ -119,7 +119,7 @@ Tablet:
 
 - [Sadece sürücüleri güncellemek istiyorsanız bu rehberi takip edin](guide/Türkçe/update-tr.md)
 
-- Dual boot işlemleri ve GPU sürücüsünü güncelleme rehberi](guide/Türkçe/otherthings-tr.md)
+- [Dual boot işlemleri ve GPU sürücüsünü güncelleme rehberi](guide/Türkçe/otherthings-tr.md)
 
 - [Windows'u kaldırmak](guide/Türkçe/uninstall-tr.md)
   
@@ -127,7 +127,7 @@ Tablet:
     
   <details>
   
-  <summary><strong>Español</strong></summary>
+<summary><strong>Español</strong></summary>
 
 - [Si solo quieres actualizar los drivers sigue estos comandos](guide/Español/Actualizar-es.md)
 
@@ -135,7 +135,7 @@ Tablet:
 
 - [Desinstalar Windows](guide/Español/Desinstalar-es.md)
     
-</details> 
+  </details> 
 
 ## Contributors
 
