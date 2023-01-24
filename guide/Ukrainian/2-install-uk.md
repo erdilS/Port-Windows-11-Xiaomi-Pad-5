@@ -31,7 +31,7 @@ diskpart
 ### Призначення літери `X` розділу Windows
 
 #### Вибір розділа Windows у планшеті
-> Використовуйте `list volume` для того, щоб знайти розділ Windows, це той, що називається "WINNABU"
+> Використовуйте `list volume` для того, щоб знайти розділ Windows, він називається "WINNABU"
 
 ```diskpart
 select volume <номер>
@@ -45,7 +45,7 @@ assign letter=x
 ### Призначення літери `Y` розділу ESP
 
 #### Вибір розділа ESP в телефоні
-> Використовуйте `list volume` для того, щоб знайти розділ ESP, це той, що назвається "ESPNABU"
+> Використовуйте `list volume` для того, щоб знайти розділ ESP, він назвається "ESPNABU"
 
 ```diskpart
 select volume <номер>
@@ -67,7 +67,7 @@ exit
 
 > Замініть `<path/to/install.wim>` дійсним шляхом до install.wim,
 
-> `install.wim` знаходиться в папці sources всередині вашого ISO
+> `install.wim` знаходиться в теці sources всередині вашого .iso
 
 > Ви можете отримати цей файл розпакувавши або смонтувавши його
 
@@ -77,7 +77,7 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 # Встановлення драйверів
 
-> Замініть `<nabudriversfolder>` шляхом к папці с вашими драйверами
+> Замініть `<nabudriversfolder>` шляхом к теці с вашими драйверами
 
 ```cmd
 driverupdater.exe -d <nabudriversfolder>\definitions\Desktop\ARM64\Internal\nabu.txt -r <nabudriversfolder> -p X:
