@@ -90,6 +90,16 @@ Tablet:
 
 2 - [Windows kurulumu](guide/Turkish/2-install-tr.md)
   
+ </details>  
+  
+ <details>
+ 
+ <summary><strong>Ukrainian</strong></summary>
+
+1 - [Створення розділів](guide/Ukrainian/1-partition-uk.md)
+
+2 - [Встановлення Windows](guide/Ukrainian/2-install-uk.md)
+  
  </details>
  
  <details>
@@ -128,7 +138,19 @@ Tablet:
   
   </details>
     
-  <details>
+<details> 
+
+<summary><strong>Ukrainian</strong></summary>
+
+- [Якщо ви хочете оновити драйвера, дотримуйтесь цих команд](guide/Ukrainian/update-uk.md)
+
+- [Подвійне завантаження](guide/Ukrainian/otherthings-uk.md)
+
+- [Видалення Windows](guide/Ukrainian/uninstall-uk.md)
+  
+  </details>
+     
+<details>    
   
 <summary><strong>Español</strong></summary>
 
