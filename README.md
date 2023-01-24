@@ -16,7 +16,7 @@ Beta. Most of the hardware works, but some components do not work yet.
 
 #### Features
 
-- [ ] Audio ```Only by USB or Bluetooth```
+- [ ] Audio ```Only by USB or Bluetooth / working partially```
 - [x] Battery status
 - [x] Bluetooth
 - [x] Brightness
@@ -28,6 +28,8 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [x] UFS
 - [x] USB ```PD hub needed```
 - [x] Wi-Fi
+- [ ] Xiaomi Pen and Keyboard support
+
 
 #### Sensors
 - [x] Accelerometer
