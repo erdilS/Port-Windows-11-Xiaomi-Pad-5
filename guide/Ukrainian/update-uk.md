@@ -1,5 +1,5 @@
 Оновлення драйверів у Windows
-#### Запустіть TWRP за допомогою fastboot
+#### Запустіть TWRP за допомогою завантажувача
 
 ```cmd
 fastboot boot <twrp.img>
