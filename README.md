@@ -23,6 +23,7 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [ ] Camera
 - [ ] Charging ```In progress, working partially ```
 - [x] Display
+- [ ] Suspend / Sleep Mode 
 - [x] GPU
 - [x] Touchscreen
 - [x] UFS
