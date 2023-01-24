@@ -16,7 +16,7 @@ Beta. Most of the hardware works, but some components do not work yet.
 
 #### Features
 
-- [ ] Audio ```Only by USB or Bluetooth / working partially```
+- [X] Audio
 - [x] Battery status
 - [x] Bluetooth
 - [x] Brightness
