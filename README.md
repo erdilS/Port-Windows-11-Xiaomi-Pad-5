@@ -62,7 +62,7 @@ Tablet:
 
 - [UEFI image and TWRP](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/1.0)
 
-</details>
+ </details>
 
 ### Windows installation instructions
 
@@ -74,7 +74,7 @@ Tablet:
 
 2 - [Install Windows](guide/English/2-install-en.md)
 
-</details>
+ </details>
 
 <details>
 
@@ -83,18 +83,18 @@ Tablet:
 1 - [Bölümleri oluşturma](guide/Turkish/1-partition-tr.md)
 
 2 - [Windows kurulumu](guide/Turkish/2-install-tr.md)
-  
+
  </details>
-  
- <details>
- 
- <summary><strong>Ukrainian</strong></summary>
+
+<details>
+
+<summary><strong>Ukrainian</strong></summary>
 
 1 - [Створення розділів](guide/Ukrainian/1-partition-uk.md)
 
 2 - [Встановлення Windows](guide/Ukrainian/2-install-uk.md)
 
-</details>
+ </details>
 
 <details>
 
@@ -104,7 +104,7 @@ Tablet:
 
 2 - [Instalar Windows](guide/Español/2-instalacion-es.md)
 
-</details>
+ </details>
 
 <details>
 
@@ -114,9 +114,7 @@ Tablet:
 
 2 - [Installation de Windows](guide/Francais/2-install-fr.md)
 
-</details>
-  
-</details> 
+ </details>
 
 <details>
 
@@ -126,7 +124,7 @@ Tablet:
 
 2 - [Installare Windows](guide/Italian/2-installazione-it.md)
 
- </details>
+  </details>
 
 ### Other guides:
 
@@ -138,7 +136,7 @@ Tablet:
 - [Dual booting](guide/English/otherthings-en.md)
 - [Uninstalling Windows](guide/English/uninstall-en.md)
 
-</details>
+ </details>
 
 <details>
 
@@ -148,7 +146,7 @@ Tablet:
 - [Dual boot işlemleri](guide/Turkish/otherthings-tr.md)
 - [Windows&#39;u kaldırmak](guide/Turkish/uninstall-tr.md)
 
-</details>
+ </details>
 
 <details>
 
@@ -158,7 +156,7 @@ Tablet:
 - [Подвійне завантаження](guide/Ukrainian/otherthings-uk.md)
 - [Видалення Windows](guide/Ukrainian/uninstall-uk.md)
 
-</details>
+ </details>
 
 <details>
 
@@ -168,7 +166,7 @@ Tablet:
 - [Dual boot](guide/Español/Otras-cosas-es.md)
 - [Desinstalar Windows](guide/Español/Desinstalar-es.md)
 
-</details>
+ </details>
 
 <details>
 
@@ -178,9 +176,7 @@ Tablet:
 - [Configuration du Dual booting, suivez ce guide](guide/Francais/otherthings-fr.md)
 - [Désinstaller Windows, suivez ce guide](guide/Francais/uninstall-fr.md)
 
-</details>
-    
-</details>
+ </details>
 
 <details>
 
@@ -192,7 +188,7 @@ Tablet:
 
 - [Disinstallare Windows](guide/Italian/disinstallazione-it.md)
     
-</details>
+ </details>
 
 
 ## Contributors
@@ -225,6 +221,4 @@ Tablet:
 
 - [HeavyMistick](https://github.com/HeavyMistick) ```Made french translation```
 
-</details>
-
-</details>
+ </details>
