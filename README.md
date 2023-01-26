@@ -90,7 +90,7 @@ Tablet:
 
 2 - [Windows kurulumu](guide/Turkish/2-install-tr.md)
   
- </details>  
+ </details>
   
  <details>
  
@@ -110,7 +110,17 @@ Tablet:
 
 2 - [Instalar Windows](guide/Español/2-instalacion-es.md)
   
-</details> 
+ </details> 
+
+ <details>
+
+<summary><strong>Italian</strong></summary>
+
+1 - [Creare le partizioni](guide/Italian/1-partizioni-it.md)
+
+2 - [Installare Windows](guide/Italian/2-installazione-it.md)
+
+ </details>
 
 ### Other guides:
 
@@ -160,11 +170,24 @@ Tablet:
 
 - [Desinstalar Windows](guide/Español/Desinstalar-es.md)
     
-  </details> 
+</details>
+
+<details>
+
+<summary><strong>Italian</strong></summary>
+
+- [Se vuoi aggiornare i drivers leggi questa guida](guide/Italian/aggiornare_driver-it.md)
+
+- [Guida per il dualboot](guide/Italian/dualboot-altro-it.md)
+
+- [Disinstallare Windows](guide/italian/disinstallazione-it.md)
+    
+</details>
+
 
 ## Contributors
 
-<details> 
+<details>
 
 <summary><b><strong>Credits</strong></b></summary>
 
@@ -188,5 +211,7 @@ Tablet:
 
 - [ArturoGC06](https://github.com/ArturoGC06) ```Made spanish translation```
 
-</details>  
+- [Maxsenza151](https://github.com/Maxsenza151) ```Made italian translation```
+
+</details>
 
