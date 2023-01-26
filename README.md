@@ -180,7 +180,7 @@ Tablet:
 
 - [Guida per il dualboot](guide/Italian/dualboot-altro-it.md)
 
-- [Disinstallare Windows](guide/italian/disinstallazione-it.md)
+- [Disinstallare Windows](guide/Italian/disinstallazione-it.md)
     
 </details>
 
