@@ -1,22 +1,22 @@
-#### Démarrer votre appareil en mode recovery avec votre PC
+#### Démarrez votre appareil en mode recovery avec votre PC
 
 ```cmd
 fastboot boot <recovery.img>
 ```
 
-## Placer le script "msc" dans /sbin/
+## Placez le script "msc" dans /sbin/
 
 ```cmd
 adb push msc.sh /sbin/
 ```
 
-### Executer le script "msc"
+### Exécutez le script "msc"
 
 ```cmd
 adb shell sh /sbin/msc.sh
 ```
 
-## Assigner les lettres aux disques
+## Assignez les lettres aux disques
 
 #### Lancez le gestionnaire de disque Windows
 
@@ -26,7 +26,7 @@ adb shell sh /sbin/msc.sh
 diskpart
 ```
 
-### Assignez la lettre `X` au volume (disque) Windows
+### Assignez la lettre `X` au volume Windows
 
 #### Sélectionnez les volumes Windows du téléphone
 

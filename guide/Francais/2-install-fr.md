@@ -28,7 +28,7 @@ adb shell sh /sbin/msc.sh
 diskpart
 ```
 
-### Assignez la lettre `X` au volume (disque) Windows
+### Assignez la lettre `X` au volume Windows
 
 #### Sélectionnez les volumes Windows du téléphone
 
@@ -46,7 +46,7 @@ assign letter=x
 
 ### Assignez la lettre `Y` au volume ESP
 
-#### Selectionnez le volume esp du téléphone
+#### Selectionnez le volume ESP du téléphone
 
 > Utilisez la commande `list volume` pour le trouver, il s'agit généralement du dernier volume.
 
@@ -68,11 +68,11 @@ exit
 
 ## Installation
 
-> Remplacez `<path/to/install.wim>` par le chemin actuel du "install.wim".
+> Remplacez `<path/to/install.wim>` par le chemin actuel du fichier "install.wim".
 
 > `install.wim` se trouve dans le dossier "sources" contenu dans l'archive ISO.
 >
-> Vous pouvez le récupérer en montant l'archive ISO sur le PC ou en l'extrayant l'archive.
+> Vous pouvez le récupérer en montant l'archive ISO sur le PC ou en extrayant l'archive.
 
 ```cmd
 dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
@@ -94,13 +94,13 @@ bcdboot X:\Windows /s Y: /f UEFI
 
 # Autorisez les drivers non signés
 
-> Si vous ne faites pas cela, vous aurez un blue screen (BSOD)
+> Si vous ne faites pas cela, vous aurez un blue screen au démarrage (BSOD)
 
 ```cmd
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 ```
 
-# Démarrez sous Windows
+# Démarrez l'appareil sous Windows
 
 ### Réalisez un backup de votre "boot image" d'origine
 

@@ -1,8 +1,8 @@
-## Désinstaller Windows
+## Désinstallez Windows
 
-> Remplacer <gpt_both0.bin> par le chemin du fichier "gpt_both0.bin". Vous pouvez trouver ce fichier [sur la page suivante](../../../../releases/)
+> Remplacez <gpt_both0.bin> par le chemin du fichier "gpt_both0.bin". Vous pouvez trouver ce fichier [sur la page suivante](../../../../releases/)
 
-# Restaurez la table initiale des partitions
+# Restaurez la table des partitions d'origine
 
 ```cmd
 fastboot flash partition:0 <gpt_both0.bin>
