@@ -110,15 +110,17 @@ Tablet:
 
 2 - [Instalar Windows](guide/Español/2-instalacion-es.md)
   
-</details> 
+ </details> 
 
-<details>
+ <details>
 
 <summary><strong>Italian</strong></summary>
 
 1 - [Creare le partizioni](guide/Italian/1-partizioni-it.md)
 
 2 - [Installare Windows](guide/Italian/2-installazione-it.md)
+
+ </details>
 
 ### Other guides:
 
@@ -185,7 +187,7 @@ Tablet:
 
 ## Contributors
 
-<details> 
+<details>
 
 <summary><b><strong>Credits</strong></b></summary>
 
@@ -211,5 +213,5 @@ Tablet:
 
 - [Maxsenza151](https://github.com/Maxsenza151) ```Made italian translation```
 
-</details>  
+</details>
 
