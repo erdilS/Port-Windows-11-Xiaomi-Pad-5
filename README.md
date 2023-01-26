@@ -90,7 +90,7 @@ Tablet:
 
 2 - [Windows kurulumu](guide/Turkish/2-install-tr.md)
   
- </details>  
+ </details>
   
  <details>
  
@@ -170,7 +170,7 @@ Tablet:
 
 - [Desinstalar Windows](guide/Español/Desinstalar-es.md)
     
-  </details> 
+</details>
 
 <details>
 
@@ -182,7 +182,7 @@ Tablet:
 
 - [Disinstallare Windows](guide/italian/disinstallazione-it.md)
     
-  </details> 
+</details>
 
 
 ## Contributors
