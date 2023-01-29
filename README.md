@@ -217,6 +217,8 @@ Tablet:
 
 - [ArturoGC06](https://github.com/ArturoGC06) ```Made spanish translation```
 
+- [wormstest](https://github.com/wormstest) ```Made ukrainian translation```
+
 - [Maxsenza151](https://github.com/Maxsenza151) ```Made italian translation```
 
 - [HeavyMistick](https://github.com/HeavyMistick) ```Made french translation```
