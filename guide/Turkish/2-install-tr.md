@@ -110,7 +110,7 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 ### Mevcut boot bölümünün bir yedeğini alın
 
 ```cmd
-adb shell "dd if=/dev/block/bootdevice/by-name/boot_a of=/tmp/boot.img"
+adb shell "dd if=/dev/block/bootdevice/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
 ```
 
 ##### Bu yedeği bilgisayarınıza kopyalayın
