@@ -221,4 +221,6 @@ Tablet:
 
 - [HeavyMistick](https://github.com/HeavyMistick) ```Made french translation```
 
+- [halal-beef](https://github.com/halal-beef) ```Maintains guide```
+
  </details>
