@@ -39,7 +39,7 @@ body:
       options:
         - label: I am using the latest Drivers.
           required: true
-        - label: I am running Windows 11 On The Phone.
+        - label: I am running Windows 11 On The Tablet.
           required: true
         - label: There is no issue already describing my problem.
           required: true
