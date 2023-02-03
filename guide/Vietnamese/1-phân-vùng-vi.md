@@ -138,4 +138,4 @@ mke2fs -t ext4 /dev/block/bootdevice/by-name/userdata
 Chỉ cần khởi động lại điện thoại của bạn, và xem Android có còn hoạt động không.
 Nếu nó không khởi động hoặc bị treo, hãy sử dụng công cụ khôi phục của MIUI hoặc các phục hồi khác để xóa dữ liệu.
 
-## [Bước tiếp theo: Cài đặt Windows](/guide/Vietnamese/2-cài-đặt-vi.md.md)
+## [Bước tiếp theo: Cài đặt Windows](/guide/Vietnamese/2-cài-đặt-vi.md)
