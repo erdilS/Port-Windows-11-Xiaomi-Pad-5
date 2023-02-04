@@ -113,6 +113,14 @@ Tablet:
 
 </details>
 
+<details>
+<summary><strong>Vietnamese</strong></summary>
+
+1. [Tạo các phân vùng](guide/Vietnamese/1-phân-vùng-vi.md)
+2. [Cài đặt Windows](guide/Vietnamese/2-cài-đặt-vi.md)
+
+</details>
+
 ### Other guides:
 
 <details>
@@ -169,6 +177,14 @@ Tablet:
     
 </details>
 
+<details>
+<summary><strong>Vietnamese</strong></summary>
+
+- [Nếu bạn chỉ muốn cập nhật drivers, hãy làm theo các lệnh sau](guide/Vietnamese/cập-nhật-vi.md)
+- [Dual booting](guide/Vietnamese/một-số-thứ-khác-vi.md)
+- [Gỡ cài đặt Windows](guide/Vietnamese/gỡ-cài-đặt-vi.md)
+
+</details>
 
 ## Contributors
 
@@ -188,6 +204,7 @@ Tablet:
 - [wormstest](https://github.com/wormstest) ```Made Ukrainian translation```
 - [Maxsenza151](https://github.com/Maxsenza151) ```Made Italian translation```
 - [HeavyMistick](https://github.com/HeavyMistick) ```Made French translation```
+- [Kmille36](https://github.com/kmille36) ```Made Vietnamese translation```
 - [halal-beef](https://github.com/halal-beef) ```Maintains guide```
  
 </details>
