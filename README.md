@@ -181,7 +181,7 @@ Tablet:
 <summary><strong>Vietnamese</strong></summary>
 
 - [Nếu bạn chỉ muốn cập nhật drivers, hãy làm theo các lệnh sau](guide/Vietnamese/cập-nhật-vi.md)
-- [Dual booting](guide/Vietnamese/một-số-thứ-khác-vi.md)
+- [Khởi động kép](guide/Vietnamese/một-số-thứ-khác-vi.md)
 - [Gỡ cài đặt Windows](guide/Vietnamese/gỡ-cài-đặt-vi.md)
 
 </details>
