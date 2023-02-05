@@ -17,6 +17,7 @@ Beta. Most of the hardware works, but some components do not work yet.
 #### Features
 
 - [X] Audio
+- [ ] Microphone
 - [X] Battery status
 - [X] Bluetooth
 - [X] Brightness
