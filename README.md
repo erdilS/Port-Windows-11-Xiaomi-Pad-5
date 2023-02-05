@@ -121,6 +121,14 @@ Tablet:
 
 </details>
 
+<details>
+<summary><strong>Russian</strong></summary>
+
+1. [Создание разделов](guide/Russian/1-partition-ru.md)
+2. [Установка Windows](guide/Russian/2-install-ru.md)
+
+</details>
+
 ### Other guides:
 
 <details>
@@ -186,6 +194,15 @@ Tablet:
 
 </details>
 
+<details>
+<summary><strong>Russian</strong></summary>
+
+- [Если вы хотите только обновить драйвера, следуйте этим командам](guide/Russian/update-ru.md)
+- [Двойная загрузка](guide/Russian/otherthings-ru.md)
+- [Удаление Windows](guide/Russian/uninstall-ru.md)
+
+</details>
+
 ## Contributors
 
 <details>
@@ -205,6 +222,7 @@ Tablet:
 - [Maxsenza151](https://github.com/Maxsenza151) ```Made Italian translation```
 - [HeavyMistick](https://github.com/HeavyMistick) ```Made French translation```
 - [Kmille36](https://github.com/kmille36) ```Made Vietnamese translation```
+- [RunningMango](https://github.com/RunningMango) ```Made Russian translation```
 - [halal-beef](https://github.com/halal-beef) ```Maintains guide```
  
 </details>
