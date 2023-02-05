@@ -16,7 +16,7 @@ adb push msc.sh /sbin/
 adb shell sh /sbin/msc.sh
 ```
 
-## Привяжите букву к разделу
+## Привязка буквы к разделу
 
 #### Запустите Менеджер дисков Windows
 
@@ -50,7 +50,7 @@ exit
 
 > Замените `<nabudriversfolder>` расположением папки с драйверами
 
-> Откройте командную строку от имени администратора
+Откройте командную строку от имени администратора
 
 ```cmd
 driverupdater.exe -d <nabudriversfolder>\definitions\Desktop\ARM64\Internal\nabu.txt -r <nabudriversfolder> -p X:
