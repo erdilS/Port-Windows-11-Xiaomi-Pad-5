@@ -222,7 +222,7 @@ Tablet:
 - [Maxsenza151](https://github.com/Maxsenza151) ```Made Italian translation```
 - [HeavyMistick](https://github.com/HeavyMistick) ```Made French translation```
 - [Kmille36](https://github.com/kmille36) ```Made Vietnamese translation```
-- [RunningMango](https://https://github.com/RunningMango) ```Made Russian translation```
+- [RunningMango](https://github.com/RunningMango) ```Made Russian translation```
 - [halal-beef](https://github.com/halal-beef) ```Maintains guide```
  
 </details>
