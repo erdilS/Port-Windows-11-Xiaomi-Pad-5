@@ -89,6 +89,7 @@ mkpart userdata ext4 120.8GB 254GB
   </summary>
 </details>
 
+
 ### Make ESP partiton bootable so the EFI image can detect it
 ```sh
 set 31 esp on
@@ -127,6 +128,7 @@ mkfs.ntfs -f /dev/block/bootdevice/by-name/win -L WINNABU
 -  Format the userdata
 ```sh
 mke2fs -t ext4 /dev/block/bootdevice/by-name/userdata
+twrp format data
 ```
 
 ### Check if Android still starts
