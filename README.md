@@ -215,6 +215,7 @@ Tablet:
 - [gus33000](https://github.com/gus33000) ```Providing help, also made base install guide, all of the original drivers and the msc script```
 - [Renegade Project Discord members](https://discord.gg/XXBWfag) ```Provided help```
 - [MollySophia](https://github.com/MollySophia) ```Helped to fix battery status```
+- [serdeliuk](https://github.com/serdeliuk) ```For Orangefox Recovery```
 - [bibarub](https://github.com/bibarub) ```Made original bat file for switching Windows to Android```
 - [entaromia](https://github.com/entaromia) ```Made application for switching Android to Windows```
 - [ciyanogen](https://github.com/ciyanogen) ```Made Turkish translation```
