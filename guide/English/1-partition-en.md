@@ -15,17 +15,6 @@ fastboot boot <recovery.img>
 ```
 > If you already have TWRP installed, just hold the power and vol+ buttons at startup
 
-#### Unmount all partitions
-```cmd
-adb shell twrp unmount /data
-```
-
-## Push parted to /tmp/
-> For reparting the partitions
-```cmd
-adb push parted /tmp/
-```
-
 ## Start the ADB shell
 ```cmd
 adb shell
@@ -37,14 +26,9 @@ adb shell
 sgdisk --resize-table 64 /dev/block/sda
 ```
 
-### Fixing parted permissions
-```sh
-chmod 755 /tmp/parted
-```
-
 ### Start parted
 ```sh
-/tmp/parted /dev/block/sda
+parted /dev/block/sda
 ```
 
 ### Delete the `userdata` partition
