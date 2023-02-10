@@ -20,12 +20,6 @@ fastboot boot <recovery.img>
 adb shell twrp unmount /data
 ```
 
-## Push parted to /tmp/
-> For reparting the partitions
-```cmd
-adb push parted /tmp/
-```
-
 ## Start the ADB shell
 ```cmd
 adb shell
@@ -37,14 +31,9 @@ adb shell
 sgdisk --resize-table 64 /dev/block/sda
 ```
 
-### Fixing parted permissions
-```sh
-chmod 755 /tmp/parted
-```
-
 ### Start parted
 ```sh
-/tmp/parted /dev/block/sda
+parted /dev/block/sda
 ```
 
 
@@ -58,7 +47,9 @@ rm 31
 ### Create partitions
 > If you get any warning message telling you to ignore or cancel, just type i and enter
 
-#### For 128Gb models:
+
+<details>
+<summary><b><strong>For 128GB models</strong></b></summary>
 
 - Create the ESP partition (stores Windows bootloader data and EFI files)
 ```sh
@@ -74,8 +65,11 @@ mkpart win ntfs 11.4GB 70.2GB
 ```sh
 mkpart userdata ext4 70.2GB 126GB
 ```
+  </summary>
+</details>
 
-#### For 256Gb models:
+<details>
+<summary><b><strong>For 256GB models</strong></b></summary>
 
 - Create the ESP partition (stores Windows bootloader data and EFI files)
 ```sh
@@ -92,6 +86,8 @@ mkpart win ntfs 11.4GB 120.8GB
 mkpart userdata ext4 120.8GB 254GB
 ```
 
+  </summary>
+</details>
 
 ### Make ESP partiton bootable so the EFI image can detect it
 ```sh
