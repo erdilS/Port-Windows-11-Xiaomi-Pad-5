@@ -7,7 +7,7 @@ This step is required so that we make partitions where our Windows installation 
 - Ignore `udevadm` warnings
 - Do not run the same command twice
 - On recovery, screen not working.
-- DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/nabuwoa)
+- DO NOT REBOOT YOUR TABLET if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/nabuwoa)
 
 #### Boot recovery through the PC with the command
 ```cmd
