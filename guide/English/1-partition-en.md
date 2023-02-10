@@ -128,8 +128,11 @@ mkfs.ntfs -f /dev/block/bootdevice/by-name/win -L WINNABU
 -  Format the userdata
 ```sh
 mke2fs -t ext4 /dev/block/bootdevice/by-name/userdata
+```
+```sh
 twrp format data
 ```
+
 
 ### Check if Android still starts
 just restart the phone, and see if Android still works
