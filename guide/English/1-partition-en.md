@@ -123,9 +123,6 @@ mkfs.ntfs -f /dev/block/bootdevice/by-name/win -L WINNABU
 ```sh
 mke2fs -t ext4 /dev/block/bootdevice/by-name/userdata
 ```
-```sh
-twrp format data
-```
 
 
 ### Check if Android still starts
