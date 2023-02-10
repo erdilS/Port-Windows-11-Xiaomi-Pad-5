@@ -20,6 +20,12 @@ fastboot boot <recovery.img>
 adb shell twrp unmount /data
 ```
 
+## Push parted to /tmp/
+> For reparting the partitions
+```cmd
+adb push parted /tmp/
+```
+
 ## Start the ADB shell
 ```cmd
 adb shell
@@ -31,11 +37,15 @@ adb shell
 sgdisk --resize-table 64 /dev/block/sda
 ```
 
-### Start parted
+### Fixing parted permissions
 ```sh
-parted /dev/block/sda
+chmod 755 /tmp/parted
 ```
 
+### Start parted
+```sh
+/tmp/parted /dev/block/sda
+```
 
 ### Delete the `userdata` partition
 > You can make sure that 31 is the userdata partition number by running
