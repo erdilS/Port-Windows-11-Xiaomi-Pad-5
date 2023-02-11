@@ -2,8 +2,6 @@
 
 - Brain
 
-- Only works on slot A!
-
 - Rooted Android and rooted Android boot backup
 
 - [Download Files](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/dualboot) 
