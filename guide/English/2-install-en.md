@@ -7,7 +7,7 @@
 
 ### Installing Windows
 
-#### Boot recovery back to start installing Windows
+### Boot recovery back to start installing Windows
 
 ```cmd
 fastboot boot <recovery.img>
@@ -28,7 +28,7 @@ adb shell sh /sbin/msc.sh
 ### Assign letters to disks
   
 
-##### Start the Windows disk manager
+#### Start the Windows disk manager
 
 > Once the Xiaomi Pad 5 is detected as a disk
 
