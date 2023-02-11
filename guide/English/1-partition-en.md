@@ -1,4 +1,10 @@
-This step is required so that we make partitions where our Windows installation will be
+# Partitioning your device
+
+## Prerequisites
+
+- [TWRP](../../../../releases/Recoveries)
+
+- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
 ## Notes:
 > **Warning** if you delete any partitions via diskpart later on or now windows will send a ufs command that gets misinterpreted which erase all your ufs
@@ -21,7 +27,7 @@ adb shell
 ```
 
 ### Resize the partition table
-> So that the Windows partitions would fit
+> So that the Windows partitions can fit
 ```sh
 sgdisk --resize-table 64 /dev/block/sda
 ```
