@@ -12,6 +12,11 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
+> **Warning** Probably these steps won't help you because Xiaomi Pad 5 doesn't have a fully working custom recovery to flash it to device. Also like most of newer A/B devices we don't have a TWRP Installer zip etc. and you can't boot existing recovery image because of broken fastboot. If you have already installed AOSP rom, probably it has a preinstalled AOSP recovery and you can boot it directly, so you can follow these steps. If you have unrooted MIUI, this steps won't help you.
+
+> So please avoid to use disk labels which contains spaces and special characters, and if it is possible just use ESPNABU and WINNABU labels which are tested for a million times. If you brick fastboot with disk labels and you have unrooted MIUI, you have to flash rom via EDL with authorized account and you have to pay for it.
+
+
 This is caused by partitions with volume names the bootloader cannot handle, to fix this:
 
 - Boot to recovery
