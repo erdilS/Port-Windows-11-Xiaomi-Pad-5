@@ -112,7 +112,8 @@ bcdboot X:\Windows /s Y: /f UEFI
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 ```
 
-## Boot into Windows
+
+### Boot into Windows
 
 #### Make a backup of your existing boot image
 
