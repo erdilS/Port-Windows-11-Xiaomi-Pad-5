@@ -11,6 +11,7 @@
 
 - [Windows on ARM image](https://uupdump.net/)
 - [UEFI image](../../../../releases/tag/1.0)
+- [Mass storage mode script](../../../../releases/tag/1.0)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
 - [Drivers](https://github.com/map220v/MiPad5-drivers)
 
