@@ -7,6 +7,13 @@
 
 ## Installing Windows
 
+### Prerequisites
+
+- [Windows on ARM image](https://uupdump.net/)
+- [UEFI image](../../../../releases/tag/1.0)
+- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
+- [Drivers](https://github.com/map220v/MiPad5-drivers)
+
 ### Boot recovery back to start installing Windows
 
 ```cmd
