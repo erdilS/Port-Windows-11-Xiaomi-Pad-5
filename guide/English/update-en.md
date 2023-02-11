@@ -44,7 +44,7 @@ diskpart
 
 ### Assign `X` to Windows volume
 
-#### Select the Windows volume of the phone
+##### Select the Windows volume of the tablet
 > Use `list volume` to find it, it's usually the one before the last
 
 ```diskpart
