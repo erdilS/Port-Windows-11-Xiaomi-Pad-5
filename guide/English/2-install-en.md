@@ -113,27 +113,27 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 ```
 
 
-### Boot into Windows
+## Boot into Windows
 
-#### Make a backup of your existing boot image
+### Make a backup of your existing boot image
 
 ```cmd
 adb shell "dd if=/dev/block/bootdevice/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
 ```
 
-#### Pull backup to computer
+### Pull backup to computer
 
 ```cmd
 adb pull /tmp/boot.img
 ```
 
-#### Reboot to bootloader 
+### Reboot to bootloader 
 
 ```cmd
 adb reboot bootloader
 ```
 
-#### Flash the uefi image from TWRP
+### Flash the uefi image from TWRP
 
 ```cmd
 fastboot flash boot boot-nabu.img
