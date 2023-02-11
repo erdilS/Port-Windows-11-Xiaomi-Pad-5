@@ -14,10 +14,8 @@
 #### Start recovery through the PC with the command
 
 ```cmd
-fastboot boot <twrp.img>
+fastboot boot <recovery.img>
 ```
-
-> If you already have TWRP installed, just hold the power and vol+ buttons at startup
 
 #### Push script
 
