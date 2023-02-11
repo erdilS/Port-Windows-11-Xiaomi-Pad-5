@@ -6,16 +6,10 @@
 fastboot boot <recovery.img>
 ```
 
-### Скопіюйте сценарій msc.sh до /sbin
-
-```cmd
-adb push msc.sh /sbin/
-```
-
 ### Виконайте сценарій msc.sh
 
 ```cmd
-adb shell sh /sbin/msc.sh
+adb shell sh msc.sh
 ```
 
 ## Призначте літери розділам
