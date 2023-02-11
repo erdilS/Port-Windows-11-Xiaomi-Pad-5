@@ -39,8 +39,8 @@ diskpart
 
 #### Assign `X` to Windows volume
 
-##### Select the Windows volume of the phone
-> Use `list volume` to find it, it's the ones named "WINNABU" and "ESPNABU"
+#### Select the Windows volume of the tablet
+> Use `list volume` to find it, it's the one named "WINNABU"
 
 ```diskpart
 select volume <number>
@@ -53,8 +53,8 @@ assign letter=x
 
 #### Assign `Y` to esp volume
 
-##### Select the esp volume of the phone
-> Use `list volume` to find it, it's usually the last one
+##### Select the esp volume of the tablet
+> Use `list volume` to find it, it's the one named "ESPNABU"
 
 ```diskpart
 select volume <number>
