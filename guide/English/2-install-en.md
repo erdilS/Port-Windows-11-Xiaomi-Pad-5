@@ -46,14 +46,14 @@ diskpart
 select volume <number>
 ```
 
-##### Assign the letter X
+#### Assign the letter X
 ```diskpart
 assign letter=x
 ```
 
-#### Assign `Y` to ESP volume
+### Assign `Y` to ESP volume
 
-##### Select the esp volume of the tablet
+#### Select the esp volume of the tablet
 > Use `list volume` to find it, it's the one named "ESPNABU"
 
 ```diskpart
