@@ -146,4 +146,4 @@ fastboot flash boot boot-nabu.img
 fastboot flash boot boot.img
 ```
 
-### Finished!
+## Finished!
