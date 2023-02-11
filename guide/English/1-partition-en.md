@@ -28,7 +28,7 @@
 ##### ⚠️ DO NOT MAKE ANY MISTAKE!!! YOU CAN BREAK YOUR DEVICE WITH THE COMMANDS BELOW IF YOU DO THEM WRONG!!!
 
 
-##### Boot recovery through the PC with the command
+#### Boot recovery through the PC with the command
 ```cmd
 fastboot boot <recovery.img>
 ```
