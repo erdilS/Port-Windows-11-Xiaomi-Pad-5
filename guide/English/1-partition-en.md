@@ -5,13 +5,15 @@
 
 ## Installation
 
-## Partitioning your device
+### Partitioning your device
+
+### Prerequisites
 
 - [TWRP](../../../../releases/Recoveries)
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-## Notes:
+### Notes:
 > **Warning** if you delete any partitions via diskpart later on or now windows will send a ufs command that gets misinterpreted which erase all your ufs
 - All your data will be erased! Backup now if needed.
 - These commands have been tested.
@@ -26,36 +28,36 @@
 ##### ⚠️ DO NOT MAKE ANY MISTAKE!!! YOU CAN BREAK YOUR DEVICE WITH THE COMMANDS BELOW IF YOU DO THEM WRONG!!!
 
 
-#### Boot recovery through the PC with the command
+##### Boot recovery through the PC with the command
 ```cmd
 fastboot boot <recovery.img>
 ```
 > If you already have TWRP installed, just hold the power and vol+ buttons at startup
 
-## Start the ADB shell
+#### Start ADB shell
 ```cmd
 adb shell
 ```
 
-### Resize the partition table
+#### Resize the partition table
 > So that the Windows partitions can fit
 ```sh
 sgdisk --resize-table 64 /dev/block/sda
 ```
 
-### Start parted
+#### Start parted
 ```sh
 parted /dev/block/sda
 ```
 
-### Delete the `userdata` partition
+#### Delete the `userdata` partition
 > You can make sure that 31 is the userdata partition number by running
 >  `print all`
 ```sh
 rm 31
 ```
 
-### Create partitions
+#### Create partitions
 > If you get any warning message telling you to ignore or cancel, just type i and enter
 
 
@@ -101,31 +103,31 @@ mkpart userdata ext4 120.8GB 254GB
 </details>
 
 
-### Make ESP partiton bootable so the EFI image can detect it
+#### Make ESP partiton bootable so the EFI image can detect it
 ```sh
 set 31 esp on
 ```
 
-### Quit parted
+#### Quit parted
 ```sh
 quit
 ```
-### Reboot to bootloader
+#### Reboot to bootloader
 ```sh
 reboot bootloader
 ```
 
-### Boot to recovery
+#### Boot to recovery
 ```cmd
 fastboot boot <recovery.img>
 ```
 
-### Start the shell again on your PC
+#### Start the shell again on your PC
 ```cmd
 adb shell
 ```
 
-### Format partitions
+#### Format partitions
 -  Format the ESP partiton as FAT32
 ```sh
 mkfs.fat -F32 -s1 /dev/block/bootdevice/by-name/esp -n ESPNABU
@@ -142,8 +144,8 @@ mke2fs -t ext4 /dev/block/bootdevice/by-name/userdata
 ```
 
 
-### Check if Android still starts
+#### Check if Android still starts
 just restart the phone, and see if Android still works
 If isn't boot or looping or animation, use MIUI recovery or other recoveries for wiping data.
 
-## [Next step: Install Windows](/guide/English/2-install-en.md)
+### [Next step: Install Windows](/guide/English/2-install-en.md)
