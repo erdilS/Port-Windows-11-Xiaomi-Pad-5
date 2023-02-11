@@ -10,35 +10,6 @@ This project is in an early stage, all the files here have been contributed by o
 
 **IF YOU AREN'T COMFORTABLE MODDING YOUR TABLET OR ITS PARTITION TABLE OR YOU ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU ARE ON YOUR OWN IF YOU BRICK YOUR DEVICE!!! AGAIN! YOU HAVE BEEN WARNED!!!**
 
-## Project status
-
-Beta. Most of the hardware works, but some components do not work yet.
-
-#### Features
-
-- [X] Audio
-- [ ] Microphone
-- [X] Battery status
-- [X] Bluetooth
-- [X] Brightness
-- [ ] Camera
-- [ ] Charging ``In progress, working partially ``
-- [X] Display
-- [ ] Suspend / Sleep Mode
-- [X] GPU
-- [X] Touchscreen
-- [X] UFS
-- [X] USB ``PD hub needed``
-- [X] Wi-Fi
-- [ ] Xiaomi Pen and Keyboard support
-
-#### Sensors
-
-- [X] Accelerometer
-- [X] Gyroscope
-- [X] Light sensor
-- [X] Magnetometer
-- [X] Proximity
 
 ## Guides and requirements
 
