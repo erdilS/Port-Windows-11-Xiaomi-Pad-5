@@ -1,14 +1,19 @@
-## Dual Boot gereksinimleri
+<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 çalıştıran bir Xiaomi Pad 5">
+
+
+# Xiaomi Pad 5 üzerinde Windows çalıştırma
+
+## Windows ve Android'in tek bir slotta dual-boot olarak yüklenmesi
+
+### Gereksinimler
 
 - Beyin
 
-- Sadece A slotunda çalışmaktadır!
+- Rootlu Android ve rootlu Android boot.img yedeği
 
-- Rootlanmış Android ve rootlanmış Android boot bölümü yedeği
+- [DualBoot dosyaları](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/dualboot) 
 
-- [Download Files](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/dualboot) 
-
-### Dual Boot işleminin Windows tarafı
+### Dualboot işleminin Windows tarafı
 
 - [Cygwin](https://www.cygwin.com/setup-x86_64.exe) uygulamasını coreutils ile beraber yükleyin (varsayılan olarak yüklenecektir)
 
@@ -18,7 +23,7 @@
 
 - .bat dosyasını yönetici olarak çalıştırın, bu cihaza Android yedeğini yükleyip yeniden başlatacaktır. Dilerseniz bunun için yönetici haklarıyla çalışan bir kısayol da oluşturabilirsiniz.
 
-### Dual Boot işleminin Android tarafı
+### Dualboot işleminin Android tarafı
 
 - switchtowin.apk dosyasını cihaza kurun.
 

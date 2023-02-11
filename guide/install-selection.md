@@ -7,3 +7,4 @@
 ### Select your language
 
 - [English](English/1-partition-en.md)
+- [Turkish](Turkish/1-partition-tr.md)

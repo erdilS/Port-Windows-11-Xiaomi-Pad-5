@@ -1,4 +1,15 @@
-Bu aşama Windows kurulumunun yapılacağı bölümleri oluşturmak içindir.
+<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 çalıştıran bir Xiaomi Pad 5">
+
+
+# Xiaomi Pad 5 üzerinde Windows Çalıştırma
+
+### Aşama 1: Windows'un yükleneceği bölümleri oluşturma
+
+### Gerekli Dosyalar
+
+- [Recovery İmajı](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+
+- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
 ## Notlar:
 > **Uyarı** Diskpart üzerinden bölüm silmeye kalkışırsanız Windows'un göndereceği UFS komutu cihaz tarafından yanlış yorumlanarak cihazın UFS belleğinin tümüyle silinmesine yola açabilir. Bölümlerde değişiklik yapmak için yalnızca recovery mod üzerinden parted ile işlem yapın.
@@ -9,6 +20,10 @@ Bu aşama Windows kurulumunun yapılacağı bölümleri oluşturmak içindir.
 - Recovery modunda ekran çalışmamaktadır. Tüm işlemleri shell vasıtasıyla yapacağız.
 - Eğer hata yaptığınızı düşünüyorsanız TABLETİNİZİ YENİDEN BAŞLATMAYIN ve [Telegram grubumuzdan](https://t.me/nabuwoa) yardım isteyin.
 
+#### ⚠️ Komutların hepsini birden çalıştırmak yerine sırayla teker teker çalıştırın!
+
+##### ⚠️ KOMUTLARI GİRERKEN HERHANGİ BİR HATA YAPMAYIN!!! EĞER YANLIŞ BİR ŞEY YAPARSANIZ CİHAZINIZI BOZABİLİRSİNİZ.
+
 #### Bir bilgisayar aracılığıyla recovery modunda cihazı başlatın
 ```cmd
 fastboot boot <recovery.img>
@@ -18,12 +33,6 @@ fastboot boot <recovery.img>
 #### Varsayılan olarak bağlanmış bölümlerin bağlantısını kesin
 ```cmd
 adb shell twrp unmount /data
-```
-
-## parted dosyasını /tmp/ dizinine kopyalayın
-> İlerleyen aşamalarda bölümlendirme için kullanılacaktır.
-```cmd
-adb push parted /tmp/
 ```
 
 ## ADB Shell'i başlatın
@@ -59,7 +68,8 @@ rm 31
 ### Gerekli bölümleri oluşturun
 > Eğer "ignore or cancel" tarzında uyarılar alırsanız sadece "i" yazıp Enter tuşuna basın.
 
-#### 128Gb modeller için:
+<details>
+<summary><b><strong>128GB modeller için</strong></b></summary>
 
 - ESP bölümünü oluşturun (Windows önyükleme yöneticisini ve EFI dosyalarını barındırır)
 ```sh
@@ -75,8 +85,11 @@ mkpart win ntfs 11.4GB 70.2GB
 ```sh
 mkpart userdata ext4 70.2GB 126GB
 ```
+  </summary>
+</details>
 
-#### 256Gb modeller için:
+<details>
+<summary><b><strong>256GB modeller için</strong></b></summary>
 
 - ESP bölümünü oluşturun (Windows önyükleme yöneticisini ve EFI dosyalarını barındırır)
 ```sh
@@ -92,7 +105,8 @@ mkpart win ntfs 11.4GB 120.8GB
 ```sh
 mkpart userdata ext4 120.8GB 254GB
 ```
-
+  </summary>
+</details>
 
 ### ESP bölümünü EFI imajının algılayabilmesi için önyüklenebilir yapın
 ```sh

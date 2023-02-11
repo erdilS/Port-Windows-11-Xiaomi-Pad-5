@@ -7,3 +7,4 @@
 ### Select your language
 
 - [English](English/dualboot-en.md)
+- [Turkish](Turkish/dualboot-tr.md)

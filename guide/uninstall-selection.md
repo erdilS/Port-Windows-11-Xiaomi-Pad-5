@@ -7,3 +7,4 @@
 ### Select your language
 
 - [English](English/restore-stock-en.md)
+- [Turkish](Turkish/uninstall-tr.md)
