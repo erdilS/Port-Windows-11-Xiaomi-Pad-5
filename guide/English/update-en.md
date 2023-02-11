@@ -7,6 +7,7 @@
 
 ### Prerequisites
 
+- [UEFI](../../../../releases/1.0)
 - [TWRP](../../../../releases/1.0)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
 - [Drivers](https://github.com/map220v/MiPad5-Drivers)
