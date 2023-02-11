@@ -13,17 +13,12 @@
 ```cmd
 fastboot boot <twrp.img>
 ```
+
 > Якщо ви вже встановили TWRP до цього, просто завантажтеся в нього натиснувши кнопку живлення та додавання гучності під час вмикання планшету.
 
-#### Розмонтуйте всі розділи
+#### Розмонтуйте розділ /data
 ```cmd
 adb shell twrp unmount /data
-```
-
-## Скопіюйте parted до /tmp/
-> Для перерозмітки розділів
-```cmd
-adb push parted /tmp/
 ```
 
 ## Запустіть adb shell
@@ -37,14 +32,9 @@ adb shell
 sgdisk --resize-table 64 /dev/block/sda
 ```
 
-### Виправте дозволи parted
-```sh
-chmod 755 /tmp/parted
-```
-
 ### Запустіть parted
 ```sh
-/tmp/parted /dev/block/sda
+parted /dev/block/sda
 ```
 
 
