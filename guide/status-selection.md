@@ -7,3 +7,4 @@
 ### Select your language
 
 - [English](English/status.md)
+- [Turkish](Turkish/status.md)

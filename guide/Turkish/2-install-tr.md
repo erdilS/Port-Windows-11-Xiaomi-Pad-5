@@ -1,4 +1,18 @@
-# Windows Kurulumu
+<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 çalıştıran bir Xiaomi Pad 5">
+
+
+# Xiaomi Pad 5 üzerinde Windows Çalıştırma
+
+## Aşama 2: Windows Kurulumu
+
+### Gerekli Dosyalar
+
+- [ARM64 Mimaride Çalışabilen Windows ISO imajı](https://uupdump.net/)
+- [UEFI imajı](../../../../releases/tag/1.0)
+- [Yığın depolama modu betiği](../../../../releases/tag/1.0)
+- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
+- [Sürücüler](https://github.com/map220v/MiPad5-drivers)
+
 
 ### Windows'u yüklemeye başlamak için ilk olarak recovery modunda cihazı başlatın.
 

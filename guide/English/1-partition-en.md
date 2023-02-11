@@ -103,7 +103,7 @@ mkpart userdata ext4 120.8GB 254GB
 </details>
 
 
-#### Make ESP partiton bootable so the EFI image can detect it
+#### Make ESP partition bootable so the EFI image can detect it
 ```sh
 set 31 esp on
 ```
@@ -128,7 +128,7 @@ adb shell
 ```
 
 #### Format partitions
--  Format the ESP partiton as FAT32
+-  Format the ESP partition as FAT32
 ```sh
 mkfs.fat -F32 -s1 /dev/block/bootdevice/by-name/esp -n ESPNABU
 ```

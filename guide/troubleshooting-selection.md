@@ -7,3 +7,4 @@
 ### Select your language
 
 - [English](English/troubleshooting-en.md)
+- [Turkish](Turkish/troubleshooting-tr.md)

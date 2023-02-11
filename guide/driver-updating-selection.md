@@ -7,3 +7,4 @@
 ### Select your language
 
 - [English](English/update-en.md)
+- [Turkish](Turkish/update-tr.md)
