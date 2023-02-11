@@ -5,7 +5,7 @@
 
 ## Installation
 
-### Installing Windows
+## Installing Windows
 
 ### Boot recovery back to start installing Windows
 
