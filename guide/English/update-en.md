@@ -43,7 +43,7 @@ diskpart
 ### Assign `X` to Windows volume
 
 #### Select the Windows volume of the tablet
-> Use list volume to find it, it's the one named "WINNABU"
+> Use `list volume` to find it, it's the one named "WINNABU"
 
 ```diskpart
 select volume <number>
