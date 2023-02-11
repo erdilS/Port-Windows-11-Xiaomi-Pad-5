@@ -33,8 +33,6 @@ This is caused by partitions with volume names the bootloader cannot handle, to 
 
 ## fsa4480.sys BSOD on boot
 
-### Prerequisites:
-
 - Open driver folder
 
 - Remove the ```components\QC8150\Device\DEVICE.SOC_QC8150.NABU\Drivers\USB``` folder
