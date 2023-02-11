@@ -51,7 +51,7 @@ select volume <number>
 assign letter=x
 ```
 
-#### Assign `Y` to esp volume
+#### Assign `Y` to ESP volume
 
 ##### Select the esp volume of the tablet
 > Use `list volume` to find it, it's the one named "ESPNABU"
