@@ -41,5 +41,7 @@ This is caused by partitions with volume names the bootloader cannot handle, to 
 
 - Reinstall the driver
 
+- Boot UEFI
+
 - After it boots, readd the driver and reinstall the driver again
 
