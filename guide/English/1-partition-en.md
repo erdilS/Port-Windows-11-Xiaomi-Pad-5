@@ -122,7 +122,7 @@ reboot bootloader
 fastboot boot <recovery.img>
 ```
 
-#### Start the shell again on your PC
+#### Start adb shell again
 ```cmd
 adb shell
 ```
@@ -138,7 +138,7 @@ mkfs.fat -F32 -s1 /dev/block/bootdevice/by-name/esp -n ESPNABU
 mkfs.ntfs -f /dev/block/bootdevice/by-name/win -L WINNABU
 ```
 
--  Format the userdata
+-  Format userdata
 ```sh
 mke2fs -t ext4 /dev/block/bootdevice/by-name/userdata
 ```
@@ -148,4 +148,4 @@ mke2fs -t ext4 /dev/block/bootdevice/by-name/userdata
 just restart the phone, and see if Android still works
 If isn't boot or looping or animation, use MIUI recovery or other recoveries for wiping data.
 
-### [Next step: Install Windows](/guide/English/2-install-en.md)
+### [Next step: Installing Windows](/guide/English/2-install-en.md)
