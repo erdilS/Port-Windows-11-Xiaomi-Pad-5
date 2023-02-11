@@ -1,22 +1,37 @@
+<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
+
+
+# Running Windows on the Xiaomi Pad 5
+
+## Driver updating
+
+### Prerequisites
+
+- [TWRP](../../../../releases/1.0)
+- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
+- [Drivers](https://github.com/map220v/MiPad5-Drivers)
+
 #### Start recovery through the PC with the command
 
 ```cmd
-fastboot boot <recovery.img>
+fastboot boot <twrp.img>
 ```
 
-## Push script
+> If you already have TWRP installed, just hold the power and vol+ buttons at startup
+
+#### Push script
 
 ```cmd
 adb push msc.sh /sbin/
 ```
 
-### Execute script
+#### Execute script
 
 ```cmd
-adb shell sh /sbin/msc.sh
+adb shell msc.sh
 ```
 
-## Assign letters to disks
+### Assign letters to disks
 
 #### Start the Windows disk manager
 
@@ -27,7 +42,7 @@ diskpart
 ```
 
 
-### Assign `x` to Windows volume
+### Assign `X` to Windows volume
 
 #### Select the Windows volume of the phone
 > Use `list volume` to find it, it's usually the one before the last
@@ -36,33 +51,33 @@ diskpart
 select volume <number>
 ```
 
-#### Assign the letter x
+#### Assign the letter X
 ```diskpart
 assign letter=x
 ```
 
-### Exit diskpart:
+#### Exit diskpart:
 ```diskpart
 exit
 ```
 
 
-# Install Drivers
+### Install Drivers
 
 > Replace `<nabudriversfolder>` with the location of the drivers folder
 
 > Open cmd as administrator
 
+
 ```cmd
-driverupdater.exe -d <nabudriversfolder>\definitions\Desktop\ARM64\Internal\nabu.txt -r <nabudriversfolder> -p X:
+.\driverupdater.exe -d <nabudriversfolder>\definitions\Desktop\ARM64\Internal\nabu.txt -r <nabudriversfolder> -p X:
 ```
 
 
-##### Boot with Windows bootable UEFI image #####
+### Boot with Windows bootable UEFI image
 
 ```
 fastboot flash boot <uefi.img>
 ```
 
-
-# Finished!
+## Finished!
