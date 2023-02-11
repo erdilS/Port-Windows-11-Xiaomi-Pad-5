@@ -2,7 +2,7 @@
 
 # Running Windows on the Xiaomi Pad 5
 
-## Project status
+## Project Status
 
 Beta. Most of the hardware works, but some components do not work yet.
 
