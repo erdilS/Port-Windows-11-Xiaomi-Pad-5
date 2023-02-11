@@ -60,7 +60,7 @@ assign letter=x
 select volume <number>
 ```
 
-##### Assign the letter Y
+#### Assign the letter Y
 
 ```diskpart
 assign letter=y
