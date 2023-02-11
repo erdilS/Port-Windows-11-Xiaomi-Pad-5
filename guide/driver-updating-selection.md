@@ -7,7 +7,3 @@
 ### Select your language
 
 - [English](English/update-en.md)
-- [Español](Español/Actualizar-es.md)
-- [Русский](Russian/update-ru.md)
-- [Українська](Ukrainian/update-uk.md)
-- [Lietuvių](Lithuanian/update-lt.md)
