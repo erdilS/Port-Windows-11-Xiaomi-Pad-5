@@ -1,4 +1,19 @@
-# Install Windows
+<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
+
+
+# Running Windows on the Xiaomi Pad 5
+
+## Installation
+
+## Installing Windows
+
+### Prerequisites
+
+- [Windows on ARM image](https://uupdump.net/)
+- [UEFI image](../../../../releases/tag/1.0)
+- [Mass storage mode script](../../../../releases/tag/1.0)
+- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
+- [Drivers](https://github.com/map220v/MiPad5-drivers)
 
 ### Boot recovery back to start installing Windows
 
@@ -6,19 +21,19 @@
 fastboot boot <recovery.img>
 ```
 
-### Push msc script to /sbin
+#### Push msc script to /sbin
 
 ```cmd
 adb push msc.sh /sbin/
 ```
 
-### Execute the msc script
+#### Execute the msc script
 
 ```cmd
 adb shell sh /sbin/msc.sh
 ```
 
-## Assign letters to disks
+### Assign letters to disks
   
 
 #### Start the Windows disk manager
@@ -30,10 +45,10 @@ diskpart
 ```
 
 
-### Assign `X` to Windows volume
+#### Assign `X` to Windows volume
 
-#### Select the Windows volume of the phone
-> Use `list volume` to find it, it's the ones named "WINNABU" and "ESPNABU"
+#### Select the Windows volume of the tablet
+> Use `list volume` to find it, it's the one named "WINNABU"
 
 ```diskpart
 select volume <number>
@@ -44,10 +59,10 @@ select volume <number>
 assign letter=x
 ```
 
-### Assign `Y` to esp volume
+### Assign `Y` to ESP volume
 
-#### Select the esp volume of the phone
-> Use `list volume` to find it, it's usually the last one
+#### Select the esp volume of the tablet
+> Use `list volume` to find it, it's the one named "ESPNABU"
 
 ```diskpart
 select volume <number>
@@ -59,7 +74,7 @@ select volume <number>
 assign letter=y
 ```
 
-### Exit diskpart:
+#### Exit diskpart:
 ```diskpart
 exit
 ```
@@ -67,7 +82,7 @@ exit
   
   
 
-## Install
+### Install
 
 > Replace `<path/to/install.wim>` with the actual install.wim path,
 
@@ -78,7 +93,7 @@ exit
 dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 ```
 
-# Install Drivers
+### Install Drivers
 
 > Replace `<nabudriversfolder>` with the location of the drivers folder
 
@@ -88,7 +103,7 @@ driverupdater.exe -d <nabudriversfolder>\definitions\Desktop\ARM64\Internal\nabu
 
   
 
-# Create Windows bootloader files for the EFI
+### Create Windows bootloader files for the EFI
 
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
@@ -97,7 +112,7 @@ bcdboot X:\Windows /s Y: /f UEFI
   
   
 
-# Allow unsigned drivers
+### Allow unsigned drivers
 
 > If you don't do this you'll get a BSOD
 
@@ -105,7 +120,8 @@ bcdboot X:\Windows /s Y: /f UEFI
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 ```
 
-# Boot into Windows
+
+## Boot into Windows
 
 ### Make a backup of your existing boot image
 
@@ -113,7 +129,7 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 adb shell "dd if=/dev/block/bootdevice/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
 ```
 
-##### Pull backup to computer
+### Pull backup to computer
 
 ```cmd
 adb pull /tmp/boot.img
@@ -131,11 +147,11 @@ adb reboot bootloader
 fastboot flash boot boot-nabu.img
 ```
 
-# Boot back into Android
+### Boot back into Android
 > Use your backup boot image and flash from fastboot
 
 ```cmd
 fastboot flash boot boot.img
 ```
 
-# Finished!
+## Finished!
