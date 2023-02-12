@@ -145,7 +145,7 @@ mke2fs -t ext4 /dev/block/bootdevice/by-name/userdata
 
 
 #### Check if Android still starts
-just restart the phone, and see if Android still works
+just restart the tablet, and see if Android still works
 If isn't boot or looping or animation, use MIUI recovery or other recoveries for wiping data.
 
 ### [Next step: Installing Windows](/guide/English/2-install-en.md)
