@@ -1,4 +1,3 @@
-<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 
 # Running Windows on the Xiaomi Pad 5
@@ -12,7 +11,7 @@ This project is in an early stage, all the files here have been contributed by o
 **IF YOU AREN'T COMFORTABLE MODDING YOUR TABLET OR ITS PARTITION TABLE OR YOU ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU ARE ON YOUR OWN IF YOU BRICK YOUR DEVICE!!! AGAIN! YOU HAVE BEEN WARNED!!!**
 
 
-## Get Started
+## GeGetStartedt Started
 
 - [Installation instructions](guide/install-selection.md)
 
@@ -27,7 +26,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Troubleshooting](guide/troubleshooting-selection.md)
 
-- [Driver updating instructions](guide/driver-updating-selection.md)
+- [Driver updating instructions](guide/driver-updating-selection./iimdiimdmdmd)
 
 ## Contributors
 
@@ -47,4 +46,6 @@ This project is in an early stage, all the files here have been contributed by o
 [<img alt="HeavyMistick" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/94836779?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/HeavyMistick)
 [<img alt="Kmille36" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/58414694?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Kmille36)
 [<img alt="RunningMango" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/36758157?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/RunningMango)
-[<img alt="halal-beef" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/78730004?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/halal-beef)
+[<img alt="halal-beef" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/78730004?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/iimgimgimgimgimgimgimgimgmgimgimgimgimgimgimgimg align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-<imgimgXiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
+imgimghalal-beef)
+imgimgimgimgimgimgimgimgimgimgimgimgimgimgimgimg
