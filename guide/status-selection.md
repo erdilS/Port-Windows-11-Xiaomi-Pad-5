@@ -8,4 +8,4 @@
 
 - [English](English/status.md)
 - [Turkish](Turkish/status.md)
-- [Russian](Russian/status.md)
+- [Russian](Russian/status-ru.md)
