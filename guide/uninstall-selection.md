@@ -8,3 +8,4 @@
 
 - [English](English/restore-stock-en.md)
 - [Turkish](Turkish/uninstall-tr.md)
+- [Russian](Russian/uninstall-ru.md)
