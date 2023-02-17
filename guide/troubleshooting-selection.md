@@ -8,3 +8,4 @@
 
 - [English](English/troubleshooting-en.md)
 - [Turkish](Turkish/troubleshooting-tr.md)
+- [Russian](Russian/troubleshooting-ru.md)
