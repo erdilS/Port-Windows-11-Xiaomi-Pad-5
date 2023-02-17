@@ -26,7 +26,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Troubleshooting](guide/troubleshooting-selection.md)
 
-- [Driver updating instructions](guide/driver-updating-selection./iimdiimdmdmd)
+- [Driver updating instructions](guide/driver-updating-selection./iimdiimdmdiimdiimdmdmdmd)
 
 ## Contributors
 
