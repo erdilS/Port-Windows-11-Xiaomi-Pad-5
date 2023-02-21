@@ -9,3 +9,4 @@
 - [English](English/restore-stock-en.md)
 - [Turkish](Turkish/uninstall-tr.md)
 - [Russian](Russian/uninstall-ru.md)
+- [Italian](Italian/ripristino-android-stock-it.md)
