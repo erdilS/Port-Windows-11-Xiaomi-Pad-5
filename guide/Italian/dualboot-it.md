@@ -1,10 +1,15 @@
-## Requisiti per il dual-boot
+<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-- Un cervello :)
 
-- Funziona solo sullo slot A!
+# Installare Windows su mi pad 5
 
-- Android rootato e backup dell'immagine di avvio (boot) rootata
+## Eseguire il dualboot tra Windows e Android
+
+### Prerequisiti
+
+- Un cervello (per favore)
+
+- Android rootato e il backup dell'immagine di avvio creato in precedenza (boot.img)
 
 - [Scarica i file necessari](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/dualboot) 
 
@@ -29,4 +34,17 @@
 - Apri l'app e concedi i permessi di root.
 
 - Clicca su "Switch to Windows" se vuoi avviare Windows.
+
+#### FINITO.
+
+### Altri link utili...
+
+### [Aggiornare i driver](/guide/Italian/aggiornamento-driver-it.md)
+
+### [Risolvere problemi](/guide/Italian/risoluzione-problemi-it.md)
+
+### [Stato del progetto](/guide/Italian/stato-progetto-it.md)
+
+### [Ripristino totale del tablet, eliminare Windows e ripristinare le partizioni](/guide/Italian/ripristino-android-stock-it.md)
+
 
