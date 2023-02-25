@@ -9,3 +9,4 @@
 - [English](English/update-en.md)
 - [Turkish](Turkish/update-tr.md)
 - [Russian](Russian/update-ru.md)
+- [Italian](Italian/aggiornamento-driver-it.md)

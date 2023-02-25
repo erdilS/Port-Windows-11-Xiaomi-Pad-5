@@ -9,3 +9,4 @@
 - [English](English/dualboot-en.md)
 - [Turkish](Turkish/dualboot-tr.md)
 - [Russian](Russian/dualboot-ru.md)
+- [Italian](Italian/dualboot-it.md)
