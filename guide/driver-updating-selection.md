@@ -10,3 +10,4 @@
 - [Turkish](Turkish/update-tr.md)
 - [Russian](Russian/update-ru.md)
 - [Italian](Italian/aggiornamento-driver-it.md)
+- [Vietnamese](Vietnamese/cập-nhật-vi.md)
