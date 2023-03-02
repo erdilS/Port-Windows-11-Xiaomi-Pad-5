@@ -10,3 +10,4 @@
 - [Turkish](Turkish/status.md)
 - [Russian](Russian/status-ru.md)
 - [Italian](Italian/stato-progetto-it.md)
+- [Vietnamese](Vietnamese/trạng-thái.md)
