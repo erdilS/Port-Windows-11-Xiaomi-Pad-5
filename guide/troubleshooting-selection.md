@@ -10,3 +10,4 @@
 - [Turkish](Turkish/troubleshooting-tr.md)
 - [Russian](Russian/troubleshooting-ru.md)
 - [Italian](Italian/risoluzione-problemi-it.md)
+- [Vietnamese](Vietnamese/xử-lí-sự-cố-vi.md)

@@ -10,3 +10,4 @@
 - [Turkish](Turkish/uninstall-tr.md)
 - [Russian](Russian/uninstall-ru.md)
 - [Italian](Italian/ripristino-android-stock-it.md)
+- [Vietnamese](Vietnamese/khôi-phục-về-ban-đầu-vi.md)

@@ -1,4 +1,19 @@
-# Cài đặt Windows
+<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
+
+
+# Chạy Windows trên Xiaomi Pad 5
+
+## Cài đặt
+
+## Cài đặt Windows
+
+### Điều kiện tiên quyết
+
+- [Windows on ARM image](https://uupdump.net/)
+- [UEFI image](../../../../releases/tag/1.0)
+- [Mass storage mode script](../../../../releases/tag/1.0)
+- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
+- [Drivers](https://github.com/map220v/MiPad5-drivers)
 
 ### Khởi động lại vào chế độ recovery để bắt đầu cài đặt Windows
 
@@ -33,7 +48,7 @@ diskpart
 ### Gán ký tự `X` cho Windows volume
 
 #### Chọn Windows volume trên điện thoại của bạn
-> Sử dụng `list volume` để tìm, nó là những volume có tên "WINNABU" và "ESPNABU"
+> Sử dụng `list volume` để tìm, nó là volume có tên "WINNABU"
 
 ```diskpart
 select volume <number>
