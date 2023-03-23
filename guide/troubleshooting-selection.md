@@ -10,4 +10,5 @@
 - [Turkish](Turkish/troubleshooting-tr.md)
 - [Russian](Russian/troubleshooting-ru.md)
 - [Italian](Italian/risoluzione-problemi-it.md)
+- [Ukrainian](Ukrainian/troubleshooting-uk.md)
 - [Vietnamese](Vietnamese/xử-lí-sự-cố-vi.md)
