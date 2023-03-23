@@ -10,4 +10,5 @@
 - [Turkish](Turkish/1-partition-tr.md)
 - [Russian](Russian/partition-ru.md)
 - [Italian](Italian/1-partizioni-it.md)
+- [Ukrainian](Ukrainian/1-partition-uk.md)
 - [Vietnamese](Vietnamese/2-cài-đặt-vi.md)
