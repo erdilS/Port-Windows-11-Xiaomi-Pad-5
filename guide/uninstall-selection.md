@@ -2,7 +2,7 @@
 
 # Running Windows on the Xiaomi Pad 5
 
-## Uninstallation
+## Uninstall Windows
 
 ### Select your language
 
@@ -10,4 +10,5 @@
 - [Turkish](Turkish/uninstall-tr.md)
 - [Russian](Russian/uninstall-ru.md)
 - [Italian](Italian/ripristino-android-stock-it.md)
+- [Ukrainian](Ukrainian/uninstall-uk.md)
 - [Vietnamese](Vietnamese/khôi-phục-về-ban-đầu-vi.md)
