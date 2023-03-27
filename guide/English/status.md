@@ -20,7 +20,7 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [X] GPU
 - [X] Touchscreen
 - [X] UFS
-- [X] USB ``PD hub needed``
+- [X] USB
 - [X] Wi-Fi
 - [ ] Xiaomi Pen and Keyboard support
 
