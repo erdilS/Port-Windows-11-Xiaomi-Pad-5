@@ -7,7 +7,7 @@
 
 ### Требования
 
-- Android с root-правами и ядро Android с root-правами
+- Android с root-правами и пропатченное Magisk'ом ядро Android
 
 - [Загрузите файлы](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/dualboot) 
 
