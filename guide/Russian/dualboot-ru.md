@@ -7,8 +7,6 @@
 
 ### Требования
 
-- Мозг
-
 - Android с root-правами и ядро Android с root-правами
 
 - [Загрузите файлы](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/dualboot) 
