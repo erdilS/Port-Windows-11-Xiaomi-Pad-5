@@ -1,15 +1,13 @@
 ﻿<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 
-# Установка Windows на Xiaomi Pad 5
+# Windows на Xiaomi Pad 5
 
 ## Двойная загрузка Android и Windows
 
 ### Требования
 
-- Мозг
-
-- Android с root-правами и ядро Android с root-правами
+- Android с root-правами и пропатченное Magisk'ом ядро Android
 
 - [Загрузите файлы](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/dualboot) 
 

@@ -1,11 +1,9 @@
 ﻿<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 
-# Установка Windows на Xiaomi Pad 5
+# Windows на Xiaomi Pad 5
 
 ## Установка
-
-## Установка Windows
 
 ### Требования
 
@@ -82,7 +80,7 @@ exit
   
   
 
-### Установка
+### Установка Windows
 
 > Замените `<path/to/install.wim>` действительным путём к файлу `install.wim`, который расположен в папке `sources` внутри вашего ISO. Вы можете получить его, смонтировав образ или разархивировав его
 
