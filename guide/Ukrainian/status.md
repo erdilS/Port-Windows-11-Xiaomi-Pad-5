@@ -20,5 +20,5 @@
 - [X] Bluetooth
 - [X] GPU
 - [X] UFS
-- [X] USB ``Потрібен хаб із зовнішним живленням`` 
+- [X] USB
 - [X] Wi-Fi
