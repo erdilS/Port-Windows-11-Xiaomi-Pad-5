@@ -47,3 +47,15 @@
 - Khởi động UEFI
 
 - Sau khi khởi động, hãy đọc driver và cài đặt lại driver một lần nữa
+
+## Hướng dẫn khắc phục lỗi USB và sạc được:
+
+Flash UEFI này ở chế độ fastboot: https://github.com/kmille36/TempStorage/blob/main/xiaomi-nabu.img?raw=true
+
+Cập nhật lên Drivers mới nhất: https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/driver-updating-selection.md
+
+Đã kiểm tra với sạc C to C (có hỗ trợ PD), sạc Xiaomi 33W sạc được (đã được kiểm tra)
+
+Bạn cần cắm sạc trước khi khởi động windows, nếu không nó sẽ không sạc... (hãy cắm cáp vào, nếu bạn rút cáp ra, nó sẽ không sạc cho đến khi bạn tắt windows và cắm sạc trước khi khởi động).
+
+Ngoài ra, Apdater USB loại C hoạt động bằng cách sửa đổi giá trị ở Regedit: Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters (RoleSwitchMode 3 to 1). Sau đó khởi động lại Windows!
