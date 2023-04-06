@@ -14,13 +14,13 @@ Beta. Hầu hết phần cứng đều hoạt động, tuy nhiên một số th�
 - [X] Bluetooth
 - [X] Độ sáng
 - [ ] Camera
-- [ ] Sạc ``Đang phát triển, làm việc một phần ``
+- [x] Sạc 
 - [X] Hiển thị
 - [ ] Ngủ đông / Chế độ ngủ
 - [X] GPU
 - [X] Cảm ứng
 - [X] UFS
-- [X] USB ``PD hub needed``
+- [X] USB 
 - [X] Wi-Fi
 - [ ] Hỗ trợ Bút và Bàn phím Xiaomi
 
