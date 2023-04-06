@@ -48,3 +48,15 @@ This is caused by partitions with volume names the bootloader cannot handle, to 
 
 - After it boots, readd the driver and reinstall the driver again
 
+## How to Charging and USB guide:
+
+- Flash this UEFI into boot in fast boot mode: https://github.com/kmille36/TempStorage/blob/main/xiaomi-nabu.img?raw=true
+
+- Update to latest Drivers: https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/driver-updating-selection.md
+
+- Tested with C to C charging (with PD support), Xiaomi 33W charge work (already tested)
+
+*You need to plug in charger before windows bootup, otherwise it will not charging... (please keep cable plugged in, if u unplug it will not charge until you shutdown windows and plug in charge before bootup).*
+
+- Also USB type C Apdater work by modify value in Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters (RoleSwitchMode 3 to 1). Then restart windows!
+
