@@ -14,7 +14,7 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [X] Bluetooth
 - [X] Brightness
 - [ ] Camera
-- [ ] Charging ``In progress, working partially ``
+- [x] Charging
 - [X] Display
 - [ ] Suspend / Sleep Mode
 - [X] GPU
