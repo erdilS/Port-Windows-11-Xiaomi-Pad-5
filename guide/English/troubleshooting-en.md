@@ -54,9 +54,11 @@ This is caused by partitions with volume names the bootloader cannot handle, to 
 
 - Update to latest Drivers: https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/driver-updating-selection.md
 
-- Tested with C to C charging (with PD support), Xiaomi 33W charge work (already tested)
+- Modifying value in Regedit: Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters (RoleSwitchMode 3 to 1). Then restart Windows!
 
-*You need to plug in charger before windows bootup, otherwise it will not charging... (please keep cable plugged in, if u unplug it will not charge until you shutdown windows and plug in charge before bootup).*
+*Tested with C to C charging (with PD support), Xiaomi 33W charge work (already tested)*
 
-- Also USB type C Apdater work by modify value in Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters (RoleSwitchMode 3 to 1). Then restart windows!
+- You need to plug in the charger before Windows bootup, otherwise, it will not charge... (please keep the cable plugged in, if u unplug it will not charge until you shut down Windows and plug in charge before bootup).
+
+- Also USB type C Apdater work!!!
 
