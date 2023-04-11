@@ -10,7 +10,7 @@
 
 - ~~[Turkish](English/reinstall-en.md)~~
 
-- ~~[Russian](English/reinstall-en.md)~~
+- [Russian](Russian/reinstall-ru.md)
 
 - ~~[Italian](English/reinstall-en.md)~~
 
