@@ -2,18 +2,13 @@
 
 # Running Windows on the Xiaomi Pad 5
 
-## Reinstallation?
+## Reinstallation
 
 ### Select your language
 
 - [English](English/reinstall-en.md)
-
 - ~~[Turkish](English/reinstall-en.md)~~
-
 - [Russian](Russian/reinstall-ru.md)
-
 - ~~[Italian](English/reinstall-en.md)~~
-
 - ~~[Ukrainian](English/reinstall-en.md)~~
-
 - ~~[Vietnamese](English/reinstall-en.md)~~
