@@ -3,7 +3,7 @@
 
 # Running Windows on the Xiaomi Pad 5
 
-## Reinstallation?
+## Reinstallation
 
 ### Reinstalling Windows if something goes wrong
 
@@ -13,9 +13,9 @@
 
 ### Prerequisites
 
-- Existing Windows and boot partitions (*If not met, [go back and just pretend this guide never existed](https://github.com/Alp365/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/English/1-partition-en.md)*)
+- Existing Windows and boot partitions (*If not met, [go back and just pretend this guide never existed](/guide/English/1-partition-en.md)*)
 
-- [Recovery Image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [Recovery Image](../../../../releases/tag/1.0)
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
@@ -90,8 +90,8 @@ exit
 
 ### Format the partitions
 
-- After the partitions have showed up in your file explorer, do this for both: *(quick format is recommended)*
-- *Right click them and click **format**. Do not change any settings, they're already set.*
+After the partitions have showed up in your file explorer right click them and click **format**. Do it for both partitions. Do not change any settings, they're already set.
+
 ### Install
 
-- Continue the guide from [2-install-en.md](https://github.com/Alp365/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/English/2-install-en.md#install)
+- Continue the guide from [here](/guide/English/2-install-en.md#install)
