@@ -12,3 +12,4 @@
 - [Italian](Italian/stato-progetto-it.md)
 - [Ukrainian](Ukrainian/status.md)
 - [Vietnamese](Vietnamese/trạng-thái.md)
+- [Traditional Chinese](Traditional%20Chinese/status-tw.md)
