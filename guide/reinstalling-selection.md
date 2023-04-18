@@ -12,3 +12,4 @@
 - ~~[Italian](English/reinstall-en.md)~~
 - ~~[Ukrainian](English/reinstall-en.md)~~
 - ~~[Vietnamese](English/reinstall-en.md)~~
+- [Traditional Chinese](Traditional%20Chinese/reinstall-tw.md)

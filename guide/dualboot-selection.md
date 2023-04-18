@@ -12,3 +12,4 @@
 - [Italian](Italian/dualboot-it.md)
 - [Ukrainian](Ukrainian/dualboot.md)
 - [Vietnamese](Vietnamese/khởi-động-kép-vi.md)
+- [Traditional Chinese](Traditional%20Chinese/dualboot-tw.md)

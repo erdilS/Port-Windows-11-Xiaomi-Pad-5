@@ -12,3 +12,4 @@
 - [Italian](Italian/ripristino-android-stock-it.md)
 - [Ukrainian](Ukrainian/uninstall-uk.md)
 - [Vietnamese](Vietnamese/khôi-phục-về-ban-đầu-vi.md)
+- [Traditional Chinese](Traditional%20Chinese/restore-stock-tw.md)

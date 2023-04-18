@@ -12,3 +12,4 @@
 - [Italian](Italian/1-partizioni-it.md)
 - [Ukrainian](Ukrainian/1-partition-uk.md)
 - [Vietnamese](Vietnamese/2-cài-đặt-vi.md)
+- [Traditional Chinese](Traditional%20Chinese/1-partition-tw.md)

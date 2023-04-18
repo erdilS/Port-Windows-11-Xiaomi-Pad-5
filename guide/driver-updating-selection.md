@@ -12,3 +12,4 @@
 - [Italian](Italian/aggiornamento-driver-it.md)
 - [Ukrainian](Ukrainian/update-uk.md)
 - [Vietnamese](Vietnamese/cập-nhật-vi.md)
+- [Traditional Chinese](Traditional%20Chinese/update-tw.md)
