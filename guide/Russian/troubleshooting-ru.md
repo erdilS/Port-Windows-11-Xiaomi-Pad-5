@@ -48,3 +48,17 @@
 
 - После запуска верните папку с драйвером и переустановите драйверы снова
 
+
+## Как восстановить работу USB (в т.ч. зарядки)
+
+- Установите этот образ UEFI в режиме загрузки: https://github.com/kmille36/TempStorage/blob/main/xiaomi-nabu.img?raw=true
+
+- Обновите драйвера до последней версии: https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/driver-updating-selection.md
+
+- В редакторе реестра смените значение параметра ```RoleSwitchMode``` с ```3``` на ```1```: ```Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters```. 
+
+- Перезапустите Windows!
+
+Протестировано с TypeC-TypeC зарядкой с поддержкой PowerDelivery, зарядка Xiaomi 33Вт также работает.
+
+Чтобы зарядка работала, необходимо подключить зарядное устройство до загрузки Windows. Если отключить кабель после запуска системы, то планшет не будет заряжаться до перезапуска.
