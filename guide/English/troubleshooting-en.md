@@ -55,7 +55,7 @@ This is caused by partitions with volume names the bootloader cannot handle, to 
 > C to C charging with a PD supported device has been confirmed working and the 33W charger provided by xiaomi is also confirmed to be working
 
 
-- Flash this [UEFI][https://github.com/kmille36/TempStorage/blob/main/xiaomi-nabu.img?raw=true] by using ```fastboot flash boot xiaomi-nabu.img```
+- Flash this [UEFI](https://github.com/kmille36/TempStorage/blob/main/xiaomi-nabu.img?raw=true) by using ```fastboot flash boot xiaomi-nabu.img```
 
 - Update to latest [Drivers](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/driver-updating-selection.md)
 
@@ -81,7 +81,7 @@ This is caused by partitions with volume names the bootloader cannot handle, to 
 
 - Type ```diskpart``` to start diskpart (shocker)
 
-- Find the ESP Volume with ```list volume``` > It should be the one named ESPNABU
+- Find the ESP Volume with ```list volume```, i should be the one named ESPNABU
 
 - Select the esp volume with ```select volume <number>```
 
