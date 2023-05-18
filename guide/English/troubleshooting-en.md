@@ -48,17 +48,47 @@ This is caused by partitions with volume names the bootloader cannot handle, to 
 
 - After it boots, readd the driver and reinstall the driver again
 
-## How to Charging and USB guide:
+## Enabling fast charging and enabling USB host mode
 
-- Flash this UEFI into boot in fast boot mode: https://github.com/kmille36/TempStorage/blob/main/xiaomi-nabu.img?raw=true
+> **Warning!** Please plug the charger in before boot otherwise the tablet will not charge at all in windows, also please do not unplug the charger or rles the device wont charge unless you reboot and you have the charger plugged in.
 
-- Update to latest Drivers: https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/driver-updating-selection.md
+> C to C charging with a PD supported device has been confirmed working and the 33W charger provided by xiaomi is also confirmed to be working
 
-- Modifying value in Regedit: Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters (RoleSwitchMode 3 to 1). Then restart Windows!
 
-*Tested with C to C charging (with PD support), Xiaomi 33W charge work (already tested)*
+- Flash this [UEFI][https://github.com/kmille36/TempStorage/blob/main/xiaomi-nabu.img?raw=true] by using ```fastboot flash boot xiaomi-nabu.img```
 
-- You need to plug in the charger before Windows bootup, otherwise, it will not charge... (please keep the cable plugged in, if u unplug it will not charge until you shut down Windows and plug in charge before bootup).
+- Update to latest [Drivers](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/driver-updating-selection.md)
 
-- Also USB type C Apdater work!!!
+- Modifying the following value in regedit ```Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters\RoleSwitchMode``` change the value from 3 to 1 
 
+- Restart Windows!
+
+## I have disabled test mode and now my tablet will not boot into windows
+
+- Take a good look at yourself
+
+- Realise how much of a dissapointment you are
+
+- Follow whats below
+
+- Boot the recovery image with ```fastboot boot <recovery.img>```
+
+- Push the mass storage script with ```adb push msc.sh /sbin/```
+
+- Run the mass storage script with ```adb shell sh /sbin/msc.sh```
+
+- Open cmd as admin
+
+- Type ```diskpart``` to start diskpart (shocker)
+
+- Find the ESP Volume with ```list volume``` > It should be the one named ESPNABU
+
+- Select the esp volume with ```select volume <number>```
+
+- Assign the letter with ```assign letter=y```
+
+- Exit diskpart with ```exit```
+
+- Run this command to re enable testmode ```bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on```
+
+- Reboot the tablet into bootloader and boot your UEFI image and windows should boot
