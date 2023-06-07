@@ -9,20 +9,23 @@ Beta. Most of the hardware works, but some components do not work yet.
 #### Features
 
 - [X] Audio
-- [ ] Microphone
+
 - [X] Battery status
 - [X] Bluetooth
 - [X] Brightness
-- [ ] Camera
 - [x] Charging
 - [X] Display
-- [ ] Suspend / Sleep Mode
 - [X] GPU
 - [X] Touchscreen
 - [X] UFS
 - [X] USB
 - [X] Wi-Fi
-- [ ] Xiaomi Pen and Keyboard support
+- [X] Xiaomi Pen support
+- [ ] Xiaomi Pen charging support
+- [ ] Xiaomi Keyboard support
+- [ ] Suspend / Sleep Mode
+- [ ] Camera
+- [ ] Microphone
 
 #### Sensors
 
