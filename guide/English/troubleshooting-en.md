@@ -63,11 +63,11 @@ This is caused by partitions with volume names the bootloader cannot handle, to 
 
 - Restart Windows!
 
-## I have disabled test mode and now my tablet will not boot into windows
+## I have disabled test mode and now my tablet will not boot into Windows
 
 - Take a good look at yourself
 
-- Realise how much of a dissapointment you are
+- Realise how much of a disappointment you are
 
 - Follow whats below
 
@@ -83,7 +83,7 @@ This is caused by partitions with volume names the bootloader cannot handle, to 
 
 - Find the ESP Volume with ```list volume```, i should be the one named ESPNABU
 
-- Select the esp volume with ```select volume <number>```
+- Select the ESP volume with ```select volume <number>```
 
 - Assign the letter with ```assign letter=y```
 
@@ -91,4 +91,4 @@ This is caused by partitions with volume names the bootloader cannot handle, to 
 
 - Run this command to re enable testmode ```bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on```
 
-- Reboot the tablet into bootloader and boot your UEFI image and windows should boot
+- Reboot the tablet into bootloader and boot your UEFI image and Windows should boot
