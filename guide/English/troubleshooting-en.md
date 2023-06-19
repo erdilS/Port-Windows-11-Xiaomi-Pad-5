@@ -65,6 +65,8 @@ This is caused by partitions with volume names the bootloader cannot handle, to 
 
 ## I have disabled test mode and now my tablet will not boot into Windows
 
+> **Note** **IMPORTANT** Make sure you watch [This video before attempting to do anything to avoid anymore trouble atter completing everything below](https://youtu.be/oHg5SJYRHA0)
+
 - Take a good look at yourself
 
 - Realise how much of a disappointment you are
