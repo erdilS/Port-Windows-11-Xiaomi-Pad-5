@@ -29,7 +29,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Updating Drivers](guide/driver-updating-selection.md)
 
-- [Reinstalling](guide/reinstalling-selection.md)
+- [Reinstallation](guide/reinstalling-selection.md)
 
 ## Contributors
 
