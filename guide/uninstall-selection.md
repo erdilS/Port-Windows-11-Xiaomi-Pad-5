@@ -2,7 +2,7 @@
 
 # Running Windows on the Xiaomi Pad 5
 
-## Uninstall Windows
+## Uninstallation
 
 ### Select your language
 
