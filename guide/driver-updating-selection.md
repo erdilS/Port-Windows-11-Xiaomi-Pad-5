@@ -2,7 +2,7 @@
 
 # Running Windows on the Xiaomi Pad 5
 
-## Driver updating
+## Updating Drivers
 
 ### Select your language
 
