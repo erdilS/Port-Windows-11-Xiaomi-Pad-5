@@ -14,9 +14,9 @@ This project is in an early stage, all the files here have been contributed by o
 
 ## Get Started
 
-- [Installation instructions](guide/install-selection.md)
+- [Installation](guide/install-selection.md)
 
-- [Uninstall instructions](guide/uninstall-selection.md)
+- [Uninstallation](guide/uninstall-selection.md)
 
 
 ## Miscellaneous
@@ -27,9 +27,9 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Troubleshooting](guide/troubleshooting-selection.md)
 
-- [Driver updating instructions](guide/driver-updating-selection.md)
+- [Updating Drivers](guide/driver-updating-selection.md)
 
-- [Reinstalling](guide/reinstalling-selection.md)
+- [Reinstallation](guide/reinstalling-selection.md)
 
 ## Contributors
 
