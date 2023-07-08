@@ -8,6 +8,7 @@ Beta. Most of the hardware works, but some components do not work yet.
 
 #### Features
 
+- [X] Suspend / Sleep Mode
 - [X] Audio
 - [X] Battery status
 - [X] Bluetooth
@@ -18,11 +19,10 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [X] Touchscreen
 - [X] UFS
 - [X] USB
-- [X] Wi-Fi
+- [*] Wi-Fi [Doesn't work on 2023 models]
 - [X] Xiaomi Pen support
 - [ ] Xiaomi Pen charging support
 - [ ] Xiaomi Keyboard support
-- [ ] Suspend / Sleep Mode
 - [ ] Camera
 - [ ] Microphone
 
@@ -30,6 +30,6 @@ Beta. Most of the hardware works, but some components do not work yet.
 
 - [X] Accelerometer
 - [X] Gyroscope
-- [X] Light sensor
 - [X] Magnetometer
 - [X] Proximity
+- [ ] Light sensor
