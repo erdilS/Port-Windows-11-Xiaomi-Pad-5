@@ -19,7 +19,7 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [X] Touchscreen
 - [X] UFS
 - [X] USB
-- [X] Wi-Fi [Doesn't work on 2023 models]
+- [X] Wi-Fi
 - [X] Xiaomi Pen support
 - [ ] Xiaomi Pen charging support
 - [ ] Xiaomi Keyboard support
