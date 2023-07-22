@@ -7,7 +7,7 @@
 
 Chúng tôi không chịu trách nhiệm nếu thiết bị không hoạt động, thiếu phân vùng cho recovery, máy chết queo, mất thẻ nhớ, pmics, ram, hiển thị íc, chết cpu, hay lỗi gì kể cả chết chó chết mèo, hạt nhân nổ tung hay bạn bị sa thải vì quên quay lại Android để nghe chuông báo thứ.
 
-Dự án này trong giai đoạn đầu, file gì cũng do cộng tác của các người dùng khác (Cũng như hướng dẫn này dịch bởi [Kennex](https://github.com/Kennex666)), ở đây bạn sẽ tìm được hướng dẫn nào đó với file đã hoạt động mà chúng tôi có được. Hãy chịu trách nhiệm với cuộc sống của bạn và làm theo tất cả các bước một cách cẩn thận
+Dự án này trong giai đoạn đầu, file gì cũng do cộng tác của các người dùng khác, ở đây bạn sẽ tìm được hướng dẫn nào đó với file đã hoạt động mà chúng tôi có được. Hãy chịu trách nhiệm với cuộc sống của bạn và làm theo tất cả các bước một cách cẩn thận
 
 **NẾU BẠN CẢM THẤY KHÔNG ỔN VỚI VIỆC MOD MÁY TÍNH BẢNG HOẶC PHÂN VÙNG CỦA MÁY HOẶC BẠN CHƯA CHẮC VỀ VIỆC MÁY BỊ BRICK, THOÁT KHỎI ĐÂY NGAY NHÉ!!! BẠN ĐÃ ĐƯỢC CẢNH BÁO, BẠN LÀM VÌ BẠN THÍCH VÀ NẾU CÓ HƯ HỎNG GÌ CŨNG LÀ LỖI CỦA BẠN!!! LẦN CUỐI CÙNG! BẠN ĐÃ ĐƯỢC CẢNH BÁO!!!**
 
