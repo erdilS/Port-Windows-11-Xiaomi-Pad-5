@@ -11,5 +11,5 @@
 - [Russian](Russian/dualboot-ru.md)
 - [Italian](Italian/dualboot-it.md)
 - [Ukrainian](Ukrainian/dualboot.md)
-- [Vietnamese](Vietnamese/khởi-động-kép-vi.md)
+- [Vietnamese](Vietnamese/dualboot.md)
 - [Traditional Chinese](Traditional%20Chinese/dualboot-tw.md)
