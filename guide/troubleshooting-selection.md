@@ -11,5 +11,5 @@
 - [Russian](Russian/troubleshooting-ru.md)
 - [Italian](Italian/risoluzione-problemi-it.md)
 - [Ukrainian](Ukrainian/troubleshooting-uk.md)
-- [Vietnamese](Vietnamese/xử-lí-sự-cố-vi.md)
+- [Vietnamese](Vietnamese/troubleshooting-vi.md)
 - [Traditional Chinese](Traditional%20Chinese/troubleshooting-tw.md)
