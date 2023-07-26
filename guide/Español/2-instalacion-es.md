@@ -1,13 +1,27 @@
+<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 En La Xiaomi Pad 5">
+
+# Windows 11 En La Xiaomi Pad 5
+
+
 # Instalar Windows
 
 ### Reinicia a recovery de nuevo para instalar Windows
 
+### Requisitos previos
+
+- [Windows ARM](https://uupdump.net/)
+- [UEFI](../../../../releases/tag/1.0)
+- [Script Mass storage mode](../../../../releases/tag/1.0)
+- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
+- [Drivers](https://github.com/map220v/MiPad5-drivers)
+
+
+### Iniciar recovery para instalar Windows
 ```cmd
 fastboot boot <recovery.img>
 ```
 
 ### Pasar msc a /sbin
-
 ```cmd
 adb push msc.sh /sbin/
 ```
@@ -119,6 +133,16 @@ adb shell "dd if=/dev/block/bootdevice/by-name/boot$(getprop ro.boot.slot_suffix
 adb pull /tmp/boot.img
 ```
 
+### Identifica tu panel
+
+```cmd
+adb shell "dmesg | grep dsi_display_bind"
+```
+
+- Si tu dispositivo usa el panel Huaxing la salida de el comando mostrará ```dsi_k82_42_02_0a_dual_cphy_video```
+- Si tu dispositivo usa el panel Tianma la salida de el comando mostrará ```dsi_k82_36_02_0b_dual_cphy_video```
+
+
 ### Reiniciar al bootloader
 
 ```cmd
@@ -126,9 +150,10 @@ adb reboot bootloader
 ```
 
 ### Flashea la imagen uefi desde TWRP
+> Reemplaza ```<panel>``` por el panel de tu dispositivo
 
 ```cmd
-fastboot flash boot boot-nabu.img
+fastboot flash boot boot-nabu_<panel>.img
 ```
 
 # Arrancar de nuevo en Android
