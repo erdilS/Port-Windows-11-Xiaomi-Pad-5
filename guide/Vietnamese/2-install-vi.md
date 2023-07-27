@@ -135,6 +135,15 @@ adb shell "dd if=/dev/block/bootdevice/by-name/boot$(getprop ro.boot.slot_suffix
 adb pull /tmp/boot.img
 ```
 
+### Nhận dạng panel của bạn
+
+```cmd
+adb shell "dmesg | grep dsi_display_bind"
+```
+
+- Nếu thiết bị của bạn sử dụng Huaxing panel, đầu ra của câu lệnh sẽ xuất ra ```dsi_k82_42_02_0a_dual_cphy_video```
+- Nếu thiết bị của bạn sử dụng Tianma panel, đầu ra của câu lệnh sẽ xuất ra ```dsi_k82_36_02_0b_dual_cphy_video```
+
 ### Reboot vào bootloader 
 
 ```cmd
@@ -142,9 +151,10 @@ adb reboot bootloader
 ```
 
 ### Flash uefi từ TWRP
+> Thay dòng ```<panel>``` bằng panel thực tế của máy bạn.
 
 ```cmd
-fastboot flash boot boot-nabu.img
+fastboot flash boot boot-nabu_<panel>.img
 ```
 
 ### Boot trở lại vào Android

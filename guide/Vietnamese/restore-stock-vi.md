@@ -10,8 +10,6 @@ Nếu bạn muốn gỡ bỏ Windows, đây là cách thay vì việc xoá phân
 
 Nếu muốn relock bootloader, bạn sẽ cần tới phân vùng của máy tính bảng ban đầu (ban đầu/gốc).
 
-If you want to relock your bootloader you'll need your partition table to be stock.
-
 ### Điều kiện tiên quyết
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)

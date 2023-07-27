@@ -13,17 +13,17 @@
 
 - [Tải Files](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/dualboot) 
 
-### Phía Windows Dual Boot
+### Cài đặt phía Windows Dualboot
 
 - Cài [Cygwin](https://www.cygwin.com/setup-x86_64.exe) với coreutils (nó sẽ cài đặt mặc định)
 
 - Sửa tên file boot thành boot.img
 
-- Đặt file boot Android vào C:\ (C:\boot.img)
+- Đặt file boot của Android vào C:\ (C:\boot.img)
 
 - Chạy file bat bằng quyền Administrator
 
-### Phía Android Dual Boot
+### Cài đặt phía Anđroid Dualboot
 
 - Cài switchtowin.apk lên thiết bị.
 

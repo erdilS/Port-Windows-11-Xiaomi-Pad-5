@@ -44,18 +44,18 @@ adb shell sh /sbin/msc.sh
 
 #### Khởi động Windows disk manager
 
-> Rồi đó, Xiaomi Pad 5 sẽ xuất hiện 1 lần ở đây
+> Rồi đó, Xiaomi Pad 5 sẽ xuất hiện ở đây một lần
 
 ```cmd
 diskpart
 ```
 
-- Phân vùng "WINNABU" lẽ ra nên có mặt với kí tự X. Nnếu có rồi, bỏ qua tới `Gán "Y" đến ESP volume`
+- Phân vùng "WINNABU" sẽ được gán với kí tự X. Nếu có rồi, bỏ qua tới `Gán "Y" đến ESP volume`
 
 #### Gán `X` cho ổ Windows
 
-#### CHọn Windows volume của máy tính bảng
-> Dùng `list volume` để kiếm, nó sẽ dduocjw đặt tên là "WINNABU"
+#### Chọn Windows volume của máy tính bảng
+> Dùng `list volume` để kiếm, nó sẽ được đặt tên là "WINNABU"
 
 ```diskpart
 select volume <số>
