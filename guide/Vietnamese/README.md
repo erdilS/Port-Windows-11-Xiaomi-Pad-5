@@ -14,22 +14,22 @@ Dự án này trong giai đoạn đầu, file gì cũng do cộng tác của cá
 
 ## Giờ bắt đầu thôi
 
-- [Hướng dẫn cài đặt](../guide/install-selection.md)
+- [Hướng dẫn cài đặt](../install-selection.md)
 
-- [Gỡ cài đặt](../guide/uninstall-selection.md)
+- [Gỡ cài đặt](../uninstall-selection.md)
 
 
 ## Các hướng dẫn kahcs
 
-- [Cài Dualboot](../guide/dualboot-selection.md)
+- [Cài Dualboot](../dualboot-selection.md)
 
-- [Trạng thái dự án](../guide/status-selection.md)
+- [Trạng thái dự án](../status-selection.md)
 
-- [Vấn đề gặp phải](../guide/troubleshooting-selection.md)
+- [Vấn đề gặp phải](../troubleshooting-selection.md)
 
-- [Cập nhật Driver](../guide/driver-updating-selection.md)
+- [Cập nhật Driver](../driver-updating-selection.md)
 
-- [Cài đặt lại](../guide/reinstalling-selection.md)
+- [Cài đặt lại](../reinstalling-selection.md)
 
 ## Contributors
 

@@ -7,7 +7,7 @@
 
 ### Hướng dẫn cài lại nếu lỡ không may có gì đó sai sai
 
--Nếu bạn không thích bản Windows này hoặc bị brick Windows Install, hoặc trời trăng mây biển gì khác, bạn sẽ cần tới việc này: Cài lại Windows. Ôi trời đất ơi, rất may là cái này dễeeeee ơi là dễ
+- Nếu bạn không thích bản Windows này hoặc bị brick Windows Install, hoặc trời trăng mây biển gì khác, bạn sẽ cần tới việc này: Cài lại Windows. Ôi trời đất ơi, rất may là cái này dễeeeee ơi là dễ
 
 - Nếu bạn chưa restore lại phân vùng của máy, bạn sẽ cần đến hướng dẫn này với phân vùng đã tồn tại.
 
@@ -68,7 +68,7 @@ assign letter=x
 
 ### Gán `Y` cho ổ ESP 
 
-#### Select the esp volume of the tablet
+#### Chọn ổ esp của máy tính bảng
 > Dùng lệnh `list volume` để kiếm, nó được đặt tên là  "ESPNABU"
 
 ```diskpart
