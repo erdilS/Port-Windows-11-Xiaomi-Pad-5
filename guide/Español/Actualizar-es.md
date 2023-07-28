@@ -1,3 +1,18 @@
+<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows en la Xiaomi Pad 5">
+
+
+# Windows en la Xiaomi Pad 5
+
+## Actualizar Drivers
+
+### Requisitos previos
+
+- [UEFI](../../../../releases/tag/1.0)
+- [Mass storage mode script](../../../../releases/tag/1.0)
+- [TWRP](../../../../releases/tag/1.0)
+- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
+- [Drivers](https://github.com/map220v/MiPad5-Drivers)
+
 #### Inicia el recovery desde el PC con este comando
 
 ```cmd

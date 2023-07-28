@@ -10,6 +10,7 @@
 - [Turkish](Turkish/status.md)
 - [Russian](Russian/status-ru.md)
 - [Italian](Italian/stato-progetto-it.md)
+- [Español](Español/status.md)
 - [Ukrainian](Ukrainian/status.md)
 - [Vietnamese](Vietnamese/status.md)
 - [Traditional Chinese](Traditional%20Chinese/status-tw.md)

@@ -43,7 +43,7 @@ This project is in an early stage, all the files here have been contributed by o
 [<img alt="bibarub" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/73599925?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/bibarub)
 [<img alt="entaromia" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/30384045?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/entaromia)
 [<img alt="ciyanogen" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/29534488?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/ciyanogen)
-[<img alt="ArturoGC06" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/76574534?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/ArtturoGC06)
+[<img alt="ArturoGC06" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/76574534?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/ArturoGC06)
 [<img alt="Ilya114" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/93242944?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Ilya114)
 [<img alt="Maxsenza151" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/93602290?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Maxsenza151)
 [<img alt="HeavyMistick" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/94836779?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/HeavyMistick)
