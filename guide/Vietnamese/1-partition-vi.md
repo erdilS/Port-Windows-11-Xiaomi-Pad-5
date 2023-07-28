@@ -14,19 +14,25 @@
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
 ### Chú ý nha:
-> **Cảnh báo** Nếu bạn vô tình xoá bất kì phân vùng vào bằng kí tự diskpart hoặc windows sẽ gửi một lệnh ufs rằng có gì đó sai sai làm bạn bị xoá hết file ufs.
-
-- Dữ liệu của bạn sẽ bị xoá sạch! Hãy backup từ bây giờ nếu cần thiết.
-- Những lệnh sử dụng ở đây đều đã được thử nghiệm thành công
-- Bỏ qua cảnh báo `udevadm`
-- Tuyệt đối KHÔNG nhập một lệnh 2 lần
-- Trong chế độ Recovery, màn hình không hoạt động
-- TUYỆT ĐỐI KHÔNG khởi động lại máy tính bảng, nếu cần hỗ trợ hãy hỏi tại [Telegram chat](https://t.me/nabuwoa)
-
-
-#### ⚠️ TUYỆT ĐỐI KHÔNG copy toàn bộ lệnh rồi làm 1 lần duy nhất. Câu lệnh sẽ cần thời gian để chạy nên không được làm thế đâu!
-
-##### ⚠️ KHÔNG ĐƯỢC SAI LẦM. MỘT CÂU LỆNH SAI CÓ THỂ KHIẾN MÁY BẠN KHÔNG BAO GIỜ HOẠT ĐỘNG TRỞ LẠI!!!
+> [!WARNING]
+>  Nếu bạn vô tình xoá bất kì phân vùng vào bằng kí tự diskpart hoặc windows sẽ gửi một lệnh ufs rằng có gì đó sai sai làm bạn bị xoá hết file ufs.
+>
+> Dữ liệu của bạn sẽ bị xoá sạch! Hãy backup từ bây giờ nếu cần thiết.
+> 
+> Những lệnh sử dụng ở đây đều đã được thử nghiệm thành công
+> 
+> Bỏ qua cảnh báo `udevadm`
+> 
+> Tuyệt đối KHÔNG nhập một lệnh 2 lần
+> 
+> Trong chế độ Recovery, màn hình không hoạt động
+> 
+> TUYỆT ĐỐI KHÔNG khởi động lại máy tính bảng, nếu cần hỗ trợ hãy hỏi tại [Telegram chat](https://t.me/nabuwoa)
+>
+>
+> TUYỆT ĐỐI KHÔNG copy toàn bộ lệnh rồi làm 1 lần duy nhất. Câu lệnh sẽ cần thời gian để chạy nên không được làm thế đâu!
+>
+> KHÔNG ĐƯỢC SAI LẦM. MỘT CÂU LỆNH SAI CÓ THỂ KHIẾN MÁY BẠN KHÔNG BAO GIỜ HOẠT ĐỘNG TRỞ LẠI!!!
 
 
 #### Boot recovery từ PC bằng lệnh
