@@ -52,7 +52,8 @@ Esto es causado por particiones con nombres de volumen que el cargador de arranq
 
 > [!WARNING]
 > Enchufe el cargador antes de iniciar, de lo contrario, la tablet no se cargará en Windows, tampoco desconecte el cargador o el dispositivo no se cargará a menos que reinicie y tenga el cargador enchufado.
->
+
+
 > [!NOTE]
 > Se ha confirmado que la carga de C a C con un dispositivo compatible con PD funciona y también se confirma que funciona el cargador de 33 W proporcionado por xiaomi
 
