@@ -11,8 +11,9 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-> **Uyarı** Muhtemelen bu adımlar işinize yaramayacaktır zira Xiaomi Pad 5 için henüz düzgün çalışan bir kurtarma modu yok, dolayısıyla cihaza yüklenebilir bir kurtarma modu da yok. Eğer halihazırda AOSP tabanlı bir custom rom yüklüyse bu adımların işinizi görme olasılığı yüksek, fakat root edilmemiş MIUI yüklü ise bu adımlar hiçbir işinize yaramaz.
-
+> [!WARNING]
+> Muhtemelen bu adımlar işinize yaramayacaktır zira Xiaomi Pad 5 için henüz düzgün çalışan bir kurtarma modu yok, dolayısıyla cihaza yüklenebilir bir kurtarma modu da yok. Eğer halihazırda AOSP tabanlı bir custom rom yüklüyse bu adımların işinizi görme olasılığı yüksek, fakat root edilmemiş MIUI yüklü ise bu adımlar hiçbir işinize yaramaz.
+>
 > Bu sebepten ötürü bölümlerinize boşluk ve özel karakter içeren isim vermekten kaçının, hatta mümkünse defalarca test edilmiş ESPNABU ve WINNABU hariç isim kullanmayın, aksi takdirde yetkili hesap kullanılarak yazılım yüklenmesi gerekebilir, bu işlem ise ücretlidir.
 
 Bu sorun bootloader'ın kaldıramadığı bölüm isimlerinden ötürü oluşmakta, bu sorunu gidermek için şu adımları (uygulayabilirseniz) uygulayın:
