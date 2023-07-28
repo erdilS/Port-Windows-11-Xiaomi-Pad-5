@@ -9,10 +9,11 @@
 
 ### Requisitos previos:
 
-- [ADB y Fastboot] (https://developer.android.com/studio/releases/platform-tools)
+- [ADB y Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-> **Advertencia** Probablemente estos pasos no te ayuden porque la Xiaomi Pad 5 no tiene un recovery personalizado completamente funcional para actualizarlo en el dispositivo. Además, como la mayoría de los dispositivos A/B más nuevos, no tenemos un zip del instalador TWRP, etc. y no puede iniciar la imagen de recuperación existente debido a un inicio rápido roto. Si ya ha instalado la rom AOSP, probablemente tenga un recovery AOSP preinstalada y pueda iniciarla directamente, por lo que puede seguir estos pasos. Si ha desrooteado MIUI, estos pasos no le ayudarán.
-
+> [!WARNING]\
+> Probablemente estos pasos no te ayuden porque la Xiaomi Pad 5 no tiene un recovery personalizado completamente funcional para actualizarlo en el dispositivo. Además, como la mayoría de los dispositivos A/B más nuevos, no tenemos un zip del instalador TWRP, etc. y no puede iniciar la imagen de recuperación existente debido a un inicio rápido roto. Si ya ha instalado la rom AOSP, probablemente tenga un recovery AOSP preinstalada y pueda iniciarla directamente, por lo que puede seguir estos pasos. Si ha desrooteado MIUI, estos pasos no le ayudarán.
+>
 > Por lo tanto, evite usar etiquetas de disco que contengan espacios y caracteres especiales, y si es posible, use etiquetas ESPNABU y WINNABU que se probaron un millón de veces. Si bloquea el fastboot con etiquetas de disco y ha desrooteado MIUI, debe flashear la rom a través de EDL con una cuenta autorizada y debe pagar por ello.
 
 
@@ -49,8 +50,9 @@ Esto es causado por particiones con nombres de volumen que el cargador de arranq
 
 ## Habilitar la carga rápida y habilitar el modo de host USB
 
-> **¡Advertencia!** Enchufe el cargador antes de iniciar, de lo contrario, la tablet no se cargará en Windows, tampoco desconecte el cargador o el dispositivo no se cargará a menos que reinicie y tenga el cargador enchufado.
-
+> [!WARNING]\
+> Enchufe el cargador antes de iniciar, de lo contrario, la tablet no se cargará en Windows, tampoco desconecte el cargador o el dispositivo no se cargará a menos que reinicie y tenga el cargador enchufado.
+>
 > Se ha confirmado que la carga de C a C con un dispositivo compatible con PD funciona y también se confirma que funciona el cargador de 33 W proporcionado por xiaomi
 
 
@@ -64,7 +66,8 @@ Esto es causado por particiones con nombres de volumen que el cargador de arranq
 
 ## He deshabilitado el modo de prueba y ahora mi tableta no arranca en Windows
 
-> **Nota** **IMPORTANTE** Asegúrate de ver [Este video](https://youtu.be/oHg5SJYRHA0) antes de intentar hacer algo para evitar más problemas después de completar todo lo que se indica a continuación.
+> [!IMPORTANT]\
+> Asegúrate de ver [Este video](https://youtu.be/oHg5SJYRHA0) antes de intentar hacer algo para evitar más problemas después de completar todo lo que se indica a continuación.
 
 - Mírate bien
 
