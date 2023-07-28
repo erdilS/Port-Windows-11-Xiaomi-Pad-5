@@ -12,8 +12,9 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-> **Warning** Probably these steps won't help you because Xiaomi Pad 5 doesn't have a fully working custom recovery to flash it to device. Also like most of newer A/B devices we don't have a TWRP Installer zip etc. and you can't boot existing recovery image because of broken fastboot. If you have already installed AOSP rom, probably it has a preinstalled AOSP recovery and you can boot it directly, so you can follow these steps. If you have unrooted MIUI, this steps won't help you.
-
+> [!WARNING]
+ Probably these steps won't help you because Xiaomi Pad 5 doesn't have a fully working custom recovery to flash it to device. Also like most of newer A/B devices we don't have a TWRP Installer zip etc. and you can't boot existing recovery image because of broken fastboot. If you have already installed AOSP rom, probably it has a preinstalled AOSP recovery and you can boot it directly, so you can follow these steps. If you have unrooted MIUI, this steps won't help you.
+>
 > So please avoid to use disk labels which contains spaces and special characters, and if it is possible just use ESPNABU and WINNABU labels which are tested for a million times. If you brick fastboot with disk labels and you have unrooted MIUI, you have to flash rom via EDL with authorized account and you have to pay for it.
 
 
@@ -50,7 +51,8 @@ This is caused by partitions with volume names the bootloader cannot handle, to 
 
 ## Enabling fast charging and enabling USB host mode
 
-> **Warning!** Please plug the charger in before boot otherwise the tablet will not charge at all in windows, also please do not unplug the charger or rles the device wont charge unless you reboot and you have the charger plugged in.
+> [!WARNING]
+>  Please plug the charger in before boot otherwise the tablet will not charge at all in windows, also please do not unplug the charger or rles the device wont charge unless you reboot and you have the charger plugged in.
 
 > C to C charging with a PD supported device has been confirmed working and the 33W charger provided by xiaomi is also confirmed to be working
 
@@ -65,7 +67,8 @@ This is caused by partitions with volume names the bootloader cannot handle, to 
 
 ## I have disabled test mode and now my tablet will not boot into Windows
 
-> **Note** **IMPORTANT** Make sure you watch [This video](https://youtu.be/oHg5SJYRHA0) before attempting to do anything to avoid anymore trouble atter completing everything below
+> [!IMPORTANT]
+>  Make sure you watch [This video](https://youtu.be/oHg5SJYRHA0) before attempting to do anything to avoid anymore trouble
 
 - Take a good look at yourself
 
