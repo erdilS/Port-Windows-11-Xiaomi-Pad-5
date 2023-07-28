@@ -54,6 +54,7 @@ This is caused by partitions with volume names the bootloader cannot handle, to 
 > [!WARNING]
 >  Please plug the charger in before boot otherwise the tablet will not charge at all in windows, also please do not unplug the charger or rles the device wont charge unless you reboot and you have the charger plugged in.
 
+> [!INFO]
 > C to C charging with a PD supported device has been confirmed working and the 33W charger provided by xiaomi is also confirmed to be working
 
 
