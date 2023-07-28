@@ -50,7 +50,7 @@ Esto es causado por particiones con nombres de volumen que el cargador de arranq
 
 ## Habilitar la carga rápida y habilitar el modo de host USB
 
-> [!WARNING]\
+> [!WARNING]
 > Enchufe el cargador antes de iniciar, de lo contrario, la tablet no se cargará en Windows, tampoco desconecte el cargador o el dispositivo no se cargará a menos que reinicie y tenga el cargador enchufado.
 >
 > [!NOTE]
