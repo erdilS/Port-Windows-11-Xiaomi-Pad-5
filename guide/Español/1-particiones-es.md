@@ -6,17 +6,18 @@
 Este paso es necesario para que hagamos las particiones donde estará nuestra instalación de Windows
 
 ## Notas:
-> **Advertencia**: si elimina cualquier partición a través de diskpart más adelante o ahora, Windows enviará un comando ufs que se malinterpretará y borrará toda su ufs.
-- ¡Todos tus datos serán eliminados! Haz un backup si lo necesitas.
-- Estos comandos han sido probados.
-- Ignora las advertencias de `udevadm` .
-- No ejecutes el mismo comando dos veces.
-- En el recovery, la pantalla no funciona.
-- No reinicies tu teléfono si crees que has cometido un error, busca ayuda en el [chat de Telegram](https://t.me/nabuwoa)
-
-#### ⚠️ ¡No ejecute todos los comandos a la vez, ejecútelos en orden!
-
-##### ⚠️ ¡¡¡ASEGÚRATE DE NO COMETER NINGÚN ERROR!!! ¡PUEDE ROMPER SU DISPOSITIVO CON LOS COMANDOS SI LO HACE MAL!
+> [!WARNING]\
+> si elimina cualquier partición a través de diskpart más adelante o ahora, Windows enviará un comando ufs que se malinterpretará y borrará toda su ufs.
+> ¡Todos tus datos serán eliminados! Haz un backup si lo necesitas.
+> Estos comandos han sido probados.
+> Ignora las advertencias de `udevadm` .
+> No ejecutes el mismo comando dos veces.
+> En el recovery, la pantalla no funciona.
+> No reinicies tu teléfono si crees que has cometido un error, busca ayuda en el [chat de Telegram](https://t.me/nabuwoa)
+>
+> ¡No ejecute todos los comandos a la vez, ejecútelos en orden!
+>
+> ¡¡¡ASEGÚRATE DE NO COMETER NINGÚN ERROR!!! ¡PUEDE ROMPER SU DISPOSITIVO CON LOS COMANDOS SI LO HACE MAL!
 
 #### Inicia el recovery desde el PC con el siguiente comando
 ```cmd
