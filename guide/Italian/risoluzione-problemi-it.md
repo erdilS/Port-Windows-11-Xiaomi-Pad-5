@@ -12,8 +12,9 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-> **Attenzione** Probabilmente questi passaggi non ti saranno utili perché mi pad 5 non dispone di una recovery personalizzata perfettamente funzionante da flashare sul dispositivo (infatti, possiamo solo eseguire il BOOT di essa). Inoltre, come sulla maggior parte dei dispositivi piú recenti con partizioni A/B, non disponiamo di un installer TWRP, e non puoi avviare la immagine della recovery proprio perché fastboot in questo caso non funziona. Se hai installato una rom AOSP, molto probabilmente hai gia una recovery AOSP installata e potrai avviarla direttamente, quindi potrai seguire questi passaggi. Se hai miui non rootata, questi passaggi purtroppo non ti saranno utili.
-
+> [!WARNING]
+> Probabilmente questi passaggi non ti saranno utili perché mi pad 5 non dispone di una recovery personalizzata perfettamente funzionante da flashare sul dispositivo (infatti, possiamo solo eseguire il BOOT di essa). Inoltre, come sulla maggior parte dei dispositivi piú recenti con partizioni A/B, non disponiamo di un installer TWRP, e non puoi avviare la immagine della recovery proprio perché fastboot in questo caso non funziona. Se hai installato una rom AOSP, molto probabilmente hai gia una recovery AOSP installata e potrai avviarla direttamente, quindi potrai seguire questi passaggi. Se hai miui non rootata, questi passaggi purtroppo non ti saranno utili.
+>
 > Quindi, per favore, evita di utilizzare etichette di disco che contengono SPAZI e CARATTERI SPECIALI, e se possibile, utilizza solo le etichette ESPNABU e WINNABU, che sono state testate milioni di volte. Se causi un brick di fastboot a causa di etichette di disco con spazi e/o caratteri speciali, e, hai miui non rootata, dovrai per forza flashare la ROM tramite modalitá EDL con un ACCOUNT AUTORIZZATO e dovrai PAGARE per ottenerlo.
 
 
