@@ -32,6 +32,7 @@
 >
 > Non eseguire tutti i comandi in una sola volta! Eseguili in ordine!
 >
+> 
 > NON COMMETTERE NESSUN ERRORE!!! PUOI ROMPERE/BRICKARE IL TUO DISPOSITIVO CON I SEGUENTI COMANDI SE ESEGUITI IN MANIERA SBAGLIATA!!!
 
 
