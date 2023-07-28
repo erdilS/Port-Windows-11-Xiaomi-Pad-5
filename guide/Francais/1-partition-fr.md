@@ -2,14 +2,20 @@ Cette étape est obligatoire, elle permet de créer les partitions nécessaires 
 
 ## Notes:
 
-> **Attention** si vous supprimez, maintenant ou plus tard, une partition avec l'outil "diskpart", Windows enverra une commande ufs qui sera mal interprétée et qui supprimera l'intégralitée de votre ufs.
-
-- Vos données personnelles vont être effacées ! Sauvegardez les maintenant si vous souhaitez les conserver.
-- Les commandes suivantes ont déjà été testées.
-- Ignorez les messages de prévention de type `udevadm`.
-- Ne pas répéter une même commande 2 fois de suite.
-- En mode recovery, l'écran de votre appareil ne sera pas fonctionnel.
-- NE PAS REDEMARRER VOTRE APPAREIL ! Si vous pensez avoir fait une erreur, demandez de l'aide sur le [groupe Télégram](https://t.me/nabuwoa) .
+> [!WARNING]
+> si vous supprimez, maintenant ou plus tard, une partition avec l'outil "diskpart", Windows enverra une commande ufs qui sera mal interprétée et qui supprimera l'intégralitée de votre ufs.
+>
+> Vos données personnelles vont être effacées ! Sauvegardez les maintenant si vous souhaitez les conserver.
+> 
+> Les commandes suivantes ont déjà été testées.
+> 
+> Ignorez les messages de prévention de type `udevadm`.
+> 
+> Ne pas répéter une même commande 2 fois de suite.
+> 
+> En mode recovery, l'écran de votre appareil ne sera pas fonctionnel.
+> 
+> NE PAS REDEMARRER VOTRE APPAREIL ! Si vous pensez avoir fait une erreur, demandez de l'aide sur le [groupe Télégram](https://t.me/nabuwoa) .
 
 #### Démarrez votre appareil en mode recovery avec votre PC
 
