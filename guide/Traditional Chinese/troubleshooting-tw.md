@@ -12,8 +12,9 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-> **警告** 這些步驟可能對您無濟於事，因為 Xiaomi Pad 5 沒有一個完全可運作的自訂 Recovery，無法將其刷新至裝置。另外，像大多數較新的 A/B 裝置一樣，我們沒有 TWRP 的安裝程式，而且您無法開機至現有的 Recovery 映像，因為 Fastboot 已經損毀。如果您已經安裝了 AOSP ROM，可能它有一個預先安裝的 AOSP Recovery，您就可以直接開機，所以您可以依循這些步驟進行作業。如果您的 MIUI 未被 Root，這個步驟將無法幫到您。
-
+> [!WARNING]
+> 這些步驟可能對您無濟於事，因為 Xiaomi Pad 5 沒有一個完全可運作的自訂 Recovery，無法將其刷新至裝置。另外，像大多數較新的 A/B 裝置一樣，我們沒有 TWRP 的安裝程式，而且您無法開機至現有的 Recovery 映像，因為 Fastboot 已經損毀。如果您已經安裝了 AOSP ROM，可能它有一個預先安裝的 AOSP Recovery，您就可以直接開機，所以您可以依循這些步驟進行作業。如果您的 MIUI 未被 Root，這個步驟將無法幫到您。
+>
 > 因此，請避免使用含有空格和特殊字元的磁碟標籤，如果可能的話，請使用 ESPNABU 和 WINNABU 標籤，這切標籤已經測試過無數次了。如果您因磁碟標籤導致 Fastboot 變磚，但您的 MIUI 並未被 Root，您必須透過授權帳戶的 EDL 刷新 ROM，您必須為此支付費用。
 
 
