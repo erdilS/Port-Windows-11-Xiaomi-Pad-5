@@ -16,12 +16,19 @@
 ### Notes:
 > [!WARNING]\
 > se elimini una qualsiasi partizione tramite diskpart ora o in futuro, Windows invierá un comando UFS che verrá interpretato erroneamente che cancellerá tutti i tuoi UFS!!!
+> 
 > Tutti i tuoi dati verranno eliminati! Salvali ora se ne hai bisogno.
+> 
 > Questi comandi sono stati testati.
-> Ignora gli avvisi `udevadm` 
+> 
+> Ignora gli avvisi `udevadm`
+> 
 > Non eseguire lo stesso comando due volte
+> 
 > In recovery, lo schermo non funziona.
+> 
 > NON RIAVVIARE IL TUO DISPOSITIVO se pensi di aver commesso un errore, chiedi aiuto nella [chat Telegram](https://t.me/nabuwoa)
+> 
 >
 > Non eseguire tutti i comandi in una sola volta! Eseguili in ordine!
 >
