@@ -145,7 +145,7 @@ adb reboot bootloader
 ```
 
 ### Скачайте и прошейте образ UEFI для вашего дисплея
-> Образ для дисплея [Huaxing](/images/xiaomi-nabi_huaxing.img) и [Tianma](/images/xiaomi-nabi_tianma.img)
+> Образ для дисплея [Huaxing](/../../raw/main/images/xiaomi-nabu_huaxing.img) и [Tianma](/../../raw/main/images/xiaomi-nabu_tianma.img)
 ```cmd
 fastboot flash boot <путь к образу UEFI>
 ```
