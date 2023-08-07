@@ -1,4 +1,4 @@
-﻿<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
+﻿﻿<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 
 # Windows на Xiaomi Pad 5
@@ -8,7 +8,7 @@
 ### Требования
 
 - [ARM образ Windows](https://uupdump.net/)
-- [Образ UEFI](../../../../releases/tag/1.0)
+- [Образ UEFI](/images/)
 - [Скрипт монтирования разделов](../../../../releases/tag/1.0)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
 - [Драйверы](https://github.com/map220v/MiPad5-drivers)
@@ -123,6 +123,12 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 ```cmd
 adb shell "dd if=/dev/block/bootdevice/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
 ```
+
+### Скопируйте РК на компьютер
+
+```cmd
+adb pull /tmp/boot.img
+```
 ### Выясните какой у вас дисплей
 
 ```cmd
@@ -132,22 +138,16 @@ adb shell "dmesg | grep dsi_display_bind"
 - Если у вас дисплей от Huaxing вывод команды будет таким ```dsi_k82_42_02_0a_dual_cphy_video```
 - Если у вас дисплей от Tianma вывод команды будет таким ```dsi_k82_36_02_0b_dual_cphy_video```
 
-### Скопируйте РК на компьютер
-
-```cmd
-adb pull /tmp/boot.img
-```
-
 ### Перезапустите планшет в загрузчик 
 
 ```cmd
 adb reboot bootloader
 ```
 
-### Прошейте образ UEFI
-
+### Скачайте и прошейте образ UEFI для вашего дисплея
+> Образ для дисплея [Huaxing](/images/xiaomi-nabi_huaxing.img) и [Tianma](/images/xiaomi-nabi_tianma.img)
 ```cmd
-fastboot flash boot boot-nabu.img
+fastboot flash boot <путь к образу UEFI>
 ```
 
 ### Загрузка в Android

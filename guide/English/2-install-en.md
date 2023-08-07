@@ -10,7 +10,7 @@
 ### Prerequisites
 
 - [Windows on ARM image](https://uupdump.net/)
-- [UEFI image](../../../../releases/tag/1.0)
+- [UEFI image](/images/)
 - [Mass storage mode script](../../../../releases/tag/1.0)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
 - [Drivers](https://github.com/map220v/MiPad5-drivers)
@@ -101,16 +101,11 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 driverupdater.exe -d <nabudriversfolder>\definitions\Desktop\ARM64\Internal\nabu.txt -r <nabudriversfolder> -p X:
 ```
 
-  
-
 ### Create Windows bootloader files for the EFI
 
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
-
-  
-  
 
 ### Allow unsigned drivers
 
@@ -150,11 +145,11 @@ adb shell "dmesg | grep dsi_display_bind"
 adb reboot bootloader
 ```
 
-### Flash the uefi image
-> Replace ```<panel>``` with the panel of your device
+### Download and flash UEFI image
+> Download image for [Huaxing](/images/xiaomi-nabi_huaxing.img) or [Tianma](/images/xiaomi-nabi_tianma.img) panel
 
 ```cmd
-fastboot flash boot boot-nabu_<panel>.img
+fastboot flash boot <path to image>
 ```
 
 ### Boot back into Android
