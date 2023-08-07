@@ -123,6 +123,14 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 ```cmd
 adb shell "dd if=/dev/block/bootdevice/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
 ```
+### Выясните какой у вас дисплей
+
+```cmd
+adb shell "dmesg | grep dsi_display_bind"
+```
+
+- Если у вас дисплей от Huaxing вывод команды будет таким ```dsi_k82_42_02_0a_dual_cphy_video```
+- Если у вас дисплей от Tianma вывод команды будет таким ```dsi_k82_36_02_0b_dual_cphy_video```
 
 ### Скопируйте РК на компьютер
 
