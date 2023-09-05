@@ -13,16 +13,19 @@ Beta. Donanımların birçoğu çalışıyor fakat bazı bileşenler henüz çal
 - [X] Dokunmatik
 - [X] Ekran
 - [X] GPU
-- [ ] Hazırda Bekleme/ Uyku Modu
+- [X] Hazırda Bekleme/ Uyku Modu
 - [ ] Kamera
-- [ ] Mikrofon
+- [X] Mikrofon
 - [X] Parlaklık
 - [X] Ses
-- [ ] Şarj ``Kısmi olarak çalışmakta``
+- [X] Şarj 
 - [X] UFS
-- [X] USB ``PD hub gerekmekte``
+- [X] USB 
 - [X] Wi-Fi
-- [ ] Xiaomi Pen ve Klavye desteği
+- [X] Xiaomi Pen desteği
+- [ ] Xiaomi Klavye Desteği
+- [ ] Xiaomi Pen Şarj Desteği
+- [X] Miracast
 
 #### Sensors
 
