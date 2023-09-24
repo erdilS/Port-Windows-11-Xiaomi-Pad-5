@@ -52,17 +52,12 @@ This is caused by partitions with volume names the bootloader cannot handle, to 
 ## Enabling fast charging and enabling USB host mode
 
 > [!WARNING]
->  Please plug the charger in before boot otherwise the tablet will not charge at all in windows, also please do not unplug the charger or rles the device wont charge unless you reboot and you have the charger plugged in.
+>  Make sure any registry edits are done on the Mi Pad 5 itself
 
 > [!NOTE]
-> C to C charging with a PD supported device has been confirmed working and the 33W charger provided by xiaomi is also confirmed to be working
+> C to C charging with a PD supported device has been confirmed working and the 33W charger provided by Xiaomi is also confirmed to be working
 
-
-- Flash this [UEFI](https://github.com/kmille36/TempStorage/blob/main/xiaomi-nabu.img?raw=true) by using ```fastboot flash boot xiaomi-nabu.img```
-
-- Update to latest [Drivers](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/driver-updating-selection.md)
-
-- Modifying the following value in regedit ```Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters\RoleSwitchMode``` change the value from 3 to 1 
+- Modifying the following value in regedit ```Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters\RoleSwitchMode``` Change the value from 3 to 1 
 
 - Restart Windows!
 
