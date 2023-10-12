@@ -11,6 +11,6 @@
 - [Russian](Russian/dualboot-ru.md)
 - [Italian](Italian/dualboot-it.md)
 - [Español](Español/dualboot-es.md)
-- [Ukrainian](Ukrainian/dualboot.md)
+- [Ukrainian](Ukrainian/dualboot-uk.md)
 - [Vietnamese](Vietnamese/dualboot-vi.md)
 - [Traditional Chinese](Traditional%20Chinese/dualboot-tw.md)
