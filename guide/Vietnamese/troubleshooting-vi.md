@@ -13,7 +13,7 @@
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
 > [!WARNING]
-> Có thể các bước sau đây chẳng giúp ích gì được bạn, bởi vì Xiaomi Pad 5 đã không có một custom recovery nào hoàn thiện để có thể cài đặt lên. Cũng như các thiết bị mới A/B nên chúng tôi cũng không có TWRP Installer zip,... và bạn sẽ không thể boot vào recovery tồn tại vì đã hỏng Fastboot. Nếu vạn đã cài đặt rom AOSP, có thể việc cài lại AOSP Recovery sẽ giúp bạn boot lại trực tiếp vào, vậy thì hãy thử các hướng dẫn sau. Nếu bạn đang dùng MIUI **không root**, hướng dẫn này chẳng giúp được gì đâu.
+ Có thể các bước sau đây chẳng giúp ích gì được bạn, bởi vì Xiaomi Pad 5 đã không có một custom recovery nào hoàn thiện để có thể cài đặt lên. Cũng như các thiết bị mới A/B nên chúng tôi cũng không có TWRP Installer zip,... và bạn sẽ không thể boot vào recovery tồn tại vì đã hỏng Fastboot. Nếu vạn đã cài đặt rom AOSP, có thể việc cài lại AOSP Recovery sẽ giúp bạn boot lại trực tiếp vào, vậy thì hãy thử các hướng dẫn sau. Nếu bạn đang dùng MIUI **không root**, hướng dẫn này chẳng giúp được gì đâu.
 >
 > Vì vậy, hãy tránh sử dụng nhãn ổ đĩa (disk labels) mà đã có dung lượng hoặc kí tự đặc biệt, và nếu có thể, chỉ nên dùng ESPNABU và WINNABU thôi, vì đã được test hàng triệu lần rồi nhé :>> Nếu bạn bị brick fastboot với disk labels và không root MIUI, bạn sẽ phải flash rom từ EDL bằng account có quyền, bạn sẽ phải trá giá vì đã không chịu đọc cảnh báo.
 
@@ -41,7 +41,7 @@ Vấn đề này do đã phân vùng với tên mà bootloader không xử lí �
 
 - Mở driver folder
 
-- Xoá đi ```components\QC8150\Device\DEVICE.SOC_QC8150.NABU\Drivers\USB``` folder
+- Xoá folder ```components\QC8150\Device\DEVICE.SOC_QC8150.NABU\Drivers\USB```
 
 - Cài đặt lại driver
 
@@ -54,13 +54,8 @@ Vấn đề này do đã phân vùng với tên mà bootloader không xử lí �
 > [!WARNING]
 > Nhớ là hãy cắm sạc trước khi boot, nếu không thì máy tính bảng sẽ không bao giờ sạc được nữa khi ở trong windows, và làm ơn đừng có tháo sạc hoặc thiết bị không bao giờ sạc được trừ khi bạn reboot và cắm bộ sạc.
 
-> [!INFO]
+> [!NOTE]
 > Sạc C đến C bằng thiết bị hỗ trợ PD đã được xác nhận đang hoạt động và bộ sạc 33W do xiaomi cung cấp cũng được xác nhận là đang hoạt động
-
-
-- Flash cái này [UEFI](https://github.com/kmille36/TempStorage/blob/main/xiaomi-nabu.img?raw=true) bằng lệnh ```fastboot flash boot xiaomi-nabu.img```
-
-- Update cái mới nhất [Drivers](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/driver-updating-selection.md)
 
 - Sửa lại giá trị trong reg ```Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters\RoleSwitchMode``` từ 3 thành 1 
 
