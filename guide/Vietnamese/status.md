@@ -4,7 +4,7 @@
 
 ## Trạng thái dự án
 
-Thử nghiệm (Beta). Hầu hết phần cứng đã hoạt động, nhưng còn vài phần chưa có chạy.
+Thử nghiệm (Beta). Hầu hết phần cứng đã hoạt động, còn một số phần chưa hoạt động
 
 #### Tính năng
 
@@ -21,10 +21,11 @@ Thử nghiệm (Beta). Hầu hết phần cứng đã hoạt động, nhưng cò
 - [X] USB
 - [X] Wi-Fi
 - [X] Hỗ trợ Xiaomi Pen
+- [X] Microphone
+- [X] Miracast
 - [ ] Sạc Xiaomi Pen
 - [ ] Hỗ trợ bàn phím Xiaomi (Đi cùng với máy)
 - [ ] Camera
-- [ ] Microphone
 
 #### Cảm biến
 

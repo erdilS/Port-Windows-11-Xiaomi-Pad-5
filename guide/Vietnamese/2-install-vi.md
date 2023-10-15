@@ -10,10 +10,11 @@
 ### Điều kiện tiên quyết
 
 - [Windows on ARM image](https://uupdump.net/)
-- [UEFI image](../../../../releases/tag/1.0)
+- [UEFI image](/images/)
 - [Lệnh Mass storage mode](../../../../releases/tag/1.0)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
 - [Drivers (Trình điều khiển thiết bị)](https://github.com/map220v/MiPad5-drivers)
+- [Windows on ARM image](https://uupdump.net/)
 
 ### Boot vào recovery để tiếp tục cài Windows
 
@@ -101,16 +102,11 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 driverupdater.exe -d <nabudriversfolder>\definitions\Desktop\ARM64\Internal\nabu.txt -r <nabudriversfolder> -p X:
 ```
 
-  
-
 ### Tạo windows bootloader tới EFI
 
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
-
-  
-  
 
 ###  Cho phép không kí Driver
 
@@ -150,11 +146,11 @@ adb shell "dmesg | grep dsi_display_bind"
 adb reboot bootloader
 ```
 
-### Flash uefi từ TWRP
-> Thay dòng ```<panel>``` bằng panel thực tế của máy bạn.
+### Tải và flash UEFI image
+> Tải image cho Panel [Huaxing](/../../raw/main/images/xiaomi-nabu_huaxing.img) hoặc [Tianma](/../../raw/main/images/xiaomi-nabu_tianma.img)
 
 ```cmd
-fastboot flash boot boot-nabu_<panel>.img
+fastboot flash boot <path to image>
 ```
 
 ### Boot trở lại vào Android
