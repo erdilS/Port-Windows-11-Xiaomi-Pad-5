@@ -145,7 +145,7 @@ adb reboot bootloader
 ```
 
 ### Скачайте и прошейте образ UEFI для вашего дисплея
-> Образ для дисплея [Huaxing](/../../raw/main/images/xiaomi-nabu_huaxing.img) и [Tianma](/../../raw/main/images/xiaomi-nabu_tianma.img)
+> Образ для дисплея [Huaxing](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_huaxing.img) и [Tianma](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_tianma.img)
 ```cmd
 fastboot flash boot <путь к образу UEFI>
 ```
