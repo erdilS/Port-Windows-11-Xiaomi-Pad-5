@@ -9,12 +9,11 @@
 
 ### Điều kiện tiên quyết
 
-- [Windows on ARM image](https://uupdump.net/)
+- [Windows trên ARM image](https://uupdump.net/)
 - [UEFI image](/images/)
 - [Lệnh Mass storage mode](../../../../releases/tag/1.0)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
 - [Drivers (Trình điều khiển thiết bị)](https://github.com/map220v/MiPad5-drivers)
-- [Windows on ARM image](https://uupdump.net/)
 
 ### Boot vào recovery để tiếp tục cài Windows
 
@@ -147,7 +146,7 @@ adb reboot bootloader
 ```
 
 ### Tải và flash UEFI image
-> Tải image cho Panel [Huaxing](/../../raw/main/images/xiaomi-nabu_huaxing.img) hoặc [Tianma](/../../raw/main/images/xiaomi-nabu_tianma.img)
+> Tải image cho Panel [Huaxing](/raw/main/images/xiaomi-nabu_huaxing.img) hoặc [Tianma](/raw/main/images/xiaomi-nabu_tianma.img)
 
 ```cmd
 fastboot flash boot <path to image>
