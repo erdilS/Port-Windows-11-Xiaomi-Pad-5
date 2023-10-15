@@ -146,7 +146,7 @@ adb reboot bootloader
 ```
 
 ### Tải và flash UEFI image
-> Tải image cho Panel [Huaxing](../../../raw/main/images/xiaomi-nabu_huaxing.img) hoặc [Tianma](../../../raw/main/images/xiaomi-nabu_tianma.img)
+> Tải image cho Panel [Huaxing](/images/xiaomi-nabu_huaxing.img?raw=1) hoặc [Tianma](/images/xiaomi-nabu_tianma.img?raw=1)
 
 ```cmd
 fastboot flash boot <path to image>
