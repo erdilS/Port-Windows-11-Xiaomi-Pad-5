@@ -146,7 +146,7 @@ adb shell "dmesg | grep dsi_display_bind"
 adb reboot bootloader
 ```
 
-### Download and flash UEFI image
+### Tải và flash UEFI image
 > Tải image cho Panel [Huaxing](/../../raw/main/images/xiaomi-nabu_huaxing.img) hoặc [Tianma](/../../raw/main/images/xiaomi-nabu_tianma.img)
 
 ```cmd
