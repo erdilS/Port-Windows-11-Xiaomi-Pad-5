@@ -13,7 +13,7 @@
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
 > [!WARNING]
- Có thể các bước sau đây chẳng giúp ích gì được bạn, bởi vì Xiaomi Pad 5 đã không có một custom recovery nào hoàn thiện để có thể cài đặt lên. Cũng như các thiết bị mới A/B nên chúng tôi cũng không có TWRP Installer zip,... và bạn sẽ không thể boot vào recovery tồn tại vì đã hỏng Fastboot. Nếu vạn đã cài đặt rom AOSP, có thể việc cài lại AOSP Recovery sẽ giúp bạn boot lại trực tiếp vào, vậy thì hãy thử các hướng dẫn sau. Nếu bạn đang dùng MIUI **không root**, hướng dẫn này chẳng giúp được gì đâu.
+ Có thể các bước sau đây chẳng giúp ích gì được bạn, bởi vì Xiaomi Pad 5 đã không có một custom recovery nào hoàn thiện để có thể cài đặt lên. Cũng như các thiết bị mới A/B nên chúng tôi cũng không có TWRP Installer zip,... và bạn sẽ không thể boot vào recovery tồn tại vì đã hỏng Fastboot. Nếu bạn đã cài đặt rom AOSP, có thể việc cài lại AOSP Recovery sẽ giúp bạn boot lại trực tiếp vào, vậy thì hãy thử các hướng dẫn sau. Nếu bạn đang dùng MIUI **không root**, hướng dẫn này chẳng giúp được gì đâu.
 >
 > Vì vậy, hãy tránh sử dụng nhãn ổ đĩa (disk labels) mà đã có dung lượng hoặc kí tự đặc biệt, và nếu có thể, chỉ nên dùng ESPNABU và WINNABU thôi, vì đã được test hàng triệu lần rồi nhé :>> Nếu bạn bị brick fastboot với disk labels và không root MIUI, bạn sẽ phải flash rom từ EDL bằng account có quyền, bạn sẽ phải trá giá vì đã không chịu đọc cảnh báo.
 
