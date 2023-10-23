@@ -158,5 +158,10 @@ fastboot flash boot <path to image>
 ```cmd
 fastboot flash boot boot.img
 ```
-
+### Remove phantom drive letters (if they are not removed automatically)
+> Run theese commands as admin to remove letter
+```cmd
+mountvol x: /d
+mountvol y: /d
+```
 ## Finished!
