@@ -156,5 +156,10 @@ fastboot flash boot <путь к образу UEFI>
 ```cmd
 fastboot flash boot boot.img
 ```
-
+### Удаление фантомных букв (если не исчезли сами)
+> Выполните эти команды от админа, чтобы удалить фантомные буквы
+```cmd
+mountvol x: /d
+mountvol y: /d
+```
 ## Готово!
