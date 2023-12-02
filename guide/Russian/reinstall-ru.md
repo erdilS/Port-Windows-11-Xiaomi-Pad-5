@@ -32,7 +32,7 @@ adb shell format
 #### Выполните скрипт msc
 
 ```cmd
-adb shell sh /sbin/msc.sh
+adb shell msc
 ```
 
 ### Привязка букв к разделам
