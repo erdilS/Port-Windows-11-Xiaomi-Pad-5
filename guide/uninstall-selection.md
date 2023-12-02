@@ -10,7 +10,7 @@
 - [Turkish](Turkish/uninstall-tr.md)
 - [Russian](Russian/uninstall-ru.md)
 - [Italian](Italian/ripristino-android-stock-it.md)
-- [Español](Español/reinstall-es.md)
+- [Español](Español/uninstall-es.md)
 - [Ukrainian](Ukrainian/uninstall-uk.md)
 - [Vietnamese](Vietnamese/restore-stock-vi.md)
 - [Traditional Chinese](Traditional%20Chinese/restore-stock-tw.md)
