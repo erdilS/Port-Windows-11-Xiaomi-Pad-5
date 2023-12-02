@@ -21,18 +21,13 @@
 fastboot boot <recovery.img>
 ```
 
-#### Push msc script to /sbin
-
-```cmd
-adb push msc.sh /sbin/
-```
-
 #### Execute the msc script
 
-```cmd
-adb shell sh /sbin/msc.sh
-```
+> If it asks you to run it once again, do so
 
+```cmd
+adb shell msc
+```
 ### Assign letters to disks
   
 
