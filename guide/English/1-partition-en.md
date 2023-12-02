@@ -56,4 +56,4 @@ adb shell partition
 Just restart the phone, and see if Android still works
 
 
-## [Next step: Installing Windows](guide/English/2-install-en.md)
+### [Next step: Installing Windows](/guide/English/2-install-en.md)
