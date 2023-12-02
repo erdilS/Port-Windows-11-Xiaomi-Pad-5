@@ -48,7 +48,8 @@ fastboot boot <recovery.img>
 
 （本步骤为可选）
 您可以通过 ```adb shell partition [Windows分区大小，单位为GB]``` 来自定义分区大小
-*请不要添加GB，直接输入数字
+
+请不要添加GB，直接输入数字
 
 ```cmd
 adb shell partition
