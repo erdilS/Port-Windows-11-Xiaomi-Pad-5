@@ -16,7 +16,7 @@ Beta. La maggior parte dell'hardware funziona, ma alcuni componenti non funziona
 - [ ] Fotocamera
 - [ ] Ricarica ``Al momento funziona lentamente ``
 - [X] Display
-- [ ] Sospensione schermo / Modalitá sonno 
+- [X] Sospensione schermo / Modalitá sonno 
 - [X] GPU
 - [X] Touchscreen
 - [X] UFS
