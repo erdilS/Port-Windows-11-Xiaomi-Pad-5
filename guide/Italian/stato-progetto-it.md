@@ -9,14 +9,14 @@ Beta. La maggior parte dell'hardware funziona, ma alcuni componenti non funziona
 #### Lista componenti supportati e non ancora supportati: 
 
 - [X] Audio
-- [ ] Microfono
+- [X] Microfono
 - [X] Stato batteria
 - [X] Bluetooth
 - [X] Luminositá
 - [ ] Fotocamera
 - [ ] Ricarica ``Al momento funziona lentamente ``
 - [X] Display
-- [ ] Sospensione schermo / Modalitá sonno ``al momento, se sospendi lo schermo dovrai riavviare forzatamente il dispositivo``
+- [X] Sospensione schermo / Modalitá sonno 
 - [X] GPU
 - [X] Touchscreen
 - [X] UFS

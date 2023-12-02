@@ -6,10 +6,8 @@
 ## Установка
 
 ### Требования
-
 - [ARM образ Windows](https://uupdump.net/)
 - [Образ UEFI](/images/)
-- [Скрипт монтирования разделов](../../../../releases/tag/1.0)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
 - [Драйверы](https://github.com/map220v/MiPad5-drivers)
 
@@ -19,16 +17,10 @@
 fastboot boot <recovery.img>
 ```
 
-#### Скопируйте скрипт msc в /sbin
-
-```cmd
-adb push msc.sh /sbin/
-```
-
 #### Выполните скрипт msc
 
 ```cmd
-adb shell sh /sbin/msc.sh
+adb shell msc
 ```
 
 ### Привязка букв к разделам
@@ -132,12 +124,8 @@ adb pull /tmp/boot.img
 ### Выясните какой у вас дисплей
 
 ```cmd
-adb shell "dmesg | grep dsi_display_bind"
+adb shell panel
 ```
-
-- Если у вас дисплей от Huaxing вывод команды будет таким ```dsi_k82_42_02_0a_dual_cphy_video```
-- Если у вас дисплей от Tianma вывод команды будет таким ```dsi_k82_36_02_0b_dual_cphy_video```
-
 ### Перезапустите планшет в загрузчик 
 
 ```cmd

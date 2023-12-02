@@ -19,16 +19,10 @@
 fastboot boot <recovery.img>
 ```
 
-#### Скопируйте скрипт msc в /sbin
-
-```cmd
-adb push msc.sh /sbin/
-```
-
 #### Выполните скрипт msc
 
 ```cmd
-adb shell msc.sh
+adb shell msc
 ```
 
 ### Привязка букв к разделам
@@ -74,7 +68,7 @@ DriverUpdater.exe -d <nabudriversfolder>\definitions\Desktop\ARM64\Internal\nabu
 ```
 
 
-### Boot with Windows bootable UEFI image
+
 ### Запустите Windows с помощью загрузочного образа UEFI 
 
 ```
