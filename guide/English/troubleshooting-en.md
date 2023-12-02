@@ -57,9 +57,7 @@ This is caused by partitions with volume names the bootloader cannot handle, to 
 > [!NOTE]
 > C to C charging with a PD supported device has been confirmed working and the 33W charger provided by Xiaomi is also confirmed to be working
 
-- Modifying the following value in regedit ```Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters\RoleSwitchMode``` Change the value from 3 to 1 
-
-- Restart Windows!
+ Download  [Script from Misha803](https://t.me/droidscripts/22)
 
 ## I have disabled test mode and now my tablet will not boot into Windows
 
