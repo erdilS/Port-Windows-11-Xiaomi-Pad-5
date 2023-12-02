@@ -8,7 +8,6 @@
 ### Требования
 - [ARM образ Windows](https://uupdump.net/)
 - [Образ UEFI](/images/)
-- [Скрипт монтирования разделов](../../../../releases/tag/1.0)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
 - [Драйверы](https://github.com/map220v/MiPad5-drivers)
 
