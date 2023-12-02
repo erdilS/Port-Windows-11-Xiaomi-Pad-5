@@ -40,115 +40,18 @@
 ```cmd
 fastboot boot <recovery.img>
 ```
-> Se hai giá installato la recovery TWRP, tieni semplicemente premuti i pulsanti di accensione e vol+ all'avvio del dispositivo
+Esegui lo script di partizionamento
+Se ti chiede di eseguirlo un altra volta allora fallo.
 
-#### Avvia ADB shell
+Questa parte è facoltativa ma puoi mettere la grandezza della memoria personalizzata utilizzando questo script.
+
+Per utilizzare delle grandezze personalizzate esegui ad Shell partition[GRANDEZZA DEL BERSAGLIO DI Windows IN GB]
+
+Fai in modo di non aggiungere GB alla fine,inserisci  solo il numero
+
+
 ```cmd
-adb shell
-```
-
-#### Ridimensiona la tabella delle partizioni
-> In modo che riusciremo a far entrare le partizioni di Windows
-```sh
-sgdisk --resize-table 64 /dev/block/sda
-```
-
-#### Avvia parted
-```sh
-parted /dev/block/sda
-```
-
-#### Elimina la partizione "userdata"
-> Puoi assicurarti che "31" sia il numero della partizione "userdata" eseguendo
->  `print all`
-```sh
-rm 31
-```
-
-#### Crea le partizioni
-> Se ricevi dei messaggi di avviso che dicono `ignore or cancel`, digita semplicemente i e premi invio
-
-
-<details>
-<summary><b><strong>Per modelli da 128GB</strong></b></summary>
-
-- Crea la partizione ESP (in cui saranno salvati i file di avvio di Windows e i file EFI)
-```sh
-mkpart esp fat32 10.9GB 11.4GB
-```
-
-- Crea la partizione principale in cui sará installato Windows
-```sh
-mkpart win ntfs 11.4GB 70.2GB
-```
-
-- Crea la partizione "userdata" in cui saranno salvati i dati di android
-```sh
-mkpart userdata ext4 70.2GB 126GB
-```
-  </summary>
-</details>
-
-<details>
-<summary><b><strong>Per modelli da 256GB</strong></b></summary>
-
-- Crea la partizione ESP (in cui saranno salvati i file di avvio di Windows e i file EFI)
-```sh
-mkpart esp fat32 10.9GB 11.4GB
-```
-
-- Crea la partizione principale in cui sará installato Windows
-```sh
-mkpart win ntfs 11.4GB 120.8GB
-```
-
-- Crea la partizione "userdata" in cui saranno salvati i dati di android
-```sh
-mkpart userdata ext4 120.8GB 254GB
-```
-
-  </summary>
-</details>
-
-
-#### Rendi avviabile la partizione ESP in modo che l'immagine EFI possa rilevarla
-```sh
-set 31 esp on
-```
-
-#### Esci da parted
-```sh
-quit
-```
-#### Riavvia il dispositivo nel bootloader
-```sh
-reboot bootloader
-```
-
-#### Avvia il dispositivo in recovery
-```cmd
-fastboot boot <recovery.img>
-```
-
-#### Avvia di nuovo ADB Shell 
-```cmd
-adb shell
-```
-
-#### Formatta le partizioni
--  Formatta la partizione ESP come FAT32
-```sh
-mkfs.fat -F32 -s1 /dev/block/bootdevice/by-name/esp -n ESPNABU
-```
-
--  Formatta la partizione di windows come NTFS
-```sh
-mkfs.ntfs -f /dev/block/bootdevice/by-name/win -L WINNABU
-```
-
--  Formatta la partizione userdata
-```sh
-mke2fs -t ext4 /dev/block/bootdevice/by-name/userdata
+adb shell partition
 ```
 
 
