@@ -19,16 +19,10 @@
 fastboot boot <recovery.img>
 ```
 
-#### Скопируйте скрипт msc в /sbin
-
-```cmd
-adb push msc.sh /sbin/
-```
-
 #### Выполните скрипт msc
 
 ```cmd
-adb shell msc.sh
+adb shell msc
 ```
 
 ### Привязка букв к разделам
