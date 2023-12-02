@@ -26,17 +26,16 @@
 ```cmd
 fastboot boot <recovery.img>
 ```
-
-#### Push msc script to /sbin
+### Format the partitions
 
 ```cmd
-adb push msc.sh /sbin/
+adb shell format
 ```
 
 #### Execute the msc script
 
 ```cmd
-adb shell sh /sbin/msc.sh
+adb shell msc
 ```
 
 ### Assign letters to disks.. again
@@ -88,9 +87,6 @@ assign letter=y
 exit
 ```
 
-### Format the partitions
-
-After the partitions have showed up in your file explorer right click them and click **format**. Do it for both partitions. Do not change any settings, they're already set.
 
 ### Install
 
