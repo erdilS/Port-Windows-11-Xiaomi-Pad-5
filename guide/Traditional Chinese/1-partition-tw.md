@@ -50,7 +50,9 @@ fastboot boot <recovery.img>
 您可以通过 ```adb shell partition [Windows分区大小，单位为GB]``` 来自定义分区大小
 *请不要添加GB，直接输入数字
 
-
+```cmd
+adb shell partition
+```
 
 #### 檢查 Android 是否仍可啟動
 僅需重新啟動平板電腦，並查看 Android 是否仍然正常運作
