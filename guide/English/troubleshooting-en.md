@@ -91,3 +91,13 @@ This is caused by partitions with volume names the bootloader cannot handle, to 
 - Run this command to re enable testmode ```bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on```
 
 - Reboot the tablet into bootloader and boot your UEFI image and Windows should boot
+
+## Bootllop after switching to Android 
+
+-Run fastboot
+
+-fastboot set_active other
+
+-fastboot flash boot <boot.img>
+
+-fastboot reboot
