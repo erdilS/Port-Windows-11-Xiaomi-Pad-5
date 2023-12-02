@@ -38,120 +38,22 @@
 ```cmd
 fastboot boot <recovery.img>
 ```
-> If you already have TWRP installed, just hold the power and vol+ buttons at startup
+##### Run the partitioning script
 
-#### Start ADB shell
+> If it asks you to run it once again, do so
+
+> This is **optional** but you can **set custom sizes using this script**
+
+> To set custom sizes do ```adb shell partition [TARGET WINDOWS SIZE IN GB]```
+
+> Make sure you do not add GB at the end, just the number
+
 ```cmd
-adb shell
+adb shell partition
 ```
-
-#### Resize the partition table
-> So that the Windows partitions can fit
-```sh
-sgdisk --resize-table 64 /dev/block/sda
-```
-
-#### Start parted
-```sh
-parted /dev/block/sda
-```
-
-#### Delete the `userdata` partition
-> You can make sure that 31 is the userdata partition number by running
->  `print all`
-```sh
-rm 31
-```
-
-#### Create partitions
-> If you get any warning message telling you to ignore or cancel, just type i and enter
-
-
-<details>
-<summary><b><strong>For 128GB models</strong></b></summary>
-
-- Create the ESP partition (stores Windows bootloader data and EFI files)
-```sh
-mkpart esp fat32 10.9GB 11.4GB
-```
-
-- Create the main partition where Windows will be installed to
-```sh
-mkpart win ntfs 11.4GB 70.2GB
-```
-
-- Create Android's data partition
-```sh
-mkpart userdata ext4 70.2GB 126GB
-```
-  </summary>
-</details>
-
-<details>
-<summary><b><strong>For 256GB models</strong></b></summary>
-
-- Create the ESP partition (stores Windows bootloader data and EFI files)
-```sh
-mkpart esp fat32 10.9GB 11.4GB
-```
-
-- Create the main partition where Windows will be installed to
-```sh
-mkpart win ntfs 11.4GB 120.8GB
-```
-
-- Create Android's data partition
-```sh
-mkpart userdata ext4 120.8GB 254GB
-```
-
-  </summary>
-</details>
-
-
-#### Make ESP partition bootable so the EFI image can detect it
-```sh
-set 31 esp on
-```
-
-#### Quit parted
-```sh
-quit
-```
-#### Reboot to bootloader
-```sh
-reboot bootloader
-```
-
-#### Boot to recovery
-```cmd
-fastboot boot <recovery.img>
-```
-
-#### Start adb shell again
-```cmd
-adb shell
-```
-
-#### Format partitions
--  Format the ESP partition as FAT32
-```sh
-mkfs.fat -F32 -s1 /dev/block/bootdevice/by-name/esp -n ESPNABU
-```
-
--  Format the Windows partition as NTFS
-```sh
-mkfs.ntfs -f /dev/block/bootdevice/by-name/win -L WINNABU
-```
-
--  Format userdata
-```sh
-mke2fs -t ext4 /dev/block/bootdevice/by-name/userdata
-```
-
 
 #### Check if Android still starts
-just restart the tablet, and see if Android still works
-If isn't boot or looping or animation, use MIUI recovery or other recoveries for wiping data.
+Just restart the phone, and see if Android still works
 
-### [Next step: Installing Windows](/guide/English/2-install-en.md)
+
+## [Next step: Installing Windows](/guide/install-2-en.md)
