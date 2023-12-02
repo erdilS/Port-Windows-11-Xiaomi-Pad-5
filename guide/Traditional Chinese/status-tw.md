@@ -1,33 +1,34 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-# 在 Xiaomi Pad 5 上執行 Windows
+# 在 Xiaomi Pad 5 上运行 Windows
 
-## 專案狀態
+## 驱动支持情况
+目前仍属于测试阶段, 大部分设备可以正常工作, 但有一部分仍未正确驱动
 
-測試中，大部分硬體可正常運作，但部分元件仍然無法運作。
-
-#### 功能
-
-- [X] 音訊
-- [X] 麥克風
-- [X] 電池狀態
-- [X] 藍牙
-- [X] 亮度
-- [ ] 相機
-- [x] 充電
-- [X] 顯示
-- [X] 擱置 / 睡眠模式
-- [X] GPU
-- [X] 觸控式螢幕
-- [X] UFS
-- [X] USB
+#### 硬件
+- [X] 蓝牙
+- [X] 屏幕
+- [X] 触摸屏
+- [X] 扬声器
+- [X] 麦克风
+- [X] 屏幕亮度调节
+- [X] 睡眠/唤醒
+- [X] 电池管理
 - [X] Wi-Fi
-- [ ] Xiaomi 手寫筆和鍵盤支援
+- [X] GPU
+- [X] UFS
+- [X] USB*
+- [X] 充电**
+- [ ] 摄像头
+- [ ] Xiaomi 手写笔和触点键盘
 
 #### 感應器
+- [X] 陀螺仪
+- [X] 加速度传感器
+- [X] 磁场传感器
+- [X] 距离传感器
+- [ ] 光线传感器
 
-- [X] 加速計
-- [X] 迴轉儀
-- [X] 光感應器
-- [X] 磁力計
-- [X] 近接
+> *: 默认不支持USB电源输出
+> 
+> **: 默认不支持触发PD充电
