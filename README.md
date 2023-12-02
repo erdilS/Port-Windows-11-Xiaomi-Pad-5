@@ -51,3 +51,4 @@ This project is in an early stage, all the files here have been contributed by o
 [<img alt="RunningMango" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/36758157?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/RunningMango)
 [<img alt="halal-beef" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/78730004?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/halal-beef)
 [<img alt="Kennex666" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/55269418?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/kennex666)
+[<img alt="Misha803" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Misha803)
