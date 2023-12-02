@@ -24,7 +24,7 @@ Beta. La mayor parte del hardware funciona, pero algunos componentes aún no fun
 - [ ] Soporte de carga de Xiaomi Pen
 - [ ] Compatibilidad con el teclado Xiaomi
 - [ ] Cámara
-- [ ] Micrófono
+- [X] Micrófono
 
 #### Sensores
 

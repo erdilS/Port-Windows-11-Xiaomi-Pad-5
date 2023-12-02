@@ -23,6 +23,7 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [X] Xiaomi Pen support
 - [X] Microphone
 - [X] Miracast
+- [X] Location
 - [ ] Xiaomi Pen charging support
 - [ ] Xiaomi Keyboard support
 - [ ] Camera
