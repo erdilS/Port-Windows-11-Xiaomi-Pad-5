@@ -128,11 +128,9 @@ adb pull /tmp/boot.img
 ### Identify your panel
 
 ```cmd
-adb shell "dmesg | grep dsi_display_bind"
+adb shell panel
 ```
 
-- If your device uses a Huaxing panel the output of the command should show ```dsi_k82_42_02_0a_dual_cphy_video```
-- if your device uses a Tianma panel the output of the command should show ```dsi_k82_36_02_0b_dual_cphy_video```
 
 ### Reboot to bootloader 
 
