@@ -68,7 +68,7 @@ DriverUpdater.exe -d <nabudriversfolder>\definitions\Desktop\ARM64\Internal\nabu
 ```
 
 
-### Boot with Windows bootable UEFI image
+
 ### Запустите Windows с помощью загрузочного образа UEFI 
 
 ```
