@@ -126,7 +126,7 @@ adb pull /tmp/boot.img
 ### Выясните какой у вас дисплей
 
 ```cmd
-adb shell  panel
+adb shell panel
 ```
 ### Перезапустите планшет в загрузчик 
 
