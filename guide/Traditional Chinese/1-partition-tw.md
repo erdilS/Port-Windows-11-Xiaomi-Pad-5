@@ -41,115 +41,15 @@
 ```cmd
 fastboot boot <recovery.img>
 ```
-> 若您已經安裝了 TWRP，僅需按住「電源」按鈕和「音量+」按鈕開機
 
-#### 啟動 ADB Shell
-```cmd
-adb shell
-```
+##### 运行分区脚本
 
-#### 調整磁碟分割表格大小
-> 這樣，Windows 分割區即可適合大小
-```sh
-sgdisk --resize-table 64 /dev/block/sda
-```
+如果脚本提示您重新运行一次，请重新打开脚本
 
-#### 開始分割
-```sh
-parted /dev/block/sda
-```
+（本步骤为可选）
+您可以通过 ```adb shell partition [Windows分区大小，单位为GB]``` 来自定义分区大小
+*请不要添加GB，直接输入数字
 
-#### 刪除 `Userdata` 分割區
-> 您可以透過執行 `print all` 以確保 31 是 Userdata 分割區的編號
-```sh
-rm 31
-```
-
-#### 建立分割區
-> 若您收到讓您忽略或取消的警示訊息，僅需輸入 i 並按下 Enter
-
-
-<details>
-<summary><b><strong>適用於 128GB 機型</strong></b></summary>
-
-- 建立 ESP 分割區 (儲存 Windows Bootloader 資料和 EFI 檔案)
-```sh
-mkpart esp fat32 10.9GB 11.4GB
-```
-
-- 建立主要分割區，Windows 將會被安裝在此處
-```sh
-mkpart win ntfs 11.4GB 70.2GB
-```
-
-- 建立 Android 資料分割區
-```sh
-mkpart userdata ext4 70.2GB 126GB
-```
-  </summary>
-</details>
-
-<details>
-<summary><b><strong>適用於 256GB 機型</strong></b></summary>
-
-- 建立 ESP 分割區 (儲存 Windows Bootloader 資料和 EFI 檔案)
-```sh
-mkpart esp fat32 10.9GB 11.4GB
-```
-
-- 建立主要分割區，Windows 將會被安裝在此處
-```sh
-mkpart win ntfs 11.4GB 120.8GB
-```
-
-- 建立 Android 資料分割區
-```sh
-mkpart userdata ext4 120.8GB 254GB
-```
-
-  </summary>
-</details>
-
-
-#### 使 ESP 分割區可開機，以便 EFI 映像可以偵測到它
-```sh
-set 31 esp on
-```
-
-#### 離開分割
-```sh
-quit
-```
-#### 重新開機至 Bootloader
-```sh
-reboot bootloader
-```
-
-#### 開機至 Recovery
-```cmd
-fastboot boot <recovery.img>
-```
-
-#### 再次啟動 ADB Shell
-```cmd
-adb shell
-```
-
-#### 格式化分割區
--  將 ESP 分割區格式化為 FAT32
-```sh
-mkfs.fat -F32 -s1 /dev/block/bootdevice/by-name/esp -n ESPNABU
-```
-
--  將 Windows 分割區格式化為 NTFS
-```sh
-mkfs.ntfs -f /dev/block/bootdevice/by-name/win -L WINNABU
-```
-
--  格式化 Userdata
-```sh
-mke2fs -t ext4 /dev/block/bootdevice/by-name/userdata
-```
 
 
 #### 檢查 Android 是否仍可啟動
