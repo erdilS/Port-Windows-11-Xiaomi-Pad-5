@@ -93,11 +93,10 @@ This is caused by partitions with volume names the bootloader cannot handle, to 
 - Reboot the tablet into bootloader and boot your UEFI image and Windows should boot
 
 ## Bootllop after switching to Android 
->
->
--Run fastboot
 
--fastboot set_active other
+> Run fastboot
+
+> fastboot set_active other
 
 -fastboot flash boot <boot.img>
 
