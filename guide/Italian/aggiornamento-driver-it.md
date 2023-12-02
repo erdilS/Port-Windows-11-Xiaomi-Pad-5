@@ -19,16 +19,11 @@
 fastboot boot <recovery.img>
 ```
 
-#### Invia lo script
-
-```cmd
-adb push msc.sh /sbin/
-```
 
 #### Esegui lo script
 
 ```cmd
-adb shell msc.sh
+adb shell msc
 ```
 
 ### Assegna le lettere ai dischi
