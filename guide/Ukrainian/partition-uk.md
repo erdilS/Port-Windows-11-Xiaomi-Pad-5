@@ -18,7 +18,7 @@
 
 #### Завантажте TWRP через комп'ютер за допомогою fastboot
 ```cmd
-fastboot boot <twrp.img>
+fastboot boot <recovery.img>
 ```
 ##### Запустіть скрипт розмітки
 
