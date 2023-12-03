@@ -8,7 +8,6 @@
 ### Requisitos previos
 
 - [UEFI](../../../../releases/tag/1.0)
-- [Mass storage mode script](../../../../releases/tag/1.0)
 - [TWRP](../../../../releases/tag/1.0)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
 - [Drivers](https://github.com/map220v/MiPad5-Drivers)
@@ -19,16 +18,11 @@
 fastboot boot <recovery.img>
 ```
 
-## Transferir msc
-
-```cmd
-adb push msc.sh /sbin/
-```
 
 ### Ejecutar msc
 
 ```cmd
-adb shell sh /sbin/msc.sh
+adb shell msc
 ```
 
 ## Asignar letras a los discos
