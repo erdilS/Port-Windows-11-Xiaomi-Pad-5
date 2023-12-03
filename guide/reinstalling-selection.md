@@ -12,5 +12,5 @@
 - ~~[Italian](English/reinstall-en.md)~~
 - [Español](Español/reinstall-es.md)
 - [Ukrainian](Ukrainian/reinstall-uk.md)
-- ~[Vietnamese](Vietnamese/reinstall-vi.md)~
+- [Vietnamese](Vietnamese/reinstall-vi.md)
 - [Traditional Chinese](Traditional%20Chinese/reinstall-tw.md)
