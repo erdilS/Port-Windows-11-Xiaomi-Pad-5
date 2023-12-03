@@ -19,7 +19,6 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [Tập lệnh Mass storage mode](../../../../releases/tag/1.0)
 
 ### Boot vào recovery để định dạng lại Windows và phân vùng boot
 
@@ -27,16 +26,11 @@
 fastboot boot <recovery.img>
 ```
 
-#### Đẩy msc script tới /sbin
-
-```cmd
-adb push msc.sh /sbin/
-```
 
 #### Thực thi msc script
 
 ```cmd
-adb shell sh /sbin/msc.sh
+adb shell msc
 ```
 
 ### Gán lại kí tự cho ổ đĩa... một lần nữa dùm em nha
