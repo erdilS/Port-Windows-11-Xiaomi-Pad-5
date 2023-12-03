@@ -7,7 +7,6 @@
 ### 請先準備下面的文件
 - [Windows on ARM 映像](https://uupdump.net/)
 - [UEFI boot 映像](../../../../releases/tag/1.0)
-- [msc 模式腳本](../../../../releases/tag/1.0)
 - [驅動更新工具](https://github.com/WOA-Project/DriverUpdater/releases/latest)
 - [驅動文件](https://github.com/map220v/MiPad5-Drivers)
 
