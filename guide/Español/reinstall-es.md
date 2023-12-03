@@ -90,4 +90,4 @@ exit
 
 ### Instalar
 
-- Continuar la guía desde [aquí](/guide/English/2-install-en.md#install)
+- Continuar la guía desde [aquí](/2-instalacion-es.md#Instalar)
