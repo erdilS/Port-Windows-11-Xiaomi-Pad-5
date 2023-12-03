@@ -40,14 +40,15 @@
 ```cmd
 fastboot boot <recovery.img>
 ```
-Esegui lo script di partizionamento
-Se ti chiede di eseguirlo un altra volta allora fallo.
+ ### Esegui lo script di partizionamento
 
-Questa parte è facoltativa ma puoi mettere la grandezza della memoria personalizzata utilizzando questo script.
+> Se ti chiede di eseguirlo un altra volta allora fallo.
 
-Per utilizzare delle grandezze personalizzate esegui ad Shell partition[GRANDEZZA DEL BERSAGLIO DI Windows IN GB]
+> Questa parte è facoltativa ma puoi mettere la grandezza della memoria personalizzata utilizzando questo script.
 
-Fai in modo di non aggiungere GB alla fine,inserisci  solo il numero
+> Per utilizzare delle grandezze personalizzate esegui  ```adb shell partition[GRANDEZZA DEL BERSAGLIO DI Windows IN GB]```
+
+> Fai in modo di non aggiungere GB alla fine,inserisci  solo il numero
 
 
 ```cmd
