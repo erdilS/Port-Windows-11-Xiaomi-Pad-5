@@ -11,7 +11,6 @@
 
 - [Windows trên ARM image](https://uupdump.net/)
 - [UEFI image](/images/)
-- [Lệnh Mass storage mode](../../../../releases/tag/1.0)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
 - [Drivers (Trình điều khiển thiết bị)](https://github.com/map220v/MiPad5-drivers)
 
@@ -21,16 +20,11 @@
 fastboot boot <recovery.img>
 ```
 
-#### Đẩy msc script đến /sbin
-
-```cmd
-adb push msc.sh /sbin/
-```
 
 #### Thực thi msc script
 
 ```cmd
-adb shell sh /sbin/msc.sh
+adb shell msc
 ```
 
 ### Gán kí tự cho ổ đĩa
@@ -121,7 +115,7 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 ### Tạo backup cho file boot hiện hành
 
 ```cmd
-adb shell "dd if=/dev/block/bootdevice/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
 ```
 
 ### Đẩy file backup lên máy tính
@@ -133,11 +127,9 @@ adb pull /tmp/boot.img
 ### Nhận dạng panel của bạn
 
 ```cmd
-adb shell "dmesg | grep dsi_display_bind"
+adb shell panel
 ```
 
-- Nếu thiết bị của bạn sử dụng Huaxing panel, đầu ra của câu lệnh sẽ xuất ra ```dsi_k82_42_02_0a_dual_cphy_video```
-- Nếu thiết bị của bạn sử dụng Tianma panel, đầu ra của câu lệnh sẽ xuất ra ```dsi_k82_36_02_0b_dual_cphy_video```
 
 ### Reboot vào bootloader 
 

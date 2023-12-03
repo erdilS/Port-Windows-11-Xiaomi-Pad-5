@@ -19,7 +19,6 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [Mass storage mode script](../../../../releases/tag/1.0)
 
 ### Boot recovery to format the Windows and boot partitions
 

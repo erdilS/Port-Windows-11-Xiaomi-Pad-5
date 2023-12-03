@@ -11,7 +11,6 @@
 
 - [Immagine Windows On Arm](https://uupdump.net/)
 - [immagine UEFI](../../../../releases/tag/1.0)
-- [script storage di massa](../../../../releases/tag/1.0)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
 - [Drivers](https://github.com/map220v/MiPad5-drivers)
 
@@ -21,16 +20,11 @@
 fastboot boot <recovery.img>
 ```
 
-#### Invia lo script msc al percorso /sbin 
-
-```cmd
-adb push msc.sh /sbin/
-```
 
 #### Esegui lo script msc
 
 ```cmd
-adb shell sh /sbin/msc.sh
+adb shell msc
 ```
 
 ### Assegna le lettere ai dischi 
@@ -126,7 +120,7 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 ### Crea un backup dell'immagine di avvio (boot.img) esistente
 
 ```cmd
-adb shell "dd if=/dev/block/bootdevice/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
 ```
 
 ### Salva il backup sul computer
@@ -134,6 +128,12 @@ adb shell "dd if=/dev/block/bootdevice/by-name/boot$(getprop ro.boot.slot_suffix
 ```cmd
 adb pull /tmp/boot.img
 ```
+### Identifica il tuo pannello
+
+```cmd
+adb shell panel
+```
+
 
 ### Riavvia il dispositivo nel bootloader
 
@@ -141,10 +141,11 @@ adb pull /tmp/boot.img
 adb reboot bootloader
 ```
 
-### Esegui il flashing dell'immagine UEFI 
+### Scarica e installa l'immagine UEFI
+> Download image for [Huaxing](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_huaxing.img) or [Tianma](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_tianma.img) panel
 
 ```cmd
-fastboot flash boot boot-nabu.img
+fastboot flash boot <path to image>
 ```
 
 ### Per riavviare il dispositivo in Android

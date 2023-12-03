@@ -19,24 +19,23 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [Tập lệnh Mass storage mode](../../../../releases/tag/1.0)
 
 ### Boot vào recovery để định dạng lại Windows và phân vùng boot
 
 ```cmd
 fastboot boot <recovery.img>
 ```
-
-#### Đẩy msc script tới /sbin
+### Định dạng phân vùng
 
 ```cmd
-adb push msc.sh /sbin/
+adb shell format
 ```
+
 
 #### Thực thi msc script
 
 ```cmd
-adb shell sh /sbin/msc.sh
+adb shell msc
 ```
 
 ### Gán lại kí tự cho ổ đĩa... một lần nữa dùm em nha
@@ -88,9 +87,6 @@ assign letter=y
 exit
 ```
 
-### Định dạng phân vùng
-
-Sau khi phân vùng xuất hiện trong file explore, chuột phải vào và chọn **format**. Làm để cho cả hai phân vùng. Không thay đổi cài đặt nào nhé, nó đã được thiết lập sẵn rồi.
 
 ### Cài đặt
 

@@ -8,7 +8,6 @@
 ### Требования
 
 - [Образ UEFI](../../../../releases/tag/1.0)
-- [Скрипт монтирования разделов](../../../../releases/tag/1.0)
 - [TWRP](../../../../releases/tag/1.0)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
 - [Драйверы](https://github.com/map220v/MiPad5-Drivers)

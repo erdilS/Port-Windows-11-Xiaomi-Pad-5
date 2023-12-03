@@ -13,30 +13,29 @@
 
 ### Requisitos previos
 
-- Windows existentes y particiones de arranque (*Si no se cumplen, [regrese y finja que esta guía nunca existió](/guide/English/1-partition-en.md)*)
+- Windows existentes y particiones de arranque (*Si no se cumplen, [regrese y finja que esta guía nunca existió](/guide/Español/1-particiones-es.md)*)
 
 - [Recovery](../../../../releases/tag/1.0)
 
-- [ADB y Fastboot] (https://developer.android.com/studio/releases/platform-tools)
+- [ADB y Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [Script Mass storage mode](../../../../releases/tag/1.0)
 
 ### Inicia el recovery para formatear Windows y las particiones de arranque
 
 ``` cmd
 fastboot boot <recovery.img>
 ```
+### Formatear las particiones
 
-#### Pasar msc a /sbin
 
 ``` cmd
-adb push msc.sh /sbin/
+adb shell format
 ```
 
 #### Ejecutar el script msc
 
 ``` cmd
-adb shell sh /sbin/msc.sh
+adb shell msc
 ```
 
 ### Asignar letras a los discos... de nuevo
@@ -88,10 +87,7 @@ assign letter=y
 exit
 ```
 
-### Formatear las particiones
-
-Después de que las particiones hayan aparecido en su explorador de archivos, haga clic con el botón derecho en ellas y haga clic en **formatear**. Hazlo para ambas particiones. No cambie ninguna configuración, ya está configurada.
 
 ### Instalar
 
-- Continuar la guía desde [aquí](/guide/English/2-install-en.md#install)
+- Continuar la guía desde [aquí](2-instalacion-es.md#Instalar)

@@ -37,117 +37,17 @@
 ```cmd
 fastboot boot <recovery.img>
 ```
-> Eğer cihazınızda halihazırda TWRP yüklüyse bu aşamada tek yapmanız gereken şey cihaz kapalıyken güç tuşuna ve ses açma tuşuna aynı anda basılı tutmak.
+##### Bölümleme komut dosyasını çalıştırın
 
-#### Varsayılan olarak bağlanmış bölümlerin bağlantısını kesin
+> Sizden bir kez daha çalıştırmanızı isterse, bunu yapın
+
+> Bu **isteğe bağlıdır** ancak bu komut dosyasını kullanarak **özel boyutlar ayarlayabilirsiniz**
+> Özel boyutları ayarlamak için ```adb shell partition [GB CİNSİNDEN HEDEF WİNDOWS BOYUTU]```
+
+> Sonunda GB eklemediğinizden emin olun, sadece sayı
+
 ```cmd
-adb shell twrp unmount /data
-```
-
-## ADB Shell'i başlatın
-```cmd
-adb shell
-```
-
-### Bölüm tablosunu genişletin
-> Bu işlemle beraber Windows bölümleri cihaza sığacaktır.
-```sh
-sgdisk --resize-table 64 /dev/block/sda
-```
-
-### parted dosyasının izinlerini düzeltin
-```sh
-chmod 755 /tmp/parted
-```
-
-### parted'ı başlatın
-```sh
-/tmp/parted /dev/block/sda
-```
-
-
-### `userdata` bölümünü silin
-> Dilerseniz
->  `print all`
-> komutuyla 31 numaralı bölümün userdata olduğunu kontrol edebilirsiniz. Yanlış bölümü silmek cihazı geri dönülemez bir şekilde brick etmeye yol açabilir.
-```sh
-rm 31
-```
-
-### Gerekli bölümleri oluşturun
-> Eğer "ignore or cancel" tarzında uyarılar alırsanız sadece "i" yazıp Enter tuşuna basın.
-
-<details>
-<summary><b><strong>128GB modeller için</strong></b></summary>
-
-- ESP bölümünü oluşturun (Windows önyükleme yöneticisini ve EFI dosyalarını barındırır)
-```sh
-mkpart esp fat32 10.9GB 11.4GB
-```
-
-- Windows'un yükleneceği ana bölümü oluşturun
-```sh
-mkpart win ntfs 11.4GB 70.2GB
-```
-
-- Android'in data bölümünü oluşturun
-```sh
-mkpart userdata ext4 70.2GB 126GB
-```
-  </summary>
-</details>
-
-<details>
-<summary><b><strong>256GB modeller için</strong></b></summary>
-
-- ESP bölümünü oluşturun (Windows önyükleme yöneticisini ve EFI dosyalarını barındırır)
-```sh
-mkpart esp fat32 10.9GB 11.4GB
-```
-
-- Windows'un yükleneceği ana bölümü oluşturun
-```sh
-mkpart win ntfs 11.4GB 120.8GB
-```
-
-- Android'in data bölümünü oluşturun
-```sh
-mkpart userdata ext4 120.8GB 254GB
-```
-  </summary>
-</details>
-
-### ESP bölümünü EFI imajının algılayabilmesi için önyüklenebilir yapın
-```sh
-set 31 esp on
-```
-
-### parted'dan çıkın
-```sh
-quit
-```
-
-### TWRP'ye ilk aşamadaki gibi tekrardan girin
-
-### Tekrardan ADB Shell'i başlatın
-```cmd
-adb shell
-```
-
-### Bölümleri biçimlendirin
--  ESP bölümünü FAT32 olarak biçimlendirin
-```sh
-mkfs.fat -F32 -s1 /dev/block/bootdevice/by-name/esp -n ESPNABU
-```
-
--  Windows bölümünü NTFS olarak biçimlendirin
-```sh
-mkfs.ntfs -f /dev/block/bootdevice/by-name/win -L WINNABU
-```
-
--  Userdata bölümünü EXT4 olarak biçimlendirin
-```sh
-mke2fs -t ext4 /dev/block/bootdevice/by-name/userdata
+adb shell partition
 ```
 
 ### Android'in açılıp açılmadığını kontrol edin.

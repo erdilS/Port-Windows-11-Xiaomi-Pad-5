@@ -8,7 +8,6 @@
 ### Prerequisiti
 
 - [UEFI](../../../../releases/tag/1.0)
-- [script storage di massa](../../../../releases/tag/1.0)
 - [TWRP](../../../../releases/tag/1.0)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
 - [Drivers](https://github.com/map220v/MiPad5-Drivers)
@@ -19,16 +18,11 @@
 fastboot boot <recovery.img>
 ```
 
-#### Invia lo script
-
-```cmd
-adb push msc.sh /sbin/
-```
 
 #### Esegui lo script
 
 ```cmd
-adb shell msc.sh
+adb shell msc
 ```
 
 ### Assegna le lettere ai dischi

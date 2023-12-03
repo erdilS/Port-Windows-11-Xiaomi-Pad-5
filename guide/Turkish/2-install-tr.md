@@ -9,7 +9,6 @@
 
 - [ARM64 Mimaride Çalışabilen Windows ISO imajı](https://uupdump.net/)
 - [UEFI imajı](../../../../releases/tag/1.0)
-- [Yığın depolama modu betiği](../../../../releases/tag/1.0)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
 - [Sürücüler](https://github.com/map220v/MiPad5-drivers)
 
@@ -20,16 +19,10 @@
 fastboot boot <recovery.img>
 ```
 
-### msc betiğini /sbin dizinine kopyalayın
-
-```cmd
-adb push msc.sh /sbin/
-```
-
 ### msc betiğini çalıştırın
 
 ```cmd
-adb shell sh /sbin/msc.sh
+adb shell msc
 ```
 > Bu aşamadan sonra tabletinizdeki tüm bölümler bilgisayarınızda taşınabilir sabit disk olarak görünecektir. İlk aşamada uyarıldığı gibi diskpart üzerinden silme işlemi yapmamaya dikkat edin.
 
@@ -124,7 +117,7 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 ### Mevcut boot bölümünün bir yedeğini alın
 
 ```cmd
-adb shell "dd if=/dev/block/bootdevice/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
 ```
 
 ##### Bu yedeği bilgisayarınıza kopyalayın
@@ -132,6 +125,12 @@ adb shell "dd if=/dev/block/bootdevice/by-name/boot$(getprop ro.boot.slot_suffix
 ```cmd
 adb pull /tmp/boot.img
 ```
+### Panelinizi tanımlayın
+
+```cmd
+adb shell panel
+```
+
 
 ### Bootloader moduna geçiş yapın
 
@@ -139,12 +138,12 @@ adb pull /tmp/boot.img
 adb reboot bootloader
 ```
 
-### UEFI imajını Fastboot aracılığıyla yükleyin
+### UEFI görüntüsünü indirin ve flaşlayın
+> İçin resmi indirin [Huaxing](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_huaxing.img) veya [Tianma](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_tianma.img) panel
 
 ```cmd
-fastboot flash boot boot-nabu.img
+fastboot flash boot <path to image>
 ```
-
 > Bu aşamadan itibaren cihazınızı başlatıp Windows'u kullanabilirsiniz.
 
 # Android'e geri dönüş yapmak
