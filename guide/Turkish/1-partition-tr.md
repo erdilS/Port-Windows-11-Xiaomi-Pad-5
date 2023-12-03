@@ -42,7 +42,7 @@ fastboot boot <recovery.img>
 > Sizden bir kez daha çalıştırmanızı isterse, bunu yapın
 
 > Bu **isteğe bağlıdır** ancak bu komut dosyasını kullanarak **özel boyutlar ayarlayabilirsiniz**
-> Özel boyutları ayarlamak için ```adb kabuk bölümü [GB CİNSİNDEN HEDEF WİNDOWS BOYUTU]```
+> Özel boyutları ayarlamak için ```adb shell partition [GB CİNSİNDEN HEDEF WİNDOWS BOYUTU]```
 
 > Sonunda GB eklemediğinizden emin olun, sadece sayı
 
