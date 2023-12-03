@@ -4,9 +4,8 @@
 
 ## 更新驅動文件
 
-### 請先準備下面的文件
+### 請先準備下面的步驟
 - [UEFI boot 映像](../../../../releases/tag/1.0)
-- [msc 模式腳本](../../../../releases/tag/1.0)
 - [TWRP](../../../../releases/tag/1.0)
 - [驅動更新工具](https://github.com/WOA-Project/DriverUpdater/releases/latest)
 - [驅動文件](https://github.com/map220v/MiPad5-Drivers)
@@ -16,14 +15,9 @@
 fastboot boot <recovery.img>
 ```
 
-#### 複製 msc 腳本至 /sbin
-```cmd
-adb push msc.sh /sbin/
-```
-
 #### 執行 msc 模式腳本
 ```cmd
-adb shell sh /sbin/msc.sh
+adb shell msc
 ```
 
 ### 重新分配驅動器號
@@ -34,6 +28,9 @@ adb shell sh /sbin/msc.sh
 diskpart
 ```
 
+#### 確認分區掛載情況
+> 如果「WINNABU」分區已經被掛載在 X, 那麽請直接退出 Diskpart 並繼續
+
 #### 選中平板上的 Windows 分區
 > 使用 `list volume` 以找到名為「WINNABU」的分區
 ```diskpart
@@ -41,6 +38,7 @@ select volume <number>
 ```
 
 #### 分配 Windows 分區到 `X` 盤
+> 如果您遇到錯誤「指定的磁碟機代號已在使用中，因此無法指定」, 請重啟您的電腦 (不是平板電腦) 並打開 Diskpart 再試一次
 ```diskpart
 assign letter=x
 ```

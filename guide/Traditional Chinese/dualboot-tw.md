@@ -12,7 +12,7 @@
 - 安裝 [Cygwin](https://www.cygwin.com/setup-x86_64.exe)
 - 將您的 Android Boot 鏡像重命名為 boot.img
 - 將您的 Android Boot 鏡像放置於  C:\ (C:\boot.img)
-- 以管理員啟動 Bat 腳本
+- 以管理員啟動對應當前激活的 slot 的腳本
 
 ### Android --> Windows
 - 在您的設備上安裝 switchtowin.apk
