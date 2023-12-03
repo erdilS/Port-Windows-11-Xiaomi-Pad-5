@@ -13,4 +13,4 @@
 - [Español](Español/Actualizar-es.md)
 - [Ukrainian](Ukrainian/update-uk.md)
 - ~[Vietnamese](Vietnamese/update-vi.md)~
-- ~[Traditional Chinese](Traditional%20Chinese/update-tw.md)~
+- [Traditional Chinese](Traditional%20Chinese/update-tw.md)
