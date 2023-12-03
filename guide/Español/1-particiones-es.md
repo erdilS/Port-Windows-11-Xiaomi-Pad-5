@@ -38,7 +38,7 @@ fastboot boot <recovery.img>
 
 > Para establecer tamaños personalizados, haga partición de  ```shell adb [TAMAÑO DE WINDOWS DE DESTINO EN GB] ```
 
-> Make sure you do not add GB at the end, just the number
+> Asegúrese de no agregar GB al final, solo el número
 
 ```cmd
 adb shell partition
