@@ -1,93 +1,74 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-
 # 在 Xiaomi Pad 5 上執行 Windows
 
 ## 重新安裝
 
 ### 若發生錯誤，您可重新安裝 Windows
+- 如果您不喜歡您的 Windows 版本, 或者您的 Windows 安裝損壞, 或有其他的原因, 您可能會想要重新安裝 Windows
+- 如果您尚未還原您的分區表 (您的設備仍然包含 Windows 和 ESP 分區), 您可以參考以下指南
+- 如果您已經初始化了分區表到原廠狀態, [請回到這篇文章來繼續](/guide/Traditional%20Chinese/1-partition-tw.md)
 
-- 如果您不喜歡您的 Windows 版本，或者您的平板電腦在 Windows 安裝時變磚，或者其他的原因，您可能會直接重新安裝 Windows。，這個程序非常簡單。
+### 請先準備下面的步驟
+- [Recovery 鏡像](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [ADB & Fastboot (Android Platform Tools)](https://developer.android.com/studio/releases/platform-tools)
 
-- 如果您尚未還原您的磁碟分割表格，您可以使用現有的分割區來使用本指南。
-
-### 先決條件
-
-- 包含 Windows 和 Boot 分割區 (*若不符合要求，[回到過去，就當這個指南不存在吧](/guide/Traditional%20Chinese/1-partition-tw.md)*)
-
-- [Recovery 映像](../../../../releases/tag/1.0)
-
-- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
-
-- [大型存放模式指令碼](../../../../releases/tag/1.0)
-
-### 開機至 Recovery 以格式化 Windows 和 Boot 分割區
-
+#### 請進入 Fastboot 模式, 並輸入以下命令來啟動到 Recovery
 ```cmd
 fastboot boot <recovery.img>
 ```
-### 格式化分割區
 
+#### 格式化 Windows 和 EFI 分區
 ```cmd
 adb shell format
 ```
 
-#### 執行 msc 指令碼
-
+#### 執行 msc 模式腳本
 ```cmd
 adb shell msc
 ```
 
-### 指派代號至磁碟…再做一次
-  
+### 重新分配驅動器號
 
 #### 啟動 Windows 磁碟管理員
-
-> 一旦 Xiaomi Pad 5 被偵測為一個磁碟
-
+> 請確認您的 Xiaomi Pad 5 被 Windows 識別為磁碟
 ```cmd
 diskpart
 ```
 
-- 「WINNABU」分割區應該已經顯示為字母 X。若這樣，跳轉至 `指派 Y 至 ESP 磁碟區`
+#### 確認分區掛載情況
+> 如果「WINNABU」分區已經被掛載在 X, 那麽請跳至分配 ESP 分區
+>
+> 如果「ESPNABU」分區已經被掛載在 Y, 那麽請直接退出 Diskpart 並繼續
 
-#### 指派 `X` 至 Windows 磁碟區
-
-#### 選取平板電腦的 Windows 磁碟區
-> 使用 `list volume` 以找到它，其名為「WINNABU」
-
+#### 選中平板上的 Windows 分區
+> 使用 `list volume` 以找到名為「WINNABU」的分區
 ```diskpart
 select volume <number>
 ```
 
-#### 指派代號 X
+#### 分配 Windows 分區到 `X` 盤
+> 如果您遇到錯誤「指定的磁碟機代號已在使用中，因此無法指定」, 請重啟您的電腦 (不是平板電腦) 並打開 Diskpart 再試一次
 ```diskpart
 assign letter=x
 ```
 
-### 指派 `Y` 至 ESP 磁碟區
-
-#### 選取平板電腦的 ESP 磁碟區
-> 使用 `list volume` 以找到它，其名為「ESPNABU」
-
+#### 選中平板上的 ESP 分區
+> 使用 `list volume` 以找到名為「ESPNABU」的分區
 ```diskpart
 select volume <number>
 ```
 
-#### 指派代號 Y
-
+#### 分配 ESP 分區到 `Y` 盤
+> 如果您遇到錯誤「指定的磁碟機代號已在使用中，因此無法指定」, 請重啟您的電腦 (不是平板電腦) 並打開 Diskpart 再試一次
 ```diskpart
 assign letter=y
 ```
 
-- 如果您遇到錯誤「指定的磁碟機代號已在使用中，因此無法指定」，僅需重新啟動您的電腦並從 Diskpart 再試一次。先不要觸碰您的平板電腦。
-
-#### 離開 Diskpart
+#### 退出 DiskPart
 ```diskpart
 exit
 ```
 
-
 ### 安裝
-
 - 繼續來自[這裡](/guide/Traditional%20Chinese/2-install-tw.md#install)的指南

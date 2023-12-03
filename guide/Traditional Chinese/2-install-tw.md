@@ -4,7 +4,7 @@
 
 ## 安裝 Windows
 
-### 請先準備下面的文件
+### 請先準備下面的步驟
 - [Windows on ARM 映像](https://uupdump.net/)
 - [UEFI boot 映像](../../../../releases/tag/1.0)
 - [驅動更新工具](https://github.com/WOA-Project/DriverUpdater/releases/latest)
@@ -91,8 +91,7 @@ adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.
 ```cmd
 adb pull /tmp/boot.img
 ```
-### Identify your panel
-
+### 確認您的顯示面板型號
 ```cmd
 adb shell panel
 ```
@@ -101,13 +100,14 @@ adb shell panel
 ```cmd
 adb reboot bootloader
 ```
-### Download and flash UEFI image
-> Download image for [Huaxing](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_huaxing.img) or [Tianma](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_tianma.img) panel
 
+### 下載並刷入與您顯示面板相對應的 UEFI Boot 鏡像
+> 適用於 [Huaxing](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_huaxing.img) 顯示面板
+> 或
+> 適用於 [Tianma](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_tianma.img) 顯示面板
 ```cmd
 fastboot flash boot <path to image>
 ```
-
 
 ### 回退到 Android **可選**
 > 使用您之前備份過的 Boot 鏡像, 並刷入到當前激活的 slot
