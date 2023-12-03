@@ -13,7 +13,7 @@
 
 ### Requisitos previos
 
-- Windows existentes y particiones de arranque (*Si no se cumplen, [regrese y finja que esta guía nunca existió](/guide/English/1-partition-en.md)*)
+- Windows existentes y particiones de arranque (*Si no se cumplen, [regrese y finja que esta guía nunca existió](/guide/Español/1-particiones-es.md)*)
 
 - [Recovery](../../../../releases/tag/1.0)
 
