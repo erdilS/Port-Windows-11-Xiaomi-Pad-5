@@ -30,7 +30,19 @@ Este paso es necesario para que hagamos las particiones donde estará nuestra in
 ```cmd
 fastboot boot <recovery.img>
 ```
+##### Ejecute el script de particionamiento
 
+> Si le pide que lo ejecute una vez más, hágalo
+
+> Esto es **opcional** pero puede **establecer tamaños personalizados usando este script**
+
+> Para establecer tamaños personalizados, haga partición de  ```shell adb [TAMAÑO DE WINDOWS DE DESTINO EN GB] ```
+
+> Make sure you do not add GB at the end, just the number
+
+```cmd
+adb shell partition
+```
 
 ### Comprobar si Android inicia
 Solo reinicia y comprueba que Android sigue funcionando.
