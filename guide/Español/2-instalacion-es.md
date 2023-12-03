@@ -21,15 +21,11 @@
 fastboot boot <recovery.img>
 ```
 
-### Pasar msc a /sbin
-```cmd
-adb push msc.sh /sbin/
-```
 
 ### Ejecutar el msc 
 
 ```cmd
-adb shell sh /sbin/msc.sh
+adb shell msc
 ```
 
 ## Asignar letras a los discos
@@ -136,18 +132,16 @@ adb pull /tmp/boot.img
 ### Identifica tu panel
 
 ```cmd
-adb shell "dmesg | grep dsi_display_bind"
+adb shell panel
 ```
-
-- Si tu dispositivo usa el panel Huaxing la salida de el comando mostrará ```dsi_k82_42_02_0a_dual_cphy_video```
-- Si tu dispositivo usa el panel Tianma la salida de el comando mostrará ```dsi_k82_36_02_0b_dual_cphy_video```
-
 
 ### Reiniciar al bootloader
 
 ```cmd
 adb reboot bootloader
 ```
+### Download and flash UEFI image
+> Descargar imagen para [Huaxing](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_huaxing.img) o [Tianma](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_tianma.img) panel
 
 ### Flashea la imagen uefi desde TWRP
 > Reemplaza ```<panel>``` por el panel de tu dispositivo
