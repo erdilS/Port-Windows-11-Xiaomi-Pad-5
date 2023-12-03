@@ -19,7 +19,6 @@
 
 - [ADB y Fastboot] (https://developer.android.com/studio/releases/platform-tools)
 
-- [Script Mass storage mode](../../../../releases/tag/1.0)
 
 ### Inicia el recovery para formatear Windows y las particiones de arranque
 
