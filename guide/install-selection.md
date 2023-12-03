@@ -11,6 +11,6 @@
 - [Russian](Russian/partition-ru.md)
 - [Italian](Italian/1-partizioni-it.md)
 - ~[Español](Español/1-particiones-es.md)~
-- ~[Ukrainian](Ukrainian/partition-uk.md)~
+- [Ukrainian](Ukrainian/partition-uk.md)
 - ~[Vietnamese](Vietnamese/1-partition-vi.md)~
 - [Traditional Chinese](Traditional%20Chinese/1-partition-tw.md)
