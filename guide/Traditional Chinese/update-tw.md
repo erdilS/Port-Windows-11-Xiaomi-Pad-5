@@ -6,7 +6,6 @@
 
 ### 請先準備下面的文件
 - [UEFI boot 映像](../../../../releases/tag/1.0)
-- [msc 模式腳本](../../../../releases/tag/1.0)
 - [TWRP](../../../../releases/tag/1.0)
 - [驅動更新工具](https://github.com/WOA-Project/DriverUpdater/releases/latest)
 - [驅動文件](https://github.com/map220v/MiPad5-Drivers)
@@ -16,14 +15,9 @@
 fastboot boot <recovery.img>
 ```
 
-#### 複製 msc 腳本至 /sbin
-```cmd
-adb push msc.sh /sbin/
-```
-
 #### 執行 msc 模式腳本
 ```cmd
-adb shell sh /sbin/msc.sh
+adb shell msc
 ```
 
 ### 重新分配驅動器號
@@ -63,7 +57,7 @@ adb reboot bootloader
 
 ### 刷入 UEFI boot 鏡像到當前激活的 slot
 ```cmd
-fastboot flash boot boot-nabu.img
+fastboot flash boot <UEFI.img>
 ```
 
 ## 完成
