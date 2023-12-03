@@ -25,6 +25,11 @@
 ```cmd
 fastboot boot <recovery.img>
 ```
+### Định dạng phân vùng
+
+```cmd
+adb shell format
+```
 
 
 #### Thực thi msc script
@@ -82,9 +87,6 @@ assign letter=y
 exit
 ```
 
-### Định dạng phân vùng
-
-Sau khi phân vùng xuất hiện trong file explore, chuột phải vào và chọn **format**. Làm để cho cả hai phân vùng. Không thay đổi cài đặt nào nhé, nó đã được thiết lập sẵn rồi.
 
 ### Cài đặt
 
