@@ -16,14 +16,9 @@
 fastboot boot <recovery.img>
 ```
 
-#### 複製 msc 腳本至 /sbin
-```cmd
-adb push msc.sh /sbin/
-```
-
 #### 執行 msc 模式腳本
 ```cmd
-adb shell sh /sbin/msc.sh
+adb shell msc
 ```
 
 ### 重新分配驅動器號
@@ -90,18 +85,30 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 
 ### 備份現在的 Boot 分區
 ```cmd
-adb shell "dd if=/dev/block/bootdevice/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
 ```
 
 ### 提取 Boot 鏡像到電腦
 ```cmd
 adb pull /tmp/boot.img
 ```
+### Identify your panel
+
+```cmd
+adb shell panel
+```
 
 ### 重啟到 Bootloader
 ```cmd
 adb reboot bootloader
 ```
+### Download and flash UEFI image
+> Download image for [Huaxing](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_huaxing.img) or [Tianma](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_tianma.img) panel
+
+```cmd
+fastboot flash boot <path to image>
+```
+
 
 ### 刷入 UEFI boot 鏡像到當前激活的 slot
 ```cmd
