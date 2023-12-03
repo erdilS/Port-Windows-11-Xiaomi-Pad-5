@@ -5,7 +5,6 @@
 ### Prerequisites
 
 - [UEFI imajı](../../../../releases/tag/1.0)
-- [Yığın depolama modu betiği](../../../../releases/tag/1.0)
 - [Recovery imajı](../../../../releases/tag/1.0)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
 - [Sürücüler](https://github.com/map220v/MiPad5-Drivers)
@@ -16,16 +15,11 @@
 fastboot boot <recovery.img>
 ```
 
-## msc betiğini cihaza kopyalayın
-
-```cmd
-adb push msc.sh /sbin/
-```
 
 ### Betiği çalıştırın
 
 ```cmd
-adb shell sh /sbin/msc.sh
+adb shell msc
 ```
 > Bu aşamadan sonra tabletinizdeki tüm bölümler bilgisayarınızda taşınabilir sabit disk olarak görünecektir. İlk aşamada uyarıldığı gibi diskpart üzerinden silme işlemi yapmamaya dikkat edin.
 
