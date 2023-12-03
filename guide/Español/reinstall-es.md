@@ -17,7 +17,7 @@
 
 - [Recovery](../../../../releases/tag/1.0)
 
-- [ADB y Fastboot] (https://developer.android.com/studio/releases/platform-tools)
+- [ADB y Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
 
 ### Inicia el recovery para formatear Windows y las particiones de arranque
