@@ -109,11 +109,6 @@ fastboot flash boot <path to image>
 ```
 
 
-### 刷入 UEFI boot 鏡像到當前激活的 slot
-```cmd
-fastboot flash boot boot-nabu.img
-```
-
 ### 回退到 Android **可選**
 > 使用您之前備份過的 Boot 鏡像, 並刷入到當前激活的 slot
 ```cmd
