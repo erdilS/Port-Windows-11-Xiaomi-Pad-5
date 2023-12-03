@@ -7,10 +7,10 @@
 ### Select your language
 
 - [English](English/update-en.md)
-- ~[Turkish](Turkish/update-tr.md)~
+- [Turkish](Turkish/update-tr.md)
 - [Russian](Russian/update-ru.md)
 - [Italian](Italian/aggiornamento-driver-it.md)
 - [Español](Español/Actualizar-es.md)
 - [Ukrainian](Ukrainian/update-uk.md)
-- ~[Vietnamese](Vietnamese/update-vi.md)~
+- [Vietnamese](Vietnamese/update-vi.md)
 - [Traditional Chinese](Traditional%20Chinese/update-tw.md)
