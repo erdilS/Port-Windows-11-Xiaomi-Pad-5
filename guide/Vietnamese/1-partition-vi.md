@@ -39,115 +39,18 @@
 ```cmd
 fastboot boot <recovery.img>
 ```
-> Nếu bạn đã cài TWRP, chỉ cần giữ nút Nguồn và Vol+ để khởi động
+##### Chạy tập lệnh phân vùng
 
-#### Khởi động ADB shell
+> Nếu nó yêu cầu bạn chạy nó một lần nữa, hãy làm như vậy
+
+> Đây là **tùy chọn** nhưng bạn có thể **đặt kích thước tùy chỉnh bằng cách sử dụng tập lệnh này**
+
+> Để đặt kích thước tùy chỉnh, hãy thực hiện  ```adb shell partition [NHẮM MỤC TIÊU KÍCH THƯỚC WINDOWS TÍNH BẰNG GB]```
+
+> Đảm bảo rằng bạn không thêm GB ở cuối, chỉ số
+
 ```cmd
-adb shell
-```
-
-#### Phân vùng cài đặt
-> Để phân vùng Windows có thể hoạt động
-```sh
-sgdisk --resize-table 64 /dev/block/sda
-```
-
-#### Bắt đầu chia
-```sh
-parted /dev/block/sda
-```
-
-#### Xoá phân vùng `userdata`
-> Hãy đảm bảo rằng 31 là số của userdata trước khi chạy (Nhìn vào xem phải 31 là user data hay không)
->  `print all`
-```sh
-rm 31
-```
-
-#### Tạo phân vùng
-> Nếu có bất kì thông báo nào bảo bạn "ignore" (bỏ qua), cứ ấn i và enter
-
-
-<details>
-<summary><b><strong>Cho máy 128GB</strong></b></summary>
-
-- Tạo phân vùng ESP (chứa Windows bootloader data và EFI files)
-```sh
-mkpart esp fat32 10.9GB 11.4GB
-```
-
-- Tạo phân vùng chính để cài Windows
-```sh
-mkpart win ntfs 11.4GB 70.2GB
-```
-
-- Phân vùng cho Android hoạt động
-```sh
-mkpart userdata ext4 70.2GB 126GB
-```
-  </summary>
-</details>
-
-<details>
-<summary><b><strong>Cho máy 256GB</strong></b></summary>
-
-- Tạo phân vùng ESP (chứa Windows bootloader data và EFI files)
-```sh
-mkpart esp fat32 10.9GB 11.4GB
-```
-
-- Tạo phân vùng chính để cài Windows
-```sh
-mkpart win ntfs 11.4GB 120.8GB
-```
-
-- Phân vùng cho Android hoạt động
-```sh
-mkpart userdata ext4 120.8GB 254GB
-```
-
-  </summary>
-</details>
-
-
-#### Tạo phân vùng ESP có thể boot để EFI image có thể nhận diện
-```sh
-set 31 esp on
-```
-
-#### Thoát phân chia (parted)
-```sh
-quit
-```
-#### Reboot vào bootloader
-```sh
-reboot bootloader
-```
-
-#### Boot vào recovery
-```cmd
-fastboot boot <recovery.img>
-```
-
-#### Bắt đầu adb shell tiếp
-```cmd
-adb shell
-```
-
-#### Định dạng phân vùng
--  Định dạng phân vùng ESP là FAT32
-```sh
-mkfs.fat -F32 -s1 /dev/block/bootdevice/by-name/esp -n ESPNABU
-```
-
--  Định dạng phân vùng Windows là NTFS
-```sh
-mkfs.ntfs -f /dev/block/bootdevice/by-name/win -L WINNABU
-```
-
--  Định dạng userdata
-```sh
-mke2fs -t ext4 /dev/block/bootdevice/by-name/userdata
+adb shell partition
 ```
 
 
