@@ -26,17 +26,16 @@
 ```cmd
 fastboot boot <recovery.img>
 ```
-
-#### 推入 msc 指令碼至 /sbin
+### 格式化分割區
 
 ```cmd
-adb push msc.sh /sbin/
+adb shell format
 ```
 
 #### 執行 msc 指令碼
 
 ```cmd
-adb shell sh /sbin/msc.sh
+adb shell msc
 ```
 
 ### 指派代號至磁碟…再做一次
@@ -88,9 +87,6 @@ assign letter=y
 exit
 ```
 
-### 格式化分割區
-
-在分割區顯示在您的檔案總管之後，以滑鼠右鍵按一下它，並按下**格式化**。對兩個分割區都這樣做，不要變更任何設定，它們已經過設定。
 
 ### 安裝
 
