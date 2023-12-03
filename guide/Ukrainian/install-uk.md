@@ -6,16 +6,11 @@
 fastboot boot <recovery.img>
 ```
 
-### Скопіюйте сценарій msc.sh до /sbin
-
-```cmd
-adb push msc.sh /sbin/
-```
 
 ### Виконайте сценарій msc.sh
 
 ```cmd
-adb shell sh /sbin/msc.sh
+adb shell msc
 ```
 
 ## Призначте літери розділам
@@ -102,7 +97,7 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 ### Зробіть резервну копію поточного загрузочного розділа
 
 ```cmd
-adb shell "dd if=/dev/block/bootdevice/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
 ```
 
 ##### Скопіюйте резервну копію на компьютер
@@ -111,16 +106,23 @@ adb shell "dd if=/dev/block/bootdevice/by-name/boot$(getprop ro.boot.slot_suffix
 adb pull /tmp/boot.img
 ```
 
+### Визначте свою панельВизначте свою панель
+
+```cmd
+adb shell panel
+```
+
 ### Завантажте відновлення
 
 ```cmd
 adb reboot bootloader
 ```
 
-### Прошийте образ uefi з TWRP
+### Завантажте та прошийте зображення UEFI
+> Завантажити зображення для [Huaxing](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_huaxing.img) або [Tianma](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_tianma.img) panel
 
 ```cmd
-fastboot flash boot boot-nabu.img
+fastboot flash boot <шлях до зображення>
 ```
 
 # Завантажте Android
