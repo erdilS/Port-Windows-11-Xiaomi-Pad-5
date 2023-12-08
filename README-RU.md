@@ -1,7 +1,7 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 
-# Running Windows on the Xiaomi Pad 5
+# Запуск Windows на Xiaomi Pad 5
 
 ## ⚠️ Warning
 Мы не несем ответственности за сломанные устройства, отсутствующие разделы, плохих работников на линии производства Xiaomi, мёртвые карты памяти, мертвые чипы управления питанием, мертвую ОЗУ, мёртвые контроллеры экрана, мёртвые процессоры, мёртвых кошек и собак и ядерные войны.
@@ -13,7 +13,7 @@
 
 ## Язык
 [Русский](README-RU.md) | [English](README.md)
-## Get Started
+## Начнём
 
 - [Установка](guide/install-selection.md)
 
