@@ -23,8 +23,6 @@
 > 
  Aynı komutları ikişer kez (ya da daha fazla) çalıştırmayın.
 > 
-> Recovery modunda ekran çalışmamaktadır. Tüm işlemleri shell vasıtasıyla yapacağız.
-> 
 > Eğer hata yaptığınızı düşünüyorsanız TABLETİNİZİ YENİDEN BAŞLATMAYIN ve [Telegram grubumuzdan](https://t.me/nabuwoa) yardım isteyin.
 >
 > 
