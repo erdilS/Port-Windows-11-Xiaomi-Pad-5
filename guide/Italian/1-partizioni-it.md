@@ -25,8 +25,6 @@
 > 
 > Non eseguire lo stesso comando due volte
 > 
-> In recovery, lo schermo non funziona.
-> 
 > NON RIAVVIARE IL TUO DISPOSITIVO se pensi di aver commesso un errore, chiedi aiuto nella [chat Telegram](https://t.me/nabuwoa)
 > 
 >
