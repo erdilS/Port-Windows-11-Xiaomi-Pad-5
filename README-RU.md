@@ -5,13 +5,13 @@
 
 ## ⚠️ Warning
 
-We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline workers cowboys, dead microSD cards, dead pmics, dead ram, dead display ics, dead cpus, any xiaomi shenanigans, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
+Мы не несем ответственности за заблокированные устройства, отсутствующие разделы восстановления, неработающих ковбоев xiaomi factoryline workers, неработающие карты microSD, неработающие pmic, неработающую оперативную память, неработающие микросхемы дисплея, неработающие процессоры, любые махинации Xiaomi, мертвых кошек или собак, ядерные войны или ваше увольнение из-за того, что вы забыли загрузиться на Android для сигнал тревоги.
 
-This project is in an early stage, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get. This is a delicate process, do it under your own risk and follow all the steps carefully.
+Этот проект находится на ранней стадии, все файлы здесь были предоставлены другими пользователями, здесь вы найдете руководство с рабочими файлами, которые нам удалось получить. Это деликатный процесс, делайте это на свой страх и риск и внимательно следуйте всем шагам.
 
 **IF YOU AREN'T COMFORTABLE MODDING YOUR TABLET OR ITS PARTITION TABLE OR YOU ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU ARE ON YOUR OWN IF YOU BRICK YOUR DEVICE!!! AGAIN! YOU HAVE BEEN WARNED!!!**
 
-## Language 
+## Язык
 
 ## Get Started
 
