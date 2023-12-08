@@ -25,8 +25,6 @@
 > 
 > Tuyệt đối KHÔNG nhập một lệnh 2 lần
 > 
-> Trong chế độ Recovery, màn hình không hoạt động
-> 
 > TUYỆT ĐỐI KHÔNG khởi động lại máy tính bảng, nếu cần hỗ trợ hãy hỏi tại [Telegram chat](https://t.me/nabuwoa)
 >
 >
