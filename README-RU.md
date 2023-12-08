@@ -4,35 +4,34 @@
 # Running Windows on the Xiaomi Pad 5
 
 ## ⚠️ Warning
+Мы не несем ответственности за сломанные устройства, отсутствующие разделы, плохих работников на линии производства Xiaomi, мёртвые карты памяти, мертвые чипы управления питанием, мертвую ОЗУ, мёртвые контроллеры экрана, мёртвые процессоры, мёртвых кошек и собак и ядерные войны.
 
-Мы не несем ответственности за заблокированные устройства, отсутствующие разделы восстановления, неработающих ковбоев xiaomi factoryline workers, неработающие карты microSD, неработающие pmic, неработающую оперативную память, неработающие микросхемы дисплея, неработающие процессоры, любые махинации Xiaomi, мертвых кошек или собак, ядерные войны или ваше увольнение из-за того, что вы забыли загрузиться на Android для сигнал тревоги.
+Установка Windows - опасный процесс, делайте это на свой страх и риск и осторожно следуйте инструкции.
+Этот проект находится на ранней стадии, все файлы здесь были предоставлены другими пользователями, здесь вы найдете руководство с рабочими файлами, которые нам удалось получить. Это деликатный процесс, делайте это на свой страх и риск и внимательно следуйте всем шагам!
 
-Этот проект находится на ранней стадии, все файлы здесь были предоставлены другими пользователями, здесь вы найдете руководство с рабочими файлами, которые нам удалось получить. Это деликатный процесс, делайте это на свой страх и риск и внимательно следуйте всем шагам.
-
-**IF YOU AREN'T COMFORTABLE MODDING YOUR TABLET OR ITS PARTITION TABLE OR YOU ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU ARE ON YOUR OWN IF YOU BRICK YOUR DEVICE!!! AGAIN! YOU HAVE BEEN WARNED!!!**
+**ЕСЛИ ВЫ БОИТЕСЬ МОДИФИЦИРОВАТЬ СВОЙ ТЕЛЕФОН ИЛИ БОИТЕСЬ ЕГО СЛОМАТЬ - НЕМЕДЛЕННО ПРЕКРАТИТЕ ЧИТАТЬ!!! ВЫ БЫЛИ ПРЕДУПРЕЖДЕНЫ, В СЛУЧАЕ ПОЛОМКИ ОТВЕТСТВЕННОСТЬ ЛЕЖИТ НА ВАС!!! ВЫ БЫЛИ ПРЕДУПРЕЖДЕНЫ!!!**
 
 ## Язык
-
+[Русский] | [English]
 ## Get Started
 
-- [Installation](guide/install-selection.md)
+- [Установка](guide/install-selection.md)
 
-- [Uninstallation](guide/uninstall-selection.md)
+- [Настройка двойной загрузки](guide/dualboot-selection.md)
 
+- [Удаление](guide/uninstall-selection.md)
 
-## Miscellaneous
+## Разное
 
-- [Dualboot Setup](guide/dualboot-selection.md)
+- [Статус Проекта](guide/status-selection.md)
 
-- [Project Status](guide/status-selection.md)
+- [Исправление ошибок](guide/troubleshooting-selection.md)
 
-- [Troubleshooting](guide/troubleshooting-selection.md)
+- [Обновление Драйверов](guide/driver-updating-selection.md)
 
-- [Updating Drivers](guide/driver-updating-selection.md)
+- [Переустановка](guide/reinstalling-selection.md)
 
-- [Reinstallation](guide/reinstalling-selection.md)
-
-## Contributors
+## Разработчики
 
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
 [<img alt="map220v" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/14368485?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/map220v)
