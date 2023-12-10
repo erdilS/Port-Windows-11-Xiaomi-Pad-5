@@ -7,7 +7,7 @@
 - [UEFI imajı](../../../../releases/tag/1.0)
 - [Recovery imajı](../../../../releases/tag/1.0)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
-- [Sürücüler](https://github.com/map220v/MiPad5-Drivers)
+- [Sürücüler](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 #### Recovery modunu bilgisayar aracılığıyla başlatın
 

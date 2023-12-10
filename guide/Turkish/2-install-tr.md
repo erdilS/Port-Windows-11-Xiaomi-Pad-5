@@ -10,7 +10,7 @@
 - [ARM64 Mimaride Çalışabilen Windows ISO imajı](https://uupdump.net/)
 - [UEFI imajı](../../../../releases/tag/1.0)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
-- [Sürücüler](https://github.com/map220v/MiPad5-drivers)
+- [Sürücüler](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 
 ### Windows'u yüklemeye başlamak için ilk olarak recovery modunda cihazı başlatın.

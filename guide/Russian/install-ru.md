@@ -9,7 +9,7 @@
 - [ARM образ Windows](https://uupdump.net/)
 - [Образ UEFI](/images/)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
-- [Драйверы](https://github.com/map220v/MiPad5-drivers)
+- [Драйверы](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ### Перезапустите рекавери чтобы начать установку Windows
 

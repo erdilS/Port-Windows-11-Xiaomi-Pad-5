@@ -12,7 +12,7 @@
 - [Windows ARM](https://uupdump.net/)
 - [UEFI](../../../../releases/tag/1.0)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
-- [Drivers](https://github.com/map220v/MiPad5-drivers)
+- [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 
 ### Iniciar recovery para instalar Windows
