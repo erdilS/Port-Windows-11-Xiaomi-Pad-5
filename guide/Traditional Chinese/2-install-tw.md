@@ -8,7 +8,7 @@
 - [Windows on ARM 映像](https://uupdump.net/)
 - [UEFI boot 映像](../../../../releases/tag/1.0)
 - [驅動更新工具](https://github.com/WOA-Project/DriverUpdater/releases/latest)
-- [驅動文件](https://github.com/map220v/MiPad5-Drivers)
+- [驅動文件](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ### 請進入 Fastboot 模式, 並輸入以下命令來啟动到 Recovery
 ```cmd

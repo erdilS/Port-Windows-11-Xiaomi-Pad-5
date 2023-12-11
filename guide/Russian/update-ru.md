@@ -10,7 +10,7 @@
 - [Образ UEFI](../../../../releases/tag/1.0)
 - [TWRP](../../../../releases/tag/1.0)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
-- [Драйверы](https://github.com/map220v/MiPad5-Drivers)
+- [Драйверы](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 #### Запустите рекавери с компьютера при помощи команды
 

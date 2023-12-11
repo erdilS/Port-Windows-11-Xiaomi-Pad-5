@@ -12,7 +12,7 @@
 - [Immagine Windows On Arm](https://uupdump.net/)
 - [immagine UEFI](../../../../releases/tag/1.0)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
-- [Drivers](https://github.com/map220v/MiPad5-drivers)
+- [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ### Riavvia di nuovo la recovery per avviare l'installazione di Windows
 
