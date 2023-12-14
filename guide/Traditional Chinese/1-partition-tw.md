@@ -19,8 +19,6 @@
 >
 > 如果您在操作中遇到了 `udevadm` 警告, 請忽略它們
 >
-> 在 Recovery 中, 屏幕將不會正常工作
->
 > 如果您遇到了意外錯誤, 請不要嘗試繼續執行後續命令或關機/重啟, 請到 [Telegram Chat](https://t.me/nabuwoa) 尋求幫助
 >
 > 請確保您的設備 Bootloader 已經解鎖
