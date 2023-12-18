@@ -127,7 +127,7 @@ adb reboot bootloader
 ```
 
 ### Download and flash UEFI image
-> Download image for [Huaxing](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_huaxing.img)
+> Download [UEFI image](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
 
 ```cmd
 fastboot flash boot <path to image>
