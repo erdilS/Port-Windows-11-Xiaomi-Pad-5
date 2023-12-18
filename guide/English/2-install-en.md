@@ -91,8 +91,7 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 > You can download Drivers [here](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ```cmd
- Open folder with Drivers
- that you download and run OfflineUpdater.cmd
+ Open folder with Drivers and run OfflineUpdater.cmd
 ```
 
 ### Create Windows bootloader files for the EFI
