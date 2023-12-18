@@ -14,7 +14,7 @@ Beta. La maggior parte dell'hardware funziona, ma alcuni componenti non funziona
 - [X] Bluetooth
 - [X] Luminositá
 - [ ] Fotocamera
-- [ ] Ricarica ``Al momento funziona lentamente ``
+- [X] Ricarica 
 - [X] Display
 - [X] Sospensione schermo / Modalitá sonno 
 - [X] GPU
