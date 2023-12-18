@@ -91,7 +91,7 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 > You can download Drivers [here](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ```cmd
- Open folder with [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+ Open folder with Drivers
  that you download and run OfflineUpdater.cmd
 ```
 
