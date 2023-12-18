@@ -9,8 +9,7 @@
 
 - [UEFI](../../../../releases/tag/1.0)
 - [TWRP](../../../../releases/tag/1.0)
-- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
-- [Drivers](https://github.com/map220v/MiPad5-Drivers)
+- [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 #### Start recovery through the PC with the command
 
@@ -58,13 +57,10 @@ exit
 
 ### Install Drivers
 
-> Replace `<nabudriversfolder>` with the location of the drivers folder
-
-> Open cmd as administrator
-
+> You can download Drivers [here](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ```cmd
-DriverUpdater.exe -d <nabudriversfolder>\definitions\Desktop\ARM64\Internal\nabu.txt -r <nabudriversfolder> -p X:
+ Open folder with Drivers and run OfflineUpdater.cmd
 ```
 
 
