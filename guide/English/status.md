@@ -34,4 +34,4 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [X] Gyroscope
 - [X] Magnetometer
 - [X] Proximity
-- [ ] Light sensor
+- [X] Light sensor
