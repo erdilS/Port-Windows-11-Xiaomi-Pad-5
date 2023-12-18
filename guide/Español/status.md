@@ -32,4 +32,4 @@ Beta. La mayor parte del hardware funciona, pero algunos componentes aún no fun
 - [X] Giroscopio
 - [X] Magnetómetro
 - [X] Proximidad
-- [ ] Sensor de luz
+- [X] Sensor de luz
