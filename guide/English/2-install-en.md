@@ -89,10 +89,9 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 ### Install Drivers
 
-> Replace `<nabudriversfolder>` with the location of the drivers folder
-
 ```cmd
-Open folder with Drivers that you download and run Offline
+Open folder with [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+ that you download and run OfflineUpdater.cmd
 ```
 
 ### Create Windows bootloader files for the EFI
