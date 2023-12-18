@@ -101,13 +101,7 @@ driverupdater.exe -d <nabudriversfolder>\definitions\Desktop\ARM64\Internal\nabu
 bcdboot X:\Windows /s Y: /f UEFI
 ```
 
-### Allow unsigned drivers
 
-> If you don't do this you'll get a BSOD
-
-```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
-```
 
 
 ## Boot into Windows
@@ -124,11 +118,6 @@ adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.
 adb pull /tmp/boot.img
 ```
 
-### Identify your panel
-
-```cmd
-adb shell panel
-```
 
 
 ### Reboot to bootloader 
