@@ -7,9 +7,8 @@
 
 ### Требования
 - [ARM образ Windows](https://uupdump.net/)
-- [Образ UEFI](/images/)
-- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
-- [Драйверы](https://github.com/map220v/MiPad5-drivers)
+- [Образ UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+- [Драйверы](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ### Перезапустите рекавери чтобы начать установку Windows
 
