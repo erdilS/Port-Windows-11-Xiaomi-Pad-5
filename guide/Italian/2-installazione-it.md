@@ -11,7 +11,6 @@
 
 - [Immagine Windows On Arm](https://uupdump.net/)
 - [immagine UEFI](../../../../releases/tag/1.0)
-- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
 - [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ### Riavvia di nuovo la recovery per avviare l'installazione di Windows
@@ -89,10 +88,10 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 ### Installazione drivers
 
-> Sostituisci `<nabudriversfolder>` con la posizione della cartella dei drivers
+> È possibile scaricare i driver [qui](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ```cmd
-driverupdater.exe -d <nabudriversfolder>\definitions\Desktop\ARM64\Internal\nabu.txt -r <nabudriversfolder> -p X:
+Apri la cartella con i driver ed esegui OfflineUpdater.cmd
 ```
 
   
@@ -105,16 +104,6 @@ bcdboot X:\Windows /s Y: /f UEFI
 
   
   
-
-### Permetti i drivers non firmati
-
-> Se non lo fai, riceverai un BSOD
-
-```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
-```
-
-
 ## Avvia Windows
 
 ### Crea un backup dell'immagine di avvio (boot.img) esistente
@@ -128,12 +117,6 @@ adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.
 ```cmd
 adb pull /tmp/boot.img
 ```
-### Identifica il tuo pannello
-
-```cmd
-adb shell panel
-```
-
 
 ### Riavvia il dispositivo nel bootloader
 
@@ -142,8 +125,7 @@ adb reboot bootloader
 ```
 
 ### Scarica e installa l'immagine UEFI
-> Download image for [Huaxing](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_huaxing.img) or [Tianma](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_tianma.img) panel
-
+> Scarica [immagine UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
 ```cmd
 fastboot flash boot <path to image>
 ```

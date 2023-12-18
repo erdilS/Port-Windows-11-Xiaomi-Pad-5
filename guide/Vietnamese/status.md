@@ -33,4 +33,4 @@ Thử nghiệm (Beta). Hầu hết phần cứng đã hoạt động, còn một
 - [X] Gyroscope
 - [X] Magnetometer
 - [X] Proximity
-- [ ] Cảm biến ánh sáng
+- [X] Cảm biến ánh sáng

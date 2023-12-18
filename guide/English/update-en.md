@@ -7,9 +7,11 @@
 
 ### Prerequisites
 
-- [UEFI](../../../../releases/tag/1.0)
-- [TWRP](../../../../releases/tag/1.0)
-- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
+
+- [UEFI image](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+
+- [Recovery](../../../../releases/tag/1.0)
+
 - [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 #### Start recovery through the PC with the command
@@ -58,13 +60,10 @@ exit
 
 ### Install Drivers
 
-> Replace `<nabudriversfolder>` with the location of the drivers folder
-
-> Open cmd as administrator
-
+> You can download Drivers [here](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ```cmd
-DriverUpdater.exe -d <nabudriversfolder>\definitions\Desktop\ARM64\Internal\nabu.txt -r <nabudriversfolder> -p X:
+ Open folder with Drivers and run OfflineUpdater.cmd
 ```
 
 

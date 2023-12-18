@@ -17,8 +17,6 @@ Este paso es necesario para que hagamos las particiones donde estará nuestra in
 > 
 > No ejecutes el mismo comando dos veces.
 > 
-> En el recovery, la pantalla no funciona.
-> 
 > No reinicies tu teléfono si crees que has cometido un error, busca ayuda en el [chat de Telegram](https://t.me/nabuwoa)
 >
 > 

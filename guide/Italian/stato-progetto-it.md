@@ -14,13 +14,13 @@ Beta. La maggior parte dell'hardware funziona, ma alcuni componenti non funziona
 - [X] Bluetooth
 - [X] Luminositá
 - [ ] Fotocamera
-- [ ] Ricarica ``Al momento funziona lentamente ``
+- [X] Ricarica 
 - [X] Display
 - [X] Sospensione schermo / Modalitá sonno 
 - [X] GPU
 - [X] Touchscreen
 - [X] UFS
-- [X] USB ``Richiesto un PD hub``
+- [X] USB 
 - [X] Wi-Fi
 - [ ] Xiaomi Pen e supporto per Xiaomi Keyboard
 

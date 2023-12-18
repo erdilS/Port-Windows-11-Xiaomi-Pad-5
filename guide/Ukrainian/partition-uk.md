@@ -1,5 +1,15 @@
-Цей крок потрібен щоби ми створили розділи, де буде знаходитись Windows
+<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
+
+# Запуск Windows на Xiaomi Pad 5
+
+
+Цей крок потрібен щоби ми створили розділи, де буде знаходитись Windows
+### Передумова
+
+- [Відновлений образ](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+
+- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 ## Нотатки:
 > [!WARNING]
 > Якщо ви видалили будь-який розділ використовуючи diskpart, Windows рано или пізно відправить команду пам'яти, яка буде неправильно розпізнана, і тому пам'ять буде стерта.
@@ -11,8 +21,6 @@
 > Ігноруйте попередження `udevadm`.
 > 
 > Не запускайте ту саму команду двічі.
-> 
-> У відновленні екран не працює.
 > 
 > НЕ ПЕРЕЗАВАНТАЖУЙТЕ ВАШ ПЛАНШЕТ якщо думаєте, що зробили помилку - зверніться в [Telegram-чат проекту](https://t.me/nabuwoa).
 

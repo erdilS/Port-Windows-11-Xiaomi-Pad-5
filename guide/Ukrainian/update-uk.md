@@ -1,8 +1,22 @@
-Оновлення драйверів у Windows
-#### Запустіть TWRP за допомогою завантажувача
+<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
+# Running Windows on the Xiaomi Pad 5
+
+## Оновлення драйверів у Windows
+
+
+### Передумова
+
+- [Відновлений образ](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [Зображення UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+- [Драйвері](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+
+
+
+
+#### Запустіть Recovery за допомогою завантажувача
 
 ```cmd
-fastboot boot <twrp.img>
+fastboot boot <recovery.img>
 ````
 
 
@@ -42,14 +56,12 @@ exit
 ````
 
 
-# Встановлення драйверів
+### Встановлення драйверів
 
-> Замініть `<nabudriversfolder>` на вашу назву папки з драйверами.
-
-> Відкрийте командний рядок від імені адміністратора
+> Ви можете завантажити драйвери [тут](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ```cmd
-driverupdater.exe -d <nabudriversfolder>\definitions\Desktop\ARM64\Internal\nabu.txt -r <nabudriversfolder> -p X:
+ Відкрийте папку драйверів і запустіть OfflineUpdater.cmd
 ```
 
 ##### Завантаження за допомогою завантажувального образу UEFI Windows #####

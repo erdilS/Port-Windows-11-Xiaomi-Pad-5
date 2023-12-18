@@ -24,8 +24,6 @@
 > 
 >  Do not run the same command twice
 > 
-> On recovery, screen not working.
-> 
 > DO NOT REBOOT YOUR TABLET if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/nabuwoa)
 >
 > 

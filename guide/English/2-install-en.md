@@ -10,8 +10,11 @@
 ### Prerequisites
 
 - [Windows on ARM image](https://uupdump.net/)
-- [UEFI image](/images/)
+
+- [UEFI image](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
+
 - [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ### Boot recovery back to start installing Windows
@@ -89,10 +92,10 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 ### Install Drivers
 
-> Replace `<nabudriversfolder>` with the location of the drivers folder
+> You can download Drivers [here](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ```cmd
-driverupdater.exe -d <nabudriversfolder>\definitions\Desktop\ARM64\Internal\nabu.txt -r <nabudriversfolder> -p X:
+ Open folder with Drivers and run OfflineUpdater.cmd
 ```
 
 ### Create Windows bootloader files for the EFI
@@ -101,13 +104,7 @@ driverupdater.exe -d <nabudriversfolder>\definitions\Desktop\ARM64\Internal\nabu
 bcdboot X:\Windows /s Y: /f UEFI
 ```
 
-### Allow unsigned drivers
 
-> If you don't do this you'll get a BSOD
-
-```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
-```
 
 
 ## Boot into Windows
@@ -124,11 +121,6 @@ adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.
 adb pull /tmp/boot.img
 ```
 
-### Identify your panel
-
-```cmd
-adb shell panel
-```
 
 
 ### Reboot to bootloader 
@@ -138,7 +130,7 @@ adb reboot bootloader
 ```
 
 ### Download and flash UEFI image
-> Download image for [Huaxing](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_huaxing.img) or [Tianma](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_tianma.img) panel
+> Download [UEFI image](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
 
 ```cmd
 fastboot flash boot <path to image>

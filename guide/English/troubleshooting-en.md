@@ -72,9 +72,8 @@ This is caused by partitions with volume names the bootloader cannot handle, to 
 
 - Boot the recovery image with ```fastboot boot <recovery.img>```
 
-- Push the mass storage script with ```adb push msc.sh /sbin/```
 
-- Run the mass storage script with ```adb shell sh /sbin/msc.sh```
+- Run the mass storage script with ```adb shell```
 
 - Open cmd as admin
 
@@ -94,10 +93,10 @@ This is caused by partitions with volume names the bootloader cannot handle, to 
 
 ## Bootllop after switching to Android 
 
-> Run fastboot
+- Run fastboot
 
-> fastboot set_active other
+- fastboot set_active other
 
--fastboot flash boot <boot.img>
+- fastboot flash boot <boot.img>
 
--fastboot reboot
+- fastboot reboot

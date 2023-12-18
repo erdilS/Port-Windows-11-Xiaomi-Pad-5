@@ -7,9 +7,8 @@
 
 ### Điều kiện tiên quyết
 
-- [UEFI](../../../../releases/tag/1.0)
-- [TWRP](../../../../releases/tag/1.0)
-- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
+- [Recovery](../../../../releases/tag/1.0)
+- [UEFI image](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
 - [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 #### Khởi động Recovery từ máy tính bằng CMD
@@ -54,19 +53,13 @@ assign letter=x
 exit
 ```
 
+### Cài Drivers
 
-### Cài đặt trình điều khiển thiết bị (gọi là Drivers)
-
-> Thay thế `<nabudriversfolder>` bằng đường dẫn của thư mục Drivers
-
-> Mở cmd với quyền Admin
-
+> Bạn có Thể tải Xuống Trình Điều khiển [tại đây](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ```cmd
-DriverUpdater.exe -d <nabudriversfolder>\definitions\Desktop\ARM64\Internal\nabu.txt -r <nabudriversfolder> -p X:
+Mở thư mục Với Trình Điều Khiển và chạy OfflineUpdater.cmd
 ```
-
-
 ### Khởi động bằng Windows bootable UEFI image
 
 ```

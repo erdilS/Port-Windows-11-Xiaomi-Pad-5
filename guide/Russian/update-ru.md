@@ -7,9 +7,8 @@
 
 ### Требования
 
-- [Образ UEFI](../../../../releases/tag/1.0)
-- [TWRP](../../../../releases/tag/1.0)
-- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
+- [образ UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+- [Recovery](../../../../releases/tag/1.0)
 - [Драйверы](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 #### Запустите рекавери с компьютера при помощи команды
@@ -57,13 +56,10 @@ exit
 
 ### Установка драйверов
 
-> Замените `<nabudriversfolder>` расположением папки с драйверами
-
-#### Откройте командную строку от имени администратора 
-
+> Вы можете скачать драйвера [тут](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ```cmd
-DriverUpdater.exe -d <nabudriversfolder>\definitions\Desktop\ARM64\Internal\nabu.txt -r <nabudriversfolder> -p X:
+ Откройте папку с драйверами и заустите OfflineUpdater.cmd
 ```
 
 
