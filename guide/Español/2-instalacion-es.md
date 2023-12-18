@@ -10,9 +10,8 @@
 ### Requisitos previos
 
 - [Windows ARM](https://uupdump.net/)
-- [UEFI](../../../../releases/tag/1.0)
-- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
-- [Drivers](https://github.com/map220v/MiPad5-drivers)
+- [UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+- [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 
 ### Iniciar recovery para instalar Windows
@@ -89,13 +88,11 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 # Instalar los Drivers
 
-> Reemplazar `<nabudriversfolder>` por la localizacion de la carpeta de los drivers
+> Puede descargar los controladores [aquí](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ```cmd
-driverupdater.exe -d <nabudriversfolder>\definitions\Desktop\ARM64\Internal\nabu.txt -r <nabudriversfolder> -p X:
-```
-
-  
+Abra la carpeta con los controladores y ejecute OfflineUpdater.cmd
+```  
 
 # Crear los archivos del bootloader de Windows para la EFI 
 
@@ -105,14 +102,6 @@ bcdboot X:\Windows /s Y: /f UEFI
 
   
   
-
-# Permite los drivers no firmados
-
-> Si no haces esto recibirás un BSOD
-
-```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
-```
 
 # Arrancar en Windows
 
@@ -128,19 +117,13 @@ adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.
 adb pull /tmp/boot.img
 ```
 
-### Identifica tu panel
-
-```cmd
-adb shell panel
-```
-
 ### Reiniciar al bootloader
 
 ```cmd
 adb reboot bootloader
 ```
 ### Download and flash UEFI image
-> Descargar imagen para [Huaxing](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_huaxing.img) o [Tianma](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_tianma.img) panel
+>Descargar [Imagen UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
 
 ### Flashea la imagen uefi desde TWRP
 > Reemplaza ```<panel>``` por el panel de tu dispositivo
