@@ -12,7 +12,7 @@
 - [Windows on ARM image](https://uupdump.net/)
 - [UEFI image](/images/)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
-- [Drivers](https://github.com/map220v/MiPad5-drivers)
+- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
 
 ### Boot recovery back to start installing Windows
 
