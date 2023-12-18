@@ -82,31 +82,17 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 ### Установка драйверов
 
-> Замените `<nabudriversfolder>` расположением папки с драйверами
+> Вы можете скачать драйвера [тут](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ```cmd
-driverupdater.exe -d <nabudriversfolder>\definitions\Desktop\ARM64\Internal\nabu.txt -r <nabudriversfolder> -p X:
+ Откройте папку с драйверами и заустите OfflineUpdater.cmd
 ```
-
-  
 
 ### Создайте файлы загрузчика Windows для EFI
 
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
-
-  
-  
-
-### Разрешите использование неподписанных драйверов
-
-> Если вы не сделаете этого, то получите BSOD
-
-```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
-```
-
 
 ## Запуск Windows
 
@@ -132,8 +118,8 @@ adb shell panel
 adb reboot bootloader
 ```
 
-### Скачайте и прошейте образ UEFI для вашего дисплея
-> Образ для дисплея [Huaxing](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_huaxing.img) и [Tianma](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_tianma.img)
+### Скачайте и прошейте образ UEFI 
+> Скачайте образ [образ UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
 ```cmd
 fastboot flash boot <путь к образу UEFI>
 ```
