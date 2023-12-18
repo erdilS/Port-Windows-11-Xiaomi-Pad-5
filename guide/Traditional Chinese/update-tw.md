@@ -5,9 +5,11 @@
 ## 更新驅動文件
 
 ### 請先準備下面的步驟
+
 - [Recovery](../../../../releases/tag/1.0)
 - [UEFI boot 映像](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
 - [驅動文件](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+
 ### 請進入 Fastboot 模式, 並輸入以下命令來啟动到 Recovery
 ```cmd
 fastboot boot <recovery.img>

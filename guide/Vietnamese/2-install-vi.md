@@ -13,6 +13,7 @@
 - [UEFI image](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
 - [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
+
 ### Boot vào recovery để tiếp tục cài Windows
 
 ```cmd
