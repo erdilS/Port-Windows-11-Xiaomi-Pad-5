@@ -6,8 +6,7 @@
 
 - [UEFI imajı](../../../../releases/tag/1.0)
 - [Recovery imajı](../../../../releases/tag/1.0)
-- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
-- [Sürücüler](https://github.com/map220v/MiPad5-Drivers)
+- [Sürücüler](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 #### Recovery modunu bilgisayar aracılığıyla başlatın
 
@@ -52,15 +51,15 @@ exit
 ```
 
 
-# Sürücüleri yükleyin
 
-> Replace `<nabusurucuklasoru>` with the location of the drivers folder
+# Sürücü kurulumu
 
-> Komut istemini yönetici olarak başlatın.
+> Sürücüleri indirebilirsiniz [burada](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ```cmd
-driverupdater.exe -d <nabusurucuklasoru>\definitions\Desktop\ARM64\Internal\nabu.txt -r <nabusurucuklasoru> -p X:
+Sürücülerle klasörü açın ve çalıştırın OfflineUpdater.cmd
 ```
+  
 
 
 ##### UEFI imajını yükleyerek Windows'u başlatın #####
