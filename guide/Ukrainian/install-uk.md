@@ -1,6 +1,15 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
+# Running Windows on the Xiaomi Pad 5
 
-# Встановлення Windows
+## Установка
+
+## Установка Windows
+
+### Передумова
+
+- [Зображення Windows на ARM](https://uupdump.net/)
+- [Зображення UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+- [Драйвері](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ### Завантажте відновлення, щоб розпочати встановлення Windows
 
@@ -72,12 +81,13 @@ exit
 dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 ```
 
-# Встановлення драйверів
 
-> Замініть `<nabudriversfolder>` шляхом к теці с вашими драйверами
+### Встановлення драйверів
+
+> Ви можете завантажити драйвери [тут](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ```cmd
-driverupdater.exe -d <nabudriversfolder>\definitions\Desktop\ARM64\Internal\nabu.txt -r <nabudriversfolder> -p X:
+ Відкрийте папку драйверів і запустіть OfflineUpdater.cmd
 ```
 
 # Створіть файли завантажувача Windows
@@ -86,13 +96,6 @@ driverupdater.exe -d <nabudriversfolder>\definitions\Desktop\ARM64\Internal\nabu
 bcdboot X:\Windows /s Y: /f UEFI
 ```
 
-# Дозвольте непідписані драйвера
-
-> Якщо ви цього не зробите, то отримаєте BSOD
-
-```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
-```
 
 # Завантажтеся у Windows
 
@@ -108,12 +111,6 @@ adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.
 adb pull /tmp/boot.img
 ```
 
-### Визначте свою панельВизначте свою панель
-
-```cmd
-adb shell panel
-```
-
 ### Завантажте відновлення
 
 ```cmd
@@ -121,8 +118,7 @@ adb reboot bootloader
 ```
 
 ### Завантажте та прошийте зображення UEFI
-> Завантажити зображення для [Huaxing](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_huaxing.img) або [Tianma](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_tianma.img) panel
-
+> Завантажити [зображення UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
 ```cmd
 fastboot flash boot <шлях до зображення>
 ```
