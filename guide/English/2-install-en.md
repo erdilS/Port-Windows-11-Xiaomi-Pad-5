@@ -92,7 +92,7 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 > Replace `<nabudriversfolder>` with the location of the drivers folder
 
 ```cmd
-driverupdater.exe -d <nabudriversfolder>\definitions\Desktop\ARM64\Internal\nabu.txt -r <nabudriversfolder> -p X:
+Open folder with Drivers that you download and run Offline
 ```
 
 ### Create Windows bootloader files for the EFI
