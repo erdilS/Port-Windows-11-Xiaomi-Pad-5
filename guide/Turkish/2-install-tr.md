@@ -8,9 +8,8 @@
 ### Gerekli Dosyalar
 
 - [ARM64 Mimaride Çalışabilen Windows ISO imajı](https://uupdump.net/)
-- [UEFI imajı](../../../../releases/tag/1.0)
-- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
-- [Sürücüler](https://github.com/map220v/MiPad5-drivers)
+- [UEFI imajı](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+- [Sürücüler](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 
 ### Windows'u yüklemeye başlamak için ilk olarak recovery modunda cihazı başlatın.
@@ -86,12 +85,11 @@ dism /apply-image /ImageFile:<sources/install.wim> /index:1 /ApplyDir:X:\
 
 # Sürücü kurulumu
 
-> Komuttaki `<nabusurucuklasoru>` kısmını sürücülerin bulunduğu konum ile değişin.
+> Sürücüleri indirebilirsiniz [burada](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ```cmd
-driverupdater.exe -d <nabusurucuklasoru>\definitions\Desktop\ARM64\Internal\nabu.txt -r <nabusurucuklasoru> -p X:
+Sürücülerle klasörü açın ve çalıştırın OfflineUpdater.cmd
 ```
-
   
 
 # EFI için Windows önyükleme yöneticisi dosyalarını oluşturun
@@ -102,15 +100,6 @@ bcdboot X:\Windows /s Y: /f UEFI
 ```
 
   
-  
-
-# İmzasız sürücülere izin verin
-
-> Bunu yapmazsanız önyükleme esnasında mavi ekranla karşılaşacaksınız.
-
-```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
-```
 
 # Windows'u başlatın
 
@@ -125,12 +114,6 @@ adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.
 ```cmd
 adb pull /tmp/boot.img
 ```
-### Panelinizi tanımlayın
-
-```cmd
-adb shell panel
-```
-
 
 ### Bootloader moduna geçiş yapın
 
@@ -139,7 +122,7 @@ adb reboot bootloader
 ```
 
 ### UEFI görüntüsünü indirin ve flaşlayın
-> İçin resmi indirin [Huaxing](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_huaxing.img) veya [Tianma](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_tianma.img) panel
+> İndir [UEFI görüntüsü](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
 
 ```cmd
 fastboot flash boot <path to image>
