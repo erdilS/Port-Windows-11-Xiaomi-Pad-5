@@ -10,9 +10,8 @@
 ### Điều kiện tiên quyết
 
 - [Windows trên ARM image](https://uupdump.net/)
-- [UEFI image](/images/)
-- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
-- [Drivers (Trình điều khiển thiết bị)](https://github.com/map220v/MiPad5-drivers)
+- [UEFI image](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+- [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ### Boot vào recovery để tiếp tục cài Windows
 
@@ -89,24 +88,15 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 ### Cài Drivers
 
-> Thay `<nabudriversfolder>` bằng đường dẫn thực tế của folder Drivers
+> Bạn có Thể tải Xuống Trình Điều khiển [tại đây](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ```cmd
-driverupdater.exe -d <nabudriversfolder>\definitions\Desktop\ARM64\Internal\nabu.txt -r <nabudriversfolder> -p X:
+Mở thư mục Với Trình Điều Khiển và chạy OfflineUpdater.cmd
 ```
-
 ### Tạo windows bootloader tới EFI
 
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
-```
-
-###  Cho phép không kí Driver
-
-> Nếu không làm, đừng hỏi sao bị BSOD nhé
-
-```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 ```
 
 
@@ -124,12 +114,6 @@ adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.
 adb pull /tmp/boot.img
 ```
 
-### Nhận dạng panel của bạn
-
-```cmd
-adb shell panel
-```
-
 
 ### Reboot vào bootloader 
 
@@ -138,8 +122,7 @@ adb reboot bootloader
 ```
 
 ### Tải và flash UEFI image
-> Tải image cho Panel [Huaxing](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/images/xiaomi-nabu_huaxing.img?raw=1&plain=1) hoặc [Tianma](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/images/xiaomi-nabu_tianma.img?raw=1&plain=1)
-
+> Tải XUỐNG [HÌNH ẢNH UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
 ```cmd
 fastboot flash boot <path to image>
 ```
