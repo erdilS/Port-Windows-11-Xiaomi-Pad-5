@@ -11,7 +11,6 @@
 
 - [Windows on ARM image](https://uupdump.net/)
 - [UEFI image](/images/)
-- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
 - [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ### Boot recovery back to start installing Windows
@@ -89,10 +88,10 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 ### Install Drivers
 
-```cmd
-Open folder with [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+
+> Open folder with [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
  that you download and run OfflineUpdater.cmd
-```
+
 
 ### Create Windows bootloader files for the EFI
 
