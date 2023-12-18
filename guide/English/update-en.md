@@ -8,7 +8,7 @@
 ### Prerequisites
 
 - [UEFI](../../../../releases/tag/1.0)
-- [TWRP](../../../../releases/tag/1.0)
+- [OFOX](../../../../releases/tag/1.0)
 - [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 #### Start recovery through the PC with the command
