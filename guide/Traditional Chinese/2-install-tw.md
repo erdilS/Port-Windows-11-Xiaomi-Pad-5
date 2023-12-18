@@ -6,9 +6,8 @@
 
 ### 請先準備下面的步驟
 - [Windows on ARM 映像](https://uupdump.net/)
-- [UEFI boot 映像](../../../../releases/tag/1.0)
-- [驅動更新工具](https://github.com/WOA-Project/DriverUpdater/releases/latest)
-- [驅動文件](https://github.com/map220v/MiPad5-Drivers)
+- [UEFI boot 映像](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+- [驅動文件](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ### 請進入 Fastboot 模式, 並輸入以下命令來啟动到 Recovery
 ```cmd
@@ -64,20 +63,15 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 ```
 
 ### 安裝驅動程式
-> 以解壓出來的驅動文件夾位置取代 `<nabudriversfolder>`
+> 您可以下载驱动程序[这里](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+
 ```cmd
-driverupdater.exe -d <nabudriversfolder>\definitions\Desktop\ARM64\Internal\nabu.txt -r <nabudriversfolder> -p X:
+打开带有驱动程序的文件夹并运行 OfflineUpdater.cmd
 ```
 
 ### 重建 Windows EFI
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
-```
-
-### 禁用驅動強制簽名
-> 否則將會出現 BSOD（藍屏）
-```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 ```
 
 ## 啟動到 Windows
@@ -91,10 +85,6 @@ adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.
 ```cmd
 adb pull /tmp/boot.img
 ```
-### 確認您的顯示面板型號
-```cmd
-adb shell panel
-```
 
 ### 重啟到 Bootloader
 ```cmd
@@ -102,9 +92,8 @@ adb reboot bootloader
 ```
 
 ### 下載並刷入與您顯示面板相對應的 UEFI Boot 鏡像
-> 適用於 [Huaxing](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_huaxing.img) 顯示面板
-> 或
-> 適用於 [Tianma](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_tianma.img) 顯示面板
+> 下载[UEFI图像](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+
 ```cmd
 fastboot flash boot <path to image>
 ```
