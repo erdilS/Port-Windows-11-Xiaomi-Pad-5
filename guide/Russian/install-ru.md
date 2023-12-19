@@ -107,11 +107,6 @@ adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.
 ```cmd
 adb pull /tmp/boot.img
 ```
-### Выясните какой у вас дисплей
-
-```cmd
-adb shell panel
-```
 ### Перезапустите планшет в загрузчик 
 
 ```cmd
