@@ -25,7 +25,7 @@
 
 ### Android side of Dual Boot
 
-- Install switchtowin.apk to device.
+- Install [switchtowin.apk](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/switchtowindows.apk) to device.
 
 - Rename your UEFI file to boot.img
 
