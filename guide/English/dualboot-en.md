@@ -15,13 +15,13 @@
 
 ### Windows side of Dual Boot
 
-- Install [Cygwin](https://www.cygwin.com/setup-x86_64.exe) with coreutils (it will install default)
+- Install [STA](https://www.cygwin.com/setup-x86_64.exe) with coreutils (it will install default)
 
-- Rename your boot file to boot.img
+- Rename your Android boot file to boot.img
 
 - Place your Android boot to C:\ (C:\boot.img)
 
-- Start bat file as administrator or make shorcut with administrator privileges
+- Open shortcut on your desktop to switch to Android
 
 ### Android side of Dual Boot
 
