@@ -15,7 +15,7 @@
 
 ### Windows side of Dual Boot
 
-- Install [STA](https://www.cygwin.com/setup-x86_64.exe) with coreutils (it will install default)
+- Install [STA](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/dualboot/StA_Installer_nabu.exe)
 
 - Rename your Android boot file to boot.img
 
