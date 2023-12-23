@@ -9,7 +9,7 @@
 
 - Brain
 
-- Rooted Android and rooted Android [boot backup](/guide/English/2-install-en.md###Pulbackuptocomputer)
+- Rooted Android and rooted Android boot backup
 
 ### Windows side of Dual Boot
 
