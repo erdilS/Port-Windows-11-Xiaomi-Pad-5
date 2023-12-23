@@ -29,7 +29,7 @@
 
 - Rename your UEFI file to boot.img
 
-- Place your UEFI file to created folder /Android storage/windows (/Android storage/Windows/boot.img)
+- Place your UEFI file to created folder (/Android storage/Windows/boot.img)
 
 - Start app and give root privileges.
 
