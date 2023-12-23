@@ -26,7 +26,7 @@
 
 - Instale [switchtowin.apk](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/switchtowindows.apk) en el dispositivo.
 
-- Crear ventanas de carpetas en el almacenamiento de Android
+- Crear Windows de carpetas en el almacenamiento de Android
 
 - Cambie el nombre de su archivo UEFI a boot.img
 
