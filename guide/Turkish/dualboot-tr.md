@@ -11,8 +11,6 @@
 
 - Rootlu Android ve rootlu Android boot.img yedeği
 
-- [DualBoot dosyaları](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/dualboot) 
-
 ### Dualboot işleminin Windows tarafı
 
 - Yüklemek [STA](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
