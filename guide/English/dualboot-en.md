@@ -11,11 +11,9 @@
 
 - Rooted Android and rooted Android boot backup
 
-- [Download Files](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/dualboot) 
-
 ### Windows side of Dual Boot
 
-- Install [STA](https://raw.githubusercontent.com/dualboot/StA_Installer_nabu.exe)
+- Install [STA](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
 
 - Rename your Android boot file to boot.img
 
@@ -26,10 +24,12 @@
 ### Android side of Dual Boot
 
 - Install [switchtowin.apk](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/switchtowindows.apk) to device.
+  
+- Create folder Windows in Android storage
 
 - Rename your UEFI file to boot.img
 
-- Place your UEFI file to /sdcard/windows (/sdcard/windows/boot.img)
+- Place your UEFI file to created folder /Android storage/windows (/Android storage/Windows/boot.img)
 
 - Start app and give root privileges.
 
