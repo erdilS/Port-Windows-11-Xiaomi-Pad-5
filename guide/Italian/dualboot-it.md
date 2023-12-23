@@ -35,16 +35,3 @@
 
 - Clicca su "Switch to Windows" se vuoi avviare Windows.
 
-#### FINITO.
-
-### Altri link utili...
-
-### [Aggiornare i driver](/guide/Italian/aggiornamento-driver-it.md)
-
-### [Risolvere problemi](/guide/Italian/risoluzione-problemi-it.md)
-
-### [Stato del progetto](/guide/Italian/stato-progetto-it.md)
-
-### [Ripristino totale del tablet, eliminare Windows e ripristinare le partizioni](/guide/Italian/ripristino-android-stock-it.md)
-
-
