@@ -19,7 +19,7 @@
 
 - Posiziona l'immagine di avvio (boot.img) nel percorso C:\ (C:\boot.img)
 
-- Avvia il file .bat come amministratore oppure crea un collegamento con i privilegi di amministratore
+- Apri la scorciatoia sul desktop per passare ad Android
 
 ### Configurazione dualboot dalla parte di Android
 
