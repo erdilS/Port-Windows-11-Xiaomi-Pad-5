@@ -11,25 +11,25 @@
 
 - Android đã root và bản backup của Android boot
 
-- [Tải Files](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/dualboot) 
-
 ### Cài đặt phía Windows Dualboot
 
-- Cài [Cygwin](https://www.cygwin.com/setup-x86_64.exe) với coreutils (nó sẽ cài đặt mặc định)
+- Cài [STA](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
 
 - Sửa tên file boot thành boot.img
 
 - Đặt file boot của Android vào C:\ (C:\boot.img)
 
-- Chạy file bat bằng quyền Administrator
+- Mở phím tắt trên màn hình của bạn để chuyển Sang Android
 
 ### Cài đặt phía Anđroid Dualboot
 
-- Cài switchtowin.apk lên thiết bị.
+- Cài [switchtowin.apk](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/switchtowindows.apk) lên thiết bị.
+
+- Tạo Thư Mục Windows trong Bộ Nhớ Android
 
 - Sửa file UEFI thành boot.img
 
-- Đặt file UEFI ở /sdcard/windows (/sdcard/windows/boot.img)
+- Đặt tệp UEFI của bạn vào thư mục đã tạo (/Lưu trữ Android/Windows/boot.img)
 
 - Khởi động app và cấp quyền root
 
