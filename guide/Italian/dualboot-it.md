@@ -11,11 +11,9 @@
 
 - Android rootato e il backup dell'immagine di avvio creato in precedenza (boot.img)
 
-- [Scarica i file necessari](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/dualboot) 
-
 ### Configurazione dualboot dalla parte di Windows
 
-- Installa [Cygwin](https://www.cygwin.com/setup-x86_64.exe) con coreutils (sará installato di default)
+- Installa [STA](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
 
 - Rinomina l'immagine di avvio di Android in boot.img
 
@@ -25,11 +23,13 @@
 
 ### Configurazione dualboot dalla parte di Android
 
-- Installa switchtowin.apk su Android.
+- Installa [switchtowin.apk](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/switchtowindows.apk) su Android.
+
+- Crea cartella Windows in Android storage
 
 - Rinomina il file UEFI in boot.img
 
-- Posiziona il file UEFI nel percorso /sdcard/windows (/sdcard/windows/boot.img)
+- Posiziona il tuo file UEFI nella cartella creata (/La memoria di un androide/Windows/boot.img)
 
 - Apri l'app e concedi i permessi di root.
 
