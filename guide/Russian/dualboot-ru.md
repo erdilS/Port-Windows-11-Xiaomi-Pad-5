@@ -9,25 +9,25 @@
 
 - Android с root-правами и пропатченное Magisk'ом ядро Android
 
-- [Загрузите файлы](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/dualboot) 
-
 ### Со стороны Windows
 
-- Установите [Cygwin](https://www.cygwin.com/setup-x86_64.exe) и coreutils (установится по умолчанию)
+- Установите [STA](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
 
 - Переименуйте файл ядра Android в boot.img
 
 - Переместите его в C:\ (C:\boot.img)
 
-- Запустите bat-файл с правами администратора или создайте ярлык с правами администратора
+- Запустите ярлык на рабочем столе чтобы перезагрузиться в Андроид 
 
 ### Со стороны Android
 
-- Установите на планшете файл switchtowin.apk
+- Установите на планшете  приложение [switchtowindows](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/switchtowindows.apk)
 
+- Создайте папку Windows в паияти Андроида
+  
 - Переименуйте UEFI файл в boot.img
 
-- Переместите его в /sdcard/windows (/sdcard/windows/boot.img)
+- Переместите его в созданную папку (/Память Андроид/Windows/boot.img)
 
 - Запустите приложение и предоставьте ему root-доступ
 

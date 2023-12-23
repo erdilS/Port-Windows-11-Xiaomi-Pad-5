@@ -11,25 +11,26 @@
 
 - Android rooteado y copia de seguridad de arranque de Android rooteado
 
-- [Descargar archivos](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/dualboot)
 
 ### Parte de Windows del dualboot
 
-- Instale [Cygwin](https://www.cygwin.com/setup-x86_64.exe) con coreutils (se instalará por defecto)
+- Instale [STA](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
 
 - Cambie el nombre de su archivo de arranque a boot.img
 
 - Coloque su arranque de Android en C:\ (C:\boot.img)
 
-- Inicie el archivo bat como administrador o haga un acceso directo con privilegios de administrador
+- Abre el acceso directo en el escritorio para cambiar a Android
 
 ### Parte de Android del dualboot
 
-- Instale switchtowin.apk en el dispositivo.
+- Instale [switchtowin.apk](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/switchtowindows.apk) en el dispositivo.
+
+- Crear Windows de carpetas en el almacenamiento de Android
 
 - Cambie el nombre de su archivo UEFI a boot.img
 
-- Coloque su archivo UEFI en /sdcard/windows (/sdcard/windows/boot.img)
+- Coloque su archivo UEFI en la carpeta creada (/Almacenamiento de Android/Windows/boot.img)
 
 - Inicie la aplicación y otorgue privilegios de root.
 

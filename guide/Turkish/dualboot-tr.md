@@ -11,25 +11,25 @@
 
 - Rootlu Android ve rootlu Android boot.img yedeği
 
-- [DualBoot dosyaları](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/dualboot) 
-
 ### Dualboot işleminin Windows tarafı
 
-- [Cygwin](https://www.cygwin.com/setup-x86_64.exe) uygulamasını coreutils ile beraber yükleyin (varsayılan olarak yüklenecektir)
+- Yüklemek [STA](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
 
 - Boot yedeğinizin adını boot.img yapın
 
 - Android boot yedeğinizi C:\ dizinine kopyalayın (C:\boot.img)
 
-- .bat dosyasını yönetici olarak çalıştırın, bu cihaza Android yedeğini yükleyip yeniden başlatacaktır. Dilerseniz bunun için yönetici haklarıyla çalışan bir kısayol da oluşturabilirsiniz.
+- Android'e geçmek için masaüstünüzde kısayolu açın
 
 ### Dualboot işleminin Android tarafı
 
-- switchtowin.apk dosyasını cihaza kurun.
+- [switchtowin.apk](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/switchtowindows.apk) dosyasını cihaza kurun.
+
+-  Create folder Windows in Android storage
 
 - UEFI dosyasının adını boot.img olarak adlandırın.
 
-- UEFI dosyasını /sdcard/windows konumuna kopyalayın (/sdcard/windows/boot.img)
+-  UEFI dosyanızı oluşturulan klasöre yerleştirin (/Android depolama/Windows/boot.img)
 
 - Uygulamayı başlatın ve root izni verin.
 
