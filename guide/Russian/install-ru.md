@@ -107,7 +107,7 @@ adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.
 ```cmd
 adb pull /tmp/boot.img
 ```
-### Перезапустите планшет в загрузчик 
+### Перезапустите планшет в fastboot
 
 ```cmd
 adb reboot bootloader
@@ -120,7 +120,7 @@ fastboot flash boot <путь к образу UEFI>
 ```
 
 ### Загрузка в Android
-> Прошейте скопированное ранее ядро в режиме загрузки
+> Прошейте скопированное ранее ядро в fastboot
 
 ```cmd
 fastboot flash boot boot.img
