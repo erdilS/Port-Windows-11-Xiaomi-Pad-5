@@ -38,15 +38,16 @@ irm https://massgrave.dev/get | iex
 
 > Premere un tasto qualsiasi per disabilitarlo
 
-## Enabling charging and USB host mode
+## Abilitazione della modalità di ricarica e host USB
 
-> [!WARNING]
->  Make sure any registry edits are done on the Mi Pad 5 itself
+> [!AVVERTIMENTO]
 
-> [!NOTE]
-> C to C charging with a PD supported device has been confirmed working and the 33W charger provided by Xiaomi is also confirmed to be working
+>  Assicurati che tutte le modifiche del registro di sistema siano eseguite sul Mi Pad 5 stesso
 
-- Download  [Script from Misha803](https://t.me/droidscripts/22) to easy enable it
+> [!NOTA]
+> La ricarica da C a C con un dispositivo supportato da PD è stata confermata funzionante e anche il caricabatterie da 33 W fornito da Xiaomi è confermato funzionante
+
+- Scarica [Script da Misha803](https://t.me/droidscripts/22) per abilitarlo facilmente
  
-- Or use traditional method - In the registry editor, change the value of the parameter ```RoleSwitchMode``` from ```3``` to ```1```: ```Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters```. 
+- Oppure utilizzare il metodo tradizionale: nell'editor del Registro di sistema, modificare il valore del parametro ```RoleSwitchMode``` da ```3``` per ```1```: ```Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters```. 
 
