@@ -40,10 +40,10 @@ irm https://massgrave.dev/get | iex
 
 ## Habilitación del modo de carga y host USB
 
-> [!ADVERTENCIA]
+> [!WARNING]
 >  Asegúrese de que las ediciones del registro se realicen en el propio Mi Pad 5
 
-> [!NOTA]
+> [!NOTE]
 > Se ha confirmado que la carga de C a C con un dispositivo compatible con PD funciona y también se confirma que el cargador de 33 W proporcionado por Xiaomi funciona
 
 - Descargar [Script de Misha803](https://t.me/droidscripts/22) para habilitarlo fácilmente
