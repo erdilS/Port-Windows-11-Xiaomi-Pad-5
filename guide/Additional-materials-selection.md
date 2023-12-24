@@ -7,7 +7,7 @@
 - [English](Additional-materials/Additional-materials-EN.md)
 - [Turkish](Additional-materials/Additional-materials-TR.md)
 - [Russian](Additional-materials/Additional-materials-RU.md)
-- -[Italian](Italian/stato-progetto-it.md)-
+- [Italian](Additional-materials/Additional-materials-it.md)
 - -[Español](Español/status.md)-
 - -[Ukrainian](Ukrainian/status-uk.md)-
 - -[Vietnamese](Vietnamese/status.md)-
