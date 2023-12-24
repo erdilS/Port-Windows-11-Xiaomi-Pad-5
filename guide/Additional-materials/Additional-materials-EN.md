@@ -20,9 +20,9 @@
 
  ## Activate Windows
 
-- Open PowerShell and type: 
+> Open PowerShell and type: 
 
   ```cmd
 irm https://massgrave.dev/get | iex 
 ```
-
+> When a window appears, select 1
