@@ -1,1 +1,38 @@
+<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
+# Корисні програми та інструкції для Windows на Xiaomi pad 5
+
+## Встановіть Microsoft Office
+
+- Завантажте цей [файл](https://drive.google.com/file/d/1st8xVpxtJbe2GVTEZrC_RNumKllR97Hp/view?usp=sharing) до планшета
+  
+- Вимкніть Windows Defender, щоб уникнути будь-яких перешкод під час встановлення
+  
+- Клацніть правою кнопкою миші на файлі iso і виберіть "змонтувати", щоб відкрити його в Провіднику файлів
+
+- Двічі клацніть на AUTORUN.exe, щоб запустити майстер встановлення
+  
+- Виберіть мову та компоненти, які потрібно встановити, а потім натисніть кнопку почати встановлення
+  
+- Дочекайтеся завершення установки і активації
+
+- Знову ввімкніть Windows Defender
+
+- Насолоджуйтесь використанням Office!
+
+ ## Активувати Windows
+
+> Відкрийте PowerShell і введіть: 
+
+  ```cmd
+irm https://massgrave.dev/get | iex 
+```
+> Коли з'явиться вікно, виберіть 1
+
+ ## Як користуватися ліхтариком
+
+ - Скачавши [Flashlight.7z](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/flashlight_fix.7z) і розпакуйте в будь-яку папку
+
+> Запустіть flashlight.exe, щоб увімкнути ліхтарик
+
+> Натисніть будь-яку клавішу, щоб вимкнути це
