@@ -5,8 +5,15 @@
 ## Microsoft Office
 
 - First download this [file](https://drive.google.com/file/d/1st8xVpxtJbe2GVTEZrC_RNumKllR97Hp/view?usp=sharing)
+  
 - Disable Windows Defender
-- Mount iso in explorer
-- Run AUTORUN.exe inside ISO
-- Select the language and components you want to install
-- 
+  
+- Mount iso in explorer and run AUTORUN.exe
+  
+- Select the language and components you want to install, then click start 
+  
+- Wait for the installation and activation to finish
+
+- Enable Windows Defender back
+
+- Use Office!
