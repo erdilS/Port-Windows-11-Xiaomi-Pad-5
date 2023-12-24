@@ -32,7 +32,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Reinstallation](guide/reinstalling-selection.md)
 
-- [Useful applications and instructions](guide/Additional-materials-selection.md)
+- [Useful apps and instructions](guide/Additional-materials-selection.md)
 
 ## Contributors
 
