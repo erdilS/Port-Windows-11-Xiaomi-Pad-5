@@ -31,4 +31,7 @@ irm https://massgrave.dev/get | iex
 
  ## How to use Flashlight 
 
- - 
+ - Download [Flashlight.7z](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/flashlight_fix.7z) and unzip to any folder
+
+- Run flashliht.exe to enable flashlight 
+- press any key to disable it
