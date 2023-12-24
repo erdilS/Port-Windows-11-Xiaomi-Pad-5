@@ -1,6 +1,6 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-# Xiaomi pad 5'te Windows 11 için Faydalı ipuçları ve Püf noktaları
+# Xiaomi pad 5'te Windows için faydalı uygulamalar ve talimatlar
 
 ## Microsoft Office
 
