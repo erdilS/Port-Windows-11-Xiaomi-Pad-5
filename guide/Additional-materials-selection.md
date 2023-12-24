@@ -10,6 +10,6 @@
 - [Italian](Additional-materials/Additional-materials-it.md)
 - [Español](Additional-materials/Additional-materials-es.md)
 - [Ukrainian](Additional-materials/Additional-materials-uk.md)
-- -[Vietnamese](Vietnamese/status.md)-
+- [Vietnamese](Vietnamese/status.md)
 - -[Traditional Chinese](Traditional%20Chinese/status-tw.md)-
 
