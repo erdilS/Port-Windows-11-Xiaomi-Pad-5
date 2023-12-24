@@ -4,7 +4,7 @@
 
 ### Select your language
 
-- [English]()
+- [English](guide/Additional-materials/Additional-materials-EN.md)
 - -[Turkish](Turkish/status.md)-
 - -[Russian](Russian/status-ru.md)-
 - -[Italian](Italian/stato-progetto-it.md)-
