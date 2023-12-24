@@ -2,38 +2,38 @@
 
 # Useful Tips and Tricks for Windows 11 on Xiaomi pad 5
 
-## Microsoft Office
+## Установка Microsoft Office
 
 - Скачайте этот [файл](https://drive.google.com/file/d/1st8xVpxtJbe2GVTEZrC_RNumKllR97Hp/view?usp=sharing) на планшет  
   
-- Turn off Windows Defender to avoid any interference with the installation
+- Отключите защитник Windows, чтобы избежать каких-либо проблем при установке
   
-- Right-click on the iso file and select Mount to open it in explorer
+- Щелкните правой кнопкой мыши на iso-файле и выберите "Смонтировать", чтобы открыть его в проводнике
 
-- Double-click on AUTORUN.exe to start the installation wizard
+- Дважды щелкните на AUTORUN.exe, чтобы запустить мастер установки
   
-- Choose the language and the components you want to install, and then click Start installation
+- Выберите язык и приложения, которые вы хотите установить, а затем нажмите кнопку "Начать установку"
   
-- Wait for the installation and activation to complete
+- Дождитесь завершения установки и активации
 
-- Turn on Windows Defender again 
+- Снова включите защитник Windows
 
-- Enjoy using Office!
+- Наслаждайтесь использованием Office!
 
- ## Activate Windows
+ ## Активация Windows
 
-> Open PowerShell and type: 
+> Откройте PowerShell и введите: 
 
   ```cmd
 irm https://massgrave.dev/get | iex 
 ```
-> When a window appears, select 1
+> В открывшемся окне выберите 1 
 
- ## How to use Flashlight 
+ ## Использование фонарика 
 
- - Download [Flashlight.7z](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/flashlight_fix.7z) and unzip to any folder
+ - Скачайте [Flashlight.7z](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/flashlight_fix.7z) и распакуйте в любую папку
 
-> Run flashlight.exe to enable flashlight 
+> Запустите flashlight.exe что-бы включить фонарик
 
-> press any key to disable it
+> Нажмите любую клавишу что-бы выключить его 
 
