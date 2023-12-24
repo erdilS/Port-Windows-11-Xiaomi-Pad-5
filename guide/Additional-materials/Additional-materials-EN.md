@@ -2,5 +2,11 @@
 
 # Useful Tips and Tricks for Windows 11 on Xiaomi pad 5
 
-## Office
+## Microsoft Office
 
+- First download this [file](https://drive.google.com/file/d/1st8xVpxtJbe2GVTEZrC_RNumKllR97Hp/view?usp=sharing)
+- Disable Windows Defender
+- Mount iso in explorer
+- Run AUTORUN.exe inside ISO
+- Select the language and components you want to install
+- 
