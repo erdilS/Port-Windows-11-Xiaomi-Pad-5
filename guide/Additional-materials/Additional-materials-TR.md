@@ -37,16 +37,16 @@ irm https://massgrave.dev/get | iex
 
 > devre dışı bırakmak için herhangi bir tuşa basın
 
-## Enabling charging and USB host mode
+## Şarj ve USB ana bilgisayar modunu etkinleştirme
 
 > [!WARNING]
->  Make sure any registry edits are done on the Mi Pad 5 itself
+>  Mi Pad 5'in kendisinde herhangi bir kayıt defteri düzenlemesinin yapıldığından emin olun
 
 > [!NOTE]
-> C to C charging with a PD supported device has been confirmed working and the 33W charger provided by Xiaomi is also confirmed to be working
+> PD destekli bir cihazla C'den C'ye şarj işleminin çalıştığı onaylandı ve Xiaomi tarafından sağlanan 33W şarj cihazının da çalıştığı onaylandı
 
-- Download  [Script from Misha803](https://t.me/droidscripts/22) to easy enable it
+- İndir [Misha803'ten Senaryo](https://t.me/droidscripts/22) kolayca etkinleştirmek için
  
-- Or use traditional method - In the registry editor, change the value of the parameter ```RoleSwitchMode``` from ```3``` to ```1```: ```Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters```. 
+- Veya geleneksel yöntemi kullanın - Kayıt defteri düzenleyicisinde parametrenin değerini değiştirin ```RoleSwitchMode``` -den ```3``` -e doğru ```1```: ```Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters```. 
 
 
