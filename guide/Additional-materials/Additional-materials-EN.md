@@ -17,3 +17,12 @@
 - Enable Windows Defender back
 
 - Use Office!
+
+ ## Activate Windows
+
+- Open PowerShell and type: 
+
+  ```cmd
+irm https://massgrave.dev/get | iex 
+```
+- in the window that opens, select 1
