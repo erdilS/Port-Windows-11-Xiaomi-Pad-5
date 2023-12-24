@@ -4,19 +4,21 @@
 
 ## Microsoft Office
 
-- First download this [file](https://drive.google.com/file/d/1st8xVpxtJbe2GVTEZrC_RNumKllR97Hp/view?usp=sharing)
+- Download this [file](https://drive.google.com/file/d/1st8xVpxtJbe2GVTEZrC_RNumKllR97Hp/view?usp=sharing) to tablet 
   
-- Disable Windows Defender
+- Turn off Windows Defender to avoid any interference with the installation
   
-- Mount iso in explorer and run AUTORUN.exe
-  
-- Select the language and components you want to install, then click start 
-  
-- Wait for the installation and activation to finish
+- Right-click on the iso file and select Mount to open it in explorer
 
-- Enable Windows Defender back
+- Double-click on AUTORUN.exe to start the installation wizard
+  
+- Choose the language and the components you want to install, and then click Start installation
+  
+- Wait for the installation and activation to complete
 
-- Use Office!
+- Turn on Windows Defender again 
+
+- Enjoy using Office!
 
  ## Activate Windows
 
@@ -26,3 +28,7 @@
 irm https://massgrave.dev/get | iex 
 ```
 > When a window appears, select 1
+
+ ## How to use Flashlight 
+
+ - 
