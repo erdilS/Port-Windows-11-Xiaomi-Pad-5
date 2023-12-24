@@ -25,4 +25,4 @@
   ```cmd
 irm https://massgrave.dev/get | iex 
 ```
-- in the window that opens, select 1
+
