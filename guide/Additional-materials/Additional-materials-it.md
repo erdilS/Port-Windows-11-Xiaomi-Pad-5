@@ -34,6 +34,6 @@ irm https://massgrave.dev/get | iex
 
  - Scaricare [Flashlight.7z](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/flashlight_fix.7z) e decomprimere in qualsiasi cartella
 
-> Eseguire torcia elettrica.exe per abilitare torcia elettrica
+> Eseguire torcia Flashlight.exe per abilitare torcia elettrica
 
 > Premere un tasto qualsiasi per disabilitarlo
