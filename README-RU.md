@@ -30,7 +30,7 @@
 
 - [Переустановка](guide/reinstalling-selection.md)
 
-- [Useful apps and instructions](guide/Additional-materials-selection.md)
+- [Полезные приложения и инструкции ](guide/Additional-materials-selection.md)
 
 ## Разработчики
 
