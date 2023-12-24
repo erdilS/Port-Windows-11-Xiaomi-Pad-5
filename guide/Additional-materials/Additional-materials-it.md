@@ -41,7 +41,6 @@ irm https://massgrave.dev/get | iex
 ## Abilitazione della modalità di ricarica e host USB
 
 > [!WARNING]
-
 >  Assicurati che tutte le modifiche del registro di sistema siano eseguite sul Mi Pad 5 stesso
 
 > [!NOTE]
