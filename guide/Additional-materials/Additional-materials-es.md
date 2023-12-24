@@ -11,7 +11,7 @@
   
 - Haga clic derecho en el archivo iso y seleccione Montar para abrirlo en el explorador
 
-- Haga doble clic en EJECUCIÓN automática.exe para iniciar el asistente de instalación
+- Haga doble clic en AUTORUN.exe para iniciar el asistente de instalación
   
 - Elija el idioma y los componentes que desea instalar y, a continuación, haga clic en Iniciar instalación.
   
