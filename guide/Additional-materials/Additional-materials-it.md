@@ -1,38 +1,39 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-# Useful apps and instructions for Windows on Xiaomi pad 5
+# App e istruzioni utili per Windows su Xiaomi pad 5
 
-## Microsoft Office
+## Installare Microsoft Office
 
-- Download this [file](https://drive.google.com/file/d/1st8xVpxtJbe2GVTEZrC_RNumKllR97Hp/view?usp=sharing) to tablet 
+- Scarica questo [file](https://drive.google.com/file/d/1st8xVpxtJbe2GVTEZrC_RNumKllR97Hp/view?usp=sharing) al tablet
   
-- Turn off Windows Defender to avoid any interference with the installation
+- Disattiva Windows Defender per evitare interferenze con l'installazione
   
-- Right-click on the iso file and select Mount to open it in explorer
+- Fare clic con il pulsante destro del mouse sul file iso e selezionare Monta per aprirlo in Explorer
 
-- Double-click on AUTORUN.exe to start the installation wizard
+- Fare doppio clic su AUTORUN.exe per avviare la procedura guidata di installazione
   
-- Choose the language and the components you want to install, and then click Start installation
+- Scegliere la lingua e i componenti da installare, quindi fare clic su Avvia installazione
   
-- Wait for the installation and activation to complete
+- Attendere il completamento dell'installazione e dell'attivazione
 
-- Turn on Windows Defender again 
+- Attivare nuovamente Windows Defender
 
-- Enjoy using Office!
+- Divertiti con Office!
 
- ## Activate Windows
+ ## Attiva Windows
 
-> Open PowerShell and type: 
+> Aprire PowerShell e digitare: 
 
   ```cmd
 irm https://massgrave.dev/get | iex 
 ```
-> When a window appears, select 1
+> Quando viene visualizzata una finestra, selezionare 1
 
- ## How to use Flashlight 
 
- - Download [Flashlight.7z](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/flashlight_fix.7z) and unzip to any folder
+ ## Come usare la torcia
 
-> Run flashlight.exe to enable flashlight 
+ - Scaricare [Flashlight.7z](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/flashlight_fix.7z) e decomprimere in qualsiasi cartella
 
-> press any key to disable it
+> Eseguire torcia elettrica.exe per abilitare torcia elettrica
+
+> Premere un tasto qualsiasi per disabilitarlo
