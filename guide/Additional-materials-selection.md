@@ -11,5 +11,5 @@
 - [Español](Additional-materials/Additional-materials-es.md)
 - [Ukrainian](Additional-materials/Additional-materials-uk.md)
 - [Vietnamese](Additional-materials/Additional-materials-vi.md)
-- -[Traditional Chinese](Traditional%20Chinese/status-tw.md)-
+- [Traditional Chinese](Additional-materials/Additional-materials-cn.md)
 
