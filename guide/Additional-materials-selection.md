@@ -5,7 +5,7 @@
 ### Select your language
 
 - [English](Additional-materials/Additional-materials-EN.md)
-- -[Turkish](Turkish/status.md)-
+- [Turkish](guide/Additional-materials/Additional-materials-TR.md)
 - [Russian](Additional-materials/Additional-materials-RU.md)
 - -[Italian](Italian/stato-progetto-it.md)-
 - -[Español](Español/status.md)-
