@@ -22,18 +22,18 @@
 
  ## Activate Windows
 
-> Open PowerShell and type: 
+> Powershell'i açın ve şunu yazın: 
 
   ```cmd
 irm https://massgrave.dev/get | iex 
 ```
-> When a window appears, select 1
+> Bir pencere göründüğünde, 1'i seçin
 
- ## How to use Flashlight 
+ ## El feneri nasıl kullanılır
 
- - Download [Flashlight.7z](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/flashlight_fix.7z) and unzip to any folder
+ - İndirmek [Flashlight.7z](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/flashlight_fix.7z) ve herhangi bir klasöre sıkıştırın
 
-> Run flashlight.exe to enable flashlight 
+> El fenerini çalıştır.el fenerini etkinleştirmek için exe
 
-> press any key to disable it
+> devre dışı bırakmak için herhangi bir tuşa basın
 
