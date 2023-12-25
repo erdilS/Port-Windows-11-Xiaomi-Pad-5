@@ -147,3 +147,5 @@ mountvol x: /d
 mountvol y: /d
 ```
 ## Finished!
+
+### [Last step: Setup Dualboot](guide/English/dualboot-en.md)
