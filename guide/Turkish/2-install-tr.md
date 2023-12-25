@@ -137,3 +137,5 @@ fastboot flash boot boot.img
 ```
 
 # İşlem tamamlandı!
+
+### [Son adım: Çift önyüklemeyi ayarlama](dualboot-tr.md)

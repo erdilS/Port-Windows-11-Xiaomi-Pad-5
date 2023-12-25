@@ -8,7 +8,7 @@
 ## Installing Windows
 
 ### Prerequisites
-
+- Brain
 - [Windows on ARM image](https://uupdump.net/)
 - [UEFI image](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
 - [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
@@ -90,6 +90,8 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 > You can download Drivers [here](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
+> When it ask you "Enter Drive letter..." type X:
+
 ```cmd
  Open folder with Drivers and run OfflineUpdater.cmd
 ```
@@ -145,3 +147,5 @@ mountvol x: /d
 mountvol y: /d
 ```
 ## Finished!
+
+### [Last step: Setup Dualboot](dualboot-en.md)

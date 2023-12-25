@@ -4,7 +4,7 @@
 
 ## Project Status
 
-Beta. Most of the hardware works, but some components do not work yet.
+Stable. Most of the hardware works, but some components do not work yet.
 
 #### Features
 
@@ -24,6 +24,7 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [X] Microphone
 - [X] Miracast
 - [X] Location
+- [X] FlashLight
 - [ ] Xiaomi Pen charging support
 - [ ] Xiaomi Keyboard support
 - [ ] Camera

@@ -106,3 +106,5 @@ fastboot flash boot boot.img
 ```
 
 ## 完成
+
+### [最后一步：设置双启动](dualboot-tw.md)
