@@ -4,7 +4,7 @@
 
 ## Microsoft Office
 
-- Download this [file](https://drive.google.com/file/d/1st8xVpxtJbe2GVTEZrC_RNumKllR97Hp/view?usp=sharing) to tablet 
+- Download this [file](https://1drv.ms/u/s!AqU0dlbIEzGt5l_tXeUTpNqPMOMS?e=GyGIu3) to tablet 
   
 - Turn off Windows Defender to avoid any interference with the installation
   
