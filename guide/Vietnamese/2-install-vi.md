@@ -136,3 +136,5 @@ fastboot flash boot boot.img
 ```
 
 ## Xong rồi!
+
+### [Bước cuối cùng: Thiết Lập Khởi Động Kép](dualboot-vi.md)
