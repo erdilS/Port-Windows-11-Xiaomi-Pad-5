@@ -140,3 +140,5 @@ fastboot flash boot boot.img
 ```
 
 # ¡Terminamos!
+
+### [Último paso: Configurar el arranque dual](dualboot-es.md)
