@@ -1,6 +1,6 @@
 
 
-<img align="left" width="200px" class="img" src="https://imapo.ru/img/imgr2.png">
+<div class="gir_2" id="gir"></div>
 
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
