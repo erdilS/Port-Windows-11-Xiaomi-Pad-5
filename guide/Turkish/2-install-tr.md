@@ -128,6 +128,7 @@ adb reboot bootloader
 fastboot flash boot <path to image>
 ```
 > Bu aşamadan itibaren cihazınızı başlatıp Windows'u kullanabilirsiniz.
+
 > [!NOTE]
 > İlk Windows açılışında herhangi bir Wi-Fi ağı görmeyecek, sadece güç düğmesini basılı tutarak yeniden başlatın ve yeniden başlattıktan sonra yuor ağına bağlanmayı denediğinizde ve "dondurma" gördüğünüzde 7 kez "tekrar dene" ye tıklayın
 
