@@ -46,7 +46,7 @@ irm https://massgrave.dev/get | iex
 > [!NOTE]
 > Se ha confirmado que la carga de C a C con un dispositivo compatible con PD funciona y también se confirma que el cargador de 33 W proporcionado por Xiaomi funciona
 
-- Descargar [Script de Misha803](https://t.me/droidscripts/22) para habilitarlo fácilmente
+- Descargar [Script de Misha803](https://t.me/droidscripts/52) para habilitarlo fácilmente
  
 - O use el método tradicional: En el editor del registro, cambie el valor del parámetro ```RoleSwitchMode``` desde ```3``` para ```1```: ```Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters```. 
 
