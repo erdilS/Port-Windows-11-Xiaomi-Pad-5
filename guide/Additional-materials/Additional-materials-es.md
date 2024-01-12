@@ -5,7 +5,7 @@
 
 ## Oficina de Microsoft
 
-- Descargue este [archivo](https://drive.google.com/file/d/1st8xVpxtJbe2GVTEZrC_RNumKllR97Hp/view?usp=sharing) a la tableta
+- Descargue este [archivo](https://mega.nz/file/Q7p1XK6L#J-KPp_-MNJ8iXGqEwwZ3_sfv2tMiq_AJjUiiaX6TBrI) a la tableta
   
 - Apague Windows Defender para evitar interferencias con la instalación
   
