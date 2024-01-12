@@ -19,6 +19,7 @@ fastboot boot <recovery.img>
 ```
 
 #### 格式化 Windows 和 EFI 分區
+> 如果腳本提示您需要重新運行一次, 請重新執行下面的命令
 ```cmd
 adb shell format
 ```
