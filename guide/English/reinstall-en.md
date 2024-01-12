@@ -26,7 +26,7 @@
 fastboot boot <recovery.img>
 ```
 ### Format the partitions
-
+> If it asks you to run it once again, do so
 ```cmd
 adb shell format
 ```
