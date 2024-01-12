@@ -24,7 +24,7 @@ Stable. Most of the hardware works, but some components do not work yet.
 - [X] Microphone
 - [X] Miracast
 - [X] Location
-- [X] FlashLight
+- [X] Flashlight
 - [ ] Xiaomi Pen charging support
 - [ ] Xiaomi Keyboard support
 - [ ] Camera
