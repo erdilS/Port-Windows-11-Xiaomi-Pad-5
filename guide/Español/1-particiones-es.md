@@ -3,7 +3,11 @@
 # Windows 11 En La Xiaomi Pad 5
 
 
-Este paso es necesario para que hagamos las particiones donde estará nuestra instalación de Windows
+### Requisitos Previos
+  
+- [Imagen de Recuperación](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+
+- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
 ## Notas:
 > [!WARNING]\
@@ -23,6 +27,8 @@ Este paso es necesario para que hagamos las particiones donde estará nuestra in
 > ¡No ejecute todos los comandos a la vez, ejecútelos en orden!
 >
 > ¡¡¡ASEGÚRATE DE NO COMETER NINGÚN ERROR!!! ¡PUEDE ROMPER SU DISPOSITIVO CON LOS COMANDOS SI LO HACE MAL!
+
+Este paso es necesario para que hagamos las particiones donde estará nuestra instalación de Windows
 
 #### Inicia el recovery desde el PC con el siguiente comando
 ```cmd
