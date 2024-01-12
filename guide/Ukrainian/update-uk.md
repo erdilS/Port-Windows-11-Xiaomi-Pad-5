@@ -7,7 +7,9 @@
 ### Передумова
 
 - [Відновлений образ](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+  
 - [Зображення UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+  
 - [Драйвері](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 
@@ -22,6 +24,7 @@ fastboot boot <recovery.img>
 
 
 ### Виконання скрипта msc
+> Якщо скрипт попросить запустити його ще раз, то так і зробіть
 
 ```cmd
 adb shell msc
