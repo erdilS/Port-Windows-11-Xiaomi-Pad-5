@@ -4,7 +4,7 @@
 
 ## Estado del proyecto
 
-Beta. La mayor parte del hardware funciona, pero algunos componentes aún no funcionan.
+Stable. casi todo funciona, excepto algunos componentes
 
 #### Caracteristicas
 
