@@ -145,5 +145,5 @@ fastboot flash boot boot.img
 ```
 
 # ¡Terminamos!
-
+> Puedes unirte a nuestro [Telegram chat](https://t.me/nabuwoa) para recibir las últimas noticias sobre el proyecto
 ### [Último paso: Configurar el arranque dual](dualboot-es.md)
