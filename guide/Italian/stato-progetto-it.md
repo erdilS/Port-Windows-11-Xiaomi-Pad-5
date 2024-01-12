@@ -4,7 +4,7 @@
 
 ## Stato del progetto
 
-Beta. La maggior parte dell'hardware funziona, ma alcuni componenti non funzionano ancora.
+Stable. quasi tutto funziona tranne alcuni componenti.
 
 #### Lista componenti supportati e non ancora supportati: 
 
