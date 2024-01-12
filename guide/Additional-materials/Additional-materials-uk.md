@@ -4,7 +4,7 @@
 
 ## Встановіть Microsoft Office
 
-- Завантажте цей [файл](https://drive.google.com/file/d/1st8xVpxtJbe2GVTEZrC_RNumKllR97Hp/view?usp=sharing) до планшета
+- Завантажте цей [файл](https://mega.nz/file/Q7p1XK6L#J-KPp_-MNJ8iXGqEwwZ3_sfv2tMiq_AJjUiiaX6TBrI) до планшета
   
 - Вимкніть Windows Defender, щоб уникнути будь-яких перешкод під час встановлення
   
