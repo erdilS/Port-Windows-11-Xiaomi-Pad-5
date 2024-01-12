@@ -9,8 +9,11 @@
 
 ### Prerequisites
 - Brain
+  
 - [Windows on ARM image](https://uupdump.net/)
+  
 - [UEFI image](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+  
 - [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ### Boot recovery back to start installing Windows
