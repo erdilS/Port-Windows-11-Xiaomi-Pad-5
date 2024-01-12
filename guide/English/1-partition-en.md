@@ -5,7 +5,7 @@
 
 ## Installation
 
-### Partitioning your device
+
 
 ### Prerequisites
 - Brain
@@ -30,6 +30,7 @@
 >
 > PLEASE DON'T USE ANY VIDEO GUIDE ON YOUTUBE OR ANY OTHER PLATFORM! THOSE VIDEOS ARE OUT OF DATED!
 
+### Partitioning your device
 
 #### Boot recovery through the PC with the command
 ```cmd
