@@ -111,5 +111,5 @@ fastboot flash boot boot.img
 ```
 
 ## 完成
-
+> 你可以加入我们的 [Telegram 聊天](https://t.me/nabuwoa) 接收有关计划的最新消息
 ### [最后一步：设置双启动](dualboot-tw.md)
