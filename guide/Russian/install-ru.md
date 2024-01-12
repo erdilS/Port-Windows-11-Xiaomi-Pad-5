@@ -83,7 +83,7 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 ### Установка драйверов
 
 > Вы можете скачать драйвера [тут](https://github.com/map220v/MiPad5-Drivers/releases/latest)
-
+> Когда он попросит вас "Enter Drive letter...", введите X:
 ```cmd
  Откройте папку с драйверами и заустите OfflineUpdater.cmd
 ```
