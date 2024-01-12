@@ -2,6 +2,8 @@
 
 
 # Running Windows on the Xiaomi Pad 5
+> [!WARNING]
+> PLEASE DON'T USE ANY VIDEO GUIDE ON YOUTUBE OR ANY OTHER PLATFORM! THOSE VIDEOS ARE OUT OF DATED!
 
 ## Installation
 
