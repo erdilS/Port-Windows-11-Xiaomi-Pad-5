@@ -129,8 +129,10 @@ adb reboot bootloader
 > Reemplaza ```<panel>``` por el panel de tu dispositivo
 
 ```cmd
-fastboot flash boot boot-nabu_<panel>.img
+fastboot flash boot <ruta a la imagen>
 ```
+> [!NOTE]
+> En el primer arranque de Windows, no verá ninguna red Wi-Fi, simplemente reinícielo manteniendo presionado el botón de encendido y, después de reiniciar, cuando intente conectarse a su red y vea "helado", haga clic en" intentarlo de nuevo " 7 veces
 
 # Arrancar de nuevo en Android
 > Usa el backup del boot.img en fastboot
