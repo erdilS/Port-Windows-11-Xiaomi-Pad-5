@@ -129,6 +129,8 @@ adb reboot bootloader
 ```cmd
 fastboot flash boot <path to image>
 ```
+> [!NOTE]
+> Al primo avvio di Windows, non vedrà alcuna rete Wi-Fi, basta riavviarlo tenendo premuto il pulsante di accensione e dopo il riavvio quando si tenta di connettersi alla rete e si vede" gelato "fare clic su" riprova " 7 volte
 
 ### Per riavviare il dispositivo in Android
 > Usa il backup dell'immagine di avvio che hai salvato precedentemente sul tuo computer ed esegui il flashing da fastboot 
