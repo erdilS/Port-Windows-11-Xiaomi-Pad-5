@@ -10,7 +10,9 @@
 ### Requisitos previos
 
 - [Windows ARM](https://uupdump.net/)
+  
 - [UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+  
 - [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 
@@ -21,6 +23,7 @@ fastboot boot <recovery.img>
 
 
 ### Ejecutar el msc 
+> Si le pide que lo ejecute una vez más, hágalo
 
 ```cmd
 adb shell msc
