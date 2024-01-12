@@ -30,4 +30,5 @@ fastboot boot <recovery.img>
 ```cmd
 adb shell format
 ```
-## [Next step: Reinstalling Windows](/guide/English/2-install-en.md)
+## [Next step: Reinstalling Windows](/guide/English/2-install-en.md#### Execute the msc script
+)
