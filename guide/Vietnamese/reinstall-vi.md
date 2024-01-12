@@ -32,62 +32,6 @@ adb shell format
 ```
 
 
-#### Thực thi msc script
-
-```cmd
-adb shell msc
-```
-
-### Gán lại kí tự cho ổ đĩa... một lần nữa dùm em nha
-  
-
-#### Khởi động Windows disk manager
-
-> Rồi đó, Xiaomi Pad 5 sẽ xuất hiện ở đây một lần
-
-```cmd
-diskpart
-```
-
-- Phân vùng "WINNABU" sẽ được gán với kí tự X. Nếu có rồi, bỏ qua tới `Gán "Y" đến ESP volume`
-
-#### Gán `X` cho ổ Windows
-
-#### Chọn Windows volume của máy tính bảng
-> Dùng `list volume` để kiếm, nó sẽ được đặt tên là "WINNABU"
-
-```diskpart
-select volume <số>
-```
-
-#### Gán kí tự X
-```diskpart
-assign letter=x
-```
-
-### Gán `Y` cho ổ ESP 
-
-#### Chọn ổ esp của máy tính bảng
-> Dùng lệnh `list volume` để kiếm, nó được đặt tên là  "ESPNABU"
-
-```diskpart
-select volume <number>
-```
-
-#### Gán kí tự Y
-
-```diskpart
-assign letter=y
-```
-
-- Nếu gặp lỗi `The specified drive letter is not free to be assigned`, hãy khởi động lại máy tính và thử lại từ đoạn diskpart ở trên, tuyệt đối không đụng vô máy tính bảng
-
-#### Thoát diskpart
-```diskpart
-exit
-```
-
-
 ### Cài đặt
 
-- Tiếp tục hướng dẫn [ở đây](/guide/Vietnamese/2-install-vi.md#install)
+- Tiếp tục hướng dẫn [ở đây](/guide/Vietnamese/2-install-vi.md#Thực-thi-msc-script)
