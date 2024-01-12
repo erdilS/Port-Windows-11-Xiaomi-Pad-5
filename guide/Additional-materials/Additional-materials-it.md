@@ -4,7 +4,7 @@
 
 ## Installare Microsoft Office
 
-- Scarica questo [file](https://drive.google.com/file/d/1st8xVpxtJbe2GVTEZrC_RNumKllR97Hp/view?usp=sharing) al tablet
+- Scarica questo [file](https://mega.nz/file/Q7p1XK6L#J-KPp_-MNJ8iXGqEwwZ3_sfv2tMiq_AJjUiiaX6TBrI) al tablet
   
 - Disattiva Windows Defender per evitare interferenze con l'installazione
   
