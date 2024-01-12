@@ -18,7 +18,7 @@ fastboot boot <recovery.img>
 ```
 
 #### Thực thi lệnh
-
+> Nếu nó yêu cầu bạn chạy nó một lần nữa, hãy làm như vậy
 ```cmd
 adb shell msc
 ```
