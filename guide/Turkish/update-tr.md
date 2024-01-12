@@ -16,7 +16,7 @@ fastboot boot <recovery.img>
 
 
 ### Betiği çalıştırın
-
+> Sizden bir kez daha çalıştırmanızı isterse, bunu yapın
 ```cmd
 adb shell msc
 ```
