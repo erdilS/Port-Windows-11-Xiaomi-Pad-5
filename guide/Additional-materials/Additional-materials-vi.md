@@ -46,7 +46,7 @@ irm https://massgrave.dev/get | iex
 
 > Sạc c Đến c với THIẾT bị hỗ trợ PD đã được xác nhận hoạt động và Bộ sạc 33W do Xiaomi cung CẤP cũng được xác nhận là đang hoạt ĐỘNG
 
-- Tải về  [Kịch bản Từ Misha803](https://t.me/droidscripts/22) để dễ dàng kích hoạt nó
+- Tải về  [Kịch bản Từ Misha803](https://t.me/droidscripts/52) để dễ dàng kích hoạt nó
  
 - Hoặc sử dụng phương pháp truyền thống - trong trình chỉnh sửa sổ đăng ký, thay đổi giá trị của tham số ```RoleSwitchMode``` từ  ```3``` để  ```1```: ```Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters```. 
 
