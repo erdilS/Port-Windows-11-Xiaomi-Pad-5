@@ -18,7 +18,7 @@ fastboot boot <recovery.img>
 ```
 
 
-### Виконайте сценарій msc.sh
+### Виконайте сценарій msc
 
 ```cmd
 adb shell msc
