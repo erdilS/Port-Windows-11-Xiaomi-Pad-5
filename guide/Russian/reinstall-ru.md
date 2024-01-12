@@ -12,7 +12,9 @@
 ### Требования
 
 - Существующие разделы для Windows и загрузки (*если их нет, [используйте данную инструкцию](/guide/Russian/partition-ru.md)*)
+  
 - [Образ рекавери](../../../../releases/tag/1.0)
+  
 - [ADB и Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
 
