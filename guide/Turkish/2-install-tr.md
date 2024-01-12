@@ -2,6 +2,8 @@
 
 
 # Xiaomi Pad 5 üzerinde Windows Çalıştırma
+> [!WARNING]
+> LÜTFEN YOUTUBE'DA VEYA BAŞKA BİR PLATFORMDA HERHANGİ BİR VİDEO kılavuzu kullanmayın! BU VİDEOLAR MODASI GEÇMİŞ!
 
 ## Aşama 2: Windows Kurulumu
 
