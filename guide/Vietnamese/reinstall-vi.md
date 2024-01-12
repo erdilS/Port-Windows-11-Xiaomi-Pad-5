@@ -26,7 +26,7 @@
 fastboot boot <recovery.img>
 ```
 ### Định dạng phân vùng
-
+> Nếu nó yêu cầu bạn chạy nó một lần nữa, hãy làm như vậy
 ```cmd
 adb shell format
 ```
