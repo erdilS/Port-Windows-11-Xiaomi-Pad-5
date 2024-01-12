@@ -4,7 +4,7 @@
 
 ## Microsoft Office
 
-- Bunu indir [dosya](https://drive.google.com/file/d/1st8xVpxtJbe2GVTEZrC_RNumKllR97Hp/view?usp=sharing) tablete
+- Bunu indir [dosya](https://mega.nz/file/Q7p1XK6L#J-KPp_-MNJ8iXGqEwwZ3_sfv2tMiq_AJjUiiaX6TBrI) tablete
   
 - Kuruluma herhangi bir müdahaleyi önlemek için Windows Defender'ı kapatın
   
