@@ -26,6 +26,7 @@
 fastboot boot <recovery.img>
 ```
 ### Formatear las particiones
+> Si le pide que lo ejecute una vez más, hágalo
 
 
 ``` cmd
