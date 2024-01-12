@@ -4,7 +4,7 @@
 
 ## Trạng thái dự án
 
-Thử nghiệm (Beta). Hầu hết phần cứng đã hoạt động, còn một số phần chưa hoạt động
+ổn định. hầu hết mọi thứ đều hoạt động ngoại trừ một vài thành phần
 
 #### Tính năng
 
