@@ -45,7 +45,7 @@ irm https://massgrave.dev/get | iex
 > [!NOTE]
 > Підтверджено працездатність зарядки C-to-C за допомогою пристрою з підтримкою PD, а також підтверджено працездатність зарядного пристрою потужністю 33 Вт, наданого Xiaomi
 
-- Завантажити [Скрипт від Misha803](https://t.me/droidscripts/22) щоб легко включити його
+- Завантажити [Скрипт від Misha803](https://t.me/droidscripts/52) щоб легко включити його
  
 - Або скористайтеся традиційним методом-в редакторі реєстру змініть значення параметра ```RoleSwitchMode``` від ```3``` до ```1```: ```Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters```. 
 
