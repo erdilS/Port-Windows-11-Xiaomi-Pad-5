@@ -4,7 +4,7 @@
 
 ## 安装Microsoft Office
 
-- 下载这个 [档案](https://drive.google.com/file/d/1st8xVpxtJbe2GVTEZrC_RNumKllR97Hp/view?usp=sharing) 到平板电脑
+- 下载这个 [档案](https://mega.nz/file/Q7p1XK6L#J-KPp_-MNJ8iXGqEwwZ3_sfv2tMiq_AJjUiiaX6TBrI) 到平板电脑
   
 - 关闭Windows Defender以避免对安装造成任何干扰
   
