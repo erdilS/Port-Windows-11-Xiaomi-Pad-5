@@ -10,7 +10,9 @@
 ### Prerequisiti
 
 - [Immagine Windows On Arm](https://uupdump.net/)
+  
 - [immagine UEFI](../../../../releases/tag/1.0)
+  
 - [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ### Riavvia di nuovo la recovery per avviare l'installazione di Windows
@@ -21,6 +23,7 @@ fastboot boot <recovery.img>
 
 
 #### Esegui lo script msc
+> Se ti chiede di eseguirlo un altra volta allora fallo.
 
 ```cmd
 adb shell msc
