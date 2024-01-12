@@ -142,5 +142,5 @@ fastboot flash boot boot.img
 ```
 
 # İşlem tamamlandı!
-
+> Bize katılabilirsiniz [Telegram sohbeti](https://t.me/nabuwoa) projeyle ilgili en son haberleri almak için
 ### [Son adım: Çift önyüklemeyi ayarlama](dualboot-tr.md)
