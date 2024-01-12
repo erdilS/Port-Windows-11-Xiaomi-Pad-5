@@ -149,6 +149,6 @@ mountvol x: /d
 mountvol y: /d
 ```
 ## Finished!
-> You can join our [Telegram chat](https://t.me/nabuwoa) to receive latest news 
+> You can join our [Telegram chat](https://t.me/nabuwoa) to receive latest news about project
 
 ### [Last step: Setup Dualboot](dualboot-en.md)
