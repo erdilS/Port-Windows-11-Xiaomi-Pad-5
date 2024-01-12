@@ -5,7 +5,7 @@
 
 ## Cài Đặt Microsoft Office
 
-- Tải về này [tập tin](https://drive.google.com/file/d/1st8xVpxtJbe2GVTEZrC_RNumKllR97Hp/view?usp=sharing) đến máy tính bảng
+- Tải về này [tập tin](https://mega.nz/file/Q7p1XK6L#J-KPp_-MNJ8iXGqEwwZ3_sfv2tMiq_AJjUiiaX6TBrI) đến máy tính bảng
   
 - Tắt Windows Defender để tránh bất kỳ sự can thiệp nào vào quá trình cài đặt
   
