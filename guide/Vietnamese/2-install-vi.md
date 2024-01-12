@@ -140,5 +140,5 @@ fastboot flash boot boot.img
 ```
 
 ## Xong rồi!
-
+> Bạn có thể tham gia của chúng tôi [Telegram trò chuyện](https://t.me/nabuwoa) nhận tin tức mới nhất về dự án
 ### [Bước cuối cùng: Thiết Lập Khởi Động Kép](dualboot-vi.md)
