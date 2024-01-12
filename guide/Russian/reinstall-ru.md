@@ -33,4 +33,4 @@ adb shell format
 ```
 
 
-### [Следующий шаг](/guide/Russian/install-ru.md#Выполните-скрипт-msc)
+### [Следующий шаг: Установка Windows](/guide/Russian/install-ru.md#Выполните-скрипт-msc)
