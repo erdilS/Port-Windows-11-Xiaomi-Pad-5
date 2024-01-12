@@ -9,7 +9,9 @@
 
 
 - [UEFI image](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+  
 - [Recovery](../../../../releases/tag/1.0)
+  
 - [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 #### Inicia el recovery desde el PC con este comando
@@ -20,6 +22,7 @@ fastboot boot <recovery.img>
 
 
 ### Ejecutar msc
+> Si le pide que lo ejecute una vez más, hágalo
 
 ```cmd
 adb shell msc
