@@ -125,8 +125,10 @@ adb reboot bootloader
 ### Tải và flash UEFI image
 > Tải XUỐNG [HÌNH ẢNH UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
 ```cmd
-fastboot flash boot <path to image>
+fastboot flash boot <đường dẫn đến hình ảnh>
 ```
+> [!NOTE]
+> Trong Lần Khởi Động Windows Đầu tiên, Nó sẽ không thấy bất kỳ mạng Wi-Fi nào, chỉ cần khởi động lại bằng cách giữ nút nguồn và sau khi khởi động lại khi bạn thử kết nối với mạng yuor và bạn thấy "kem" nhấp vào "thử lại" 7 lần
 
 ### Boot trở lại vào Android
 > Dùng backup boot của bạn và flash từ fastboot
