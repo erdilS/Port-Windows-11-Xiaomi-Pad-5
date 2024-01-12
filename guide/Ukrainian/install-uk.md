@@ -1,5 +1,5 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
-# Запуск Windows на Xiaomi Pad 5
+#Запуск Windows на Xiaomi Pad 5
 
 > [!WARNING]
 > БУДЬ ЛАСКА, НЕ ВИКОРИСТОВУЙТЕ ВІДЕОГІД НА YOUTUBE АБО БУДЬ-ЯКІЙ ІНШІЙ ПЛАТФОРМІ! ЦІ ВІДЕО ЗАСТАРІЛИ!
