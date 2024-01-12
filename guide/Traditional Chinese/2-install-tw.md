@@ -1,7 +1,8 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 # 在 Xiaomi Pad 5 上安裝 Windows
-
+> [!WARNING]
+> 请不要在YOUTUBE或任何其他平台上使用任何视频指南！ 那些视频已经过时了！
 ## 安裝 Windows
 
 ### 請先準備下面的步驟
