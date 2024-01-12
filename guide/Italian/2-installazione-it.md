@@ -143,4 +143,5 @@ fastboot flash boot boot.img
 ```
 
 ## Finito!
+> Puoi unirti al nostro [Telegram chat](https://t.me/nabuwoa) per ricevere le ultime notizie sul progetto
 ## [Per il dualboot](/guide/Italian/dualboot-it.md)
