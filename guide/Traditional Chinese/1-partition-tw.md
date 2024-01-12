@@ -6,6 +6,7 @@
 
 ### 請先準備下面的步驟
 - [Recovery 鏡像](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+  
 - [ADB & Fastboot (Android Platform Tools)](https://developer.android.com/studio/releases/platform-tools)
 
 ### 注意：
