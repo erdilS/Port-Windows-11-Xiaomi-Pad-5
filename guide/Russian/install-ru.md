@@ -2,13 +2,17 @@
 
 
 # Windows на Xiaomi Pad 5
+> [!WARNING]
+> ПОЖАЛУЙСТА, НЕ ИСПОЛЬЗУЙТЕ ВИДЕОГИД НА YOUTUBE ИЛИ ЛЮБОЙ ДРУГОЙ ПЛАТФОРМЕ! ЭТИ ВИДЕО УСТАРЕЛИ!
 
 ## Установка
 
 ### Требования
 
 - [ARM образ Windows](https://uupdump.net/)
+  
 - [Образ UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+  
 - [Драйверы](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ### Перезапустите рекавери чтобы начать установку Windows
@@ -18,6 +22,7 @@ fastboot boot <recovery.img>
 ```
 
 #### Выполните скрипт msc
+> Если скрипт попросит запустить его ещё раз, то так и сделайте
 
 ```cmd
 adb shell msc
@@ -84,6 +89,7 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 > Вы можете скачать драйвера [тут](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
+> Когда он попросит вас "Enter Drive letter...", введите X:
 ```cmd
  Откройте папку с драйверами и заустите OfflineUpdater.cmd
 ```
@@ -118,6 +124,8 @@ adb reboot bootloader
 ```cmd
 fastboot flash boot <путь к образу UEFI>
 ```
+> [!NOTE]
+> При первой загрузке Windows он не увидит никаких сетей Wi-Fi, просто перезагрузите его, удерживая нажатой кнопку питания, а после перезагрузки, когда вы попытаетесь подключиться к своей сети и увидите "мороженое", нажмите "повторить попытку" 7 раз
 
 ### Загрузка в Android
 > Прошейте скопированное ранее ядро в fastboot
@@ -132,5 +140,5 @@ mountvol x: /d
 mountvol y: /d
 ```
 ## Готово!
-
+> Вы можете присоедениться к нашему [чату в Telegram](https://t.me/nabuwoa) что-бы получать последние новости проекта 
 ### [Последний шаг: Настройка двойной загрузки](dualboot-ru.md)

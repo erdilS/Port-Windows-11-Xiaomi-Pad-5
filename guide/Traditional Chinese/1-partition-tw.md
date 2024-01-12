@@ -6,6 +6,7 @@
 
 ### 請先準備下面的步驟
 - [Recovery 鏡像](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+  
 - [ADB & Fastboot (Android Platform Tools)](https://developer.android.com/studio/releases/platform-tools)
 
 ### 注意：
@@ -33,8 +34,11 @@ fastboot boot <recovery.img的路徑>
 ```
 
 #### 執行分區腳本
-如果腳本提示您需要重新運行一次, 請重新執行下面的命令
+
+
 > **本步骤为可选**
+>
+> 如果腳本提示您需要重新運行一次, 請重新執行下面的命令
 >
 > 您可以通過 ```adb shell partition [Windows分區大小, 單位為GB]``` 來自定義分區大小
 >

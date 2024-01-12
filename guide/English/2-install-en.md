@@ -2,6 +2,8 @@
 
 
 # Running Windows on the Xiaomi Pad 5
+> [!WARNING]
+> PLEASE DON'T USE ANY VIDEO GUIDE ON YOUTUBE OR ANY OTHER PLATFORM! THOSE VIDEOS ARE OUT OF DATED!
 
 ## Installation
 
@@ -9,8 +11,11 @@
 
 ### Prerequisites
 - Brain
+  
 - [Windows on ARM image](https://uupdump.net/)
+  
 - [UEFI image](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+  
 - [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ### Boot recovery back to start installing Windows
@@ -134,6 +139,8 @@ adb reboot bootloader
 fastboot flash boot <path to image>
 ```
 
+> [!NOTE]
+> On the first Windows boot, it will not see any Wi-Fi networks, just restart it by holding down the power button, and after reboot when you try connect to yuor network and you see "ice-cream" click "try again" 7 times
 ### Boot back into Android
 > Use your backup boot image and flash from fastboot
 
@@ -147,5 +154,6 @@ mountvol x: /d
 mountvol y: /d
 ```
 ## Finished!
+> You can join our [Telegram chat](https://t.me/nabuwoa) to receive latest news about project
 
 ### [Last step: Setup Dualboot](dualboot-en.md)

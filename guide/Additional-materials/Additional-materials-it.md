@@ -4,7 +4,7 @@
 
 ## Installare Microsoft Office
 
-- Scarica questo [file](https://drive.google.com/file/d/1st8xVpxtJbe2GVTEZrC_RNumKllR97Hp/view?usp=sharing) al tablet
+- Scarica questo [file](https://mega.nz/file/Q7p1XK6L#J-KPp_-MNJ8iXGqEwwZ3_sfv2tMiq_AJjUiiaX6TBrI) al tablet
   
 - Disattiva Windows Defender per evitare interferenze con l'installazione
   
@@ -46,7 +46,7 @@ irm https://massgrave.dev/get | iex
 > [!NOTE]
 > La ricarica da C a C con un dispositivo supportato da PD è stata confermata funzionante e anche il caricabatterie da 33 W fornito da Xiaomi è confermato funzionante
 
-- Scarica [Script da Misha803](https://t.me/droidscripts/22) per abilitarlo facilmente
+- Scarica [Script da Misha803](https://t.me/droidscripts/52) per abilitarlo facilmente
  
 - Oppure utilizzare il metodo tradizionale: nell'editor del Registro di sistema, modificare il valore del parametro ```RoleSwitchMode``` da ```3``` per ```1```: ```Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters```. 
 

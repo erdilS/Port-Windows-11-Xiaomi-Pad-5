@@ -2,6 +2,8 @@
 
 # Windows 11 En La Xiaomi Pad 5
 
+> [!WARNING]
+> ¡POR FAVOR, NO USES NINGUNA GUÍA DE VIDEO EN YOUTUBE NI EN NINGUNA OTRA PLATAFORMA! ¡ESOS VIDEOS ESTÁN DESACTUALIZADOS!
 
 # Instalar Windows
 
@@ -10,7 +12,9 @@
 ### Requisitos previos
 
 - [Windows ARM](https://uupdump.net/)
+  
 - [UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+  
 - [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 
@@ -21,6 +25,7 @@ fastboot boot <recovery.img>
 
 
 ### Ejecutar el msc 
+> Si le pide que lo ejecute una vez más, hágalo
 
 ```cmd
 adb shell msc
@@ -129,8 +134,10 @@ adb reboot bootloader
 > Reemplaza ```<panel>``` por el panel de tu dispositivo
 
 ```cmd
-fastboot flash boot boot-nabu_<panel>.img
+fastboot flash boot <ruta a la imagen>
 ```
+> [!NOTE]
+> En el primer arranque de Windows, no verá ninguna red Wi-Fi, simplemente reinícielo manteniendo presionado el botón de encendido y, después de reiniciar, cuando intente conectarse a su red y vea "helado", haga clic en" intentarlo de nuevo " 7 veces
 
 # Arrancar de nuevo en Android
 > Usa el backup del boot.img en fastboot
@@ -140,5 +147,5 @@ fastboot flash boot boot.img
 ```
 
 # ¡Terminamos!
-
+> Puedes unirte a nuestro [Telegram chat](https://t.me/nabuwoa) para recibir las últimas noticias sobre el proyecto
 ### [Último paso: Configurar el arranque dual](dualboot-es.md)

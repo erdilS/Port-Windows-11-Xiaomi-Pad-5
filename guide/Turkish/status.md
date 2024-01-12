@@ -4,7 +4,7 @@
 
 ## Projenin durumu
 
-Beta. Donanımların birçoğu çalışıyor fakat bazı bileşenler henüz çalışmamakta.
+Stable. Hemen hemen her şey birkaç bileşen dışında çalışır.
 
 #### Features
 

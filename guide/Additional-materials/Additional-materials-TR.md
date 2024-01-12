@@ -4,7 +4,7 @@
 
 ## Microsoft Office
 
-- Bunu indir [dosya](https://drive.google.com/file/d/1st8xVpxtJbe2GVTEZrC_RNumKllR97Hp/view?usp=sharing) tablete
+- Bunu indir [dosya](https://mega.nz/file/Q7p1XK6L#J-KPp_-MNJ8iXGqEwwZ3_sfv2tMiq_AJjUiiaX6TBrI) tablete
   
 - Kuruluma herhangi bir müdahaleyi önlemek için Windows Defender'ı kapatın
   
@@ -45,7 +45,7 @@ irm https://massgrave.dev/get | iex
 > [!NOTE]
 > PD destekli bir cihazla C'den C'ye şarj işleminin çalıştığı onaylandı ve Xiaomi tarafından sağlanan 33W şarj cihazının da çalıştığı onaylandı
 
-- İndir [Misha803'ten Senaryo](https://t.me/droidscripts/22) kolayca etkinleştirmek için
+- İndir [Misha803'ten Senaryo](https://t.me/droidscripts/52) kolayca etkinleştirmek için
  
 - Veya geleneksel yöntemi kullanın - Kayıt defteri düzenleyicisinde parametrenin değerini değiştirin ```RoleSwitchMode``` -den ```3``` -e doğru ```1```: ```Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters```. 
 

@@ -1,13 +1,16 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 # 在 Xiaomi Pad 5 上安裝 Windows
-
+> [!WARNING]
+> 请不要在YOUTUBE或任何其他平台上使用任何视频指南！ 那些视频已经过时了！
 ## 安裝 Windows
 
 ### 請先準備下面的步驟
 
 - [Windows on ARM 映像](https://uupdump.net/)
+  
 - [UEFI boot 映像](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+  
 - [驅動文件](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ### 請進入 Fastboot 模式, 並輸入以下命令來啟动到 Recovery
@@ -16,6 +19,7 @@ fastboot boot <recovery.img>
 ```
 
 #### 執行 msc 模式腳本
+> 如果腳本提示您需要重新運行一次, 請重新執行下面的命令
 ```cmd
 adb shell msc
 ```
@@ -96,8 +100,10 @@ adb reboot bootloader
 > 下载[UEFI图像](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
 
 ```cmd
-fastboot flash boot <path to image>
+fastboot flash boot <图像路径>
 ```
+> [!NOTE]
+> 在第一次Windows启动时，它不会看到任何Wi-Fi网络，只需按住电源按钮重新启动它，重新启动后，当您尝试连接到yuor网络时，您会看到"冰淇淋"点击"再试一次"7次
 
 ### 回退到 Android **可選**
 > 使用您之前備份過的 Boot 鏡像, 並刷入到當前激活的 slot
@@ -106,5 +112,5 @@ fastboot flash boot boot.img
 ```
 
 ## 完成
-
+> 你可以加入我们的 [Telegram 聊天](https://t.me/nabuwoa) 接收有关计划的最新消息
 ### [最后一步：设置双启动](dualboot-tw.md)

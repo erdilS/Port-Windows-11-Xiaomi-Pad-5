@@ -5,7 +5,7 @@
 
 ## Installation
 
-### Partitioning your device
+
 
 ### Prerequisites
 - Brain
@@ -26,11 +26,11 @@
 > 
 > DO NOT REBOOT YOUR TABLET if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/nabuwoa)
 >
-> 
 > Do not run all commands at once, execute them in order!
 >
-> YOU CAN BREAK YOUR DEVICE WITH THE COMMANDS BELOW IF YOU DO THEM WRONG!
+> PLEASE DON'T USE ANY VIDEO GUIDE ON YOUTUBE OR ANY OTHER PLATFORM! THOSE VIDEOS ARE OUT OF DATED!
 
+### Partitioning your device
 
 #### Boot recovery through the PC with the command
 ```cmd

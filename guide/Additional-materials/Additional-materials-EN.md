@@ -4,7 +4,7 @@
 
 ## Microsoft Office
 
-- Download this [file](https://1drv.ms/u/s!AqU0dlbIEzGt5l_tXeUTpNqPMOMS?e=GyGIu3) to tablet 
+- Download this [file](https://mega.nz/file/Q7p1XK6L#J-KPp_-MNJ8iXGqEwwZ3_sfv2tMiq_AJjUiiaX6TBrI) to tablet 
   
 - Turn off Windows Defender to avoid any interference with the installation
   
@@ -46,6 +46,6 @@ irm https://massgrave.dev/get | iex
 > [!NOTE]
 > C to C charging with a PD supported device has been confirmed working and the 33W charger provided by Xiaomi is also confirmed to be working
 
-- Download  [Script from Misha803](https://t.me/droidscripts/22) to easy enable it
+- Download  [Script from Misha803](https://t.me/droidscripts/52) to easy enable it
  
 - Or use traditional method - In the registry editor, change the value of the parameter ```RoleSwitchMode``` from ```3``` to ```1```: ```Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters```. 

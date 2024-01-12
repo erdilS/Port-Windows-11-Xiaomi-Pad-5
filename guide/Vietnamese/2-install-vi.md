@@ -3,6 +3,9 @@
 
 # Cài đặt Windows 11 lên Xiaomi Mi Pad 5
 
+> [!WARNING]
+> VUI LÒNG KHÔNG SỬ DỤNG BẤT KỲ VIDEO HƯỚNG DẪN NÀO TRÊN YOUTUBE HOẶC BẤT KỲ NỀN TẢNG NÀO KHÁC! NHỮNG VIDEO ĐÓ ĐÃ LỖI THỜI!
+
 ## Hướng dẫn cài đặt
 
 ## Cài đặt Windows
@@ -10,12 +13,14 @@
 ### Điều kiện tiên quyết
 
 - [Windows trên ARM image](https://uupdump.net/)
+  
 - [UEFI image](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+  
 - [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 
 ### Boot vào recovery để tiếp tục cài Windows
-
+> Nếu nó yêu cầu bạn chạy nó một lần nữa, hãy làm như vậy
 ```cmd
 fastboot boot <recovery.img>
 ```
@@ -125,8 +130,10 @@ adb reboot bootloader
 ### Tải và flash UEFI image
 > Tải XUỐNG [HÌNH ẢNH UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
 ```cmd
-fastboot flash boot <path to image>
+fastboot flash boot <đường dẫn đến hình ảnh>
 ```
+> [!NOTE]
+> Trong Lần Khởi Động Windows Đầu tiên, Nó sẽ không thấy bất kỳ mạng Wi-Fi nào, chỉ cần khởi động lại bằng cách giữ nút nguồn và sau khi khởi động lại khi bạn thử kết nối với mạng yuor và bạn thấy "kem" nhấp vào "thử lại" 7 lần
 
 ### Boot trở lại vào Android
 > Dùng backup boot của bạn và flash từ fastboot
@@ -136,5 +143,5 @@ fastboot flash boot boot.img
 ```
 
 ## Xong rồi!
-
+> Bạn có thể tham gia của chúng tôi [Telegram trò chuyện](https://t.me/nabuwoa) nhận tin tức mới nhất về dự án
 ### [Bước cuối cùng: Thiết Lập Khởi Động Kép](dualboot-vi.md)

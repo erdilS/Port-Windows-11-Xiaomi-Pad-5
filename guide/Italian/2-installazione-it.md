@@ -2,6 +2,8 @@
 
 
 # Installare Windows su mi pad 5
+> [!WARNING]
+> SI PREGA DI NON UTILIZZARE ALCUNA GUIDA VIDEO SU YOUTUBE O QUALSIASI ALTRA PIATTAFORMA! Quei VIDEO SONO DATATI!
 
 ## Installazione
 
@@ -10,7 +12,9 @@
 ### Prerequisiti
 
 - [Immagine Windows On Arm](https://uupdump.net/)
+  
 - [immagine UEFI](../../../../releases/tag/1.0)
+  
 - [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ### Riavvia di nuovo la recovery per avviare l'installazione di Windows
@@ -21,6 +25,7 @@ fastboot boot <recovery.img>
 
 
 #### Esegui lo script msc
+> Se ti chiede di eseguirlo un altra volta allora fallo.
 
 ```cmd
 adb shell msc
@@ -129,6 +134,8 @@ adb reboot bootloader
 ```cmd
 fastboot flash boot <path to image>
 ```
+> [!NOTE]
+> Al primo avvio di Windows, non vedrà alcuna rete Wi-Fi, basta riavviarlo tenendo premuto il pulsante di accensione e dopo il riavvio quando si tenta di connettersi alla rete e si vede" gelato "fare clic su" riprova " 7 volte
 
 ### Per riavviare il dispositivo in Android
 > Usa il backup dell'immagine di avvio che hai salvato precedentemente sul tuo computer ed esegui il flashing da fastboot 
@@ -138,4 +145,5 @@ fastboot flash boot boot.img
 ```
 
 ## Finito!
+> Puoi unirti al nostro [Telegram chat](https://t.me/nabuwoa) per ricevere le ultime notizie sul progetto
 ## [Per il dualboot](/guide/Italian/dualboot-it.md)

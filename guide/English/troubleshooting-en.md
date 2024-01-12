@@ -49,49 +49,6 @@ This is caused by partitions with volume names the bootloader cannot handle, to 
 
 - After it boots, readd the driver and reinstall the driver again
 
-## Enabling fast charging and enabling USB host mode
-
-> [!WARNING]
->  Make sure any registry edits are done on the Mi Pad 5 itself
-
-> [!NOTE]
-> C to C charging with a PD supported device has been confirmed working and the 33W charger provided by Xiaomi is also confirmed to be working
-
-- Download  [Script from Misha803](https://t.me/droidscripts/22) to easy enable it
- 
-- or use traditional method In the registry editor, change the value of the parameter ```RoleSwitchMode``` from ```3``` to ```1```: ```Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters```. 
-
-## I have disabled test mode and now my tablet will not boot into Windows
-
-> [!IMPORTANT]
->  Make sure you watch [This video](https://youtu.be/oHg5SJYRHA0) before attempting to do anything to avoid anymore trouble
-
-- Take a good look at yourself
-
-- Realise how much of a disappointment you are
-
-- Follow whats below
-
-- Boot the recovery image with ```fastboot boot <recovery.img>```
-
-
-- Run the mass storage script with ```adb shell```
-
-- Open cmd as admin
-
-- Type ```diskpart``` to start diskpart (shocker)
-
-- Find the ESP Volume with ```list volume```, i should be the one named ESPNABU
-
-- Select the ESP volume with ```select volume <number>```
-
-- Assign the letter with ```assign letter=y```
-
-- Exit diskpart with ```exit```
-
-- Run this command to re enable testmode ```bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on```
-
-- Reboot the tablet into bootloader and boot your UEFI image and Windows should boot
 
 ## Bootloop after switching to Android 
 

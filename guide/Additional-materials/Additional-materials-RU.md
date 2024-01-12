@@ -4,7 +4,7 @@
 
 ## Установка Microsoft Office
 
-- Скачайте этот [файл](https://drive.google.com/file/d/1st8xVpxtJbe2GVTEZrC_RNumKllR97Hp/view?usp=sharing) на планшет  
+- Скачайте этот [файл](https://mega.nz/file/Q7p1XK6L#J-KPp_-MNJ8iXGqEwwZ3_sfv2tMiq_AJjUiiaX6TBrI) на планшет  
   
 - Отключите защитник Windows, чтобы избежать каких-либо проблем при установке
   
@@ -45,7 +45,7 @@ irm https://massgrave.dev/get | iex
 > [!NOTE]
 > Подтверждена работоспособность зарядки C-to-C с помощью устройства с поддержкой PD, а также подтверждена работоспособность зарядного устройства мощностью 33 Вт, предоставленного Xiaomi
 
-- Скачайте  [Скрипт от Misha803](https://t.me/droidscripts/22) что бы легко включить это 
+- Скачайте  [Скрипт от Misha803](https://t.me/droidscripts/52) что бы легко включить это 
  
 - или используйте традиционный метод - в редакторе рекстра, измените значение параметра ```RoleSwitchMode``` С ```3``` на ```1```: ```Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters```. 
 

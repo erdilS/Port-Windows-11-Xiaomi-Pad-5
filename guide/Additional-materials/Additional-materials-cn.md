@@ -4,7 +4,7 @@
 
 ## 安装Microsoft Office
 
-- 下载这个 [档案](https://drive.google.com/file/d/1st8xVpxtJbe2GVTEZrC_RNumKllR97Hp/view?usp=sharing) 到平板电脑
+- 下载这个 [档案](https://mega.nz/file/Q7p1XK6L#J-KPp_-MNJ8iXGqEwwZ3_sfv2tMiq_AJjUiiaX6TBrI) 到平板电脑
   
 - 关闭Windows Defender以避免对安装造成任何干扰
   
@@ -45,7 +45,7 @@ irm https://massgrave.dev/get | iex
 > [!NOTE]
 > 使用PD支持的设备进行C到C充电已确认工作，小米提供的33w充电器也已确认工作
 
-- 下载 [来自Misha803的剧本](https://t.me/droidscripts/22) 轻松启用它
+- 下载 [来自Misha803的剧本](https://t.me/droidscripts/52) 轻松启用它
  
 - 或者使用传统方法-在注册表编辑器中，更改参数的值 ```RoleSwitchMode``` 从 ```3``` 到 ```1```: ```Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters```. 
 

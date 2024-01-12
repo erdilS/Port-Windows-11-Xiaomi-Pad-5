@@ -1,5 +1,9 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
-# Running Windows on the Xiaomi Pad 5
+
+## Запуск Windows на Xiaomi Pad 5
+
+> [!WARNING]
+> БУДЬ ЛАСКА, НЕ ВИКОРИСТОВУЙТЕ ВІДЕОГІД НА YOUTUBE АБО БУДЬ-ЯКІЙ ІНШІЙ ПЛАТФОРМІ! ЦІ ВІДЕО ЗАСТАРІЛИ!
 
 ## Установка
 
@@ -8,7 +12,9 @@
 ### Передумова
 
 - [Зображення Windows на ARM](https://uupdump.net/)
+  
 - [Зображення UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+  
 - [Драйвері](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ### Завантажте відновлення, щоб розпочати встановлення Windows
@@ -18,7 +24,8 @@ fastboot boot <recovery.img>
 ```
 
 
-### Виконайте сценарій msc.sh
+### Виконайте сценарій msc
+> Якщо скрипт попросить запустити його ще раз, то так і зробіть
 
 ```cmd
 adb shell msc
@@ -122,6 +129,8 @@ adb reboot bootloader
 ```cmd
 fastboot flash boot <шлях до зображення>
 ```
+> [!NOTE]
+> Під час першого завантаження Windows він не побачить жодних мереж Wi-Fi, просто перезавантажте його, утримуючи кнопку живлення, а після перезавантаження, коли ви спробуєте підключитися до своєї мережі та побачите "морозиво", натисніть "повторити спробу" 7 разів
 
 # Завантажте Android
 > Використовуйте резервну копію завантажувального образу та прошийте з швидкого завантаження
@@ -131,5 +140,5 @@ fastboot flash boot boot.img
 ```
 
 # Готово!
-
+> Ви можете приєднатися до нашого [Telegram chat](https://t.me/nabuwoa) отримувати останні новини Про проект
 ### [Останній крок: Налаштування подвійного завантаження](dualboot-uk.md)

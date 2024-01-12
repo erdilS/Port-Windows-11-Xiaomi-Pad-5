@@ -5,7 +5,7 @@
 
 ## Oficina de Microsoft
 
-- Descargue este [archivo](https://drive.google.com/file/d/1st8xVpxtJbe2GVTEZrC_RNumKllR97Hp/view?usp=sharing) a la tableta
+- Descargue este [archivo](https://mega.nz/file/Q7p1XK6L#J-KPp_-MNJ8iXGqEwwZ3_sfv2tMiq_AJjUiiaX6TBrI) a la tableta
   
 - Apague Windows Defender para evitar interferencias con la instalación
   
@@ -46,7 +46,7 @@ irm https://massgrave.dev/get | iex
 > [!NOTE]
 > Se ha confirmado que la carga de C a C con un dispositivo compatible con PD funciona y también se confirma que el cargador de 33 W proporcionado por Xiaomi funciona
 
-- Descargar [Script de Misha803](https://t.me/droidscripts/22) para habilitarlo fácilmente
+- Descargar [Script de Misha803](https://t.me/droidscripts/52) para habilitarlo fácilmente
  
 - O use el método tradicional: En el editor del registro, cambie el valor del parámetro ```RoleSwitchMode``` desde ```3``` para ```1```: ```Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters```. 
 

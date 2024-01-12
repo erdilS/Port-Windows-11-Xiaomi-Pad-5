@@ -4,7 +4,7 @@
 
 ## Project Status
 
-Stable. Most of the hardware works, but some components do not work yet.
+Stable. Almost everything works except for a few components.
 
 #### Features
 

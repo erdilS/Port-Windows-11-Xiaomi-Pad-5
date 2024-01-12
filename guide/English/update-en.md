@@ -22,7 +22,7 @@ fastboot boot <recovery.img>
 
 
 #### Execute script
-
+> If it asks you to run it once again, do so
 ```cmd
 adb shell msc
 ```
@@ -62,6 +62,7 @@ exit
 
 > You can download Drivers [here](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
+> When it ask you "Enter Drive letter..." type X:
 ```cmd
  Open folder with Drivers and run OfflineUpdater.cmd
 ```

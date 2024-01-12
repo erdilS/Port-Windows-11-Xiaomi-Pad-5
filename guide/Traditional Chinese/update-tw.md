@@ -7,7 +7,9 @@
 ### 請先準備下面的步驟
 
 - [Recovery](../../../../releases/tag/1.0)
+  
 - [UEFI boot 映像](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+  
 - [驅動文件](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ### 請進入 Fastboot 模式, 並輸入以下命令來啟动到 Recovery
@@ -16,6 +18,7 @@ fastboot boot <recovery.img>
 ```
 
 #### 執行 msc 模式腳本
+> 如果腳本提示您需要重新運行一次, 請重新執行下面的命令
 ```cmd
 adb shell msc
 ```

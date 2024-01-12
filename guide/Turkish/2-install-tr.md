@@ -2,13 +2,17 @@
 
 
 # Xiaomi Pad 5 üzerinde Windows Çalıştırma
+> [!WARNING]
+> LÜTFEN YOUTUBE'DA VEYA BAŞKA BİR PLATFORMDA HERHANGİ BİR VİDEO kılavuzu kullanmayın! BU VİDEOLAR MODASI GEÇMİŞ!
 
 ## Aşama 2: Windows Kurulumu
 
 ### Gerekli Dosyalar
 
 - [ARM64 Mimaride Çalışabilen Windows ISO imajı](https://uupdump.net/)
+  
 - [UEFI imajı](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+  
 - [Sürücüler](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 
@@ -19,7 +23,7 @@ fastboot boot <recovery.img>
 ```
 
 ### msc betiğini çalıştırın
-
+> Sizden bir kez daha çalıştırmanızı isterse, bunu yapın
 ```cmd
 adb shell msc
 ```
@@ -87,6 +91,8 @@ dism /apply-image /ImageFile:<sources/install.wim> /index:1 /ApplyDir:X:\
 
 > Sürücüleri indirebilirsiniz [burada](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
+> Size sorduğunda "Sürücü harfini girin..." tür X:
+
 ```cmd
 Sürücülerle klasörü açın ve çalıştırın OfflineUpdater.cmd
 ```
@@ -129,6 +135,9 @@ fastboot flash boot <path to image>
 ```
 > Bu aşamadan itibaren cihazınızı başlatıp Windows'u kullanabilirsiniz.
 
+> [!NOTE]
+> İlk Windows açılışında herhangi bir Wi-Fi ağı görmeyecek, sadece güç düğmesini basılı tutarak yeniden başlatın ve yeniden başlattıktan sonra yuor ağına bağlanmayı denediğinizde ve "dondurma" gördüğünüzde 7 kez "tekrar dene" ye tıklayın
+
 # Android'e geri dönüş yapmak
 > Yedeklediğiniz boot yedeğini Fastboot aracılığıyla geri yükleyin.
 
@@ -137,5 +146,5 @@ fastboot flash boot boot.img
 ```
 
 # İşlem tamamlandı!
-
+> Bize katılabilirsiniz [Telegram sohbeti](https://t.me/nabuwoa) projeyle ilgili en son haberleri almak için
 ### [Son adım: Çift önyüklemeyi ayarlama](dualboot-tr.md)
