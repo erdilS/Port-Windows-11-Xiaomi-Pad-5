@@ -32,62 +32,6 @@ fastboot boot <recovery.img>
 adb shell format
 ```
 
-#### Ejecutar el script msc
-
-``` cmd
-adb shell msc
-```
-
-### Asignar letras a los discos... de nuevo
-  
-
-#### Inicie el administrador de discos de Windows
-
-> Una vez que la Xiaomi Pad 5 se detecta como un disco
-
-``` cmd
-diskpart
-```
-
-- La partición "WINNABU" ya debería aparecer con la letra X. Si es así, salta a `Asignar "Y" al volumen ESP`
-
-#### Asignar `X` al volumen de Windows
-
-#### Seleccione el volumen de Windows de la tableta
-> Usa `list volume` para encontrarlo, es el que se llama "WINNABU"
-
-```diskpart
-select volume <número>
-```
-
-#### Asignar la letra X
-```diskpart
-assign letter=x
-```
-
-### Asigna `Y` al volumen ESP
-
-#### Seleccione el volumen esp de la tableta
-> Usa `list volume` para encontrarlo, es el que se llama "ESPNABU"
-
-```diskpart
-select volume <número>
-```
-
-#### Asignar la letra Y
-
-```diskpart
-assign letter=y
-```
-
-- Si obtiene un error que dice `La letra de unidad especificada no se puede asignar libremente`, simplemente reinicie su computadora e intente nuevamente desde diskpart. No toques tu tablet todavía.
-
-#### Salir de la parte del disco
-```diskpart
-exit
-```
-
-
 ### Instalar
 
-- Continuar la guía desde [aquí](2-instalacion-es.md#Instalar)
+- Continuar la guía desde [aquí](2-instalacion-es.md#Ejecutar-el-script-msc)
