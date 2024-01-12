@@ -8,7 +8,9 @@
 ### Требования
 
 - [ARM образ Windows](https://uupdump.net/)
+  
 - [Образ UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+  
 - [Драйверы](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ### Перезапустите рекавери чтобы начать установку Windows
@@ -18,6 +20,7 @@ fastboot boot <recovery.img>
 ```
 
 #### Выполните скрипт msc
+> Если скрипт попросит запустить его ещё раз, то так и сделайте
 
 ```cmd
 adb shell msc
