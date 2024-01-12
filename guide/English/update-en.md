@@ -22,7 +22,7 @@ fastboot boot <recovery.img>
 
 
 #### Execute script
-
+> If it asks you to run it once again, do so
 ```cmd
 adb shell msc
 ```
