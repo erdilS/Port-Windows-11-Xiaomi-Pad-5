@@ -142,7 +142,7 @@ adb reboot bootloader
 ```cmd
 fastboot flash boot <path to image>
 ```
-# Reboot to Windows
+## Reboot to Windows
 ```cmd
 fastboot flash boot <path to image>
 ```
