@@ -22,7 +22,7 @@ Stable. casi todo funciona, excepto algunos componentes
 - [X] WiFi
 - [X] Compatibilidad con el Xiaomi Pen
 - [ ] Soporte de carga de Xiaomi Pen
-- [ ] Compatibilidad con el teclado Xiaomi
+- [X] Compatibilidad con el teclado Xiaomi
 - [ ] Cámara
 - [X] Micrófono
 
