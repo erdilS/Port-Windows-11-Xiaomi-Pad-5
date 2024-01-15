@@ -97,7 +97,7 @@ adb reboot bootloader
 ```
 
 ### 下載並刷入與您顯示面板相對應的 UEFI Boot 鏡像
-> 下载[UEFI图像](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+> 下载[UEFI图像](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
 
 ```cmd
 fastboot flash boot <图像路径>
