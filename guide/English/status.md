@@ -25,8 +25,9 @@ Stable. Almost everything works except for a few components.
 - [X] Miracast
 - [X] Location
 - [X] Flashlight
+- [X] Smart Case Mode
+- [X] Xiaomi Keyboard support
 - [ ] Xiaomi Pen charging support
-- [ ] Xiaomi Keyboard support
 - [ ] Camera
 
 #### Sensors
