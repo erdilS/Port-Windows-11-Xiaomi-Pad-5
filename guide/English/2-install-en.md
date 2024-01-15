@@ -144,7 +144,7 @@ fastboot flash boot <path to image>
 ```
 ## Reboot to Windows
 ```cmd
-fastboot flash boot <path to image>
+fastboot reboot
 ```
 
 > [!NOTE]
