@@ -17,8 +17,8 @@
 - [X] Wi-Fi
 - [X] GPU
 - [X] UFS
-- [X] USB*
-- [X] 充電**
+- [X] USB
+- [X] 充電
 - [ ] 攝像頭
 - [X] Xiaomi 手寫筆和觸點鍵盤
 
