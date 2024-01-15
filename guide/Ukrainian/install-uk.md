@@ -13,7 +13,7 @@
 
 - [Зображення Windows на ARM](https://uupdump.net/)
   
-- [Зображення UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+- [Зображення UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
   
 - [Драйвері](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
@@ -125,7 +125,7 @@ adb reboot bootloader
 ```
 
 ### Завантажте та прошийте зображення UEFI
-> Завантажити [зображення UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+> Завантажити [зображення UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
 ```cmd
 fastboot flash boot <шлях до зображення>
 ```
