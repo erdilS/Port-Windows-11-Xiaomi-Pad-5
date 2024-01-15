@@ -128,8 +128,7 @@ adb pull /tmp/boot.img
 adb reboot bootloader
 ```
 ### Download and flash UEFI image
->Descargar [Imagen UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
-
+>Descargar [Imagen UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
 ### Flashea la imagen uefi desde TWRP
 > Reemplaza ```<panel>``` por el panel de tu dispositivo
 
