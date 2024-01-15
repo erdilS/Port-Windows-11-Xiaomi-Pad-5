@@ -1,4 +1,4 @@
-﻿﻿<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
+![image](https://github.com/Misha803/Port-Windows-11-Xiaomi-Pad-5/assets/118528504/6f712117-92d0-40ac-9701-c0b50df366ba)﻿﻿<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 
 # Windows на Xiaomi Pad 5
@@ -11,7 +11,7 @@
 
 - [ARM образ Windows](https://uupdump.net/)
   
-- [Образ UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+- [Образ UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
   
 - [Драйверы](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
@@ -120,7 +120,7 @@ adb reboot bootloader
 ```
 
 ### Скачайте и прошейте образ UEFI 
-> Скачайте [образ UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+> Скачайте [образ UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
 ```cmd
 fastboot flash boot <путь к образу UEFI>
 ```
