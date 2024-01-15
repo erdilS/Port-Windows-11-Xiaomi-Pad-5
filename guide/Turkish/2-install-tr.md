@@ -104,8 +104,10 @@ Sürücülerle klasörü açın ve çalıştırın OfflineUpdater.cmd
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
-
-  
+ ## Hayalet sürücü harfinin görünmesini önlemek için ESPNABU için sürücü harfini çıkarın
+```cmd
+mountvol y: /d
+```
 
 # Windows'u başlatın
 
@@ -134,8 +136,14 @@ fastboot flash boot <path to image>
 ```
 > Bu aşamadan itibaren cihazınızı başlatıp Windows'u kullanabilirsiniz.
 
+## Windows'a yeniden başlat
+```cmd
+fastboot reboot
+```
+
 > [!NOTE]
 > İlk Windows açılışında herhangi bir Wi-Fi ağı görmeyecek, sadece güç düğmesini basılı tutarak yeniden başlatın ve yeniden başlattıktan sonra yuor ağına bağlanmayı denediğinizde ve "dondurma" gördüğünüzde 7 kez "tekrar dene" ye tıklayın
+
 
 # Android'e geri dönüş yapmak
 > Yedeklediğiniz boot yedeğini Fastboot aracılığıyla geri yükleyin.
