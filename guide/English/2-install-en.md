@@ -14,7 +14,7 @@
   
 - [Windows on ARM image](https://uupdump.net/)
   
-- [UEFI image](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
+- [UEFI image](https://raw.githubusercontent.com/Misha803/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
   
 - [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
