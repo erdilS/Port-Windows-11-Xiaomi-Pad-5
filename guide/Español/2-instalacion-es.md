@@ -105,7 +105,11 @@ Abra la carpeta con los controladores y ejecute OfflineUpdater.cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
 
-  
+## Elimine la letra de unidad de ESPNABU para evitar la aparición de una letra de unidad fantasma
+
+```cmd
+mountvol y: /d
+```
   
 
 # Arrancar en Windows
@@ -129,12 +133,16 @@ adb reboot bootloader
 ```
 ### Download and flash UEFI image
 >Descargar [Imagen UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
-### Flashea la imagen uefi desde TWRP
-> Reemplaza ```<panel>``` por el panel de tu dispositivo
+### Flashea la imagen uefi 
 
 ```cmd
 fastboot flash boot <ruta a la imagen>
 ```
+## Reiniciar en Windows
+```cmd
+fastboot reboot
+```
+
 > [!NOTE]
 > En el primer arranque de Windows, no verá ninguna red Wi-Fi, simplemente reinícielo manteniendo presionado el botón de encendido y, después de reiniciar, cuando intente conectarse a su red y vea "helado", haga clic en" intentarlo de nuevo " 7 veces
 
