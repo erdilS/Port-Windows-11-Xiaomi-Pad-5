@@ -1,4 +1,4 @@
-![image](https://github.com/Misha803/Port-Windows-11-Xiaomi-Pad-5/assets/118528504/6f712117-92d0-40ac-9701-c0b50df366ba)﻿﻿<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
+<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 
 # Windows на Xiaomi Pad 5
