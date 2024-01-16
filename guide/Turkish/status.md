@@ -23,7 +23,8 @@ Stable. Hemen hemen her şey birkaç bileşen dışında çalışır.
 - [X] USB 
 - [X] Wi-Fi
 - [X] Xiaomi Pen desteği
-- [ ] Xiaomi Klavye Desteği
+- [X] Xiaomi Klavye Desteği
+- [X] Akıllı Kasa Modu
 - [ ] Xiaomi Pen Şarj Desteği
 - [X] Miracast
 

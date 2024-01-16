@@ -8,21 +8,27 @@ Stable. quasi tutto funziona tranne alcuni componenti.
 
 #### Lista componenti supportati e non ancora supportati: 
 
+- [X] Modalità Sospensione / sospensione
 - [X] Audio
-- [X] Microfono
-- [X] Stato batteria
+- [X] Stato della batteria
 - [X] Bluetooth
-- [X] Luminositá
-- [ ] Fotocamera
-- [X] Ricarica 
-- [X] Display
-- [X] Sospensione schermo / Modalitá sonno 
+- [X] Luminosità
+- [x] Addebitare
+- [X] Visualizzare
 - [X] GPU
 - [X] Touchscreen
 - [X] UFS
-- [X] USB 
+- [X] USB
 - [X] Wi-Fi
-- [ ] Xiaomi Pen e supporto per Xiaomi Keyboard
+- [X] Supporto penna Xiaomi
+- [X] Microfono
+- [X] Miracast
+- [X] Posizione
+- [X] Torcia
+- [X] Modalità caso intelligente
+- [X] Supporto tastiera Xiaomi
+- [ ] Xiaomi Penna di ricarica supporto
+- [ ] Fotocamera
 
 #### Sensors
 

@@ -13,7 +13,7 @@
 
 - [Зображення Windows на ARM](https://uupdump.net/)
   
-- [Зображення UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+- [Зображення UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
   
 - [Драйвері](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
@@ -102,7 +102,11 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
+## Видаліть букву диска для ESPNABU, щоб уникнути появи фантомної літери диска
 
+```cmd
+mountvol y: /d
+```
 
 # Завантажтеся у Windows
 
@@ -125,9 +129,13 @@ adb reboot bootloader
 ```
 
 ### Завантажте та прошийте зображення UEFI
-> Завантажити [зображення UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+> Завантажити [зображення UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
 ```cmd
 fastboot flash boot <шлях до зображення>
+```
+## Перезавантажтесь у Windows
+```cmd
+fastboot reboot
 ```
 > [!NOTE]
 > Під час першого завантаження Windows він не побачить жодних мереж Wi-Fi, просто перезавантажте його, утримуючи кнопку живлення, а після перезавантаження, коли ви спробуєте підключитися до своєї мережі та побачите "морозиво", натисніть "повторити спробу" 7 разів

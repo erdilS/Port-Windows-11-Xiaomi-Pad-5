@@ -13,7 +13,7 @@
 
 - [Immagine Windows On Arm](https://uupdump.net/)
   
-- [immagine UEFI](../../../../releases/tag/1.0)
+- [immagine UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
   
 - [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
@@ -107,7 +107,12 @@ Apri la cartella con i driver ed esegui OfflineUpdater.cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
 
-  
+## Rimuovere la lettera di unità per ESPNABU per evitare la comparsa di una lettera di unità fantasma
+
+```cmd
+mountvol y: /d
+```
+ 
   
 ## Avvia Windows
 
@@ -130,9 +135,13 @@ adb reboot bootloader
 ```
 
 ### Scarica e installa l'immagine UEFI
-> Scarica [immagine UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+> Scarica [immagine UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
 ```cmd
 fastboot flash boot <path to image>
+```
+## Riavvia a Windows
+```cmd
+fastboot reboot
 ```
 > [!NOTE]
 > Al primo avvio di Windows, non vedrà alcuna rete Wi-Fi, basta riavviarlo tenendo premuto il pulsante di accensione e dopo il riavvio quando si tenta di connettersi alla rete e si vede" gelato "fare clic su" riprova " 7 volte

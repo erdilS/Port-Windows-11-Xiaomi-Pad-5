@@ -14,7 +14,7 @@
 
 - [Windows trên ARM image](https://uupdump.net/)
   
-- [UEFI image](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+- [UEFI image](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
   
 - [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
@@ -104,6 +104,10 @@ Mở thư mục Với Trình Điều Khiển và chạy OfflineUpdater.cmd
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
+## Xóa ký tự ổ ĐĨA CHO ESPNABU để tránh sự xuất hiện của ký tự ổ đĩa ảo
+```cmd
+mountvol y: /d
+```
 
 
 ## Boot vào Windows
@@ -128,9 +132,13 @@ adb reboot bootloader
 ```
 
 ### Tải và flash UEFI image
-> Tải XUỐNG [HÌNH ẢNH UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+> Tải XUỐNG [HÌNH ẢNH UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
 ```cmd
 fastboot flash boot <đường dẫn đến hình ảnh>
+```
+## Khởi động Lại Windows
+```cmd
+fastboot reboot
 ```
 > [!NOTE]
 > Trong Lần Khởi Động Windows Đầu tiên, Nó sẽ không thấy bất kỳ mạng Wi-Fi nào, chỉ cần khởi động lại bằng cách giữ nút nguồn và sau khi khởi động lại khi bạn thử kết nối với mạng yuor và bạn thấy "kem" nhấp vào "thử lại" 7 lần

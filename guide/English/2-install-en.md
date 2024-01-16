@@ -14,7 +14,7 @@
   
 - [Windows on ARM image](https://uupdump.net/)
   
-- [UEFI image](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+- [UEFI image](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
   
 - [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
@@ -24,7 +24,7 @@
 fastboot boot <recovery.img>
 ```
 
-#### Execute the msc script
+#### Execute the msc
 
 > If it asks you to run it once again, do so
 
@@ -107,7 +107,11 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 bcdboot X:\Windows /s Y: /f UEFI
 ```
 
+## Remove drive letter for ESPNABU to avoid the appearance of a phantom drive letter
 
+```cmd
+mountvol y: /d
+```
 
 
 ## Boot into Windows
@@ -133,26 +137,25 @@ adb reboot bootloader
 ```
 
 ### Download and flash UEFI image
-> Download [UEFI image](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+> Download [UEFI image](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
 
 ```cmd
 fastboot flash boot <path to image>
+```
+## Reboot to Windows
+```cmd
+fastboot reboot
 ```
 
 > [!NOTE]
 > On the first Windows boot, it will not see any Wi-Fi networks, just restart it by holding down the power button, and after reboot when you try connect to yuor network and you see "ice-cream" click "try again" 7 times
 ### Boot back into Android
-> Use your backup boot image and flash from fastboot
+> Use your backup boot image and flash it in fastboot
 
 ```cmd
 fastboot flash boot boot.img
 ```
-### Remove phantom drive letters (if they are not removed automatically)
-> Run theese commands as admin to remove letter
-```cmd
-mountvol x: /d
-mountvol y: /d
-```
+
 ## Finished!
 > You can join our [Telegram chat](https://t.me/nabuwoa) to receive latest news about project
 

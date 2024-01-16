@@ -9,7 +9,7 @@
 
 - [Windows on ARM 映像](https://uupdump.net/)
   
-- [UEFI boot 映像](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+- [UEFI boot 映像](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
   
 - [驅動文件](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
@@ -78,6 +78,10 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
+## 删除ESPNABU的驱动器号，以避免出现幻影驱动器号
+```cmd
+mountvol y: /d
+```
 
 ## 啟動到 Windows
 
@@ -97,11 +101,16 @@ adb reboot bootloader
 ```
 
 ### 下載並刷入與您顯示面板相對應的 UEFI Boot 鏡像
-> 下载[UEFI图像](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+> 下载[UEFI图像](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
 
 ```cmd
 fastboot flash boot <图像路径>
 ```
+## 重新启动到Windows
+```cmd
+fastboot reboot
+```
+
 > [!NOTE]
 > 在第一次Windows启动时，它不会看到任何Wi-Fi网络，只需按住电源按钮重新启动它，重新启动后，当您尝试连接到yuor网络时，您会看到"冰淇淋"点击"再试一次"7次
 

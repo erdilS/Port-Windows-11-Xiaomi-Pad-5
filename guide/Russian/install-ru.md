@@ -1,4 +1,4 @@
-﻿﻿<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
+<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 
 # Windows на Xiaomi Pad 5
@@ -11,7 +11,7 @@
 
 - [ARM образ Windows](https://uupdump.net/)
   
-- [Образ UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+- [Образ UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
   
 - [Драйверы](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
@@ -21,7 +21,7 @@
 fastboot boot <recovery.img>
 ```
 
-#### Выполните скрипт msc
+#### Запустите msc
 > Если скрипт попросит запустить его ещё раз, то так и сделайте
 
 ```cmd
@@ -99,6 +99,11 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
+## Удалите букву диска для ESPNABU, чтобы избежать появления фантомной буквы диска
+
+```cmd
+mountvol y: /d
+```
 
 ## Запуск Windows
 
@@ -120,9 +125,13 @@ adb reboot bootloader
 ```
 
 ### Скачайте и прошейте образ UEFI 
-> Скачайте [образ UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+> Скачайте [образ UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
 ```cmd
 fastboot flash boot <путь к образу UEFI>
+```
+## Перезагрузитесь в Windows
+```cmd
+fastboot reboot
 ```
 > [!NOTE]
 > При первой загрузке Windows он не увидит никаких сетей Wi-Fi, просто перезагрузите его, удерживая нажатой кнопку питания, а после перезагрузки, когда вы попытаетесь подключиться к своей сети и увидите "мороженое", нажмите "повторить попытку" 7 раз
@@ -133,12 +142,7 @@ fastboot flash boot <путь к образу UEFI>
 ```cmd
 fastboot flash boot boot.img
 ```
-### Удаление фантомных букв (если не исчезли сами)
-> Выполните эти команды от админа, чтобы удалить фантомные буквы
-```cmd
-mountvol x: /d
-mountvol y: /d
-```
+
 ## Готово!
 > Вы можете присоедениться к нашему [чату в Telegram](https://t.me/nabuwoa) что-бы получать последние новости проекта 
 ### [Последний шаг: Настройка двойной загрузки](dualboot-ru.md)

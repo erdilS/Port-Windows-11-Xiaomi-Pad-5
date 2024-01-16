@@ -24,7 +24,7 @@
 - [X] Microphone
 - [X] Miracast
 - [ ] Sạc Xiaomi Pen
-- [ ] Hỗ trợ bàn phím Xiaomi (Đi cùng với máy)
+- [X] Hỗ trợ bàn phím Xiaomi 
 - [ ] Camera
 
 #### Cảm biến

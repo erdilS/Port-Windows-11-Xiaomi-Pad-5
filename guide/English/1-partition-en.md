@@ -36,7 +36,7 @@
 ```cmd
 fastboot boot <recovery.img>
 ```
-##### Run the partitioning script
+#### Partitioning your device
 
 > If it asks you to run it once again, do so
 
