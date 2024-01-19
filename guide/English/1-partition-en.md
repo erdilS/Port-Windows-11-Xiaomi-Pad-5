@@ -40,7 +40,7 @@ fastboot boot <recovery.img>
 
 > If it asks you to run it once again, do so
 
-> This is **optional** but you can **set custom sizes using this script**
+> This is **optional**, but you can also **set custom sizes (by default, it splits the storage in half**
 
 > To set custom sizes do ```adb shell partition [TARGET WINDOWS SIZE IN GB]```
 
