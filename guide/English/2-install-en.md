@@ -24,7 +24,7 @@
 fastboot boot <recovery.img>
 ```
 
-#### Execute the msc script
+#### Execute msc 
 
 > If it asks you to run it once again, do so
 
