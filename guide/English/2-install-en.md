@@ -18,13 +18,13 @@
   
 - [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-### Boot recovery back to start installing Windows
+### Boot back into recovery to start installing Windows
 
 ```cmd
 fastboot boot <recovery.img>
 ```
 
-#### Execute the msc
+#### Execute the msc script
 
 > If it asks you to run it once again, do so
 
@@ -87,15 +87,17 @@ exit
 > `install.wim` is located in sources folder inside your ISO
 > You can get it either by mounting or extracting it
 
+> It may also be named install.esd. Change the path respectively.
+
 ```cmd
 dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 ```
 
 ### Install Drivers
 
-> You can download Drivers [here](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+> You can download the Drivers [here](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> When it ask you "Enter Drive letter..." type X:
+> When it ask you to "Enter Drive letter..." type X:
 
 ```cmd
  Open folder with Drivers and run OfflineUpdater.cmd
@@ -108,7 +110,7 @@ bcdboot X:\Windows /s Y: /f UEFI
 ```
 
 ## Remove drive letter for ESPNABU to avoid the appearance of a phantom drive letter
-
+> If this does not work, ignore it and skip to the next command. These phantom drives will disappear the next time you reboot your PC.
 ```cmd
 mountvol y: /d
 ```
@@ -137,7 +139,7 @@ adb reboot bootloader
 ```
 
 ### Download and flash UEFI image
-> Download [UEFI image](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
+> Download the [UEFI image](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
 
 ```cmd
 fastboot flash boot <path to image>
@@ -148,7 +150,7 @@ fastboot reboot
 ```
 
 > [!NOTE]
-> On the first Windows boot, it will not see any Wi-Fi networks, just restart it by holding down the power button, and after reboot when you try connect to yuor network and you see "ice-cream" click "try again" 7 times
+> On the first Windows boot, it will not see any Wi-Fi networks, just restart it by holding down the power button, and after reboot when you try connect to your network and you see "ice-cream" click "try again" 7 times
 ### Boot back into Android
 > Use your backup boot image and flash it in fastboot
 
@@ -157,6 +159,6 @@ fastboot flash boot boot.img
 ```
 
 ## Finished!
-> You can join our [Telegram chat](https://t.me/nabuwoa) to receive latest news about project
+> You can join our [Telegram chat](https://t.me/nabuwoa) to receive the latest news about this project
 
 ### [Last step: Setup Dualboot](dualboot-en.md)
