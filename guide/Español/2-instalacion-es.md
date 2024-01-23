@@ -123,7 +123,7 @@ mountvol y: /d
 
 ### Haz un backup de tu partición de arranque actual
 > [!NOTE]
-> **Now go back to the platform tools command prompt**
+> **Ahora regrese al símbolo del sistema de herramientas de la plataforma**
 
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
