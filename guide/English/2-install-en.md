@@ -82,7 +82,8 @@ exit
 
 ### Install
 > [!NOTE]
-> Now run the command prompt as an administrator
+> **Now run the command prompt as an administrator**
+
 > Replace `<path/to/install.wim>` with the actual install.wim path,
 
 > `install.wim` is located in sources folder inside your ISO
