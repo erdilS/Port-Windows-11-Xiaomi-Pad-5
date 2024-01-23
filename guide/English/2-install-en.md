@@ -88,6 +88,7 @@ exit
 
 > `install.wim` is located in sources folder inside your ISO
 > You can get it either by mounting or extracting it
+
 > It may also be named **install.esd.** Change the path respectively.
 
 ```cmd
@@ -98,7 +99,9 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 > You can download the Drivers [here](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> When it ask you to "Enter Drive letter..." type X:
+> When it ask you to "Enter Drive letter..." type **X:**
+
+> Do not run it as an administrator, it will ask for administrator rights when needed.
 
 ```cmd
  Open folder with Drivers and run OfflineUpdater.cmd
@@ -120,6 +123,8 @@ mountvol y: /d
 ## Boot into Windows
 
 ### Make a backup of your existing boot image
+> [!NOTE]
+> **Now go back to the platform tools command prompt**
 
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
