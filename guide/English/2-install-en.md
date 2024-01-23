@@ -88,7 +88,7 @@ exit
 
 > `install.wim` is located in sources folder inside your ISO
 > You can get it either by mounting or extracting it
-> It may also be named install.esd. Change the path respectively.
+> It may also be named **install.esd.** Change the path respectively.
 
 ```cmd
 dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
