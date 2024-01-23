@@ -26,8 +26,7 @@ fastboot boot <recovery.img>
 ```
 
 
-#### Thực thi msc script
-
+#### Thực thi msc
 ```cmd
 adb shell msc
 ```
