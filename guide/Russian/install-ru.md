@@ -78,9 +78,12 @@ exit
   
 
 ### Установка Windows
+> [!NOTE]
+> **Теперь запустите командную строку от имени администратора**
 
 > Замените `<path/to/install.wim>` действительным путём к файлу `install.wim`, который расположен в папке `sources` внутри вашего ISO. Вы можете получить его, смонтировав образ или разархивировав его
 
+> Он также может называться **install.esd.** Измените путь соответственно.
 ```cmd
 dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 ```
@@ -89,7 +92,11 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 > Вы можете скачать драйвера [тут](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> Когда он попросит вас "Enter Drive letter...", введите X:
+> Когда он попросит вас "Enter Drive letter...", введите **X:**
+
+> Не запускайте его от имени администратора, при необходимости он запросит права администратора.
+
+
 ```cmd
  Откройте папку с драйверами и заустите OfflineUpdater.cmd
 ```
@@ -109,6 +116,8 @@ mountvol y: /d
 
 ### Создайте резервную копию текущего ядра Android
 
+> [!NOTE]
+> **Теперь вернитесь в командную строку platform tools**
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
 ```
