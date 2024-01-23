@@ -24,7 +24,7 @@ fastboot boot <recovery.img>
 ```
 
 
-### Виконайте сценарій msc
+### запустити msc
 > Якщо скрипт попросить запустити його ще раз, то так і зробіть
 
 ```cmd
@@ -77,12 +77,16 @@ exit
 
 
 ## Встановлення
+> [!NOTE]
+> **Тепер запустіть командний рядок від імені адміністратора**
 
 > Замініть `<path/to/install.wim>` дійсним шляхом до install.wim,
-
-> `install.wim` знаходиться в теці sources всередині вашого .iso
+> `install.wim` знаходиться в теці sources всередині вашого iso
 
 > Ви можете отримати цей файл розпакувавши або смонтувавши його
+
+> Він також може називатися **install.esd.** Змініть шлях відповідно.
+
 
 ```cmd
 dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
@@ -93,6 +97,9 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 > Ви можете завантажити драйвери [тут](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
+> Коли він попросить вас " Enter Drive letter...", ввівши **X:**
+
+> Не запускайте його від імені адміністратора, при необхідності він запитає права адміністратора.
 ```cmd
  Відкрийте папку драйверів і запустіть OfflineUpdater.cmd
 ```
@@ -111,7 +118,8 @@ mountvol y: /d
 # Завантажтеся у Windows
 
 ### Зробіть резервну копію поточного загрузочного розділа
-
+> [!NOTE]
+> **Тепер поверніться до командного рядка platform tools**
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
 ```
@@ -148,5 +156,5 @@ fastboot flash boot boot.img
 ```
 
 # Готово!
-> Ви можете приєднатися до нашого [Telegram chat](https://t.me/nabuwoa) отримувати останні новини Про проект
+> Ви можете приєднатися до нашого [Telegram chat](https://t.me/nabuwoa) щоб отримувати новини Про проект
 ### [Останній крок: Налаштування подвійного завантаження](dualboot-uk.md)
