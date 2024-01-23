@@ -96,7 +96,7 @@ dism /apply-image /ImageFile:<sources/install.wim> /index:1 /ApplyDir:X:\
 
 > Sürücüleri indirebilirsiniz [burada](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> Size sorduğunda "Sürücü harfini girin..." tür X:
+> Size sorduğunda "Sürücü harfini girin..." tür **X:**
 
 > Yönetici olarak çalıştırmayın, gerektiğinde yönetici hakları isteyecektir.
 
