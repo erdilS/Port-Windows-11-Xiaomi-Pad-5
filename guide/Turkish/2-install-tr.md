@@ -78,10 +78,15 @@ exit
 
 ## Kurulum işlemi
 
+> [!NOTE]
+> **Şimdi komut istemini yönetici olarak çalıştırın**
+
 > Komuttaki `<sources/install.wim>` kısmını install.wim dosyanızın konumuyla değişin.
 
 > `install.wim` dosyası ISO'nun içindeki sources klasöründedir.
 > Bu dosyayı ISO'yu bağlayarak ya da ayrıştırarak elde edebilirsiniz.
+
+> Sırasıyla Yolu değiştir **install.esd** olarak da adlandırılabilir.
 
 ```cmd
 dism /apply-image /ImageFile:<sources/install.wim> /index:1 /ApplyDir:X:\
@@ -92,6 +97,8 @@ dism /apply-image /ImageFile:<sources/install.wim> /index:1 /ApplyDir:X:\
 > Sürücüleri indirebilirsiniz [burada](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 > Size sorduğunda "Sürücü harfini girin..." tür X:
+
+> Yönetici olarak çalıştırmayın, gerektiğinde yönetici hakları isteyecektir.
 
 ```cmd
 Sürücülerle klasörü açın ve çalıştırın OfflineUpdater.cmd
