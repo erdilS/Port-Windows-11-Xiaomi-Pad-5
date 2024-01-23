@@ -24,7 +24,7 @@ fastboot boot <recovery.img>
 ```
 
 
-#### Esegui lo script msc
+#### Esegui lo msc
 > Se ti chiede di eseguirlo un altra volta allora fallo.
 
 ```cmd
@@ -81,12 +81,15 @@ exit
   
 
 ### Installa
+> [!NOTE]
+> **Ora esegui il prompt dei comandi come amministratore**
 
 > Sostituisci `<path/to/install.wim>` con il percorso del file install.wim,
 
 > `install.wim` si trova nella cartella "sources" dentro la ISO di Windows
 > Puoi ottenere questo file montandola o estraendola
 
+> Può anche essere chiamato **install.esd.** Modificare il percorso rispettivamente.
 ```cmd
 dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 ```
@@ -95,6 +98,9 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 > È possibile scaricare i driver [qui](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
+> Quando ti chiede di " Inserire la lettera di unità..."tipo **X:**
+
+> Non eseguirlo come amministratore, chiederà i diritti di amministratore quando necessario.
 ```cmd
 Apri la cartella con i driver ed esegui OfflineUpdater.cmd
 ```
@@ -117,6 +123,8 @@ mountvol y: /d
 ## Avvia Windows
 
 ### Crea un backup dell'immagine di avvio (boot.img) esistente
+> [!NOTE]
+> **Ora torna al prompt dei comandi di platform tools**
 
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
