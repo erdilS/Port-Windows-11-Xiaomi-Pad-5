@@ -119,6 +119,9 @@ mountvol y: /d
 # Windows'u başlatın
 
 ### Mevcut boot bölümünün bir yedeğini alın
+> [!NOTE]
+> **Şimdi platform araçları komut istemine geri dönün**
+
 
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
