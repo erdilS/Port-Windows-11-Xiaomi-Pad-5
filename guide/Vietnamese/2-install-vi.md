@@ -81,12 +81,14 @@ exit
   
 
 ### Cài đặt
-
+> [!NOTE]
+> **Bây giờ hãy chạy dấu nhắc lệnh với tư cách quản trị viên**
 > Thay `<path/to/install.wim>` bằng đường dẫn thực tế của `install.wim`.
 
 > `install.wim` nằm ở mục source folder, bên trong file ISO
 > Bạn có thể kiếm nó bằng cách giải nén file ISO
 
+> Nó cũng có thể được đặt tên **install.esd.** Thay đổi đường dẫn tương ứng.
 ```cmd
 dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 ```
@@ -95,6 +97,9 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 > Bạn có Thể tải Xuống Trình Điều khiển [tại đây](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
+> Khi nó yêu cầu bạn "Inter Drive letter..." loại **X:**
+
+> Không chạy nó với tư cách quản trị viên, nó sẽ yêu cầu quyền quản trị viên khi cần thiết.
 ```cmd
 Mở thư mục Với Trình Điều Khiển và chạy OfflineUpdater.cmd
 ```
@@ -112,6 +117,8 @@ mountvol y: /d
 ## Boot vào Windows
 
 ### Tạo backup cho file boot hiện hành
+> [!NOTE]
+> **Bây giờ quay lại dấu nhắc lệnh công cụ nền tảng**
 
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
