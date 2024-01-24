@@ -83,6 +83,7 @@ exit
 ### Cài đặt
 > [!NOTE]
 > **Bây giờ hãy chạy dấu nhắc lệnh với tư cách quản trị viên**
+
 > Thay `<path/to/install.wim>` bằng đường dẫn thực tế của `install.wim`.
 
 > `install.wim` nằm ở mục source folder, bên trong file ISO
