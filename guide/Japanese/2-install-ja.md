@@ -153,7 +153,6 @@ fastboot reboot
 ```
 
 > [!NOTE]
-> On the first Windows boot, it will not see any Wi-Fi networks, just restart it by holding down the power button, and after reboot when you try connect to your network and you see "ice-cream" click "try again" 7 times
 > Windows の初回起動の際に、Wi-Fiネットワークが表示されません。
 > 電源ボタンを押して再起動した後に、ネットワークに接続しようとすると、「アイスクリーム」が表示されます。
 >「再試行」を7回タップすると、Wi-Fiネットワークが表示されます。
