@@ -7,7 +7,6 @@
 
 ## Installation
 
-## Installing Windows
 
 ### Prerequisites
 - Brain
