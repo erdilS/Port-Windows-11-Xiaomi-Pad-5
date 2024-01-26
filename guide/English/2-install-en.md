@@ -155,7 +155,7 @@ fastboot reboot
 ```
 
 > [!NOTE]
-> On the first Windows boot, it will not see any Wi-Fi networks, just restart it by holding down the power button, and after reboot when you try connect to your network and you see "ice-cream" click "try again" 7 times
+> On the first Windows boot, it will not see any Wi-Fi networks, just restart it by holding down the power button, and after reboot, when you try connect to your network and you see "ice-cream", click "try again" 7 times
 ### Boot back into Android
 > Use your backup boot image and flash it in fastboot
 
