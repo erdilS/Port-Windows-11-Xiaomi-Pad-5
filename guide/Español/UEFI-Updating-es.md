@@ -4,8 +4,7 @@
 
 ## Actualización de UEFI
 
-### ¿Por qué es necesario?
-
+### ¿Por qué se necesita esta guía?
 Idk, pero algunas personas preguntan al respecto
 
 ### Requisitos Previos
