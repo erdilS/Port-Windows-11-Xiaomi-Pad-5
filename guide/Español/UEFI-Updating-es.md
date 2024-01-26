@@ -1,27 +1,27 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-# Running Windows on the Xiaomi Pad 5
+# Ejecutando Windows en el Xiaomi Pad 5
 
-## UEFI Updating
+## Actualización de UEFI
 
-### Why is this needed?
+### ¿Por qué es necesario?
 
-Idk, but some people asking about it 
+Idk, pero algunas personas preguntan al respecto
 
-### Prerequisites
+### Requisitos Previos
 
-- Installed dualboot
+- Arranque dual instalado
   
-- [Latest UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
+- [Última UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
 
-## Replace old UEFI with the new one
+## Reemplace el UEFI antiguo por el nuevo
 
-- Boot to Android
+- Arranque en Android
 
-- Open folder Windows in explorer
+- Abrir ventanas de carpetas en el explorador
 
-- Delete old UEFI
+- Eliminar UEFI antiguo
 
-- Put new UEFI to this folder and rename it to boot.img 
+- Coloque un nuevo UEFI en esta carpeta y cámbiele el nombre para arrancar.img
 
-## Done, switch to Windows and enjoy 
+## Listo, cambie a Windows y disfrute
