@@ -4,7 +4,7 @@
 
 ## UEFI Updating
 
-### Why is this needed?
+### Why is this guide needed?
 
 Idk, but some people asking about it 
 
