@@ -168,4 +168,4 @@ fastboot flash boot boot.img
 ## 完了!
 > [Telegram chat](https://t.me/nabuwoa) に参加して、このプロジェクトに関するニュースを受けとることができます。
 
-### [最後の手順: デュアルブートのセットアップ](dualboot-jp.md)
+### [最後の手順: デュアルブートのセットアップ](dualboot-ja.md)
