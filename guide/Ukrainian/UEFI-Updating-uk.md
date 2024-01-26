@@ -14,6 +14,8 @@
   
 - [новітняя версія UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
 
+
+
 ## Замініть Старий UEFI на новий
 
 - Завантажтесь на Android
