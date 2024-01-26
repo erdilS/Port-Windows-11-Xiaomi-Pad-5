@@ -18,9 +18,9 @@ Bilmiyorum, ama bazı insanlar bunu soruyor
 
 - Android'e önyükleme
 
-- Klasör Pencerelerini explorer'da açın
+- Android Gezgini'nde Windows klasörünü açın
 
-- Eski uefı'yi sil
+- Eski UEFI'yi sil
 
 - Bu klasöre yeni UEFI koyun ve önyüklenecek şekilde yeniden boot.ımg
 
