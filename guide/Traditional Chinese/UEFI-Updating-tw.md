@@ -22,6 +22,8 @@
 
 - 删除旧的UEFI
 
-- 将新的UEFI放到此文件夹并将其重命名为 boot.img 
+- 将新的UEFI放到此文件夹
+
+- 将其重命名为 boot.img 
 
 ## 完成后，切换到Windows并享受
