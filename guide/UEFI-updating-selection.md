@@ -5,7 +5,7 @@
 
 - [English](English/UEFI-Updating.md)
 - [Turkish]()
-- [Russian]()
+- [Russian](Russian/UEFI-Updating-ru.md)
 - [Italian]()
 - [Español]()
 - [Ukrainian]()
