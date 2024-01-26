@@ -6,7 +6,7 @@
 - [English](English/UEFI-Updating.md)
 - [Turkish](Turkish/UEFI-Updating-tr.md)
 - [Russian](Russian/UEFI-Updating-ru.md)
-- [Italian](Itakian/UEFI-Updating-it.md)
+- [Italian](Italian/UEFI-Updating-it.md)
 - [Español](Español/UEFI-Updating-es.md)
 - [Ukrainian](Ukrainian/UEFI-Updating-uk.md)
 - [Vietnamese](Vietnamese/UEFI-Updating-vi.md)
