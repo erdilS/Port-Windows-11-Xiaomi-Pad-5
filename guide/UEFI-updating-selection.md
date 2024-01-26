@@ -10,4 +10,4 @@
 - [Español](Español/UEFI-Updating-es.md)
 - [Ukrainian](Ukrainian/UEFI-Updating-uk.md)
 - [Vietnamese](Vietnamese/UEFI-Updating-vi.md)
-- [Traditional Chinese](Traditional Chinese/UEFI-Updating-tw.md)
+- [Traditional Chinese](Traditional%20Chinese/UEFI-Updating-tw.md)
