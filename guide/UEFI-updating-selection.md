@@ -3,7 +3,7 @@
 ## Updating UEFI
 ### Select your language
 
-- [English]()
+- [English](English/UEFI-Updating.md)
 - [Turkish]()
 - [Russian]()
 - [Italian]()
