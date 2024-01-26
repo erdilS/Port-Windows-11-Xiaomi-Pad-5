@@ -22,6 +22,6 @@ Bilmiyorum, ama bazı insanlar bunu soruyor
 
 - Eski UEFI'yi sil
 
-- Bu klasöre yeni UEFI koyun ve önyüklenecek şekilde yeniden boot.ımg
+- Bu klasöre yeni UEFI koyun ve şu şekilde yeniden adlandırın boot.img
 
 ## Bitti, Windows'a geçin ve keyfini çıkarın
