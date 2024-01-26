@@ -41,7 +41,6 @@ fastboot boot <recovery.img>
 
 > もう一度実行するように指示されたら、実行してください。
 
-> This is **optional** but you can **set custom sizes using this script**
 > これは**オプション**ですが、このスクリプトを使って、Windowsパーティションの**カスタムサイズ**を設定できます。
 
 > カスタムサイズを設定するには、``adb shell partition [Windowsパーティションのサイズ(GB)]`` を実行します。
@@ -57,4 +56,4 @@ adb shell partition
 起動しない、ループする、またはアニメーションが表示されない場合は、MIUIリカバリまたはデータを消去するための他のリカバリーを使用します。
 
 
-### [次の手順: Windowsをインストールする](/guide/English/2-install-ja.md)
+### [次の手順: Windowsをインストールする](/guide/Japanese/2-install-ja.md)
