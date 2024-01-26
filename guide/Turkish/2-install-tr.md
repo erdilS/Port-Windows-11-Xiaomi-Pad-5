@@ -153,8 +153,7 @@ fastboot reboot
 ```
 
 > [!NOTE]
-> İlk Windows açılışında herhangi bir Wi-Fi ağı görmeyecek, sadece güç düğmesini basılı tutarak yeniden başlatın ve yeniden başlattıktan sonra yuor ağına bağlanmayı denediğinizde ve "dondurma" gördüğünüzde 7 kez "tekrar dene" ye tıklayın
-
+> İlk Windows açılışında herhangi bir Wi-Fi ağı görmeyecek, sadece güç düğmesini basılı tutarak yeniden başlatın ve yeniden başlattıktan sonra **ağınıza** bağlanmayı denediğinizde ve "dondurma" gördüğünüzde 7 kez "tekrar dene" **ye** tıklayın. 
 
 # Android'e geri dönüş yapmak
 > Yedeklediğiniz boot yedeğini Fastboot aracılığıyla geri yükleyin.
