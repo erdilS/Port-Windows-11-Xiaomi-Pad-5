@@ -4,9 +4,9 @@
 ### Select your language
 
 - [English](English/UEFI-Updating.md)
-- [Turkish]()
+- [Turkish](Turkish/UEFI-Updating-tr.md)
 - [Russian](Russian/UEFI-Updating-ru.md)
-- [Italian]()
+- [Italian](Itakian/UEFI-Updating-it.md)
 - [Español](Español/UEFI-Updating-es.md)
 - [Ukrainian](Ukrainian/UEFI-Updating-uk.md)
 - [Vietnamese](Vietnamese/UEFI-Updating-vi.md)
