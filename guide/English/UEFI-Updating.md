@@ -22,7 +22,9 @@ Idk, but some people asking about it
 
 - Delete old UEFI
 
-- Put new UEFI to this folder and rename it to boot.img 
+- Put new UEFI to this folder
+
+- Rename UEFI to boot.img 
 
 ## Done, switch to Windows and enjoy 
 
