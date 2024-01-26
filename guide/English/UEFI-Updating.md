@@ -24,5 +24,5 @@ Idk, but some people asking about it
 
 - Put new UEFI to this folder and rename it to boot.img 
 
-## Done, switch to windows and enjoy 
+## Done, switch to Windows and enjoy 
 
