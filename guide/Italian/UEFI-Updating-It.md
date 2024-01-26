@@ -22,6 +22,8 @@ Non lo so, ma alcune persone lo chiedono
 
 - Elimina vecchio UEFI
 
-- Mettere nuovo UEFI a questa cartella e rinominarlo per l'avvio.img
+- Mettere nuovo UEFI a questa cartella
 
+- Rinominarlo UEFI boot.img
+  
 ## Fatto, passare a Windows e godere
