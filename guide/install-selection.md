@@ -14,3 +14,4 @@
 - [Ukrainian](Ukrainian/partition-uk.md)
 - [Vietnamese](Vietnamese/1-partition-vi.md)
 - [Traditional Chinese](Traditional%20Chinese/1-partition-tw.md)
+- [Japanese](Japanese/1-partition-ja.md)
