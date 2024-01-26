@@ -35,7 +35,11 @@ This project is in development stage, all the files here have been contributed b
 
 - [Reinstallation](guide/reinstalling-selection.md)
 
+- [Updating UEFI]()
+
 - [Useful apps and instructions](guide/Additional-materials-selection.md)
+
+
 
 ## Contributors
 
