@@ -21,6 +21,8 @@ Idk, pero algunas personas preguntan al respecto
 
 - Eliminar UEFI antiguo
 
-- Coloque un nuevo UEFI en esta carpeta y cámbiele el nombre para arrancar.img
+- Coloque un nuevo UEFI en esta carpeta
+
+- Cámbie UEFI el nombre para boot.img
 
 ## Listo, cambie a Windows y disfrute
