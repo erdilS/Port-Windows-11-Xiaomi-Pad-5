@@ -11,3 +11,4 @@
 - [Ukrainian](Ukrainian/UEFI-Updating-uk.md)
 - [Vietnamese](Vietnamese/UEFI-Updating-vi.md)
 - [Traditional Chinese](Traditional%20Chinese/UEFI-Updating-tw.md)
+- [Japanese](Japanese/UEFI-Updating-ja.md)
