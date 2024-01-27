@@ -14,3 +14,4 @@
 - [Ukrainian](Ukrainian/update-uk.md)
 - [Vietnamese](Vietnamese/update-vi.md)
 - [Traditional Chinese](Traditional%20Chinese/update-tw.md)
+- ~[Japanese](Japanese/)~
