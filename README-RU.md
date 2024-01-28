@@ -35,7 +35,7 @@
 
 - [Переустановка](guide/reinstalling-selection.md)
 
-- [Updating UEFI](guide/UEFI-updating-selection.md)
+- [Обновление UEFI](guide/UEFI-updating-selection.md)
 
 - [Полезные приложения и инструкции ](guide/Additional-materials-selection.md)
 
