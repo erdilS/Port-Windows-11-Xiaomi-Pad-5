@@ -18,7 +18,7 @@ Idk, but some people asking about it
 
 - Boot to Android
 
-- Open folder Windows in explorer
+- Open folder "Windows" in explorer
 
 - Delete old UEFI
 
