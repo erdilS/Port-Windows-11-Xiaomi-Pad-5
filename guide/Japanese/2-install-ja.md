@@ -82,6 +82,8 @@ exit
   
 
 ### インストール
+> [!NOTE]
+> **次に、管理者としてコマンドプロンプトを実行します**
 
 > `<path/to/install.wim>` を実際のinstall.wimのパスに書き換えてください。
 
@@ -105,6 +107,8 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 > "Enter Drive letter..." と表示されたら、Xを入力します。 
 
+> 管理者として実行しないでください。必要に応じて管理者権限を要求します。
+
 ### EFI に Windows の bootloaderファイルを作成する。
 
 ```cmd
@@ -122,6 +126,8 @@ mountvol y: /d
 ## Windows を起動する
 
 ### Android の boot イメージをバックアップする
+> [!NOTE]
+> **次に、プラットフォームツールコマンドプロンプトに戻ります**
 
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
