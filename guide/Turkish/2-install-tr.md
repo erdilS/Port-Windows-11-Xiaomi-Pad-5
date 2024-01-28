@@ -3,7 +3,8 @@
 
 # Xiaomi Pad 5 üzerinde Windows Çalıştırma
 > [!WARNING]
-> LÜTFEN YOUTUBE'DA VEYA BAŞKA BİR PLATFORMDA HERHANGİ BİR VİDEO kılavuzu kullanmayın! BU VİDEOLAR MODASI GEÇMİŞ!
+> **LÜTFEN YOUTUBE'DA VEYA BAŞKA BİR platformda güncel olmayan VİDEO kılavuzları kullanmayın! BU VİDEOLAR MODASI GEÇMİŞ VE CİHAZINIZI KULLANARAK TUĞLALAYABİLİRSİNİZ! BİR VİDEO KILAVUZUNA İHTİYACINIZ VARSA, BUNU KULLANIN [YENİ VİDEO REHBERİ](https://www.youtube.com/watch?v=rGPbdFq7gKs) -den [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
+
 
 ## Aşama 2: Windows Kurulumu
 
@@ -22,7 +23,7 @@
 fastboot boot <recovery.img>
 ```
 
-### msc betiğini çalıştırın
+### msc çalıştırın
 > Sizden bir kez daha çalıştırmanızı isterse, bunu yapın
 ```cmd
 adb shell msc
@@ -78,10 +79,15 @@ exit
 
 ## Kurulum işlemi
 
+> [!NOTE]
+> **Şimdi komut istemini yönetici olarak çalıştırın**
+
 > Komuttaki `<sources/install.wim>` kısmını install.wim dosyanızın konumuyla değişin.
 
 > `install.wim` dosyası ISO'nun içindeki sources klasöründedir.
 > Bu dosyayı ISO'yu bağlayarak ya da ayrıştırarak elde edebilirsiniz.
+
+> Sırasıyla Yolu değiştir **install.esd** olarak da adlandırılabilir.
 
 ```cmd
 dism /apply-image /ImageFile:<sources/install.wim> /index:1 /ApplyDir:X:\
@@ -91,7 +97,9 @@ dism /apply-image /ImageFile:<sources/install.wim> /index:1 /ApplyDir:X:\
 
 > Sürücüleri indirebilirsiniz [burada](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> Size sorduğunda "Sürücü harfini girin..." tür X:
+> Size sorduğunda "Sürücü harfini girin..." tür **X:**
+
+> Yönetici olarak çalıştırmayın, gerektiğinde yönetici hakları isteyecektir.
 
 ```cmd
 Sürücülerle klasörü açın ve çalıştırın OfflineUpdater.cmd
@@ -112,6 +120,9 @@ mountvol y: /d
 # Windows'u başlatın
 
 ### Mevcut boot bölümünün bir yedeğini alın
+> [!NOTE]
+> **Şimdi platform araçları komut istemine geri dönün**
+
 
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
@@ -142,8 +153,7 @@ fastboot reboot
 ```
 
 > [!NOTE]
-> İlk Windows açılışında herhangi bir Wi-Fi ağı görmeyecek, sadece güç düğmesini basılı tutarak yeniden başlatın ve yeniden başlattıktan sonra yuor ağına bağlanmayı denediğinizde ve "dondurma" gördüğünüzde 7 kez "tekrar dene" ye tıklayın
-
+> İlk Windows açılışında herhangi bir Wi-Fi ağı görmeyecek, sadece güç düğmesini basılı tutarak yeniden başlatın ve yeniden başlattıktan sonra **ağınıza** bağlanmayı denediğinizde ve "dondurma" gördüğünüzde 7 kez "tekrar dene" **ye** tıklayın. 
 
 # Android'e geri dönüş yapmak
 > Yedeklediğiniz boot yedeğini Fastboot aracılığıyla geri yükleyin.

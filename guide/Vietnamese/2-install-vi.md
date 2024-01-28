@@ -4,7 +4,7 @@
 # Cài đặt Windows 11 lên Xiaomi Mi Pad 5
 
 > [!WARNING]
-> VUI LÒNG KHÔNG SỬ DỤNG BẤT KỲ VIDEO HƯỚNG DẪN NÀO TRÊN YOUTUBE HOẶC BẤT KỲ NỀN TẢNG NÀO KHÁC! NHỮNG VIDEO ĐÓ ĐÃ LỖI THỜI!
+> **VUI LÒNG KHÔNG SỬ DỤNG HƯỚNG DẪN VIDEO LỖI THỜI TRÊN YOUTUBE HOẶC BẤT KỲ NỀN TẢNG NÀO KHÁC! NHỮNG VIDEO NÀY ĐÃ LỖI THỜI VÀ BẠN CÓ THỂ GẠCH THIẾT BỊ CỦA MÌNH BẰNG CÁCH SỬ DỤNG NÓ! NẾU BẠN CẦN MỘT VIDEO HƯỚNG DẪN, SỬ DỤNG NÀY [HƯỚNG DẪN VIDEO MỚI](https://www.youtube.com/watch?v=rGPbdFq7gKs) TỪ [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
 
 ## Hướng dẫn cài đặt
 
@@ -26,8 +26,7 @@ fastboot boot <recovery.img>
 ```
 
 
-#### Thực thi msc script
-
+#### Thực thi msc
 ```cmd
 adb shell msc
 ```
@@ -82,12 +81,15 @@ exit
   
 
 ### Cài đặt
+> [!NOTE]
+> **Bây giờ hãy chạy dấu nhắc lệnh với tư cách quản trị viên**
 
 > Thay `<path/to/install.wim>` bằng đường dẫn thực tế của `install.wim`.
 
 > `install.wim` nằm ở mục source folder, bên trong file ISO
 > Bạn có thể kiếm nó bằng cách giải nén file ISO
 
+> Nó cũng có thể được đặt tên **install.esd.** Thay đổi đường dẫn tương ứng.
 ```cmd
 dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 ```
@@ -96,6 +98,9 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 > Bạn có Thể tải Xuống Trình Điều khiển [tại đây](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
+> Khi nó yêu cầu bạn "Inter Drive letter..." loại **X:**
+
+> Không chạy nó với tư cách quản trị viên, nó sẽ yêu cầu quyền quản trị viên khi cần thiết.
 ```cmd
 Mở thư mục Với Trình Điều Khiển và chạy OfflineUpdater.cmd
 ```
@@ -113,6 +118,8 @@ mountvol y: /d
 ## Boot vào Windows
 
 ### Tạo backup cho file boot hiện hành
+> [!NOTE]
+> **Bây giờ quay lại dấu nhắc lệnh công cụ nền tảng**
 
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"

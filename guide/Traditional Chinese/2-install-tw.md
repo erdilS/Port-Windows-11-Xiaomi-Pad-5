@@ -2,7 +2,8 @@
 
 # 在 Xiaomi Pad 5 上安裝 Windows
 > [!WARNING]
-> 请不要在YOUTUBE或任何其他平台上使用任何视频指南！ 那些视频已经过时了！
+> **请不要在YOUTUBE或任何其他平台上使用过时的视频指南！ 这些视频是过时的,你可以砖你的设备使用它! 如果您需要视频指南，请使用此 [新视频指南](https://www.youtube.com/watch?v=rGPbdFq7gKs) 从 [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
+
 ## 安裝 Windows
 
 ### 請先準備下面的步驟
@@ -18,7 +19,7 @@
 fastboot boot <recovery.img>
 ```
 
-#### 執行 msc 模式腳本
+#### 執行 msc 
 > 如果腳本提示您需要重新運行一次, 請重新執行下面的命令
 ```cmd
 adb shell msc
@@ -60,15 +61,25 @@ exit
 ```
 
 ### 安裝
+
+> [!NOTE]
+> **现在以管理员身份运行命令提示符**
+
 > **使用實際 install.wim 路徑取代 `<path/to/install.wim>`**
-> 
+
 > `install.wim` 位於您先前創建的 Windows on ARM ISO 中的 `Source` 文件夾, 可通過解壓或掛載 ISO 來取得這個檔案
+
+> 它也可能被命名 **install.esd.** 分别改变路径。
 ```cmd
 dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 ```
 
 ### 安裝驅動程式
 > 您可以下载驱动程序[这里](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+
+> 当它要求你 "Enter Drive letter..." 键入 **X:**
+
+> 不要以管理员身份运行它，它会在需要时询问管理员权限。
 
 ```cmd
 打开带有驱动程序的文件夹并运行 OfflineUpdater.cmd
@@ -86,6 +97,9 @@ mountvol y: /d
 ## 啟動到 Windows
 
 ### 備份現在的 Boot 分區
+> [!NOTE]
+> **现在回到平台工具命令提示符**
+
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
 ```

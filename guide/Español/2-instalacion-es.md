@@ -3,7 +3,7 @@
 # Windows 11 En La Xiaomi Pad 5
 
 > [!WARNING]
-> ¡POR FAVOR, NO USES NINGUNA GUÍA DE VIDEO EN YOUTUBE NI EN NINGUNA OTRA PLATAFORMA! ¡ESOS VIDEOS ESTÁN DESACTUALIZADOS!
+> **¡POR FAVOR, NO USES GUÍAS DE VIDEO DESACTUALIZADAS EN YOUTUBE NI EN NINGUNA OTRA PLATAFORMA! ¡ESTOS VIDEOS ESTÁN DESACTUALIZADOS Y PUEDES BLOQUEAR TU DISPOSITIVO USÁNDOLOS! SI NECESITA UNA GUÍA DE VIDEO, USE ESTO [NUEVA GUÍA DE VIDEO](https://www.youtube.com/watch?v=rGPbdFq7gKs) DESDE [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
 
 # Instalar Windows
 
@@ -81,12 +81,15 @@ exit
   
 
 ## Instalar
+> [!NOTE]
+> **Ahora ejecute el símbolo del sistema como administrador**
 
-> Reemplaza `<path/to/install.wim>` por la ruta actual de install.wim 
+> Reemplaza `<path/to/install.wim>` por la ruta actual de install.wim
 
 > `install.wim` está en la carpeta sources de tu ISO
 > Puede obtenerlo montándolo o extrayéndolo
 
+> También puede llamarse **install.esd.** Cambie la ruta respectivamente.
 ```cmd
 dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 ```
@@ -94,6 +97,10 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 # Instalar los Drivers
 
 > Puede descargar los controladores [aquí](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+
+> Cuando le pida que "Enter Drive letter....."tipo **X:**
+
+> No lo ejecute como administrador, le pedirá derechos de administrador cuando sea necesario.
 
 ```cmd
 Abra la carpeta con los controladores y ejecute OfflineUpdater.cmd
@@ -115,6 +122,8 @@ mountvol y: /d
 # Arrancar en Windows
 
 ### Haz un backup de tu partición de arranque actual
+> [!NOTE]
+> **Ahora regrese al símbolo del sistema de herramientas de la plataforma**
 
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"

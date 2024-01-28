@@ -16,6 +16,7 @@
 ### Notes:
 > [!Warning]\
 > if you delete any partitions via diskpart later on or now windows will send a ufs command that gets misinterpreted which erase all your ufs
+> 
 > All your data will be erased! Backup now if needed.
 > 
 > These commands have been tested.
@@ -28,7 +29,8 @@
 >
 > Do not run all commands at once, execute them in order!
 >
-> PLEASE DON'T USE ANY VIDEO GUIDE ON YOUTUBE OR ANY OTHER PLATFORM! THOSE VIDEOS ARE OUT OF DATED!
+> **PLEASE DON'T USE OUTDATED VIDEO GUIDES ON YOUTUBE OR ANY OTHER PLATFORM! THESE VIDEOS ARE OUTDATED AND YOU CAN BRICK YOUR DEVICE USING IT! IF YOU NEED A VIDEO GUIDE, USE THIS [NEW VIDEO GUIDE](https://www.youtube.com/watch?v=rGPbdFq7gKs) FROM [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
+
 
 ### Partitioning your device
 
@@ -40,7 +42,7 @@ fastboot boot <recovery.img>
 
 > If it asks you to run it once again, do so
 
-> This is **optional** but you can **set custom sizes using this script**
+> This is **optional**, but you can also **set custom sizes (by default, it splits the storage in half)**
 
 > To set custom sizes do ```adb shell partition [TARGET WINDOWS SIZE IN GB]```
 

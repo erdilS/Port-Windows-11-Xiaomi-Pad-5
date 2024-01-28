@@ -3,11 +3,10 @@
 
 # Running Windows on the Xiaomi Pad 5
 > [!WARNING]
-> PLEASE DON'T USE ANY VIDEO GUIDE ON YOUTUBE OR ANY OTHER PLATFORM! THOSE VIDEOS ARE OUT OF DATED!
+> **PLEASE DON'T USE OUTDATED VIDEO GUIDES ON YOUTUBE OR ANY OTHER PLATFORM! THESE VIDEOS ARE OUTDATED AND YOU CAN BRICK YOUR DEVICE USING IT! IF YOU NEED A VIDEO GUIDE, USE THIS [NEW VIDEO GUIDE](https://www.youtube.com/watch?v=rGPbdFq7gKs) FROM [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
 
 ## Installation
 
-## Installing Windows
 
 ### Prerequisites
 - Brain
@@ -24,7 +23,7 @@
 fastboot boot <recovery.img>
 ```
 
-#### Execute the msc script
+#### Execute msc 
 
 > If it asks you to run it once again, do so
 
@@ -81,13 +80,15 @@ exit
   
 
 ### Install
+> [!NOTE]
+> **Now run the command prompt as an administrator**
 
-> Replace `<path/to/install.wim>` with the actual install.wim path,
+> Replace `<path/to/install.wim>` with the actual install.wim path.
 
 > `install.wim` is located in sources folder inside your ISO
 > You can get it either by mounting or extracting it
 
-> It may also be named install.esd. Change the path respectively.
+> It may also be named **install.esd.** Change the path respectively.
 
 ```cmd
 dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
@@ -97,7 +98,9 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 > You can download the Drivers [here](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> When it ask you to "Enter Drive letter..." type X:
+> When it ask you to "Enter Drive letter..." type **X:**
+
+> Do not run it as an administrator, it will ask for administrator rights when needed.
 
 ```cmd
  Open folder with Drivers and run OfflineUpdater.cmd
@@ -119,6 +122,8 @@ mountvol y: /d
 ## Boot into Windows
 
 ### Make a backup of your existing boot image
+> [!NOTE]
+> **Now go back to the platform tools command prompt**
 
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
@@ -150,7 +155,7 @@ fastboot reboot
 ```
 
 > [!NOTE]
-> On the first Windows boot, it will not see any Wi-Fi networks, just restart it by holding down the power button, and after reboot when you try connect to your network and you see "ice-cream" click "try again" 7 times
+> On the first Windows boot, it will not see any Wi-Fi networks, just restart it by holding down the power button, and after reboot, when you try connect to your network and you see "ice-cream", click "try again" 7 times
 ### Boot back into Android
 > Use your backup boot image and flash it in fastboot
 

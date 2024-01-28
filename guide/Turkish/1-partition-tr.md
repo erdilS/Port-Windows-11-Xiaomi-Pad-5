@@ -13,7 +13,9 @@
 
 ## Notlar:
 > [!WARNING]
-> Diskpart üzerinden bölüm silmeye kalkışırsanız Windows'un göndereceği UFS komutu cihaz tarafından yanlış yorumlanarak cihazın UFS belleğinin tümüyle silinmesine yola açabilir. Bölümlerde değişiklik yapmak için yalnızca recovery mod üzerinden parted ile işlem yapın.
+> Diskpart üzerinden bölüm silmeye kalkışırsanız Windows'un göndereceği UFS komutu cihaz tarafından yanlış yorumlanarak cihazın UFS belleğinin tümüyle silinmesine yola açabilir.
+>
+>  Bölümlerde değişiklik yapmak için yalnızca recovery mod üzerinden parted ile işlem yapın.
 > 
 > Cihazda bulunan tüm verileriniz silinecektir. Yedeğini almayı gerektiren dosyalarınız varsa yedeklemeyi ihmal etmeyin.
 > 
