@@ -23,8 +23,6 @@
 > 
 > Bỏ qua cảnh báo `udevadm`
 > 
-> Tuyệt đối KHÔNG nhập một lệnh 2 lần
-> 
 > TUYỆT ĐỐI KHÔNG khởi động lại máy tính bảng, nếu cần hỗ trợ hãy hỏi tại [Telegram chat](https://t.me/nabuwoa)
 >
 >
