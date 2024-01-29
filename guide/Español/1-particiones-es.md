@@ -19,8 +19,6 @@
 > 
 > Ignora las advertencias de `udevadm` .
 > 
-> No ejecutes el mismo comando dos veces.
-> 
 > No reinicies tu teléfono si crees que has cometido un error, busca ayuda en el [chat de Telegram](https://t.me/nabuwoa)
 >
 > 
