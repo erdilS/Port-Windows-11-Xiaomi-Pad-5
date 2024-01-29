@@ -105,7 +105,7 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
  ドライバが入ったフォルダを開き、OfflineUpdater.cmd を実行します。
 ```
 
-> "Enter Drive letter..." と表示されたら、Xを入力します。 
+> "Enter Drive letter..." と表示されたら、**`X:`**を入力します。 
 
 > 管理者として実行しないでください。必要に応じて管理者権限を要求します。
 
