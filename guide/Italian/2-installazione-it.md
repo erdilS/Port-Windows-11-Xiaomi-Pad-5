@@ -99,7 +99,7 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 > È possibile scaricare i driver [qui](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> Quando ti chiede di " Inserire la lettera di unità..."tipo **X:**
+> Quando ti chiede di " Inserire la lettera di unità..."tipo **`X:`**
 
 > Non eseguirlo come amministratore, chiederà i diritti di amministratore quando necessario.
 ```cmd
