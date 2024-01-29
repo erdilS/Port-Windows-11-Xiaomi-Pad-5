@@ -98,7 +98,8 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 > Bạn có Thể tải Xuống Trình Điều khiển [tại đây](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> Khi nó yêu cầu bạn "Inter Drive letter..." loại **X:**
+> Khi nó yêu cầu bạn "Inter Drive letter..." loại **`X:`**
+
 
 > Không chạy nó với tư cách quản trị viên, nó sẽ yêu cầu quyền quản trị viên khi cần thiết.
 ```cmd
