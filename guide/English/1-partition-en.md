@@ -15,7 +15,7 @@
 
 ### Notes:
 > [!Warning]\
-> if you delete any partitions via diskpart later on or now windows will send a ufs command that gets misinterpreted which erase all your ufs
+> if you delete any partitions via diskpart later on or now, windows will send a ufs command that gets misinterpreted which erase all your ufs
 > 
 > All your data will be erased! Backup now if needed.
 > 
