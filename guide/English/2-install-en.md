@@ -98,7 +98,7 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 > You can download the Drivers [here](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> When it ask you to "Enter Drive letter..." type **X:**
+> When it ask you to "Enter Drive letter..." type `**X:**`
 
 > Do not run it as an administrator, it will ask for administrator rights when needed.
 
