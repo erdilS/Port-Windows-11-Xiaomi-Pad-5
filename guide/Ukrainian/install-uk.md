@@ -98,7 +98,8 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 > Ви можете завантажити драйвери [тут](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> Коли він попросить вас " Enter Drive letter...", ввівши **X:**
+> Коли він попросить вас " Enter Drive letter...", ввівши **`X:`**
+
 
 > Не запускайте його від імені адміністратора, при необхідності він запитає права адміністратора.
 ```cmd
