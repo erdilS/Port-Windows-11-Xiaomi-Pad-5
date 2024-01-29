@@ -77,7 +77,8 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 ### 安裝驅動程式
 > 您可以下载驱动程序[这里](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> 当它要求你 "Enter Drive letter..." 键入 **X:**
+> 当它要求你 "Enter Drive letter..." 键入 **`X:`**
+
 
 > 不要以管理员身份运行它，它会在需要时询问管理员权限。
 
