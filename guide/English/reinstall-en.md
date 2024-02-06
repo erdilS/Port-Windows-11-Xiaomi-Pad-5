@@ -15,7 +15,7 @@
 
 - Existing Windows and boot partitions (*If not met, [go back and just pretend this guide never existed](/guide/English/1-partition-en.md)*)
 
-- [Recovery Image](../../../../releases/tag/1.0)
+- [Recovery Image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
@@ -30,4 +30,4 @@ fastboot boot <recovery.img>
 ```cmd
 adb shell format
 ```
-## [Next step: Reinstalling Windows](/guide/English/2-install-en.md#Execute-the-msc-script)
+## [Next step: Reinstalling Windows](/guide/English/2-install-en.md#Execute-msc)
