@@ -1,21 +1,22 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-# Running Windows on the Xiaomi Pad 5
+# Ejecutando Windows en el Xiaomi Pad 5
 
-## Uninstallation
+## Desinstalación
 
-### Why is this needed?
+### ¿Por qué es necesario?
 
-If you want to uninstall windows this is used instead of deleting partitions manually to avoid human error + writing a whole dedicated guide to just uninstalling.
+Si desea desinstalar Windows, esto se usa en lugar de eliminar particiones manualmente para evitar errores humanos + escribir una guía completa dedicada a la desinstalación.
 
-If you want to relock your bootloader you'll need your partition table to be stock.
+Si desea volver a bloquear su gestor de arranque, necesitará que su tabla de particiones esté disponible.
 
-### Prerequisites
+### Requisitos Previos
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+  
 - [gpt_both0.bin](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/gpt_both0.bin)
 
-# Restaurar la tabla de particiones stock
+# Restaurar el stock de la tabla de particiones
 
 ```cmd
 fastboot flash partition:0 <gpt_both0.bin>
