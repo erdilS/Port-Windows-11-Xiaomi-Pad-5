@@ -64,7 +64,7 @@ exit
 
 > When it ask you "Enter Drive letter..." type X:
 ```cmd
- Open folder with Drivers and run OfflineUpdater.cmd
+ Open the folder with Drivers and run OfflineUpdater.cmd
 ```
 
 
