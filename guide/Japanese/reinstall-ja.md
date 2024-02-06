@@ -30,4 +30,4 @@ fastboot boot <recovery.img>
 ```cmd
 adb shell format
 ```
-## [次のステップ：Windowsの再インストール](2-install-ja.md#Execute-msc)
+## [次のステップ：Windowsの再インストール](2-install-ja.md#msc-スクリプトを実行する)
