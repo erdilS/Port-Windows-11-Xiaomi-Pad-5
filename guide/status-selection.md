@@ -14,3 +14,4 @@
 - [Ukrainian](Ukrainian/status-uk.md)
 - [Vietnamese](Vietnamese/status.md)
 - [Traditional Chinese](Traditional%20Chinese/status-tw.md)
+- [Japanese](Japanese/status.md)
