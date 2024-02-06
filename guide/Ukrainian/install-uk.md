@@ -12,9 +12,9 @@
 
 ### Передумова
 
-- [Зображення Windows на ARM](https://uupdump.net/)
+- [Образ Windows на ARM](https://uupdump.net/)
   
-- [Зображення UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
+- [Образ UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
   
 - [Драйвері](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
