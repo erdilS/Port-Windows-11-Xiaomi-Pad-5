@@ -139,7 +139,7 @@ adb reboot bootloader
 ```
 
 ### Завантажте та прошийте зображення UEFI
-> Завантажити [зображення UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
+> Завантажити [Образ UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
 ```cmd
 fastboot flash boot <шлях до зображення>
 ```
