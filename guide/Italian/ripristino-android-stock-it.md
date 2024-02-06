@@ -13,7 +13,8 @@ Se vuoi bloccare il bootloader, dovrai per forza ripristinare le partizioni allo
 ### Prerequisiti
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
-- [gpt_both0.bin](../../../../releases/tag/1.0)
+  
+- [gpt_both0.bin](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/gpt_both0.bin)
 
 ### Ripristina GPT
 > Sostituisci ```<gpt_both0.bin>``` con il percorso del file gpt_both0.bin.
