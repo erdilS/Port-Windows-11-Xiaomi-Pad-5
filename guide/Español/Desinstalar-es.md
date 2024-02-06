@@ -16,13 +16,13 @@ Si desea volver a bloquear su gestor de arranque, necesitará que su tabla de pa
   
 - [gpt_both0.bin](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/gpt_both0.bin)
 
-# Restaurar el stock de la tabla de particiones
+## Restaurar el stock de la tabla de particiones
 
 ```cmd
 fastboot flash partition:0 <gpt_both0.bin>
 ```
 
-# Borrar userdata para evitar bootloop y restaurar el tamaño de FS
+## Borrar userdata para evitar bootloop y restaurar el tamaño de FS
 ```cmd
 fastboot -w
 ```
