@@ -8,7 +8,7 @@
 ### 前提条件
 
 
-- [UEFIイメージ](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+- [UEFIイメージ](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
 
 - [Recovery](../../../../releases/tag/1.0)
 
