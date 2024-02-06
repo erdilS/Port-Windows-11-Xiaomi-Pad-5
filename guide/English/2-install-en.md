@@ -103,7 +103,7 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 > Do not run it as an administrator, it will ask for administrator rights when needed.
 
 ```cmd
- Open folder with Drivers and run OfflineUpdater.cmd
+ Open the folder with Drivers and run OfflineUpdater.cmd
 ```
 
 ### Create Windows bootloader files for the EFI
@@ -166,4 +166,4 @@ fastboot flash boot boot.img
 ## Finished!
 > You can join our [Telegram chat](https://t.me/nabuwoa) to receive the latest news about this project
 
-### [Last step: Setup Dualboot](dualboot-en.md)
+### [Last step: Set up Dualboot](dualboot-en.md)
