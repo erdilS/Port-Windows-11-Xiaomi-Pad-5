@@ -121,23 +121,11 @@ mountvol y: /d
 
 ## Boot into Windows
 
-### Make a backup of your existing boot image
-> [!NOTE]
-> **Now go back to the platform tools command prompt**
-
-```cmd
-adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
-```
-
-### Pull backup to computer
-
-```cmd
-adb pull /tmp/boot.img
-```
-
 
 
 ### Reboot to bootloader 
+> [!NOTE]
+> **Now go back to the platform tools command prompt**
 
 ```cmd
 adb reboot bootloader
