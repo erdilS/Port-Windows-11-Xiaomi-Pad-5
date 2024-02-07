@@ -152,7 +152,7 @@ fastboot reboot
 > Use your backup boot image and flash it in fastboot
 
 ```cmd
-fastboot flash boot boot.img
+fastboot flash boot rooted_boot.img
 ```
 
 ## Finished!
