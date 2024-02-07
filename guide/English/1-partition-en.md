@@ -63,12 +63,12 @@ adb pull /tmp/boot.img
 
 
 #### Check if Android still starts
-> just restart the tablet, and see if Android still works
-If isn't boot or looping or animation, use MIUI recovery or other recoveries for wiping data.
+> just see if Android still works
+If isn't boot or looping on animation, use MIUI recovery or other recoveries for wiping data.
 
 ```cmd
 adb reboot
 ```
 
 
-### [Next step: Get Root](/guide/English/2-install-en.md)
+### [Next step: Get Root](/guide/English/root-guide-en.md)
