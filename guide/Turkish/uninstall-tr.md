@@ -11,6 +11,7 @@ Bootloader'ı geri kilitlemek istiyorsanız bölüm tablonuzun orijinal hale gel
 ### Prerequisites
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+  
 - [gpt_both0.bin](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/gpt_both0.bin)
 
 
@@ -27,3 +28,8 @@ fastboot flash partition:0 <gpt_both0.bin>
 ```cmd
 fastboot -w
 ```
+### Android'e yeniden başlat
+```cmd
+fastboot reboot 
+```
+## Bitti!
