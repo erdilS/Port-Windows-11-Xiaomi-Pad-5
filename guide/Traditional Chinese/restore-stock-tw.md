@@ -20,7 +20,14 @@
 fastboot flash partition:0 <gpt_both0.bin>
 ```
 
-### 格式化 Userdata 分區以避免在啟動畫面卡住, 並還原 FS 大小
+### 格式化  ```userdata ``` 分區以避免在啟動畫面卡住, 並還原 FS 大小
 ```cmd
 fastboot -w
 ```
+
+
+### 重新启动到Android
+```cmd
+fastboot reboot 
+```
+## 完成了！
