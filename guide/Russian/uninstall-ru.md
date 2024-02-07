@@ -25,3 +25,8 @@ fastboot flash partition:0 <gpt_both0.bin>
 ```cmd
 fastboot -w
 ```
+### Перезагрузитесь в Android 
+```cmd
+fastboot reboot 
+```
+## Готово!
