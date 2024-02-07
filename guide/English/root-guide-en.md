@@ -1,3 +1,16 @@
+<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
+
+
+# Running Windows on the Xiaomi Pad 5
+
+## Root guide
+
+
+
+### Prerequisites
+- Brain
+  
+- [Androif boot backup]()
 
 - Connect the tablet in Android to the computer and copy the boot.img file from the platform tools folder to the tablet. For this you can use the explorer or the command:
 
