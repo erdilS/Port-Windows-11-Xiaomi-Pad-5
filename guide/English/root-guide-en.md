@@ -22,7 +22,7 @@
   
 -  Open Magisk app and click the Install button. Select ```Select and Patch a File``` option and find the boot.img file that you copyed to tablet. Click the ```Let's Go``` button and wait for the patching process to complete.
   
-- Copy the ```magisk_patched.........**.**img```file from ```Downloads``` folder on tablet to platform tools folder on computer. 
+- Copy the ```magisk_patched......img```file from ```Downloads``` folder on tablet to platform tools folder on computer. 
 
 - Reboot to fastboot
   
