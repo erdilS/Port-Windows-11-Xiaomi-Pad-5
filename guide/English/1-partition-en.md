@@ -52,7 +52,7 @@ adb shell partition
 ### Make a backup of your existing boot image
 
 ```cmd
-adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot_non_rooted.img" && adb pull /tmp/boot_non_rooted.img
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
 ```
 
 ### Pull backup to computer
