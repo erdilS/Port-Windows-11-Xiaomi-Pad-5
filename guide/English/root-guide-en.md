@@ -24,8 +24,8 @@
 - Disconnect the tablet from the computer and reboot it in fastboot mode (for this, turn off the tablet and hold down the power and volume down buttons).
 - Open the command line in the platform tools folder on the computer and enter the following commands (pressing Enter after each):
 
-```
-fastboot flash boot magisk_patched.img
+```cmd
+fastboot flash boot <magisk_patched.img>
 ```
 
 - Reboot the tablet and check for the Magisk app in the list of applications. Open it and check the root status. If everything went well, you got root rights on your tablet.
