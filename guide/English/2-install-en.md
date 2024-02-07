@@ -10,11 +10,11 @@
 
 ### Prerequisites
 - ```Brain```
-  
-- [Windows on ARM image](https://uupdump.net/) ```Select - Version: 11 Build: 22631.2861 Architecture: ARM64 Edition: CLIENT Language: select languahe that you want```
-  
+
 - [UEFI image](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
   
+- [Windows on ARM image](https://uupdump.net/) ```Select - Version: 11 Build: 22631.2861 Architecture: ARM64 Edition: CLIENT Language: select languahe that you want```
+    
 - [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ### Boot back into recovery to start installing Windows
