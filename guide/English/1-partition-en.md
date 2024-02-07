@@ -55,12 +55,6 @@ adb shell partition
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
 ```
 
-### Pull backup to computer
-
-```cmd
-adb pull /tmp/boot.img
-```
-
 
 #### Check if Android still starts
 > just see if Android still works
