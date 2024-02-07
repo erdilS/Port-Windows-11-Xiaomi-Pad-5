@@ -56,4 +56,4 @@ just restart the tablet, and see if Android still works
 If isn't boot or looping or animation, use MIUI recovery or other recoveries for wiping data.
 
 
-### [Next step: Installing Windows](/guide/English/2-install-en.md)
+### [Next step: Get Root](/guide/English/2-install-en.md)
