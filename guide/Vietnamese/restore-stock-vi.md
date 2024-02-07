@@ -23,7 +23,14 @@ Nếu muốn relock bootloader, bạn sẽ cần tới phân vùng của máy t�
 fastboot flash partition:0 <gpt_both0.bin>
 ```
 
-### Xoá userdata để tránh bootloop và restore FS size
+### Xoá  ```userdata``` để tránh bootloop và restore FS size
 ```cmd
 fastboot -w
 ```
+
+
+### Khởi Động Lại Android
+```cmd
+fastboot reboot 
+```
+## Xong!
