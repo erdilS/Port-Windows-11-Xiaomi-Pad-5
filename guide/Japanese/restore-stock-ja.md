@@ -23,7 +23,14 @@
 fastboot flash partition:0 <gpt_both0.bin>
 ```
 
-### Bootloopを回避し、FSサイズを復元するためにuserdataを消去します
+### Bootloopを回避し、FSサイズを復元するために ```userdata```を消去します
 ```cmd
 fastboot -w
 ```
+
+
+### Androidに再起動する
+```cmd
+fastboot reboot 
+```
+## 終わった！
