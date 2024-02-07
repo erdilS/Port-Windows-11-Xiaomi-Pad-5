@@ -22,7 +22,13 @@ Si desea volver a bloquear su gestor de arranque, necesitará que su tabla de pa
 fastboot flash partition:0 <gpt_both0.bin>
 ```
 
-## Borrar userdata para evitar bootloop y restaurar el tamaño de FS
+## Borrar ```userdata``` para evitar bootloop y restaurar el tamaño de FS
 ```cmd
 fastboot -w
 ```
+
+### Reiniciar en Android
+```cmd
+fastboot reboot 
+```
+## ¡Hecho!
