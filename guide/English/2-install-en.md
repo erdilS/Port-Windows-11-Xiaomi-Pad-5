@@ -11,7 +11,7 @@
 ### Prerequisites
 - Brain
   
-- [Windows on ARM image](https://uupdump.net/)
+- [Windows on ARM image](https://uupdump.net/) must select windows 11" and "client edition" and 23H2
   
 - [UEFI image](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
   
