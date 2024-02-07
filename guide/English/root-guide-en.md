@@ -26,7 +26,7 @@
 
 - Reboot to fastboot
   
-- Open the command prompt in the platform tools folder 
+- Open command prompt in the platform tools folder 
 
  ## Flash patched boot 
 ```cmd
