@@ -18,13 +18,13 @@ Bootloader'ı geri kilitlemek istiyorsanız bölüm tablonuzun orijinal hale gel
 > Komuttaki <gpt_both0.bin> kısmını gpt_both0.bin dosyasının konumuyla değiştirin. Dosyayı [releases sayfasından](../../../../releases/) indirebilirsiniz.
 
 
-# Varsayılan bölüm tablosunu geri yükleyin
+## Varsayılan bölüm tablosunu geri yükleyin
 
 ```cmd
 fastboot flash partition:0 <gpt_both0.bin>
 ```
 
-# Bootloop yaşamamak ve bölüm boyutunu geri yüklemek için Userdata bölümünü biçimlendirin
+## Bootloop yaşamamak ve bölüm boyutunu geri yüklemek için ```userdata``` bölümünü biçimlendirin
 ```cmd
 fastboot -w
 ```
