@@ -9,9 +9,9 @@
 
 
 ### Prerequisites
-- Brain
+- ```Brain```
   
-- [Windows on ARM image](https://uupdump.net/) must select windows 11" and "client edition" and 23H2
+- [Windows on ARM image](https://uupdump.net/) ```Select - Version: 11 Build: 22631.2861 Architecture: ARM64 Edition: CLIENT Language: select languahe that you want 
   
 - [UEFI image](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
   
