@@ -7,10 +7,10 @@
 ## 安裝 Windows
 
 ### 請先準備下面的步驟
-
-- [Windows on ARM 映像](https://uupdump.net/)
   
 - [UEFI boot 映像](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
+
+- [ARM Windows esd](https://worproject.com/esd) (Select - Version:  ```11 ``` Build:  ```22631.2861 ``` Architecture:  ```ARM64 ``` Edition:  ```CLIENT ``` Language:  ```select your language```)
   
 - [驅動文件](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
