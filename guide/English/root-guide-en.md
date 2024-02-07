@@ -5,7 +5,7 @@
 
 ## Get root 
 > [!NOTE]
-> **If you already have root just skip this step and go tothe next page**
+> **If you already have root just skip this step and go to the next page**
 
 ### Prerequisites
 - Brain
