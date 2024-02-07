@@ -9,15 +9,15 @@
 
 - Brain
 
-- Rooted Android and rooted Android boot backup
+- [Rooted Android boot backup]()
 
 ### Windows side of Dual Boot
 
 - Install [STA](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
 
-- Rename your Android boot file to boot.img
+- Copy ```rooted_boot.img``` from ```platform tools``` folder on PC to ```C``` drive on NABU (C:\rooted_boot.img)
 
-- Place your Android boot to C:\ (C:\boot.img)
+- Rename ```rooted_boot.img``` to ```boot.img```  (C:\boot.img)
 
 - Open shortcut on your desktop to switch to Android
 
