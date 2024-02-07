@@ -12,6 +12,8 @@
   
 - [Androif boot backup]()
 
+
+## root
 - Connect the tablet in Android to the computer and copy the boot.img file from the platform tools folder to the tablet. For this you can use the explorer or the command:
 
 
