@@ -123,7 +123,7 @@ mountvol y: /d
 > [!NOTE]
 > **Now go back to the platform tools command prompt**
 
-### Make a backup of your rootes boot image
+### Make a backup of your rooted boot image
 
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
