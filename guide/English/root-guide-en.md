@@ -3,7 +3,7 @@
 
 # Running Windows on the Xiaomi Pad 5
 
-## Root guide
+## Get root 
 
 
 
@@ -13,7 +13,7 @@
 - [Androif boot backup](/guide/English/1-partition-en.md#Make-a-backup-of-your-existing-boot-image)
 
 
-## Get root
+## Patch boot 
 
 - Copy ```boot.img``` file from ```platform tools``` folder to the tablet 
 
