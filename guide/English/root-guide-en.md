@@ -4,8 +4,8 @@
 # Running Windows on the Xiaomi Pad 5
 
 ## Get root 
-
-
+> [!NOTE]
+> **If you already have root just skip this step and go tothe next page**
 
 ### Prerequisites
 - Brain
