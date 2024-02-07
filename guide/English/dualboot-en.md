@@ -17,8 +17,10 @@
 
 - Copy ```rooted_boot.img``` from ```platform tools``` folder on PC to ```C``` drive on NABU (C:\rooted_boot.img)
 
-> Make sure that you do not name this file ```boot.img.img``` if the file extension display is disabled
+
 - Rename ```rooted_boot.img``` to ```boot.img```  (C:\boot.img)
+> Make sure that you do not name this file ```boot.img.img``` if the file extension display is disabled
+
 
 - Open shortcut on your desktop to switch to Android
 
