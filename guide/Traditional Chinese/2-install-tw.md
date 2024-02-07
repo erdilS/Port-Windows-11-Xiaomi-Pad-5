@@ -13,7 +13,7 @@
 
 - [驅動文件](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-- [ARM Windows esd](https://worproject.com/esd) (选择 - Version:  ```11 ``` Build:  ```22631.2861 ``` Architecture:  ```ARM64 ``` Edition:  ```CLIENT ``` Language:  ```选择你的语言```)
+- [ARM Windows esd](https://worproject.com/esd) (选择 - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```选择你的语言```)
   
 
 
