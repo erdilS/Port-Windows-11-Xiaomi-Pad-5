@@ -15,12 +15,12 @@
 
 ## Patch boot 
 
-- Copy the ```boot.img``` file from ```platform tools``` folder to the tablet 
+- Copy the ```normal_boot.img``` file from ```platform tools``` folder to the tablet 
 
 
 - Download and install the [Magisk app](https://github.com/topjohnwu/Magisk/releases/latest) to the tablet
   
--  Open the Magisk app and click the Install button. Select ```Select and Patch a File``` option and find the ```boot.img``` file that you copyed to tablet. Click the ```Let's Go``` button and wait for the patching process to complete.
+-  Open the Magisk app and click the Install button. Select ```Select and Patch a File``` option and find the ```normal_boot.img``` file that you copyed to tablet. Click the ```Let's Go``` button and wait for the patching process to complete.
   
 - Copy the ```magisk_patched......img```file from the ```Downloads``` folder on tablet to the ```platform tools``` folder on your computer. 
 
