@@ -29,7 +29,7 @@ This project is in development stage, all the files here have been contributed b
 
 - [Project Status](guide/status-selection.md)
 
-- [Root guide]()
+- [Root guide](guide/root-guide-selection.md)
 
 - [Troubleshooting](guide/troubleshooting-selection.md)
 
