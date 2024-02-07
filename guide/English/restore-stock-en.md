@@ -27,7 +27,8 @@ fastboot flash partition:0 <gpt_both0.bin>
 fastboot -w
 ```
 
-### Done, reboot to Android 
+### Reboot to Android 
 ```cmd
 fastboot reboot 
 ```
+## Done!
