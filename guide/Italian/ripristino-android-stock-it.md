@@ -23,7 +23,13 @@ Se vuoi bloccare il bootloader, dovrai per forza ripristinare le partizioni allo
 fastboot flash partition:0 <gpt_both0.bin>
 ```
 
-### Formatta USERDATA per evitare bootloop e ripristinare la dimensione di FS
+### Formatta ```userdata``` per evitare bootloop e ripristinare la dimensione di FS
 ```cmd
 fastboot -w
 ```
+
+### Riavvia ad Android
+```cmd
+fastboot reboot 
+```
+## Fatto!
