@@ -15,7 +15,7 @@
 
 ## Patch boot 
 
-- Copy the ```normal_boot.img``` file from ```platform tools``` folder to the tablet 
+- Copy the ```normal_boot.img``` file from the ```platform tools``` folder to the tablet 
 
 
 - Download and install the [Magisk app](https://github.com/topjohnwu/Magisk/releases/latest) to the tablet
