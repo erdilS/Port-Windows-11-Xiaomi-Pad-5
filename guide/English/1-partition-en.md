@@ -51,6 +51,19 @@ fastboot boot <recovery.img>
 adb shell partition
 ```
 
+### Make a backup of your existing boot image
+
+```cmd
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
+```
+
+### Pull backup to computer
+
+```cmd
+adb pull /tmp/boot.img
+```
+
+
 #### Check if Android still starts
 just restart the tablet, and see if Android still works
 If isn't boot or looping or animation, use MIUI recovery or other recoveries for wiping data.
