@@ -50,8 +50,20 @@ adb shell partition
 ```
 
 
-#### Verifica se Android si avvia 
-riavvia il dispositivo e verifica se android si avvia ancora
-Se non si avvia o va in bootloop, basta fare la pulizia dei dati con la recovery della MIUI o con un'altra recovery.
+### Make a backup of your existing boot image
 
-### [Prossimo passaggio: installa Windows](/guide/Italian/2-installazione-it.md)
+```cmd
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
+```
+
+
+#### Check if Android still starts
+> just see if Android still works
+If isn't boot or looping on animation, use MIUI recovery or other recoveries for wiping data.
+
+```cmd
+adb reboot
+```
+
+
+### [Prossimo passaggio: Get root](/guide/Italian/2-rootguide-it.md)
