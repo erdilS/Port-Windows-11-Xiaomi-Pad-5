@@ -35,4 +35,4 @@
 fastboot flash boot <magisk_patched.img>
 ```
 
-### [Next step: Installing Windows](/guide/English/3-install-ru.md)
+### [Next step: Installing Windows](/guide/Russian/3-install-ru.md)
