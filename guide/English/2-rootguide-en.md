@@ -29,6 +29,7 @@
 - Open command prompt in the platform tools folder 
 
  ## Flash patched boot 
+ > Replace `<magisk_patched.img>` with the actual magisk_patched.img name/path.
 ```cmd
 fastboot flash boot <magisk_patched.img>
 ```
