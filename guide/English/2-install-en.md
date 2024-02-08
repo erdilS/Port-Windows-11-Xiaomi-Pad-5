@@ -91,7 +91,7 @@ exit
 > It may also be named **install.esd.** Change the path respectively.
 
 ```cmd
-dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
+dism /apply-image /ImageFile:<path/to/install.wim> /index:6 /ApplyDir:X:\
 ```
 
 ### Install Drivers
