@@ -63,4 +63,4 @@ adb reboot
 ```
 
 
-### [Next step: Get Root](/guide/English/root-guide-en.md)
+### [Next step: Get Root](/guide/English/2-rootguide-en.md)
