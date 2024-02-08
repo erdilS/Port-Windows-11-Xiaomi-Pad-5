@@ -27,4 +27,4 @@ adb shell format
 
 
 ### 安裝
-- 繼續來自[這裡](/guide/Traditional%20Chinese/2-install-tw.md#執行-msc)的指南
+- 繼續來自[這裡](/guide/Traditional%20Chinese/3-install-tw.md#執行-msc)的指南
