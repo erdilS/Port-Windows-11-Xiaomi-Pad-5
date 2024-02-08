@@ -35,4 +35,4 @@ adb shell format
 
 ### Instalar
 
-- Continuar la guía desde [aquí](2-instalacion-es.md#Ejecutar-el-msc)
+- Continuar la guía desde [aquí](3-instalacion-es.md#Ejecutar-el-msc)
