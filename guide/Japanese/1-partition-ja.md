@@ -9,11 +9,11 @@
 
 ### 必要なもの
 
-- 脳みそ
+- ```脳みそ```
   
-- [Recovery Image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```Recovery Image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
   
-- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+- [```platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
 ### ノート:
 > [!Warning]\
