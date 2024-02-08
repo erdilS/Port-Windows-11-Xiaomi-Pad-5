@@ -50,8 +50,19 @@ adb shell partition
 ```
 
 
-#### Hãy kiểm tra xem Android có hoạt động hay không
-Chỉ cần khởi động lại xem Android có chạy hay không
-Nếu không chạy, lặp lại hoặc hiệu ứng load không dừng, hãy dùng MIUI recovery hoặc các recovery khác để wipe data.
+### Make a backup of your existing boot image
 
-### [Bước tiếp theo: Cài đặt Windows](/guide/Vietnamese/2-install-vi.md)
+```cmd
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
+```
+
+
+#### Check if Android still starts
+> just see if Android still works
+If isn't boot or looping on animation, use MIUI recovery or other recoveries for wiping data.
+
+```cmd
+adb reboot
+```
+
+### [Bước tiếp theo: Get root](/guide/Vietnamese/2-rootguide-vi.md)
