@@ -46,17 +46,16 @@ fastboot boot <recovery.img>
 ```cmd
 adb shell partition
 ```
-### Make a backup of your existing boot image
+### Mevcut önyükleme resminizin yedeğini alın
 
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
 ```
 
 
-#### Check if Android still starts
-> just see if Android still works
-If isn't boot or looping on animation, use MIUI recovery or other recoveries for wiping data.
-
+#### 
+> Sadece Android'in hala çalışıp çalışmadığını görün
+Animasyonda önyükleme yapmıyorsa veya döngü yapmıyorsa, verileri silmek için MIUI kurtarma veya diğer kurtarmaları kullanın.
 ```cmd
 adb reboot
 ```
@@ -64,4 +63,4 @@ adb reboot
 
 
 
-## [Sonraki aşama: get root](/guide/Turkish/2-rootguide-tr.md)
+## [Sonraki aşama: Almak root](/guide/Turkish/2-rootguide-tr.md)
