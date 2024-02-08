@@ -21,8 +21,6 @@
 > 
 > Rehberdeki komutların tümü test edilmiştir.
 > 
-> `udevadm` uyarılarını görmezden gelin
-> 
  Aynı komutları ikişer kez (ya da daha fazla) çalıştırmayın.
 > 
 > Eğer hata yaptığınızı düşünüyorsanız TABLETİNİZİ YENİDEN BAŞLATMAYIN ve [Telegram grubumuzdan](https://t.me/nabuwoa) yardım isteyin.
@@ -30,7 +28,6 @@
 > 
 > Komutların hepsini birden çalıştırmak yerine sırayla teker teker çalıştırın!
 >
-> 
 > KOMUTLARI GİRERKEN HERHANGİ BİR HATA YAPMAYIN!!! EĞER YANLIŞ BİR ŞEY YAPARSANIZ CİHAZINIZI BOZABİLİRSİNİZ.
 
 #### Bir bilgisayar aracılığıyla recovery modunda cihazı başlatın
