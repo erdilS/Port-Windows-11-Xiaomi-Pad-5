@@ -51,9 +51,19 @@ fastboot boot <recovery.img>
 adb shell partition
 ```
 
-#### Android がまだ起動するか確認する
-タブレットを再起動し、Androidがまだ動作するかどうかを確認します。
-起動しない、ループする、またはアニメーションが表示されない場合は、MIUIリカバリまたはデータを消去するための他のリカバリーを使用します。
+### Make a backup of your existing boot image
+
+```cmd
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
+```
 
 
-### [次の手順: Windowsをインストールする](/guide/Japanese/2-install-ja.md)
+#### Check if Android still starts
+> just see if Android still works
+If isn't boot or looping on animation, use MIUI recovery or other recoveries for wiping data.
+
+```cmd
+adb reboot
+```
+
+### [次の手順: Get root](/guide/Japanese/2-rootguide-ja.md)
