@@ -17,8 +17,6 @@
 > 
 > Estos comandos han sido probados.
 > 
-> Ignora las advertencias de `udevadm` .
-> 
 > No reinicies tu teléfono si crees que has cometido un error, busca ayuda en el [chat de Telegram](https://t.me/nabuwoa)
 >
 > 
@@ -46,8 +44,19 @@ fastboot boot <recovery.img>
 adb shell partition
 ```
 
-### Comprobar si Android inicia
-Solo reinicia y comprueba que Android sigue funcionando.
-Si no arranca o se reinicia constantemente solo limpia los datos con cualquier recovery.
+### Make a backup of your existing boot image
 
-## [Siguiente paso: Instalar Windows](/guide/Español/2-instalacion-es.md)
+```cmd
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
+```
+
+
+#### Check if Android still starts
+> just see if Android still works
+If isn't boot or looping on animation, use MIUI recovery or other recoveries for wiping data.
+
+```cmd
+adb reboot
+```
+
+## [Siguiente paso: Get root ](/guide/Español/2-rootguide-es.md)
