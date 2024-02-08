@@ -35,4 +35,4 @@
 fastboot flash boot <magisk_patched.img>
 ```
 
-### [Next step: Installing Windows](/guide/English/3-install-en.md)
+### [Next step: Installing Windows](/guide/Traditional%20Chinese/3-install-tw.md)
