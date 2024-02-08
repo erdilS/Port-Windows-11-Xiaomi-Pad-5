@@ -46,7 +46,21 @@ fastboot boot <recovery.img>
 adb shell partition
 ```
 
-#### Проверьте, запускается ли Android
-Просто перезапустите планшет и убедитесь, что Android запускается Если система не запускается или вы получили цикличную перезагрузку, используйте режим восстановления MIUI или другой режим восстановления чтобы отформатировать раздел `data`.
+### Make a backup of your existing boot image
 
-### [Следующий шаг: установка Windows](/guide/Russian/install-ru.md)
+```cmd
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
+```
+
+
+#### Check if Android still starts
+> just see if Android still works
+If isn't boot or looping on animation, use MIUI recovery or other recoveries for wiping data.
+
+```cmd
+adb reboot
+```
+
+
+
+### [Следующий шаг: Получить root](/guide/Russian/2-rootguide-ru.md)
