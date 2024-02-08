@@ -35,4 +35,4 @@ adb shell format
 
 
 
-- Продовжуйте з [цього](/guide/Ukrainian/install-uk.md#Запустити-msc) моменту
+- Продовжуйте з [цього](/guide/Ukrainian/2-install-uk.md#Запустити-msc) моменту
