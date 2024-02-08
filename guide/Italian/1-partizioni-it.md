@@ -21,8 +21,6 @@
 > 
 > Questi comandi sono stati testati.
 > 
-> Ignora gli avvisi `udevadm`
-> 
 > Non eseguire lo stesso comando due volte
 > 
 > NON RIAVVIARE IL TUO DISPOSITIVO se pensi di aver commesso un errore, chiedi aiuto nella [chat Telegram](https://t.me/nabuwoa)
