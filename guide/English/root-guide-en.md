@@ -8,9 +8,9 @@
 > **If you already have root just skip this step and go to the next page**
 
 ### Prerequisites
-- Brain
+- ```Brain```
   
-- [Android boot backup](/guide/English/1-partition-en.md#Make-a-backup-of-your-existing-boot-image)
+- [```Android boot backup```](/guide/English/1-partition-en.md#Make-a-backup-of-your-existing-boot-image)
 
 
 ## Patch boot 
