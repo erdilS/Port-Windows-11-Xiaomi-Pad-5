@@ -8,7 +8,7 @@
 
 - [English](English/1-partition-en.md)
 - [Turkish](Turkish/1-partition-tr.md)
-- [Russian](Russian/partition-ru.md)
+- [Russian](Russian/1-partition-ru.md)
 - [Italian](Italian/1-partizioni-it.md)
 - [Español](Español/1-particiones-es.md)
 - [Ukrainian](Ukrainian/partition-uk.md)
