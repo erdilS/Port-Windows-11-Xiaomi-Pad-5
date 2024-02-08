@@ -2,7 +2,8 @@
 
 
 # Cài đặt Windows 11 cho Xiaomi Pad 5
-
+## Language 
+[Русский](README-RU.md) | [English](README.md) | Vietnamese
 ## ⚠️ CẢNH BÁO
 
 Chúng tôi không chịu trách nhiệm nếu thiết bị không hoạt động, thiếu phân vùng cho recovery, máy chết queo, mất thẻ nhớ, pmics, ram, chết cpu, hay lỗi gì kể cả chết chó chết mèo, hạt nhân nổ tung hay bạn bị sếp sa thải vì quên quay lại Android vào sáng sớm nên không thấy báo thức.
