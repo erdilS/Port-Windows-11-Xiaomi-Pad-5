@@ -9,9 +9,9 @@
 
 ### Điều kiện tiên quyết
 
-- [Recovery Image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```Recovery Image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+- [```ADB & Fastboot```](https://developer.android.com/studio/releases/platform-tools)
 
 ### Chú ý nha:
 > [!WARNING]
@@ -20,8 +20,6 @@
 > Dữ liệu của bạn sẽ bị xoá sạch! Hãy backup từ bây giờ nếu cần thiết.
 > 
 > Những lệnh sử dụng ở đây đều đã được thử nghiệm thành công
-> 
-> Bỏ qua cảnh báo `udevadm`
 > 
 > TUYỆT ĐỐI KHÔNG khởi động lại máy tính bảng, nếu cần hỗ trợ hãy hỏi tại [Telegram chat](https://t.me/nabuwoa)
 >
