@@ -1,3 +1,6 @@
+<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 En La Xiaomi Pad 5">
+
+
 ## Вимоги для подвійного завантаження
 
 - Мозок
