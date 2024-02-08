@@ -30,4 +30,4 @@ fastboot boot <recovery.img>
 ```cmd
 adb shell format
 ```
-## [Next step: Reinstalling Windows](/guide/English/2-install-en.md#Execute-msc)
+## [Next step: Reinstalling Windows](/guide/English/3-install-en.md#Execute-msc)
