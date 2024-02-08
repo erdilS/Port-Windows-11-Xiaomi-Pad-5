@@ -49,9 +49,22 @@ fastboot boot <recovery.img>
 ```cmd
 adb shell partition
 ```
+### Make a backup of your existing boot image
 
-### Android'in açılıp açılmadığını kontrol edin.
-Tabletinizi yeniden başlatın, ve Android'in çalışıp çalışmadığını kontrol edin.
-Eğer Android açılmıyorsa ya da bootanimationda takılı kaldıysa MIUI recovery ile veya başka recoveryler ile data bölümünü biçimlendirin.
+```cmd
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
+```
 
-## [Sonraki aşama: Windows kurulumu](/guide/Turkish/2-install-tr.md)
+
+#### Check if Android still starts
+> just see if Android still works
+If isn't boot or looping on animation, use MIUI recovery or other recoveries for wiping data.
+
+```cmd
+adb reboot
+```
+
+
+
+
+## [Sonraki aşama: get root](/guide/Turkish/2-rootguide-tr.md)
