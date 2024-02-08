@@ -5,9 +5,9 @@
 
 ### Requisitos Previos
   
-- [Imagen de Recuperación](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```Imagen de Recuperación```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+- [```ADB & Fastboot```](https://developer.android.com/studio/releases/platform-tools)
 
 ## Notas:
 > [!WARNING]\
