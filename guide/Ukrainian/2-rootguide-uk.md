@@ -3,36 +3,36 @@
 
 # Running Windows on the Xiaomi Pad 5
 
-## Get root 
+## Отримати root 
 > [!NOTE]
-> **If you already have root just skip this step and go to the next page**
+> **Якщо у вас уже є root, просто пропустіть цей крок і перейдіть до наступної сторінки**
 
-### Prerequisites
-- ```Brain```
+### передумови
+- ```мозок```
   
-- [```Android boot backup```](/guide/English/1-partition-en.md#Make-a-backup-of-your-existing-boot-image) (which you backup on the first guide page)
+- [```Резервне копіювання завантаження Android```](/guide/English/1-partition-en.md#Make-a-backup-of-your-existing-boot-image) (резервну копію якої ви створили на першій сторінці посібника)
 
 
-## Patch boot 
+## Патч завантаження 
 
-- Copy the ```normal_boot.img``` file from the ```platform tools``` folder to the tablet 
+- Скопіюйте ```normal_boot.img``` файл із ```platform tools``` папку на планшет 
 
 
-- Download and install the [Magisk app](https://github.com/topjohnwu/Magisk/releases/latest) to the tablet
+- Завантажте та встановіть [Magisk app](https://github.com/topjohnwu/Magisk/releases/latest) на планшет
   
--  Open the Magisk app and click the ```Install``` button. Select ```Select and Patch a File``` option and find the ```normal_boot.img``` file that you copyed to tablet. Click the ```Let's Go``` button and wait for the patching process to complete.
+-  Відкрийте програму Magisk і натисніть ```Install``` кнопку. Виберіть ```Select and Patch a File``` варіант і знайдіть ```normal_boot.img``` файл, який ви скопіювали на планшет. Натисніть на ```Let's Go``` і дочекайтеся завершення процесу виправлення.
   
-- Copy the ```magisk_patched....img``` file from the ```Downloads``` folder on tablet to the ```platform tools``` folder on your computer. 
+- Скопіюйте ```magisk_patched....img``` файл із ```Downloads``` папку на планшеті до ```platform tools``` папку на комп’ютері.
 
-- Reboot to fastboot
+- Перезавантажте в fastboot
   
-- Open command prompt in the platform tools folder 
+- Відкрийте командний рядок у platform tools папку
 
  ## Flash patched boot 
- > Replace `<magisk_patched.img>` with the actual ```magisk_patched.img``` name/path.
+ > Замінити `<magisk_patched.img>` з фактичним ```magisk_patched.img``` ім'я/шлях.
 ```cmd
 fastboot flash boot <magisk_patched.img>
 ```
 
-### [Next step: Installing Windows](/guide/Ukrainian/3-install-uk.md)
+### [Наступний крок: встановлення Windows](/guide/Ukrainian/3-install-uk.md)
 
