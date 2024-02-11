@@ -3,33 +3,33 @@
 
 # Running Windows on the Xiaomi Pad 5
 
-## Get root 
+## Ottieni il root
 > [!NOTE]
-> **If you already have root just skip this step and go to the next page**
+> **Se hai già root, salta questo passaggio e vai alla pagina successiva**
 
-### Prerequisites
-- ```Brain```
+### Prerequisiti
+- ```Cervello```
   
-- [```Android boot backup```](/guide/English/1-partition-en.md#Make-a-backup-of-your-existing-boot-image) (which you backup on the first guide page)
+- [```Backup di avvio di Android```](/guide/English/1-partition-en.md#Make-a-backup-of-your-existing-boot-image) (di cui hai eseguito il backup nella prima pagina della guida)
 
 
-## Patch boot 
+## Avvio con toppa 
 
-- Copy the ```normal_boot.img``` file from the ```platform tools``` folder to the tablet 
+- Copia il ```normal_boot.img``` file da ```platform tools``` cartella sul tablet
 
 
-- Download and install the [Magisk app](https://github.com/topjohnwu/Magisk/releases/latest) to the tablet
+- Scarica e installa il [Magisk app](https://github.com/topjohnwu/Magisk/releases/latest) sulla tavoletta
   
--  Open the Magisk app and click the ```Install``` button. Select ```Select and Patch a File``` option and find the ```normal_boot.img``` file that you copyed to tablet. Click the ```Let's Go``` button and wait for the patching process to complete.
+-  Apri l'app Magisk e fai clic su ```Install``` pulsante. Selezionare ```Select and Patch a File``` opzione e trova il file ```normal_boot.img``` file che hai copiato sul tablet. Clicca il ```Let's Go``` pulsante e attendere il completamento del processo di patch.
   
-- Copy the ```magisk_patched....img``` file from the ```Downloads``` folder on tablet to the ```platform tools``` folder on your computer. 
+- Copia il ```magisk_patched....img``` file da ```Downloads``` cartella sul tablet nel file ```platform tools``` cartella sul tuo computer.
 
-- Reboot to fastboot
+- Riavvia in fastboot
   
-- Open command prompt in the platform tools folder 
+- Apri il prompt dei comandi nella cartella degli strumenti della piattaforma 
 
- ## Flash patched boot 
- > Replace `<magisk_patched.img>` with the actual ```magisk_patched.img``` name/path.
+ ## Avvio con patch flash
+ > Sostituire `<magisk_patched.img>` con l'effettivo ```magisk_patched.img``` nome/percorso.
 ```cmd
 fastboot flash boot <magisk_patched.img>
 ```
