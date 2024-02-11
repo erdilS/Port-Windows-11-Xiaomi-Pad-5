@@ -17,11 +17,11 @@
 
 - Copy the ```normal_boot.img``` file from the ```platform tools``` folder onto the tablet 
 
-- Download and install the [Magisk app](https://github.com/topjohnwu/Magisk/releases/latest) to the tablet
+- Download and install the [Magisk app](https://github.com/topjohnwu/Magisk/releases/latest) on the tablet
   
 -  Open the Magisk app and click the ```Install``` button. Select ```Select and Patch a File``` option and find the ```normal_boot.img``` file that you copied to the tablet. Click the ```Let's Go``` button and wait for the patching process to complete.
   
-- Copy the ```magisk_patched....img``` file from the ```Downloads``` folder onto the tablet to the ```platform tools``` folder on your computer. 
+- Copy the ```magisk_patched....img``` file from the ```Downloads``` folder on the tablet to the ```platform tools``` folder on your computer. 
 
 - Reboot to fastboot
   
