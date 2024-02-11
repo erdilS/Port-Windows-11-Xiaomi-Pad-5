@@ -3,36 +3,36 @@
 
 # Running Windows on the Xiaomi Pad 5
 
-## Get root 
+## ルートを取得 
 > [!NOTE]
-> **If you already have root just skip this step and go to the next page**
+> **すでに root を持っている場合は、このステップをスキップして次のページに進んでください。**
 
-### Prerequisites
-- ```Brain```
+### 前提条件
+- ```脳```
   
-- [```Android boot backup```](/guide/English/1-partition-en.md#Make-a-backup-of-your-existing-boot-image) (which you backup on the first guide page)
+- [```Android ブートのバックアップ```](/guide/English/1-partition-en.md#Make-a-backup-of-your-existing-boot-image) (最初のガイドページでバックアップしたもの)
 
 
-## Patch boot 
+## パッチブート
 
-- Copy the ```normal_boot.img``` file from the ```platform tools``` folder to the tablet 
+- をコピーします ```normal_boot.img``` からのファイル ```platform tools``` タブレットへのフォルダー
 
 
-- Download and install the [Magisk app](https://github.com/topjohnwu/Magisk/releases/latest) to the tablet
+- ダウンロードしてインストールします [Magisk app](https://github.com/topjohnwu/Magisk/releases/latest) タブレットに
   
--  Open the Magisk app and click the ```Install``` button. Select ```Select and Patch a File``` option and find the ```normal_boot.img``` file that you copyed to tablet. Click the ```Let's Go``` button and wait for the patching process to complete.
+-  Magisk アプリを開き、 ```Install``` ボタン。 選択する ```Select and Patch a File``` オプションを見つけて、 ```normal_boot.img``` タブレットにコピーしたファイル。 クリック ```Let's Go``` ボタンを押して、パッチ適用プロセスが完了するまで待ちます。
   
-- Copy the ```magisk_patched....img``` file from the ```Downloads``` folder on tablet to the ```platform tools``` folder on your computer. 
-
-- Reboot to fastboot
+- をコピーします ```magisk_patched....img``` からのファイル ```Downloads``` タブレット上のフォルダーに ```platform tools``` コンピューター上のフォルダー。
   
-- Open command prompt in the platform tools folder 
+- 再起動して、fastboot
+  
+- コマンドプロンプトを開きます platform tools フォルダ 
 
- ## Flash patched boot 
- > Replace `<magisk_patched.img>` with the actual ```magisk_patched.img``` name/path.
+ ## フラッシュパッチが適用されたブート
+ > 交換する `<magisk_patched.img>` 実際の ```magisk_patched.img``` 名前/パス.
 ```cmd
 fastboot flash boot <magisk_patched.img>
 ```
 
-### [Next step: Installing Windows](/guide/Japanese/3-install-ja.md)
+### [次のステップ: Windows のインストール](/guide/Japanese/3-install-ja.md)
 
