@@ -3,36 +3,35 @@
 
 # Running Windows on the Xiaomi Pad 5
 
-## Get root 
+## Nhận quyền root
 > [!NOTE]
-> **If you already have root just skip this step and go to the next page**
+> **Nếu bạn đã root thì bỏ qua bước này và chuyển sang trang tiếp theo**
 
-### Prerequisites
-- ```Brain```
+### Điều kiện tiên quyết
+- ```Não```
   
-- [```Android boot backup```](/guide/English/1-partition-en.md#Make-a-backup-of-your-existing-boot-image) (which you backup on the first guide page)
+- [```Sao lưu khởi động Android```](/guide/English/1-partition-en.md#Make-a-backup-of-your-existing-boot-image) (mà bạn đã sao lưu ở trang hướng dẫn đầu tiên)
 
 
-## Patch boot 
+## Khởi động bản vá
 
-- Copy the ```normal_boot.img``` file from the ```platform tools``` folder to the tablet 
+- Sao chép ```normal_boot.img``` tập tin từ ```platform tools``` thư mục vào máy tính bảng
 
-
-- Download and install the [Magisk app](https://github.com/topjohnwu/Magisk/releases/latest) to the tablet
+- Tải xuống và cài đặt [Magisk app](https://github.com/topjohnwu/Magisk/releases/latest) lên máy tính bảng
   
--  Open the Magisk app and click the ```Install``` button. Select ```Select and Patch a File``` option and find the ```normal_boot.img``` file that you copyed to tablet. Click the ```Let's Go``` button and wait for the patching process to complete.
+-  Mở ứng dụng Magisk và nhấp vào ```Install``` cái nút. Lựa chọn ```Select and Patch a File``` tùy chọn và tìm ```normal_boot.img``` tập tin mà bạn đã sao chép vào máy tính bảng. Nhấn vào ```Let's Go``` và đợi quá trình vá lỗi hoàn tất.
   
-- Copy the ```magisk_patched....img``` file from the ```Downloads``` folder on tablet to the ```platform tools``` folder on your computer. 
+- Sao chép ```magisk_patched....img``` tập tin từ ```Downloads``` thư mục trên máy tính bảng vào ```platform tools``` thư mục trên máy tính của bạn.
 
-- Reboot to fastboot
+- Khởi động lại để fastboot
   
-- Open command prompt in the platform tools folder 
+- Mở dấu nhắc lệnh trong platform tools thư mục
 
- ## Flash patched boot 
- > Replace `<magisk_patched.img>` with the actual ```magisk_patched.img``` name/path.
+## Khởi động được vá flash
+ > Thay thế `<magisk_patched.img>` với thực tế ```magisk_patched.img``` tên/đường dẫn.
 ```cmd
 fastboot flash boot <magisk_patched.img>
 ```
 
-### [Next step: Installing Windows](/guide/Vietnamese/3-install-vi.md)
+### [Bước tiếp theo: Cài đặt Windows](/guide/Vietnamese/3-install-vi.md)
 
