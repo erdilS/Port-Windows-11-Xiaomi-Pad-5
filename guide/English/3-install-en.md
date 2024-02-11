@@ -145,13 +145,11 @@ fastboot reboot
 > On the first Windows boot, it will not see any Wi-Fi networks. Restart your tablet by holding down the power button until it restarts. After the reboot, it will be fixed. If you get a pop-up saying "Could not connect", press retry until it works (usually 5 times)
 
 ### Boot back into Android
-> Use your backup boot image and flash it in fastboot
+After Windows has been set up, press the restart button in Windows (NOT SHUTDOWN), then as it restarts, hold `volume down` + `power`to reboot back to fastboot
+> Use your backup boot image and flash it in fastboot to return to Android
 
 ```cmd
 fastboot flash boot rooted_boot.img
 ```
-
-## Finished!
-> You can join our [Telegram chat](https://t.me/nabuwoa) to receive the latest news about this project
 
 ### [Last step: Set up Dualboot](dualboot-en.md)
