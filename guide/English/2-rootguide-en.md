@@ -10,7 +10,7 @@
 ### Prerequisites
 - ```Brain```
   
-- [```Android boot backup```](/guide/English/1-partition-en.md#Make-a-backup-of-your-existing-boot-image) (which you backed up on the first guide page)
+- [```Android boot backup```](/guide/English/1-partition-en.md#Make-a-backup-of-your-existing-boot-image) (which you backed ed up on the first guide page)
 
 
 ## Patch boot 
