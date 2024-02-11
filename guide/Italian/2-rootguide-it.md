@@ -26,7 +26,7 @@
 
 - Riavvia in fastboot
   
-- Apri il prompt dei comandi nella cartella degli strumenti della piattaforma 
+- Apri il prompt dei comandi nella cartella degli strumenti della platform tools 
 
  ## Avvio con patch flash
  > Sostituire `<magisk_patched.img>` con l'effettivo ```magisk_patched.img``` nome/percorso.
