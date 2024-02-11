@@ -4,35 +4,34 @@
 
 # Running Windows on the Xiaomi Pad 5
 
-## Get root 
+## 取得root權限 
 > [!NOTE]
-> **If you already have root just skip this step and go to the next page**
+> **如果您已經擁有root權限，請跳過此步驟並進入下一頁**
 
-### Prerequisites
-- ```Brain```
+### 先決條件
+- ```腦```
   
-- [```Android boot backup```](/guide/English/1-partition-en.md#Make-a-backup-of-your-existing-boot-image) (which you backup on the first guide page)
+- [```安卓開機備份```](/guide/English/1-partition-en.md#Make-a-backup-of-your-existing-boot-image) (您在第一個指南頁備份的內容)
 
 
-## Patch boot 
+## 補丁引導
 
-- Copy the ```normal_boot.img``` file from the ```platform tools``` folder to the tablet 
+- 複製 ```normal_boot.img``` 文件來自 ```platform tools``` 資料夾到平板電腦 
 
-
-- Download and install the [Magisk app](https://github.com/topjohnwu/Magisk/releases/latest) to the tablet
+- 下載並安裝 [Magisk app](https://github.com/topjohnwu/Magisk/releases/latest) 到平板電腦
   
--  Open the Magisk app and click the ```Install``` button. Select ```Select and Patch a File``` option and find the ```normal_boot.img``` file that you copyed to tablet. Click the ```Let's Go``` button and wait for the patching process to complete.
+-  打開 Magisk 應用程式並點擊 ```Install``` 按鈕。 選擇 ```Select and Patch a File``` 選項並找到 ```normal_boot.img``` 您複製到平板電腦的檔案。 點選 ```Let's Go``` 按鈕並等待修補過程完成。
   
-- Copy the ```magisk_patched....img``` file from the ```Downloads``` folder on tablet to the ```platform tools``` folder on your computer. 
+- 複製 ```magisk_patched....img``` 文件來自 ```Downloads``` 平板電腦上的資料夾 ```platform tools``` 計算機上的資料夾。
 
-- Reboot to fastboot
+- 重新啟動至 fastboot
   
-- Open command prompt in the platform tools folder 
+- 在中開啟命令提示符 platform tools 資料夾 
 
- ## Flash patched boot 
- > Replace `<magisk_patched.img>` with the actual ```magisk_patched.img``` name/path.
+ ## 快閃記憶體修補引導
+ > 代替 `<magisk_patched.img>` 與實際的 ```magisk_patched.img``` 名稱/路徑.
 ```cmd
 fastboot flash boot <magisk_patched.img>
 ```
 
-### [Next step: Installing Windows](/guide/Traditional%20Chinese/3-install-tw.md)
+### [下一步：安裝 Windows](/guide/Traditional%20Chinese/3-install-tw.md)
