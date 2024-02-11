@@ -6,35 +6,31 @@
 ## Dualbooting Android and Windows seamlessly
 
 ### Prerequisites
-
 - Brain
+- A rooted tablet
+- Windows installed on the tablet
+- [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/uefi.img)
+- [WOA Helper app](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
+- [StA Installer](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
 
-- [Rooted Android boot backup]()
+## Setting up the dualboot app
+> This guide assumes you are rooted, if you aren't, please follow the [root guide](2-rootguide-en.md) first.
 
-### Windows side of Dual Boot
+### Setup - Android
+- Download and install the [WOA Helper app](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk), then open it and grant it root access.
+- Download the [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/uefi.img) and place it inside the folder named `UEFI` in your internal storage, if this folder does not exist, create it.
+- Return to the WOA Helper app and press the `Back up Android boot` button. Select both the `Windows` and `Android` options.
+- Press the `Mount Windows` button, then download and move [StA_Installer_nabu.exe](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe) to the newly created `Windows` folder in your internal storage
+- Return to the WOA Helper app and press `Quickboot to Windows`
 
-- Install [STA](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
+### Setup - Windows
+- Navigate to C:\StA_Installer_nabu.exe and run it. If it doesn't work, make sure that any antivirus software is off, as it will probably not let the app run.
 
-- Copy ```rooted_boot.img``` from ```platform tools``` folder on PC to ```C``` drive on NABU (C:\rooted_boot.img)
+##### Booting to android
+  - Run the new shortcut on your desktop (you can also pin it to your start menu / taskbar for ease of access)
 
-
-- Rename ```rooted_boot.img``` to ```boot.img```  (C:\boot.img)
-> Make sure that you do not name this file ```boot.img.img``` if the file extension display is disabled
-
-
-- Open shortcut on your desktop to switch to Android
-
-### Android side of Dual Boot
-
-- Install [switchtowin.apk](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/switchtowindows.apk) to device.
+##### Booting to windows
+  - Press "Quickboot to Windows" inside the app, or use the newly created toggle in your quick settings panel
   
-- Create folder Windows in Android storage
-
-- Rename your UEFI file to boot.img
-
-- Place your UEFI file to created folder (/Android storage/Windows/boot.img)
-
-- Start app and give root privileges.
-
-- Click "Switch to Windows" if you want to switch Windows.
+## Finished!
 
