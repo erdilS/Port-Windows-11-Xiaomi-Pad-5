@@ -2,6 +2,9 @@
 
 
 # Cài đặt Windows 11 cho Xiaomi Pad 5
+
+[![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
+
 ## Language 
 [```Русский```](/README-RU.md) | [```English```](/README.md) | **```Vietnamese```**
 ## ⚠️ CẢNH BÁO
