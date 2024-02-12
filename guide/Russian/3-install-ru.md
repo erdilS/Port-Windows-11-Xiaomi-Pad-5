@@ -86,14 +86,14 @@ exit
 
 > Он также может называться **install.esd.** Измените путь соответственно.
 ```cmd
-dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
+dism /apply-image /ImageFile:<path/to/install.wim> /index:6 /ApplyDir:X:\
 ```
 
 ### Установка драйверов
 
 > Вы можете скачать драйвера [тут](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> Когда он попросит вас "Enter Drive letter...", введите **`X:`**
+> Когда он попросит вас "Enter Drive letter...", введите **`X`**
 
 
 > Не запускайте его от имени администратора, при необходимости он запросит права администратора.
