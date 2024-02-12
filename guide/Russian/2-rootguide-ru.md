@@ -2,37 +2,36 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 
-# Running Windows on the Xiaomi Pad 5
+# Запуск Windows на Xiaomi Pad 5
 
-## Get root 
+## Получить root 
 > [!NOTE]
-> **If you already have root just skip this step and go to the next page**
+> **Если у вас уже есть root просто пропустите эту страницу и перейдите к следующей**
 
-### Prerequisites
-- ```Brain```
+### Требования
+- ```Мозг```
   
-- [```Android boot backup```](/guide/English/1-partition-en.md#Make-a-backup-of-your-existing-boot-image) (which you backup on the first guide page)
+- [```Резервная копия загрузчного образа Android```](/guide/English/1-partition-en.md#Make-a-backup-of-your-existing-boot-image) (which you backup on the first guide page)
 
 
-## Patch boot 
+## Пропатчите загрузачный образ
 
-- Copy the ```normal_boot.img``` file from the ```platform tools``` folder to the tablet 
+- скопируйте файл ```normal_boot.img``` из папки ```platform tools``` на планшет 
 
 
-- Download and install the [Magisk app](https://github.com/topjohnwu/Magisk/releases/latest) to the tablet
+- Скачайте и установите [Приложение Magisk](https://github.com/topjohnwu/Magisk/releases/latest) на планшет
   
--  Open the Magisk app and click the ```Install``` button. Select ```Select and Patch a File``` option and find the ```normal_boot.img``` file that you copyed to tablet. Click the ```Let's Go``` button and wait for the patching process to complete.
+-  Откройет приложение Magisk и нажмите кнопку```Установка```. Выберите опцию```Пропатчить boot-образ ``` и найдите файл ```normal_boot.img``` который вы скопировали на планшет. Нажмите на кнопку ```Установить``` и дождитесь завершения процесса.
   
-- Copy the ```magisk_patched....img``` file from the ```Downloads``` folder on tablet to the ```platform tools``` folder on your computer. 
+- Скопируйте файл ```magisk_patched....img``` из папки ```Downloads``` на планшете, в папку  ```platform tools``` на компьютере. 
 
-- Reboot to fastboot
+- Перезагрузитесь в fastboot
   
-- Open command prompt in the platform tools folder 
-
- ## Flash patched boot 
- > Replace `<magisk_patched.img>` with the actual ```magisk_patched.img``` name/path.
+- Откройте командную строку в папке platform tools 
+ ## Прошейте пропатченый boot-образ
+ > Замените `<magisk_patched.img>` актуальным путём/названием файла ```magisk_patched.img``` 
 ```cmd
 fastboot flash boot <magisk_patched.img>
 ```
 
-### [Next step: Installing Windows](/guide/Russian/3-install-ru.md)
+### [Следующий шаг: Уствановка Windows](/guide/Russian/3-install-ru.md)
