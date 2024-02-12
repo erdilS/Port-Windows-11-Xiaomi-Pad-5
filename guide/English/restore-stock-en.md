@@ -14,22 +14,22 @@ If you want to relock your bootloader you'll need your partition table to be sto
 
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
   
-- [```gpt_both0.bin```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/gpt_both0.bin)
+- [```Recovery Image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-### Restore GPT
-> Replace ```<gpt_both0.bin>``` with the path to the gpt_both0.bin file.
-
+#### Boot the modded recovery
 ```cmd
-fastboot flash partition:0 <gpt_both0.bin>
+fastboot boot <recovery.img>
 ```
 
-### Erase ```userdata``` to avoid bootloop and restore FS size
+#### Restore the partition layout
+> [!Warning]
+> This will wipe your Android files. Backup first if needed.
 ```cmd
-fastboot -w
+adb shell restore
 ```
 
 ### Reboot to Android 
 ```cmd
-fastboot reboot 
+adb reboot 
 ```
 ## Done!
