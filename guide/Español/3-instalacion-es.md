@@ -91,14 +91,14 @@ exit
 
 > También puede llamarse **install.esd.** Cambie la ruta respectivamente.
 ```cmd
-dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
+dism /apply-image /ImageFile:<path/to/install.wim> /index:6 /ApplyDir:X:\
 ```
 
 # Instalar los Drivers
 
 > Puede descargar los controladores [aquí](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> Cuando le pida que "Enter Drive letter....."tipo **`X:`**
+> Cuando le pida que "Enter Drive letter....."tipo **`X`**
 
 > No lo ejecute como administrador, le pedirá derechos de administrador cuando sea necesario.
 
