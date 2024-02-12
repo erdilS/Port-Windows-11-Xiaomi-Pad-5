@@ -27,13 +27,13 @@
 - Return to the WOA Helper app and press `Quickboot to Windows`.
 
 ### Setup - Windows
-- Navigate to C:\StA_Installer_nabu.exe and run it. If it doesn't work, make sure that any antivirus software is off, as it will probably not let the app run.
+- Navigate to `C:\StA_Installer_nabu.exe` and run it. If it doesn't work, make sure that any antivirus software is off, as it will probably not let the app run.
 
 ##### Booting to android
   - Run the new shortcut on your desktop (you can also pin it to your start menu / taskbar for ease of access)
 
 ##### Booting to windows
-  - Press "Quickboot to Windows" inside the app, or use the newly created toggle in your quick settings panel
+  - Press `Quickboot to Windows` inside the app, or use the newly created toggle in your quick settings panel
   
 ## Finished!
 
