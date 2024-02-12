@@ -1,37 +1,35 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 
-# Cài đặt Windows 11 lên Xiaomi Mi Pad 5
+# Running Windows on the Xiaomi Pad 5
 
-## Dualboot cho Windows và Android
+## Dualbooting Android and Windows seamlessly
 
-### Điều kiện tiên quyết
+### Prerequisites
+- Brain
+- A rooted tablet
+- Windows installed on the tablet
+- [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/uefi.img)
+- [WOA Helper app](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
+- [StA Installer](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
 
-- Cần não
+## Setting up the dualboot app
+> This guide assumes you are rooted, if you aren't, please follow the [root guide](2-rootguide-en.md) first.
 
-- Android đã root và bản backup của Android boot
+### Setup - Android
+- Download and install the [WOA Helper app](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk), then open it and grant it root access.
+- Download the [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/uefi.img) and place it inside the folder named `UEFI` in your internal storage, if this folder does not exist, create it.
+- Return to the WOA Helper app and press the `Back up Android boot` button. Select both the `Windows` and `Android` options.
+- Press the `Mount Windows` button, then download and move [StA_Installer_nabu.exe](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe) to the newly created `Windows` folder in your internal storage.
+- Return to the WOA Helper app and press `Quickboot to Windows`.
 
-### Cài đặt phía Windows Dualboot
+### Setup - Windows
+- Navigate to C:\StA_Installer_nabu.exe and run it. If it doesn't work, make sure that any antivirus software is off, as it will probably not let the app run.
 
-- Cài [STA](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
+##### Booting to android
+  - Run the new shortcut on your desktop (you can also pin it to your start menu / taskbar for ease of access)
 
-- Sửa tên file boot thành boot.img
-
-- Đặt file boot của Android vào C:\ (C:\boot.img)
-
-- Mở phím tắt trên màn hình của bạn để chuyển Sang Android
-
-### Cài đặt phía Anđroid Dualboot
-
-- Cài [switchtowin.apk](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/switchtowindows.apk) lên thiết bị.
-
-- Tạo Thư Mục Windows trong Bộ Nhớ Android
-
-- Sửa file UEFI thành boot.img
-
-- Đặt tệp UEFI của bạn vào thư mục đã tạo (/Lưu trữ Android/Windows/boot.img)
-
-- Khởi động app và cấp quyền root
-
-- Ấn vào "Switch to Windows" khi muốn đổi qua Windows.
-
+##### Booting to windows
+  - Press "Quickboot to Windows" inside the app, or use the newly created toggle in your quick settings panel
+  
+## Finished!
