@@ -37,16 +37,15 @@ fastboot boot <recovery.img>
 adb shell partition
 ```
 
-### Make a backup of your existing boot image
+### Створіть резервну копію наявного образу завантаження 
 
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
 ```
 
 
-#### Check if Android still starts
-> just see if Android still works
-If isn't boot or looping on animation, use MIUI recovery or other recoveries for wiping data.
+#### Перевірте, чи все ще запускається Android 
+> Перезавантажте, щоб перевірити, чи працює Android. Якщо він не завантажується, зітріть усі дані під час відновлення та повторіть спробу. 
 
 ```cmd
 adb reboot
