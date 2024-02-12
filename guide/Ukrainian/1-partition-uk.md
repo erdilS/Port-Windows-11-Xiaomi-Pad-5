@@ -9,7 +9,7 @@
 
 - [```Відновлений образ```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-- [```ADB & Fastboot```](https://developer.android.com/studio/releases/platform-tools)
+- [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 ## Нотатки:
 > [!WARNING]
 > Якщо ви видалили будь-який розділ використовуючи diskpart, Windows рано или пізно відправить команду пам'яти, яка буде неправильно розпізнана, і тому пам'ять буде стерта.
