@@ -10,13 +10,9 @@ Bootloader'ı geri kilitlemek istiyorsanız bölüm tablonuzun orijinal hale gel
 
 ### Prerequisites
 
-- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+- [```ADB & Fastboot```](https://developer.android.com/studio/releases/platform-tools)
   
-- [gpt_both0.bin](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/gpt_both0.bin)
-
-
-> Komuttaki <gpt_both0.bin> kısmını gpt_both0.bin dosyasının konumuyla değiştirin. Dosyayı [releases sayfasından](../../../../releases/) indirebilirsiniz.
-
+- [```gpt_both0.bin```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/gpt_both0.bin)
 
 ## Varsayılan bölüm tablosunu geri yükleyin
 
