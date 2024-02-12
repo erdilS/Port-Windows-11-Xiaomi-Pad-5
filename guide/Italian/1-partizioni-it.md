@@ -47,17 +47,14 @@ fastboot boot <recovery.img>
 adb shell partition
 ```
 
-
-### Make a backup of your existing boot image
-
+### Effettua un backup dell'immagine di avvio esistente 
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
 ```
 
 
-#### Check if Android still starts
-> just see if Android still works
-If isn't boot or looping on animation, use MIUI recovery or other recoveries for wiping data.
+#### Controlla se Android si avvia ancora 
+> Riavvia per verificare se Android funziona ancora. Se non si avvia, cancella tutti i dati in ripristino e riprova. 
 
 ```cmd
 adb reboot
