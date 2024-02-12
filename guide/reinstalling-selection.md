@@ -14,4 +14,4 @@
 - [Ukrainian](Ukrainian/reinstall-uk.md)
 - [Vietnamese](Vietnamese/reinstall-vi.md)
 - [Traditional Chinese](Traditional%20Chinese/reinstall-tw.md)
-- ~[Japanese](Japanese/)~
+- [Japanese](Japanese/reinstall-ja.md)

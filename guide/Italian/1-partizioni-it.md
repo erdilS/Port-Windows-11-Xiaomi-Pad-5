@@ -9,9 +9,9 @@
 
 ### Prerequisiti
 
-- [Immagine Recovery](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```Immagine Recovery```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+- [```ADB & Fastboot```](https://developer.android.com/studio/releases/platform-tools)
 
 ### Notes:
 > [!WARNING]\
@@ -21,15 +21,9 @@
 > 
 > Questi comandi sono stati testati.
 > 
-> Ignora gli avvisi `udevadm`
-> 
 > Non eseguire lo stesso comando due volte
 > 
 > NON RIAVVIARE IL TUO DISPOSITIVO se pensi di aver commesso un errore, chiedi aiuto nella [chat Telegram](https://t.me/nabuwoa)
-> 
->
-> Non eseguire tutti i comandi in una sola volta! Eseguili in ordine!
->
 > 
 > NON COMMETTERE NESSUN ERRORE!!! PUOI ROMPERE/BRICKARE IL TUO DISPOSITIVO CON I SEGUENTI COMANDI SE ESEGUITI IN MANIERA SBAGLIATA!!!
 
@@ -53,9 +47,18 @@ fastboot boot <recovery.img>
 adb shell partition
 ```
 
+### Effettua un backup dell'immagine di avvio esistente 
+```cmd
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
+```
 
-#### Verifica se Android si avvia 
-riavvia il dispositivo e verifica se android si avvia ancora
-Se non si avvia o va in bootloop, basta fare la pulizia dei dati con la recovery della MIUI o con un'altra recovery.
 
-### [Prossimo passaggio: installa Windows](/guide/Italian/2-installazione-it.md)
+#### Controlla se Android si avvia ancora 
+> Riavvia per verificare se Android funziona ancora. Se non si avvia, cancella tutti i dati in ripristino e riprova. 
+
+```cmd
+adb reboot
+```
+
+
+### [Prossimo passaggio: Get root](/guide/Italian/2-rootguide-it.md)

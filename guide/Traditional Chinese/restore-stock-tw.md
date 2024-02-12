@@ -11,7 +11,8 @@
 
 ### 請先準備下面的文件
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
-- [gpt_both0.bin](../../../../releases/tag/1.0)
+  
+- [gpt_both0.bin](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/gpt_both0.bin)
 
 ### 還原 GPT 分區表
 > 使用 gpt_both0.bin 路徑取代下面命令裏的 ```<gpt_both0.bin>```。
@@ -19,7 +20,14 @@
 fastboot flash partition:0 <gpt_both0.bin>
 ```
 
-### 格式化 Userdata 分區以避免在啟動畫面卡住, 並還原 FS 大小
+### 格式化  ```userdata ``` 分區以避免在啟動畫面卡住, 並還原 FS 大小
 ```cmd
 fastboot -w
 ```
+
+
+### 重新启动到Android
+```cmd
+fastboot reboot 
+```
+## 完成了！

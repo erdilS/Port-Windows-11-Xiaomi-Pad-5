@@ -7,9 +7,9 @@
 
 ### Gerekli Dosyalar
 
-- [Recovery İmajı](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```Recovery İmajı```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+- [```platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
 ## Notlar:
 > [!WARNING]
@@ -21,8 +21,6 @@
 > 
 > Rehberdeki komutların tümü test edilmiştir.
 > 
-> `udevadm` uyarılarını görmezden gelin
-> 
  Aynı komutları ikişer kez (ya da daha fazla) çalıştırmayın.
 > 
 > Eğer hata yaptığınızı düşünüyorsanız TABLETİNİZİ YENİDEN BAŞLATMAYIN ve [Telegram grubumuzdan](https://t.me/nabuwoa) yardım isteyin.
@@ -30,7 +28,6 @@
 > 
 > Komutların hepsini birden çalıştırmak yerine sırayla teker teker çalıştırın!
 >
-> 
 > KOMUTLARI GİRERKEN HERHANGİ BİR HATA YAPMAYIN!!! EĞER YANLIŞ BİR ŞEY YAPARSANIZ CİHAZINIZI BOZABİLİRSİNİZ.
 
 #### Bir bilgisayar aracılığıyla recovery modunda cihazı başlatın
@@ -49,9 +46,21 @@ fastboot boot <recovery.img>
 ```cmd
 adb shell partition
 ```
+### Mevcut önyükleme resminizin yedeğini alın
 
-### Android'in açılıp açılmadığını kontrol edin.
-Tabletinizi yeniden başlatın, ve Android'in çalışıp çalışmadığını kontrol edin.
-Eğer Android açılmıyorsa ya da bootanimationda takılı kaldıysa MIUI recovery ile veya başka recoveryler ile data bölümünü biçimlendirin.
+```cmd
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
+```
 
-## [Sonraki aşama: Windows kurulumu](/guide/Turkish/2-install-tr.md)
+
+#### Android'in hâlâ çalışıp çalışmadığını kontrol edin 
+> Sadece Android'in hala çalışıp çalışmadığını görün
+Animasyonda önyükleme yapmıyorsa veya döngü yapmıyorsa, verileri silmek için MIUI kurtarma veya diğer kurtarmaları kullanın.
+```cmd
+adb reboot
+```
+
+
+
+
+## [Sonraki aşama: Almak root](/guide/Turkish/2-rootguide-tr.md)

@@ -10,20 +10,22 @@ Bootloader'ı geri kilitlemek istiyorsanız bölüm tablonuzun orijinal hale gel
 
 ### Prerequisites
 
-- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
-- [gpt_both0.bin](../../../../releases/tag/1.0)
+- [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
+  
+- [```gpt_both0.bin```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/gpt_both0.bin)
 
-
-> Komuttaki <gpt_both0.bin> kısmını gpt_both0.bin dosyasının konumuyla değiştirin. Dosyayı [releases sayfasından](../../../../releases/) indirebilirsiniz.
-
-
-# Varsayılan bölüm tablosunu geri yükleyin
+## Varsayılan bölüm tablosunu geri yükleyin
 
 ```cmd
 fastboot flash partition:0 <gpt_both0.bin>
 ```
 
-# Bootloop yaşamamak ve bölüm boyutunu geri yüklemek için Userdata bölümünü biçimlendirin
+## Bootloop yaşamamak ve bölüm boyutunu geri yüklemek için ```userdata``` bölümünü biçimlendirin
 ```cmd
 fastboot -w
 ```
+### Android'e yeniden başlat
+```cmd
+fastboot reboot 
+```
+## Bitti!

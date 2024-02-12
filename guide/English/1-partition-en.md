@@ -8,31 +8,26 @@
 
 
 ### Prerequisites
-- Brain
-- [Recovery Image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+-  ```Brain```
+  
+- [```Recovery Image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+- [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
 ### Notes:
 > [!Warning]\
-> if you delete any partitions via diskpart later on or now windows will send a ufs command that gets misinterpreted which erase all your ufs
+> if you delete any partitions via diskpart later on or now, windows will send a ufs command that gets misinterpreted which erase all your ufs
 > 
 > All your data will be erased! Backup now if needed.
 > 
 > These commands have been tested.
 > 
-> Ignore `udevadm` warnings
-> 
->  Do not run the same command twice
-> 
 > DO NOT REBOOT YOUR TABLET if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/nabuwoa)
 >
-> Do not run all commands at once, execute them in order!
->
-> **PLEASE DON'T USE OUTDATED VIDEO GUIDES ON YOUTUBE OR ANY OTHER PLATFORM! THESE VIDEOS ARE OUTDATED AND YOU CAN BRICK YOUR DEVICE USING IT! IF YOU NEED A VIDEO GUIDE, USE THIS [NEW VIDEO GUIDE](https://www.youtube.com/watch?v=rGPbdFq7gKs) FROM [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
+> **PLEASE DON'T USE OUTDATED VIDEO GUIDES ON YOUTUBE OR ANY OTHER PLATFORM! THESE VIDEOS ARE OUTDATED AND YOU CAN BRICK YOUR DEVICE USING THEM! IF YOU NEED A VIDEO GUIDE, USE THIS [NEW VIDEO GUIDE](https://www.youtube.com/watch?v=rGPbdFq7gKs) FROM [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
 
 
-### Partitioning your device
+### Partitioning your device and backup boot
 
 #### Boot recovery through the PC with the command
 ```cmd
@@ -52,9 +47,18 @@ fastboot boot <recovery.img>
 adb shell partition
 ```
 
+### Make a backup of your existing boot image
+```cmd
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
+```
+
+
 #### Check if Android still starts
-just restart the tablet, and see if Android still works
-If isn't boot or looping or animation, use MIUI recovery or other recoveries for wiping data.
+> Reboot to check if Android still works. If it doesn't boot, wipe all data in recovery and try again.
+
+```cmd
+adb reboot
+```
 
 
-### [Next step: Installing Windows](/guide/English/2-install-en.md)
+### [Next step: Get Root](/guide/English/2-rootguide-en.md)

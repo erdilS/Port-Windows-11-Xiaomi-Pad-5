@@ -5,9 +5,9 @@
 ## 對您的磁碟進行分區
 
 ### 請先準備下面的步驟
-- [Recovery 鏡像](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```Recovery 鏡像```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
   
-- [ADB & Fastboot (Android Platform Tools)](https://developer.android.com/studio/releases/platform-tools)
+- [```Android Platform Tools```](https://developer.android.com/studio/releases/platform-tools)
 
 ### 注意：
 > [!WARNING]
@@ -16,10 +16,8 @@
 >
 > 在安裝 Windows 的過程中所有在 Android 上的資料將會被清除, 如有必要, 請先備份
 >
-> 以下的命令已經經過測試, 但不要多次執行相同的命令
->
-> 如果您在操作中遇到了 `udevadm` 警告, 請忽略它們
->
+> 以下的命令已經經過測試,
+> 
 > 如果您遇到了意外錯誤, 請不要嘗試繼續執行後續命令或關機/重啟, 請到 [Telegram Chat](https://t.me/nabuwoa) 尋求幫助
 >
 > 請確保您的設備 Bootloader 已經解鎖
@@ -47,8 +45,18 @@ fastboot boot <recovery.img的路徑>
 adb shell partition
 ```
 
-#### 檢查 Android 是否正常運行
-您需要重新啟動平板電腦, 並查看 Android 在初始化後是否仍然正常運行
-> 若無法正常啟動或在啟動畫面卡住, 請使用 MIUI Recovery 或其他 Recovery 來格式化 data 分區並再試一次
+### 備份現有的啟動映像
 
-### [下一步：安裝 Windows](/guide/Traditional%20Chinese/2-install-tw.md)
+```cmd
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
+```
+
+
+#### 檢查 Android 是否仍啟動
+> 重新啟動以檢查 Android 是否仍然有效。如果無法啟動，請擦除恢復中的所有數據，然後重試.
+
+```cmd
+adb reboot
+```
+
+### [下一步：Get root](/guide/Traditional%20Chinese/2-rootguide-tw.md)

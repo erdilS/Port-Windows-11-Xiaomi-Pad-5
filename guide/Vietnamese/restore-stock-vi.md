@@ -13,7 +13,8 @@ Nếu muốn relock bootloader, bạn sẽ cần tới phân vùng của máy t�
 ### Điều kiện tiên quyết
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
-- [gpt_both0.bin](../../../../releases/tag/1.0)
+  
+- [gpt_both0.bin](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/gpt_both0.bin)
 
 ### Khôi phục GPT
 > Thay ```<gpt_both0.bin>``` bằng đường dẫn tới gpt_both0.bin file.
@@ -22,7 +23,14 @@ Nếu muốn relock bootloader, bạn sẽ cần tới phân vùng của máy t�
 fastboot flash partition:0 <gpt_both0.bin>
 ```
 
-### Xoá userdata để tránh bootloop và restore FS size
+### Xoá  ```userdata``` để tránh bootloop và restore FS size
 ```cmd
 fastboot -w
 ```
+
+
+### Khởi Động Lại Android
+```cmd
+fastboot reboot 
+```
+## Xong!

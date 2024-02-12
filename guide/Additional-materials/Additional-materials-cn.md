@@ -37,15 +37,3 @@ irm https://massgrave.dev/get | iex
 
 > 按任意键禁用它
 
-## 启用充电和USB主机模式
-
-> [!WARNING]
->  确保在Mi Pad5本身上完成任何注册表编辑
-
-> [!NOTE]
-> 使用PD支持的设备进行C到C充电已确认工作，小米提供的33w充电器也已确认工作
-
-- 下载 [来自Misha803的剧本](https://t.me/droidscripts/52) 轻松启用它
- 
-- 或者使用传统方法-在注册表编辑器中，更改参数的值 ```RoleSwitchMode``` 从 ```3``` 到 ```1```: ```Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters```. 
-

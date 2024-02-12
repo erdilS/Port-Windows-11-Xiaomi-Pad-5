@@ -1,33 +1,33 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 
-# Running Windows on the Xiaomi Pad 5
+# Xiaomiパッド5でWindowsを実行する
 
-## Reinstallation
+## 再インストール
 
-### Reinstalling Windows if something goes wrong
+### 何か問題が発生した場合のWindowsの再インストール
 
-- If you don't like your windows version or you've bricked your windows install, or anything else, you would probably just reinstall Windows. Thankfully this process is very easy.
+- あなたのwindowsのバージョンが気に入らない場合、またはあなたのwindowsのインストール、または何か他のものをレンガした場合は、おそらく単にWindowsを再インス ありがたいことに、このプロセスは非常に簡単です。
+  
+- パーティションテーブルを復元していない場合は、このガイドを既存のパーティションで使用できます。
 
-- If you haven't restored your partition table, you can use this guide with your existing partitions.
+### 前提条件
 
-### Prerequisites
+- 既存のWindowsおよびブートパーティション (*満たされていない場合, [戻って、このガイドが存在しなかったふりをするだけです](1-partition-ja.md)*)
 
-- Existing Windows and boot partitions (*If not met, [go back and just pretend this guide never existed](/guide/English/1-partition-en.md)*)
-
-- [Recovery Image](../../../../releases/tag/1.0)
+- [Recovery Image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
 
-### Boot recovery to format the Windows and boot partitions
+### Windowsとブートパーティションをフォーマットするためのブートリカバリ
 
 ```cmd
 fastboot boot <recovery.img>
 ```
-### Format the partitions
-> If it asks you to run it once again, do so
+### パーティションをフォーマットする
+> もう一度実行するように求められた場合は、実行してください
 ```cmd
 adb shell format
 ```
-## [Next step: Reinstalling Windows](/guide/English/2-install-en.md#Execute-the-msc-script)
+## [次のステップ：Windowsの再インストール](2-install-ja.md#msc-スクリプトを実行する)

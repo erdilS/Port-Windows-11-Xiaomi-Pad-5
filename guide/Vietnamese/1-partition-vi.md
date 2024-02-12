@@ -9,9 +9,9 @@
 
 ### Điều kiện tiên quyết
 
-- [Recovery Image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```Recovery Image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+- [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
 ### Chú ý nha:
 > [!WARNING]
@@ -20,10 +20,6 @@
 > Dữ liệu của bạn sẽ bị xoá sạch! Hãy backup từ bây giờ nếu cần thiết.
 > 
 > Những lệnh sử dụng ở đây đều đã được thử nghiệm thành công
-> 
-> Bỏ qua cảnh báo `udevadm`
-> 
-> Tuyệt đối KHÔNG nhập một lệnh 2 lần
 > 
 > TUYỆT ĐỐI KHÔNG khởi động lại máy tính bảng, nếu cần hỗ trợ hãy hỏi tại [Telegram chat](https://t.me/nabuwoa)
 >
@@ -52,8 +48,18 @@ adb shell partition
 ```
 
 
-#### Hãy kiểm tra xem Android có hoạt động hay không
-Chỉ cần khởi động lại xem Android có chạy hay không
-Nếu không chạy, lặp lại hoặc hiệu ứng load không dừng, hãy dùng MIUI recovery hoặc các recovery khác để wipe data.
+### Tạo một bản sao lưu image khởi động hiện có của bạn 
 
-### [Bước tiếp theo: Cài đặt Windows](/guide/Vietnamese/2-install-vi.md)
+```cmd
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
+```
+
+
+#### Kiểm tra xem Android có còn khởi động không 
+> Khởi động lại để kiểm tra xem Android có còn hoạt động không. Nếu nó không khởi động được, hãy xóa tất cả dữ liệu trong recovery và thử lại. 
+
+```cmd
+adb reboot
+```
+
+### [Bước tiếp theo: Get root](/guide/Vietnamese/2-rootguide-vi.md)

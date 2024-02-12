@@ -9,9 +9,11 @@
 
 ### 必要なもの
 
-- 脳みそ
-- [Recovery Image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
-- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+- ```脳みそ```
+  
+- [```Recovery Image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+  
+- [```platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
 ### ノート:
 > [!Warning]\
@@ -20,11 +22,7 @@
 > デバイスのデータは全て消去されます。必要ならばバックアップをしてください。
 > 
 > これらのコマンドはテスト済みです。
-> 
-> `udevadm` の警告は無視してください。
-> 
-> 同じコマンドを2回実行しないでください。
-> 
+>
 > もし何かミスをした際、**絶対にタブレットを再起動しないで**、[Telegram chat](https://t.me/nabuwoa)で助けを求めてください。
 >
 > コマンドは一つずつ実行してください。
@@ -51,9 +49,17 @@ fastboot boot <recovery.img>
 adb shell partition
 ```
 
-#### Android がまだ起動するか確認する
-タブレットを再起動し、Androidがまだ動作するかどうかを確認します。
-起動しない、ループする、またはアニメーションが表示されない場合は、MIUIリカバリまたはデータを消去するための他のリカバリーを使用します。
+### 既存のブート イメージのバックアップを作成します。
 
+```cmd
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
+```
 
-### [次の手順: Windowsをインストールする](/guide/Japanese/2-install-ja.md)
+#### Android がまだ起動するかどうかを確認する
+> 再起動して Android がまだ動作するかどうかを確認します。起動しない場合は、リカバリですべてのデータを消去して、もう一度試してください。
+
+```cmd
+adb reboot
+```
+
+### [次の手順: Get root](/guide/Japanese/2-rootguide-ja.md)

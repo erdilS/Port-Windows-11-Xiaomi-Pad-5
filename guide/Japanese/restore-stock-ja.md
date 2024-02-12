@@ -1,28 +1,36 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-# Running Windows on the Xiaomi Pad 5
+# Xiaomiパッド5でWindowsを実行する
 
-## Uninstallation
+## アンインストール
 
-### Why is this needed?
+### なぜこれが必要なのですか？
 
-If you want to uninstall windows this is used instead of deleting partitions manually to avoid human error + writing a whole dedicated guide to just uninstalling.
+あなたがwindowsをアンインストールしたい場合、これは人為的なエラーを避けるために手動でパーティションを削除する代わりに使用されます+ただアンイ
 
-If you want to relock your bootloader you'll need your partition table to be stock.
+ブートローダを再ロックしたい場合は、パーティションテーブルを在庫にする必要があります。
 
-### Prerequisites
+### 前提条件 
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
-- [gpt_both0.bin](../../../../releases/tag/1.0)
+  
+- [gpt_both0.bin](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/gpt_both0.bin)
 
-### Restore GPT
-> Replace ```<gpt_both0.bin>``` with the path to the gpt_both0.bin file.
+### GPTを復元する
+> 置換 ```<gpt_both0.bin>``` へのパスを持つ gpt_both0.bin ファイル。
 
 ```cmd
 fastboot flash partition:0 <gpt_both0.bin>
 ```
 
-### Erase userdata to avoid bootloop and restore FS size
+### Bootloopを回避し、FSサイズを復元するために ```userdata```を消去します
 ```cmd
 fastboot -w
 ```
+
+
+### Androidに再起動する
+```cmd
+fastboot reboot 
+```
+## 終わった！

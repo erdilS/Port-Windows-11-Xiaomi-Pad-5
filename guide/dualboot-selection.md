@@ -14,3 +14,4 @@
 - [Ukrainian](Ukrainian/dualboot-uk.md)
 - [Vietnamese](Vietnamese/dualboot-vi.md)
 - [Traditional Chinese](Traditional%20Chinese/dualboot-tw.md)
+- [Japanese](Japanese/dualboot-ja.md)

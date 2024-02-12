@@ -1,77 +1,77 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 
-# Running Windows on the Xiaomi Pad 5
+# Xiaomiパッド5でWindowsを実行する
 
-## Updating Drivers
+## ドライバの更新
 
-### Prerequisites
+### 前提条件
 
 
-- [UEFI image](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+- [UEFIイメージ](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
 
 - [Recovery](../../../../releases/tag/1.0)
 
-- [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+- [ドライバー](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-#### Start recovery through the PC with the command
+#### 次のコマンドを使用してPCから回復を開始します
 
 ```cmd
 fastboot boot <recovery.img>
 ```
 
 
-#### Execute script
-> If it asks you to run it once again, do so
+#### 実行 msc
+> もう一度実行するように求められた場合は、実行してください
 ```cmd
 adb shell msc
 ```
 
-### Assign letters to disks
+### ディスクへの文字の割り当て
 
-#### Start the Windows disk manager
+#### Windowsディスクマネージャを起動します
 
-> Once the Pad 5 is detected as a disk
+> パッド5がディスクとして検出されると
 
 ```cmd
 diskpart
 ```
 
 
-### Assign `X` to Windows volume
+### Windowsボリュームに`X`を割り当てる
 
-#### Select the Windows volume of the tablet
-> Use `list volume` to find it, it's the one named "WINNABU"
+#### タブレットのWindowsボリュームを選択します
+> 使用 `list volume` それを見つけるために、それは名前の一つです "WINNABU"
 
 ```diskpart
 select volume <number>
 ```
 
-#### Assign the letter X
+#### 手紙を割り当てる X
 ```diskpart
 assign letter=x
 ```
 
-#### Exit diskpart
+#### Diskpartを終了します
 ```diskpart
 exit
 ```
 
 
-### Install Drivers
+### ドライバのインストール
 
-> You can download Drivers [here](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+> ドライバをダウンロードすることができます[ここ](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> When it ask you "Enter Drive letter..." type X:
+> それがあなたに尋ねるとき "Enter Drive letter..." タイプ**`X:`**
 ```cmd
- Open folder with Drivers and run OfflineUpdater.cmd
+ドライバでフォルダを開き、実行します OfflineUpdater.cmd
 ```
 
 
-### Boot with Windows bootable UEFI image
+### Windowsブート可能なUEFIイメージで起動する
 
 ```
 fastboot flash boot <uefi.img>
 ```
 
-## Finished!
+## 終了しました！

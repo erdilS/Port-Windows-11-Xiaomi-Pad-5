@@ -1,39 +1,39 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-# Running Windows on the Xiaomi Pad 5
+# Xiaomiパッド5でWindowsを実行する
 
-## Project Status
+## プロジェクトの状況
 
-Stable. Almost everything works except for a few components.
+安定した。 いくつかのコンポーネントを除いて、ほとんどすべてが機能します。
 
-#### Features
+### 特徴
 
-- [X] Suspend / Sleep Mode
-- [X] Audio
-- [X] Battery status
-- [X] Bluetooth
-- [X] Brightness
-- [x] Charging
-- [X] Display
+- [X] サスペンド/スリープモード
+- [X] オーディオ
+- [X] 電池の状態
+- [X] ブルートゥース
+- [X] 明るさ
+- [x] 充電
+- [X] 表示
 - [X] GPU
-- [X] Touchscreen
+- [X] タッチ画面
 - [X] UFS
 - [X] USB
 - [X] Wi-Fi
-- [X] Xiaomi Pen support
-- [X] Microphone
-- [X] Miracast
-- [X] Location
-- [X] Flashlight
-- [X] Smart Case Mode
-- [X] Xiaomi Keyboard support
-- [ ] Xiaomi Pen charging support
-- [ ] Camera
+- [X] Xiaomiペンサポート
+- [X] マイク
+- [X] ミラキャスト
+- [X] 場所
+- [X] 懐中電灯
+- [X] スマートケースモード
+- [X] Xiaomiキーボードのサポート
+- [ ] Xiaomiペン充電サポート
+- [ ] カメラ
 
-#### Sensors
+### センサー
 
-- [X] Accelerometer
-- [X] Gyroscope
-- [X] Magnetometer
-- [X] Proximity
-- [X] Light sensor
+- [X] 加速度計
+- [X] ジャイロスコープ
+- [X] 磁力計
+- [X] 近さ
+- [X] 光センサー

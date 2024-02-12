@@ -13,7 +13,7 @@
 
 - Существующие разделы для Windows и загрузки (*если их нет, [используйте данную инструкцию](/guide/Russian/partition-ru.md)*)
   
-- [Образ рекавери](../../../../releases/tag/1.0)
+- [Образ рекавери](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
   
 - [ADB и Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
@@ -26,11 +26,11 @@ fastboot boot <recovery.img>
 ```
 
 ### Форматирование разделов
-> Если скрипт попросит запустить его ещё раз, то так и сделайте
+> Если он попросит запустить его ещё раз, то так и сделайте
 
 ```cmd
 adb shell format
 ```
 
 
-### [Следующий шаг: Установка Windows](/guide/Russian/install-ru.md#Выполните-скрипт-msc)
+### [Следующий шаг: Установка Windows](/guide/Russian/3-install-ru.md#Запустите-msc)

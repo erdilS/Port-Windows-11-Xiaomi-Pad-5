@@ -5,9 +5,9 @@
 
 ### Requisitos Previos
   
-- [Imagen de Recuperación](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```Imagen de Recuperación```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+- [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
 ## Notas:
 > [!WARNING]\
@@ -16,10 +16,6 @@
 > ¡Todos tus datos serán eliminados! Haz un backup si lo necesitas.
 > 
 > Estos comandos han sido probados.
-> 
-> Ignora las advertencias de `udevadm` .
-> 
-> No ejecutes el mismo comando dos veces.
 > 
 > No reinicies tu teléfono si crees que has cometido un error, busca ayuda en el [chat de Telegram](https://t.me/nabuwoa)
 >
@@ -48,8 +44,19 @@ fastboot boot <recovery.img>
 adb shell partition
 ```
 
-### Comprobar si Android inicia
-Solo reinicia y comprueba que Android sigue funcionando.
-Si no arranca o se reinicia constantemente solo limpia los datos con cualquier recovery.
+### Haga una copia de seguridad de su imagen de arranque existente
 
-## [Siguiente paso: Instalar Windows](/guide/Español/2-instalacion-es.md)
+```cmd
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
+```
+
+
+#### Comprueba si Android aún se inicia
+> Solo mira si Android todavía funciona
+Si no está iniciando o haciendo un bucle en la animación, use la recuperación de MIUI u otras recuperaciones para borrar datos.
+
+```cmd
+adb reboot
+```
+
+## [Siguiente paso: Get root ](/guide/Español/2-rootguide-es.md)

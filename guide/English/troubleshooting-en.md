@@ -22,7 +22,7 @@ This is caused by partitions with volume names the bootloader cannot handle, to 
 
 - Boot to recovery
 
-- Connect phone to PC
+- Connect tablet to PC
 
 - Open cmd on PC
 
@@ -54,8 +54,8 @@ This is caused by partitions with volume names the bootloader cannot handle, to 
 
 - Run fastboot
 
-- fastboot set_active other
+- ```fastboot set_active other```
 
-- fastboot flash boot <boot.img>
+- ```fastboot flash boot <boot.img>```
 
-- fastboot reboot
+- ```fastboot reboot```

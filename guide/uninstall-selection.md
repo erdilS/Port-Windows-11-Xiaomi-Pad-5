@@ -14,3 +14,5 @@
 - [Ukrainian](Ukrainian/uninstall-uk.md)
 - [Vietnamese](Vietnamese/restore-stock-vi.md)
 - [Traditional Chinese](Traditional%20Chinese/restore-stock-tw.md)
+- [Japanese](Japanese/restore-stock-ja.md)
+

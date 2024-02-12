@@ -15,7 +15,7 @@
 
 - Đã có Windows và phân vùng boot (*Lỡ xui không có thì [quay lại và coi như hướng dẫn này chưa từng tồn tại nha](/guide/Vietnamese/1-partition-vi.md)*)
 
-- [Recovery Image](../../../../releases/tag/1.0)
+- [Recovery Image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
@@ -34,4 +34,4 @@ adb shell format
 
 ### Cài đặt
 
-- Tiếp tục hướng dẫn [ở đây](/guide/Vietnamese/2-install-vi.md#Thực-thi-msc-script)
+- Tiếp tục hướng dẫn [ở đây](/guide/Vietnamese/2-install-vi.md#Thực-thi-msc)

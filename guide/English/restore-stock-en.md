@@ -12,8 +12,9 @@ If you want to relock your bootloader you'll need your partition table to be sto
 
 ### Prerequisites
 
-- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
-- [gpt_both0.bin](../../../../releases/tag/1.0)
+- [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
+  
+- [```gpt_both0.bin```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/gpt_both0.bin)
 
 ### Restore GPT
 > Replace ```<gpt_both0.bin>``` with the path to the gpt_both0.bin file.
@@ -22,7 +23,13 @@ If you want to relock your bootloader you'll need your partition table to be sto
 fastboot flash partition:0 <gpt_both0.bin>
 ```
 
-### Erase userdata to avoid bootloop and restore FS size
+### Erase ```userdata``` to avoid bootloop and restore FS size
 ```cmd
 fastboot -w
 ```
+
+### Reboot to Android 
+```cmd
+fastboot reboot 
+```
+## Done!
