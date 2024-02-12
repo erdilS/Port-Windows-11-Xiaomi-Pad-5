@@ -20,9 +20,7 @@
 > Все пользовательские файлы будут уалены! Создайте резервную копию, если это необходимо.
 > 
 > Эти команды были протестированы.
-> 
-> Игнорируйте ошибки `udevadm`.
-> 
+>
 > НЕ ПЕРЕЗАГРУЖАЙТЕ ПЛАНШЕТ! Если вы считаете, что совершили ошибку, обратитесь за помощью в [чат Telegram](https://t.me/nabuwoa).
 >
 >  Не запускайте все команды сразу, выполняйте их по очереди!
@@ -46,16 +44,17 @@ fastboot boot <recovery.img>
 adb shell partition
 ```
 
-### Make a backup of your existing boot image
+### Сделайте резервную копию вашего загрузочного образа
 
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
 ```
 
 
-#### Check if Android still starts
-> just see if Android still works
-If isn't boot or looping on animation, use MIUI recovery or other recoveries for wiping data.
+#### Проверьте, запускается ли Андроид
+> А
+> Просто проверьте работает ли он 
+Если он зацикливается на анимации и не загружается, используйте MIUI recovery или другие recovery для форматирования data
 
 ```cmd
 adb reboot
