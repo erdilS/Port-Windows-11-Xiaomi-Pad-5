@@ -17,12 +17,12 @@ Dự án này trong giai đoạn đầu, file gì cũng do cộng tác của cá
 
 - [Hướng dẫn cài đặt](1-partition-vi.md)
 
+- [Cài Dualboot](dualboot-vi.md)
+
 - [Gỡ cài đặt](restore-stock-vi.md)
 
 
 ## Các hướng dẫn khác
-
-- [Cài Dualboot](dualboot-vi.md)
 
 - [Trạng thái dự án](status.md)
 
