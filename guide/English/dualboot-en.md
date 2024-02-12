@@ -17,6 +17,9 @@
 > This guide assumes you are rooted, if you aren't, please follow the [root guide](2-rootguide-en.md) first.
 
 ### Setup - Android
+> [!NOTE]
+> If you are unable to move files to the Windows folder, it means you shut down Windows instead of restarting it. To fix this issue, boot back to Windows and use restart, then as it restarts boot to fastboot and use it to return to Android.
+
 - Download and install the [WOA Helper app](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk), then open it and grant it root access.
 - Download the [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/uefi.img) and place it inside the folder named `UEFI` in your internal storage, if this folder does not exist, create it.
 - Return to the WOA Helper app and press the `Back up Android boot` button. Select both the `Windows` and `Android` options.
