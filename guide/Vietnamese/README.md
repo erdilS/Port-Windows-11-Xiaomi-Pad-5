@@ -31,7 +31,10 @@ Dự án này trong giai đoạn đầu, file gì cũng do cộng tác của cá
 - [Cập nhật Driver](update-vi.md)
 
 - [Cài đặt lại](reinstall-vi.md)
+  
+- [Cập NHẬT UEFI](guide/UEFI-updating-selection.md)
 
+- [Ứng dụng và hướng dẫn hữu ích](guide/Additional-materials-selection.md)
 ## Người đóng góp
 
 [Xem thông tin tại README.MD tại trang đầu](/README.md)
