@@ -53,7 +53,7 @@ adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.
 ```
 
 
-#### 
+#### Android'in hâlâ çalışıp çalışmadığını kontrol edin 
 > Sadece Android'in hala çalışıp çalışmadığını görün
 Animasyonda önyükleme yapmıyorsa veya döngü yapmıyorsa, verileri silmek için MIUI kurtarma veya diğer kurtarmaları kullanın.
 ```cmd
