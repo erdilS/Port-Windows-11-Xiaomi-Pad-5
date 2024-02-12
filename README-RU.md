@@ -2,6 +2,9 @@
 
 
 # Запуск Windows на Xiaomi Pad 5
+
+[![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
+
 ## Язык
 **```Русский```** | [```English```](README.md) | [```Vietnamese```](guide/Vietnamese/README.md)
 ## ⚠️ Предупреждение
