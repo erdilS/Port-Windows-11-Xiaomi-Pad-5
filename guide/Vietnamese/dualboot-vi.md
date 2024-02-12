@@ -3,33 +3,35 @@
 
 # Running Windows on the Xiaomi Pad 5
 
-## Dualbooting Android and Windows seamlessly
+## Khởi động song song Android và Windows một cách liền mạch 
 
-### Prerequisites
-- Brain
-- A rooted tablet
-- Windows installed on the tablet
+### Điều kiện tiên quyết 
+- Não 
+- Máy tính bảng đã root 
+- Windows được cài đặt trên máy tính bảng 
 - [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/uefi.img)
 - [WOA Helper app](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
 - [StA Installer](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
 
-## Setting up the dualboot app
-> This guide assumes you are rooted, if you aren't, please follow the [root guide](2-rootguide-en.md) first.
+## Thiết lập ứng dụng khởi động kép 
+> Hướng dẫn này giả sử bạn đã root, nếu chưa, vui lòng làm theo hướng dẫn [hướng dẫn root](2-rootguide-vi.md) Đầu tiên.
 
-### Setup - Android
-- Download and install the [WOA Helper app](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk), then open it and grant it root access.
-- Download the [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/uefi.img) and place it inside the folder named `UEFI` in your internal storage, if this folder does not exist, create it.
-- Return to the WOA Helper app and press the `Back up Android boot` button. Select both the `Windows` and `Android` options.
-- Press the `Mount Windows` button, then download and move [StA_Installer_nabu.exe](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe) to the newly created `Windows` folder in your internal storage.
-- Return to the WOA Helper app and press `Quickboot to Windows`.
+### Cài đặt - Android
+> [!NOTE]
+> Nếu bạn không thể di chuyển tệp vào thư mục Windows, điều đó có nghĩa là bạn đã tắt Windows thay vì khởi động lại. Để khắc phục sự cố này, hãy khởi động lại Windows và sử dụng khởi động lại, sau đó khởi động lại thành fastboot và sử dụng nó để quay lại Android. 
+- Tải xuống và cài đặt [WOA Helper app](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk), sau đó mở nó và cấp cho nó quyền truy cập root.
+- Tải về [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/uefi.img) và đặt nó vào thư mục có tên `UEFI` trong bộ nhớ trong của bạn, nếu thư mục này không tồn tại, hãy tạo nó. 
+- Quay lại ứng dụng WOA Helper và nhấn nút `Back up Android boot` cái nút. Chọn cả hai `Windows` và `Android` tùy chọn.
+- Nhấn nút `Mount Windows` nút, sau đó tải xuống và di chuyển [StA_Installer_nabu.exe](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe) đến cái mới được tạo `Windows` thư mục trong bộ nhớ trong của bạn. 
+- Quay lại ứng dụng WOA Helper và nhấn  `Quickboot to Windows`.
 
-### Setup - Windows
-- Navigate to C:\StA_Installer_nabu.exe and run it. If it doesn't work, make sure that any antivirus software is off, as it will probably not let the app run.
+### Cài đặt - Windows
+- Điều hướng đến `C:\StA_Installer_nabu.exe` và chạy nó. Nếu nó không hoạt động, hãy đảm bảo rằng mọi phần mềm chống vi-rút đã tắt vì nó có thể sẽ không cho phép ứng dụng chạy. 
 
-##### Booting to android
-  - Run the new shortcut on your desktop (you can also pin it to your start menu / taskbar for ease of access)
+##### Khởi động vào Android
+  - Chạy lối tắt mới trên màn hình của bạn (bạn cũng có thể ghim nó vào menu bắt đầu/thanh tác vụ để dễ truy cập) 
 
-##### Booting to windows
-  - Press "Quickboot to Windows" inside the app, or use the newly created toggle in your quick settings panel
+##### Khởi động vào Windows
+  - Nhấn `Quickboot to Windows` bên trong ứng dụng hoặc sử dụng nút chuyển đổi mới được tạo trong bảng cài đặt nhanh của bạn 
   
-## Finished!
+## Hoàn thành!
