@@ -44,7 +44,7 @@ fastboot boot <recovery.img>
 adb shell partition
 ```
 
-### haga una copia de seguridad de su imagen de arranque existente
+### Haga una copia de seguridad de su imagen de arranque existente
 
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
@@ -52,7 +52,7 @@ adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.
 
 
 #### Comprueba si Android aún se inicia
-> solo mira si Android todavía funciona
+> Solo mira si Android todavía funciona
 Si no está iniciando o haciendo un bucle en la animación, use la recuperación de MIUI u otras recuperaciones para borrar datos.
 
 ```cmd
