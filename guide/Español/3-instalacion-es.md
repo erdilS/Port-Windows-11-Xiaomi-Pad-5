@@ -11,7 +11,7 @@
 
 ### Requisitos previos
   
-- [```UEFI```](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
+- [```UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/raw/main/images/xiaomi-nabu_20240212-V2.img)
 
 - [```ARM Windows esd```](https://worproject.com/esd) (Seleccione - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```seleccione su idioma```)
   
@@ -141,7 +141,7 @@ adb pull /tmp/boot.img
 adb reboot bootloader
 ```
 ### Download and flash UEFI image
->Descargar [Imagen UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
+>Descargar [Imagen UEFI](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/raw/main/images/xiaomi-nabu_20240212-V2.img)
 ### Flashea la imagen uefi 
 
 ```cmd
