@@ -4,7 +4,7 @@
 
 ### Prerequisites
 
-- [UEFI image](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
+- [UEFI image](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240212-V2.img)
   
 - [Recovery imajı](../../../../releases/tag/1.0)
   
