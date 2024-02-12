@@ -14,7 +14,7 @@
 - [StA Installer](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
 
 ## Configurar la aplicación de arranque dual 
-> Esta guía asume que usted está rooteado; si no lo está, siga las instrucciones [guía raíz](2-rootguide-en.md) primero.
+> Esta guía asume que usted está rooteado; si no lo está, siga las instrucciones [guía raíz](2-rootguide-es.md) primero.
 
 ### Configuración - Android
 > [!NOTE]
