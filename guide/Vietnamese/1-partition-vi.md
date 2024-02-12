@@ -48,16 +48,15 @@ adb shell partition
 ```
 
 
-### Make a backup of your existing boot image
+### Tạo một bản sao lưu image khởi động hiện có của bạn 
 
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
 ```
 
 
-#### Check if Android still starts
-> just see if Android still works
-If isn't boot or looping on animation, use MIUI recovery or other recoveries for wiping data.
+#### Kiểm tra xem Android có còn khởi động không 
+> Khởi động lại để kiểm tra xem Android có còn hoạt động không. Nếu nó không khởi động được, hãy xóa tất cả dữ liệu trong recovery và thử lại. 
 
 ```cmd
 adb reboot
