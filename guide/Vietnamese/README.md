@@ -15,6 +15,7 @@ Dự án này trong giai đoạn đầu, file gì cũng do cộng tác của cá
 
 **NẾU BẠN CẢM THẤY KHÔNG ỔN VỚI VIỆC MOD MÁY TÍNH BẢNG HOẶC PHÂN VÙNG CỦA MÁY HOẶC BẠN CHƯA CHẮC VỀ VIỆC MÁY BỊ BRICK, THOÁT KHỎI ĐÂY NGAY NHÉ!!! BẠN ĐÃ ĐƯỢC CẢNH BÁO, BẠN LÀM VÌ BẠN THÍCH VÀ NẾU CÓ HƯ HỎNG GÌ CŨNG LÀ LỖI CỦA BẠN!!! LẦN CUỐI CÙNG! BẠN ĐÃ ĐƯỢC CẢNH BÁO!!!**
 
+> [!WARNING]
 > **PLEASE DON'T USE OUTDATED VIDEO GUIDES ON YOUTUBE OR ANY OTHER PLATFORM! THESE VIDEOS ARE OUTDATED AND YOU CAN BRICK YOUR DEVICE USING THEM! IF YOU NEED A VIDEO GUIDE, USE THIS [NEW VIDEO GUIDE](https://www.youtube.com/watch?v=rGPbdFq7gKs) FROM [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
 
 ## Giờ bắt đầu thôi
