@@ -3,33 +3,35 @@
 
 # Running Windows on the Xiaomi Pad 5
 
-## Dualbooting Android and Windows seamlessly
+## Безпроблемне подвійне завантаження Android і Windows 
 
-### Prerequisites
-- Brain
-- A rooted tablet
-- Windows installed on the tablet
+### Передумови 
+- Мозок 
+- Коренева табличка 
+- На планшет встановлена Windows 
 - [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/uefi.img)
 - [WOA Helper app](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
 - [StA Installer](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
 
-## Setting up the dualboot app
-> This guide assumes you are rooted, if you aren't, please follow the [root guide](2-rootguide-en.md) first.
+## Налаштування програми подвійного завантаження  
+> У цьому посібнику передбачається, що ви рутовані, якщо ні, дотримуйтесь інструкцій  [кореневий напрямний](2-rootguide-uk.md) перший.
 
-### Setup - Android
-- Download and install the [WOA Helper app](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk), then open it and grant it root access.
-- Download the [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/uefi.img) and place it inside the folder named `UEFI` in your internal storage, if this folder does not exist, create it.
-- Return to the WOA Helper app and press the `Back up Android boot` button. Select both the `Windows` and `Android` options.
-- Press the `Mount Windows` button, then download and move [StA_Installer_nabu.exe](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe) to the newly created `Windows` folder in your internal storage.
-- Return to the WOA Helper app and press `Quickboot to Windows`.
+### Налаштування - Android
+> [!NOTE]
+> Якщо ви не можете перемістити файли до папки Windows, це означає, що ви вимкнули Windows, а не перезавантажили її. Щоб вирішити цю проблему, завантажте Windows і скористайтеся перезапуском, а потім, коли він перезавантажиться, завантажте швидке завантаження та скористайтеся ним, щоб повернутися до Android. 
+- Завантажте та встановіть [WOA Helper app](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk), потім відкрийте його та надайте йому доступ root.
+- Завантажити [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/uefi.img) and помістіть його в папку під назвою `UEFI` у вашій внутрішній пам'яті; якщо ця папка не існує, створіть її.
+- Поверніться до програми WOA Helper і натисніть кнопку `Backup Android boot`. Виберіть параметри `Windows` і `Android`.
+- Натисніть `Mount Windows` кнопку, потім завантажте та перемістіть [StA_Installer_nabu.exe](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe) у щойно створену папку `Windows` у вашій внутрішній пам’яті. 
+- Поверніться до програми WOA Helper і натисніть `Quickboot to Windows`.
 
 ### Setup - Windows
-- Navigate to C:\StA_Installer_nabu.exe and run it. If it doesn't work, make sure that any antivirus software is off, as it will probably not let the app run.
+- Перейдіть до `C:\StA_Installer_nabu.exe` та запустіть його. Якщо це не працює, переконайтеся, що будь-яке антивірусне програмне забезпечення вимкнено, оскільки воно, ймовірно, не дозволить запустити програму. 
 
-##### Booting to android
-  - Run the new shortcut on your desktop (you can also pin it to your start menu / taskbar for ease of access)
+##### Завантаження Android 
+  - Запустіть новий ярлик на робочому столі (ви також можете закріпити його в меню «Пуск»/панелі завдань для зручності доступу) 
 
-##### Booting to windows
-  - Press "Quickboot to Windows" inside the app, or use the newly created toggle in your quick settings panel
+##### Завантаження Windows
+  - Прес `Quickboot to Windows` у програмі або скористайтеся новоствореним перемикачем на панелі швидких налаштувань 
   
-## Finished!
+## Готово!
