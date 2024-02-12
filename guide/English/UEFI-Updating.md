@@ -12,7 +12,7 @@ Idk, but some people asking about it
 
 - Installed dualboot
   
-- [Latest UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
+- [Latest UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240212-V2.img)
 
 ## Replace old UEFI with the new one
 
