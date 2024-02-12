@@ -9,7 +9,7 @@
 
 ### 請先準備下面的步驟
   
-- [```UEFI boot 映像```](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
+- [```UEFI boot 映像```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/raw/main/images/xiaomi-nabu_20240212-V2.img)
 
 - [```驅動文件```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
@@ -119,7 +119,7 @@ adb reboot bootloader
 ```
 
 ### 下載並刷入與您顯示面板相對應的 UEFI Boot 鏡像
-> 下载[UEFI图像](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240115.img)
+> 下载[UEFI图像](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/raw/main/images/xiaomi-nabu_20240212-V2.img)
 
 ```cmd
 fastboot flash boot <图像路径>
