@@ -27,13 +27,13 @@
 - Volver a la WOA Helper app y presione `Quickboot to Windows`.
 
 ### Configuración - Windows
-- Navegar a C:\StA_Installer_nabu.exe y ejecutarlo. Si no funciona, asegúrese de que el software antivirus esté desactivado, ya que probablemente no permitirá que la aplicación se ejecute. 
+- Navegar a `C:\StA_Installer_nabu.exe` y ejecutarlo. Si no funciona, asegúrese de que el software antivirus esté desactivado, ya que probablemente no permitirá que la aplicación se ejecute. 
 
 ##### Arrancando a android
   - Ejecute el nuevo acceso directo en su escritorio (también puede fijarlo en su menú de inicio/barra de tareas para facilitar el acceso) 
 
 ##### Arrancando a windows
-  - Prensa "Quickboot to Windows" dentro de la aplicación, o use la palanca recién creada en su panel de configuración rápida 
+  - Prensa `Quickboot to Windows` dentro de la aplicación, o use la palanca recién creada en su panel de configuración rápida 
   
 ## Finalizado!
 
