@@ -36,7 +36,7 @@ This project is in development stage, all the files here have been contributed b
 
 - [Updating Drivers](guide/English/driver-updating-en.md)
 
-- [Reinstallation](guide/English/reinstalling-en.md)
+- [Reinstallation](guide/English/reinstall-en.md)
 
 - [Updating UEFI](guide/English/UEFI-updating-en.md)
 
