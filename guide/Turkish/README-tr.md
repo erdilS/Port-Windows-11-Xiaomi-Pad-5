@@ -1,50 +1,50 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 
-# Running Windows on the Xiaomi Pad 5
+# Xiaomi Pad 5'te Windows çalıştırma
 
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
 
-## Language 
+## Dil
 [```Русский```](/README-RU.md) | [```English```](/README.md) | [```Español```](/guide/Español/README-es.md) | [```Italian```](/guide/Italian/README-it.md) | [```Japanese```](/guide/Japanese/README-ja.md) | [```Traditional Chinese```](/guide/Traditional%20Chinese/README-tw.md) | **```Turkish```** | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | [```Vietnamese```](/guide/Vietnamese/README-vi.md)
 
 > [!NOTE]
 > İngilizce dışındaki diller her zaman güncel olmayabilir 
 
-## ⚠️ Warning
+## ⚠️ Uyarı
 
-We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline workers cowboys, dead pmics, dead ram, dead display ics, dead cpus, any xiaomi shenanigans, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
+Tuğlalı cihazlardan, eksik kurtarma bölümlerinden, ölü xiaomi fabrika işçilerinden sorumlu değiliz kovboylar, ölü pmic'ler, ölü ram, ölü ekran ic'leri, ölü cpu'lar, herhangi bir xiaomi maskaralıkları, ölü kediler veya köpekler, nükleer savaşlar veya alarm için android'e geri dönmeyi unuttuğunuz için kovuluyorsunuz.
 
-This project is in development stage, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get. This is a delicate process, do it under your own risk and follow all the steps carefully.
+Bu proje geliştirme aşamasındadır, buradaki tüm dosyalara diğer kullanıcılar tarafından katkıda bulunulmuştur, burada almayı başardığımız çalışma dosyalarını içeren bir rehber bulacaksınız. Bu hassas bir süreçtir, kendi sorumluluğunuzdadır yapın ve tüm adımları dikkatlice izleyin.
 
-**IF YOU AREN'T COMFORTABLE MODDING YOUR TABLET OR ITS PARTITION TABLE OR YOU ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU ARE ON YOUR OWN IF YOU BRICK YOUR DEVICE!!! AGAIN! YOU HAVE BEEN WARNED!!!**
+**TABLETINIZI VEYA BÖLÜM TABLOSUNU MODIFIYE ETMEKTE RAHAT DEĞILSENIZ VEYA CIHAZINIZI TUĞLALAMA PARANOYASIYSANIZ, ŞIMDI TIKLAYIN!! UYARILDINIZ, CIHAZINIZI TUĞLA HALINE GETIRIRSENIZ KENDI BAŞINIZASINIZ!! YİNE! UYARILDINIZ!!**
 > [!WARNING]
-> **PLEASE DON'T USE VIDEO GUIDES ON YOUTUBE OR ANY OTHER PLATFORM! THESE VIDEOS ARE OUTDATED AND YOU CAN BRICK YOUR DEVICE USING THEM! IF YOU ABSOLUTELY NEED A VIDEO GUIDE, USE THIS [VIDEO GUIDE](https://www.youtube.com/watch?v=rGPbdFq7gKs) BY [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
+> **LÜTFEN YOUTUBE'DA VEYA BAŞKA BIR PLATFORMDA VIDEO KILAVUZLARI KULLANMAYIN! BU VIDEOLAR MODASI GEÇMIŞ VE BUNLARI KULLANARAK CIHAZINIZI TUTABILIRSINIZ! KESINLIKLE BIR VIDEO KILAVUZUNA IHTIYACINIZ VARSA, [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA) TARAFINDAN BU [VİDEO KILAVUZU](https://www.youtube.com/watch?v=rGPbdFq7gKs) KULLANIN**
 
 
-## Get Started
-- [Installation](1-partition-tr.md)
+## Başlamak
+- [Kurulum](1-partition-tr.md)
   
-- [Dualboot Setup](dualboot-tr.md)
+- [Çift önyükleme Kurulumu](dualboot-tr.md)
   
-- [Uninstallation](uninstall-tr.md)
+- [Kaldırma](uninstall-tr.md)
 
-## Miscellaneous
-- [Project Status](status.md)
+## Çeşitli
+- [Proje Durumu](status.md)
   
-- [Troubleshooting](troubleshooting-tr.md)
+- [Sorun giderme](troubleshooting-tr.md)
   
-- [Updating Drivers](update-tr.md)
+- [Sürücüleri Güncelleme](update-tr.md)
   
-- [Reinstallation](reinstall-tr.md)
+- [Yeniden yükleme](reinstall-tr.md)
   
-- [Updating UEFI](UEFI-updating-tr.md)
+- [UEFI Güncelleniyor](UEFI-updating-tr.md)
   
-- [Useful apps and instructions](/guide/Additional-materials/Additional-materials-tr.md)
+- [Faydalı uygulamalar ve talimatlar](/guide/Additional-materials/Additional-materials-tr.md)
 
 
 
-## Contributors
+## Katkıda Bulunanlar
 
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
 [<img alt="map220v" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/14368485?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/map220v)
