@@ -6,7 +6,7 @@
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
 
 ## Language 
-[```Русский```](README-RU.md) | **```English```** | [```Vietnamese```](guide/Vietnamese/README.md)
+[```Русский```](README-RU.md) | **```English```** | [```Vietnamese```](guide/Vietnamese/README-vi.md)
 
 ## ⚠️ Warning
 
