@@ -101,7 +101,6 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:6 /ApplyDir:X:\
 
 > Quando ti chiede di " Inserire la lettera di unità..."tipo **`X`**
 
-> Non eseguirlo come amministratore, chiederà i diritti di amministratore quando necessario.
 ```cmd
 Apri la cartella con i driver ed esegui OfflineUpdater.cmd
 ```
@@ -128,13 +127,7 @@ mountvol y: /d
 > **Ora torna al prompt dei comandi di platform tools**
 
 ```cmd
-adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
-```
-
-### Salva il backup sul computer
-
-```cmd
-adb pull /tmp/boot.img
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```
 
 ### Riavvia il dispositivo nel bootloader
@@ -159,7 +152,7 @@ fastboot reboot
 > Usa il backup dell'immagine di avvio che hai salvato precedentemente sul tuo computer ed esegui il flashing da fastboot 
 
 ```cmd
-fastboot flash boot boot.img
+fastboot flash boot rooted_boot.img
 ```
 
 ## Finito!
