@@ -85,14 +85,11 @@ exit
 > [!NOTE]
 > **Ora esegui il prompt dei comandi come amministratore**
 
-> Sostituisci `<path/to/install.wim>` con il percorso del file install.wim,
+> Sostituire `<path/to/install.esd>` con il percorso effettivo di install.esd
 
-> `install.wim` si trova nella cartella "sources" dentro la ISO di Windows
-> Puoi ottenere questo file montandola o estraendola
-
-> Può anche essere chiamato **install.esd.** Modificare il percorso rispettivamente.
+> Se hai la tua immagine di Windows altrove (che potrebbe anche essere chiamato `install.wim`), sostituire `index:6` con `index:1`
 ```cmd
-dism /apply-image /ImageFile:<path/to/install.wim> /index:6 /ApplyDir:X:\
+dism /apply-image /ImageFile:<path/to/install.esd> /index:6 /ApplyDir:X:\
 ```
 
 ### Installazione drivers
@@ -149,6 +146,7 @@ fastboot reboot
 > Al primo avvio di Windows, non vedrà alcuna rete Wi-Fi, basta riavviarlo tenendo premuto il pulsante di accensione e dopo il riavvio quando si tenta di connettersi alla rete e si vede" gelato "fare clic su" riprova " 7 volte
 
 ### Per riavviare il dispositivo in Android
+Dopo aver configurato Windows, premi il pulsante di riavvio in Windows (NON SPENTO), quindi al riavvio, tieni premuto `volume giù` + `potenza` per riavviare di nuovo a fastboot
 > Usa il backup dell'immagine di avvio che hai salvato precedentemente sul tuo computer ed esegui il flashing da fastboot 
 
 ```cmd
