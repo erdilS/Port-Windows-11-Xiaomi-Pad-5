@@ -84,14 +84,11 @@ exit
 > [!NOTE]
 > **Bây giờ hãy chạy dấu nhắc lệnh với tư cách quản trị viên**
 
-> Thay `<path/to/install.wim>` bằng đường dẫn thực tế của `install.wim`.
+> Thay thế `<path/to/install.esd>` với con đường thực tế của install.esd
 
-> `install.wim` nằm ở mục source folder, bên trong file ISO
-> Bạn có thể kiếm nó bằng cách giải nén file ISO
-
-> Nó cũng có thể được đặt tên **install.esd.** Thay đổi đường dẫn tương ứng.
+> Nếu bạn có Hình Ảnh Windows của mình ở nơi khác (cũng có thể được gọi là `install.wim`), Thay thế `index:6` với `index:1`
 ```cmd
-dism /apply-image /ImageFile:<path/to/install.wim> /index:6 /ApplyDir:X:\
+dism /apply-image /ImageFile:<path/to/install.esd> /index:6 /ApplyDir:X:\
 ```
 
 ### Cài Drivers
@@ -145,7 +142,9 @@ fastboot reboot
 > Trong Lần Khởi Động Windows Đầu tiên, Nó sẽ không thấy bất kỳ mạng Wi-Fi nào, chỉ cần khởi động lại bằng cách giữ nút nguồn và sau khi khởi động lại khi bạn thử kết nối với mạng yuor và bạn thấy "kem" nhấp vào "thử lại" 7 lần
 
 ### Boot trở lại vào Android
-> Dùng backup boot của bạn và flash từ fastboot
+Sau Khi Windows đã được thiết lập, nhấn nút khởi động lại Trong Windows (KHÔNG TẮT MÁY), sau đó khi Nó khởi động lại, giữ `giảm âm lượng` + `quyền lực` để khởi động lại trở lại fastboot
+> Sử dụng hình ảnh khởi động sao lưu của bạn và flash nó trong fastboot để trở Về Android
+
 
 ```cmd
 fastboot flash boot rooted_boot.img
