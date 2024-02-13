@@ -5,7 +5,7 @@
 ## Disable secureboot
 > If you want to be able to update drivers without a PC
 
-[Guide to disabling secureboot](/guide/English/disable-secureboot-en.md)
+[Guide to disabling secureboot](/guide/Japanese/disable-secureboot-ja.md)
 
 ## Microsoft Office
 
