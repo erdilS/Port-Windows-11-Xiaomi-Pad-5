@@ -2,6 +2,11 @@
 
 # 小米pad5上Windows的有用应用程序和说明
 
+## 停用安全啟動
+> 如果您希望能夠在沒有 PC 的情況下更新驅動程式
+
+[停用 secureboot 的指南](/guide/Traditional%20Chinese/disable-secureboot-tw.md)
+
 ## 安装Microsoft Office
 
 - 下载这个 [档案](https://mega.nz/file/Q7p1XK6L#J-KPp_-MNJ8iXGqEwwZ3_sfv2tMiq_AJjUiiaX6TBrI) 到平板电脑
