@@ -84,12 +84,10 @@ exit
 > [!NOTE]
 > **Ahora ejecute el símbolo del sistema como administrador**
 
-> Reemplaza `<path/to/install.wim>` por la ruta actual de install.wim
+>  Reemplazar `<path/to/install.esd>` con el camino real de install.esd
 
-> `install.wim` está en la carpeta sources de tu ISO
-> Puede obtenerlo montándolo o extrayéndolo
+>  Si obtuvo su imagen de Windows en otro lugar (que también podría llamarse `install.wim`), reemplazar `index:6` con `index:1`
 
-> También puede llamarse **install.esd.** Cambie la ruta respectivamente.
 ```cmd
 dism /apply-image /ImageFile:<path/to/install.wim> /index:6 /ApplyDir:X:\
 ```
@@ -149,6 +147,7 @@ fastboot reboot
 > En el primer arranque de Windows, no verá ninguna red Wi-Fi, simplemente reinícielo manteniendo presionado el botón de encendido y, después de reiniciar, cuando intente conectarse a su red y vea "helado", haga clic en" intentarlo de nuevo " 7 veces
 
 # Arrancar de nuevo en Android
+Después de configurar Windows, presione el botón Reiniciar en Windows (NO APAGAR), luego, cuando se reinicia, mantener `bajar volumen` + `potencia` para reiniciar de nuevo a fastboot
 > Usa el backup del boot.img en fastboot
 
 ```cmd
