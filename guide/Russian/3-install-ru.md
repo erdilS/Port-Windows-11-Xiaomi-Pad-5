@@ -95,10 +95,6 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:6 /ApplyDir:X:\
 
 > Когда он попросит вас "Enter Drive letter...", введите **`X`**
 
-
-> Не запускайте его от имени администратора, при необходимости он запросит права администратора.
-
-
 ```cmd
  Откройте папку с драйверами и заустите OfflineUpdater.cmd
 ```
@@ -116,19 +112,14 @@ mountvol y: /d
 
 ## Запуск Windows
 
-### Создайте резервную копию текущего ядра Android
+### Создайте резервную копию текущего boot-образа Android
 
 > [!NOTE]
 > **Теперь вернитесь в командную строку platform tools**
 ```cmd
-adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```
 
-### Скопируйте РК на компьютер
-
-```cmd
-adb pull /tmp/boot.img
-```
 ### Перезапустите планшет в fastboot
 
 ```cmd
@@ -148,10 +139,10 @@ fastboot reboot
 > При первой загрузке Windows он не увидит никаких сетей Wi-Fi, просто перезагрузите его, удерживая нажатой кнопку питания, а после перезагрузки, когда вы попытаетесь подключиться к своей сети и увидите "мороженое", нажмите "повторить попытку" 7 раз
 
 ### Загрузка в Android
-> Прошейте скопированное ранее ядро в fastboot
+> Прошейте скопированный boot-образ в fastboot
 
 ```cmd
-fastboot flash boot boot.img
+fastboot flash boot rooted_boot.img
 ```
 
 ## Готово!
