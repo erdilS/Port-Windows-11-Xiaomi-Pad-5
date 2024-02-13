@@ -30,7 +30,7 @@ This project is in development stage, all the files here have been contributed b
 
 ## Miscellaneous
 
-- [Project Status](guide/English/status-en.md)
+- [Project Status](guide/English/status.md)
 
 - [Troubleshooting](guide/English/troubleshooting-en.md)
 
