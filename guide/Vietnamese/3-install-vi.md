@@ -91,14 +91,14 @@ exit
 
 > Nó cũng có thể được đặt tên **install.esd.** Thay đổi đường dẫn tương ứng.
 ```cmd
-dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
+dism /apply-image /ImageFile:<path/to/install.wim> /index:6 /ApplyDir:X:\
 ```
 
 ### Cài Drivers
 
 > Bạn có Thể tải Xuống Trình Điều khiển [tại đây](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> Khi nó yêu cầu bạn "Inter Drive letter..." loại **`X:`**
+> Khi nó yêu cầu bạn "Inter Drive letter..." loại **`X`**
 
 
 > Không chạy nó với tư cách quản trị viên, nó sẽ yêu cầu quyền quản trị viên khi cần thiết.
@@ -123,15 +123,8 @@ mountvol y: /d
 > **Bây giờ quay lại dấu nhắc lệnh công cụ nền tảng**
 
 ```cmd
-adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```
-
-### Đẩy file backup lên máy tính
-
-```cmd
-adb pull /tmp/boot.img
-```
-
 
 ### Reboot vào bootloader 
 
@@ -155,7 +148,7 @@ fastboot reboot
 > Dùng backup boot của bạn và flash từ fastboot
 
 ```cmd
-fastboot flash boot boot.img
+fastboot flash boot rooted_boot.img
 ```
 
 ## Xong rồi!
