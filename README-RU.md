@@ -6,7 +6,7 @@
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
 
 ## Язык
-**```Русский```** | [```English```](README.md) | [```Vietnamese```](guide/Vietnamese/README-vi.md)
+**```Русский```** | [```English```](/README.md) | [```Español```](/guide/Español/README-es.md) | [```Italian```](/guide/Italian/README-it.md) | [```Japanese```](/guide/Japanese/README-ja.md) | [```Traditional Chinese```](/guide/Traditional%20Chinese/README-tw.md) | [```Turkish```](/guide/Turkish/README-tr.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | [```Vietnamese```](/guide/Vietnamese/README-vi.md)
 
 ## ⚠️ Предупреждение
 Мы не несем ответственности за сломанные устройства, отсутствующие разделы, плохих работников на линии производства Xiaomi, мёртвые карты памяти, мёртвые чипы управления питанием, мёртвую ОЗУ, мёртвые контроллеры экрана, мёртвые процессоры, мёртвых кошек и собак и ядерные войны.
@@ -23,25 +23,25 @@
 
 ## Начнём
 
-- [Установка](guide/install-selection.md)
+- [Установка](guide/Russian/install-ru.md)
 
-- [Настройка двойной загрузки](guide/dualboot-selection.md)
+- [Настройка двойной загрузки](guide/Russian/dualboot-ru.md)
 
-- [Удаление](guide/uninstall-selection.md)
+- [Удаление](guide/Russian/uninstall-ru.md)
 
 ## Разное
 
-- [Статус Проекта](guide/status-selection.md)
+- [Статус Проекта](guide/Russian/status.md)
 
-- [Исправление ошибок](guide/troubleshooting-selection.md)
+- [Исправление ошибок](guide/Russian/troubleshooting-ru.md)
 
-- [Обновление Драйверов](guide/driver-updating-selection.md)
+- [Обновление Драйверов](guide/Russian/update-ru.md)
 
-- [Переустановка](guide/reinstalling-selection.md)
+- [Переустановка](guide/Russian/reinstall-ru.md)
 
-- [Обновление UEFI](guide/UEFI-updating-selection.md)
+- [Обновление UEFI](guide/UEFI-updating-ru.md)
 
-- [Полезные приложения и инструкции ](guide/Additional-materials-selection.md)
+- [Полезные приложения и инструкции ](guide/Additional-materials/Additional-materials-ru.md)
 
 ## Разработчики
 
