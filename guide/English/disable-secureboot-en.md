@@ -78,7 +78,7 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 #### Removing SiPolicy
 > Assuming you are disabling secureboot on an existing install, you need to delete this file or the system will not boot
 ```cmd
-adb shell rm Y:\EFI\Microsoft\Boot\SiPolicy.p7b
+bcdedit /delete Y:\EFI\Microsoft\Boot\SiPolicy.p7b
 ```
 
 #### Remove the drive letter for ESPNABU
