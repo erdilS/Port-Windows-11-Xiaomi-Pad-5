@@ -2,13 +2,14 @@
 
 
 # Запуск Windows на Xiaomi Pad 5
-> [!NOTE]
-> Другие языки, кроме английского, могут быть не всегда актуальными. 
 
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
 
 ## Язык
 **```Русский```** | [```English```](/README.md) | [```Español```](/guide/Español/README-es.md) | [```Italian```](/guide/Italian/README-it.md) | [```Japanese```](/guide/Japanese/README-ja.md) | [```Traditional Chinese```](/guide/Traditional%20Chinese/README-tw.md) | [```Turkish```](/guide/Turkish/README-tr.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | [```Vietnamese```](/guide/Vietnamese/README-vi.md)
+
+> [!NOTE]
+> Другие языки, кроме английского, могут быть не всегда актуальными. 
 
 ## ⚠️ Предупреждение
 Мы не несем ответственности за сломанные устройства, отсутствующие разделы, плохих работников на линии производства Xiaomi, мёртвые карты памяти, мёртвые чипы управления питанием, мёртвую ОЗУ, мёртвые контроллеры экрана, мёртвые процессоры, мёртвых кошек и собак и ядерные войны.
