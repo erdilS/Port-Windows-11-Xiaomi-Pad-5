@@ -3,6 +3,11 @@
 
 # Các ứng dụng và hướng Dẫn hữu ích Cho Windows Trên Xiaomi pad 5
 
+## Vô hiệu hóa Secureboot 
+> Nếu bạn muốn có thể cập nhật trình điều khiển mà không cần PC 
+
+[Hướng dẫn vô hiệu hóa safeboot](/guide/Vietnamese/disable-secureboot-vi.md)
+
 ## Cài Đặt Microsoft Office
 
 - Tải về này [tập tin](https://mega.nz/file/Q7p1XK6L#J-KPp_-MNJ8iXGqEwwZ3_sfv2tMiq_AJjUiiaX6TBrI) đến máy tính bảng
