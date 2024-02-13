@@ -2,6 +2,11 @@
 
 # App e istruzioni utili per Windows su Xiaomi pad 5
 
+## Disabilita avvio protetto 
+> Se vuoi essere in grado di aggiornare i driver senza un PC 
+
+[Guida per disabilitare secureboot](/guide/Italian/disable-secureboot-it.md)
+
 ## Installare Microsoft Office
 
 - Scarica questo [file](https://mega.nz/file/Q7p1XK6L#J-KPp_-MNJ8iXGqEwwZ3_sfv2tMiq_AJjUiiaX6TBrI) al tablet
