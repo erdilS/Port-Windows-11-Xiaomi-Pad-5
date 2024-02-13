@@ -2,6 +2,8 @@
 
 
 # Запуск Windows на Xiaomi Pad 5
+> [!NOTE]
+> Другие языки, кроме английского, могут быть не всегда актуальными. 
 
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
 
