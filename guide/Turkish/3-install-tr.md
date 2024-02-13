@@ -82,13 +82,10 @@ exit
 > [!NOTE]
 > **Şimdi komut istemini yönetici olarak çalıştırın**
 
-> Komuttaki `<sources/install.wim>` kısmını install.wim dosyanızın konumuyla değişin.
 
-> `install.wim` dosyası ISO'nun içindeki sources klasöründedir.
-> Bu dosyayı ISO'yu bağlayarak ya da ayrıştırarak elde edebilirsiniz.
+> Yerini almak `<path/to/install.esd>` gerçek yolu ile install.esd
 
-> Sırasıyla Yolu değiştir **install.esd** olarak da adlandırılabilir.
-
+> Windows resminizi başka bir yerde aldıysanız (bu da çağrılabilir `install.wim`), yerini almak `index:6` ile `index:1`
 ```cmd
 dism /apply-image /ImageFile:<sources/install.wim> /index:6 /ApplyDir:X:\
 ```
@@ -151,6 +148,7 @@ fastboot reboot
 > İlk Windows açılışında herhangi bir Wi-Fi ağı görmeyecek, sadece güç düğmesini basılı tutarak yeniden başlatın ve yeniden başlattıktan sonra **ağınıza** bağlanmayı denediğinizde ve "dondurma" gördüğünüzde 7 kez "tekrar dene" **ye** tıklayın. 
 
 # Android'e geri dönüş yapmak
+Windows kurulduktan sonra, Windows'ta yeniden başlat düğmesine basın (KAPATMA değil), ardından yeniden başlatılırken fastboot'a geri dönmek için `sesi kısma` + `güç' tuşlarını basılı tutun
 > Yedeklediğiniz boot yedeğini Fastboot aracılığıyla geri yükleyin.
 
 ```cmd
