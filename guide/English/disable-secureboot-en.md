@@ -80,8 +80,11 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 
 SiPolicy.p7b in esp:/EFI/Microsoft/Boot/
 
-#### Removing disk letters
-> So that phantom drives don't stay there after disconnecting the tablet. If it does not work, you can skip this step. These phantoms drives will disappear after rebooting your PC
+#### Remove the drive letter for ESPNABU
+> If this does not work, ignore it and skip to the next command. This phantom drive will disappear the next time you reboot your PC.
+```cmd
+mountvol y: /d
+```
 
 #### Reboot to fastboot
 ```cmd
@@ -93,6 +96,9 @@ adb reboot bootloader
 ```cmd
 fastboot flash uefi <path\to\uefi-noSB-v2.img>
 ```
+
+> [!Important]
+> Make sure to also replace your old UEFI in the UEFI folder in your internal storage, so you don't accidentally flash it the next time you try to switch to Windows from Android
 
 #### Reboot to Windows
 ```cmd
