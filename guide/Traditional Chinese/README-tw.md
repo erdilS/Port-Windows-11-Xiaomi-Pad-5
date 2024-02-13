@@ -33,7 +33,7 @@ This project is in development stage, all the files here have been contributed b
   
 - [Updating Drivers](update-tw.md)
   
-- [Reinstallation](reinstalling-tw.md)
+- [Reinstallation](reinstall-tw.md)
   
 - [Updating UEFI](UEFI-updating-tw.md)
   
