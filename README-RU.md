@@ -6,7 +6,8 @@
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
 
 ## Язык
-**```Русский```** | [```English```](README.md) | [```Vietnamese```](guide/Vietnamese/README.md)
+**```Русский```** | [```English```](README.md) | [```Vietnamese```](guide/Vietnamese/README-vi.md)
+
 ## ⚠️ Предупреждение
 Мы не несем ответственности за сломанные устройства, отсутствующие разделы, плохих работников на линии производства Xiaomi, мёртвые карты памяти, мёртвые чипы управления питанием, мёртвую ОЗУ, мёртвые контроллеры экрана, мёртвые процессоры, мёртвых кошек и собак и ядерные войны.
 
