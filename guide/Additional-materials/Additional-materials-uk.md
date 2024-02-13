@@ -2,6 +2,11 @@
 
 # Корисні програми та інструкції для Windows на Xiaomi pad 5
 
+## Вимкнути безпечне завантаження 
+> Якщо ви хочете мати можливість оновлювати драйвери без ПК 
+
+[Інструкція з вимкнення безпечного завантаження](/guide/Ukrainian/disable-secureboot-uk.md)
+
 ## Встановіть Microsoft Office
 
 - Завантажте цей [файл](https://mega.nz/file/Q7p1XK6L#J-KPp_-MNJ8iXGqEwwZ3_sfv2tMiq_AJjUiiaX6TBrI) до планшета
