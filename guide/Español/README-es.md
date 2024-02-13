@@ -21,26 +21,26 @@ This project is in development stage, all the files here have been contributed b
 
 ## Get Started
 
-- [Installation](guide/Español/1-particiones-es.md)
+- [Installation](1-particiones-es.md)
 
-- [Dualboot Setup](guide/Español/dualboot-es.md)
+- [Dualboot Setup](dualboot-es.md)
 
-- [Uninstallation](guide/Español/Desinstalar-es.md)
+- [Uninstallation](Desinstalar-es.md)
 
 
 ## Miscellaneous
 
-- [Project Status](guide/Español/status.md)
+- [Project Status](status.md)
 
-- [Troubleshooting](guide/Español/troubleshooting-es.md)
+- [Troubleshooting](troubleshooting-es.md)
 
-- [Updating Drivers](guide/Español/Actualizar-es.md)
+- [Updating Drivers](Actualizar-es.md)
 
-- [Reinstallation](guide/Español/reinstalling-es.md)
+- [Reinstallation](reinstalling-es.md)
 
-- [Updating UEFI](guide/Español/UEFI-Updating-es.md)
+- [Updating UEFI](UEFI-Updating-es.md)
 
-- [Useful apps and instructions](guide/Español/Additional-materials-selection.md)
+- ~~[Useful apps and instructions](Additional-materials-selection.md)~~
 
 
 
