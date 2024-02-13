@@ -96,8 +96,6 @@ dism /apply-image /ImageFile:<path/to/install.esd> /index:6 /ApplyDir:X:\
 
 > When it ask you to "Enter Drive letter..." type **`X`**
 
-> Do not run it as an administrator, it will ask for administrator rights when needed.
-
 ```cmd
  Open the folder with Drivers and run OfflineUpdater.cmd
 ```
