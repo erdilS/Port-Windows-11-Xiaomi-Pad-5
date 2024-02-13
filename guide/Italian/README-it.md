@@ -22,29 +22,29 @@ Questo progetto è in fase di sviluppo, tutti i file qui sono stati forniti da a
 > **SI PREGA DI NON UTILIZZARE LE VIDEO GUIDE SU YOUTUBE O SU QUALSIASI ALTRA PIATTAFORMA! QUESTI VIDEO SONO OBSOLETI E PUOI BRICKARE IL TUO DISPOSITIVO USANDOLI! SE HAI ASSOLUTAMENTE BISOGNO DI UNA GUIDA VIDEO, USA QUESTA [GUIDA VIDEO](https://www.youtube.com/watch?v=rGPbdFq7gKs) DI [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
 
 
-## Get Started
-- [Installation](1-partition-it.md)
+## Inizia
+- [Installazione](1-partition-it.md)
   
-- [Dualboot Setup](dualboot-it.md)
+- [Configurazione dual boot](dualboot-it.md)
   
-- [Uninstallation](uninstall-it.md)
+- [Disinstallazione](uninstall-it.md)
 
-## Miscellaneous
-- [Project Status](status.md)
+## Varie
+- [Stato del progetto](status.md)
   
-- [Troubleshooting](troubleshooting-it.md)
+- [Risoluzione dei problemi](troubleshooting-it.md)
   
-- [Updating Drivers](update-it.md)
+- [Aggiornamento dei driver](update-it.md)
   
-- [Reinstallation](reinstall-it.md)
+- [Reinstallazione](reinstall-it.md)
   
-- [Updating UEFI](UEFI-updating-it.md)
+- [Aggiornamento UEFI](UEFI-updating-it.md)
   
-- [Useful apps and instructions](/guide/Additional-materials/Additional-materials-it.md)
+- [App e istruzioni utili](/guide/Additional-materials/Additional-materials-it.md)
 
 
 
-## Contributors
+## Collaboratore
 
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
 [<img alt="map220v" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/14368485?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/map220v)
