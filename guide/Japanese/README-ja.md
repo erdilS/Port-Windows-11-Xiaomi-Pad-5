@@ -21,15 +21,22 @@ This project is in development stage, all the files here have been contributed b
 
 ## Get Started
 - [Installation](1-partition-ja.md)
+  
 - [Dualboot Setup](dualboot-ja.md)
+  
 - [Uninstallation](uninstall-ja.md)
 
 ## Miscellaneous
 - [Project Status](status.md)
+  
 - [Troubleshooting](troubleshooting-ja.md)
+  
 - [Updating Drivers](update-ja.md)
+  
 - [Reinstallation](reinstalling-ja.md)
+  
 - [Updating UEFI](UEFI-updating-ja.md)
+  
 - [Useful apps and instructions](/guide/Additional-materials/Additional-materials-ja.md)
 
 
