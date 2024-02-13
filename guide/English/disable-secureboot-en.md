@@ -53,17 +53,6 @@ adb shell msc
 diskpart
 ```
 
-#### Select the Windows volume of the tablet
-> Use `list volume` to find it, it's the one named "WINNABU"
-```diskpart
-select volume <number>
-```
-
-#### Assign the letter X
-```diskpart
-assign letter x
-```
-
 #### Select the esp volume of the tablet
 > Use `list volume` to find it, it's the one named "ESPNABU"
 ```diskpart
@@ -83,7 +72,7 @@ exit
 #### Modify the bootloader files
 > To enable test signing
 ```cmd
-bcdedit XXXXXXXXXXXXX
+bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 ```
 
 #### Removing SiPolicy
