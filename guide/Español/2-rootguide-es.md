@@ -10,7 +10,7 @@
 ### Requisitos previos
 - ```Cerebro```
   
-- [```copia de seguridad de arranque de Android```](/guide/English/1-partition-en.md#Make-a-backup-of-your-existing-boot-image) (que hizo una copia de seguridad en la primera página de la guía)
+- [```Copia de seguridad de arranque de Android```](/guide/English/1-partition-en.md#Make-a-backup-of-your-existing-boot-image) (que hizo una copia de seguridad en la primera página de la guía)
 
 
 ## Patch boot 
