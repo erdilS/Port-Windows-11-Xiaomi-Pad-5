@@ -34,7 +34,7 @@ This project is in development stage, all the files here have been contributed b
 
 - [Troubleshooting](guide/English/troubleshooting-en.md)
 
-- [Updating Drivers](guide/English/driver-updating-en.md)
+- [Updating Drivers](guide/English/update-en.md)
 
 - [Reinstallation](guide/English/reinstall-en.md)
 
