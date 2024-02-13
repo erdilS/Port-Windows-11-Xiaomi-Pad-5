@@ -12,7 +12,7 @@
 
 ### Điều kiện tiên quyết
   
-- [```UEFI image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/raw/main/images/xiaomi-nabu_20240212-V2.img)
+- [```UEFI image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v2.img)
 
 - [```ARM Windows esd```](https://worproject.com/esd) (chọn - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```chọn ngôn ngữ của bạn```)
   
@@ -133,7 +133,7 @@ adb reboot bootloader
 ```
 
 ### Tải và flash UEFI image
-> Tải XUỐNG [HÌNH ẢNH UEFI](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/raw/main/images/xiaomi-nabu_20240212-V2.img)
+> Tải XUỐNG [HÌNH ẢNH UEFI](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v2.img)
 ```cmd
 fastboot flash boot <đường dẫn đến hình ảnh>
 ```
