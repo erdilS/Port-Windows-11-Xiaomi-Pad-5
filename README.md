@@ -6,7 +6,7 @@
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
 
 ## Language 
-[```Русский```](README-RU.md) | **```English```** | [```Vietnamese```](guide/Vietnamese/README-vi.md)
+[```Русский```](README-RU.md) | **```English```** | [```Español```](/guide/Español/README-es.md) | [```Italian```](/guide/Italian/README-it.md) | [```Japanese```](/guide/Japanese/README-jp.md) | [```Traditional Chinese```](/guide/Traditional%20Chinese/README-tw.md) | [```Turkish```](/guide/Turkish/README-tr.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | [```Vietnamese```](/guide/Vietnamese/README-vi.md)
 
 ## ⚠️ Warning
 
@@ -21,26 +21,26 @@ This project is in development stage, all the files here have been contributed b
 
 ## Get Started
 
-- [Installation](guide/install-selection.md)
+- [Installation](guide/English/1-partition-en.md)
 
-- [Dualboot Setup](guide/dualboot-selection.md)
+- [Dualboot Setup](guide/English/dualboot-en.md)
 
-- [Uninstallation](guide/uninstall-selection.md)
+- [Uninstallation](guide/English/uninstall-en.md)
 
 
 ## Miscellaneous
 
-- [Project Status](guide/status-selection.md)
+- [Project Status](guide/English/status-en.md)
 
-- [Troubleshooting](guide/troubleshooting-selection.md)
+- [Troubleshooting](guide/English/troubleshooting-en.md)
 
-- [Updating Drivers](guide/driver-updating-selection.md)
+- [Updating Drivers](guide/English/driver-updating-en.md)
 
-- [Reinstallation](guide/reinstalling-selection.md)
+- [Reinstallation](guide/English/reinstalling-en.md)
 
-- [Updating UEFI](guide/UEFI-updating-selection.md)
+- [Updating UEFI](guide/English/UEFI-updating-en.md)
 
-- [Useful apps and instructions](guide/Additional-materials-selection.md)
+- [Useful apps and instructions](guide/Additional-materials/Additional-materials-en.md)
 
 
 
