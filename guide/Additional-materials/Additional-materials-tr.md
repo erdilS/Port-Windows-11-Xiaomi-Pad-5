@@ -2,6 +2,11 @@
 
 # Xiaomi pad 5'te Windows için faydalı uygulamalar ve talimatlar
 
+## Secureboot'u devre dışı bırak 
+> Sürücüleri bilgisayar olmadan güncelleyebilmek istiyorsanız 
+
+[Secureboot'u devre dışı bırakma kılavuzu](/guide/Turkish/disable-secureboot-tr.md)
+
 ## Microsoft Office
 
 - Bunu indir [dosya](https://mega.nz/file/Q7p1XK6L#J-KPp_-MNJ8iXGqEwwZ3_sfv2tMiq_AJjUiiaX6TBrI) tablete
