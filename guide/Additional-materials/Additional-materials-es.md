@@ -3,6 +3,11 @@
 
 # Aplicaciones útiles e instrucciones para Windows en Xiaomi pad 5
 
+## Disable secureboot
+> Si desea poder actualizar los controladores sin una PC
+ 
+[Guía para deshabilitar el arranque seguro](/guide/Spanish/disable-secureboot-es.md)
+
 ## Oficina de Microsoft
 
 - Descargue este [archivo](https://mega.nz/file/Q7p1XK6L#J-KPp_-MNJ8iXGqEwwZ3_sfv2tMiq_AJjUiiaX6TBrI) a la tableta
