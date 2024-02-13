@@ -33,7 +33,7 @@ This project is in development stage, all the files here have been contributed b
   
 - [Updating Drivers](update-ja.md)
   
-- [Reinstallation](reinstalling-ja.md)
+- [Reinstallation](reinstall-ja.md)
   
 - [Updating UEFI](UEFI-updating-ja.md)
   
