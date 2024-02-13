@@ -49,7 +49,7 @@ select volume <number>
 
 #### Assign the letter X
 ```diskpart
-assign letter=x
+assign letter x
 ```
 
 #### Exit diskpart
@@ -67,11 +67,25 @@ exit
  Open the folder with Drivers and run OfflineUpdater.cmd
 ```
 
+### Reboot to fastboot to flash UEFI
+> Or if your UEFI has already been flashed, simply reboot with ```adb reboot```
+```cmd
+adb reboot bootloader
+```
 
 ### Boot with Windows bootable UEFI image
-
-```
+> Replace <uefi.img> with the actual path of the UEFI image
+```cmd
 fastboot flash boot <uefi.img>
 ```
 
 ## Finished!
+
+
+
+
+
+
+
+
+
