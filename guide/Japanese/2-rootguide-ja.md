@@ -10,7 +10,7 @@
 ### 前提条件
 - ```脳```
   
-- [```Android ブートのバックアップ```](/guide/Japanese/1-partition-ja.md#Make-a-backup-of-your-existing-boot-image) (最初のガイドページでバックアップしたもの)
+- [```Android ブートのバックアップ```](/guide/Japanese/1-partition-ja.md#既存のブート-イメージのバックアップを作成します。) (最初のガイドページでバックアップしたもの)
 
 
 ## パッチブート
