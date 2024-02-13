@@ -1,50 +1,51 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 
-# Running Windows on the Xiaomi Pad 5
+# Xiaomiパッド5でWindowsを実行する
 
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
 
-## Language 
+## 言語
 [```Русский```](/README-RU.md) | [```English```](/README.md) | [```Español```](/guide/Español/README-es.md) | [```Italian```](/guide/Italian/README-it.md) | **```Japanese```** | [```Traditional Chinese```](/guide/Traditional%20Chinese/README-tw.md) | [```Turkish```](/guide/Turkish/README-tr.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | [```Vietnamese```](/guide/Vietnamese/README-vi.md)
 
 > [!NOTE]
 > 英語以外の言語は常に最新であるとは限りません
 
-## ⚠️ Warning
+## ⚠️ 警告
 
-We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline workers cowboys, dead pmics, dead ram, dead display ics, dead cpus, any xiaomi shenanigans, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
 
-This project is in development stage, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get. This is a delicate process, do it under your own risk and follow all the steps carefully.
+レンガ造りのデバイス、リカバリパーティションの欠落、xiaomiの工場労働者のカウボーイの死、pmicの故障、ramの故障、ディスプレイICの故障、CPUの破損、xiaomiの悪ふざけ、猫や犬の死、核戦争、またはアラームのためにAndroidを起動するのを忘れたために解雇された場合については責任を負いません。
 
-**IF YOU AREN'T COMFORTABLE MODDING YOUR TABLET OR ITS PARTITION TABLE OR YOU ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU ARE ON YOUR OWN IF YOU BRICK YOUR DEVICE!!! AGAIN! YOU HAVE BEEN WARNED!!!**
+このプロジェクトは開発段階にあり、ここにあるすべてのファイルは他のユーザーによって提供されており、ここでは、なんとか入手した作業ファイルのガイドを見つけることができます。これはデリケートなプロセスであり、自己責任で行い、すべての手順を注意深く実行してください。
+
+**タブレットやそのパーティションテーブルを改造することに慣れていない場合、またはデバイスをブリックすることに妄想している場合は、今すぐクリックしてください!!あなたは警告されました、あなたがあなたのデバイスをブリックするならば、あなたはあなた自身です!!又！あなたは警告されました!!**
 > [!WARNING]
-> **PLEASE DON'T USE VIDEO GUIDES ON YOUTUBE OR ANY OTHER PLATFORM! THESE VIDEOS ARE OUTDATED AND YOU CAN BRICK YOUR DEVICE USING THEM! IF YOU ABSOLUTELY NEED A VIDEO GUIDE, USE THIS [VIDEO GUIDE](https://www.youtube.com/watch?v=rGPbdFq7gKs) BY [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
+> **YOUTUBEやその他のプラットフォームでビデオガイドを使用しないでください。これらのビデオは古くなっているため、それらを使用してデバイスをブリックできます。どうしてもビデオガイドが必要な場合は、この[ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)の[ビデオガイド](https://www.youtube.com/watch?v=rGPbdFq7gKs)を使用してください**
 
 
-## Get Started
-- [Installation](1-partition-ja.md)
+## 始めましょう
+- [インストール](1-partition-ja.md)
   
-- [Dualboot Setup](dualboot-ja.md)
+- [デュアルブートセットアップ](dualboot-ja.md)
   
-- [Uninstallation](uninstall-ja.md)
+- [アンインストール](uninstall-ja.md)
 
-## Miscellaneous
-- [Project Status](status.md)
+## 雑感
+- [プロジェクトの状況](status.md)
   
-- [Troubleshooting](troubleshooting-ja.md)
+- [トラブルシューティング](troubleshooting-ja.md)
   
-- [Updating Drivers](update-ja.md)
+- [ドライバの更新](update-ja.md)
   
-- [Reinstallation](reinstall-ja.md)
+- [再インストール](reinstall-ja.md)
   
-- [Updating UEFI](UEFI-updating-ja.md)
+- [UEFIの更新](UEFI-updating-ja.md)
   
-- [Useful apps and instructions](/guide/Additional-materials/Additional-materials-ja.md)
+- [便利なアプリと手順](/guide/Additional-materials/Additional-materials-ja.md)
 
 
 
-## Contributors
+## コントリビューター
 
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
 [<img alt="map220v" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/14368485?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/map220v)
