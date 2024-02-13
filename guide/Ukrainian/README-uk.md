@@ -1,50 +1,50 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 
-# Running Windows on the Xiaomi Pad 5
+# Запуск Windows на Xiaomi Pad 5
 
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
 
-## Language 
+## Мова
 [```Русский```](/README-RU.md) | [```English```](/README.md) | [```Español```](/guide/Español/README-es.md) | [```Italian```](/guide/Italian/README-it.md) | [```Japanese```](/guide/Japanese/README-ja.md) | [```Traditional Chinese```](/guide/Traditional%20Chinese/README-tw.md) | [```Turkish```](/guide/Turkish/README-tr.md) | **```Ukrainian```** | [```Vietnamese```](/guide/Vietnamese/README-vi.md)
 
 > [!NOTE]
 > Мови, окрім англійської, не завжди можуть бути актуальними 
 
-## ⚠️ Warning
+## ⚠️ Попередження
 
-We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline workers cowboys, dead pmics, dead ram, dead display ics, dead cpus, any xiaomi shenanigans, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
+Ми не несемо відповідальності за заблоковані пристрої, відсутні розділи відновлення, мертві працівники заводу xiaomi, ковбої, мертві pmics, мертву оперативну пам'ять, мертві мікросхеми дисплея, мертві процесори, будь-які махінації xiaomi, мертвих кішок або собак, ядерні війни або звільнення, тому що ви забули завантажити назад на android для будильника.
 
-This project is in development stage, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get. This is a delicate process, do it under your own risk and follow all the steps carefully.
+Цей проект знаходиться на стадії розробки, всі файли тут були внесені іншими користувачами, тут ви знайдете гайд з робочими файлами, які нам вдалося отримати. Це делікатний процес, робіть це на свій страх і ризик і уважно виконуйте всі кроки.
 
-**IF YOU AREN'T COMFORTABLE MODDING YOUR TABLET OR ITS PARTITION TABLE OR YOU ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU ARE ON YOUR OWN IF YOU BRICK YOUR DEVICE!!! AGAIN! YOU HAVE BEEN WARNED!!!**
+**ЯКЩО ВАМ НЕЗРУЧНО МОДИФІКУВАТИ СВІЙ ПЛАНШЕТ АБО ЙОГО ТАБЛИЦЮ РОЗДІЛІВ, АБО ВИ ПАРАНОЇДАЛЬНО ХОЧЕТЕ ЗАБЛОКУВАТИ СВІЙ ПРИСТРІЙ, НАТИСНІТЬ ЗАРАЗ!! ВАС ПОПЕРЕДИЛИ, ВИ САМІ ПО СОБІ, ЯКЩО ЗАБЛОКУЄТЕ СВІЙ ПРИСТРІЙ!! ЗНОВ! ВАС ПОПЕРЕДИЛИ!!**
 > [!WARNING]
-> **PLEASE DON'T USE VIDEO GUIDES ON YOUTUBE OR ANY OTHER PLATFORM! THESE VIDEOS ARE OUTDATED AND YOU CAN BRICK YOUR DEVICE USING THEM! IF YOU ABSOLUTELY NEED A VIDEO GUIDE, USE THIS [VIDEO GUIDE](https://www.youtube.com/watch?v=rGPbdFq7gKs) BY [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
+> **БУДЬ ЛАСКА, НЕ ВИКОРИСТОВУЙТЕ ВІДЕОІНСТРУКЦІЇ НА YOUTUBE АБО БУДЬ-ЯКІЙ ІНШІЙ ПЛАТФОРМІ! ЦІ ВІДЕО ЗАСТАРІЛИ, І ВИ МОЖЕТЕ ВИКОРИСТОВУВАТИ ЇХ НА СВОЄМУ ПРИСТРОЇ! ЯКЩО ВАМ КОНЧЕ ПОТРІБЕН ВІДЕОГАЙД, СКОРИСТАЙТЕСЯ ЦИМ [ВІДЕОПОСІБНИК](https://www.youtube.com/watch?v=rGPbdFq7gKs) ВІД [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
 
 
-## Get Started
-- [Installation](1-partition-uk.md)
+## Почавши
+- [Установка](1-partition-uk.md)
   
-- [Dualboot Setup](dualboot-uk.md)
+- [Налаштування подвійного завантаження](dualboot-uk.md)
   
-- [Uninstallation](uninstall-uk.md)
+- [Видалення](uninstall-uk.md)
 
-## Miscellaneous
-- [Project Status](status.md)
+## Різноманітний
+- [Статус проекту](status.md)
   
-- [Troubleshooting](troubleshooting-uk.md)
+- [Діагностика](troubleshooting-uk.md)
   
-- [Updating Drivers](update-uk.md)
+- [Оновлення драйверів](update-uk.md)
   
-- [Reinstallation](reinstall-uk.md)
+- [Перевстановлення](reinstall-uk.md)
   
-- [Updating UEFI](UEFI-updating-uk.md)
+- [Оновлення UEFI](UEFI-updating-uk.md)
   
-- [Useful apps and instructions](/guide/Additional-materials/Additional-materials-uk.md)
+- [Корисні програми та інструкції](/guide/Additional-materials/Additional-materials-uk.md)
 
 
 
-## Contributors
+## Укладач
 
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
 [<img alt="map220v" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/14368485?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/map220v)
