@@ -8,6 +8,9 @@
 ## Language 
 [```Русский```](/README-RU.md) | [```English```](/README.md) | [```Español```](/guide/Español/README-es.md) | [```Italian```](/guide/Italian/README-it.md) | [```Japanese```](/guide/Japanese/README-ja.md) | [```Traditional Chinese```](/guide/Traditional%20Chinese/README-tw.md) | [```Turkish```](/guide/Turkish/README-tr.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | **```Vietnamese```**
 
+> [!NOTE]
+> Các ngôn ngữ khác ngoài tiếng Anh có thể không phải lúc nào cũng được cập nhật 
+
 ## ⚠️ CẢNH BÁO
 
 Chúng tôi không chịu trách nhiệm nếu thiết bị không hoạt động, thiếu phân vùng cho recovery, máy chết queo, mất thẻ nhớ, pmics, ram, chết cpu, hay lỗi gì kể cả chết chó chết mèo, hạt nhân nổ tung hay bạn bị sếp sa thải vì quên quay lại Android vào sáng sớm nên không thấy báo thức.
