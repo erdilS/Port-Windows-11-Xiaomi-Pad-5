@@ -11,15 +11,15 @@
 > [!NOTE]
 > Le lingue diverse dall'inglese potrebbero non essere sempre aggiornate 
 
-## ⚠️ Warning
+## ⚠️ Avvertimento
 
-We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline workers cowboys, dead pmics, dead ram, dead display ics, dead cpus, any xiaomi shenanigans, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
+Non siamo responsabili per dispositivi bloccati, partizioni di ripristino mancanti, cowboy morti dei lavoratori della linea di fabbrica xiaomi, pmics morti, ram morta, circuiti integrati display morti, cpu morti, qualsiasi imbroglio xiaomi, cani o gatti morti, guerre nucleari o licenziamenti perché hai dimenticato di riavviare Android per l'allarme.
 
-This project is in development stage, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get. This is a delicate process, do it under your own risk and follow all the steps carefully.
+Questo progetto è in fase di sviluppo, tutti i file qui sono stati forniti da altri utenti, qui troverai una guida con i file di lavoro che siamo riusciti a ottenere. Questo è un processo delicato, fallo a tuo rischio e pericolo e segui attentamente tutti i passaggi.
 
-**IF YOU AREN'T COMFORTABLE MODDING YOUR TABLET OR ITS PARTITION TABLE OR YOU ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU ARE ON YOUR OWN IF YOU BRICK YOUR DEVICE!!! AGAIN! YOU HAVE BEEN WARNED!!!**
+**SE NON TI SENTI A TUO AGIO NEL MODIFICARE IL TUO TABLET O LA SUA TABELLA DELLE PARTIZIONI O SEI PARANOICO DI BRICKARE IL TUO DISPOSITIVO, FAI CLIC SU ORA!! SEI STATO AVVERTITO, SEI DA SOLO SE BLOCCHI IL TUO DISPOSITIVO!! DI NUOVO! SIETE STATI AVVERTITI!!**
 > [!WARNING]
-> **PLEASE DON'T USE VIDEO GUIDES ON YOUTUBE OR ANY OTHER PLATFORM! THESE VIDEOS ARE OUTDATED AND YOU CAN BRICK YOUR DEVICE USING THEM! IF YOU ABSOLUTELY NEED A VIDEO GUIDE, USE THIS [VIDEO GUIDE](https://www.youtube.com/watch?v=rGPbdFq7gKs) BY [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
+> **SI PREGA DI NON UTILIZZARE LE VIDEO GUIDE SU YOUTUBE O SU QUALSIASI ALTRA PIATTAFORMA! QUESTI VIDEO SONO OBSOLETI E PUOI BRICKARE IL TUO DISPOSITIVO USANDOLI! SE HAI ASSOLUTAMENTE BISOGNO DI UNA GUIDA VIDEO, USA QUESTA [GUIDA VIDEO](https://www.youtube.com/watch?v=rGPbdFq7gKs) DI [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
 
 
 ## Get Started
