@@ -128,7 +128,7 @@ mountvol y: /d
 > **次に、プラットフォームツールコマンドプロンプトに戻ります**
 
 ```cmd
-adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```
 
 ### PCにバックアップをpullする
@@ -166,7 +166,7 @@ fastboot reboot
 > タブレットをfastbootモードで起動し、バックアップした Android の boot イメージをflashします。
 
 ```cmd
-fastboot flash boot boot.img
+fastboot flash boot rooted_boot.img
 ```
 
 ## 完了!
