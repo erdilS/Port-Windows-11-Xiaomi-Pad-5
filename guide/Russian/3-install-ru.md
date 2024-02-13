@@ -147,5 +147,5 @@ fastboot flash boot rooted_boot.img
 ```
 
 ## Готово!
-> Вы можете присоедениться к нашему [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa) что-бы получать последние новости проекта 
+> ```Вы можете присоедениться к нашему  [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)  что-бы получать последние новости проекта```
 ### [Последний шаг: Настройка двойной загрузки](dualboot-ru.md)
