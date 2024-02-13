@@ -89,7 +89,7 @@ exit
 >  Si obtuvo su imagen de Windows en otro lugar (que también podría llamarse `install.wim`), reemplazar `index:6` con `index:1`
 
 ```cmd
-dism /apply-image /ImageFile:<path/to/install.wim> /index:6 /ApplyDir:X:\
+dism /apply-image /ImageFile:<path/to/install.esd> /index:6 /ApplyDir:X:\
 ```
 
 # Instalar los Drivers
