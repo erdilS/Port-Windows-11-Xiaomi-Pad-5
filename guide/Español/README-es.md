@@ -1,50 +1,48 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 
-# Running Windows on the Xiaomi Pad 5
+# Ejecutando Windows en el Xiaomi Pad 5
 
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
 
-## Language 
+## Idioma
 [```Русский```](/README-RU.md) | [```English```](/README.md) | **```Español```** | [```Italian```](/guide/Italian/README-it.md) | [```Japanese```](/guide/Japanese/README-ja.md) | [```Traditional Chinese```](/guide/Traditional%20Chinese/README-tw.md) | [```Turkish```](/guide/Turkish/README-tr.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | [```Vietnamese```](/guide/Vietnamese/README-vi.md)
 
 > [!NOTE]
 > Es posible que otros idiomas además del inglés no siempre estén actualizados 
 
-## ⚠️ Warning
+## ⚠️ Advertencia
 
-We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline workers cowboys, dead pmics, dead ram, dead display ics, dead cpus, any xiaomi shenanigans, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
+No somos responsables de dispositivos bloqueados, particiones de recuperación faltantes, vaqueros muertos de trabajadores de xiaomi factoryline, PMIC muertos, ram muerta, circuitos integrados de pantalla muertos, cpu muertas, travesuras de xiaomi, gatos o perros muertos, guerras nucleares o que te despidan porque olvidaste reiniciar en Android para la alarma. Este proyecto se encuentra en etapa de desarrollo, todos los archivos aquí han sido aportados por otros usuarios, aquí encontrarás una guía con los archivos de trabajo que logramos conseguir. Este es un proceso delicado, hágalo bajo su propio riesgo y siga todos los pasos cuidadosamente.
 
-This project is in development stage, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get. This is a delicate process, do it under your own risk and follow all the steps carefully.
-
-**IF YOU AREN'T COMFORTABLE MODDING YOUR TABLET OR ITS PARTITION TABLE OR YOU ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU ARE ON YOUR OWN IF YOU BRICK YOUR DEVICE!!! AGAIN! YOU HAVE BEEN WARNED!!!**
+**SI NO SE SIENTE CÓMODO MODIFICANDO SU TABLETA O SU TABLA DE PARTICIONES O ESTÁ PARANOICO DE BLOQUEAR SU DISPOSITIVO, ¡HAGA CLIC AHORA!!! ¡TE HAN ADVERTIDO, ESTÁS SOLO SI BLOQUEAS TU DISPOSITIVO!!! ¡Otra vez! ¡HAS SIDO ADVERTIDO!!!**
 > [!WARNING]
-> **PLEASE DON'T USE VIDEO GUIDES ON YOUTUBE OR ANY OTHER PLATFORM! THESE VIDEOS ARE OUTDATED AND YOU CAN BRICK YOUR DEVICE USING THEM! IF YOU ABSOLUTELY NEED A VIDEO GUIDE, USE THIS [VIDEO GUIDE](https://www.youtube.com/watch?v=rGPbdFq7gKs) BY [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
+> **¡POR FAVOR, NO USES GUÍAS DE VIDEO EN YOUTUBE NI EN NINGUNA OTRA PLATAFORMA! ¡ESTOS VIDEOS ESTÁN DESACTUALIZADOS Y PUEDES BLOQUEAR TU DISPOSITIVO USÁNDOLOS! SI ES ABSOLUTAMENTE NECESARIO UNA GUÍA DE VIDEO, USE ESTA [GUÍA DE VIDEO](https://www.youtube.com/watch?v=rGPbdFq7gKs) POR [ArtoSeVeN] (https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
 
 
-## Get Started
-- [Installation](1-partition-es.md)
+## Comience
+- [Instalación](1-partition-es.md)
   
-- [Dualboot Setup](dualboot-es.md)
+- [Configuración de arranque dual](dualboot-es.md)
   
-- [Uninstallation](uninstall-es.md)
+- [Desinstalación](uninstall-es.md)
 
-## Miscellaneous
-- [Project Status](status.md)
+## Varios
+- [Estado del Proyecto](status.md)
   
-- [Troubleshooting](troubleshooting-es.md)
+- [Solución de Problemas](troubleshooting-es.md)
   
-- [Updating Drivers](update-es.md)
+- [Actualización de Controladores](update-es.md)
   
-- [Reinstallation](reinstall-es.md)
+- [Reinstalación](reinstall-es.md)
   
-- [Updating UEFI](UEFI-updating-es.md)
+- [Actualización de UEFI](UEFI-updating-es.md)
   
-- [Useful apps and instructions](/guide/Additional-materials/Additional-materials-es.md)
+- [Aplicaciones e instrucciones útiles](/guide/Additional-materials/Additional-materials-es.md)
 
 
 
-## Contributors
+## Colaboradores
 
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
 [<img alt="map220v" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/14368485?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/map220v)
