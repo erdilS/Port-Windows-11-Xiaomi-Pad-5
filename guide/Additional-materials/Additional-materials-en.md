@@ -2,6 +2,10 @@
 
 # Useful apps and instructions for Windows on Xiaomi pad 5
 
+## Disable secureboot
+> If you want to be able to update drivers without a PC
+[Guide to disabling secureboot](/guide/English/disable-secureboot-en.md)
+
 ## Microsoft Office
 
 - Download this [file](https://mega.nz/file/Q7p1XK6L#J-KPp_-MNJ8iXGqEwwZ3_sfv2tMiq_AJjUiiaX6TBrI) to tablet 
