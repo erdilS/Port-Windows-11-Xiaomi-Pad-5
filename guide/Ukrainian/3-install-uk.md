@@ -90,7 +90,7 @@ exit
 
 
 ```cmd
-dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
+dism /apply-image /ImageFile:<path/to/install.wim> /index:6 /ApplyDir:X:\
 ```
 
 
@@ -98,10 +98,8 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 > Ви можете завантажити драйвери [тут](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> Коли він попросить вас " Enter Drive letter...", ввівши **`X:`**
+> Коли він попросить вас " Enter Drive letter...", ввівши **`X`**
 
-
-> Не запускайте його від імені адміністратора, при необхідності він запитає права адміністратора.
 ```cmd
  Відкрийте папку драйверів і запустіть OfflineUpdater.cmd
 ```
@@ -123,13 +121,7 @@ mountvol y: /d
 > [!NOTE]
 > **Тепер поверніться до командного рядка platform tools**
 ```cmd
-adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
-```
-
-##### Скопіюйте резервну копію на компьютер
-
-```cmd
-adb pull /tmp/boot.img
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```
 
 ### Завантажте відновлення
@@ -154,7 +146,7 @@ fastboot reboot
 > Використовуйте резервну копію завантажувального образу та прошийте з швидкого завантаження
 
 ```cmd
-fastboot flash boot boot.img
+fastboot flash boot rooted_boot.img
 ```
 
 # Готово!
