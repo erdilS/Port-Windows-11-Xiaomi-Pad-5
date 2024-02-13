@@ -34,4 +34,4 @@
 fastboot flash boot <magisk_patched.img>
 ```
 
-### [Siguiente paso: instalar Windows](/guide/Español/3-instalacion-es.md)
+### [Siguiente paso: instalar Windows](/guide/Español/3-install-es.md)
