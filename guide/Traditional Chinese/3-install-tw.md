@@ -103,12 +103,7 @@ mountvol y: /d
 > **现在回到平台工具命令提示符**
 
 ```cmd
-adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
-```
-
-### 提取 Boot 鏡像到電腦
-```cmd
-adb pull /tmp/boot.img
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```
 
 ### 重啟到 Bootloader
@@ -133,7 +128,7 @@ fastboot reboot
 ### 回退到 Android **可選**
 > 使用您之前備份過的 Boot 鏡像, 並刷入到當前激活的 slot
 ```cmd
-fastboot flash boot boot.img
+fastboot flash boot rooted_boot.img
 ```
 
 ## 完成
