@@ -144,7 +144,7 @@ adb reboot bootloader
 > [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/raw/main/images/xiaomi-nabu_20240212-V2.img) をダウンロードする。
 
 ```cmd
-fastboot flash boot <path to image>
+fastboot flash boot <画像へのパス>
 ```
 ## Windows を起動する
 ```cmd
