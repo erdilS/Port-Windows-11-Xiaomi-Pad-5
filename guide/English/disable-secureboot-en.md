@@ -98,7 +98,7 @@ fastboot flash uefi <path\to\uefi-noSB-v2.img>
 ```
 
 > [!Important]
-> Make sure to also replace your old UEFI in the UEFI folder in your internal storage, so you don't accidentally flash it the next time you try to switch to Windows from Android
+> Make sure to also replace your old UEFI in the UEFI folder in your internal storage of Android, so you don't accidentally flash it the next time you try to switch to Windows from Android
 
 #### Reboot to Windows
 ```cmd
