@@ -1,50 +1,50 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 
-# Running Windows on the Xiaomi Pad 5
+# 在小米Pad5上运行Windows
 
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
 
-## Language 
+## 语言
 [```Русский```](/README-RU.md) | [```English```](/README.md) | [```Español```](/guide/Español/README-es.md) | [```Italian```](/guide/Italian/README-it.md) | [```Japanese```](/guide/Japanese/README-ja.md) | **```Traditional Chinese```** | [```Turkish```](/guide/Turkish/README-tr.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | [```Vietnamese```](/guide/Vietnamese/README-vi.md)
 
 > [!NOTE]
 > 英語以外的語言可能並不總是最新的
 
-## ⚠️ Warning
+## ⚠️ 警告
 
-We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline workers cowboys, dead pmics, dead ram, dead display ics, dead cpus, any xiaomi shenanigans, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
+我們不對磚砌設備、丟失的恢復分區、死去的小米工廠生產線工人牛仔、死去的 pmic、死去的 ram、死去的顯示 ic、死去的 CPU、任何小米惡作劇、死去的貓或狗、核戰爭或您被解僱負責，因為您忘記啟動回 android 進行警報。
 
-This project is in development stage, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get. This is a delicate process, do it under your own risk and follow all the steps carefully.
+這個專案正處於開發階段，這裡的所有檔都是由其他用戶貢獻的，在這裡你會找到一個指南，裡面有我們設法得到的工作檔。這是一個微妙的過程，風險自負，並仔細遵循所有步驟。
 
-**IF YOU AREN'T COMFORTABLE MODDING YOUR TABLET OR ITS PARTITION TABLE OR YOU ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU ARE ON YOUR OWN IF YOU BRICK YOUR DEVICE!!! AGAIN! YOU HAVE BEEN WARNED!!!**
+**如果您不習慣修改平板電腦或其分區表，或者您偏執於磚砌設備，請立即按兩下！！你已經被警告過，如果你把你的設備弄磚了，你就只能靠自己了！！再！你已經被警告過了！！**
 > [!WARNING]
-> **PLEASE DON'T USE VIDEO GUIDES ON YOUTUBE OR ANY OTHER PLATFORM! THESE VIDEOS ARE OUTDATED AND YOU CAN BRICK YOUR DEVICE USING THEM! IF YOU ABSOLUTELY NEED A VIDEO GUIDE, USE THIS [VIDEO GUIDE](https://www.youtube.com/watch?v=rGPbdFq7gKs) BY [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
+> **請不要在YOUTUBE或任何其他平臺上使用視頻指南！這些視頻已經過時了，您可以使用它們來破壞您的設備！如果您絕對需要視頻指南，請使用 [ArtoSeVeN]（https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA） 的 [視頻指南]（https://www.youtube.com/watch?v=rGPbdFq7gKs）**
 
 
-## Get Started
-- [Installation](1-partition-tw.md)
+## 开始吧
+- [安装工程](1-partition-tw.md)
   
-- [Dualboot Setup](dualboot-tw.md)
+- [双启动设置](dualboot-tw.md)
   
-- [Uninstallation](uninstall-tw.md)
+- [卸载,卸载](uninstall-tw.md)
 
-## Miscellaneous
-- [Project Status](status.md)
+## 杂项条文
+- [工程进度](status.md)
   
-- [Troubleshooting](troubleshooting-tw.md)
+- [故障排除](troubleshooting-tw.md)
   
-- [Updating Drivers](update-tw.md)
+- [更新驱动程序](update-tw.md)
   
-- [Reinstallation](reinstall-tw.md)
+- [重新安装](reinstall-tw.md)
   
-- [Updating UEFI](UEFI-updating-tw.md)
+- [更新UEFI](UEFI-updating-tw.md)
   
-- [Useful apps and instructions](/guide/Additional-materials/Additional-materials-tw.md)
+- [有用的应用程序和说明](/guide/Additional-materials/Additional-materials-tw.md)
 
 
 
-## Contributors
+## 贡献者
 
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
 [<img alt="map220v" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/14368485?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/map220v)
