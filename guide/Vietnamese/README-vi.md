@@ -6,7 +6,8 @@
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
 
 ## Language 
-[```Русский```](/README-RU.md) | [```English```](/README.md) | **```Vietnamese```**
+[```Русский```](/README-RU.md) | [```English```](/README.md) | [```Español```](/guide/Español/README-es.md) | [```Italian```](/guide/Italian/README-it.md) | [```Japanese```](/guide/Japanese/README-ja.md) | [```Traditional Chinese```](/guide/Traditional%20Chinese/README-tw.md) | [```Turkish```](/guide/Turkish/README-tr.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | **```Vietnamese```**
+
 ## ⚠️ CẢNH BÁO
 
 Chúng tôi không chịu trách nhiệm nếu thiết bị không hoạt động, thiếu phân vùng cho recovery, máy chết queo, mất thẻ nhớ, pmics, ram, chết cpu, hay lỗi gì kể cả chết chó chết mèo, hạt nhân nổ tung hay bạn bị sếp sa thải vì quên quay lại Android vào sáng sớm nên không thấy báo thức.
@@ -24,7 +25,7 @@ Dự án này trong giai đoạn đầu, file gì cũng do cộng tác của cá
 
 - [Cài Dualboot](dualboot-vi.md)
 
-- [Gỡ cài đặt](restore-stock-vi.md)
+- [Gỡ cài đặt](uninstall-vi.md)
 
 
 ## Các hướng dẫn khác
@@ -37,9 +38,9 @@ Dự án này trong giai đoạn đầu, file gì cũng do cộng tác của cá
 
 - [Cài đặt lại](reinstall-vi.md)
   
-- [Cập NHẬT UEFI](guide/UEFI-updating-selection.md)
+- [Cập NHẬT UEFI](UEFI-updating-vi.md)
 
-- [Ứng dụng và hướng dẫn hữu ích](guide/Additional-materials-selection.md)
+- [Ứng dụng và hướng dẫn hữu ích](/guide/Additional-materials/Additional-materials-vi.md)
 ## Người đóng góp
 
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
