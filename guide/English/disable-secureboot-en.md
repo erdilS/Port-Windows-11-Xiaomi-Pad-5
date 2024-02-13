@@ -77,8 +77,9 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 
 #### Removing SiPolicy
 > Assuming you are disabling secureboot on an existing install, you need to delete this file or the system will not boot
-
-SiPolicy.p7b in esp:/EFI/Microsoft/Boot/
+```cmd
+adb shell rm Y:\EFI\Microsoft\Boot\SiPolicy.p7b
+```
 
 #### Remove the drive letter for ESPNABU
 > If this does not work, ignore it and skip to the next command. This phantom drive will disappear the next time you reboot your PC.
