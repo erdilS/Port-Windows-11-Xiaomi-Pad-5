@@ -100,8 +100,6 @@ dism /apply-image /ImageFile:<sources/install.wim> /index:6 /ApplyDir:X:\
 > Size sorduğunda "Sürücü harfini girin..." tür **`X`**
 
 
-> Yönetici olarak çalıştırmayın, gerektiğinde yönetici hakları isteyecektir.
-
 ```cmd
 Sürücülerle klasörü açın ve çalıştırın OfflineUpdater.cmd
 ```
@@ -126,14 +124,10 @@ mountvol y: /d
 
 
 ```cmd
-adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```
 
-##### Bu yedeği bilgisayarınıza kopyalayın
 
-```cmd
-adb pull /tmp/boot.img
-```
 
 ### Bootloader moduna geçiş yapın
 
@@ -160,7 +154,7 @@ fastboot reboot
 > Yedeklediğiniz boot yedeğini Fastboot aracılığıyla geri yükleyin.
 
 ```cmd
-fastboot flash boot boot.img
+fastboot flash boot rooted_boot.img
 ```
 
 # İşlem tamamlandı!
