@@ -9,7 +9,7 @@
 [```Русский```](/README-RU.md) | [```English```](/README.md) | [```Español```](/guide/Español/README-es.md) | [```Italian```](/guide/Italian/README-it.md) | [```Japanese```](/guide/Japanese/README-ja.md) | **```Traditional Chinese```** | [```Turkish```](/guide/Turkish/README-tr.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | [```Vietnamese```](/guide/Vietnamese/README-vi.md)
 
 > [!NOTE]
-> Languages other than English might not always be up to date
+> 英語以外的語言可能並不總是最新的
 
 ## ⚠️ Warning
 
