@@ -23,7 +23,7 @@
 
 ## Начнём
 
-- [Установка](guide/Russian/install-ru.md)
+- [Установка](guide/Russian/1-partition-ru.md)
 
 - [Настройка двойной загрузки](guide/Russian/dualboot-ru.md)
 
