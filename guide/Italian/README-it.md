@@ -33,7 +33,7 @@ This project is in development stage, all the files here have been contributed b
   
 - [Updating Drivers](update-it.md)
   
-- [Reinstallation](reinstalling-it.md)
+- [Reinstallation](reinstall-it.md)
   
 - [Updating UEFI](UEFI-updating-it.md)
   
