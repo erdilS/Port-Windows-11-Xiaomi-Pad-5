@@ -21,15 +21,22 @@ This project is in development stage, all the files here have been contributed b
 
 ## Get Started
 - [Installation](1-partition-it.md)
+  
 - [Dualboot Setup](dualboot-it.md)
+  
 - [Uninstallation](uninstall-it.md)
 
 ## Miscellaneous
 - [Project Status](status.md)
+  
 - [Troubleshooting](troubleshooting-it.md)
+  
 - [Updating Drivers](update-it.md)
+  
 - [Reinstallation](reinstalling-it.md)
+  
 - [Updating UEFI](UEFI-updating-it.md)
+  
 - [Useful apps and instructions](/guide/Additional-materials/Additional-materials-it.md)
 
 
