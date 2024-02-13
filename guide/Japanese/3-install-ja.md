@@ -85,16 +85,11 @@ exit
 > [!NOTE]
 > **次に、管理者としてコマンドプロンプトを実行します**
 
-> `<path/to/install.wim>` を実際のinstall.wimのパスに書き換えてください。
+> 置換 `<path/to/install.esd>` の実際のパスで install.esd
 
-> `install.wim` is located in sources folder inside your ISO
-> `install.wim` はWindowsのISO内にある、sourcesフォルダにあります。
-> ISOファイルをマウントするか、展開することで入手できます。
-
-> `install.esd` という名前の場合もあります。それぞれパスを変更してください。
-
+> 他の場所でWindowsイメージを取得した場合（これも呼び出される可能性があります `install.wim`), 置換 `index:6` と `index:1`
 ```cmd
-dism /apply-image /ImageFile:<path/to/install.wim> /index:6 /ApplyDir:X:\
+dism /apply-image /ImageFile:<path/to/install.esd> /index:6 /ApplyDir:X:\
 ```
 
 ### ドライバのインストール
