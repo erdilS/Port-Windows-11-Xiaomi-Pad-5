@@ -3,7 +3,7 @@
 
 # Running Windows on the Xiaomi Pad 5
 > [!WARNING]
-> **PLEASE DON'T USE OUTDATED VIDEO GUIDES ON YOUTUBE OR ANY OTHER PLATFORM! THESE VIDEOS ARE OUTDATED AND YOU CAN BRICK YOUR DEVICE USING THEM! IF YOU NEED A VIDEO GUIDE, USE THIS [NEW VIDEO GUIDE](https://www.youtube.com/watch?v=rGPbdFq7gKs) FROM [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
+> **PLEASE DON'T USE ANY VIDEO GUIDES ON AS THESE ARE USUALLY OUTDATED AND CAN AND PROBABLY WILL BRICK YOUR NABU BY USING THEM!!! IF YOU ABSOLUTELY NEED A VIDEO GUIDE, USE THIS [VIDEO GUIDE](https://www.youtube.com/watch?v=rGPbdFq7gKs) BY [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
 
 ## Installation
 > [!NOTE]
@@ -94,7 +94,7 @@ dism /apply-image /ImageFile:<path/to/install.esd> /index:6 /ApplyDir:X:\
 
 > You can download the Drivers [here](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> When it ask you to "Enter Drive letter..." type **`X`**
+> If it ask you to "Enter Drive letter..." type **`X`**
 
 ```cmd
  Open the folder with Drivers and run OfflineUpdater.cmd
@@ -106,8 +106,8 @@ dism /apply-image /ImageFile:<path/to/install.esd> /index:6 /ApplyDir:X:\
 bcdboot X:\Windows /s Y: /f UEFI
 ```
 
-## Remove the drive letter for ESPNABU to avoid the appearance of a phantom drive letter
-> If this does not work, ignore it and skip to the next command. These phantom drives will disappear the next time you reboot your PC.
+## Remove the drive letter for ESPNABU
+> If this does not work, ignore it and skip to the next command. This phantom drive will disappear the next time you reboot your PC.
 ```cmd
 mountvol y: /d
 ```
