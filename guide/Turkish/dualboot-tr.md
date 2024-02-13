@@ -6,32 +6,32 @@
 ## Dualbooting Android and Windows seamlessly
 
 ### Prerequisites
-- Brain
-- A rooted tablet
-- Windows installed on the tablet
-- [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/uefi.img)
-- [WOA Helper app](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
-- [StA Installer](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
+- ```Beyin```
+- ```Köklü bir tablet```
+- ```Tablete yüklü pencereler```
+- [```UEFI görüntüsü```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/uefi.img)
+- [```WOA Helper uygulama```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
+- [```StA Installer```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
 
-## Setting up the dualboot app
-> This guide assumes you are rooted, if you aren't, please follow the [root guide](2-rootguide-tr.md) first.
+## Dualboot uygulamasını kurma
+> Bu kılavuz, köklü olduğunuzu varsayar, eğer değilseniz, lütfen [root rehber](2-rootguide-tr.md) ilk.
 
-### Setup - Android
+### Kurulum - Android
 > [!NOTE]
-> If you are unable to move files to the Windows folder, it means you shut down Windows instead of restarting it. To fix this issue, boot back to Windows and use restart, then as it restarts boot to fastboot and use it to return to Android.
-- Download and install the [WOA Helper app](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk), then open it and grant it root access.
-- Download the [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/uefi.img) and place it inside the folder named `UEFI` in your internal storage, if this folder does not exist, create it.
-- Return to the WOA Helper app and press the `Back up Android boot` button. Select both the `Windows` and `Android` options.
-- Press the `Mount Windows` button, then download and move [StA_Installer_nabu.exe](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe) to the newly created `Windows` folder in your internal storage.
-- Return to the WOA Helper app and press `Quickboot to Windows`.
+> Dosyaları Windows klasörüne taşıyamıyorsanız, bu, Windows'u yeniden başlatmak yerine kapattığınız anlamına gelir. Bu sorunu gidermek için Windows'a geri dönün ve yeniden başlat'ı kullanın, ardından önyüklemeyi fastboot'a yeniden başlatıp Android'e dönmek için kullanın.
+- Indirin ve yükleyin [WOA Helper uygulama](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk), ardından açın ve kök erişimi verin.
+- [UEFI görüntüsünü](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/uefi.img) indirin ve dahili depolama alanınızdaki `UEFI` adlı klasörün içine yerleştirin, bu klasör yoksa oluşturun.
+- WOA Helper uygulamasına dönün ve `Back up Android boot` düğmesine basın. Hem 'Windows` hem de 'Android' seçeneklerini seçin.
+- `Mount Windows` düğmesine basın, ardından indirin ve taşıyın [StA_Installer_nabu.exe](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe) dahili depolama alanınızdaki yeni oluşturulan `Windows` klasörüne.
+- WOA Yardımcı uygulamasına dönün ve tuşuna basın `Quickboot to Windows`.
 
-### Setup - Windows
-- Navigate to `C:\StA_Installer_nabu.exe` and run it. If it doesn't work, make sure that any antivirus software is off, as it will probably not let the app run.
+### Kurulum - Windows
+-  Şuraya git `C:\StA_Installer_nabu.exe` ve çalıştır. Çalışmazsa, muhtemelen uygulamanın çalışmasına izin vermeyeceğinden, herhangi bir virüsten koruma yazılımının kapalı olduğundan emin olun.
 
-##### Booting to Android
-  - Run the new shortcut on your desktop (you can also pin it to your start menu / taskbar for ease of access)
+##### Android'e önyükleme
+  - Masaüstünüzde yeni kısayolu çalıştırın (erişim kolaylığı için başlat menünüze / görev çubuğunuza da sabitleyebilirsiniz)
 
 ##### Booting to Windows
-  - Press `Quickboot to Windows` inside the app, or use the newly created toggle in your quick settings panel
+  - Basın `Quickboot to Windows` uygulamanın içinde veya hızlı ayarlar panelinizde yeni oluşturulan geçişi kullanın
   
-## Finished!
+## Bitti!
