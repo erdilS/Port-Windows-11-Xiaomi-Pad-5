@@ -100,7 +100,6 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:6 /ApplyDir:X:\
 
 > Cuando le pida que "Enter Drive letter....."tipo **`X`**
 
-> No lo ejecute como administrador, le pedirá derechos de administrador cuando sea necesario.
 
 ```cmd
 Abra la carpeta con los controladores y ejecute OfflineUpdater.cmd
@@ -126,13 +125,7 @@ mountvol y: /d
 > **Ahora regrese al símbolo del sistema de herramientas de la plataforma**
 
 ```cmd
-adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
-```
-
-##### Pon el backup en el Pc
-
-```cmd
-adb pull /tmp/boot.img
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```
 
 ### Reiniciar al bootloader
@@ -159,7 +152,7 @@ fastboot reboot
 > Usa el backup del boot.img en fastboot
 
 ```cmd
-fastboot flash boot boot.img
+fastboot flash boot rooted_boot.img
 ```
 
 # ¡Terminamos!
