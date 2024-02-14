@@ -12,7 +12,7 @@
 
 - インストールされたデュアルブート
   
-- [最新のUEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_20240212-V2.img)
+- [最新のUEFI](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v2.img)
 
 ## 古いUEFIを新しいUEFIに置き換えます
 
