@@ -9,7 +9,7 @@
 - 腦
 - 已root的平板電腦
 - 安裝在平板電腦上的 Windows
-- [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/uefi.img)
+- [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v2.img)
 - [WOA Helper app](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
 - [StA Installer](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
 
@@ -20,7 +20,7 @@
 > [!NOTE]
 > 如果您無法將檔案移至 Windows 資料夾，則表示您關閉了 Windows，而不是重新啟動它。若要解決此問題，請啟動回 Windows 並使用重新啟動，然後在重新啟動時啟動至 fastboot 並使用它返回 Android.
 - 下載並安裝 [WOA Helper app](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk), 然後打開它並授予它root存取權限.
-- 下載 [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/uefi.img) 並將其放在內部儲存中名為 `UEFI` 的資料夾中，如果該資料夾不存在，請建立它.
+- 下載 [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v2.img) 並將其放在內部儲存中名為 `UEFI` 的資料夾中，如果該資料夾不存在，請建立它.
 - 返回 WOA Helper 應用程式並按 `Back up Android boot` 按鈕. 選擇兩個 `Windows` 和 `Android` 選項.
 - 按 `Mount Windows` button, 然後下載並移動 [StA_Installer_nabu.exe](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe) 到內部儲存中新建的 `Windows` 資料夾.
 - 返回 WOA Helper 應用程式並按 `Quickboot to Windows`.
