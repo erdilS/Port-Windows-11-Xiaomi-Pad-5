@@ -95,7 +95,7 @@ adb reboot bootloader
 #### Flashing the UEFI
 > Make sure you use the no secureboot UEFI from this page, replace <path\to\uefi-noSB-v2.img> with the actual path to the UEFI image
 ```cmd
-fastboot flash uefi <path\to\uefi-noSB-v2.img>
+fastboot flash boot <path\to\uefi-noSB-v2.img>
 ```
 
 > [!Important]
