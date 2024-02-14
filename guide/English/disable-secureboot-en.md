@@ -14,7 +14,7 @@
 
 - [```Recovery Image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-- [```UEFI image (Secureboot off)```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-noSB-v2.img)
+- [```UEFI image (Secureboot off)```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-NoSecureboot-v2.img)
 
 ## Pros and cons of secureboot
 > By default, secureboot is enabled in this guide
@@ -93,7 +93,7 @@ adb reboot bootloader
 ```
 
 #### Flashing the UEFI
-> Make sure you use the no secureboot UEFI from this page, replace <path\to\uefi-noSB-v2.img> with the actual path to the UEFI image
+> Make sure you use the no secureboot UEFI from this page, replace <path\to\uefi-NoSecureboot-v2.img> with the actual path to the UEFI image
 ```cmd
 fastboot flash boot <path\to\uefi-noSB-v2.img>
 ```
