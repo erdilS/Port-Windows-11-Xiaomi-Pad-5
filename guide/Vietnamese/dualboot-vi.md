@@ -9,7 +9,7 @@
 - Não 
 - Máy tính bảng đã root 
 - Windows được cài đặt trên máy tính bảng 
-- [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v2.img)
+- [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 - [WOA Helper app](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
 - [StA Installer](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
 
@@ -20,7 +20,7 @@
 > [!NOTE]
 > Nếu bạn không thể di chuyển tệp vào thư mục Windows, điều đó có nghĩa là bạn đã tắt Windows thay vì khởi động lại. Để khắc phục sự cố này, hãy khởi động lại Windows và sử dụng khởi động lại, sau đó khởi động lại thành fastboot và sử dụng nó để quay lại Android. 
 - Tải xuống và cài đặt [WOA Helper app](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk), sau đó mở nó và cấp cho nó quyền truy cập root.
-- Tải về [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v2.img) và đặt nó vào thư mục có tên `UEFI` trong bộ nhớ trong của bạn, nếu thư mục này không tồn tại, hãy tạo nó. 
+- Tải về [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img) và đặt nó vào thư mục có tên `UEFI` trong bộ nhớ trong của bạn, nếu thư mục này không tồn tại, hãy tạo nó. 
 - Quay lại ứng dụng WOA Helper và nhấn nút `Back up Android boot` cái nút. Chọn cả hai `Windows` và `Android` tùy chọn.
 - Nhấn nút `Mount Windows` nút, sau đó tải xuống và di chuyển [StA_Installer_nabu.exe](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe) đến cái mới được tạo `Windows` thư mục trong bộ nhớ trong của bạn. 
 - Quay lại ứng dụng WOA Helper và nhấn  `Quickboot to Windows`.
