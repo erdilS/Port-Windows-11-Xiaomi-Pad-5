@@ -59,4 +59,4 @@ Si no está iniciando o haciendo un bucle en la animación, use la recuperación
 adb reboot
 ```
 
-## [Siguiente paso: Get root ](/guide/Español/2-rootguide-es.md)
+## [Siguiente paso: Obtener root ](/guide/Español/2-rootguide-es.md)
