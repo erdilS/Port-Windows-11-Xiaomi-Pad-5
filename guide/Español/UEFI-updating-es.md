@@ -1,28 +1,26 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-# Ejecutando Windows en el Xiaomi Pad 5
+# Ejecutar Windows en la Xiaomi Pad 5
 
 ## Actualización de UEFI
 
-### ¿Por qué se necesita esta guía?
-Idk, pero algunas personas preguntan al respecto
+### ¿Por qué es necesaria esta guía?
 
-### Requisitos Previos
+No sé, pero algunas personas preguntan al respecto 
 
-- Arranque dual instalado
+### Prerequisites
+- [```WOA Helper app```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
   
-- [Última UEFI](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+- [```Latest UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 
-## Reemplace el UEFI antiguo por el nuevo
+## Reemplace la UEFI antigua por la nueva
+> Si aún no ha configurado dualboot, siga las instrucciones [Guía de arranque dual](/guide/Español/dualboot-es.md) Para configurar el `WOA Helper` propiamente
+- Arrancar a Android
+- Abra la carpeta `UEFI` en su almacenamiento interno
+- Eliminar la UEFI antigua
+- Coloca el nuevo dentro
 
-- Arranque en Android
+##  Don, Stack a Windows y Anjois 
 
-- Abrir ventanas de carpetas en el explorador
-
-- Eliminar UEFI antiguo
-
-- Coloque un nuevo UEFI en esta carpeta
-
-- Cámbie UEFI el nombre para boot.img
-
-## Listo, cambie a Windows y disfrute
+> [!NOTE]
+>  Si obtiene un BSOD o Windows no arranca normalmente, asegúrese de que está utilizando los controladores más recientes y actualícelos 
