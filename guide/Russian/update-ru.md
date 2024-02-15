@@ -61,6 +61,7 @@ exit
 
 > Вы можете скачать драйвера [тут](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
+> Если он спросит вас "Enter Drive letter..." введите **`X`**
 ```cmd
  Откройте папку с драйверами и заустите OfflineUpdater.cmd
 ```
@@ -68,7 +69,7 @@ exit
 
 
 ### Запустите Windows с помощью загрузочного образа UEFI 
-
+> Или если UEFI уже прошит, просто перезагрузитесь введя ```adb reboot```
 ```
 fastboot flash boot <uefi.img>
 ```
