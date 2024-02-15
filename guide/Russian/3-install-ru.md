@@ -9,10 +9,10 @@
 ## Установка
 
 ### Требования
-  
-- [```Образ UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v2.img)
 
 - [```ARM Windows esd```](https://worproject.com/esd) (Выберите - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```Выберите ваш язык```)
+
+- [```Образ UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
   
 - [```Драйверы```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
@@ -127,7 +127,7 @@ adb reboot bootloader
 ```
 
 ### Скачайте и прошейте образ UEFI 
-> Скачайте [образ UEFI](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v2.img)
+> Скачайте [образ UEFI](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 ```cmd
 fastboot flash boot <путь к образу UEFI>
 ```
