@@ -12,7 +12,7 @@ Non lo so, ma alcune persone lo chiedono
 
 - Installato dual boot
   
-- [Ultimo UEFI](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v2.img)
+- [Ultimo UEFI](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 
 ## Sostituire il vecchio UEFI con quello nuovo
 
