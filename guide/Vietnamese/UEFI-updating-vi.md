@@ -12,7 +12,7 @@ Tôi không biết nhưng một số người hỏi về nó
 
 - Cài đặt khởi động kép
   
-- [UEFI mới NHẤT](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v2.img)
+- [UEFI mới NHẤT](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 
 ## Thay THẾ uefi cũ bằng UEFI mới
 
