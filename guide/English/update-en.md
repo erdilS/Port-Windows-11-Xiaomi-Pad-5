@@ -62,7 +62,7 @@ exit
 
 > You can download Drivers [here](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> If it ask you "Enter Drive letter..." type `**X**`
+> If it ask you "Enter Drive letter..." type **`X`**
 ```cmd
  Open the folder with Drivers and run OfflineUpdater.cmd
 ```
