@@ -153,6 +153,9 @@ Dopo aver configurato Windows, premi il pulsante di riavvio in Windows (NON SPEN
 fastboot flash boot rooted_boot.img
 ```
 
+```cmd
+fastboot reboot
+```
 ## Finito!
 > Puoi unirti al nostro [Telegram chat](https://t.me/nabuwoa) per ricevere le ultime notizie sul progetto
 ## [Per il dualboot](/guide/Italian/dualboot-it.md)
