@@ -12,7 +12,7 @@
 
 - Установленная двойная загрузка
   
-- [Последняя версия UEFI](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v2.img)
+- [Последняя версия UEFI](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 
 ## Замените старый UEFI на новый
 
