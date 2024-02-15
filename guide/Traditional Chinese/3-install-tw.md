@@ -9,7 +9,7 @@
 
 ### 請先準備下面的步驟
   
-- [```UEFI boot 映像```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v2.img)
+- [```UEFI boot 映像```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 
 - [```驅動文件```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
