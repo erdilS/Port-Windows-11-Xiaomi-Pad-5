@@ -95,15 +95,13 @@ dism /apply-image /ImageFile:<path/to/install.esd> /index:6 /ApplyDir:X:\
 
 > Bạn có Thể tải Xuống Trình Điều khiển [tại đây](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> Khi nó yêu cầu bạn "Inter Drive letter..." loại **`X`**
+> nếu nó yêu cầu bạn "Inter Drive letter..." loại **`X`**
 
-
-> Không chạy nó với tư cách quản trị viên, nó sẽ yêu cầu quyền quản trị viên khi cần thiết.
 ```cmd
 Mở thư mục Với Trình Điều Khiển và chạy OfflineUpdater.cmd
 ```
 ### Tạo windows bootloader tới EFI
-
+> Nếu xảy ra lỗi khi sao chép tệp khởi động, hãy kiểm tra `diskpart` để xem ESPNABU có còn chữ Y hay không. Nếu không, hãy thêm bất kỳ chữ cái nào khác (chẳng hạn như K) và thay thế chữ Y trong lệnh dưới đây bằng chữ cái đã nói tương ứng
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
