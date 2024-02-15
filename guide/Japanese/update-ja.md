@@ -62,7 +62,7 @@ exit
 
 > ドライバをダウンロードすることができます[ここ](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> それがあなたに尋ねるとき "Enter Drive letter..." タイプ**`X:`**
+> それがあなたに尋ねるなら "Enter Drive letter..." タイプ**`X`**
 ```cmd
 ドライバでフォルダを開き、実行します OfflineUpdater.cmd
 ```
