@@ -1,46 +1,49 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-# Useful apps and instructions for Windows on Xiaomi pad 5
+# Xiaomiパッド5上のWindows用の便利なアプリと手順
 
-## Disable secureboot
-> If you want to be able to update drivers without a PC
+## セキュアブートを無効にする
+> PCなしでドライバーを更新できるようにしたい場合
 
-[Guide to disabling secureboot](/guide/Japanese/disable-secureboot-ja.md)
+[セキュアブートを無効にするためのガイド](/guide/Japanese/disable-secureboot-ja.md)
 
-## Microsoft Office
+## マイクロソフトオフィス
 
-- Download this [file](https://mega.nz/file/Q7p1XK6L#J-KPp_-MNJ8iXGqEwwZ3_sfv2tMiq_AJjUiiaX6TBrI) to tablet 
+- この[ファイル](https://mega.nz/file/Q7p1XK6L#J-KPp_-MNJ8iXGqEwwZ3_sfv2tMiq_AJjUiiaX6TBrI)をタブレットにダウンロードします
   
-- Turn off Windows Defender to avoid any interference with the installation
+- Windows Defenderをオフにして、インストールへの干渉を回避します
   
-- Right-click on the iso file and select Mount to open it in explorer
+- isoファイルを右クリックし、[マウント]を選択してエクスプローラーで開きます
 
-- Double-click on AUTORUN.exe to start the installation wizard
+- AUTORUN.exeをダブルクリックして、インストールウィザードを開始します
   
-- Choose the language and the components you want to install, and then click Start installation
+- インストールする言語とコンポーネントを選択し、[インストールの開始] をクリックします
   
-- Wait for the installation and activation to complete
+- インストールとアクティベーションが完了するのを待ちます
 
-- Turn on Windows Defender again 
+- Windows Defenderを再度オンにする
 
-- Enjoy using Office!
+- Office をお楽しみください。
 
- ## Activate Windows
+ ## Windowsのライセンス認証
 
-> Open PowerShell and type: 
+> PowerShell を開き、次のように入力します。
 
   ```cmd
 irm https://massgrave.dev/get | iex 
 ```
-> When a window appears, select 1
+> ウィンドウが表示されたら、1を選択します
 
- ## How to use Flashlight 
+ ## 懐中電灯の使い方
 
- - Download [Flashlight.7z](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/flashlight_fix.7z) and unzip to any folder
+ - ダウンロード [Flashlight.7z](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/flashlight_fix.7z) 任意のフォルダに解凍します
 
-> Run flashlight.exe to enable flashlight 
+> flashlight.exeを実行して懐中電灯を有効にします
 
-> Press any key to disable it
+> いずれかのキーを押して無効にします
+
+> [!NOTE]
+> You also can use [this app](https://apps.microsoft.com/detail/9NBLGGH68278) from Microsoft store 
 
 
 
