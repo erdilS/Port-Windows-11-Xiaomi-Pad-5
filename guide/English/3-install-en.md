@@ -150,4 +150,8 @@ After Windows has been set up, press the restart button in Windows (NOT SHUTDOWN
 fastboot flash boot rooted_boot.img
 ```
 
+```cmd
+fastboot reboot
+```
+
 ### [Last step: Set up Dualboot](dualboot-en.md)
