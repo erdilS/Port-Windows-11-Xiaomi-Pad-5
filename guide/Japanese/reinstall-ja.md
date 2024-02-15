@@ -15,9 +15,9 @@
 
 - 既存のWindowsおよびブートパーティション (*満たされていない場合, [戻って、このガイドが存在しなかったふりをするだけです](1-partition-ja.md)*)
 
-- [Recovery Image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```Recovery Image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+- [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
 
 ### Windowsとブートパーティションをフォーマットするためのブートリカバリ
