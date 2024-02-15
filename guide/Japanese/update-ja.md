@@ -8,11 +8,11 @@
 ### 前提条件
 
 
-- [UEFIイメージ](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+- [```UEFIイメージ```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 
-- [Recovery](../../../../releases/tag/1.0)
+- [```Recovery```](../../../../releases/tag/1.0)
 
-- [ドライバー](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+- [```ドライバー```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 #### 次のコマンドを使用してPCから回復を開始します
 
