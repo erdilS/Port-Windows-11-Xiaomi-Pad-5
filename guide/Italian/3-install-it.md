@@ -96,7 +96,7 @@ dism /apply-image /ImageFile:<path/to/install.esd> /index:6 /ApplyDir:X:\
 
 > È possibile scaricare i driver [qui](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> Quando ti chiede di " Inserire la lettera di unità..."tipo **`X`**
+> se ti chiede di " Inserire la lettera di unità..."tipo **`X`**
 
 ```cmd
 Apri la cartella con i driver ed esegui OfflineUpdater.cmd
@@ -105,7 +105,7 @@ Apri la cartella con i driver ed esegui OfflineUpdater.cmd
   
 
 ### Crea i file del bootloader (file di avvio) di Windows per l'EFI 
-
+> Se si verifica un errore durante la copia dei file di avvio, controllare `diskpart` per vedere se ESPNABU ha ancora la lettera Y. In caso contrario, aggiungi qualsiasi altra lettera (come K) e sostituisci rispettivamente la Y nel comando seguente con detta lettera
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
