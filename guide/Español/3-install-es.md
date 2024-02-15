@@ -154,6 +154,9 @@ Después de configurar Windows, presione el botón Reiniciar en Windows (NO APAG
 fastboot flash boot rooted_boot.img
 ```
 
+```cmd
+fastboot reboot
+```
 # ¡Terminamos!
 > Puedes unirte a nuestro [Telegram chat](https://t.me/nabuwoa) para recibir las últimas noticias sobre el proyecto
 ### [Último paso: Configurar el arranque dual](dualboot-es.md)
