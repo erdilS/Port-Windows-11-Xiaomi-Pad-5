@@ -164,6 +164,10 @@ fastboot reboot
 fastboot flash boot rooted_boot.img
 ```
 
+```cmd
+fastboot reboot
+```
+
 ## 完了!
 > [Telegram chat](https://t.me/nabuwoa) に参加して、このプロジェクトに関するニュースを受けとることができます。
 
