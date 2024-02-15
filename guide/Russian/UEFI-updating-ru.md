@@ -2,28 +2,24 @@
 
 # Запуск Windows на Xiaomi Pad 5
 
-## Обновление UEFI
+## Обновление UEFI 
 
-### Зачем нужно это руководство?
+### Почему это руководство нужно?
 
-Я не знаю, но некоторые люди спрашивают об этом
+Я не знаю, но некоторые люди спрашивают об этом 
 
 ### Требования 
-
-- Установленная двойная загрузка
+- [```WOA Helper app```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
   
-- [Последняя версия UEFI](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+- [```Latest UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 
 ## Замените старый UEFI на новый
+> Если вы ещё не настроили двойную загрузку, то выполните [настройку двойной загрузки](/guide/English/dualboot-en.md), что бы настроить WOA Helper правильно
+- Загрузитесь в Android
+- Откройте папку `UEFI` во внутренней памяти Android 
+- Удалите старый UEFI и положите новый UEFI в эту папку
 
-- Загрузитесь на Android
+## Готово, переключайтесь на Windows и наслаждайтесь  
 
-- Откройте папку Windows в проводнике
-
-- Удалить старый UEFI
-
-- Поместите новый UEFI в эту папку
-
-- Переименуйте UEFI в boot.img
-
-## Готово, переключитесь на Windows и наслаждайтесь
+> [!NOTE]
+> Если вы получили BSOD или Windows не загружается нормально, убедитесь что вы используете последнюю версию драйверов и обновите их 
