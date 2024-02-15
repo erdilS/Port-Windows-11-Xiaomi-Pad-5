@@ -101,8 +101,6 @@ dism /apply-image /ImageFile:<path/to/install.esd> /index:6 /ApplyDir:X:\
 ```
 
 ### Create Windows bootloader files for the EFI
-> Be sure to do this with the Command Prompt (cmd.exe) initiated with administrator privileges. Using Windows Terminal or PowerShell will cause you to get an error in the command.
-
 > If an error occurs when copying boot files, check `diskpart` to see if ESPNABU still has letter Y. If it does not, add any other letter (such as K) and replace the Y in the below command with said letter respectively
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
