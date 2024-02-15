@@ -101,7 +101,7 @@ dism /apply-image /ImageFile:<path/to/install.esd> /index:6 /ApplyDir:X:\
 ```
 
 # Створіть файли завантажувача Windows
-
+> Якщо під час копіювання завантажувальних файлів виникає помилка, перевірте «diskpart», щоб перевірити, чи є в ESPNABU літера Y. Якщо це не так, додайте будь-яку іншу літеру (наприклад, K) і замініть Y у наведеній нижче команді на зазначену літеру відповідно
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
@@ -145,7 +145,9 @@ fastboot reboot
 ```cmd
 fastboot flash boot rooted_boot.img
 ```
-
+```cmd
+fastboot reboot
+```
 # Готово!
 > Ви можете приєднатися до нашого [Telegram chat](https://t.me/nabuwoa) щоб отримувати новини про проект
 ### [Останній крок: Налаштування подвійного завантаження](dualboot-uk.md)
