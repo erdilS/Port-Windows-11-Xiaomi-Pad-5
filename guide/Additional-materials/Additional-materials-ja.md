@@ -43,7 +43,7 @@ irm https://massgrave.dev/get | iex
 > いずれかのキーを押して無効にします
 
 > [!NOTE]
-> You also can use [this app](https://apps.microsoft.com/detail/9NBLGGH68278) from Microsoft store 
+> Microsoft Storeの[このアプリ](https://apps.microsoft.com/detail/9NBLGGH68278)を使用することもできます
 
 
 
