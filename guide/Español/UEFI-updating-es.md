@@ -11,7 +11,7 @@ Idk, pero algunas personas preguntan al respecto
 
 - Arranque dual instalado
   
-- [Última UEFI](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v2.img)
+- [Última UEFI](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 
 ## Reemplace el UEFI antiguo por el nuevo
 
