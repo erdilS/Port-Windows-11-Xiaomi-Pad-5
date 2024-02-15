@@ -100,7 +100,7 @@ dism /apply-image /ImageFile:<path/to/install.esd> /index:6 /ApplyDir:X:\
  ドライバが入ったフォルダを開き、OfflineUpdater.cmd を実行します。
 ```
 
-> "Enter Drive letter..." と表示されたら、**`X`** を入力します。 
+> ~"Enter Drive letter..." と表示されたら、**`X`** を入力します~ 
 
 ### EFI に Windows の bootloaderファイルを作成する。
 
