@@ -147,7 +147,9 @@ Sau Khi Windows đã được thiết lập, nhấn nút khởi động lại Tr
 ```cmd
 fastboot flash boot rooted_boot.img
 ```
-
+```cmd
+fastboot reboot
+```
 ## Xong rồi!
 > Bạn có thể tham gia của chúng tôi [Telegram trò chuyện](https://t.me/nabuwoa) nhận tin tức mới nhất về dự án
 ### [Bước cuối cùng: Thiết Lập Khởi Động Kép](dualboot-vi.md)
