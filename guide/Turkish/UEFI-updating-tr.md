@@ -12,7 +12,7 @@ Bilmiyorum, ama bazı insanlar bunu soruyor
 
 - Yüklü çift önyükleme
   
-- [En son UEFI](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v2.img)
+- [En son UEFI](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 
 ## Eski uefı'yi yenisiyle değiştirin
 
