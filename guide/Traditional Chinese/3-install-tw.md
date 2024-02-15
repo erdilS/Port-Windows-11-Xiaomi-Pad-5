@@ -68,19 +68,18 @@ exit
 > [!NOTE]
 > **现在以管理员身份运行命令提示符**
 
-> **使用實際 install.wim 路徑取代 `<path/to/install.wim>`**
 
-> `install.wim` 位於您先前創建的 Windows on ARM ISO 中的 `Source` 文件夾, 可通過解壓或掛載 ISO 來取得這個檔案
+> 取代 `<path/to/install.esd>` 實際路徑為 install.esd
 
-> 它也可能被命名 **install.esd.** 分别改变路径。
+> 如果您在其他地方獲得了 Windows 映射（也可能稱為`install.wim`），請將 `index:6` 跟 `index:1`
 ```cmd
-dism /apply-image /ImageFile:<path/to/install.wim> /index:6 /ApplyDir:X:\
+dism /apply-image /ImageFile:<path/to/install.esd> /index:6 /ApplyDir:X:\
 ```
 
 ### 安裝驅動程式
 > 您可以下载驱动程序[这里](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> 当它要求你 "Enter Drive letter..." 键入 **`X`**
+> 如果它要求你 "Enter Drive letter..." 键入 **`X`**
 
 
 ```cmd
@@ -88,6 +87,7 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:6 /ApplyDir:X:\
 ```
 
 ### 重建 Windows EFI
+> 如果在複製引導檔時發生錯誤，請檢查`diskpart`以查看 ESPNABU 是否仍然有字母 Y。如果沒有，請添加任何其他字母（例如 K），並分別將以下命令中的 Y 替換為該字母
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
@@ -131,6 +131,9 @@ fastboot reboot
 fastboot flash boot rooted_boot.img
 ```
 
+```cmd
+fastboot reboot
+```
 ## 完成
 > 你可以加入我们的 [Telegram 聊天](https://t.me/nabuwoa) 接收有关计划的最新消息
 ### [最后一步：设置双启动](dualboot-tw.md)
