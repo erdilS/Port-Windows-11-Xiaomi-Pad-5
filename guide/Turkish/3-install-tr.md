@@ -104,6 +104,7 @@ Sürücülerle klasörü açın ve çalıştırın OfflineUpdater.cmd
 
 # EFI için Windows önyükleme yöneticisi dosyalarını oluşturun
 > Bu aşamayı muhakkak yönetici yetkileriyle başlatılmış Komut İstemi (cmd.exe) ile yapın. Windows Terminal ya da PowerShell kullanmak komutta hata almanıza yol açacaktır.
+
 > Önyükleme dosyalarını kopyalarken bir hata oluşursa, ESPNABU'nun hala Y harfi olup olmadığını görmek için 'diskpart'ı kontrol edin. Olmazsa, başka bir harf (K gibi) ekleyin ve aşağıdaki komuttaki Y'yi sırasıyla söz konusu harfle değiştirin
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
