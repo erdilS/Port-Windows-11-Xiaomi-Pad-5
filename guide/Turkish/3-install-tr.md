@@ -10,7 +10,7 @@
 
 ### Gerekli Dosyalar
   
-- [```UEFI imajı```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v2.img)
+- [```UEFI imajı```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 
 - [```ARM Windows esd```](https://worproject.com/esd) (Seçmek - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```dilinizi seçin```)
   
@@ -133,7 +133,7 @@ adb reboot bootloader
 ```
 
 ### UEFI görüntüsünü indirin ve flaşlayın
-> İndir [UEFI görüntüsü](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v2.img)
+> İndir [UEFI görüntüsü](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 ```cmd
 fastboot flash boot <path to image>
 ```
