@@ -93,14 +93,14 @@ dism /apply-image /ImageFile:<path/to/install.esd> /index:6 /ApplyDir:X:\
 
 > Вы можете скачать драйвера [тут](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> Когда он попросит вас "Enter Drive letter...", введите **`X`**
+> Если он попросит вас "Enter Drive letter...", введите **`X`**
 
 ```cmd
  Откройте папку с драйверами и заустите OfflineUpdater.cmd
 ```
 
 ### Создайте файлы загрузчика Windows для EFI
-
+> Если при копировании загрузочных файлов возникает ошибка, откройте `diskpart', чтобы проверить, есть ли у ESPNABU буква Y. Если это не так, добавьте любую другую букву (например, K) и замените Y в приведенной ниже команде на указанную букву соответственно
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
