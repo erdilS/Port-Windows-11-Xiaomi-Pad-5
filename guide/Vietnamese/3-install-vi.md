@@ -95,7 +95,7 @@ dism /apply-image /ImageFile:<path/to/install.esd> /index:6 /ApplyDir:X:\
 
 > Bạn có Thể tải Xuống Trình Điều khiển [tại đây](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> nếu nó yêu cầu bạn "Inter Drive letter..." loại **`X`**
+> nếu nó yêu cầu bạn `"Automatic WINNABU detection failed! Enter Drive Letter manually"` loại **`X`**
 
 ```cmd
 Mở thư mục Với Trình Điều Khiển và chạy OfflineUpdater.cmd
