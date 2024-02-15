@@ -79,7 +79,7 @@ dism /apply-image /ImageFile:<path/to/install.esd> /index:6 /ApplyDir:X:\
 ### 安裝驅動程式
 > 您可以下载驱动程序[这里](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> 如果它要求你 "Enter Drive letter..." 键入 **`X`**
+> 如果它要求你 `"Automatic WINNABU detection failed! Enter Drive Letter manually"` 键入 **`X`**
 
 
 ```cmd
