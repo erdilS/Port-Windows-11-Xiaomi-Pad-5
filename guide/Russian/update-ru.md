@@ -7,11 +7,11 @@
 
 ### Требования
 
-- [образ UEFI](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+- [```образ UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
   
-- [Recovery](../../../../releases/tag/1.0)
+- [```Recovery```](../../../../releases/tag/1.0)
   
-- [Драйверы](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+- [```Драйверы```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 #### Запустите рекавери с компьютера при помощи команды
 
