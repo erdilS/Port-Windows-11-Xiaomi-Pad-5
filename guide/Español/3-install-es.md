@@ -96,7 +96,7 @@ dism /apply-image /ImageFile:<path/to/install.esd> /index:6 /ApplyDir:X:\
 
 > Puede descargar los controladores [aquí](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> Cuando le pida que "Enter Drive letter....."tipo **`X`**
+> si  le pida que "Enter Drive letter....."tipo **`X`**
 
 
 ```cmd
@@ -104,7 +104,7 @@ Abra la carpeta con los controladores y ejecute OfflineUpdater.cmd
 ```  
 
 # Crear los archivos del bootloader de Windows para la EFI 
-
+> Si se produce un error al copiar los archivos de arranque, marque `diskpart` para ver si ESPNABU todavía tiene la letra Y. Si no es así, agregue cualquier otra letra (como K) y reemplace la Y en el siguiente comando con dicha letra respectivamente
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
