@@ -104,6 +104,7 @@ Abra la carpeta con los controladores y ejecute OfflineUpdater.cmd
 ```  
 
 # Crear los archivos del bootloader de Windows para la EFI 
+> Asegúrese de hacer esto con el símbolo del sistema (cmd.exe) iniciado con privilegios de administrador. El uso de Terminal Windows o PowerShell hará que obtenga un error en el comando.
 > Si se produce un error al copiar los archivos de arranque, marque `diskpart` para ver si ESPNABU todavía tiene la letra Y. Si no es así, agregue cualquier otra letra (como K) y reemplace la Y en el siguiente comando con dicha letra respectivamente
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
