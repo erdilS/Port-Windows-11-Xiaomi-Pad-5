@@ -96,7 +96,7 @@ dism /apply-image /ImageFile:<path/to/install.esd> /index:6 /ApplyDir:X:\
 
 > Puede descargar los controladores [aquí](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> si  le pida que "Enter Drive letter....."tipo **`X`**
+> Si escribe `"Automatic WINNABU detection failed! Enter Drive Letter manually"` tipo **`X`**
 
 
 ```cmd
