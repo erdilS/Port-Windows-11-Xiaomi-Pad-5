@@ -100,7 +100,7 @@ dism /apply-image /ImageFile:<path/to/install.esd> /index:6 /ApplyDir:X:\
  ドライバが入ったフォルダを開き、OfflineUpdater.cmd を実行します。
 ```
 
-> `"Automatic WINNABU detection failed! Enter Drive Letter manually"` と書き込まれた場合は、 **`X`**と入力します
+> `"Automatic WINNABU detection failed! Enter Drive Letter manually"` と書き込まれた場合は、 **`X`** と入力します
 
 ### EFI に Windows の bootloaderファイルを作成する。
 
