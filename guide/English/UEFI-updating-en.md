@@ -4,7 +4,7 @@
 
 ## UEFI Updating
 > [!Warning]
-> If you are updating from the old UEFI (January 15) to UEFI-V3, you also have to update your drivers, which you can do using the [driver updating guide](update-en.md)
+> If you are updating from the old UEFI (January 15 or before) to UEFI-V3, you also have to update your drivers, which you can do using the [driver updating guide](update-en.md)
 
 ### Why is this guide needed?
 
