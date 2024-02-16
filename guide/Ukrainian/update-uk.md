@@ -6,11 +6,11 @@
 
 ### Передумова
 
-- [Відновлений образ](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```образ recovery```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
   
-- [Образ UEFI](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+- [```Образ UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
   
-- [Драйвері](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+- [```Драйвері```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 
 
@@ -63,6 +63,7 @@ exit
 
 > Ви можете завантажити драйвери [тут](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
+> Якщо написано `"Automatic WINNABU detection failed! Enter Drive Letter manually"` Введіть **`X`**
 ```cmd
  Відкрийте папку драйверів і запустіть OfflineUpdater.cmd
 ```
