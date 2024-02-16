@@ -8,7 +8,7 @@
 
 ### Why is this guide needed?
 
-Idk, but some people asking about it 
+Idk, but some people were asking about it 
 
 ### Prerequisites
 - [```WOA Helper app```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
