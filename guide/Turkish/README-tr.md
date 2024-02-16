@@ -36,7 +36,7 @@ Bu proje geliştirme aşamasındadır, buradaki tüm dosyalara diğer kullanıc�
   
 - [Sürücüleri Güncelleme](update-tr.md)
   
-- [Yeniden yükleme](reinstall-tr.md)
+- ~[Yeniden yükleme](reinstall-tr.md)~
   
 - [UEFI Güncelleniyor](UEFI-updating-tr.md)
   
