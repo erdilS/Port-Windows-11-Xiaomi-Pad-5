@@ -19,7 +19,8 @@ Idk, but some people were asking about it
 > If you haven't yet set up dualboot, follow the [dualboot guide](/guide/English/dualboot-en.md) to set up the WOA Helper properly
 - Boot to Android
 - Open the `UEFI` folder in your internal storage
-- Delete the old UEFI and place the new one inside
+- Delete the old UEFI
+- Place the new one inside
 
 ## Done, switch to Windows and enjoy 
 
