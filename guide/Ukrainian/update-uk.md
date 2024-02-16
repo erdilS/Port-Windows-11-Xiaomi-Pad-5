@@ -68,7 +68,18 @@ exit
  Відкрийте папку драйверів і запустіть OfflineUpdater.cmd
 ```
 
-##### Завантаження за допомогою завантажувального образу UEFI Windows #####
+### Перезавантаження до fastboot для прошивки UEFI
+> Або, якщо ваш UEFI вже був прошитий, просто перезавантажте його за допомогою ```adb reboot```
+```cmd
+adb reboot bootloader
+```
+
+### Завантаження з завантажувальним образом UEFI Windows
+> Replace <uefi.img> with the actual path of the UEFI image
+```cmd
+fastboot flash boot <uefi.img>
+```
+### Завантаження за допомогою завантажувального образу UEFI Windows 
 
 ```
 fastboot flash boot <uefi.img>
