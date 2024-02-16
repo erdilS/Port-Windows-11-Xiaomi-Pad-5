@@ -36,7 +36,7 @@ Questo progetto è in fase di sviluppo, tutti i file qui sono stati forniti da a
   
 - [Aggiornamento dei driver](update-it.md)
   
-- [Reinstallazione](reinstall-it.md)
+- ~[Reinstallazione](reinstall-it.md)~
   
 - [Aggiornamento UEFI](UEFI-updating-it.md)
   
