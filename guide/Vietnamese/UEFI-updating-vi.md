@@ -1,14 +1,14 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-# Running Windows on the Xiaomi Pad 5
+# Chạy Windows trên Xiaomi Pad 5
 
-## UEFI Updating
+## Cập nhật UEFI
 > [!Warning]
-> If you are updating from the old UEFI (January 15 or before) to UEFI-V3, you also have to update your drivers, which you can do using the [driver updating guide](update-en.md)
+> Nếu bạn đang cập nhật từ UEFI cũ (ngày 15 tháng 1 trở về trước) lên UEFI-V3, bạn cũng phải cập nhật trình điều khiển của mình, bạn có thể thực hiện việc này bằng cách sử dụng [hướng dẫn cập nhật trình điều khiển](update-vi.md)
 
-### Why is this guide needed?
+### Tại sao hướng dẫn này là cần thiết?
 
-Idk, but some people were asking about it 
+Idk, nhưng một số người đã hỏi về nó 
 
 ### Điều kiện tiên quyết
 - [```Ứng dụng WOA Helper```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
