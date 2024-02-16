@@ -94,7 +94,7 @@ dism /apply-image /ImageFile:<path/to/install.esd> /index:6 /ApplyDir:X:\
 
 > You can download the Drivers [here](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> If it ask you to "Enter Drive letter..." type **`X`**
+> If it writes `"Automatic WINNABU detection failed! Enter Drive Letter manually"` type **`X`**
 
 ```cmd
  Open the folder with Drivers and run OfflineUpdater.cmd
