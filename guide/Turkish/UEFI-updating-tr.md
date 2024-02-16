@@ -1,27 +1,28 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-# Xiaomi Pad 5'te Windows çalıştırma
+# Xiaomi Pad 5'te Windows Çalıştırma
 
-## UEFI Güncellemesi
+## UEFI Güncelleme
+> [!Warning]
+> Eski UEFI'den (15 Ocak veya öncesi) UEFI-V3'e güncelleme yapıyorsanız, [sürücü güncelleme kılavuzunu] kullanarak yapabileceğiniz sürücülerinizi de güncellemeniz gerekir.(update-tr.md)
 
-### Bu kılavuza neden ihtiyaç duyuluyor?
+### Why is this guide needed?
 
-Bilmiyorum, ama bazı insanlar bunu soruyor
+Bilmiyorum, Ama bazı insanlar bunu soruyordu 
 
 ### Önkoşullar
-
-- Yüklü çift önyükleme
+- [```WOA Helper app```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
   
-- [En son UEFI](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+- [```Latest UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 
-## Eski uefı'yi yenisiyle değiştirin
+## Replace old UEFI with the new one
+> If you haven't yet set up dualboot, follow the [dualboot guide](/guide/English/dualboot-en.md) to set up the WOA Helper properly
+- Boot to Android
+- Open the `UEFI` folder in your internal storage
+- Delete the old UEFI
+- Place the new one inside
 
-- Android'e önyükleme
+## Done, switch to Windows and enjoy 
 
-- Android Gezgini'nde Windows klasörünü açın
-
-- Eski UEFI'yi sil
-
-- Bu klasöre yeni UEFI koyun ve şu şekilde yeniden adlandırın boot.img
-
-## Bitti, Windows'a geçin ve keyfini çıkarın
+> [!NOTE]
+>  If you get a BSOD or Windows can't boot normally, make sure you're using the latest drivers and update them 
