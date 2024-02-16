@@ -6,23 +6,23 @@
 > [!Warning]
 > Eski UEFI'den (15 Ocak veya öncesi) UEFI-V3'e güncelleme yapıyorsanız, [sürücü güncelleme kılavuzunu] kullanarak yapabileceğiniz sürücülerinizi de güncellemeniz gerekir.(update-tr.md)
 
-### Why is this guide needed?
+### Bu kılavuza neden ihtiyaç duyuluyor?
 
 Bilmiyorum, Ama bazı insanlar bunu soruyordu 
 
 ### Önkoşullar
 - [```WOA Helper app```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
   
-- [```Latest UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+- [```En son UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 
-## Replace old UEFI with the new one
-> If you haven't yet set up dualboot, follow the [dualboot guide](/guide/English/dualboot-en.md) to set up the WOA Helper properly
+## Eski UEFI'yi yenisiyle değiştirin
+> Henüz dualboot'u kurmadıysanız, [dualboot kılavuzunu](/guide/Turkish/dualboot-tr.md) izleyin kurmak için WOA Helper gereken şekilde
 - Boot to Android
-- Open the `UEFI` folder in your internal storage
-- Delete the old UEFI
-- Place the new one inside
+- Dahili depolama alanınızdaki `UEFI` klasörünü açın
+- Eski UEFI'yi silin
+- Yenisini içine yerleştirin
 
-## Done, switch to Windows and enjoy 
+## Bitti, Windows'a geçin ve keyfini çıkarın 
 
 > [!NOTE]
->  If you get a BSOD or Windows can't boot normally, make sure you're using the latest drivers and update them 
+>  Bir BSOD alırsanız veya Windows normal şekilde önyükleme yapamıyorsa, en son sürücüleri kullandığınızdan emin olun ve bunları güncelleyin Bir BSOD alırsanız veya Windows normal şekilde önyükleme yapamıyorsa, en son sürücüleri kullandığınızdan emin olun ve bunları güncelleyin Bir BSOD alırsanız veya Windows normal şekilde önyükleme yapamıyorsa, en son sürücüleri kullandığınızdan emin olun ve bunları güncelleyin 
