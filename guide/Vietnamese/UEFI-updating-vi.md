@@ -24,5 +24,5 @@ Idk, but some people were asking about it
 
 ## Xong, chuyển sang Windows và tận hưởng 
 
-> [!NOTE]
+> [!hm]
 >  Nếu bạn nhận được BSOD hoặc Windows không thể khởi động bình thường, hãy đảm bảo bạn đang sử dụng trình điều khiển mới nhất và cập nhật chúng 
