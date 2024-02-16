@@ -2,28 +2,27 @@
 
 # Esecuzione di Windows sullo Xiaomi Pad 5
 
-## Aggiornamento UEFI
+##  Aggiornamento UEFI
+> [!Warning]
+> Se stai aggiornando dal vecchio UEFI (15 gennaio o prima) a UEFI-V3, devi anche aggiornare i tuoi driver, cosa che puoi fare utilizzando la [guida all'aggiornamento dei driver](update-es.md)
 
 ### Perché è necessaria questa guida?
 
-Non lo so, ma alcune persone lo chiedono
+Non lo so, ma alcune persone me lo chiedevano 
 
-### Prerequisito
-
-- Installato dual boot
+### Prerequisiti
+- [```App WOA Helper```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
   
-- [Ultimo UEFI](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+- [```Ultima UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 
-## Sostituire il vecchio UEFI con quello nuovo
+## Sostituisci il vecchio UEFI con quello nuovo
+> Se non hai ancora configurato dualboot, segui la [guida dualboot](/guide/English/dualboot-en.md) per configurare correttamente l'helper WOA
+- Avvia su Android
+- Apri la cartella `UEFI` nella tua memoria interna
+- Elimina il vecchio UEFI
+- Posiziona quello nuovo all'interno
 
-- Avvio ad Android
+## Fatto, passa a Windows e divertiti 
 
-- Apri la cartella Windows in explorer
-
-- Elimina vecchio UEFI
-
-- Mettere nuovo UEFI a questa cartella
-
-- Rinominarlo UEFI boot.img
-  
-## Fatto, passare a Windows e godere
+> [!NOTE]
+>  Se ottieni un BSOD o Windows non può avviarsi normalmente, assicurati di utilizzare i driver più recenti e aggiornali 
