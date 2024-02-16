@@ -24,7 +24,8 @@ Idk, but some people were asking about it
 
 ## Done, switch to Windows and enjoy 
 
-
+> [!NOTE]
+>  If you get a BSOD or Windows can't boot normally, make sure you're using the latest drivers and update them 
 
 
 
