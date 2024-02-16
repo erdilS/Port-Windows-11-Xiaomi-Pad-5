@@ -94,7 +94,7 @@ dism /apply-image /ImageFile:<sources/install.wim> /index:6 /ApplyDir:X:\
 
 > Sürücüleri indirebilirsiniz [burada](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> Size sorduğunda `"Automatic WINNABU detection failed! Enter Drive Letter manually"` tür **`X`**
+> `"Automatic WINNABU detection failed! Enter Drive Letter manually"` yazıyorsa, **`X`** yazın   
 
 
 ```cmd
