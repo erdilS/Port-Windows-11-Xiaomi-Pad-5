@@ -1,27 +1,30 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-# Running Windows on the Xiaomi Pad 5
+# Запуск Windows на Xiaomi Pad 5
 
-## UEFI Updating
+## Оновлення UEFI
+> [!Warning]
+> Якщо ви оновлюєтеся зі старого UEFI (15 січня або раніше) до UEFI-V3, вам також потрібно оновити драйвери, що ви можете зробити за допомогою [Посібника з оновлення драйверів](update-uk.md)
+###  Навіщо потрібен цей посібник?
 
-### Why is this guide needed?
+Ідк, але деякі люди запитують про це 
 
-Idk, but some people asking about it 
-
-### Prerequisites
-- [```WOA Helper app```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
+### Передумови
+- [```WOA Helper```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
   
-- [```Latest UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+- [```Найновіші версії UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 
-## Replace old UEFI with the new one
-> If you haven't yet set up dualboot, follow the [dualboot guide](/guide/Ukrainian/dualboot-uk.md) to set up the WOA Helper properly
-- Boot to Android
-- Open the `UEFI` folder in your internal storage
-- Delete the old UEFI and place the new one inside
+## Замініть старий UEFI на новий
+> Якщо ви ще не налаштували подвійне завантаження, дотримуйтесь [посібника з подвійного завантаження](/guide/Ukrainian/dualboot-uk.md) щоб правильно налаштувати WOA Helper 
+- Завантаження на Андроїд
+- Відкрийте папку `UEFI` у внутрішній пам'яті
+- Видаліть старий UEFI 
+- Помістіть новий всередину
 
-## Done, switch to Windows and enjoy 
+## Готово, переходьте на Windows і насолоджуйтесь 
 
-
+> [!NOTE]
+>  Якщо ви отримуєте BSOD або Windows не може завантажитися нормально, переконайтеся, що ви використовуєте найновіші драйвери, і оновіть їх 
 
 
 
