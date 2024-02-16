@@ -10,19 +10,19 @@
 
 Idk, but some people were asking about it 
 
-### Prerequisites
-- [```WOA Helper app```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
+### Điều kiện tiên quyết
+- [```Ứng dụng WOA Helper```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
   
-- [```Latest UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+- [```UEFI mới nhất```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 
-## Replace old UEFI with the new one
-> If you haven't yet set up dualboot, follow the [dualboot guide](/guide/English/dualboot-en.md) to set up the WOA Helper properly
-- Boot to Android
-- Open the `UEFI` folder in your internal storage
-- Delete the old UEFI
-- Place the new one inside
+## Thay thế UEFI cũ bằng UEFI mới
+> Nếu bạn chưa thiết lập dualboot, hãy làm theo [hướng dẫn dualboot](/guide/Vietnamese/dualboot-vi.md) để thiết lập WOA Helper Đúng
+- Khởi động vào Android
+- Mở thư mục `UEFI` trong bộ nhớ trong của bạn
+- Xóa UEFI cũ
+- Đặt cái mới bên trong
 
-## Done, switch to Windows and enjoy 
+## Xong, chuyển sang Windows và tận hưởng 
 
 > [!NOTE]
->  If you get a BSOD or Windows can't boot normally, make sure you're using the latest drivers and update them 
+>  Nếu bạn nhận được BSOD hoặc Windows không thể khởi động bình thường, hãy đảm bảo bạn đang sử dụng trình điều khiển mới nhất và cập nhật chúng 
