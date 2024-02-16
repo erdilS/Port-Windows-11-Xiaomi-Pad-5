@@ -26,7 +26,7 @@ fastboot boot <recovery.img>
 
 
 ### запустити msc
-> Якщо скрипт попросить запустити його ще раз, то так і зробіть
+> Якщо ён попросить запустити його ще раз, то так і зробіть
 
 ```cmd
 adb shell msc
@@ -65,7 +65,7 @@ assign letter=x
 select volume <номер>
 ```
 
-### Призначення літери `Y`
+#### Призначення літери `Y`
 
 ```diskpart
 assign letter=y
@@ -94,14 +94,14 @@ dism /apply-image /ImageFile:<path/to/install.esd> /index:6 /ApplyDir:X:\
 
 > Ви можете завантажити драйвери [тут](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> якщо він попросить вас `"Automatic WINNABU detection failed! Enter Drive Letter manually"`, ввівши **`X`**
+> якщо він пише `"Automatic WINNABU detection failed! Enter Drive Letter manually"`, введіть **`X`**
 
 ```cmd
  Відкрийте папку драйверів і запустіть OfflineUpdater.cmd
 ```
 
-# Створіть файли завантажувача Windows
-> Якщо під час копіювання завантажувальних файлів виникає помилка, перевірте «diskpart», щоб перевірити, чи є в ESPNABU літера Y. Якщо це не так, додайте будь-яку іншу літеру (наприклад, K) і замініть Y у наведеній нижче команді на зазначену літеру відповідно
+## Створіть файли завантажувача Windows
+> Якщо під час копіювання завантажувальних файлів виникає помилка, перевірте `diskpart`, щоб перевірити, чи є в ESPNABU літера Y. Якщо це не так, додайте будь-яку іншу літеру (наприклад, K) і замініть Y у наведеній нижче команді на зазначену літеру відповідно
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
