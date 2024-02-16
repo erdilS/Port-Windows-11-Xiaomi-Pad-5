@@ -119,7 +119,7 @@ mountvol y: /d
   
 ## Avvia Windows
 
-### Crea un backup dell'immagine di avvio (boot.img) esistente
+### Crea un backup dell'immagine di avvio esistente
 > [!NOTE]
 > **Ora torna al prompt dei comandi di platform tools**
 
