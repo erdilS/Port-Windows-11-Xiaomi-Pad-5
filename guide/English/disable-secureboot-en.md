@@ -35,7 +35,7 @@
 #### Make a backup of your rooted boot image
 > You will need this to return to Android, but you can skip this step if you've already made a backup
 
-Use the `Backup Android boot` function in the WOA Helper app, or boot to fastboot and run
+Use the `Backup Android boot` function in the WOA Helper app, or boot to the modded recovery and run
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img" && adb pull /tmp/boot.img
 ```
