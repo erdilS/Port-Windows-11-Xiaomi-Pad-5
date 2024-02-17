@@ -22,7 +22,7 @@
 fastboot boot <recovery.img>
 ```
 
-#### 執行 msc 
+#### 大容量ストレージモードを有効にする
 > 如果腳本提示您需要重新運行一次, 請重新執行下面的命令
 ```cmd
 adb shell msc
