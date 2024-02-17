@@ -4,7 +4,7 @@
 # Cài đặt Windows 11 lên Xiaomi Mi Pad 5
 
 > [!WARNING]
-> **VUI LÒNG KHÔNG SỬ DỤNG HƯỚNG DẪN VIDEO LỖI THỜI TRÊN YOUTUBE HOẶC BẤT KỲ NỀN TẢNG NÀO KHÁC! NHỮNG VIDEO NÀY ĐÃ LỖI THỜI VÀ BẠN CÓ THỂ GẠCH THIẾT BỊ CỦA MÌNH BẰNG CÁCH SỬ DỤNG NÓ! NẾU BẠN CẦN MỘT VIDEO HƯỚNG DẪN, SỬ DỤNG NÀY [HƯỚNG DẪN VIDEO MỚI](https://www.youtube.com/watch?v=rGPbdFq7gKs) TỪ [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
+> **VUI LÒNG KHÔNG SỬ DỤNG HƯỚNG DẪN VIDEO LỖI THỜI TRÊN YOUTUBE HOẶC BẤT KỲ NỀN TẢNG NÀO KHÁC! NHỮNG VIDEO NÀY ĐÃ LỖI THỜI VÀ BẠN CÓ THỂ GẠCH THIẾT BỊ CỦA MÌNH BẰNG CÁCH SỬ DỤNG NÓ! NẾU BẠN CẦN MỘT VIDEO HƯỚNG DẪN, SỬ DỤNG NÀY [HƯỚNG DẪN VIDEO MỚI](https://youtu.be/BbgTbTGbXYg) TỪ [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
 
 ## Hướng dẫn cài đặt
 
