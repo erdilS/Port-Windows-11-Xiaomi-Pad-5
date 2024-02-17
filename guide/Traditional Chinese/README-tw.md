@@ -19,7 +19,7 @@
 
 **如果您不習慣修改平板電腦或其分區表，或者您偏執於磚砌設備，請立即按兩下！！你已經被警告過，如果你把你的設備弄磚了，你就只能靠自己了！！再！你已經被警告過了！！**
 > [!WARNING]
-> **請不要在YOUTUBE或任何其他平臺上使用視頻指南！這些視頻已經過時了，您可以使用它們來破壞您的設備！如果您絕對需要視頻指南，請使用 [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA) 的 [視頻指南](https://www.youtube.com/watch?v=rGPbdFq7gKs)**
+> **請不要在YOUTUBE或任何其他平臺上使用視頻指南！這些視頻已經過時了，您可以使用它們來破壞您的設備！如果您絕對需要視頻指南，請使用 [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA) 的 [視頻指南](https://youtu.be/BbgTbTGbXYg)**
 
 
 ## 开始吧
