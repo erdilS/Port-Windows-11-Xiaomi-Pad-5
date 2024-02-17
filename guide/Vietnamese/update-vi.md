@@ -63,8 +63,16 @@ exit
 ```cmd
 Mở thư mục Với Trình Điều Khiển và chạy OfflineUpdater.cmd
 ```
+
+### Khởi động lại để fastboot để flash UEFI 
+> Hoặc nếu UEFI của bạn đã được flashed, chỉ cần khởi động lại với ```adb reboot```
+```cmd
+adb reboot bootloader
+```
+
 ### Khởi động bằng Windows bootable UEFI image
- Hoặc nếu UEFI của bạn đã được flashed, chỉ cần khởi động lại với ```adb reboot```
+> Thay thế <uefi.img> bằng đường dẫn thực tế của hình ảnh UEFI
+ 
 ```
 fastboot flash boot <uefi.img>
 ```
