@@ -62,14 +62,14 @@ exit
 
 > È possibile scaricare i driver [qui](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> se scrive  `"Automatic WINNABU detection failed! Enter Drive Letter manually"` digita **`X`**
+> se scrive `"Automatic WINNABU detection failed! Enter Drive Letter manually"` digita **`X`**
 ```cmd
 Apri la cartella con i driver ed esegui OfflineUpdater.cmd
 ```
 
 
 ### Avvia Windows con l'immagine UEFI
-
+> Oppure, se il tuo UEFI è già stato flashato, riavvia semplicemente con adb reboot
 ```
 fastboot flash boot <uefi.img>
 ```
