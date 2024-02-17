@@ -10,18 +10,18 @@
 
 - [```UEFI image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 
-- [```Recovery image```](../../../../releases/tag/1.0)
+- [```Recovery image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
 - [```Drivers```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-#### Start recovery through the PC with the command
+### Start recovery through the PC with the command
 
 ```cmd
 fastboot boot <recovery.img>
 ```
 
 
-#### Execute script
+### Activate mass storage mode
 > If it asks you to run it once again, do so
 ```cmd
 adb shell msc
@@ -52,7 +52,7 @@ select volume <number>
 assign letter x
 ```
 
-#### Exit diskpart
+### Exit diskpart
 ```diskpart
 exit
 ```
@@ -73,7 +73,7 @@ exit
 adb reboot bootloader
 ```
 
-### Boot with Windows bootable UEFI image
+#### Boot with Windows bootable UEFI image
 > Replace <uefi.img> with the actual path of the UEFI image
 ```cmd
 fastboot flash boot <uefi.img>
