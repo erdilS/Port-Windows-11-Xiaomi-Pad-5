@@ -69,7 +69,7 @@ Apri la cartella con i driver ed esegui OfflineUpdater.cmd
 
 
 ### Avvia Windows con l'immagine UEFI
-> Oppure, se il tuo UEFI è già stato flashato, riavvia semplicemente con adb reboot
+> Oppure, se il tuo UEFI è già stato flashato, riavvia semplicemente con `adb reboot`
 ```
 fastboot flash boot <uefi.img>
 ```
