@@ -3,7 +3,7 @@
 
 # Xiaomi Pad 5 üzerinde Windows Çalıştırma
 > [!WARNING]
-> **LÜTFEN YOUTUBE'DA VEYA BAŞKA BİR platformda güncel olmayan VİDEO kılavuzları kullanmayın! BU VİDEOLAR MODASI GEÇMİŞ VE CİHAZINIZI KULLANARAK TUĞLALAYABİLİRSİNİZ! BİR VİDEO KILAVUZUNA İHTİYACINIZ VARSA, BUNU KULLANIN [YENİ VİDEO REHBERİ](https://www.youtube.com/watch?v=rGPbdFq7gKs) -den [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
+> **LÜTFEN YOUTUBE'DA VEYA BAŞKA BİR platformda güncel olmayan VİDEO kılavuzları kullanmayın! BU VİDEOLAR MODASI GEÇMİŞ VE CİHAZINIZI KULLANARAK TUĞLALAYABİLİRSİNİZ! BİR VİDEO KILAVUZUNA İHTİYACINIZ VARSA, BUNU KULLANIN [YENİ VİDEO REHBERİ](https://youtu.be/BbgTbTGbXYg) -den [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
 
 
 ## Aşama 2: Windows Kurulumu
