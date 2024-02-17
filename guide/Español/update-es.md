@@ -66,10 +66,15 @@ exit
 ```cmd
 Abra la carpeta con los controladores y ejecute OfflineUpdater.cmd
 ```  
-
-
-#### Arrancar Windows con la imagen UEFI #####
+### Reboot to fastboot to flash UEFI
 > O si su UEFI ya ha sido flasheada, simplemente reinicie con ```adb reboot```
+```cmd
+adb reboot bootloader
+```
+
+#### Arrancar Windows con la imagen UEFI 
+> Reemplace <uefi.img> por la ruta real de la imagen UEFI
+
 ```
 fastboot flash boot <uefi.img>
 ```
