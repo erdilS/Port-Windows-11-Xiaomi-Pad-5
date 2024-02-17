@@ -66,7 +66,7 @@ adb reboot bootloader
 ```
 
 ### 刷入 UEFI boot 鏡像到當前激活的 slot
-> > 將 <uefi.img> 替換為 UEFI 映像的實際路徑
+> 將 <uefi.img> 替換為 UEFI 映像的實際路徑
 ```cmd
 fastboot flash boot <uefi.img>
 ```
