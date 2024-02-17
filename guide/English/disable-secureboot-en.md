@@ -25,8 +25,11 @@
 
 ##### Cons of secureboot
 - PC is required to update drivers
-- SOME applications may not run due to Test Mode
 
+##### Cons of secureboot disabled 
+- SOME applications may not run due to Test Mode
+- Watermark on homescreen
+  
 ## Disabling secureboot
 
 #### Make a backup of your rooted boot image
