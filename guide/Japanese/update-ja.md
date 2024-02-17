@@ -67,10 +67,14 @@ exit
 ```cmd
 ドライバでフォルダを開き、実行します OfflineUpdater.cmd
 ```
-
+### UEFIをフラッシュするためにfastbootに再起動します
+> または、UEFIがすでにフラッシュされている場合は、`adb reboot`で再起動するだけです
+```cmd
+adb reboot bootloader
+```
 
 ### Windowsブート可能なUEFIイメージで起動する
-または、UEFIがすでにフラッシュされている場合は、`adb reboot`で再起動するだけです
+> <uefi.img> を UEFI イメージの実際のパスに置き換えます
 ```
 fastboot flash boot <uefi.img>
 ```
