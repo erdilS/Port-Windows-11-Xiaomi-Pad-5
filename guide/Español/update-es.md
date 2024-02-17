@@ -66,7 +66,7 @@ exit
 ```cmd
 Abra la carpeta con los controladores y ejecute OfflineUpdater.cmd
 ```  
-### Reboot to fastboot to flash UEFI
+### Reiniciar para fastboot a flash UEFI
 > O si su UEFI ya ha sido flasheada, simplemente reinicie con ```adb reboot```
 ```cmd
 adb reboot bootloader
