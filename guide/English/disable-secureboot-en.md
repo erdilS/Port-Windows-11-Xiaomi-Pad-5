@@ -24,7 +24,6 @@
 - Apps that do not work with Test Mode will work
 
 ##### Cons of secureboot
-- Watermark on homescreen
 - PC is required to update drivers
 - SOME applications may not run due to Test Mode
 
