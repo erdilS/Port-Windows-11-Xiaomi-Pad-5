@@ -58,14 +58,20 @@ exit
 
 > Sürücüleri indirebilirsiniz [burada](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
+> `"Automatic WINNABU detection failed! Enter Drive Letter manually"` yazıyorsa, **`X`** yazın   
+
 ```cmd
 Sürücülerle klasörü açın ve çalıştırın OfflineUpdater.cmd
 ```
   
+### UEFI'yi flaş etmek için fastboot'u yeniden başlatın
+> Veya UEFI'niz zaten yanıp sönmüşse, ```adb reboot``` ile yeniden başlatmanız yeterlidir.
+```cmd
+adb reboot bootloader
+```
 
-
-##### UEFI imajını yükleyerek Windows'u başlatın #####
-
+#### UEFI imajını yükleyerek Windows'u başlatın #####
+> <uefi.img> dosyasını UEFI görüntüsünün gerçek yolu ile değiştirin
 ```
 fastboot flash boot <uefi.img>
 ```
