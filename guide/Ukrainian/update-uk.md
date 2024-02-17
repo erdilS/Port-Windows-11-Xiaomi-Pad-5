@@ -76,15 +76,9 @@ adb reboot bootloader
 ```
 
 ### Завантаження з завантажувальним образом UEFI Windows
-> Replace <uefi.img> with the actual path of the UEFI image
+> Замініть <uefi.img> на фактичний шлях до образу UEFI
 ```cmd
 fastboot flash boot <uefi.img>
 ```
-### Завантаження за допомогою завантажувального образу UEFI Windows 
-
-```
-fastboot flash boot <uefi.img>
-```
-
 
 # Готово!
