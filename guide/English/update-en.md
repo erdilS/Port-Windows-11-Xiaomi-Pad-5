@@ -62,7 +62,7 @@ exit
 
 > You can download Drivers [here](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> If it writes `"Automatic WINNABU detection failed! Enter Drive Letter manually"` type `**X**`
+> If it writes `"Automatic WINNABU detection failed! Enter Drive Letter manually"` type **`X`**
 ```cmd
  Open the folder with Drivers and run OfflineUpdater.cmd
 ```
