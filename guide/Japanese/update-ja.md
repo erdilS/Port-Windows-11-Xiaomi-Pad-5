@@ -62,14 +62,15 @@ exit
 
 > ドライバをダウンロードすることができます[ここ](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> それがあなたに尋ねるなら "Enter Drive letter..." タイプ**`X`**
+> `"Automatic WINNABU detection failed! Enter Drive Letter manually"` と書き込まれた場合は、 **`X`** と入力します
+
 ```cmd
 ドライバでフォルダを開き、実行します OfflineUpdater.cmd
 ```
 
 
 ### Windowsブート可能なUEFIイメージで起動する
-
+または、UEFIがすでにフラッシュされている場合は、`adb reboot`で再起動するだけです
 ```
 fastboot flash boot <uefi.img>
 ```
