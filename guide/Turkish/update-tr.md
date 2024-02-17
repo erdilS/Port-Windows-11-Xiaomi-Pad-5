@@ -4,11 +4,11 @@
 
 ### Prerequisites
 
-- [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+- [```UEFI image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
   
-- [Recovery imajı](../../../../releases/tag/1.0)
+- [```Recovery imajı```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
   
-- [Sürücüler](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+- [```Sürücüler```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 #### Recovery modunu bilgisayar aracılığıyla başlatın
 
