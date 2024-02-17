@@ -6,11 +6,11 @@
 
 ### 請先準備下面的步驟
 
-- [Recovery](../../../../releases/tag/1.0)
+- [```Recovery```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
   
-- [UEFI boot 映像](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+- [```UEFI boot 映像```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
   
-- [驅動文件](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+- [```驅動文件```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ### 請進入 Fastboot 模式, 並輸入以下命令來啟动到 Recovery
 ```cmd
@@ -54,17 +54,21 @@ exit
 ### 安裝驅動程式
 > 您可以下载驱动程序[这里](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
+> 如果它寫入 `"Automatic WINNABU detection failed! Enter Drive Letter manually"`，則鍵入 **`X`** 
 ```cmd
 打开带有驱动程序的文件夹并运行 OfflineUpdater.cmd
 ```
+
 ### 重啟到 Bootloader
+> 或者，如果您的 UEFI 已經刷新，只需使用 ```adb reboot``` 重新啟動即可
 ```cmd
 adb reboot bootloader
 ```
 
 ### 刷入 UEFI boot 鏡像到當前激活的 slot
+> > 將 <uefi.img> 替換為 UEFI 映像的實際路徑
 ```cmd
-fastboot flash boot <UEFI.img>
+fastboot flash boot <uefi.img>
 ```
 
 ## 完成
