@@ -3,7 +3,7 @@
 
 # Xiaomi Pad 5 で Windows を動かす
 > [!WARNING]
-> **YOUTUBEやその他のプラットフォームで古いビデオガイドを使用しないでください。 これらのビデオは古くなっており、あなたはそれを使用してあなたのデバイスをレンガすることができます！ ビデオガイドが必要な場合は、これを使用してください [新しいビデオガイド](https://www.youtube.com/watch?v=rGPbdFq7gKs) から [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
+> **YOUTUBEやその他のプラットフォームで古いビデオガイドを使用しないでください。 これらのビデオは古くなっており、あなたはそれを使用してあなたのデバイスをレンガすることができます！ ビデオガイドが必要な場合は、これを使用してください [新しいビデオガイド](https://youtu.be/BbgTbTGbXYg) から [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
 
 ## インストール手順
 
