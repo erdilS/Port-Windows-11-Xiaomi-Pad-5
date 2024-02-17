@@ -2,7 +2,7 @@
 
 # 在 Xiaomi Pad 5 上安裝 Windows
 > [!WARNING]
-> **请不要在YOUTUBE或任何其他平台上使用过时的视频指南！ 这些视频是过时的,你可以砖你的设备使用它! 如果您需要视频指南，请使用此 [新视频指南](https://www.youtube.com/watch?v=rGPbdFq7gKs) 从 [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
+> **请不要在YOUTUBE或任何其他平台上使用过时的视频指南！ 这些视频是过时的,你可以砖你的设备使用它! 如果您需要视频指南，请使用此 [新视频指南](https://youtu.be/BbgTbTGbXYg) 从 [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
 
 ## 安裝 Windows
 
