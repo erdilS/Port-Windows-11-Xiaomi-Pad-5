@@ -10,7 +10,7 @@
 
 - [```UEFI image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
   
-- [```Recovery``](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```Recovery```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
   
 - [```Drivers```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
@@ -66,10 +66,14 @@ exit
 ```cmd
 Apri la cartella con i driver ed esegui OfflineUpdater.cmd
 ```
-
+### Riavvia per avviare rapidamente per eseguire il flash, UEFI
+> Oppure, se il tuo UEFI è già stato flashato, riavvia semplicemente con `adb reboot`
+```cmd
+adb reboot bootloader
+```
 
 ### Avvia Windows con l'immagine UEFI
-> Oppure, se il tuo UEFI è già stato flashato, riavvia semplicemente con `adb reboot`
+> Reemplace <uefi.img> por la ruta real de la imagen UEFI
 ```
 fastboot flash boot <uefi.img>
 ```
