@@ -3,13 +3,14 @@
 
 # Запуск Windows на Xiaomi Pad 5
 
-
 Цей крок потрібен щоби ми створили розділи, де буде знаходитись Windows
-### Передумова
 
-- [```Відновлений образ```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+### Необхідні файли
+
+- [```Відновлення```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
+
 ## Нотатки:
 > [!WARNING]
 > Якщо ви видалили будь-який розділ використовуючи diskpart, Windows рано или пізно відправить команду пам'яти, яка буде неправильно розпізнана, і тому пам'ять буде стерта.
@@ -24,8 +25,8 @@
 ```cmd
 fastboot boot <recovery.img>
 ```
-##### Запустіть скрипт розмітки
 
+##### Запустіть скрипт розмітки
 > Якщо скрипт попросить запустити його ще раз, то так і зробіть
 
 > Це необов'язково, але ви можете встановити власні розміри за допомогою цього сценарію
@@ -43,12 +44,11 @@ adb shell partition
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
 ```
 
-
-#### Перевірте, чи все ще запускається Android 
-> Перезавантажте, щоб перевірити, чи працює Android. Якщо він не завантажується, зітріть усі дані під час відновлення та повторіть спробу. 
+#### Перевірте, чи запускається Android 
+> Перезавантажте, щоб перевірити, чи працює Android. Якщо він не завантажується, зітріть усі дані та повторіть спробу. 
 
 ```cmd
 adb reboot
 ```
 
-## [Наступний крок: Get root](/guide/Ukrainian/2-rootguide-uk.md)
+## [Наступний крок: отримання root](/guide/Ukrainian/2-rootguide-uk.md)
