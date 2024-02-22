@@ -19,17 +19,18 @@
 ## Pros and cons of secureboot
 > By default, secureboot is enabled in this guide
 
-##### Pros of secureboot
-- No watermark on homescreen
-- Apps that do not work with Test Mode will work
+##### Pros and cons of secureboot
+- √ No watermark on homescreen
+- √ Apps that do not work with Test Mode will work
+- √ You can update big versions (e.g 22h2 to 23h2) in Windows update directly
+- × You cannot update drivers without a PC
 
-##### Cons of secureboot
-- PC is required to update drivers
+##### Pros and cons of secureboot disabled
+- √ You can update drivers directly from your tablet; no PC is needed
+- × Test mode watermark on homescreen
+- × Some apps/games with anti-cheat software may not work
+- × You cannot update big versions (e.g 22h2 to 23h2) through Windows Update
 
-##### Cons of secureboot disabled 
-- SOME applications may not run due to Test Mode
-- Watermark on homescreen
-  
 ## Disabling secureboot
 
 #### Make a backup of your rooted boot image
