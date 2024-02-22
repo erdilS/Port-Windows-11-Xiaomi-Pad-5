@@ -1,28 +1,22 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-# Running Windows on the Xiaomi Pad 5
+# Запуск Windows на Xiaomi Pad 5
 
 ## Оновлення драйверів у Windows
 
+### Необхідні файли
 
-### Передумова
-
-- [```образ recovery```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```Recovery```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
   
-- [```Образ UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+- [```UEFI образ```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
   
 - [```Драйвері```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-
-
-
-#### Запустіть Recovery за допомогою завантажувача
+### Запустіть Recovery за допомогою завантажувача
 
 ```cmd
 fastboot boot <recovery.img>
 ````
-
-
 
 ### Виконання скрипта msc
 > Якщо скрипт попросить запустити його ще раз, то так і зробіть
@@ -33,7 +27,7 @@ adb shell msc
 
 ## Призначення літери диску
 
-#### Запуск diskpart
+### Запуск diskpart
 
 > Коли Pad 5 визначився як диск
 
@@ -54,11 +48,10 @@ select volume <номер>
 assign letter=x
 ````
 
-### Вихід з diskpart:
+###$ Вихід з diskpart:
 ```diskpart
 exit
-````
-
+```
 
 ### Встановлення драйверів
 
@@ -81,4 +74,4 @@ adb reboot bootloader
 fastboot flash boot <uefi.img>
 ```
 
-# Готово!
+### Готово!
