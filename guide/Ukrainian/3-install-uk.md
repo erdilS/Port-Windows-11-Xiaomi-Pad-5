@@ -5,18 +5,17 @@
 > [!WARNING]
 > **БУДЬ ЛАСКА, НЕ ВИКОРИСТОВУЙТЕ ЗАСТАРІЛІ ВІДЕОГІДИ НА YOUTUBE АБО БУДЬ-ЯКІЙ ІНШІЙ ПЛАТФОРМІ! ЦІ ВІДЕО ЗАСТАРІЛИ, І ВИ МОЖЕТЕ ЗАБЛОКУВАТИ СВІЙ ПРИСТРІЙ, ВИКОРИСТОВУЮЧИ ЇХ! ЯКЩО ВАМ ПОТРІБЕН ВІДЕОГІД, СКОРИСТАЙТЕСЯ ЦИМ [НОВИЙ ВІДЕОГІД](https://youtu.be/BbgTbTGbXYg) від [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
 
+## Встановлення Windows
 
-## Установка
+## Початок
 
-## Установка Windows
-
-### Передумова
+### Необхідні файли
   
 - [```Образ UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 
-- [```ARM Windows esd```](https://worproject.com/esd) (вибирати - Version:  ```11 ``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```виберіть свою мову```)
+- [```Windows ARM esd```](https://worproject.com/esd) (вибирати - Version:  ```11 ``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```виберіть свою мову```)
   
-- [```Драйвері```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+- [```Драйвери```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ### Завантажте відновлення, щоб розпочати встановлення Windows
 
@@ -24,9 +23,8 @@
 fastboot boot <recovery.img>
 ```
 
-
-### запустити msc
-> Якщо ён попросить запустити його ще раз, то так і зробіть
+### Запустіть msc
+> Якщо він попросить запустити його ще раз, то так і зробіть
 
 ```cmd
 adb shell msc
@@ -76,8 +74,7 @@ assign letter=y
 exit
 ```
 
-
-## Встановлення
+## Встановлення Windows
 > [!NOTE]
 > **Тепер запустіть командний рядок від імені адміністратора**
 
@@ -89,12 +86,11 @@ exit
 dism /apply-image /ImageFile:<path/to/install.esd> /index:6 /ApplyDir:X:\
 ```
 
-
 ### Встановлення драйверів
 
 > Ви можете завантажити драйвери [тут](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> якщо він пише `"Automatic WINNABU detection failed! Enter Drive Letter manually"`, введіть **`X`**
+> Якщо він пише `"Automatic WINNABU detection failed! Enter Drive Letter manually"`, введіть **`X`**
 
 ```cmd
  Відкрийте папку драйверів і запустіть OfflineUpdater.cmd
@@ -111,9 +107,9 @@ bcdboot X:\Windows /s Y: /f UEFI
 mountvol y: /d
 ```
 
-# Завантажтеся у Windows
+## Завантаження у Windows
 
-### Зробіть резервну копію поточного загрузочного розділа
+### Зробіть резервну копію поточного завантажувального розділа
 > [!NOTE]
 > **Тепер поверніться до командного рядка platform tools**
 ```cmd
@@ -126,20 +122,22 @@ adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.
 adb reboot bootloader
 ```
 
-### Завантажте та прошийте зображення UEFI
+### Завантажте та прошийте UEFI
 > Завантажити [Образ UEFI](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 ```cmd
-fastboot flash boot <шлях до зображення>
+fastboot flash boot <шлях до образу>
 ```
-## Перезавантажтесь у Windows
+
+### Перезавантажтесь у Windows
 ```cmd
 fastboot reboot
 ```
+
 > [!NOTE]
 > Під час першого завантаження Windows він не побачить жодних мереж Wi-Fi, просто перезавантажте його, утримуючи кнопку живлення, а після перезавантаження, коли ви спробуєте підключитися до своєї мережі та побачите "морозиво", натисніть "повторити спробу" 7 разів
 
-# Завантажте Android
-Після налаштування Windows натисніть кнопку перезапуску в Windows (не вимкнення), а потім, коли вона перезапуститься, утримуйте `зменшення гучності` + `чинність` щоб перезавантажитися назад в режим швидкого завантаження
+## Завантаження Android
+Після налаштування Windows натисніть кнопку перезапуску в Windows (не вимкнення), а потім, коли вона перезапуститься, утримуйте `зменшення гучності` + `ввімкнення` щоб перезавантажитися назад в режим швидкого завантаження
 > Використовуйте свій резервний завантажувальний образ і прошийте його в fastboot, щоб повернутися до Android
 
 ```cmd
@@ -148,6 +146,6 @@ fastboot flash boot rooted_boot.img
 ```cmd
 fastboot reboot
 ```
-# Готово!
+## Готово!
 > Ви можете приєднатися до нашого [Telegram chat](https://t.me/nabuwoa) щоб отримувати новини про проект
-### [Останній крок: Налаштування подвійного завантаження](dualboot-uk.md)
+## [Останній крок: Налаштування подвійного завантаження](dualboot-uk.md)

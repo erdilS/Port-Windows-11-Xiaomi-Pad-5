@@ -1,39 +1,39 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-# Running Windows on the Xiaomi Pad 5
+# Запуск Windows на Xiaomi Pad 5
 
-## Project Status
+## Статус проекту
 
-Stable. Almost everything works except for a few components.
+Майже все працює окрім деяких компонентів
 
-#### Features
+#### Компоненти
 
-- [X] Suspend / Sleep Mode
-- [X] Audio
-- [X] Battery status
+- [X] Призупинення
+- [X] Звук
+- [X] Статус батареї
 - [X] Bluetooth
-- [X] Brightness
-- [x] Charging
-- [X] Display
+- [X] Яскравість
+- [x] Зарядка
+- [X] Екран
 - [X] GPU
-- [X] Touchscreen
-- [X] UFS
+- [X] Тачскрін
+- [X] Пам'ять
 - [X] USB
 - [X] Wi-Fi
-- [X] Xiaomi Pen support
-- [X] Microphone
+- [X] Xiaomi Pen
+- [X] Мікрофон
 - [X] Miracast
-- [X] Location
-- [X] Flashlight
-- [X] Smart Case Mode
-- [X] Xiaomi Keyboard support
-- [ ] Xiaomi Pen charging support
-- [ ] Camera
+- [X] GPS
+- [X] Ліхтарик
+- [X] Режим Smart Case
+- [X] Xiaomi Keyboard
+- [ ] Зарядка Xiaomi Pen
+- [ ] Камера
 
-#### Sensors
+#### Сенсори
 
-- [X] Accelerometer
-- [X] Gyroscope
-- [X] Magnetometer
-- [X] Proximity
-- [X] Light sensor
+- [X] Акселерометр
+- [X] Гіроскоп
+- [X] Магнітометр
+- [X] Датчик наближення
+- [X] Датчик світла
