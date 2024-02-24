@@ -37,7 +37,7 @@ body:
       label: Agreement
       description: By creating this issue I made sure that ...
       options:
-        - label: I am using the latest Drivers.
+        - label: I am using the latest Drivers and UEFI.
           required: true
         - label: I am running Windows 11 On The Tablet.
           required: true
