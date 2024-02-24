@@ -15,6 +15,14 @@
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
 ### Notes:
+> [!NOTE]
+> Don't know how to start? Just unzip the downloaded [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools), for example ```"C:\platform-tools"``` then open ```command prompt``` or `powershell` as administrator and type:
+```cmd
+cd "path\to\platform-tools"
+```
+> Replace  `"path\to\platform-tools"` with the actual path of the platform tools folder
+
+
 > [!Warning]\
 > if you delete any partitions via diskpart later on or now, windows will send a ufs command that gets misinterpreted which erase all your ufs
 > 
