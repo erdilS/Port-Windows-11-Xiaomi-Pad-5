@@ -6,10 +6,11 @@
 ## Reinstallation
 
 ### Reinstalling Windows if something goes wrong
+> [!NOTE]
+> Quite obviously, this will erase all of your Windows files. If you'd like to back up any of them, you can do so by mounting Windows using the [WOA Helper](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk) app and manually copying any files you wish to keep
 
-- If you don't like your windows version or you've bricked your windows install, or anything else, you would probably just reinstall Windows. Thankfully this process is very easy.
+- If you don't like your Windows version or you've bricked your Windows install, or anything else, you would probably just reinstall Windows. Thankfully this process is very easy.
 
-- If you haven't restored your partition table, you can use this guide with your existing partitions.
 
 ### Prerequisites
 
