@@ -27,7 +27,7 @@ body:
     id: logs
     attributes:
       label: "Logs"
-      description: Please copy and paste any relevant log output if available.
+      description: Please copy and paste any relevant log output if available, or a screenshot of the error message.
       render: bash
     validations:
       required: false
@@ -39,7 +39,7 @@ body:
       options:
         - label: I am using the latest Drivers and UEFI.
           required: true
-        - label: I am running Windows 11 On The Tablet.
+        - label: I am running Windows 11 on the tablet.
           required: true
         - label: There is no issue already describing my problem.
           required: true
