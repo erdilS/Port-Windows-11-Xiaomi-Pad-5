@@ -4,12 +4,10 @@
 # Running Windows on the Xiaomi Pad 5
 
 ## Reinstallation
+If you don't like your Windows version or you've bricked your Windows install, or anything else, you would probably just reinstall Windows. Thankfully this process is very easy.
 
-### Reinstalling Windows if something goes wrong
-> [!NOTE]
+> [!IMPORTANT]
 > Quite obviously, this will erase all of your Windows files. If you'd like to back up any of them, you can do so by mounting Windows using the [WOA Helper](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk) app and manually copying any files you wish to keep
-
-- If you don't like your Windows version or you've bricked your Windows install, or anything else, you would probably just reinstall Windows. Thankfully this process is very easy.
 
 
 ### Prerequisites
@@ -26,6 +24,7 @@
 ```cmd
 fastboot boot <recovery.img>
 ```
+
 ### Format the partitions
 > If it asks you to run it once again, do so
 ```cmd
