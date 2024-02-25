@@ -4,7 +4,7 @@
 
 ## UEFI Güncelleme
 > [!Warning]
-> Eski UEFI'den (15 Ocak veya öncesi) UEFI-V3'e güncelleme yapıyorsanız, [sürücü güncelleme kılavuzunu] kullanarak yapabileceğiniz sürücülerinizi de güncellemeniz gerekir.(update-tr.md)
+> Eski UEFI'den (15 Ocak veya öncesi) UEFI-V3'e güncelleme yapıyorsanız, [sürücü güncelleme kılavuzunu](update-tr.md) kullanarak yapabileceğiniz sürücülerinizi de güncellemeniz gerekir.
 
 ### Bu kılavuza neden ihtiyaç duyuluyor?
 
