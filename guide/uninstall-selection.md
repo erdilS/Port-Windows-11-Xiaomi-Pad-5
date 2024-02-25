@@ -6,11 +6,11 @@
 
 ### Select your language
 
-- [English](English/restore-stock-en.md)
+- [English](English/uninstall-en.md)
 - [Turkish](Turkish/uninstall-tr.md)
 - [Russian](Russian/uninstall-ru.md)
-- [Italian](Italian/ripristino-android-stock-it.md)
-- [Español](Español/reinstall-es.md)
+- [Italian](Italian/uninstall-en.md)
+- [Español](Español/uninstall-es.md)
 - [Ukrainian](Ukrainian/uninstall-uk.md)
-- [Vietnamese](Vietnamese/restore-stock-vi.md)
-- [Traditional Chinese](Traditional%20Chinese/restore-stock-tw.md)
+- [Vietnamese](Vietnamese/uninstall-vi.md)
+- [Traditional Chinese](Traditional%20Chinese/uninstall-tw.md)
