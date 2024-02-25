@@ -9,7 +9,7 @@
 - [English](English/uninstall-en.md)
 - [Turkish](Turkish/uninstall-tr.md)
 - [Russian](Russian/uninstall-ru.md)
-- [Italian](Italian/uninstall-en.md)
+- [Italian](Italian/uninstall-it.md)
 - [Español](Español/uninstall-es.md)
 - [Ukrainian](Ukrainian/uninstall-uk.md)
 - [Vietnamese](Vietnamese/uninstall-vi.md)
