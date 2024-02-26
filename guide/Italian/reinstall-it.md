@@ -10,13 +10,13 @@ Se non ti piace la tua versione di Windows o hai bloccato l'installazione di Win
 > Ovviamente, questo cancellerà tutti i tuoi file di Windows. Se desideri eseguire il backup di uno di essi, puoi farlo montando Windows utilizzando l'app [WOA Helper](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk) e copiando manualmente tutti i file che desideri conservare
 
 
-### Prerequisites
+### Prerequisiti
 
-- Existing Windows and boot partitions (*If not met, [go back and just pretend this guide never existed](/guide/Italian/1-partition-it.md)*)
+- Partizioni esistenti di Windows e di avvio (*Se non soddisfatte, [torna indietro e fai finta che questa guida non sia mai esistita](/guide/Italian/1-partition-it.md)*)
 
-- [Recovery Immagine ](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```Recovery Immagine```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-- [Android platform tools](https://developer.android.com/studio/releases/platform-tools)
+- [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
 
 ### Ripristino dell'avvio per formattare le partizioni Windows ed ESP
@@ -30,5 +30,5 @@ fastboot boot <recovery.img>
 ```cmd
 adb shell format
 ```
-## [Passaggio successivo: reinstallazione di Windows](/guide/Italian/3-install-it.md#Execute-msc)
+## [Passaggio successivo: reinstallazione di Windows](/guide/Italian/3-install-it.md#Esegui-lo-msc)
 
