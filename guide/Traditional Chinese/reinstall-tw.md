@@ -5,9 +5,11 @@
 ## 重新安裝
 
 ### 若發生錯誤，您可重新安裝 Windows
-- 如果您不喜歡您的 Windows 版本, 或者您的 Windows 安裝損壞, 或有其他的原因, 您可能會想要重新安裝 Windows
-- 如果您尚未還原您的分區表 (您的設備仍然包含 Windows 和 ESP 分區), 您可以參考以下指南
-- 如果您已經初始化了分區表到原廠狀態, [請回到這篇文章來繼續](/guide/Traditional%20Chinese/1-partition-tw.md)
+如果您不喜歡您的 Windows 版本, 或者您的 Windows 安裝損壞, 或有其他的原因, 您可能會想要重新安裝 Windows
+
+> [!IMPORTANT]
+> 很明顯，這將刪除您的所有 Windows 檔案。如果您想備份其中任何一個，您可以透過使用以下命令安裝 Windows 來實現 [WOA Helper](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk) 應用程式並手動複製您想要保留的任何文件
+
 
 ### 請先準備下面的步驟
 - [Recovery 鏡像](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
