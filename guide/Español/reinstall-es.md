@@ -11,11 +11,11 @@ Si no le gusta su versión de Windows o ha bloqueado su instalación de Windows,
 
 ### Requisitos previos
 
-- Windows existentes y particiones de arranque (*Si no se cumplen, [regrese y finja que esta guía nunca existió](/guide/Español/1-particiones-es.md)*)
+- ```Windows existentes y particiones de arranque``` (*Si no se cumplen, [regrese y finja que esta guía nunca existió](/guide/Español/1-particiones-es.md)*)
 
-- [Recovery](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```Recovery```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-- [ADB y Fastboot](https://developer.android.com/studio/releases/platform-tools)
+- [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
 
 ### Inicia el recovery para formatear Windows y las particiones de arranque
