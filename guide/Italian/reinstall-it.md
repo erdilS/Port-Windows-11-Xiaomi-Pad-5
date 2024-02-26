@@ -12,7 +12,7 @@ Se non ti piace la tua versione di Windows o hai bloccato l'installazione di Win
 
 ### Prerequisiti
 
-- Partizioni esistenti di Windows e di avvio (*Se non soddisfatte, [torna indietro e fai finta che questa guida non sia mai esistita](/guide/Italian/1-partition-it.md)*)
+- ```Partizioni esistenti di Windows e di avvio``` (*Se non soddisfatte, [torna indietro e fai finta che questa guida non sia mai esistita](/guide/Italian/1-partition-it.md)*)
 
 - [```Recovery Immagine```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
