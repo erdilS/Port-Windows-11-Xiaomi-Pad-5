@@ -6,6 +6,9 @@
 ## 再インストール
 あなたのwindowsのバージョンが気に入らない場合、またはあなたのwindowsのインストール、または何か他のものをレンガした場合は、おそらく単にWindowsを再インス ありがたいことに、このプロセスは非常に簡単です。
 
+> [!IMPORTANT]
+> 明らかに、これにより Windows ファイルがすべて消去されます。それらのいずれかをバックアップしたい場合は、次のコマンドを使用して Windows をマウントします [WOA Helper](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)アプリを使用し、保持したいファイルを手動でコピーします
+
 
 ### 前提条件
 
