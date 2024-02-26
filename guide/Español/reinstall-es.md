@@ -4,12 +4,10 @@
 # Ejecutando Windows en el Xiaomi Pad 5
 
 ## Reinstalar
+Si no le gusta su versión de Windows o ha bloqueado su instalación de Windows, o cualquier otra cosa, probablemente simplemente reinstale Windows. Afortunadamente, este proceso es muy fácil.
 
-### Reinstalar Windows si algo sale mal
-
-- Si no le gusta su versión de Windows o ha bloqueado su instalación de Windows, o cualquier otra cosa, probablemente simplemente reinstale Windows. Afortunadamente, este proceso es muy fácil.
-
-- Si no ha restaurado su tabla de particiones, puede usar esta guía con sus particiones existentes.
+> [!IMPORTANT]
+> Obviamente, esto borrará todos sus archivos de Windows. Si desea hacer una copia de seguridad de alguno de ellos, puede hacerlo montando Windows usando el [WOA Helper](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk) aplicación y copiar manualmente cualquier archivo que desee conservar 
 
 ### Requisitos previos
 
