@@ -4,10 +4,10 @@
 # Windows на Xiaomi Pad 5
 
 ## Переустановка
-### Переустановка Windows если что-то пошло не так
+Если текущая версия Windows не подходит или была испорчена, вероятно, Вам поможет переустановка Windows, благо это довольно простой процесс.
 
-- Если текущая версия Windows не подходит или была испорчена, вероятно, Вам поможет переустановка Windows, благо это довольно простой процесс.
-- Если Вы не восстанавливали таблицу разделов, то используйте этот гайд с текущей таблицей разделов.
+> [!IMPORTANT]
+> Quite obviously, this will erase all of your Windows files. If you'd like to back up any of them, you can do so by mounting Windows using the [WOA Helper](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk) app and manually copying any files you wish to keep
 
 ### Требования
 
