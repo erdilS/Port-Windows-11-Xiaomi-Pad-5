@@ -7,9 +7,9 @@
 ### Select your language
 
 - [English](English/reinstall-en.md)
-- [Turkish](English/reinstall-en.md)
+- [Turkish](Turkish/reinstall-vi.md)
 - [Russian](Russian/reinstall-ru.md)
-- [Italian](English/reinstall-en.md)
+- [Italian](Italian/reinstall-it.md)
 - [Español](Español/reinstall-es.md)
 - [Ukrainian](Ukrainian/reinstall-uk.md)
 - [Vietnamese](Vietnamese/reinstall-vi.md)
