@@ -4,12 +4,10 @@
 # Cài đặt Windows 11 lên Xiaomi Mi Pad 5
 
 ## Hướng dẫn cài lại
+Nếu bạn không thích bản Windows này hoặc bị brick Windows Install, hoặc trời trăng mây biển gì khác, bạn sẽ cần tới việc này: Cài lại Windows. Ôi trời đất ơi, rất may là cái này dễeeeee ơi là dễ
 
-### Hướng dẫn cài lại nếu lỡ không may có gì đó sai sai
-
-- Nếu bạn không thích bản Windows này hoặc bị brick Windows Install, hoặc trời trăng mây biển gì khác, bạn sẽ cần tới việc này: Cài lại Windows. Ôi trời đất ơi, rất may là cái này dễeeeee ơi là dễ
-
-- Nếu bạn chưa restore lại phân vùng của máy, bạn sẽ cần đến hướng dẫn này với phân vùng đã tồn tại.
+> [!IMPORTANT]
+> Rõ ràng, thao tác này sẽ xóa tất cả các tệp Windows của bạn. Nếu bạn muốn sao lưu bất kỳ thứ nào trong số chúng, bạn có thể làm như vậy bằng cách gắn Windows bằng cách sử dụng [WOA Helper](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk) app và sao chép thủ công mọi tệp bạn muốn giữ 
 
 ### Điều kiện tiên quyết
 
