@@ -77,7 +77,7 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 
 > 稍後您將需要它來啟動回 Android
 ```cmd
-adb shell cp /dev/block/bootdevice/by-name/boot /win/boot.img
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/win/boot.img"
 ```
 
 ### 安裝驅動程式
