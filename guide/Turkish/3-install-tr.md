@@ -51,7 +51,7 @@ select volume <number>
 
 #### X harfini atayın
 ```diskpart
-assign letter=x
+assign letter x
 ```
 
 ### ESP bölümüne `Y` harfini atayın
@@ -66,7 +66,7 @@ select volume <number>
 #### Y harfini atayın
 
 ```diskpart
-assign letter=y
+assign letter y
 ```
 
 ### diskpart arayüzünden çıkın.
@@ -79,15 +79,19 @@ exit
 
 ## Kurulum işlemi
 
-> [!NOTE]
-> **Şimdi komut istemini yönetici olarak çalıştırın**
+> Değiştir `<path\to\install.esd>` install.esd dosyasının gerçek yolu ile birlikte (install.wim olarak da adlandırılabilir) 
 
-
-> Yerini almak `<path/to/install.esd>` gerçek yolu ile install.esd
-
-> Windows resminizi başka bir yerde aldıysanız (bu da çağrılabilir `install.wim`), yerini almak `index:6` ile `index:1`
 ```cmd
-dism /apply-image /ImageFile:<sources/install.wim> /index:6 /ApplyDir:X:\
+dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
+``` 
+
+> 'Error 87' alırsanız görüntünüzün dizinini şu şekilde kontrol edin: `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, ardından görüntünüzdeki `index:6` yı Windows 11 Pro'nun gerçek dizin numarasıyla değiştirin 
+
+### Boot.img dosyasını Windows'a kopyalayın 
+
+> Daha sonra Android'e yeniden önyükleme yapmak için buna ihtiyacınız olacak 
+```cmd
+adb shell cp /dev/block/bootdevice/by-name/boot /win/boot.img
 ```
 
 # Sürücü kurulumu
