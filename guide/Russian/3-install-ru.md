@@ -52,7 +52,7 @@ select volume <number>
 
 #### Привяжите букву X
 ```diskpart
-assign letter=x
+assign letter x
 ```
 
 ### Привязка буквы  `Y`  к разделу ESP
@@ -67,7 +67,7 @@ select volume <number>
 #### Привяжите букву Y
 
 ```diskpart
-assign letter=y
+assign letter y
 ```
 
 #### Закройте diskpart
@@ -79,14 +79,19 @@ exit
   
 
 ### Установка Windows
-> [!NOTE]
-> **Теперь запустите командную строку от имени администратора**
+> Replace `<path\to\install.esd>` with the actual path of install.esd (it may also be named install.wim)
 
-> Замените `<path/to/install.esd>` существующим путём к install.esd
-
-> Если вы получили образ Windows из другого источника (который также может называться `install.wim`), замените `index:6` на `index:1`
 ```cmd
-dism /apply-image /ImageFile:<path/to/install.esd> /index:6 /ApplyDir:X:\
+dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
+```
+
+> If you get `Error 87`, check the index of your image with `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, then replace `index:6` with the actual index number of Windows 11 Pro in your image
+
+### Copy boot.img to Windows
+
+> You will need this to boot back to Android later
+```cmd
+adb shell cp /dev/block/bootdevice/by-name/boot /win/boot.img
 ```
 
 ### Установка драйверов
