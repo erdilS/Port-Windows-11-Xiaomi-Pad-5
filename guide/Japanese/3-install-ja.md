@@ -94,7 +94,7 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 
 > 後で Android を再起動するためにこれが必要になります
 ```cmd
-adb shell cp /dev/block/bootdevice/by-name/boot /win/boot.img
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/win/boot.img"
 ```
 
 ### ドライバのインストール
