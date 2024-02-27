@@ -87,7 +87,7 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 > Si obtiene el `Error 87`, verifique el índice de su imagen con `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, luego reemplace `index:6` con el número de índice real de Windows 11 Pro en su imagen 
 
 
-### Copy boot.img to Windows
+### Copie boot.img a Windows 
 
 > Necesitará esto para volver a iniciar Android más tarde 
 ```cmd
