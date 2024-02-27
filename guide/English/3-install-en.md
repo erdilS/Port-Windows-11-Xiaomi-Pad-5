@@ -83,18 +83,19 @@ exit
 
 ### Install
 
-> Replace `<path/to/install.esd>` with the actual path of install.esd
+> Replace `<path\to\install.esd>` with the actual path of install.esd
 
-> If you got your Windows image elsewhere (which might also be called `install.wim`), replace `index:6` with `index:1`
 ```cmd
-dism /apply-image /ImageFile:<path/to/install.esd> /index:6 /ApplyDir:X:\
+dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 ```
+
+> If you get Error 87, check the index of your image with `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, then replace `index:6` with the actual index number of Windows 11 Pro in your image
 
 ### Install Drivers
 
 > You can download the Drivers [here](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-> If it writes `"Automatic WINNABU detection failed! Enter Drive Letter manually"` type **`X`**
+> If it says `"Automatic WINNABU detection failed! Enter Drive Letter manually"` type **`X`**
 
 ```cmd
  Open the folder with Drivers and run OfflineUpdater.cmd
