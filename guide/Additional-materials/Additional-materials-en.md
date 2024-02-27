@@ -15,7 +15,7 @@ To re-enable USB host mode, run [force_usb_host.reg](https://github.com/erdilS/P
 
 [Guide to disabling secureboot](/guide/English/disable-secureboot-en.md)
 
-## Microsoft Office
+## Install Microsoft Office/```Microsoft 365```
 
 ### Download Office iso 
 - Download this [file](https://mega.nz/file/hjAiSL4T#G7kOKpsUFpyL2UW9RQmY2e96urcQW5xZKdc7ciaNOy8) to tablet 
@@ -27,9 +27,22 @@ To re-enable USB host mode, run [force_usb_host.reg](https://github.com/erdilS/P
 - In the window that appears, click `Yes`
   
 - Wait for the installation to complete
+  
 ### Activate Office 
 
 - Activate it using massgrave script:
+
+> Open `PowerShell` and type: 
+
+  ```powershell 
+irm https://massgrave.dev/get | iex 
+```
+
+- When a window appears, select 2
+
+- On next page select 1
+
+- Wait for the activation to complete
 
 - Enjoy using Office!
 
