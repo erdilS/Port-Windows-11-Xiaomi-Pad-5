@@ -54,7 +54,7 @@ select volume <number>
 
 #### Asignar la letra X
 ```diskpart
-assign letter=x
+assign letter x
 ```
 
 ### Asignar la letra `Y` al volumen esp
@@ -69,7 +69,7 @@ select volume <number>
 #### Asigna la letra Y
 
 ```diskpart
-assign letter=y
+assign letter y
 ```
 
 ### Salir de diskpart:
@@ -77,19 +77,21 @@ assign letter=y
 exit
 ```
 
-  
-  
-
 ## Instalar
-> [!NOTE]
-> **Ahora ejecute el símbolo del sistema como administrador**
-
->  Reemplazar `<path/to/install.esd>` con el camino real de install.esd
-
->  Si obtuvo su imagen de Windows en otro lugar (que también podría llamarse `install.wim`), reemplazar `index:6` con `index:1`
+> Reemplazar `<path\to\install.esd>` con la ruta real de install.esd (también puede denominarse install.wim) 
 
 ```cmd
-dism /apply-image /ImageFile:<path/to/install.esd> /index:6 /ApplyDir:X:\
+dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
+```
+
+> Si obtiene el `Error 87`, verifique el índice de su imagen con `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, luego reemplace `index:6` con el número de índice real de Windows 11 Pro en su imagen 
+
+
+### Copy boot.img to Windows
+
+> Necesitará esto para volver a iniciar Android más tarde 
+```cmd
+adb shell cp /dev/block/bootdevice/by-name/boot /win/boot.img
 ```
 
 # Instalar los Drivers
