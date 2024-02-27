@@ -82,7 +82,7 @@ exit
   
 
 ### Installa
-> [!NOTE]
+
 > Sostituisci `<path\to\install.esd>` con il percorso effettivo di install.esd (potrebbe anche essere denominato install.wim)
 
 ```cmd
@@ -95,7 +95,7 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 
 > Ne avrai bisogno per riavviare Android in un secondo momento 
 ```cmd
-adb shell cp /dev/block/bootdevice/by-name/boot /win/boot.img
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/win/boot.img"
 ```
 
 ### Installazione drivers
