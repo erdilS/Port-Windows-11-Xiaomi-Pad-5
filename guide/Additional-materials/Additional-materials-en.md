@@ -17,19 +17,19 @@ To re-enable USB host mode, run [force_usb_host.reg](https://github.com/erdilS/P
 
 ## Microsoft Office
 
-- Download this [file](https://mega.nz/file/Q7p1XK6L#J-KPp_-MNJ8iXGqEwwZ3_sfv2tMiq_AJjUiiaX6TBrI) to tablet 
-  
-- Turn off Windows Defender to avoid any interference with the installation
-  
+### Download Office iso 
+- Download this [file](https://mega.nz/file/hjAiSL4T#G7kOKpsUFpyL2UW9RQmY2e96urcQW5xZKdc7ciaNOy8) to tablet 
+### Install Office from iso 
 - Right-click on the iso file and select Mount to open it in explorer
 
-- Double-click on AUTORUN.exe to start the installation wizard
+- Double-click on ```Office Tool Plus.exe``` to start the installation wizard
   
-- Choose the language and the components you want to install, and then click Start installation
+- In the window that appears, click `Yes`
   
-- Wait for the installation and activation to complete
+- Wait for the installation to complete
+### Activate Office 
 
-- Turn on Windows Defender again 
+- Activate it using massgrave script:
 
 - Enjoy using Office!
 
@@ -37,7 +37,7 @@ To re-enable USB host mode, run [force_usb_host.reg](https://github.com/erdilS/P
 
 > Open PowerShell and type: 
 
-  ```cmd
+  ```powershell 
 irm https://massgrave.dev/get | iex 
 ```
 > When a window appears, select 1
