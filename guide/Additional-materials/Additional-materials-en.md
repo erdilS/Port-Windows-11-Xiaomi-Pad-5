@@ -18,8 +18,11 @@ To re-enable USB host mode, run [force_usb_host.reg](https://github.com/erdilS/P
 ## Install ```Microsoft Office```/```Microsoft 365```
 
 ### Download Office iso 
-- Download this [file](https://mega.nz/file/hjAiSL4T#G7kOKpsUFpyL2UW9RQmY2e96urcQW5xZKdc7ciaNOy8) to tablet 
-### Install Office from iso 
+
+- Download this [file](https://mega.nz/file/hjAiSL4T#G7kOKpsUFpyL2UW9RQmY2e96urcQW5xZKdc7ciaNOy8) to tablet
+  
+### Install Office from iso
+
 - Right-click on the iso file and select Mount to open it in explorer
 
 - Double-click on ```Office Tool Plus.exe``` to start the installation wizard
