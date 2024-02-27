@@ -2,6 +2,14 @@
 
 # Useful apps and instructions for Windows on Xiaomi pad 5
 
+## Disabling USB host mode
+> [!Warning]
+> Unpowered USB devices will stop working
+
+Run [restore_default_usb.reg](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/USBHost/restore_default_usb.reg), then restart the tablet.
+
+To re-enable USB host mode, run [force_usb_host.reg](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/USBHost/force_usb_host.reg), then restart the tablet.
+
 ## Disable secureboot
 > If you want to be able to update drivers without a PC
 
