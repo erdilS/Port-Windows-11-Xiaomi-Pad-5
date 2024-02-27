@@ -41,9 +41,9 @@ To re-enable USB host mode, run [force_usb_host.reg](https://github.com/erdilS/P
 irm https://massgrave.dev/get | iex 
 ```
 
-- When a window appears, select 2
+- When a window appears, select `2`
 
-- On next page select 1
+- On next page select `1`
 
 - Wait for the activation to complete
 
