@@ -44,7 +44,7 @@ select volume <number>
 
 #### 分配 Windows 分區到 `X` 盤
 ```diskpart
-assign letter=x
+assign letter x
 ```
 
 #### 選中平板上的 ESP 分區
@@ -55,7 +55,7 @@ select volume <number>
 
 #### 分配 ESP 分區到 `Y` 盤
 ```diskpart
-assign letter=y
+assign letter y
 ```
 
 #### 退出 DiskPart
@@ -65,15 +65,19 @@ exit
 
 ### 安裝
 
-> [!NOTE]
-> **现在以管理员身份运行命令提示符**
+> 替換 `<path\to\install.esd>` 與 install.esd 的實際路徑（也可能命名為 install.wim） 
 
-
-> 取代 `<path/to/install.esd>` 實際路徑為 install.esd
-
-> 如果您在其他地方獲得了 Windows 映射（也可能稱為`install.wim`），請將 `index:6` 跟 `index:1`
 ```cmd
-dism /apply-image /ImageFile:<path/to/install.esd> /index:6 /ApplyDir:X:\
+dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
+``` 
+
+> 如果你得到 `Error 87`, 檢查圖像的索引 `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, 然後將 `index:6` 替換為映像中 Windows 11 Pro 的實際索引號 
+
+### 將 boot.img 複製到 Windows 
+
+> 稍後您將需要它來啟動回 Android
+```cmd
+adb shell cp /dev/block/bootdevice/by-name/boot /win/boot.img
 ```
 
 ### 安裝驅動程式
