@@ -55,7 +55,7 @@ select volume <number>
 
 #### ディスクレター `X` を割り合てる
 ```diskpart
-assign letter=x
+assign letter x
 ```
 
 ### ESP ボリューム を `Y` として割り合てる
@@ -70,7 +70,7 @@ select volume <number>
 #### ディスクレター `Y` を割り合てる
 
 ```diskpart
-assign letter=y
+assign letter y
 ```
 
 #### diskpartを終了する
@@ -82,14 +82,19 @@ exit
   
 
 ### インストール
-> [!NOTE]
-> **次に、管理者としてコマンドプロンプトを実行します**
+> を置き換えます`<path\to\install.esd>` install.esd の実際のパスを置き換えます (install.wim という名前も付けられる場合があります) 
 
-> 置換 `<path/to/install.esd>` の実際のパスで install.esd
-
-> 他の場所でWindowsイメージを取得した場合（これも呼び出される可能性があります `install.wim`), 置換 `index:6` と `index:1`
 ```cmd
-dism /apply-image /ImageFile:<path/to/install.esd> /index:6 /ApplyDir:X:\
+dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
+``` 
+
+> あなたが取得する場合 `Error 87`, 画像のインデックスを確認してください `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, 次に、`index:6` をイメージ内の Windows 11 Pro の実際のインデックス番号に置き換えます. 
+
+### boot.img を Windows にコピーする 
+
+> 後で Android を再起動するためにこれが必要になります
+```cmd
+adb shell cp /dev/block/bootdevice/by-name/boot /win/boot.img
 ```
 
 ### ドライバのインストール
