@@ -90,12 +90,7 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 
 > あなたが取得する場合 `Error 87`, 画像のインデックスを確認してください `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, 次に、`index:6` をイメージ内の Windows 11 Pro の実際のインデックス番号に置き換えます. 
 
-### boot.img を Windows にコピーする 
 
-> 後で Android を再起動するためにこれが必要になります
-```cmd
-adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/win/boot.img"
-```
 
 ### ドライバのインストール
 
