@@ -73,12 +73,7 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 
 > 如果你得到 `Error 87`, 檢查圖像的索引 `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, 然後將 `index:6` 替換為映像中 Windows 11 Pro 的實際索引號 
 
-### 將 boot.img 複製到 Windows 
 
-> 稍後您將需要它來啟動回 Android
-```cmd
-adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/win/boot.img"
-```
 
 ### 安裝驅動程式
 > 您可以下载驱动程序[这里](https://github.com/map220v/MiPad5-Drivers/releases/latest)
