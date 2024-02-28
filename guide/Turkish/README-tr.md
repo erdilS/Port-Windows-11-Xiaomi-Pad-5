@@ -1,50 +1,53 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 
-# Running Windows on the Xiaomi Pad 5
+# Xiaomi Pad 5'te Windows Çalıştırma
 
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
 
-## Language 
-[```Русский```](/README-RU.md) | **```English```** | [```Español```](/guide/Español/README-es.md) | [```Italian```](/guide/Italian/README-it.md) | [```Japanese```](/guide/Japanese/README-ja.md) | [```Traditional Chinese```](/guide/Traditional%20Chinese/README-tw.md) | [```Turkish```](/guide/Turkish/README-tr.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | [```Vietnamese```](/guide/Vietnamese/README-vi.md)
+## Dil
+[```Русский```](/README-RU.md) | [```English```](/README.md) | [```Español```](/guide/Español/README-es.md) | [```Italian```](/guide/Italian/README-it.md) | [```Japanese```](/guide/Japanese/README-ja.md) | [```Traditional Chinese```](/guide/Traditional%20Chinese/README-tw.md) | **```Turkish```** | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | [```Vietnamese```](/guide/Vietnamese/README-vi.md)
 
-## ⚠️ Warning
+> [!NOTE]
+> 
+> İngilizce dışındaki diğer diller her zaman güncel olmayabilir 
 
-We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline workers cowboys, dead pmics, dead ram, dead display ics, dead cpus, any xiaomi shenanigans, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
+## ⚠️ Uyarı
 
-This project is in development stage, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get. This is a delicate process, do it under your own risk and follow all the steps carefully.
+Brick edilmiş cihazlardan, eksik recovery bölümlerinden, ölü xiaomi fabrika işçişerinden, ölü şarj soketlerinden, ramlerden, ekranlardan, işlemcilerden, herhangi bir xiaomi saçmalığından, ölü kedi veya köpeklerden, nükleer savaşlardan veya android'e geri dönmeyi unuttuğunuz için alarm kuramadığındızan dolayı kovulmanızdan sorumlu değiliz.
 
-**IF YOU AREN'T COMFORTABLE MODDING YOUR TABLET OR ITS PARTITION TABLE OR YOU ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU ARE ON YOUR OWN IF YOU BRICK YOUR DEVICE!!! AGAIN! YOU HAVE BEEN WARNED!!!**
-> [!WARNING]
-> **PLEASE DON'T USE VIDEO GUIDES ON YOUTUBE OR ANY OTHER PLATFORM! THESE VIDEOS ARE OUTDATED AND YOU CAN BRICK YOUR DEVICE USING THEM! IF YOU ABSOLUTELY NEED A VIDEO GUIDE, USE THIS [VIDEO GUIDE](https://youtu.be/BbgTbTGbXYg) BY [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
+Bu proje geliştirme aşamasındadır. Buradaki tüm dosyalar birçok kullanıcının katkıları sayesindedir. Burada, elde etmeyi başardığımız çalışan dosyalarla bir rehber bulacaksınız. Bu hassas bir süreçtir, riski göze alıyorsanız yapın ve tüm adımları dikkatlice izleyin.
 
+**TABLETİNİZİ YA DA TABLETİN BÖLÜM TABLOSUNU MODİFİYE ETMEKTEN RAHATSIZSANIZ YA DA TABLETİNİZİ BRICK ETMEKTEN KORKUYORSANIZ ŞU AN UZAKLAŞIN!!! DİKKAT, TABLETİNİZİ BRICK EDERSENİZ KENDİ BAŞINIZASINIZ!!! BU KONUDA SİZİ UYARIYORUZ!!! **
 
-## Get Started
-
-- [Installation](guide/English/1-partition-en.md)
-
-- [Dualboot Setup](guide/English/dualboot-en.md)
-
-- [Uninstallation](guide/English/uninstall-en.md)
+> ⚠️ **Dikkat**
+> 
+> **LÜTFEN YOUTUBE'DA VEYA BAŞKA BİR PLATFORMDA BULUNAN VIDEO REHBERLERİ KULLANMAYIN! BU VIDEOLAR ESKİDİR VE BUNLARI KULLANARAK CİHAZINIZI BRICK EDEBİLİRSİNİZ! İLLA Kİ BİR VIDEO REHBERE İHTİYACINIZ VARSA [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA) TARAFINDAN HAZIRLANMIŞ BU [VIDEO REHBERİ](https://youtu.be/BbgTbTGbXYg) KULLANIN**
 
 
-## Miscellaneous
+## Başlangıç
+- [Kurulum](1-partition-tr.md)
+  
+- [Dualboot (çift sistem) Kurulumu](dualboot-tr.md)
+  
+- [Kaldırma](uninstall-tr.md)
 
-- [Project Status](guide/English/status.md)
+## Diğer
+- [Proje Durumu](status.md)
+  
+- [Sorun giderme](troubleshooting-tr.md)
+  
+- [Sürücüleri Güncelleme](update-tr.md)
+  
+- ~[Yeniden yükleme](reinstall-tr.md)~
+  
+- [UEFI Güncelleme](UEFI-updating-tr.md)
+  
+- [Faydalı uygulamalar ve talimatlar](/guide/Additional-materials/Additional-materials-tr.md)
 
-- [Troubleshooting](guide/English/troubleshooting-en.md)
-
-- [Updating Drivers](guide/English/update-en.md)
-
-- [Reinstallation](guide/English/reinstall-en.md)
-
-- [Updating UEFI](guide/English/UEFI-updating-en.md)
-
-- [Useful apps and instructions](guide/Additional-materials/Additional-materials-en.md)
 
 
-
-## Contributors
+## Katkıda Bulunanlar
 
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
 [<img alt="map220v" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/14368485?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/map220v)
