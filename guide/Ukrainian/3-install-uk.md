@@ -83,12 +83,7 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 
 > Якщо ви отримуєте помилкуa `Error 87`, перевірте індекс вашого зображення за допомогою `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, потім замініть `index:6` на фактичний номер індексу Windows 11 Pro у вашому зображенні 
 
-### Скопіюйте файл boot.img у Windows 
 
-> Це знадобиться для завантаження Android пізніше 
-```cmd
-adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/win/boot.img"
-```
 
 ### Встановлення драйверів
 
