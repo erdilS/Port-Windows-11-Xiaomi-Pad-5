@@ -87,12 +87,7 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 
 > 'Error 87' alırsanız görüntünüzün dizinini şu şekilde kontrol edin: `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, ardından görüntünüzdeki `index:6` yı Windows 11 Pro'nun gerçek dizin numarasıyla değiştirin 
 
-### Boot.img dosyasını Windows'a kopyalayın 
 
-> Daha sonra Android'e yeniden önyükleme yapmak için buna ihtiyacınız olacak 
-```cmd
-adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/win/boot.img"
-```
 
 # Sürücü kurulumu
 
