@@ -89,13 +89,6 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 
 > Nếu bạn gặp `Error 87`, hãy kiểm tra chỉ mục hình ảnh của bạn bằng `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, sau đó thay thế `index:6` bằng số chỉ mục thực tế của Windows 11 Pro trong hình ảnh của bạn 
 
-### Sao chép boot.img vào Windows 
-
-> Bạn sẽ cần điều này để khởi động lại Android sau 
-```cmd
-adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/win/boot.img"
-```
-
 ### Cài Drivers
 
 > Bạn có Thể tải Xuống Trình Điều khiển [tại đây](https://github.com/map220v/MiPad5-Drivers/releases/latest)
