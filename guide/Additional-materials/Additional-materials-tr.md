@@ -19,7 +19,7 @@ USB host modunu yeniden aktif etmek için [force_usb_host.reg](https://github.co
 
 - Bu dosyayı [dosya](https://mega.nz/file/Q7p1XK6L#J-KPp_-MNJ8iXGqEwwZ3_sfv2tMiq_AJjUiiaX6TBrI) tablete indirin
   
-## Office'i iso dosyasından kurun
+### Office'i iso dosyasından kurma
   
 - iso dosyasına sağ tıklayın ve Explorer'da açmak için Bağla'yı seçin
 
@@ -47,7 +47,7 @@ irm https://massgrave.dev/get | iex
 
 - Office'i kullanmanın keyfini çıkarın!
 
- ## Windows'u aktivasyonunu yapma
+ ## Windows aktivasyonunu yapma
 
 > PowerShell'i açın ve şunu yazın: 
 
