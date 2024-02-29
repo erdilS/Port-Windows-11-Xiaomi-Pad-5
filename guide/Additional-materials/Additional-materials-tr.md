@@ -47,7 +47,7 @@ irm https://massgrave.dev/get | iex
 
 - Office'i kullanmanın keyfini çıkarın!
 
- ## Windows aktivasyonunu yapma
+ ### Windows aktivasyonunu yapma
 
 > PowerShell'i açın ve şunu yazın: 
 
