@@ -3,7 +3,7 @@
 
 # Xiaomi Pad 5'te Windows Çalıştırma
 > [!WARNING]
-> **LÜTFEN YOUTUBE VEYA BAŞKA BİR PLATFORMDAKİ GÜNCEL OLMAYAN VİDEO REHBERLERİNİ KULLANMAYIN! BU VİDEOLAR ESKİDİR VE BUNLARI KULLANARAK CİHAZINIZI BRICK EDEBİLİRSİNİZ! EĞER BİR VİDEO REHBERİNE İHTİYACINIZ VARSA, [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)** TARAFINDAN HAZIRLANAN BU [YENİ VİDEO REHBERİNİ](https://youtu.be/BbgTbTGbXYg) KULLANIN
+> **LÜTFEN YOUTUBE VEYA BAŞKA BİR PLATFORMDAKİ GÜNCEL OLMAYAN VİDEO REHBERLERİNİ KULLANMAYIN! BU VİDEOLAR ESKİDİR VE BUNLARI KULLANARAK CİHAZINIZI BRICK EDEBİLİRSİNİZ! EĞER BİR VİDEO REHBERİNE İHTİYACINIZ VARSA, [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA) TARAFINDAN HAZIRLANAN BU [YENİ VİDEO REHBERİNİ](https://youtu.be/BbgTbTGbXYg) KULLANIN**
 
 
 ## Windows Kurulumu
@@ -151,7 +151,7 @@ fastboot reboot
 > [!NOTE]
 > İlk Windows açılışında, herhangi bir Wi-Fi ağı görmeyecektir. Yeniden başlayana dek güç düğmesine basılı tutarak tabletinizi yeniden başlatın. Yeniden başlatmadan sonra sorun çözülecektir. "Bağlanılamadı" şeklinde bir bildirim alırsanız, çalışana kadar yeniden dene düğmesine basın (genellikle 5 kez)
 
-# Android'e geri boot edin
+### Android'e geri boot edin
 Windows kurulduktan sonra, Windows'ta yeniden başlat düğmesine basın (KAPATMA'ya basmayın), ardından yeniden başlatılırken fastboot'a geri dönmek için `sesi kısma` + `güç` tuşlarına basılı tutun
 > Android'e dönmek için yedeklediğiniz boot imajını fastboot üzerinden geri yükleyin.
 
@@ -164,4 +164,4 @@ fastboot reboot
 ```
 
 
-### [Son adım: Dualboot (çift sistem) kuruluöu](dualboot-tr.md)
+### [Son Aşama: Dualboot (çift sistem) kurulumu](dualboot-tr.md)
