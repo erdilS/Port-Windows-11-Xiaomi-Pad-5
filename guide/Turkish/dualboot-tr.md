@@ -1,37 +1,38 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 
-# Running Windows on the Xiaomi Pad 5
+# Xiaomi Pad 5'te Windows Çalıştırma
 
-## Dualbooting Android and Windows seamlessly
+## Android and Windows'u sorunsuzca dualboot edebilme
 
-### Prerequisites
+### Gerekli Dosyalar
 - ```Beyin```
-- ```Köklü bir tablet```
-- ```Tablete yüklü pencereler```
-- [```UEFI görüntüsü```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
-- [```WOA Helper uygulama```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
+- ```Rootlu bir tablet```
+- ```Tablette yüklü Windows```
+- [```UEFI imajı```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+- [```WOA Helper uygulaması```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
 - [```StA Installer```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
 
 ## Dualboot uygulamasını kurma
-> Bu kılavuz, köklü olduğunuzu varsayar, eğer değilseniz, lütfen [root rehber](2-rootguide-tr.md) ilk.
+> Bu rehber rootlu olduğunuzu varsayar, eğer değilseniz lütfen öncelikle [root rehberini](2-rootguide-tr.md) takip edin
 
 ### Kurulum - Android
 > [!NOTE]
-> Dosyaları Windows klasörüne taşıyamıyorsanız, bu, Windows'u yeniden başlatmak yerine kapattığınız anlamına gelir. Bu sorunu gidermek için Windows'a geri dönün ve yeniden başlat'ı kullanın, ardından önyüklemeyi fastboot'a yeniden başlatıp Android'e dönmek için kullanın.
-- Indirin ve yükleyin [WOA Helper uygulama](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk), ardından açın ve kök erişimi verin.
-- [UEFI görüntüsünü](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v2.img) indirin ve dahili depolama alanınızdaki `UEFI` adlı klasörün içine yerleştirin, bu klasör yoksa oluşturun.
-- WOA Helper uygulamasına dönün ve `Back up Android boot` düğmesine basın. Hem 'Windows` hem de 'Android' seçeneklerini seçin.
-- `Mount Windows` düğmesine basın, ardından indirin ve taşıyın [StA_Installer_nabu.exe](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe) dahili depolama alanınızdaki yeni oluşturulan `Windows` klasörüne.
-- WOA Yardımcı uygulamasına dönün ve tuşuna basın `Quickboot to Windows`.
+> Dosyaları Windows klasörüne taşıyamıyorsanız, bu, Windows'u yeniden başlatmak yerine kapattığınız anlamına gelir. Bu sorunu gidermek için Windows'a geri dönün ve yeniden başlat'ı kullanın, ardından yeniden başlatılırken fastboot'a boot edip fastbootu Android'e dönmek için kullanın.
+
+- [WOA Helper uygulamasını](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk) indirin ve kurun, ardından açın ve root erişimi verin.
+- [UEFI imajını](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v2.img) indirin ve dahili depolama alanınızdaki `UEFI` adlı klasörün içerisine yerleştirin, bu klasör yoksa oluşturun.
+- WOA Helper uygulamasına dönün ve `Back up Android boot` butonuna basın. Teker teker hem 'Windows` hem de 'Android' seçeneklerini seçin.
+- `Mount Windows` butonuna basın, ardından [StA_Installer_nabu.exe](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe) indirin ve dahili depolama alanınızdaki yeni oluşturulan `Windows` klasörüne taşıyın
+- WOA Helper uygulamasına dönün ve `Quickboot to Windows` tuşuna basın .
 
 ### Kurulum - Windows
--  Şuraya git `C:\StA_Installer_nabu.exe` ve çalıştır. Çalışmazsa, muhtemelen uygulamanın çalışmasına izin vermeyeceğinden, herhangi bir virüsten koruma yazılımının kapalı olduğundan emin olun.
+-  `C:\StA_Installer_nabu.exe` konumuna gidin ve exe'yi çalıştırın. Çalışmazsa, uygulamanın çalışmasını engelleme ihtimalinden dolayı, herhangi bir antivirüs yazılımının aktif olmadığından emin olun.
 
-##### Android'e önyükleme
-  - Masaüstünüzde yeni kısayolu çalıştırın (erişim kolaylığı için başlat menünüze / görev çubuğunuza da sabitleyebilirsiniz)
+##### Android'e boot etme
+- Masaüstünüzde oluşturulmuş olan yeni kısayolu çalıştırın (erişim kolaylığı için başlat menünüze / görev çubuğunuza da sabitleyebilirsiniz)
 
-##### Booting to Windows
-  - Basın `Quickboot to Windows` uygulamanın içinde veya hızlı ayarlar panelinizde yeni oluşturulan geçişi kullanın
+##### Windows'a boot etme
+- WOA Helper uygulamasındaki `Quickboot to Windows` butonuna basın ya da hızlı ayarlar panelinizde yeni oluşturulmuş olan toggle'ı kullanın
   
 ## Bitti!
