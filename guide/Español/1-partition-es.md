@@ -10,6 +10,14 @@
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
 ## Notas:
+
+> [!NOTE]
+> ¿No sabes por dónde empezar? Simplemente descomprima las [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools) descargadas, por ejemplo ```"C:\platform-tools"``` A continuación, abra ```símbolo del sistema``` o `powershell` como administradora y escriba:
+```cmd
+cd "camino\para\platform-tools"
+```
+> Replace  `"path\to\platform-tools"` with the actual path of the platform tools folder
+
 > [!WARNING]\
 > si elimina cualquier partición a través de diskpart más adelante o ahora, Windows enviará un comando ufs que se malinterpretará y borrará toda su ufs.
 > 
