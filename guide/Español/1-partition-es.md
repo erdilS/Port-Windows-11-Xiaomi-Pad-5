@@ -16,7 +16,7 @@
 ```cmd
 cd "camino\para\platform-tools"
 ```
-> Replace  `"path\to\platform-tools"` with the actual path of the platform tools folder
+> Reemplazar  `"camino\para\platform-tools"` con la ruta real de la carpeta Platform Tools
 
 > [!WARNING]\
 > si elimina cualquier partición a través de diskpart más adelante o ahora, Windows enviará un comando ufs que se malinterpretará y borrará toda su ufs.
