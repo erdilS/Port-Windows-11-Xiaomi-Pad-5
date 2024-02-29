@@ -10,7 +10,7 @@
 ### Gerekli Dosyalar
 - ```Beyin```
   
-- (bir önceki sayfada yedeğini aldığınız)[```Android boot yedeği```](/guide/Turkish/1-partition-tr.md#Mevcut boot imajınızın bir yedeğini alıne) 
+- [```Android boot yedeği```](/guide/Turkish/1-partition-tr.md#Make-a-backup-of-your-existing-boot-image) (bir önceki sayfada yedeğini almıştınız)
 
 
 ## Boot patchleme (yamalama)
@@ -33,4 +33,4 @@
 fastboot flash boot <magisk_patched.img>
 ```
 
-### [Sonraki adım: Windows'u kurma](/guide/Turkish/3-install-tr.md)
+### [Windows kurulumu](/guide/Turkish/install-tr.md)
