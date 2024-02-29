@@ -1,49 +1,63 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 çalıştıran bir Xiaomi Pad 5">
 
-# Xiaomi Pad 5 üzerinde Windows çalıştırma
+# Xiaomi Pad 5'te Windows çalıştırma
 
-## Ender Karşılaşılan Bazı Sorunları Giderme
+## Sorun Giderme
 
+## Windows'ta şarj işlemi çalışmıyor
+> [!WARNING]
+> hOST modu etkinken ek güçle beslenen bir USB çoklayıcı kullanmayın, bu cihazınızı bozabilir. Ek güçle beslenen bir USB çoklayıcı kullanıyorsanız, lütfen [USB host modu devre dışı bırakma rehberini](/guide/Additional-materials/Additional-materials-en.md#disabling-usb-host-mode) kullanın
 
-## Cihaz Android üzerinde açılabiliyor fakat bootloader modunda açılamıyor
+Windows'ta şarj etme yalnızca belirli kablolarla olabilmektedir. Çalıştığı bilinen kablolar orijinal Poco X3 Pro kablosu (USB-A bağlantı noktasındaki ek turuncu/kırmızı piniyle tanınır) ve Nimaso 100W USB-C'den USB-C'ye hızlı şarj kablosudur.
 
-### Gereksinimler:
+## Cihaz Android'e boot ediyor fakat bootloader'a boot edemiyor
+
+### Gerekli Dosyalar:
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
 > [!WARNING]
-> Muhtemelen bu adımlar işinize yaramayacaktır zira Xiaomi Pad 5 için henüz düzgün çalışan bir kurtarma modu yok, dolayısıyla cihaza yüklenebilir bir kurtarma modu da yok. Eğer halihazırda AOSP tabanlı bir custom rom yüklüyse bu adımların işinizi görme olasılığı yüksek, fakat root edilmemiş MIUI yüklü ise bu adımlar hiçbir işinize yaramaz.
+> Muhtemelen bu adımlar işinize yaramayacaktır zira Xiaomi Pad 5'e flaslamak için düzgün çalışan bir custom recovery henüz yok. Ayrıca yeni A/B cihazlarının çoğunda olduğu gibi TWRP Installer zip vb. yoktur ve bozuk fastboot nedeniyle mevcut recovery imajını boot edemezsiniz. Zaten AOSP rom yüklediyseniz, muhtemelen önceden yüklenmiş bir AOSP recoverysi de vardır ve buna doğrudan boot edebilirsiniz, bundan dolayı bu adımları takip edebilirsiniz. Rootsuz MIUI yüklüyse, bu adımlar size yardımcı olmayacaktır.
 >
-> Bu sebepten ötürü bölümlerinize boşluk ve özel karakter içeren isim vermekten kaçının, hatta mümkünse defalarca test edilmiş ESPNABU ve WINNABU hariç isim kullanmayın, aksi takdirde yetkili hesap kullanılarak yazılım yüklenmesi gerekebilir, bu işlem ise ücretlidir.
+> Bu yüzden bölümlerinize boşluk ve özel karakter içeren isim vermekten kaçının, hatta mümkünse defalarca test edilmiş ESPNABU ve WINNABU hariç isim kullanmayın, aksi takdirde EDL üzerinden yetkili hesap kullanılarak yazılım yüklenmesi gerekebilir, bu işlem ise ücretlidir.
 
-Bu sorun bootloader'ın kaldıramadığı bölüm isimlerinden ötürü oluşmakta, bu sorunu gidermek için şu adımları (uygulayabilirseniz) uygulayın:
+Bu sorun bootloader'ın kavrayamadığı volume isimlerinden ötürü oluşmakta, bu sorunu gidermek için şu adımları uygulayın:
 
-- Recovery modunda cihazı (bir şekilde) açın.
+- Recovery'e boot edin
 
-- Tableti bilgisayarınıza bağlayın.
+- Tableti bilgisayara bağlayın
 
-- Bilgisayarınızda ir komut istemcisi (cmd) açın.
+- Bilgisayarda cmd'yi açın
 
-- ```adb shell``` komutunu çalıştırın.
+- ```adb shell``` komutunu çalıştırın
 
-- ```parted``` komutunu çalıştırın.
+- ```parted``` komutunu çalıştırın
 
-- ```print``` komutunu çalıştırarak bölümleri listeleyin.
+- ```print``` komutunu çalıştırarak bölümleri listeleyin
 
-- İçinde boşluk içeren bölümlere (örneğin "kedi arşivi" gibi) bakının ve numaralarını not alın.
+- Adlarında boşluk olan bölümleri arayın, örneğin "Temel Veri Bölümü (Basic Data Partition)" ve birim numaralarını not edin
 
-- Ardından ```rm <bölüm numarası>``` komutunu çalıştırın. (örneğin ```rm 99``` şeklinde)
+- Ardından ```rm <volume numarası>``` komutunu çalıştırın. (örneğin ```rm 99```)
 
 
-## Önyükleme esnasında fsa4480.sys kaynaklı mavi ekran
+## Boot esnasında fsa4480.sys kaynaklı mavi ekran
 
-- Sürücü klasörünü açın.
+- Sürücü klasörünü açın
 
-- ```components\QC8150\Device\DEVICE.SOC_QC8150.NABU\Drivers\USB``` klasörünü silin.
+- ```components\QC8150\Device\DEVICE.SOC_QC8150.NABU\Drivers\USB``` klasörünü silin
 
-- Bu sürücüleri geri yükleyin.
+- Sürücüyü yeniden yükleyin
 
-- Windows'u en az 1 kere başarılı bir şekilde açın.
+- UEFI'ye boot edin
 
-- Windows başarılı bir şekilde açıldıktan sonra sildiğiniz sürücüleri geri ekleyin ve yeniden yükleyin.
+- Windows açıldıktan sonra sürücüyü geri ekleyin ve yeniden yükleyin.
 
+## Android'e geçiş yaptıktan sonra bootloop (/sürekli yeniden başlama)
+
+- fastboot'u çalıştırın
+
+- ```fastboot set_active other```
+
+- ```fastboot flash boot <boot.img>```
+
+- ```fastboot reboot```

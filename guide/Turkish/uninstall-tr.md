@@ -2,30 +2,35 @@
 
 # Xiaomi Pad 5 üzerinde Windows Çalıştırma
 
-## Windows'un kaldırılması
+## Kaldırma
 
-Windows'u kaldırmak istiyorsanız bölümleri elle teker teker silmek yerine birkaç komut ile kaldıracağız. Bu bizleri uzunca bir rehber hazırlamaktan ve sizlerin komutları yazarken herhangi bir hata yapmanızdan kurtaracak.
+### Bu neden gerekli?
 
-Bootloader'ı geri kilitlemek istiyorsanız bölüm tablonuzun orijinal hale gelmesi gerekmektedir.
+Windows'u kaldırmak istiyorsanız bölümleri elle teker teker silmek yerine birkaç komut ile kaldırmak insan hatasını engelleyecektir. Ayrıca bu bizleri uzunca bir rehber hazırlamaktan kurtaracaktır.
 
-### Prerequisites
+Bootloader'ı geri kilitlemek istiyorsanız bölüm tablonuzun orijinal haline gelmesi gerekmektedir.
 
-- [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
+#### Gerekli Dosyalar
+
+- [```Android platform araçları```](https://developer.android.com/studio/releases/platform-tools)
   
-- [```gpt_both0.bin```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/gpt_both0.bin)
+- [```Recovery imajı```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-## Varsayılan bölüm tablosunu geri yükleyin
-
+#### Modlu (modifiye edilmiş) recovery'e boot edin
 ```cmd
-fastboot flash partition:0 <gpt_both0.bin>
+fastboot boot <recovery.img>
 ```
 
-## Bootloop yaşamamak ve bölüm boyutunu geri yüklemek için ```userdata``` bölümünü biçimlendirin
+#### Bölüm düzeninizi restore edin
+> [!Warning]
+> Bu işlem Android dosyalarınızı silecektir. Gerekirse önce yedekleyin.
 ```cmd
-fastboot -w
+adb shell restore
 ```
-### Android'e yeniden başlat
+
+#### Android'e reboot edin
 ```cmd
 fastboot reboot 
 ```
+
 ## Bitti!

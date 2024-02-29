@@ -1,66 +1,73 @@
-<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 çalıştıran bir Xiaomi Pad 5">
+<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 
-# Xiaomi Pad 5 üzerinde Windows Çalıştırma
+# Xiaomi Pad 5'te Windows Çalıştırma
 > [!WARNING]
-> **LÜTFEN YOUTUBE'DA VEYA BAŞKA BİR platformda güncel olmayan VİDEO kılavuzları kullanmayın! BU VİDEOLAR MODASI GEÇMİŞ VE CİHAZINIZI KULLANARAK TUĞLALAYABİLİRSİNİZ! BİR VİDEO KILAVUZUNA İHTİYACINIZ VARSA, BUNU KULLANIN [YENİ VİDEO REHBERİ](https://youtu.be/BbgTbTGbXYg) -den [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
+> **LÜTFEN YOUTUBE VEYA BAŞKA BİR PLATFORMDAKİ GÜNCEL OLMAYAN VİDEO REHBERLERİNİ KULLANMAYIN! BU VİDEOLAR ESKİDİR VE BUNLARI KULLANARAK CİHAZINIZI BRICK EDEBİLİRSİNİZ! EĞER BİR VİDEO REHBERİNE İHTİYACINIZ VARSA, [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA) TARAFINDAN HAZIRLANAN BU [YENİ VİDEO REHBERİNİ](https://youtu.be/BbgTbTGbXYg) KULLANIN**
 
 
-## Aşama 2: Windows Kurulumu
+## Windows Kurulumu
+> [!NOTE]
+> Şimdi CMD veya powershell'i yönetici olarak açmanız ve ardından -yolunu klasörün gerçek yolu ile değiştirdiğiniz- `cd C:\gerçek\yol\platform-tools` komutunu kullanarak platform-tools klasörüne erişmeniz önerilir .
+> Tüm kılavuz boyunca aynı pencereyi kullanın, pencereyi kapatmayın.
 
 ### Gerekli Dosyalar
+
+- ```Beyin```
   
 - [```UEFI imajı```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 
-- [```ARM Windows esd```](https://worproject.com/esd) (Seçmek - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```dilinizi seçin```)
+- [```ARM Windows esd```](https://worproject.com/esd) (Şu seçenekleri seçin: Version: ```11``` | Build: ```22631.2861``` | Architecture: ```ARM64``` | Edition: ```CLIENT``` | Language:  ```istediğiniz dil```)
   
-- [```Sürücüler```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+- [```Sürücüler (driverlar)```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 
-### Windows'u yüklemeye başlamak için ilk olarak recovery modunda cihazı başlatın.
+### Windows'u kurmaya başlamak için recovery'e boot edin
 
 ```cmd
 fastboot boot <recovery.img>
 ```
 
-### msc çalıştırın
-> Sizden bir kez daha çalıştırmanızı isterse, bunu yapın
+#### msc çalıştırın
+
+> Sizden komutu bir kez daha çalıştırmanızı dair uyarı gelirse, bunu yapın
+
 ```cmd
 adb shell msc
 ```
-> Bu aşamadan sonra tabletinizdeki tüm bölümler bilgisayarınızda taşınabilir sabit disk olarak görünecektir. İlk aşamada uyarıldığı gibi diskpart üzerinden silme işlemi yapmamaya dikkat edin.
 
-## Disklere harf atayın
+### Disklere harf atayın
+
   
-
-#### Diskpart'ı başlatın
+#### Diskpart'ı (Windows disk yönetimini) başlatın
 
 ```cmd
 diskpart
 ```
 
 
-### Windows bölümüne `X` harfini atayın
+### Windows volümüne (volume) `X` harfini atayın
 
-#### Tabletinizdeki Windows bölümünü seçin
-> Bunu bulmak için `list volume` komutunu kullanabilirsiniz, "WINNABU" etiketini içeren bölümün numarasını komutta kullanın. Genellikle sondan bir önceki bölüm olur.
+#### Tabletinizdeki Windows volümünü seçin
+> Bunu bulmak için `list volume` komutunu kullanabilirsiniz, "WINNABU" isimli volümdür.
 
 ```diskpart
-select volume <number>
+select volume <volume numarası>
 ```
 
 #### X harfini atayın
+
 ```diskpart
 assign letter x
 ```
 
-### ESP bölümüne `Y` harfini atayın
+### ESP volümüne `Y` harfini atayın
 
 #### Tabletteki ESP bölümünü seçin
-> Bunu bulmak için `list volume` komutunu kullanabilirsiniz, genellikle en sondaki bölüm olur.
+> Bunu bulmak için `list volume` komutunu kullanabilirsiniz, "ESPNABU" isimli volümdür.
 
 ```diskpart
-select volume <number>
+select volume <volume numarası>
 ```
 
 #### Y harfini atayın
@@ -69,86 +76,84 @@ select volume <number>
 assign letter y
 ```
 
-### diskpart arayüzünden çıkın.
+### Diskpart arayüzünden çıkın.
+
 ```diskpart
 exit
 ```
 
-  
-  
-
-## Kurulum işlemi
-
-> Değiştir `<path\to\install.esd>` install.esd dosyasının gerçek yolu ile birlikte (install.wim olarak da adlandırılabilir) 
-
-```cmd
-dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
-``` 
-
-> 'Error 87' alırsanız görüntünüzün dizinini şu şekilde kontrol edin: `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, ardından görüntünüzdeki `index:6` yı Windows 11 Pro'nun gerçek dizin numarasıyla değiştirin 
 
 
+### Kurulum işlemi
 
-# Sürücü kurulumu
-
-> Sürücüleri indirebilirsiniz [burada](https://github.com/map220v/MiPad5-Drivers/releases/latest)
-
-> `"Automatic WINNABU detection failed! Enter Drive Letter manually"` yazıyorsa, **`X`** yazın   
-
+<gerçek\yol\install.esd>` yerine install.esd dosyasının bulunduğu gerçek yolu yazın (install.wim olarak da adlandırılmış olabilir)
 
 ```cmd
-Sürücülerle klasörü açın ve çalıştırın OfflineUpdater.cmd
+dism /apply-image /ImageFile:<gerçek\yol\install.esd> /index:6 /ApplyDir:X:\
 ```
-  
 
-# EFI için Windows önyükleme yöneticisi dosyalarını oluşturun
+> Eğer `Error 87` hatası alırsanız, `dism /get-imageinfo /ImageFile:<gerçek\yol\install.esd>` komutu ile imajınızın indexini (dizinini) kontrol edin, ardından `index:6` yerine imajınızdaki Windows 11 Pro'nun gerçek index numarasını yazın
 
-> Önyükleme dosyalarını kopyalarken bir hata oluşursa, ESPNABU'nun hala Y harfi olup olmadığını görmek için 'diskpart'ı kontrol edin. Olmazsa, başka bir harf (K gibi) ekleyin ve aşağıdaki komuttaki Y'yi sırasıyla söz konusu harfle değiştirin
+
+
+### Sürücü kurulumu
+
+> Sürücüleri [buradan](https://github.com/map220v/MiPad5-Drivers/releases/latest) indirebilirsiniz 
+
+> Eğer `"Automatic WINNABU detection failed! Enter Drive Letter manually"` diyorsa **`X`** yazın
+
+```cmd
+ Sürücülerin bulunduğu klasörü açın ve OfflineUpdater.cmd dosyasını çalıştırın
+```
+
+
+
+### EFI için Windows bootloader dosyalarını oluşturun
+
+> Boot dosyalarını kopyalarken bir hata oluşursa, ESPNABU'nun hala Y harfine sahip olup olmadığını kontrol edin. Eğer Y harfine sahip değilse, başka bir harf (mesela K) ekleyin ve aşağıdaki komuttaki Y'yi sırasıyla söz konusu harfle değiştirin
+
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
- ## Hayalet sürücü harfinin görünmesini önlemek için ESPNABU için sürücü harfini çıkarın
+
+## ESPNABU'nun harfini kaldırın
+> Eğer bu işe yaramazsa, bunu görmezden gelin ve bir sonraki komuta geçin. Bu hayalet sürücü bilgisayarınızı bir sonraki yeniden başlatışınızda kaybolacaktır.
 ```cmd
 mountvol y: /d
 ```
 
-# Windows'u başlatın
+## Windows'a boot edin
 
-### Mevcut boot bölümünün bir yedeğini alın
-> [!NOTE]
-> **Şimdi platform araçları komut istemine geri dönün**
-
+### Rootlu boot imajının bir yedeğini alın
 
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```
 
-
-
-### Bootloader moduna geçiş yapın
+### Bootloader'a boot edin
 
 ```cmd
 adb reboot bootloader
 ```
 
-### UEFI görüntüsünü indirin ve flaşlayın
-> İndir [UEFI görüntüsü](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
-```cmd
-fastboot flash boot <path to image>
-```
-> Bu aşamadan itibaren cihazınızı başlatıp Windows'u kullanabilirsiniz.
+### UEFI imajını indirin ve flashlayın
+> [UEFI imajını](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img) indirin 
 
-## Windows'a yeniden başlat
+```cmd
+fastboot flash boot <imajın bulunduğu yol>
+```
+
+## Windows'a reboot edin
 ```cmd
 fastboot reboot
 ```
 
 > [!NOTE]
-> İlk Windows açılışında herhangi bir Wi-Fi ağı görmeyecek, sadece güç düğmesini basılı tutarak yeniden başlatın ve yeniden başlattıktan sonra **ağınıza** bağlanmayı denediğinizde ve "dondurma" gördüğünüzde 7 kez "tekrar dene" **ye** tıklayın. 
+> İlk Windows açılışında, herhangi bir Wi-Fi ağı görmeyecektir. Yeniden başlayana dek güç düğmesine basılı tutarak tabletinizi yeniden başlatın. Yeniden başlatmadan sonra sorun çözülecektir. "Bağlanılamadı" şeklinde bir bildirim alırsanız, çalışana kadar yeniden dene düğmesine basın (genellikle 5 kez)
 
-# Android'e geri dönüş yapmak
-Windows kurulduktan sonra, Windows'ta yeniden başlat düğmesine basın (KAPATMA değil), ardından yeniden başlatılırken fastboot'a geri dönmek için `sesi kısma` + `güç` tuşlarını basılı tutun
-> Yedeklediğiniz boot yedeğini Fastboot aracılığıyla geri yükleyin.
+### Android'e geri boot edin
+Windows kurulduktan sonra, Windows'ta yeniden başlat düğmesine basın (KAPATMA'ya basmayın), ardından yeniden başlatılırken fastboot'a geri dönmek için `sesi kısma` + `güç` tuşlarına basılı tutun
+> Android'e dönmek için yedeklediğiniz boot imajını fastboot üzerinden geri yükleyin.
 
 ```cmd
 fastboot flash boot rooted_boot.img
@@ -157,6 +162,6 @@ fastboot flash boot rooted_boot.img
 ```cmd
 fastboot reboot
 ```
-# İşlem tamamlandı!
-> Bize katılabilirsiniz [Telegram sohbeti](https://t.me/nabuwoa) projeyle ilgili en son haberleri almak için
-### [Son adım: Çift önyüklemeyi ayarlama](dualboot-tr.md)
+
+
+### [Son Aşama: Dualboot (çift sistem) kurulumu](dualboot-tr.md)
