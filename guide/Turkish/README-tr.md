@@ -14,7 +14,7 @@
 
 ## ⚠️ Uyarı
 
-Brick edilmiş cihazlardan, eksik recovery bölümlerinden, ölü xiaomi fabrika işçişerinden, ölü şarj soketlerinden, ramlerden, ekranlardan, işlemcilerden, herhangi bir xiaomi saçmalığından, ölü kedi veya köpeklerden, nükleer savaşlardan veya android'e geri dönmeyi unuttuğunuz için alarm kuramadığındızan dolayı kovulmanızdan sorumlu değiliz.
+Brick edilmiş cihazlardan, eksik recovery bölümlerinden, ölü xiaomi fabrika işçişerinden, ölü şarj soketlerinden, ramlerden, ekranlardan, işlemcilerden, herhangi bir xiaomi saçmalığından, ölü kedi veya köpeklerden, nükleer savaşlardan veya Android'e geri dönmeyi unuttuğunuz için alarm kuramadığındızan dolayı kovulmanızdan sorumlu değiliz.
 
 Bu proje geliştirme aşamasındadır. Buradaki tüm dosyalar birçok kullanıcının katkıları sayesindedir. Burada, elde etmeyi başardığımız çalışan dosyalarla bir rehber bulacaksınız. Bu hassas bir süreçtir, riski göze alıyorsanız yapın ve tüm adımları dikkatlice izleyin.
 
