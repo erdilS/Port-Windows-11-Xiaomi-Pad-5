@@ -7,7 +7,7 @@
 ### Select your language
 
 - [English](English/disable-secureboot-en.md)
-- ~~[Turkish](Turkish/disable-secureboot-tr.md)~~
+- [Turkish](Turkish/disable-secureboot-tr.md)
 - ~~[Russian](Russian/disable-secureboot-ru.md)~~
 - ~~[Italian](Italian/disable-secureboot-it.md)~~
 - ~~[Español](Español/disable-secureboot-es.md)~~
