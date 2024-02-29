@@ -33,7 +33,7 @@ Bu proje geliştirme aşamasındadır. Buradaki tüm dosyalar birçok kullanıc�
 - [Kaldırma](uninstall-tr.md)
 
 ## Diğer
-- [Proje Durumu](status.md)
+- [Proje Durumu](status-tr.md)
   
 - [Sorun giderme](troubleshooting-tr.md)
   
