@@ -14,11 +14,13 @@
 
 ### Notes:
 > [!NOTE]
-> Nasıl başlayacağınızı bilmiyor musunuz? İndirdiğiniz [``Android platform tools```](https://developer.android.com/studio/releases/platform-tools) dosyasını açın, örneğin ``"C:\platform-tools"``, ardından yönetici olarak ``cmd (komut istemcisi)`` veya `powershell` açın ve yazın:
-``cmd
+> Nasıl başlayacağınızı bilmiyor musunuz? İndirdiğiniz [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools) dosyasını açın, örneğin ``"C:\platform-tools"``, ardından yönetici olarak ``cmd (komut istemcisi)`` veya `powershell` açın ve yazın:
+
+```cmd
 cd "path\to\platform-tools"
 ```
-> `"path\to\platform-tools"` yerine platform araçları klasörünün bulunduğu gerçek yolu yazın
+
+> `"path\to\platform-tools"` kısmına platform-tools klasörünün bulunduğu gerçek yolu yazın
 
 > [!Warning]\
 > Şimdi veya ileriki bir zamanda diskpart üzerinden bölüm silmeye kalkışırsanız Windows'un göndereceği UFS komutu cihaz tarafından yanlış yorumlanarak cihazın UFS belleğinin tümüyle silinmesine yol açabilir.
