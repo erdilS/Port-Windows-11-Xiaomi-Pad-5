@@ -29,8 +29,8 @@
 
  ## Patchli boot flashlama
 - <magisk_patched.img>` yerine ```magisk_patched.img``` dosyasının gerçek adını ve bulunduğu gerçek yolu yazın.
-``cmd
+```cmd
 fastboot flash boot <magisk_patched.img>
 ```
 
-### [Windows kurulumu](/guide/Turkish/install-tr.md)
+### [Sıradaki Aşama: Windows kurulumu](/guide/Turkish/3-install-tr.md)
