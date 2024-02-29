@@ -2,43 +2,64 @@
 
 # Xiaomi pad 5'te Windows için faydalı uygulamalar ve talimatlar
 
-## Secureboot'u devre dışı bırak 
-> Sürücüleri bilgisayar olmadan güncelleyebilmek istiyorsanız 
+## USB Host modunu devre dışı bırakma
+> [!Warning]
+> Güç verilmeyen USB aygıtları çalışmayı durduracaktır.
 
-[Secureboot'u devre dışı bırakma kılavuzu](/guide/Turkish/disable-secureboot-tr.md)
+[restore_default_usb.reg](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/USBHost/restore_default_usb.reg) dosyasını çalıştırın, sonrasında tableti yeniden başlatın.
 
-## Microsoft Office
+USB host modunu yeniden aktif etmek için [force_usb_host.reg](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/USBHost/force_usb_host.reg) dosyasını çalıştırın, ardından tableti yeniden başlatın.
 
-- Bunu indir [dosya](https://mega.nz/file/Q7p1XK6L#J-KPp_-MNJ8iXGqEwwZ3_sfv2tMiq_AJjUiiaX6TBrI) tablete
+## Secureboot'u devre dışı bırakma
+> Sürücüleri bilgisayar olmadan güncelleyebilmek istiyorsanız
+
+[Secureboot'u devre dışı bırakma rehberi](/guide/Turkish/disable-secureboot-tr.md)
+
+## ```Microsoft Office``` / ```Microsoft 365``` kurulumu
+
+- Bu dosyayı [dosya](https://mega.nz/file/Q7p1XK6L#J-KPp_-MNJ8iXGqEwwZ3_sfv2tMiq_AJjUiiaX6TBrI) tablete indirin
   
-- Kuruluma herhangi bir müdahaleyi önlemek için Windows Defender'ı kapatın
+## Office'i iso dosyasından kurun
   
-- Iso dosyasına sağ tıklayın ve Explorer'da açmak için Bağla'yı seçin
+- iso dosyasına sağ tıklayın ve Explorer'da açmak için Bağla'yı seçin
 
-- OTOMATİK çalıştır'a çift tıklayın.kurulum sihirbazını başlatmak için exe
+- Kurulum sihirbazını başlatmak için ```Office Tool Plus.exe``` dosyasına çift tıklayın
   
-- Yüklemek istediğiniz dili ve bileşenleri seçin ve ardından Yüklemeyi başlat'ı tıklatın
+- Açılan pencerede `Evet` seçeneğine tıklayın
   
-- Yükleme ve etkinleştirmenin tamamlanmasını bekleyin
+- Kurulumun tamamlanmasını bekleyin
 
-- Windows Defender'ı tekrar açın
+ ### Office aktivasyonunu yapma
 
-- Office'i kullanmanın tadını çıkarın!
+- massgrave script dosyasını kullanarak etkinleştirin:
 
- ## Activate Windows
+> `PowerShell`'i açın ve şunu yazın: 
 
-> Powershell'i açın ve şunu yazın: 
-
-  ```cmd
+```powershell 
 irm https://massgrave.dev/get | iex 
 ```
-> Bir pencere göründüğünde, 1'i seçin
+
+- Bir pencere açılacak, burada `2`yi seçin
+
+- Sonraki sayfada `1`i seçin
+
+- Etkinleştirmenin tamamlanmasını bekleyin
+
+- Office'i kullanmanın keyfini çıkarın!
+
+ ## Windows'u aktivasyonunu yapma
+
+> PowerShell'i açın ve şunu yazın: 
+
+```powershell 
+irm https://massgrave.dev/get | iex 
+```
+> Bir pencere açılacak, burada 1'i seçin
 
  ## El feneri nasıl kullanılır
 
- - İndirmek [Flashlight.7z](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/flashlight_fix.7z) ve herhangi bir klasöre sıkıştırın
+ - [Flashlight.7z](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/flashlight_fix.7z) arşiv dosyasını indirin ve herhangi bir klasöre çıkartın
 
-> El fenerini çalıştır.el fenerini etkinleştirmek için exe
+> El fenerini açmak için flashlight.exe'yi çalıştın
 
-> devre dışı bırakmak için herhangi bir tuşa basın
-
+> Kapatmak için ise herhangi bir tuşa basın
