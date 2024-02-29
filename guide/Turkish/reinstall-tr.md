@@ -30,4 +30,5 @@ fastboot boot <recovery.img>
 ```cmd
 adb shell format
 ```
-## [Sıradaki adım: Windows'u tekrardan kurma](/guide/Turkish/3-install-tr.md#msc çalıştırın)
+
+## [Sıradaki adım: Windows'u tekrardan kurma](/guide/Turkish/3-install-tr.md#Execute-msc)
