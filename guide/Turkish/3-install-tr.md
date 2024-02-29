@@ -39,7 +39,7 @@ adb shell msc
 ### Disklere harf atayın
 
   
-#### Diskpart'ı başlatın
+#### Diskpart'ı (Windows disk yönetimini) başlatın
 
 ```cmd
 diskpart
@@ -76,7 +76,7 @@ select volume <volume numarası>
 assign letter y
 ```
 
-### diskpart arayüzünden çıkın.
+### Diskpart arayüzünden çıkın.
 
 ```diskpart
 exit

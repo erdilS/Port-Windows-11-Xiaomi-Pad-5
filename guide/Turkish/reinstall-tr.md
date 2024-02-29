@@ -1,33 +1,33 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 
-# Running Windows on the Xiaomi Pad 5
+# Xiaomi Pad 5'te Windows Çalıştırma
 
-## Reinstallation
-If you don't like your Windows version or you've bricked your Windows install, or anything else, you would probably just reinstall Windows. Thankfully this process is very easy.
+## Yeniden kurulum
+Windows sürümünüzü beğenmediyseniz veya Windows kurulumunuzu bozduysanız ya da başka bir şey yaptıysanız, muhtemelen Windows'u yeniden yüklersiniz. Neyse ki bu işlem çok kolaydır.
 
 > [!IMPORTANT]
-> Quite obviously, this will erase all of your Windows files. If you'd like to back up any of them, you can do so by mounting Windows using the [WOA Helper](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk) app and manually copying any files you wish to keep
+> Açıkçası, bu işlem tüm Windows dosyalarınızı silecektir. Bunlardan herhangi birini yedeklemek isterseniz, [WOA Helper](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk) uygulamasını kullanarak Windows'u mount edip saklamak istediğiniz dosyaları manuel olarak kopyalayabilirsiniz
 
 
-### Prerequisites
+### Gerekli Dosyalar
 
-- Existing Windows and boot partitions (*If not met, [go back and just pretend this guide never existed](/guide/Turkish/1-partition-tr.md)*)
+- ```Mevcut Windows ve boot bölümleri`` (*Bunlarla henüz tanışmadıysanız, [geri dönün ve bu rehber hiç var olmamış gibi davranın](/guide/Turkish/1-partition-tr.md)*)
 
-- [Recovery Image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [``Recovery imajı``](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+- [``Android platform araçları``](https://developer.android.com/studio/releases/platform-tools)
 
 
-### Boot recovery to format the Windows and boot partitions
+### Windows ve boot bölümlerini biçimlendirmek için recovery'e boot edin
 
 ```cmd
 fastboot boot <recovery.img>
 ```
 
-### Format the partitions
-> If it asks you to run it once again, do so
+### Bölümleri formatlayın
+> Eğer komutu bir kez daha çalıştırmanıza dair uyarı gelirse, bunu yapın
 ```cmd
 adb shell format
 ```
-## [Next step: Reinstalling Windows](/guide/Turkish/3-install-tr.md#Execute-msc)
+## [Sıradaki adım: Windows'u tekrardan kurma](/guide/Turkish/3-install-tr.md#msc çalıştırın)

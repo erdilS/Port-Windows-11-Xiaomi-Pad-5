@@ -1,14 +1,16 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 çalıştıran bir Xiaomi Pad 5">
 
-# Xiaomi Pad 5 üzerinde Windows çalıştırma
+# Xiaomi Pad 5'te Windows çalıştırma
 
-### Prerequisites
+## Sürücüleri Güncelleme
 
-- [```UEFI image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+### Gerekli Dosyalar
+
+- [```UEFI imajı```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
   
 - [```Recovery imajı```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
   
-- [```Sürücüler```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+- [```Sürücüler (driverlar)```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 #### Recovery modunu bilgisayar aracılığıyla başlatın
 
@@ -17,64 +19,65 @@ fastboot boot <recovery.img>
 ```
 
 
-### Betiği çalıştırın
-> Sizden bir kez daha çalıştırmanızı isterse, bunu yapın
+### Yığın depolama (mass storage) modunu etkinleştirin
+> Eğer komutu bir kez daha çalıştırmanıza dair uyarı gelirse, bunu yapın
 ```cmd
 adb shell msc
 ```
-> Bu aşamadan sonra tabletinizdeki tüm bölümler bilgisayarınızda taşınabilir sabit disk olarak görünecektir. İlk aşamada uyarıldığı gibi diskpart üzerinden silme işlemi yapmamaya dikkat edin.
 
-## Disklere harfleri atayın
 
-#### Diskpart'ı başlatın
+### Disklere harf atayın
+
+  
+#### Diskpart'ı (Windows disk yönetimini) başlatın
 
 ```cmd
 diskpart
 ```
 
 
-### Windows bölümüne `X` harfini atayın
+### Windows volümüne (volume) `X` harfini atayın
 
-#### Tabletinizdeki Windows bölümünü seçin
-> Bunu bulmak için `list volume` komutunu kullanabilirsiniz, "WINNABU" etiketini içeren bölümün numarasını komutta kullanın. Genellikle sondan bir önceki bölüm olur.
+#### Tabletinizdeki Windows volümünü seçin
+> Bunu bulmak için `list volume` komutunu kullanabilirsiniz, "WINNABU" isimli volümdür.
 
 ```diskpart
-select volume <number>
+select volume <volume numarası>
 ```
 
 #### X harfini atayın
+
 ```diskpart
-assign letter=x
+assign letter x
 ```
 
-### diskpart arayüzünden çıkın.
+### Diskpart arayüzünden çıkın.
+
 ```diskpart
 exit
 ```
 
-
-
 # Sürücü kurulumu
 
-> Sürücüleri indirebilirsiniz [burada](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+> Sürücüleri [buradan](https://github.com/map220v/MiPad5-Drivers/releases/latest) indirebilirsiniz
 
-> `"Automatic WINNABU detection failed! Enter Drive Letter manually"` yazıyorsa, **`X`** yazın   
+> `"Automatic WINNABU detection failed! Enter Drive Letter manually"` diye bir uyarı verirse, **`X`** yazın   
 
 ```cmd
-Sürücülerle klasörü açın ve çalıştırın OfflineUpdater.cmd
+Sürücülerün bulunduğu klasörü açın ve OfflineUpdater.cmd dosyasını çalıştırın
 ```
   
-### UEFI'yi flaş etmek için fastboot'u yeniden başlatın
-> Veya UEFI'niz zaten yanıp sönmüşse, ```adb reboot``` ile yeniden başlatmanız yeterlidir.
+### UEFI'yi flashlamak için fastboot'a reboot edin
+> Veya UEFI'niz zaten flashlanmışsa, ```adb reboot``` komutuyla yeniden başlatmanız yeterlidir.
 ```cmd
 adb reboot bootloader
 ```
 
-#### UEFI imajını yükleyerek Windows'u başlatın #####
-> <uefi.img> dosyasını UEFI görüntüsünün gerçek yolu ile değiştirin
+#### Boot edilebilir Windows UEFI imajıyla boot edin
+> Komutun <uefi.img> kısmını UEFI imajının bulunduğu gerçek yol ile değiştirin
 ```
 fastboot flash boot <uefi.img>
 ```
 
 
-# İşlem tamamlandı!
+## İşlem tamamlandı!

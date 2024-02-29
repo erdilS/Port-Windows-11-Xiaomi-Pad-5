@@ -4,20 +4,20 @@
 
 ## UEFI Güncelleme
 > [!Warning]
-> Eski UEFI'den (15 Ocak veya öncesi) UEFI-V3'e güncelleme yapıyorsanız, [sürücü güncelleme kılavuzunu](update-tr.md) kullanarak yapabileceğiniz sürücülerinizi de güncellemeniz gerekir.
+> Eski UEFI'den (15 Ocak veya öncesi) UEFI-V3'e güncelleme yapıyorsanız, [sürücü güncelleme rehberini](update-tr.md) kullanarak sürücülerinizi de güncellemeniz gerekir.
 
-### Bu kılavuza neden ihtiyaç duyuluyor?
+### Bu rehbere neden ihtiyaç duyuluyor?
 
 Bilmiyorum, Ama bazı insanlar bunu soruyordu 
 
-### Önkoşullar
-- [```WOA Helper app```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
+### Gerekli Dosyalar
+- [```WOA Helper uygulaması```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
   
-- [```En son UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+- [```Güncel UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 
 ## Eski UEFI'yi yenisiyle değiştirin
-> Henüz dualboot'u kurmadıysanız, [dualboot kılavuzunu](/guide/Turkish/dualboot-tr.md) izleyin kurmak için WOA Helper gereken şekilde
-- Boot to Android
+> Henüz dualboot'u kurmadıysanız, [dualboot rehberini](/guide/Turkish/dualboot-tr.md) takip edip WOA Helper'ı düzgünce kurun
+- Android'e boot edin
 - Dahili depolama alanınızdaki `UEFI` klasörünü açın
 - Eski UEFI'yi silin
 - Yenisini içine yerleştirin
@@ -25,4 +25,4 @@ Bilmiyorum, Ama bazı insanlar bunu soruyordu
 ## Bitti, Windows'a geçin ve keyfini çıkarın 
 
 > [!NOTE]
->  Bir BSOD alırsanız veya Windows normal şekilde önyükleme yapamıyorsa, en son sürücüleri kullandığınızdan emin olun ve bunları güncelleyin Bir BSOD alırsanız veya Windows normal şekilde önyükleme yapamıyorsa, en son sürücüleri kullandığınızdan emin olun ve bunları güncelleyin Bir BSOD alırsanız veya Windows normal şekilde önyükleme yapamıyorsa, en son sürücüleri kullandığınızdan emin olun ve bunları güncelleyin 
+>  Bir mavi ekran hatası (BSOD) alırsanız veya Windows normal şekilde boot etmiyorsa, en güncel sürücüleri kullandığınızdan emin olun, değilse güncelleyin
