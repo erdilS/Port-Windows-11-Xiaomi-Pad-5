@@ -1,53 +1,58 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 çalıştıran bir Xiaomi Pad 5">
 
+# Xiaomi Pad 5'te Windows Çalıştırma
 
-# Xiaomi Pad 5 üzerinde Windows Çalıştırma
-
-### Aşama 1: Windows'un yükleneceği bölümleri oluşturma
+## Kurulum
 
 ### Gerekli Dosyalar
 
-- [```Recovery İmajı```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- Beyin
 
-- [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
+- [```Recovery imajı```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-## Notlar:
-> [!WARNING]
-> Diskpart üzerinden bölüm silmeye kalkışırsanız Windows'un göndereceği UFS komutu cihaz tarafından yanlış yorumlanarak cihazın UFS belleğinin tümüyle silinmesine yola açabilir.
->
->  Bölümlerde değişiklik yapmak için yalnızca recovery mod üzerinden parted ile işlem yapın.
+- [```Android platform araçları```](https://developer.android.com/studio/releases/platform-tools)
+
+### Notes:
+> [!NOTE]
+> Nasıl başlayacağınızı bilmiyor musunuz? İndirdiğiniz [``Android platform tools```](https://developer.android.com/studio/releases/platform-tools) dosyasını açın, örneğin ``"C:\platform-tools"``, ardından yönetici olarak ``cmd (komut istemcisi)`` veya `powershell` açın ve yazın:
+``cmd
+cd "path\to\platform-tools"
+```
+> `"path\to\platform-tools"` yerine platform araçları klasörünün bulunduğu gerçek yolu yazın
+
+> [!Warning]\
+> Şimdi veya ileriki bir zamanda diskpart üzerinden bölüm silmeye kalkışırsanız Windows'un göndereceği UFS komutu cihaz tarafından yanlış yorumlanarak cihazın UFS belleğinin tümüyle silinmesine yol açabilir.
 > 
 > Cihazda bulunan tüm verileriniz silinecektir. Yedeğini almayı gerektiren dosyalarınız varsa yedeklemeyi ihmal etmeyin.
 > 
 > Rehberdeki komutların tümü test edilmiştir.
 > 
- Aynı komutları ikişer kez (ya da daha fazla) çalıştırmayın.
-> 
-> Eğer hata yaptığınızı düşünüyorsanız TABLETİNİZİ YENİDEN BAŞLATMAYIN ve [Telegram grubumuzdan](https://t.me/nabuwoa) yardım isteyin.
+> Eğer bir hata yaptığınızı düşünüyorsanız TABLETİNİZİ YENİDEN BAŞLATMAYIN, [Telegram grubumuzdan](https://t.me/nabuwoa) yardım isteyin.
 >
-> 
-> Komutların hepsini birden çalıştırmak yerine sırayla teker teker çalıştırın!
->
-> KOMUTLARI GİRERKEN HERHANGİ BİR HATA YAPMAYIN!!! EĞER YANLIŞ BİR ŞEY YAPARSANIZ CİHAZINIZI BOZABİLİRSİNİZ.
+>**LÜTFEN YOUTUBE VEYA BAŞKA BİR PLATFORMDAKİ GÜNCEL OLMAYAN VİDEO REHBERLERİNİ KULLANMAYIN! BU VİDEOLAR ESKİDİR VE BUNLARI KULLANARAK CİHAZINIZI BRICK EDEBİLİRSİNİZ! EĞER BİR VİDEO REHBERİNE İHTİYACINIZ VARSA, [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)** TARAFINDAN HAZIRLANAN BU [YENİ VİDEO REHBERİNİ](https://youtu.be/BbgTbTGbXYg) KULLANIN
+
+### Cihazınızı bölümlere ayırma ve bootu yedekleme
 
 #### Bir bilgisayar aracılığıyla recovery modunda cihazı başlatın
 ```cmd
 fastboot boot <recovery.img>
 ```
-##### Bölümleme komut dosyasını çalıştırın
 
-> Sizden bir kez daha çalıştırmanızı isterse, bunu yapın
+##### Cihazınızı bölümlere ayırma
+
+> Sizden komutu bir kez daha çalıştırmanıza dair bir uyarı gelirse, bunu yapın
 
 > Bu **isteğe bağlıdır** ancak bu komut dosyasını kullanarak **özel boyutlar ayarlayabilirsiniz**
 
-> Özel boyutları ayarlamak için ```adb shell partition [GB CİNSİNDEN HEDEF WİNDOWS BOYUTU]```
+> Özel boyutları ayarlamak için ```adb shell partition [GB CİNSİNDEN HEDEFLENEN WINDOWS BOYUTU]```
 
-> Sonunda GB eklemediğinizden emin olun, sadece sayı
+>  Komutun sonuna GB harflerini eklemediğinizden emin olun, sadece sayı
 
 ```cmd
 adb shell partition
 ```
-### Mevcut önyükleme resminizin yedeğini alın
+
+### Mevcut boot imajınızın bir yedeğini alın
 
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
@@ -55,13 +60,9 @@ adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.
 
 
 #### Android'in hâlâ çalışıp çalışmadığını kontrol edin 
-> Sadece Android'in hala çalışıp çalışmadığını görün
-Animasyonda önyükleme yapmıyorsa veya döngü yapmıyorsa, verileri silmek için MIUI kurtarma veya diğer kurtarmaları kullanın.
+> Android'in hâlâ çalışıp çalışmadığını kontrol etmek için yeniden başlatın. Boot yapmazsa, reovery'de wipe all data (/tüm veriler silme) yapın ve tekrar deneyin.
+
 ```cmd
 adb reboot
 ```
-
-
-
-
-## [Sonraki aşama: Almak root](/guide/Turkish/2-rootguide-tr.md)
+### [Sonraki aşama: Rootlama (root erişimi alma)](/guide/Turkish/2-rootguide-tr.md)

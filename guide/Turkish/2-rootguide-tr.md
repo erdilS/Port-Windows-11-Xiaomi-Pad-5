@@ -1,38 +1,36 @@
-
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 
 # Xiaomi Pad 5'te Windows çalıştırma
 
-## Almak root 
+## Rootlamak (root yetkisi almak)
 > [!NOTE]
-> **Zaten kökünüz varsa, bu adımı atlayın ve bir sonraki sayfaya gidin**
+> **Zaten rootunuz varsa, bu adımı atlayın ve bir sonraki sayfaya gidin**
 
-### Önkoşullar
+### Gerekli Dosyalar
 - ```Beyin```
   
-- [```Android önyükleme yedeklemesi```](/guide/English/1-partition-en.md#Make-a-backup-of-your-existing-boot-image) (which you backup on the first guide page)
+- (bir önceki sayfada yedeğini aldığınız)[```Android boot yedeği```](/guide/Turkish/1-partition-tr.md#Mevcut boot imajınızın bir yedeğini alıne) 
 
 
-## Yama önyüklemesi
+## Boot patchleme (yamalama)
 
-- Kopyala ```normal_boot.img``` dosyadan ```platform tools``` tablete klasör
+- ``platform tools`` klasöründeki ``normal_boot.img`` dosyasını tablete kopyalayın 
 
-
-- Indirin ve yükleyin [Magisk uygulama](https://github.com/topjohnwu/Magisk/releases/latest) tablete
+- [Magisk uygulamasını](https://github.com/topjohnwu/Magisk/releases/latest) tablete indirin ve kurun
   
-- Magisk uygulamasını açın ve ```Yüklemek``` düğme. Seçmek ```Bir Dosya Seçin ve Düzeltin``` seçenek ve bulmak ```normal_boot.img``` tablete kopyaladığınız dosya. Tıklayın ```hadi gidelim``` düğmesine basın ve yama işleminin tamamlanmasını bekleyin.
+- Magisk uygulamasını açın ve ```Install``` butonuna basın. ```Select and Patch a File``` seçeneğini seçin ve tablete kopyaladığınız ```normal_boot.img``` dosyasını bulun. ```Let's Go``` butonuna tıklayın ve işlemin tamamlanmasını bekleyin.
   
-- Kopyala ```magisk_patched....img``` dosyadan ```Downloads``` tablet üzerindeki klasör ```platform tools``` bilgisayarınızdaki klasör.
+- Tabletin ```Downloads (/İndirilenler)``` klasöründeki ```magisk_patched....img``` dosyasını bilgisayarınızdaki ``platform tools`` klasörüne kopyalayın. 
 
-- Fastboot için yeniden başlat
+- Fastboota reboot edin
   
-- Platform araçları klasöründe komut istemi'ni açın
+- platform-tools klasöründe cmd açın
 
- ## Flaş yamalı önyükleme
- > Yerini almak `<magisk_patched.img>` gerçek ile ```magisk_patched.img``` isim / yol.
-```cmd
+ ## Patchli boot flashlama
+- <magisk_patched.img>` yerine ```magisk_patched.img``` dosyasının gerçek adını ve bulunduğu gerçek yolu yazın.
+``cmd
 fastboot flash boot <magisk_patched.img>
 ```
 
-### [Sonraki adım: Windows'u Yükleme](/guide/Turkish/3-install-tr.md)
+### [Sonraki adım: Windows'u kurma](/guide/Turkish/3-install-tr.md)
