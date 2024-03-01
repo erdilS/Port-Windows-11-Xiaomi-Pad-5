@@ -19,11 +19,7 @@ Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/re
 
 ## Install ```Microsoft Office```/```Microsoft 365```
 
-### Download Office iso 
-
-- Download this [file](https://mega.nz/file/hjAiSL4T#G7kOKpsUFpyL2UW9RQmY2e96urcQW5xZKdc7ciaNOy8) to the tablet
-  
-### Install Office from iso
+- Download this [ISO file](https://mega.nz/file/hjAiSL4T#G7kOKpsUFpyL2UW9RQmY2e96urcQW5xZKdc7ciaNOy8) to the tablet
 
 - Right-click on the iso file and select Mount to open it in explorer
 
@@ -35,32 +31,15 @@ Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/re
   
 ### Activate Office 
 
-- Activate it using massgrave script:
-
-> Open `PowerShell` and type: 
-
-  ```powershell 
-irm https://massgrave.dev/get | iex 
-```
-
-- When a window appears, select `2`
-
-- On next page select `1`
-
-- Wait for the activation to complete
-
-- Enjoy using Office!
+- Follow the instructions by Massgravel [here](https://github.com/massgravel/Microsoft-Activation-Scripts)
 
 ## Finished!
 
- ## Activate Windows
 
-> Open PowerShell and type: 
+## Activate Windows
 
-  ```powershell 
-irm https://massgrave.dev/get | iex 
-```
-> When a window appears, select 1
+Follow the instructions by Massgravel [here](https://github.com/massgravel/Microsoft-Activation-Scripts)
+
 
 ## Finished!
 
@@ -68,7 +47,7 @@ irm https://massgrave.dev/get | iex
 
  - Download [Flashlight.7z](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/flashlight_fix.7z) and unzip to any folder
 
-> Run flashlight.exe to enable flashlight 
+> Run flashlight.exe to enable the flashlight 
 
 > Press any key to disable it
 
