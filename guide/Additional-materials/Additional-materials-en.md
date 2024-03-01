@@ -8,7 +8,7 @@
 
 Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/USBHost/USB.Host.Mode.Control.V4.0.vbs) to enable/disable USB host mode, then restart the tablet.
 
-## Finished!
+#### Finished!
 
 
 ## Disable secureboot
@@ -16,7 +16,7 @@ Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/re
 
 [Guide to disabling secureboot](/guide/English/disable-secureboot-en.md)
 
-## Finished!
+#### Finished!
 
 
 ## Install ```Microsoft Office```/```Microsoft 365```
@@ -26,13 +26,13 @@ Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/re
 - In the window that appears, click `Yes`
 - Wait for the installation to complete
 
-## Finished!
+#### Finished!
 
 
 ## Activate Windows / Office
 Follow the instructions by Massgravel [here](https://github.com/massgravel/Microsoft-Activation-Scripts)
 
-## Finished!
+#### Finished!
 
 
 ## How to use the Flashlight 
@@ -40,7 +40,7 @@ Follow the instructions by Massgravel [here](https://github.com/massgravel/Micro
 > Run flashlight.exe to enable the flashlight 
 > Press any key to disable it
 
-## Finished!
+#### Finished!
 
 
 
