@@ -6,7 +6,7 @@
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
 
 ## Язык
-**```Русский```** | [```English```](/README.md) | [```Español```](/guide/Español/README-es.md) | [```Italian```](/guide/Italian/README-it.md) | [```Japanese```](/guide/Japanese/README-ja.md) | [```Traditional Chinese```](/guide/Traditional%20Chinese/README-tw.md) | [```Turkish```](/guide/Turkish/README-tr.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | [```Vietnamese```](/guide/Vietnamese/README-vi.md)
+**```Русский```** | [```English```](/README.md) | [```Turkish```](/guide/Turkish/README-tr.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md)
 
 > [!NOTE]
 > Другие языки, кроме английского, могут быть не всегда актуальными. 
