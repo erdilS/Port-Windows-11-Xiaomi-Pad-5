@@ -44,7 +44,7 @@
 
 - [Обновление UEFI](guide/Russian/UEFI-updating-ru.md)
 
-- [Полезные приложения и инструкции ](guide/Additional-materials/Additional-materials-ru.md)
+- [Полезные приложения и инструкции ](guide/Russian/Additional-materials-ru.md)
 
 ## Разработчики
 
