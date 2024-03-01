@@ -9,8 +9,15 @@
 - [English](English/reinstall-en.md)
 - ~~[Turkish](Turkish/reinstall-tr.md)~~
 - [Russian](Russian/reinstall-ru.md)
-- ~~[Italian](Italian/reinstall-it.md)~~
-- [Español](Español/reinstall-es.md)
 - [Ukrainian](Ukrainian/reinstall-uk.md)
-- [Vietnamese](Vietnamese/reinstall-vi.md)
-- [Traditional Chinese](Traditional%20Chinese/reinstall-tw.md)
+
+
+
+
+
+
+
+
+
+
+
