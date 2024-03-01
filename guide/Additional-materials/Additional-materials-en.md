@@ -6,9 +6,7 @@
 > [!Warning]
 > Unpowered USB devices will stop working
 
-Run [restore_default_usb.reg](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/USBHost/restore_default_usb.reg), then restart the tablet.
-
-To re-enable USB host mode, run [force_usb_host.reg](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/USBHost/force_usb_host.reg), then restart the tablet.
+Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/USBHost/USB.Host.Mode.Control.V4.0.vbs) to enable/disable USB host mode, then restart the tablet.
 
 ## Disable secureboot
 > If you want to be able to update drivers without a PC
@@ -19,7 +17,7 @@ To re-enable USB host mode, run [force_usb_host.reg](https://github.com/erdilS/P
 
 ### Download Office iso 
 
-- Download this [file](https://mega.nz/file/hjAiSL4T#G7kOKpsUFpyL2UW9RQmY2e96urcQW5xZKdc7ciaNOy8) to tablet
+- Download this [file](https://mega.nz/file/hjAiSL4T#G7kOKpsUFpyL2UW9RQmY2e96urcQW5xZKdc7ciaNOy8) to the tablet
   
 ### Install Office from iso
 
