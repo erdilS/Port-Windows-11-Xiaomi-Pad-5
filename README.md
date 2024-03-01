@@ -40,7 +40,7 @@ This project is in development stage, all the files here have been contributed b
 
 - [Updating UEFI](guide/English/UEFI-updating-en.md)
 
-- [Useful apps and instructions](guide/Additional-materials/Additional-materials-en.md)
+- [Useful apps and instructions](guide/English/Additional-materials-en.md)
 
 
 
