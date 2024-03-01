@@ -20,7 +20,7 @@ Bu proje geliştirme aşamasındadır. Buradaki tüm dosyalar birçok kullanıc�
 
 **TABLETİNİZİ YA DA TABLETİN BÖLÜM TABLOSUNU MODİFİYE ETMEKTEN RAHATSIZSANIZ YA DA TABLETİNİZİ BRICK ETMEKTEN KORKUYORSANIZ ŞU AN UZAKLAŞIN!!! DİKKAT, TABLETİNİZİ BRICK EDERSENİZ KENDİ BAŞINIZASINIZ!!! BU KONUDA SİZİ UYARIYORUZ!!!**
 
-> ⚠️ **Dikkat**
+> [!WARNING]
 > 
 > **LÜTFEN YOUTUBE'DA VEYA BAŞKA BİR PLATFORMDA BULUNAN VIDEO REHBERLERİ KULLANMAYIN! BU VIDEOLAR ESKİDİR VE BUNLARI KULLANARAK CİHAZINIZI BRICK EDEBİLİRSİNİZ! İLLA Kİ BİR VIDEO REHBERE İHTİYACINIZ VARSA [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA) TARAFINDAN HAZIRLANMIŞ BU [VIDEO REHBERİ](https://youtu.be/BbgTbTGbXYg) KULLANIN**
 
@@ -39,7 +39,7 @@ Bu proje geliştirme aşamasındadır. Buradaki tüm dosyalar birçok kullanıc�
   
 - [Sürücüleri Güncelleme](update-tr.md)
   
-- ~[Yeniden yükleme](reinstall-tr.md)~
+- [Yeniden yükleme](reinstall-tr.md)
   
 - [UEFI Güncelleme](UEFI-updating-tr.md)
   
