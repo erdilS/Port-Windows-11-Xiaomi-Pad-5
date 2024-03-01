@@ -8,10 +8,14 @@
 
 Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/USBHost/USB.Host.Mode.Control.V4.0.vbs) to enable/disable USB host mode, then restart the tablet.
 
+## Finished!
+
 ## Disable secureboot
 > If you want to be able to update drivers without a PC
 
 [Guide to disabling secureboot](/guide/English/disable-secureboot-en.md)
+
+## Finished!
 
 ## Install ```Microsoft Office```/```Microsoft 365```
 
@@ -47,6 +51,8 @@ irm https://massgrave.dev/get | iex
 
 - Enjoy using Office!
 
+## Finished!
+
  ## Activate Windows
 
 > Open PowerShell and type: 
@@ -56,6 +62,8 @@ irm https://massgrave.dev/get | iex
 ```
 > When a window appears, select 1
 
+## Finished!
+
  ## How to use Flashlight 
 
  - Download [Flashlight.7z](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/flashlight_fix.7z) and unzip to any folder
@@ -63,6 +71,23 @@ irm https://massgrave.dev/get | iex
 > Run flashlight.exe to enable flashlight 
 
 > Press any key to disable it
+
+## Finished!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
