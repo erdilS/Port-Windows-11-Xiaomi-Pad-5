@@ -85,7 +85,7 @@ exit
 dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 ```
 
-> If you get `Error 87`, check the index of your image with `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, then replace `index:6` with the actual index number of Windows 11 Pro in your image
+> если вы получили `Ошибка 87`, проверьте индекс вашего образа используя `dism /get-imageinfo /ImageFile:<путь\к\install.esd>`, затем замените `index:6` существующим номером индекса Windows 11 Pro в вашем образе 
 
 
 ### Установка драйверов
