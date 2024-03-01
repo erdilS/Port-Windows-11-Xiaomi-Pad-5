@@ -27,7 +27,7 @@ Massgravel talimatlarını [buradan](https://github.com/massgravel/Microsoft-Act
 
  ## El feneri (flashlight) nasıl kullanılır
 
- - [Flashlight.7z](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/flashlight_fix.7z) arşiv dosyasını indirin ve herhangi bir klasöre çıkartın
+- [Flashlight.7z](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/flashlight_fix.7z) arşiv dosyasını indirin ve herhangi bir klasöre çıkartın
 
 > El fenerini açmak için flashlight.exe'yi çalıştın
 
