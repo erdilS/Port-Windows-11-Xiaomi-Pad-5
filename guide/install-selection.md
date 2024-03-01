@@ -9,8 +9,9 @@
 - [English](English/1-partition-en.md)
 - [Turkish](Turkish/1-partition-tr.md)
 - [Russian](Russian/partition-ru.md)
-- [Italian](Italian/1-partition-it.md)
-- [Español](Español/1-partition-es.md)
 - [Ukrainian](Ukrainian/1-partition-uk.md)
-- [Vietnamese](Vietnamese/1-partition-vi.md)
-- [Traditional Chinese](Traditional%20Chinese/1-partition-tw.md)
+
+
+
+
+
