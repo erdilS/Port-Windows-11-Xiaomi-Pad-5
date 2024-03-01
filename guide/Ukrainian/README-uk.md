@@ -39,7 +39,7 @@
   
 - [Оновлення UEFI](UEFI-updating-uk.md)
   
-- [Корисні програми та інструкції](/guide/Additional-materials/Additional-materials-uk.md)
+- [Корисні програми та інструкції](/guide/Ukrainian/Additional-materials-uk.md)
 
 
 
