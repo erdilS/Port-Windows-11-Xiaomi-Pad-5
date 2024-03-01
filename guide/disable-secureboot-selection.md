@@ -9,11 +9,7 @@
 - [English](English/disable-secureboot-en.md)
 - [Turkish](Turkish/disable-secureboot-tr.md)
 - ~~[Russian](Russian/disable-secureboot-ru.md)~~
-- ~~[Italian](Italian/disable-secureboot-it.md)~~
-- ~~[Español](Español/disable-secureboot-es.md)~~
 - ~~[Ukrainian](Ukrainian/disable-secureboot-uk.md)~~
-- ~~[Vietnamese](Vietnamese/disable-secureboot-vi.md)~~
-- ~~[Traditional Chinese](Traditional%20Chinese/disable-secureboot-tw.md)~~
 
 
 
