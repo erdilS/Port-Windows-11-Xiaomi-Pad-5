@@ -43,7 +43,7 @@ Bu proje geliştirme aşamasındadır. Buradaki tüm dosyalar birçok kullanıc�
   
 - [UEFI Güncelleme](UEFI-updating-tr.md)
   
-- [Faydalı uygulamalar ve talimatlar](/guide/Additional-materials/Additional-materials-tr.md)
+- [Faydalı uygulamalar ve talimatlar](/guide/Turkish/Additional-materials-tr.md)
 
 
 
