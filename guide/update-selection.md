@@ -9,8 +9,19 @@
 - [English](English/update-en.md)
 - [Turkish](Turkish/update-tr.md)
 - [Russian](Russian/update-ru.md)
-- [Italian](Italian/update-it.md)
-- [Español](Español/update-es.md)
 - [Ukrainian](Ukrainian/update-uk.md)
-- [Vietnamese](Vietnamese/update-vi.md)
-- [Traditional Chinese](Traditional%20Chinese/update-tw.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
