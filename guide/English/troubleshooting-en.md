@@ -7,7 +7,7 @@
 
 ## Charging in Windows does not work
 > [!WARNING]
-> Do not use a powered USB hub with host mode enabled, this can potentially break your device. If you use a powered USB hub, please use the [disable USB host mode guide](/guide/Additional-materials/Additional-materials-en.md#disabling-usb-host-mode)
+> Do not use a powered USB hub with host mode enabled, this can potentially break your device. If you use a powered USB hub, please use the [disable USB host mode guide](/guide/English/Additional-materials-en.md#disabling-usb-host-mode)
 
 Charging in Windows only works on specific cables. Cables that have been known to work are the original Poco X3 Pro cable (identified by the additional orange/red pin in the USB-A port), and the Nimaso 100W USB-C to USB-C fast charging cable.
 
