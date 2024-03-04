@@ -24,7 +24,7 @@ Stable. Almost everything works except for a few components.
 - [X] Microphone
 - [X] Miracast
 - [X] Location
-- [X] Flashlight
+- [ ] Flashlight ```Temporarily broken in latest drivers release, if you want a working flashlight, use older drivers```
 - [X] Smart Case Mode
 - [X] Xiaomi Keyboard support
 - [ ] Xiaomi Pen charging support
