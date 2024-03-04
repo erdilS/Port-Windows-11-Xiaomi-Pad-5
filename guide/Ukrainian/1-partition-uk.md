@@ -12,6 +12,14 @@
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
 ## Нотатки:
+> [!NOTE]
+> Не знаєте, як почати? Просто Розпакуйте завантажений [```Android platform tools```](http://developer.android.com/studio/release/platform-tools), наприклад ```"C:\platform-tools"``` потім відкрийте ```командний рядок``` або `powershell` як адміністратор і введіть:
+``cmd
+cd "шлях\до\platform-tools"
+```
+> Замініть ```"шлях\до\platform-tools"``` фактичним шляхом до папки platform tools
+
+
 > [!WARNING]
 > Якщо ви видалили будь-який розділ використовуючи diskpart, Windows рано или пізно відправить команду пам'яти, яка буде неправильно розпізнана, і тому пам'ять буде стерта.
 > 
