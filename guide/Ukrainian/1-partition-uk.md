@@ -14,7 +14,8 @@
 ## Нотатки:
 > [!NOTE]
 > Не знаєте, як почати? Просто Розпакуйте завантажений [```Android platform tools```](http://developer.android.com/studio/release/platform-tools), наприклад ```"C:\platform-tools"``` потім відкрийте ```командний рядок``` або `powershell` як адміністратор і введіть:
-``cmd
+
+```cmd
 cd "шлях\до\platform-tools"
 ```
 > Замініть ```"шлях\до\platform-tools"``` фактичним шляхом до папки platform tools
