@@ -13,13 +13,13 @@
 
 ## ⚠️ 경고
 
-We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline workers cowboys, dead pmics, dead ram, dead display ics, dead cpus, any xiaomi shenanigans, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
+저희는 다음 과정을 위해 안드로이드로 다시 부팅하는 것을 잊어버려서 발생하는 벽돌현상, 리커버리 파티션 누락, Xiaomi 서비스 직원의 부재, 고장난 마이크, 고장난 램, 고장난 디스플레이 IC, 고장난 CPU, Xiaomi 관련 헛소리, 죽은 고양이나 개, 핵전쟁 또는 해고에 대해 책임지지 않습니다.
 
-This project is in development stage, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get. This is a delicate process, do it under your own risk and follow all the steps carefully.
+이 프로젝트는 개발 단계이며 이곳에 있는 모든 파일은 다른 사용자에 의하여 제공됩니다. 이곳에서 저희가 제작한 가이드를 확인할 수 있습니다. 이는 섬세한 과정이므로 위험을 감수하고 모든 단계를 주의 깊게 따르십시오.
 
-**IF YOU AREN'T COMFORTABLE MODDING YOUR TABLET OR ITS PARTITION TABLE OR YOU ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU ARE ON YOUR OWN IF YOU BRICK YOUR DEVICE!!! AGAIN! YOU HAVE BEEN WARNED!!!**
+**태블릿이나 파티션 테이블을 개조하는 것이 불편하거나 장치를 벽돌로 만드는 것이 걱정된다면 지금 이 페이지를 종료하십시오!!! 마지막 경고입니다. 장치를 벽돌로 만들면 스스로 책임을 져야 합니다!!! 다시 한번 알려드립니다! 이것은 마지막 경고입니다!!!**
 > [!WARNING]
-> **PLEASE DON'T USE VIDEO GUIDES ON YOUTUBE OR ANY OTHER PLATFORM! THESE VIDEOS ARE OUTDATED AND YOU CAN BRICK YOUR DEVICE USING THEM! IF YOU ABSOLUTELY NEED A VIDEO GUIDE, USE THIS [VIDEO GUIDE](https://youtu.be/BbgTbTGbXYg) BY [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
+> **유튜브 또는 다른 플랫폼에 있는 동영상 가이드를 보지 마시기 바랍니다! 이러한 동영상들은 최신 상태가 아니므로 따라 하다가 장치를 벽돌로 만들 수 있습니다! 만약 정말로 가이드 영상이 필요하다면, 이 동영상을 보십시오 [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA) 의 [동영상 가이드](https://youtu.be/BbgTbTGbXYg)**
 
 
 ## 시작
