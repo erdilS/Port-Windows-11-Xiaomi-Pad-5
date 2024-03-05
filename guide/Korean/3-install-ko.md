@@ -7,7 +7,7 @@
 
 ## 설치
 > [!NOTE]
-> It is recommended to open CMD or powershell as an admin now, and then access the platform-tools folder using the `cd C:\path\to\platform-tools` command, replacing the path with the actual path of the folder.
+> 지금부터 CMD 또는 powershell 을 관리자 권한으로 열고, `cd C:\path\to\platform-tools` 명령어를 사용하여 플랫폼 도구 폴더에 액세스 하는 것을 권장합니다. 이때 이 경로를 폴더의 실제 경로로 교체하십시오.
 > Use the same window in the entire guide, do not close it.
 
 ### 준비물
@@ -15,65 +15,65 @@
 
 - [```UEFI 이미지```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
   
-- [```ARM Windows esd```](https://worproject.com/esd) (Select - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```select your language```)
+- [```ARM 윈도우 esd```](https://worproject.com/esd) (항목 선택 - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```원하는 언어를 선택하십시오```)
     
-- [```Drivers```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+- [```드라이버```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-### Boot back into recovery to start installing Windows
+### 윈도우 설치 시작을 위해 다시 리커버리로 부팅
 
 ```cmd
 fastboot boot <recovery.img>
 ```
 
-#### Execute msc 
+#### msc를 실행합니다
 
-> If it asks you to run it once again, do so
+> 한번 더 실행하라는 문구가 출력되면, 명령어를 한번 더 입력하십시오
 
 ```cmd
 adb shell msc
 ```
-### Assign letters to disks
+### 디스크에 문자 할당
   
 
-#### Start the Windows disk manager
+#### 윈도우 디스크 관리자를 시작합니다
 
-> Once the Xiaomi Pad 5 is detected as a disk
+> 샤오미 패드 5 가 디스크로 인식되면 아래의 명령어를 입력하십시오
 
 ```cmd
 diskpart
 ```
 
 
-#### Assign `X` to Windows volume
+#### `X` 를 윈도우 볼륨에 할당합니다
 
-#### Select the Windows volume of the tablet
-> Use `list volume` to find it, it's the one named "WINNABU"
+#### 태블릿의 윈도우 볼륨을 선택합니다
+> `list volume` 를 사용하여 볼륨을 찾으십시오. 볼륨의 이름은 "WINNABU" 입니다.
 
 ```diskpart
 select volume <number>
 ```
 
-#### Assign the letter X
+#### 문자 X를 할당합니다
 ```diskpart
 assign letter x
 ```
 
-### Assign `Y` to ESP volume
+### ESP 볼륨에 `Y` 할당
 
-#### Select the esp volume of the tablet
-> Use `list volume` to find it, it's the one named "ESPNABU"
+#### 태블릿의 esp 볼륨을 선택합니다
+> `list volume` 를 사용하여 볼륨을 찾으십시오. 볼륨의 이름은 "ESPNABU" 입니다.
 
 ```diskpart
 select volume <number>
 ```
 
-#### Assign the letter Y
+#### 문자 Y를 할당합니다
 
 ```diskpart
 assign letter y
 ```
 
-#### Exit diskpart
+#### diskpart를 종료합니다
 ```diskpart
 exit
 ```
@@ -81,7 +81,7 @@ exit
   
   
 
-### Install
+### 설치
 
 > Replace `<path\to\install.esd>` with the actual path of install.esd (it may also be named install.wim)
 
