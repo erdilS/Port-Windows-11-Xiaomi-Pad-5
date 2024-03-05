@@ -112,7 +112,7 @@ fastboot flash boot <path\to\uefi-NoSecureboot-v3.img>
 fastboot reboot
 ```
 
-## Finished!
+## 끝!
 
 
 
