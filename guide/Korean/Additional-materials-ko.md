@@ -6,7 +6,7 @@
 > [!Warning]
 > 전원이 공급되지 않는 USB 장치는 작동하지 않습니다
 
-[USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/USBHost/USB.Host.Mode.Control.V4.0.vbs)를 USB 호스트 모드를 활성화/비활성화하기 위해 실행하시고, 태블릿을 재부팅하십시오.
+[USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/USBHost/USB.Host.Mode.Control.V4.0.vbs)를 실행하여 USB 호스트 모드를 활성화/비활성화하시고, 태블릿을 재부팅하십시오.
 
 #### 끝!
 
