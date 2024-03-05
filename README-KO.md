@@ -11,7 +11,7 @@
 > [!NOTE]
 > 영어 이외의 다른 언어는 최신 상태가 아닐 수 있습니다.
 
-## ⚠️ Warning
+## ⚠️ 경고
 
 We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline workers cowboys, dead pmics, dead ram, dead display ics, dead cpus, any xiaomi shenanigans, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
 
@@ -22,7 +22,7 @@ This project is in development stage, all the files here have been contributed b
 > **PLEASE DON'T USE VIDEO GUIDES ON YOUTUBE OR ANY OTHER PLATFORM! THESE VIDEOS ARE OUTDATED AND YOU CAN BRICK YOUR DEVICE USING THEM! IF YOU ABSOLUTELY NEED A VIDEO GUIDE, USE THIS [VIDEO GUIDE](https://youtu.be/BbgTbTGbXYg) BY [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
 
 
-## Get Started
+## 시작
 
 - [Installation](guide/English/1-partition-en.md)
 
@@ -31,23 +31,23 @@ This project is in development stage, all the files here have been contributed b
 - [Uninstallation](guide/English/uninstall-en.md)
 
 
-## Miscellaneous
+## 추가 정보
 
-- [Project Status](guide/English/status.md)
+- [프로젝트 지원 상태](guide/English/status.md)
 
-- [Troubleshooting](guide/English/troubleshooting-en.md)
+- [문제 해결](guide/English/troubleshooting-en.md)
 
-- [Updating Drivers](guide/English/update-en.md)
+- [드라이버 업데이트](guide/English/update-en.md)
 
-- [Reinstallation](guide/English/reinstall-en.md)
+- [재설치](guide/English/reinstall-en.md)
 
-- [Updating UEFI](guide/English/UEFI-updating-en.md)
+- [UEFI 업데이트](guide/English/UEFI-updating-en.md)
 
-- [Useful apps and instructions](guide/English/Additional-materials-en.md)
+- [유용한 앱 및 설명](guide/English/Additional-materials-en.md)
 
 
 
-## Contributors
+## 기여자
 
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
 [<img alt="map220v" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/14368485?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/map220v)
