@@ -5,7 +5,7 @@
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
 
 ## Мова
-[```Русский```](/README-RU.md) | [```English```](/README.md) | [```Turkish```](/guide/Turkish/README-tr.md) | **```Ukrainian```**
+[```Русский```](/README-RU.md) | [```English```](/README.md) | [```Turkish```](/guide/Turkish/README-tr.md) | **```Ukrainian```** | [```한국어```](/README-KO.md)
 
 > [!NOTE]
 > Мови, окрім англійської, не завжди можуть бути актуальними 
