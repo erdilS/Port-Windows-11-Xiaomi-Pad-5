@@ -37,7 +37,7 @@ adb shell msc
 
 #### 윈도우 디스크 관리자를 시작합니다
 
-> 샤오미 패드 5 가 디스크로 인식되면 아래의 명령어를 입력하십시오
+> 샤오미 패드 5가 디스크로 인식되면 아래의 명령어를 입력하십시오
 
 ```cmd
 diskpart
@@ -47,7 +47,7 @@ diskpart
 #### `X` 를 윈도우 볼륨에 할당합니다
 
 #### 태블릿의 윈도우 볼륨을 선택합니다
-> `list volume` 를 사용하여 볼륨을 찾으십시오. 볼륨의 이름은 "WINNABU" 입니다.
+> `list volume` 명령어를 사용하여 볼륨을 찾으십시오. 볼륨의 이름은 "WINNABU" 입니다.
 
 ```diskpart
 select volume <number>
@@ -61,7 +61,7 @@ assign letter x
 ### ESP 볼륨에 `Y` 할당
 
 #### 태블릿의 esp 볼륨을 선택합니다
-> `list volume` 를 사용하여 볼륨을 찾으십시오. 볼륨의 이름은 "ESPNABU" 입니다.
+> `list volume` 명령어를 사용하여 볼륨을 찾으십시오. 볼륨의 이름은 "ESPNABU" 입니다.
 
 ```diskpart
 select volume <number>
