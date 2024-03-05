@@ -1,15 +1,15 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 
-# Running Windows on the Xiaomi Pad 5
+# Xiaomi Pad 5 에서 윈도우 구동
 
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
 
-## Language 
-[```Русский```](/README-RU.md) | **```English```** | [```Turkish```](/guide/Turkish/README-tr.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md)
+## 언어
+[```Русский```](/README-RU.md) | [```English```](/README.md) | [```Turkish```](/guide/Turkish/README-tr.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | **```한국어```** |
 
 > [!NOTE]
-> Другие языки, кроме английского, могут быть не всегда актуальными. 
+> 영어 이외의 다른 언어는 최신 상태가 아닐 수 있습니다.
 
 ## ⚠️ Warning
 
