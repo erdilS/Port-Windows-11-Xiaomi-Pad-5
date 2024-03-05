@@ -33,4 +33,4 @@
 fastboot flash boot <magisk_patched.img>
 ```
 
-### [Next step: 윈도우 설치](/guide/Korean/3-install-ko.md)
+### [다음 단계: 윈도우 설치](/guide/Korean/3-install-ko.md)
