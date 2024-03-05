@@ -24,11 +24,11 @@ This project is in development stage, all the files here have been contributed b
 
 ## 시작
 
-- [Installation](guide/English/1-partition-en.md)
+- [설치](guide/English/1-partition-en.md)
 
-- [Dualboot Setup](guide/English/dualboot-en.md)
+- [듀얼부팅 설정](guide/English/dualboot-en.md)
 
-- [Uninstallation](guide/English/uninstall-en.md)
+- [제거](guide/English/uninstall-en.md)
 
 
 ## 추가 정보
