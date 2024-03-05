@@ -1,11 +1,11 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 
-# Running Windows on the Xiaomi Pad 5
+# Xiaomi Pad 5 에서 윈도우 구동 5
 
-## Get root 
+## 루팅 
 > [!NOTE]
-> **If you already have root just skip this step and go to the next page**
+> **이미 루팅했다면 이 단계를 건너뛰고 다음 페이지로 이동하십시오**
 
 ### Prerequisites
 - ```Brain```
