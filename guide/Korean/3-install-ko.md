@@ -103,7 +103,7 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 ```
 
 ### EFI에 대한 윈도우 부트로더 파일 생성
-> 부팅 파일 복사 도중 오류가 발생한다면, ESPNABU가 문자 Y로 할당되어 있는지 보기 위해 `diskpart` 를 확인하십시오. 할당되어있지 않다면, K와 같은 다른 문자를 추가하고 아래 명령어의 Y들을 해당 문자로 각각 변경하십시오
+> 부팅 파일 복사 도중 오류가 발생한다면, ESPNABU가 문자 Y로 할당되어 있는지 보기 위해 `diskpart`를 확인하십시오. 할당되어있지 않다면, K와 같은 다른 문자를 추가하고 아래 명령어의 Y들을 해당 문자로 각각 변경하십시오
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
