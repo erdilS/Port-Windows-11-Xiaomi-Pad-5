@@ -146,7 +146,7 @@ fastboot reboot
 
 ### 안드로이드로 재부팅
 윈도우가 설정을 마친 후, 윈도우 에서 다시 시작 버튼을 선택하십시고 (종료 버튼이 아닙니다), 다시 시작되면, fastboot로 재부팅하기 위해 `볼륨 아래` + `전원`을 누르고 있으십시오
-> 안드로이드로 돌아오기 위하여 백업 boot 이미지를 사용하여 fastboot에서 플래시 하십시오
+> 안드로이드로 돌아올 것이므로 백업 boot 이미지를 사용하여 fastboot에서 플래시 하십시오
 
 ```cmd
 fastboot flash boot rooted_boot.img
