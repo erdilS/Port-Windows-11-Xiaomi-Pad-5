@@ -8,7 +8,7 @@
 ## 설치
 > [!NOTE]
 > 지금부터 CMD 또는 powershell 을 관리자 권한으로 열고, `cd C:\path\to\platform-tools` 명령어를 사용하여 플랫폼 도구 폴더에 액세스 하는 것을 권장합니다. 이때 이 경로를 폴더의 실제 경로로 교체하십시오.
-> Use the same window in the entire guide, do not close it.
+> 가이드에서의 모든 명령어는 같은 창에서 입력하시고, 창을 닫지 마십시오.
 
 ### 준비물
 - ```뇌```
