@@ -20,7 +20,7 @@
 ```cmd
 cd "path\to\platform-tools"
 ```
-> 경로  `"path\to\platform-tools"` 를 플랫폼 도구 폴더의 실제 경로로 변경하십시오
+> 경로  `"path\to\platform-tools"`를 플랫폼 도구 폴더의 실제 경로로 변경하십시오
 
 
 > [!Warning]\
