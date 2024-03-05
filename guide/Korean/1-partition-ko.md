@@ -24,7 +24,7 @@ cd "path\to\platform-tools"
 
 
 > [!Warning]\
-> 지금 또는 나중에 diskpart 를 통해 파티션을 삭제한다면, windows 가 잘못된 ufs 명령어를 전송할 것이며 이것은 모든 ufs 데이터를 삭제시킬 것입니다
+> 지금 또는 나중에 diskpart를 통해 파티션을 삭제한다면, windows 가 잘못된 ufs 명령어를 전송할 것이며 이것은 모든 ufs 데이터를 삭제시킬 것입니다
 > 
 > 모든 데이터가 초기화됩니다! 필요하다면 지금 백업하십시오.
 > 
@@ -32,7 +32,7 @@ cd "path\to\platform-tools"
 > 
 > 실수한 것 같다면 태블릿을 재부팅하지 마시고, [Telegram chat](https://t.me/nabuwoa) 에 도움을 요청하십시오
 >
-> **유튜브 또는 다른 플랫폼에 있는 최신 상태가 아닌 동영상 가이드를 보지 마시기 바랍니다! 이러한 동영상들은 최신 상태가 아니므로 따라 하다가 장치를 벽돌로 만들 수 있습니다! 정말 동영상 가이드가 필요하다면, [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA) 의 [동영상 가이드](https://youtu.be/BbgTbTGbXYg) 를 보십시오**
+> **유튜브 또는 다른 플랫폼에 있는 최신 상태가 아닌 동영상 가이드를 보지 마시기 바랍니다! 이러한 동영상들은 최신 상태가 아니므로 따라 하다가 장치를 벽돌로 만들 수 있습니다! 정말 동영상 가이드가 필요하다면, [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA) 의 [동영상 가이드](https://youtu.be/BbgTbTGbXYg)를 보십시오**
 
 
 ### 리파티션 및 boot 이미지 백업
