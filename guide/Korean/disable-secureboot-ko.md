@@ -1,113 +1,113 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 
-# Running Windows on the Xiaomi Pad 5
+# Xiaomi Pad 5 에서 윈도우 구동
 
-## Disabling secureboot
+## secureboot 비활성화
 > [!Important]
-> Follow this guide only if you want to disable secureboot.
+> 오직 secureboot를 비활성화하려는 경우에만 이 가이드를 이용하십시오.
 
-### Prerequisites
-- ```Brain```
+### 준비물
+- ```뇌```
 
-- [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
+- [```안드로이드 플랫폼 도구```](https://developer.android.com/studio/releases/platform-tools)
 
-- [```Recovery Image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```리커버리 이미지```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-- [```UEFI image (Secureboot off)```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-NoSecureboot-v3.img)
+- [```UEFI 이미지 (Secureboot 비활성화)```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-NoSecureboot-v3.img)
 
-## Pros and cons of secureboot
-> By default, secureboot is enabled in this guide
+## secureboot의 장단점
+> 기본적으로, 이 가이드에서 secureboot는 활성화되어 있습니다
 
-##### Pros and cons of secureboot
-- √ No watermark on homescreen
-- √ Apps that do not work with Test Mode will work
-- √ You can update big versions (e.g 22h2 to 23h2) in Windows update directly
-- × You cannot update drivers without a PC
+##### secureboot의 장단점
+- √ 홈화면에 워터마크가 없습니다
+- √ 테스트 모드에서 작동하지 않는 앱이 작동합니다
+- √ 윈도우에서의 대규모 업데이트가 직접적으로 가능합니다 (예: 22h2 에서 23h2)
+- × PC 없이 드라이버 업데이트가 불가능합니다
 
-##### Pros and cons of secureboot disabled
-- √ You can update drivers directly from your tablet; no PC is needed
-- × Test mode watermark on homescreen
-- × Some apps/games with anti-cheat software may not work
-- × You cannot update big versions (e.g 22h2 to 23h2) through Windows Update
+##### 비활성화된 secureboot의 장단점
+- √ 태블릿에서 직접적으로 드라이버 업데이트가 가능합니다; PC가 필요하지 않습니다
+- × 홈화면에 테스트 모드 워터마크가 있습니다
+- × 몇몇 안티 치트 소프트웨어를 탑재한 앱/게임이 실행되지 않을 수 있습니다
+- × 윈도우 업데이트를 통한 대규모 업데이트가 불가능합니다 (예: 22h2 에서 23h2)
 
-## Disabling secureboot
+## secureboot 비활성화
 
-#### Make a backup of your rooted boot image
-> You will need this to return to Android, but you can skip this step if you've already made a backup
+#### 루팅 boot 이미지를 백업합니다
+> 안드로이드로 돌아오기 위해 이 파일이 필요하지만, 이미 백업했다면 이 단계를 건너뛸 수 있습니다
 
-Use the `Backup Android boot` function in the WOA Helper app, or boot to the modded recovery and run
+WOA Helper 앱에서 `Backup Android boot` 기능을 사용하거나, 커스텀 리커버리로 부팅하여 아래의 명령어를 입력하십시오
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```
 
-#### Boot to the recovery
-> Replace <path\to\recovery> with the actual path of the recovery image
+#### 리커버리로 부팅합니다다
+> <path\to\recovery>를 실제 리커버리 이미지 파일의 경로로 변경하십시오
 ```cmd
 fastboot boot <path\to\recovery.img>
 ```
 
-#### Activate mass storage mode
-> Once the Xiaomi Pad 5 has booted into the modded recovery
+#### mass storage 모드를 활성화합니다
+> 샤오미 패드 5가 커스텀 리커버리로 부팅되면 아래의 명령어를 입력하십시오
 ```cmd
 adb shell msc
 ```
 
-#### Start the Windows disk manager
-> Once the Xiaomi Pad 5 is detected as a disk
+#### 윈도우 디스크 관리자를 시작합니다
+> 샤오미 패드 5가 디스크로 인식되면 아래의 명령어를 입력하십시오
 ```cmd
 diskpart
 ```
 
-#### Select the esp volume of the tablet
-> Use `list volume` to find it, it's the one named "ESPNABU"
+#### 태블릿의 esp 볼륨을 선택합니다
+> `list volume` 명령어를 사용하여 볼륨을 찾으십시오. 볼륨의 이름은 "ESPNABU" 입니다.
 ```diskpart
 select volume <number>
 ```
 
-#### Assign the letter Y
+#### 문자 Y를 할당합니다
 ```diskpart
 assign letter y
 ```
 
-#### Exit diskpart
+#### diskpart를 종료합니다
 ```diskpart
 exit
 ```
 
-#### Modify the bootloader files
-> To enable test signing
+#### 부트로더 파일을 수정합니다
+> test signing을 활성화합니다
 ```cmd
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" testsigning on
 ```
 
-#### Removing SiPolicy
-> Assuming you are disabling secureboot on an existing install, you need to delete this file or the system will not boot
+#### SiPolicy을 제거합니다
+> 기존 설치에서 secureboot를 비활성화하는 경우, 이 파일을 삭제해야 합니다. 그렇지 않으면 시스템이 부팅되지 않습니다.
 ```cmd
 del Y:\EFI\Microsoft\Boot\SiPolicy.p7b
 ```
 
-#### Remove the drive letter for ESPNABU
-> If this does not work, ignore it and skip to the next command. This phantom drive will disappear the next time you reboot your PC.
+## ESPNABU에 대한 드라이브 문자 제거
+> 이 명령어가 작동하지 않더라도, 무시하고 다음에 입력할 명령어로 건너뛰십시오. 이 드라이브는 PC를 재부팅하면 자동으로 제거됩니다.
 ```cmd
 mountvol y: /d
 ```
 
-#### Reboot to fastboot
+#### fastboot로 재부팅합니다
 ```cmd
 adb reboot bootloader
 ```
 
-#### Flashing the UEFI
-> Make sure you use the no secureboot UEFI from this page, replace <path\to\uefi-NoSecureboot-v3.img> with the actual path to the UEFI image
+#### UEFI를 플래시 합니다
+> 이 페이지에서 secureboot 비활성화 UEFI를 사용하고 있는지 확인하시고, <path\to\uefi-NoSecureboot-v3.img>를 실제 UEFI 이미지 파일의 경로로 변경하십시오
 ```cmd
 fastboot flash boot <path\to\uefi-NoSecureboot-v3.img>
 ```
 
 > [!Important]
-> Make sure to also replace your old UEFI in the UEFI folder in your internal storage of Android, so you don't accidentally flash it the next time you try to switch to Windows from Android
+> 안드로이드 내부 저장소의 UEFI 폴더 내의 구버전 UEFI도 교체했는지 확인하십시오. 그러면 다음번에 안드로이드에서 윈도우르 전환하려고 할 때 실수로 구버전 UEFI를 플래시 하지 않게 됩니다
 
-#### Reboot to Windows
+#### 윈도우로 재부팅합니다
 ```cmd
 fastboot reboot
 ```
