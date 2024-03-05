@@ -28,7 +28,7 @@
 - 플랫폼 도구 폴더에서 명령 프롬프트를 여십시오
 
  ## 패치된 boot 플래시 
- > `<magisk_patched.img>` 를 ```magisk_patched.img``` 의 실제 이름/경로로 교체하십시오.
+ > `<magisk_patched.img>`를 ```magisk_patched.img``` 의 실제 이름/경로로 교체하십시오.
 ```cmd
 fastboot flash boot <magisk_patched.img>
 ```
