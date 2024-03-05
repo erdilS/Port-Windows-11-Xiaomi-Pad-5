@@ -14,7 +14,7 @@
 - [```StA Installer```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
 
 ## 듀얼부팅 앱 설정
-> 이 가이드는 태블릿이 루팅되어있다고 가정하므로, 루팅하지 않았다면, the [루팅 가이드](2-rootguide-ko.md)를 먼저 보시기 바랍니다.
+> 이 가이드는 태블릿이 루팅되어있다고 가정하므로, 루팅하지 않았다면, [루팅 가이드](2-rootguide-ko.md)를 먼저 보시기 바랍니다.
 
 ### 설정 - 안드로이드
 > [!NOTE]
