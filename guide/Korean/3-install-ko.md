@@ -83,70 +83,70 @@ exit
 
 ### 설치
 
-> Replace `<path\to\install.esd>` with the actual path of install.esd (it may also be named install.wim)
+> `<path\to\install.esd>`를 실제 install.esd의 경로로 변경하십시오 (파일 이름이 install.wim 일 수도 있습니다)
 
 ```cmd
 dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 ```
 
-> If you get `Error 87`, check the index of your image with `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, then replace `index:6` with the actual index number of Windows 11 Pro in your image
+> `오류 87`이 출력된다면, `dism /get-imageinfo /ImageFile:<path\to\install.esd>` 명령어로 이미지의 인덱스를 확인하시고, `index:6` 을 이미지에 있는 Windows 11 Pro의 실제 인덱스 수로 변경하십시오
 
 
-### Install Drivers
+### 드라이버 설치
 
-> You can download the Drivers [here](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+> [이곳](https://github.com/map220v/MiPad5-Drivers/releases/latest)에서 드라이버를 다운로드할 수 있습니다
 
-> If it says `"Automatic WINNABU detection failed! Enter Drive Letter manually"` type **`X`**
+> `"Automatic WINNABU detection failed! Enter Drive Letter manually"`이 출력된다면 **`X`**를 입력하십시오
 
 ```cmd
- Open the folder with Drivers and run OfflineUpdater.cmd
+ 드라이버 폴더를 열고 OfflineUpdater.cmd를 실행하십시오
 ```
 
-### Create Windows bootloader files for the EFI
-> If an error occurs when copying boot files, check `diskpart` to see if ESPNABU still has letter Y. If it does not, add any other letter (such as K) and replace the Y in the below command with said letter respectively
+### EFI에 대한 윈도우 부트로더 파일 생성
+> 부팅 파일 복사 도중 오류가 발생한다면, ESPNABU가 문자 Y로 할당되어 있는지 보기 위해 `diskpart` 를 확인하십시오. 할당되어있지 않다면, K와 같은 다른 문자를 추가하고 아래 명령어의 Y들을 해당 문자로 각각 변경하십시오
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
 
-## Remove the drive letter for ESPNABU
-> If this does not work, ignore it and skip to the next command. This phantom drive will disappear the next time you reboot your PC.
+## ESPNABU에 대한 드라이브 문자 제거
+> 이 명령어가 작동하지 않더라도, 무시하고 다음에 입력할 명령어로 건너뛰십시오. 이 드라이브는 PC를 재부팅하면 자동으로 제거됩니다.
 ```cmd
 mountvol y: /d
 ```
 
 
-## Boot into Windows
+## 윈도우로 부팅
 
-### Make a backup of your rooted boot image
+### 루팅 boot 이미지 백업
 
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```
 
-### Reboot to bootloader 
+### 부트로더로 재부팅
 
 ```cmd
 adb reboot bootloader
 ```
 
-### Download and flash the UEFI image
-> Download the [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+### UEFI 이미지 다운로드 및 플래시
+> [UEFI 이미지](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)를 다운로드하십시오
 
 ```cmd
 fastboot flash boot <path to image>
 ```
 
-## Reboot to Windows
+## 윈도우로 재부팅
 ```cmd
 fastboot reboot
 ```
 
 > [!NOTE]
-> On the first Windows boot, it will not see any Wi-Fi networks. Restart your tablet by holding down the power button until it restarts. After the reboot, it will be fixed. If you get a pop-up saying "Could not connect", press retry until it works (usually 5 times)
+> 윈도우로 처음 부팅되면, Wi-Fi 네트워크 목록이 나타나지 않습니다. 다시 시작될 때까지 전원 버튼을 눌러 태블릿을 다시 시작하십시오. 재부팅 후, 문제가 해결됩니다. "연결할 수 없음" 팝업이 출력되면, 될 때까지 다시 시도를 선택하십시오 (일반적으로 5번 정도 선택하면 됩니다)
 
-### Boot back into Android
-After Windows has been set up, press the restart button in Windows (NOT SHUTDOWN), then as it restarts, hold `volume down` + `power`to reboot back to fastboot
-> Use your backup boot image and flash it in fastboot to return to Android
+### 안드로이드로 재부팅
+윈도우가 설정을 마친 후, 윈도우 에서 다시 시작 버튼을 선택하십시고 (종료 버튼이 아닙니다), 다시 시작되면, fastboot로 재부팅하기 위해 `볼륨 아래` + `전원`을 누르고 있으십시오
+> 안드로이드로 돌아오기 위하여 백업 boot 이미지를 사용하여 fastboot에서 플래시 하십시오
 
 ```cmd
 fastboot flash boot rooted_boot.img
@@ -156,4 +156,4 @@ fastboot flash boot rooted_boot.img
 fastboot reboot
 ```
 
-### [Last step: Set up Dualboot](dualboot-en.md)
+### [마지막 단계: 듀얼부팅 설정](dualboot-ko.md)
