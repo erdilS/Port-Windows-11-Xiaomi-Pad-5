@@ -9,7 +9,7 @@
 [```Русский```](/README-RU.md) | [```English```](/README.md) | [```Turkish```](/guide/Turkish/README-tr.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | **```한국어```** |
 
 > [!NOTE]
-> 영어 이외의 다른 언어는 최신 상태가 아닐 수 있습니다.
+> 영어 이외의 다른 언어는 항상 최신 상태가 아닐 수도 있습니다.
 
 ## ⚠️ 경고
 
