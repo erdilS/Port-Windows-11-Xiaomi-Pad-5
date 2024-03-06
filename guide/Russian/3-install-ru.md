@@ -79,10 +79,10 @@ exit
   
 
 ### Установка Windows
-> Replace `<path\to\install.esd>` with the actual path of install.esd (it may also be named install.wim)
+> Замените `<путь\к\install.esd>` существующим путём к install.esd (он может также называться install.wim)
 
 ```cmd
-dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
+dism /apply-image /ImageFile:<путь\к\install.esd> /index:6 /ApplyDir:X:\
 ```
 
 > если вы получили `Ошибка 87`, проверьте индекс вашего образа используя `dism /get-imageinfo /ImageFile:<путь\к\install.esd>`, затем замените `index:6` существующим номером индекса Windows 11 Pro в вашем образе 
