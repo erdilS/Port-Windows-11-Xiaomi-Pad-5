@@ -42,7 +42,7 @@ adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.
 ```
 
 #### 리커버리로 부팅합니다다
-> <path\to\recovery>를 실제 리커버리 이미지 파일의 경로로 변경하십시오
+> <path\to\recovery.img>를 실제 리커버리 이미지 파일의 경로로 변경하십시오
 ```cmd
 fastboot boot <path\to\recovery.img>
 ```
