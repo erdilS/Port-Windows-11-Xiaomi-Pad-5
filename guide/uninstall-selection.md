@@ -10,6 +10,7 @@
 - [Turkish](Turkish/uninstall-tr.md)
 - [Russian](Russian/uninstall-ru.md)
 - [Ukrainian](Ukrainian/uninstall-uk.md)
+- - [Korean](Korean/uninstall-ko.md)
 
 
 
