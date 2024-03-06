@@ -10,3 +10,4 @@
 - [Turkish](Turkish/dualboot-tr.md)
 - [Russian](Russian/dualboot-ru.md)
 - [Ukrainian](Ukrainian/dualboot-uk.md)
+- [Korean](Korean/dualboot-ko.md)
