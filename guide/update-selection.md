@@ -10,6 +10,7 @@
 - [Turkish](Turkish/update-tr.md)
 - [Russian](Russian/update-ru.md)
 - [Ukrainian](Ukrainian/update-uk.md)
+- [Korean](Korean/update-ko.md)
 
 
 
