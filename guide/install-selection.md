@@ -10,7 +10,7 @@
 - [Turkish](Turkish/1-partition-tr.md)
 - [Russian](Russian/partition-ru.md)
 - [Ukrainian](Ukrainian/1-partition-uk.md)
-
+- [Korean](Korean/1-partition-ko.md)
 
 
 
