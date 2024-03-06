@@ -10,6 +10,7 @@
 - [Turkish](Turkish/reinstall-tr.md)
 - [Russian](Russian/reinstall-ru.md)
 - [Ukrainian](Ukrainian/reinstall-uk.md)
+- - [Korean](Korean/reinstall-ko.md)
 
 
 
