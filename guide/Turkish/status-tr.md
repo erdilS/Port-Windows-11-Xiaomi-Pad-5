@@ -24,7 +24,7 @@ Stabil. Birkaç bileşen dışında hemen hemen her şey  çalışmaktadır.
 - [X] Mikrofon
 - [X] Miracast
 - [X] Konum
-- [X] Flashlight (el feneri)
+- [ ] Flashlight (el feneri) ```Son yayımlanan sürücülerden dolayı geçici olarak bozulmuştur, çalışmasını istiyorsanız eski sürücüleri kullanın```
 - [X] Akıllı kılıf modu
 - [X] Xiaomi Klavye desteği
 - [ ] Xiaomi Kalem şarj desteği
