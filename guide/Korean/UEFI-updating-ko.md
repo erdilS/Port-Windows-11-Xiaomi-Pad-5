@@ -16,7 +16,7 @@
 - [```최신 버전의 UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 
 ## 구버전 UEFI 를 새로운 UEFI로 교체
-> 듀얼부팅 설정을 하지 않았다면, [듀얼부팅 가이드](/guide/Korean/dualboot-ko.md)를 참조하여 WOA Helper 적절하게 설정하십시오
+> 듀얼부팅 설정을 하지 않았다면, [듀얼부팅 가이드](/guide/Korean/dualboot-ko.md)를 참조하여 WOA Helper 앱을 설정하십시오
 - 안드로이드로 부팅하십시오
 - 내부 저장소의 `UEFI` 폴더를 여십시오
 - 구버전 UEFI를 삭제하십시오
