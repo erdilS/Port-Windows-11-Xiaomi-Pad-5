@@ -16,7 +16,7 @@
 
 [secureboot 비활성화 가이드](/guide/Korean/disable-secureboot-ko.md)
 
-#### !
+#### 끝!
 
 
 ## ```Microsoft Office```/```Microsoft 365``` 설치
