@@ -2,6 +2,19 @@
 
 # Useful apps and instructions for Windows on Xiaomi pad 5
 
+## Hide D drive (modem partition)
+> [!NOTE]
+> This is recommended because this drive should not be modified, while some applications may try to write to it
+
+- Open a command prompt and run ```diskpart```
+- Then run ```list volume``` to see all available volumes
+- Select the disk that has letter D with ```select volume $```, replacing "$" with the volume number
+- Remove the letter with ```remove letter d```
+- Now exit diskpart with ```exit```
+
+## Finished!
+
+
 ## Disabling USB host mode
 > [!Warning]
 > Unpowered USB devices will stop working
@@ -19,7 +32,7 @@ Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/re
 #### Finished!
 
 
-## Install ```Microsoft Office```/```Microsoft 365```
+## Install Microsoft Office / Microsoft 365
 - Download this [ISO file](https://mega.nz/file/hjAiSL4T#G7kOKpsUFpyL2UW9RQmY2e96urcQW5xZKdc7ciaNOy8) to the tablet
 - Right-click on the iso file and select Mount to open it in explorer
 - Double-click on ```Office Tool Plus.exe``` to start the installation wizard
