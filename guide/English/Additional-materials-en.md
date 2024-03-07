@@ -12,7 +12,7 @@
 - Remove the letter with ```remove letter d```
 - Now exit diskpart with ```exit```
 
-## Finished!
+#### Finished!
 
 
 ## Disabling USB host mode
