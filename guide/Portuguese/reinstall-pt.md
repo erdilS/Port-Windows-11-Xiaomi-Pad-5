@@ -7,7 +7,7 @@
 Se você não gostou da sua versão do Windows, estragou sua instalação do Windows, ou algo do tipo, você provavelmente vai querer re-instalar o Windows. Por sorte isso é algo muito simples de fazer.
 
 > [!IMPORTANT]
-> Lembre-se, isso vai apagar todos os seus arquivos apenas do Windows. Se você precisa fazer um backup de algum arquivo na partição do Windows, você pode montar a partição usando o app [WOA Helper](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk) app and manually copying any files you wish to keep
+> Lembre-se, isso vai apagar todos os seus arquivos apenas do Windows. Se você precisa fazer um backup de algum arquivo na partição do Windows, você pode montar a partição usando o app [WOA Helper](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk) e copiar os arquivos que você quer salvar
 
 
 ### Pré requesitos
