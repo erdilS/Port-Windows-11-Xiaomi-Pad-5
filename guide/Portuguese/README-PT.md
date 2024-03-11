@@ -15,7 +15,7 @@ Nós não somos responsáveis por dispositivos brickados, partição de recovery
 Esse projeto ainda está em desenvolvimento, todos os arquivos são contribuições de vários usuários, aqui você terá um guia com arquivos funcionais que nós conseguimos. Esse é um processo delicado, faça por sua conta e risco e siga todos os passos com MUITO cuidado.
 
 **SE VOCÊ NÃO SE SENTE CONFORTAVÉL MODIFICANDO SEU TABLET, A TABELA DE PARTIÇÃO DO MESMO OU TEM MUITO MEDO DE BRICKAR SEU TABLET, POR FAVOR SE RETIRE!!! VOCÊ FOI AVISADO, EM CASO DE DISPOSITIVO BRICKADO VOCÊ ESTÁ POR CONTA PRÓPRIA!!! NOVAMENTE! VOCÊ FOI AVISADO!!!**
-> [!ATENÇÃO]
+> [!WARNING]
 > **NÃO USE VÍDEOS TUTORIAIS DO YOUTUBE OU QUALQUER OUTRA PLATAFORMA! ESTES PODEM ESTAR DESATUALIZADOS E VOCÊ PODE BRICKAR SEU TABLET SEGUINDO OS MESMOS! SE VOCÊ REALMENTE PRECISA DE UM TUTORIAL EM VÍDEO, USE ESSE (VÍDEO EM INGLÊS) [VIDEO GUIDE](https://youtu.be/BbgTbTGbXYg) POR [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
 
 
