@@ -9,7 +9,7 @@
 - Abra uma janela do cmd (prompt de comando) e use ```diskpart```
 - Use ```list volume``` para ver todos os volumes disponíveis
 - Selecione o disco com a letra D usando ```select volume $```, substituindo o "$" pelo número do volume
-- Remova a D letra com ```remove letter d```
+- Remova a letra D com ```remove letter d```
 - Saia do diskpart usando ```exit```
 
 #### Concluído!
