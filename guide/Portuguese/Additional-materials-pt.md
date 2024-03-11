@@ -2,7 +2,7 @@
 
 # Apps úteis e algumas instruções pra o Windows no Xiaomi pad 5
 
-## Esconder o disco D (Partição modem)
+## Esconder o disco D: (Partição modem)
 > [!NOTE]
 > Isso recomendado pois algum programa pode tentar modificar a partição, o que não pode acontecer
 
