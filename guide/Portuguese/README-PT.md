@@ -21,11 +21,11 @@ Esse projeto ainda está em desenvolvimento, todos os arquivos são contribuiç�
 
 ## Primeiros Passos
 
-- [Instalação](guide/Portuguese/1-partition-pt.md)
+- [Instalação](/guide/Portuguese/1-partition-pt.md)
 
-- [Configurando Dualboot](guide/Portuguese/dualboot-pt.md)
+- [Configurando Dualboot](/guide/Portuguese/dualboot-pt.md)
 
-- [Desinstalação](guide/Portuguese/uninstall-pt.md)
+- [Desinstalação](/guide/Portuguese/uninstall-pt.md)
 
 
 ## Outros
