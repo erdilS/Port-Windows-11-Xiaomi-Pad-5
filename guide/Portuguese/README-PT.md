@@ -8,6 +8,9 @@
 ## Idiomas
 [```Русский```](/guide/Russian/README-RU.md) | [```English```](/README.md) | **```Português```** | [```Türkçe```](/guide/Turkish/README-tr.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | [```한국어```](/guide/Korean/README-KO.md)
 
+> [!NOTE]
+> Outros idiomas além do inglês podem nem sempre estar atualizados 
+
 ## ⚠️ Aviso
 
 Nós não somos responsáveis por dispositivos brickados, partição de recovery perdida, funcionários da xiaomi misteriosamente desaparecidos, pmics estragados, memória ram assassinada, ics de tela destruídos, cpus exterminadas, qualquer palhaçada da xiaomi, perda de gato ou cachorro, gerra nuclear ou por levar demissão por esquecer de iniciar o android de volta e perder o alarme.
