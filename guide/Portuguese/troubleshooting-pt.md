@@ -7,7 +7,7 @@
 
 ## Não consigo carregar o tablet no Windows
 > [!WARNING]
-> Não use um adaptador ou hub USB com entrada pra carregador, seu tablet pode ser danificado. Se você usa um adaptador ou hub USB com entrada para carregador, por favor use o [guia para desativar o modo USB host](/guide/Portuguese/Additional-materials-pt.md#disabling-usb-host-mode)
+> Não use um adaptador ou hub USB com entrada pra carregador, seu tablet pode ser danificado. Se você usa um adaptador ou hub USB com entrada para carregador, por favor use o [guia para desativar o modo USB host](/guide/Portuguese/Additional-materials-pt.md#desativando-o-modo-usb-host)
 
 O carregamento no Windows funciona apenas com alguns cabos específicos. Alguns cabos que funcionam são; o cabo original que vem com o Poco X3 Pro (Pode ser identificado pelo pino laranja/vermelho na porta USB-A), e o cabo "Nimaso 100W USB-C to USB-C fast charging cable".
 
