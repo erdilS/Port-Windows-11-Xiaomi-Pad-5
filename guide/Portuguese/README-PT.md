@@ -30,21 +30,21 @@ Esse projeto ainda está em desenvolvimento, todos os arquivos são contribuiç�
 
 ## Outros
 
-- [Project Status](guide/English/status.md)
+- [Status do Projeto](/guide/Portuguese/status.md)
 
-- [Troubleshooting](guide/English/troubleshooting-en.md)
+- [Resolvendo problemas](/guide/English/troubleshooting-pt.md)
 
-- [Updating Drivers](guide/English/update-en.md)
+- [Atualizando os Drivers](/guide/English/update-pt.md)
 
-- [Reinstallation](guide/English/reinstall-en.md)
+- [Re-instalação](/guide/English/reinstall-pt.md)
 
-- [Updating UEFI](guide/English/UEFI-updating-en.md)
+- [Atualizando a UEFI](/guide/English/UEFI-updating-pt.md)
 
-- [Useful apps and instructions](guide/English/Additional-materials-en.md)
+- [Apps úteis e algumas instruções](/guide/English/Additional-materials-pt.md)
 
 
 
-## Contributors
+## Contribuidores
 
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
 [<img alt="map220v" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/14368485?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/map220v)
