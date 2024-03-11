@@ -16,7 +16,7 @@ Se você pretende bloquear o bootloader, é necessário recuperar a tabela de pa
   
 - [```Imagem do Recovery```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-#### Incie o recovery
+#### Inicie o recovery
 ```cmd
 fastboot boot <recovery.img>
 ```
