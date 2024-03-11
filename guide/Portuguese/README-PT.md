@@ -32,15 +32,15 @@ Esse projeto ainda está em desenvolvimento, todos os arquivos são contribuiç�
 
 - [Status do Projeto](/guide/Portuguese/status.md)
 
-- [Resolvendo problemas](/guide/English/troubleshooting-pt.md)
+- [Resolvendo problemas](/guide/Portuguese/troubleshooting-pt.md)
 
-- [Atualizando os Drivers](/guide/English/update-pt.md)
+- [Atualizando os Drivers](/guide/Portuguese/update-pt.md)
 
-- [Re-instalação](/guide/English/reinstall-pt.md)
+- [Re-instalação](/guide/Portuguese/reinstall-pt.md)
 
-- [Atualizando a UEFI](/guide/English/UEFI-updating-pt.md)
+- [Atualizando a UEFI](/guide/Portuguese/UEFI-updating-pt.md)
 
-- [Apps úteis e algumas instruções](/guide/English/Additional-materials-pt.md)
+- [Apps úteis e algumas instruções](/guide/Portuguese/Additional-materials-pt.md)
 
 
 
