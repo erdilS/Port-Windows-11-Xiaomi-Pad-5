@@ -20,20 +20,20 @@
 > [!NOTE]
 > Se você não consegue mover arquivos para a pasta Windows, significa que você desligou o Windows ao invés de reiniciar. Pra concertar isso, inicie de volta para o Windows, e enquando ele reinicia, coloque o tablet no modo fastboot e inicie o Android de volta
 
-- Faça o download e instale o [WOA Helper app](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk), then open it and grant it root access.
+- Faça o download e instale o [WOA Helper app](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk), abra, e permita o uso de root.
 - Faça o download da [Imagem UEFI](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img) e coloque na pasta chamada `UEFI` no armazenamento interno, caso essa pasta não exista, você pode criá-la.
-- Return to the WOA Helper app and press the `Back up Android boot` button. Select both the `Windows` and `Android` options.
-- Press the `Mount Windows` button, then download and move [StA_Installer_nabu.exe](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe) to the newly created `Windows` folder in your internal storage.
-- Return to the WOA Helper app and press `Quickboot to Windows`.
+- Retorne ao app WOA Helper e pressione a opção `Back up Android boot`. Selecione ambas as opções `Windows` e `Android`.
+- Pressione a opção `Mount Windows`, faça o download e mova o arquivo [StA_Installer_nabu.exe](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe) para a pasta `Windows` recém criada no seu armazenamento interno.
+- Retorne ao app WOA Helper e pressione `Quickboot to Windows`.
 
 ### Preparação - Windows
-- Navigate to `C:\StA_Installer_nabu.exe` and run it. If it doesn't work, make sure that any antivirus software is off, as it will probably not let the app run
+- Navegue até e abra o programa `C:\StA_Installer_nabu.exe`. Se não funcionar ou abrir, tenha certeza que seu antivírus esteja desligado, já que o mesmo pode atrapalar a instalação do programa.
 
-##### Booting to Android
-  - Run the new shortcut on your desktop (you can also pin it to your start menu / taskbar for ease of access)
+##### Inicializando o Android
+  - Abra o novo atalho na sua área de trabalho (para facilitar o acesso, você pode fixar o programa no menu iniciar / na barra de tarefas).
 
-##### Booting to Windows
-  - Press `Quickboot to Windows` inside the app, or use the newly created toggle in your quick settings panel
+##### Inicializando o Windows
+  - Pressione `Quickboot to Windows` no app, ou adicione o toggle no seu painel de configurações rápidas.
   
-## Finished!
+## Concluído!
 
