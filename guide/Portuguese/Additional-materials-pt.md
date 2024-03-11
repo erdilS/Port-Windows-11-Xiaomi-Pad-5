@@ -4,7 +4,7 @@
 
 ## Esconder o disco D: (Partição modem)
 > [!NOTE]
-> Isso recomendado pois algum programa pode tentar modificar a partição, o que não pode acontecer
+> Isso é recomendado pois algum programa pode tentar modificar a partição, o que não pode acontecer
 
 - Abra uma janela do cmd (prompt de comando) e use ```diskpart```
 - Use ```list volume``` para ver todos os volumes disponíveis
