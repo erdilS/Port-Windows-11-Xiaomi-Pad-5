@@ -7,6 +7,7 @@
 ### Select your language
 
 - [English](English/update-en.md)
+- [Português](Portuguese/update-pt.md)
 - [Turkish](Turkish/update-tr.md)
 - [Russian](Russian/update-ru.md)
 - [Ukrainian](Ukrainian/update-uk.md)
