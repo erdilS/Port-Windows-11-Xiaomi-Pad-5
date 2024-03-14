@@ -2,6 +2,27 @@
 
 # Полезные приложения и инструкции для Windows на Xiaomi pad 5
 
+## Hide D drive (modem partition)
+> [!NOTE]
+> Это рекомендовано так как этот диск не следует модифицировать, в то время как некоторые приложения могут пытаться записать в него
+
+- Откройте командную строку и запустите ```diskpart```
+- Выполните ```list volume``` чтобы просмотреть все доступные тома
+- Выберите диск который имеет букву D используя ```select volume $```, замените "$" номером тома
+- Удалите букву используя ```remove letter d```
+- Выйдите из diskpart при помощи ```exit```
+
+#### Готово!
+
+
+## Disabling USB host mode
+> [!Warning]
+> Unpowered USB devices will stop working
+
+Запустите [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/USBHost/USB.Host.Mode.Control.V4.0.vbs) чтобы включить/выключить режим USB host, выберите `Да` когда скрипт запросит перезагрузку
+
+#### Готово!
+
 ## Отключить безопасную загрузку 
 > Если вы хотите иметь возможность обновлять драйверы без ПК 
 
