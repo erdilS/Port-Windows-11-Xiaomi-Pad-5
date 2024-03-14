@@ -28,23 +28,23 @@
 
 - [Установка](1-partition-ru.md)
 
-- [Настройка двойной загрузки](guide/Russian/dualboot-ru.md)
+- [Настройка двойной загрузки](dualboot-ru.md)
 
-- [Удаление](guide/Russian/uninstall-ru.md)
+- [Удаление](uninstall-ru.md)
 
 ## Разное
 
-- [Статус Проекта](guide/Russian/status.md)
+- [Статус Проекта](status.md)
 
-- [Исправление ошибок](guide/Russian/troubleshooting-ru.md)
+- [Исправление ошибок](troubleshooting-ru.md)
 
-- [Обновление Драйверов](guide/Russian/update-ru.md)
+- [Обновление Драйверов](update-ru.md)
 
-- [Переустановка](guide/Russian/reinstall-ru.md)
+- [Переустановка](reinstall-ru.md)
 
-- [Обновление UEFI](guide/Russian/UEFI-updating-ru.md)
+- [Обновление UEFI](UEFI-updating-ru.md)
 
-- [Полезные приложения и инструкции ](guide/Russian/Additional-materials-ru.md)
+- [Полезные приложения и инструкции ](Additional-materials-ru.md)
 
 ## Разработчики
 
