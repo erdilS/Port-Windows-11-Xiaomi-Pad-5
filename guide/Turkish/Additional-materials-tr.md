@@ -6,7 +6,8 @@
 > [!Warning]
 > Ek güç verilmemiş USB aygıtlar çalışmayı durduracaktır.
 
-Host modu aktif etmek ya da devre dışı bırakmak için [USB Host Kontrolü](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/USBHost/USB.Host.Mode.Control.V4.0.vbs) çalıştırın, sonrasında tableti yeniden başlatın.
+Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/USBHost/USB.Host.Mode.Control.V4.0.vbs) to enable/disable USB host mode, confirm that you want to disable/enable USB host mode and then confirm the reboot
+
 
 ## Secureboot'u devre dışı bırakma
 > Sürücüleri bilgisayar olmadan güncelleyebilmek için secureboot kapatılmalıdır.
