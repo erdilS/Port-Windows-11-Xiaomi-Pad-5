@@ -2,11 +2,24 @@
 
 # 윈도우가 설치된 Xiaomi pad 5를 위한 유용한 앱과 설명
 
+## Hide D drive (modem partition)
+> [!NOTE]
+> This is recommended because this drive should not be modified, while some applications may try to write to it
+
+- Open a command prompt window and run ```diskpart```
+- Run ```list volume``` to see all available volumes
+- Select the disk that has letter D with ```select volume $```, replacing "$" with the volume number
+- Remove the letter with ```remove letter d```
+- Exit diskpart with ```exit```
+
+#### Finished!
+
+
 ## USB 호스트 모드 비활성화
 > [!Warning]
 > 전원이 공급되지 않는 USB 장치는 작동하지 않습니다
 
-[USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/USBHost/USB.Host.Mode.Control.V4.0.vbs)를 실행하여 USB 호스트 모드를 활성화/비활성화하시고, 태블릿을 재부팅하십시오.
+Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/USBHost/USB.Host.Mode.Control.V4.0.vbs) to enable/disable USB host mode, confirm that you want to disable/enable USB host mode and then confirm the reboot
 
 #### 끝!
 
