@@ -24,26 +24,26 @@
 
 ## 시작
 
-- [설치](guide/Korean/1-partition-ko.md)
+- [설치](1-partition-ko.md)
 
-- [듀얼부팅 설정](guide/Korean/dualboot-ko.md)
+- [듀얼부팅 설정](dualboot-ko.md)
 
-- [제거](guide/Korean/uninstall-ko.md)
+- [제거](uninstall-ko.md)
 
 
 ## 추가 정보
 
-- [프로젝트 지원 상태](guide/Korean/status.md)
+- [프로젝트 지원 상태](status.md)
 
-- [문제 해결](guide/Korean/troubleshooting-ko.md)
+- [문제 해결](troubleshooting-ko.md)
 
-- [드라이버 업데이트](guide/Korean/update-ko.md)
+- [드라이버 업데이트](update-ko.md)
 
-- [재설치](guide/Korean/reinstall-ko.md)
+- [재설치](reinstall-ko.md)
 
-- [UEFI 업데이트](guide/Korean/UEFI-updating-ko.md)
+- [UEFI 업데이트](UEFI-updating-ko.md)
 
-- [유용한 앱 및 설명](guide/Korean/Additional-materials-ko.md)
+- [유용한 앱 및 설명](Additional-materials-ko.md)
 
 
 
