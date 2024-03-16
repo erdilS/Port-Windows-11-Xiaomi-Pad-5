@@ -8,7 +8,10 @@
 
 
 ### 준비물
--  ```뇌```
+
+- ```잠금 해제 부트 로더```
+
+-  `뇌`
   
 - [```리커버리 이미지```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
