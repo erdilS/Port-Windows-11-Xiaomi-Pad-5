@@ -6,6 +6,8 @@
 
 ### Gerekli Dosyalar
 
+- ```kilidi açılmış önyükleyici```
+
 - `Beyin`
 
 - [```Recovery imajı```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
