@@ -2,6 +2,10 @@
 
 # Useful apps and instructions for Windows on Xiaomi pad 5
 
+## List of supported apps/games
+> This is by no means a comprehensive list, it simply lists apps/games that have been tested by the community
+[The link can be found here](https://docs.google.com/spreadsheets/d/1XYuoySgYQE0HL573sA-0RGMX7I4lt5rWJuQ8Z8yRJNY/edit?usp=drivesdk)
+
 ## Hide D drive (modem partition)
 > [!NOTE]
 > This is recommended because this drive should not be modified, while some applications may try to write to it
