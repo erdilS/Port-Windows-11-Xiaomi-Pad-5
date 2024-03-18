@@ -5,10 +5,7 @@
 
 ## Installation
 
-
-
 ### Prerequisites
-
 - ```Unlocked bootloader```
 
 -  ```Brain```
@@ -18,20 +15,10 @@
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
 ### Notes:
-> [!NOTE]
-> Don't know how to start? Just unzip the downloaded [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools), for example ```"C:\platform-tools"``` then open ```command prompt``` or `powershell` as administrator and type:
-```cmd
-cd "path\to\platform-tools"
-```
-> Replace  `"path\to\platform-tools"` with the actual path of the platform tools folder
-
-
 > [!Warning]\
-> if you delete any partitions via diskpart later on or now, windows will send a ufs command that gets misinterpreted which erase all your ufs
+> If you delete any partitions via diskpart later on or now, windows will send a UFS command that gets misinterpreted which erase your entire UFS
 > 
-> All your data will be erased! Backup now if needed.
-> 
-> These commands have been tested.
+> All your data will be erased! Back up now if needed.
 > 
 > DO NOT REBOOT YOUR TABLET if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/nabuwoa)
 >
@@ -39,6 +26,12 @@ cd "path\to\platform-tools"
 
 
 ### Partitioning your device and backup boot
+> [!NOTE]
+> Don't know how to start? Unzip the downloaded [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools), then open ```command prompt``` or `powershell` as administrator and run the following command, replacing `"path\to\platform-tools"` with the actual path of the platform tools folder
+```cmd
+cd "path\to\platform-tools"
+```
+> Use this window throughout the entire guide. Do not close it.
 
 #### Boot recovery through the PC with the command
 ```cmd
