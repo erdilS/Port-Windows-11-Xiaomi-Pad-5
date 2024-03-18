@@ -2,17 +2,15 @@
 
 # Xiaomi Pad 5'te Windows için faydalı uygulamalar ve talimatlar
 
-## Hide D drive (modem partition)
+## D sürücüsünü gizleme (modem bölümü)
 > [!NOTE]
-> This is recommended because this drive should not be modified, while some applications may try to write to it
+> Bu sürücü ile oynanılmamalıdır. Bazı programlar bu sürücüde değişiklik yapabileceğinden bu işlemi yapmanızı öneriyoruz
 
-- Open a command prompt window and run ```diskpart```
-- Run ```list volume``` to see all available volumes
-- Select the disk that has letter D with ```select volume $```, replacing "$" with the volume number
-- Remove the letter with ```remove letter d```
-- Exit diskpart with ```exit```
-
-#### Finished!
+- CMD açın ```diskpart``` komutunu çalıştırın
+- Bütün mevcut bölümleri görmek için ```list volume``` komutunu çalıştırın
+- D harfine sahip sürücüyü bulun. ```select volume $``` komutu ile sücüyü seçin ($ harfi yerine D sürücüsünün numarasını girmeyi unutmayın)
+- ```remove letter d``` komutuyla sürücünün (d) harfini silin
+- ```exit``` komutuyla çıkış yapın
 
 
 ## USB Host modunu devre dışı bırakma
