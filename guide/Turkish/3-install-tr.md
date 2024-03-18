@@ -86,13 +86,13 @@ exit
 
 ### Kurulum işlemi
 
-<gerçek\yol\install.esd>` yerine install.esd dosyasının bulunduğu gerçek yolu yazın (install.wim olarak da adlandırılmış olabilir)
+`<bulunduğu\yolu\install.esd>` yerine install.esd dosyasının bulunduğu gerçek yolu yazın (install.wim olarak da adlandırılmış olabilir)
 
 ```cmd
-dism /apply-image /ImageFile:<gerçek\yol\install.esd> /index:6 /ApplyDir:X:\
+dism /apply-image /ImageFile:<bulunduğu\yolu\install.esd> /index:6 /ApplyDir:X:\
 ```
 
-> Eğer `Error 87` hatası alırsanız, `dism /get-imageinfo /ImageFile:<gerçek\yol\install.esd>` komutu ile imajınızın indexini (dizinini) kontrol edin, ardından `index:6` yerine imajınızdaki Windows 11 Pro'nun gerçek index numarasını yazın
+> Eğer `Error 87` hatası alırsanız, `dism /get-imageinfo /ImageFile:<bulunduğu\yolu\install.esd>` komutu ile imajınızın indexini (dizinini) kontrol edin, ardından `index:6` yerine imajınızdaki Windows 11 Pro'nun gerçek index numarasını yazın
 
 
 
@@ -149,7 +149,7 @@ fastboot reboot
 ```
 
 > [!NOTE]
-> İlk Windows açılışında, herhangi bir Wi-Fi ağı görmeyecektir. Yeniden başlayana dek güç düğmesine basılı tutarak tabletinizi yeniden başlatın. Yeniden başlatmadan sonra sorun çözülecektir. "Bağlanılamadı" şeklinde bir bildirim alırsanız, çalışana kadar yeniden dene düğmesine basın (genellikle 5 kez)
+> Windows'un ilk açılışında herhangi bir Wi-Fi ağı görünmeyecektir. Yeniden başlayana dek güç düğmesine basılı tutarak tabletinizi yeniden başlatın. Yeniden başlatmadan sonra sorun çözülecektir. "Bağlanılamadı" şeklinde bir bildirim alırsanız çalışana kadar "yeniden dene" düğmesine basın (genellikle 5 kez)
 
 ### Android'e geri boot edin
 Windows kurulduktan sonra, Windows'ta yeniden başlat düğmesine basın (KAPATMA'ya basmayın), ardından yeniden başlatılırken fastboot'a geri dönmek için `sesi kısma` + `güç` tuşlarına basılı tutun
