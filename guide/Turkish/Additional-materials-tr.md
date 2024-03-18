@@ -6,7 +6,7 @@
 > [!NOTE]
 > Bu sürücü ile oynanılmamalıdır. Bazı programlar bu sürücüde değişiklik yapabileceğinden bu işlemi yapmanızı öneriyoruz
 
-- CMD açın ```diskpart``` komutunu çalıştırın
+- CMD açın ve ```diskpart``` komutunu çalıştırın
 - Bütün mevcut bölümleri görmek için ```list volume``` komutunu çalıştırın
 - D harfine sahip sürücüyü bulun. ```select volume $``` komutu ile sücüyü seçin ($ harfi yerine D sürücüsünün numarasını girmeyi unutmayın)
 - ```remove letter d``` komutuyla sürücünün (d) harfini silin
