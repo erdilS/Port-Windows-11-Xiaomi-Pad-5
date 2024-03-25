@@ -1,46 +1,35 @@
 ﻿<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-
 # Windows на Xiaomi Pad 5
 
 ## Обновление драйверов
 
 ### Требования
+- [```Recovery```](../../../../releases/tag/1.0)
 
 - [```образ UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
   
-- [```Recovery```](../../../../releases/tag/1.0)
-  
 - [```Драйверы```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-#### Запустите рекавери с компьютера при помощи команды
-
+### Запустите рекавери с компьютера при помощи команды
 ```cmd
 fastboot boot <recovery.img>
 ```
 
 #### Запустите msc
 > Если скрипт попросит запустить его ещё раз, то так и сделайте
-
 ```cmd
 adb shell msc
 ```
 
-### Привязка букв к разделам
-
 #### Запустите Менеджер дисков Windows
-
 > Как только планшет определился как диск
-
 ```cmd
 diskpart
 ```
 
-
-### Привязка буквы  `X` к разделу Windows
-
 #### Выберите Windows раздел планшета
-> Используйте команду `list volume` чтобы найти разделы "WINNABU"
+> Используйте команду `list volume` чтобы найти разделы **WINNABU**
 
 ```diskpart
 select volume <number>
@@ -56,9 +45,7 @@ assign letter=x
 exit
 ```
 
-
 ### Установка драйверов
-
 > Вы можете скачать драйвера [тут](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 > Если он напишет `"Automatic WINNABU detection failed! Enter Drive Letter manually"`, введите **`X`**
@@ -66,10 +53,16 @@ exit
  Откройте папку с драйверами и заустите OfflineUpdater.cmd
 ```
 
+### Reboot to fastboot to flash UEFI
+> You can also use the WOA Helper app, in which case you can reboot with ```adb reboot```
+>
+> Make sure you use the latest UEFI, because Windows might not boot if you update drivers without updating the UEFI
+```cmd
+adb reboot bootloader
+```
 
-
-### Запустите Windows с помощью загрузочного образа UEFI 
-> Или если UEFI уже прошит, просто перезагрузитесь введя ```adb reboot```
+#### Boot with Windows bootable UEFI image
+> Replace <uefi.img> with the actual path of the UEFI image
 ```
 fastboot flash boot <uefi.img>
 ```
