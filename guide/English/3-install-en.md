@@ -23,23 +23,18 @@ fastboot boot <recovery.img>
 
 #### Execute msc 
 > If it asks you to run it once again, do so
-
 ```cmd
 adb shell msc
 ```
 
 #### Start the Windows disk manager
 > Once the Xiaomi Pad 5 is detected as a disk
-
 ```cmd
 diskpart
 ```
 
-### Assign `X` to Windows volume
-
 #### Select the Windows volume of the tablet
-> Use `list volume` to find it, it's the one named "WINNABU"
-
+> Use `list volume` to find it, it's the one named **WINNABU**
 ```diskpart
 select volume <number>
 ```
@@ -49,17 +44,13 @@ select volume <number>
 assign letter x
 ```
 
-### Assign `Y` to ESP volume
-
-#### Select the esp volume of the tablet
-> Use `list volume` to find it, it's the one named "ESPNABU"
-
+#### Select the ESP volume of the tablet
+> Use `list volume` to find it, it's the one named **ESPNABU**
 ```diskpart
 select volume <number>
 ```
 
 #### Assign the letter Y
-
 ```diskpart
 assign letter y
 ```
@@ -78,12 +69,10 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 
 > If you get `Error 87`, check the index of your image with `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, then replace `index:6` with the actual index number of Windows 11 Pro in your image
 
-
 #### Install Drivers
 > You can download the Drivers [here](https://github.com/map220v/MiPad5-Drivers/releases/latest)
-
+>
 > If it says `"Automatic WINNABU detection failed! Enter Drive Letter manually"` type **`X`**
-
 ```cmd
  Open the folder with Drivers and run OfflineUpdater.cmd
 ```
@@ -103,7 +92,7 @@ mountvol y: /d
 ### Reboot to Android
 > Set up your device, then go to the last step
 
-### [Last step: Set up Dualboot](dualboot-en.md)
+## [Last step: Set up Dualboot](dualboot-en.md)
 
 
 
