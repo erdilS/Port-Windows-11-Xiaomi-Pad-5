@@ -6,9 +6,9 @@
 
 ### Необхідні файли
 - [```Recovery```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
-
+  
 - [```UEFI образ```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
-
+  
 - [```Драйвері```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ### Запустіть Recovery за допомогою завантажувача
@@ -20,7 +20,7 @@ fastboot boot <recovery.img>
 > Якщо скрипт попросить запустити його ще раз, то так і зробіть
 ```cmd
 adb shell msc
-```
+````
 
 ### Запуск diskpart
 > Коли Pad 5 визначився як диск
@@ -29,17 +29,17 @@ diskpart
 ```
 
 #### Виберіть розділ Windows на телефоні
-> Використовуйте `list volume`, щоб знайти його, зазвичай це передостанній розділ.
+> Використовуйте list volume, щоб знайти його, зазвичай це передостанній розділ.
 ```diskpart
 select volume <номер>
 ````
 
 #### Призначення літери x
 ```diskpart
-assign letter x
+assign letter=x
 ````
 
-#### Вихід з diskpart
+#### Вихід з diskpart:
 ```diskpart
 exit
 ```
@@ -53,7 +53,9 @@ exit
 ```
 
 ### Перезавантаження до fastboot для прошивки UEFI
-> Або, якщо ваш UEFI вже був прошитий, просто перезавантажте його за допомогою ```adb reboot```
+> You can also use the WOA Helper app, in which case you can reboot with ```adb reboot```
+>
+> Make sure you use the latest UEFI, because Windows might not boot if you update drivers without updating the UEFI
 ```cmd
 adb reboot bootloader
 ```
@@ -64,4 +66,5 @@ adb reboot bootloader
 fastboot flash boot <uefi.img>
 ```
 
-### Готово!
+## Готово!
+
