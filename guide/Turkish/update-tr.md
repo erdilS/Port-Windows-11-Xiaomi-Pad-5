@@ -5,70 +5,56 @@
 ## Sürücüleri Güncelleme
 
 ### Gerekli Dosyalar
+- [```Recovery imajı```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
 - [```UEFI imajı```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
   
-- [```Recovery imajı```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
-  
 - [```Sürücüler (driverlar)```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-#### Recovery modunu bilgisayar aracılığıyla başlatın
-
+### Recovery modunu bilgisayar aracılığıyla başlatın
 ```cmd
 fastboot boot <recovery.img>
 ```
 
-
-### Yığın depolama (mass storage) modunu etkinleştirin
+#### Yığın depolama (mass storage) modunu etkinleştirin
 > Eğer komutu bir kez daha çalıştırmanıza dair uyarı gelirse, bunu yapın
 ```cmd
 adb shell msc
 ```
-
-
-### Disklere harf atayın
-
   
 #### Diskpart'ı (Windows disk yönetimini) başlatın
-
 ```cmd
 diskpart
 ```
 
-
-### Windows volümüne (volume) `X` harfini atayın
-
 #### Tabletinizdeki Windows volümünü seçin
-> Bunu bulmak için `list volume` komutunu kullanabilirsiniz, "WINNABU" isimli volümdür.
-
+> Bunu bulmak için `list volume` komutunu kullanabilirsiniz, **WINNABU** isimli volümdür.
 ```diskpart
 select volume <volume numarası>
 ```
 
 #### X harfini atayın
-
 ```diskpart
 assign letter x
 ```
 
-### Diskpart arayüzünden çıkın.
-
+#### Diskpart arayüzünden çıkın.
 ```diskpart
 exit
 ```
 
-# Sürücü kurulumu
-
+### Sürücü kurulumu
 > Sürücüleri [buradan](https://github.com/map220v/MiPad5-Drivers/releases/latest) indirebilirsiniz
 
 > `"Automatic WINNABU detection failed! Enter Drive Letter manually"` diye bir uyarı verirse, **`X`** yazın   
-
 ```cmd
 Sürücülerün bulunduğu klasörü açın ve OfflineUpdater.cmd dosyasını çalıştırın
 ```
   
 ### UEFI'yi flashlamak için fastboot'a reboot edin
-> Veya UEFI'niz zaten flashlanmışsa, ```adb reboot``` komutuyla yeniden başlatmanız yeterlidir.
+> You can also use the WOA Helper app, in which case you can reboot with ```adb reboot```
+>
+> Make sure you use the latest UEFI, because Windows might not boot if you update drivers without updating the UEFI
 ```cmd
 adb reboot bootloader
 ```
@@ -78,6 +64,5 @@ adb reboot bootloader
 ```
 fastboot flash boot <uefi.img>
 ```
-
 
 ## İşlem tamamlandı!
