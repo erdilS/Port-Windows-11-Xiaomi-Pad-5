@@ -69,7 +69,7 @@ dism /apply-image /ImageFile:<bulunduğu\yolu\install.esd> /index:6 /ApplyDir:X:
 
 > Eğer `Error 87` hatası alırsanız, `dism /get-imageinfo /ImageFile:<bulunduğu\yolu\install.esd>` komutu ile imajınızın indexini (dizinini) kontrol edin, ardından `index:6` yerine imajınızdaki Windows 11 Pro'nun gerçek index numarasını yazın
 
-#### Sürücü kurulumu
+### Sürücü kurulumu
 > Sürücüleri [buradan](https://github.com/map220v/MiPad5-Drivers/releases/latest) indirebilirsiniz
 >
 > Eğer `"Automatic WINNABU detection failed! Enter Drive Letter manually"` diyorsa **`X`** yazın
