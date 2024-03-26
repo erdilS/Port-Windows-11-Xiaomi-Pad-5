@@ -64,7 +64,7 @@ dism /apply-image /ImageFile:<путь\к\install.esd> /index:6 /ApplyDir:X:\
 > если вы получили `Ошибка 87`, проверьте индекс вашего образа используя `dism /get-imageinfo /ImageFile:<путь\к\install.esd>`, затем замените `index:6` существующим номером индекса Windows 11 Pro в вашем образе 
 
 
-#### Установка драйверов
+### Установка драйверов
 > Вы можете скачать драйвера [тут](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 >
 > Если он напишет `"Automatic WINNABU detection failed! Enter Drive Letter manually"`, введите **`X`**
