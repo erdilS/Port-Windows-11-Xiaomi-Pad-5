@@ -69,7 +69,7 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 
 > `오류 87`이 출력된다면, `dism /get-imageinfo /ImageFile:<path\to\install.esd>` 명령어로 이미지의 인덱스를 확인하시고, `index:6` 을 이미지에 있는 Windows 11 Pro의 실제 인덱스 수로 변경하십시오
 
-#### 드라이버 설치
+### 드라이버 설치
 > [이곳](https://github.com/map220v/MiPad5-Drivers/releases/latest)에서 드라이버를 다운로드할 수 있습니다
 > 
 > `"Automatic WINNABU detection failed! Enter Drive Letter manually"`이 출력된다면 **`X`** 를 입력하십시오
