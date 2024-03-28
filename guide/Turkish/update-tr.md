@@ -52,9 +52,9 @@ Sürücülerün bulunduğu klasörü açın ve OfflineUpdater.cmd dosyasını ç
 ```
   
 ### UEFI'yi flashlamak için fastboot'a reboot edin
-> You can also use the WOA Helper app, in which case you can reboot with ```adb reboot```
+> WOA Helper uygulamasını da kullanabilirsiniz, bu durumda ```adb reboot``` ile yeniden başlatabilirsiniz 
 >
-> Make sure you use the latest UEFI, because Windows might not boot if you update drivers without updating the UEFI
+> En güncel UEFI'yi kullandığınızdan emin olun, çünkü UEFI'yi güncellemeden sürücüleri güncellerseniz Windows açılmayabilir
 ```cmd
 adb reboot bootloader
 ```
