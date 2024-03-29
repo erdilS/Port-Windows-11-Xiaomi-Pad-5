@@ -24,7 +24,8 @@
 - Download the [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img) and place it inside the folder named `UEFI` in your internal storage.
 - Press the `Mount Windows` button, then download and move [StA_Installer_nabu.exe](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe) to the newly created `Windows` folder in your internal storage.
 - Return to the WOA Helper app and press `Quickboot to Windows`.
-- > [!NOTE]
+  
+> [!NOTE]
 >  The first Windows boot can take up to 10 minutes, don't worry and just wait
 ### Setup - Windows
 - Navigate to `C:\StA_Installer_nabu.exe` and run it. If it doesn't work, make sure that any antivirus software is off, as it will probably not let the app run
