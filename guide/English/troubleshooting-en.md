@@ -34,7 +34,7 @@ This is caused by partitions with volume names the bootloader cannot handle, to 
 
 - Connect tablet to PC
 
-- Open cmd on PC
+- Open platform tools cmd on PC
 
 - Run ```adb shell```
 
