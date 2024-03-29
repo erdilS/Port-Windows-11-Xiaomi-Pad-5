@@ -5,7 +5,8 @@
 
 ## Troubleshooting Issues
 
-> [!NOTE]
+## I can't move files to the Windows folder 
+
 > If you are unable to move files to the Windows folder, it means you shut down Windows instead of restarting it. To fix this issue, boot back to Windows and use restart, then as it restarts boot to fastboot and use it to return to Android
 
 ## Charging in Windows does not work
@@ -19,7 +20,7 @@ Charging in Windows only works on specific cables. Cables that have been known t
 
 ### Prerequisites:
 
-- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+- [Android platform tools](https://developer.android.com/studio/releases/platform-tools)
 
 > [!WARNING]
  Probably these steps won't help you because Xiaomi Pad 5 doesn't have a fully working custom recovery to flash it to device. Also like most of newer A/B devices we don't have a TWRP Installer zip etc. and you can't boot existing recovery image because of broken fastboot. If you have already installed AOSP rom, probably it has a preinstalled AOSP recovery and you can boot it directly, so you can follow these steps. If you have unrooted MIUI, this steps won't help you.
@@ -50,14 +51,13 @@ This is caused by partitions with volume names the bootloader cannot handle, to 
 
 - Open driver folder
 
-- Remove the ```components\QC8150\Device\DEVICE.SOC_QC8150.NABU\Drivers\USB``` folder
+- Remove the ```<DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.NABU\Drivers\USB" Name="fsa4480.inf" ID="fsa4480"/>``` line from NABU.xml
 
 - Reinstall the driver
 
 - Boot UEFI
-
-- After it boots, readd the driver and reinstall the driver again
-
+> [!NOTE]
+> if you still getting BSOD use the `reinstall` guide and use this driver package 
 
 ## Bootloop after switching to Android 
 
