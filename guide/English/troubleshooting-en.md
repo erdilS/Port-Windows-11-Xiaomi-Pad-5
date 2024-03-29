@@ -61,7 +61,7 @@ This is caused by partitions with volume names the bootloader cannot handle, to 
 
 ## Bootloop after switching to Android 
 
-- Run fastboot
+- Boot to fastboot
 
 - ```fastboot set_active other```
 
