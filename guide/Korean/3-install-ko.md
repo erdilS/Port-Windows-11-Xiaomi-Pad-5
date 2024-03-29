@@ -90,6 +90,24 @@ mountvol y: /d
 ```
 
 ### Reboot to Android
+```cmd
+adb reboot
+```
+
 > Set up your device, then go to the last step
 
 ## [마지막 단계: 듀얼부팅 설정](dualboot-ko.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
