@@ -1,6 +1,5 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-
 # Windows no Xiaomi Pad 5
 > [!WARNING]
 > **POR FAVOR NÃO USE VÍDEOS TUTORIAIS DO YOUTUBE OU QUALQUER OUTRA PLATAFORMA! ESTES PODEM ESTAR DESATUALIZADOS E VOCÊ PODE BRICKAR SEU TABLET SEGUINDO OS MESMOS! PRECISA DE UM TUTORIAL EM VÍDEO, USE ESSE (VÍDEO EM INGLÊS) [VIDEO GUIDE](https://youtu.be/BbgTbTGbXYg) POR [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
@@ -91,6 +90,26 @@ mountvol y: /d
 ```
 
 ### Reboot to Android
+```cmd
+adb reboot
+```
+
 > Set up your device, then go to the last step
 
 ## [Último passo: Configurar o Dualboot](/guide/Portuguese/dualboot-pt.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
