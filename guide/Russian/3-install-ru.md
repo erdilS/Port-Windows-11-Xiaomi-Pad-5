@@ -84,6 +84,29 @@ mountvol y: /d
 ```
 
 ### Reboot to Android
+```cmd
+adb reboot
+```
+
 > Set up your device, then go to the last step
 
 ## [Последний шаг: Настройка двойной загрузки](dualboot-ru.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
