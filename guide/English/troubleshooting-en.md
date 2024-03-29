@@ -5,6 +5,9 @@
 
 ## Troubleshooting Issues
 
+> [!NOTE]
+> If you are unable to move files to the Windows folder, it means you shut down Windows instead of restarting it. To fix this issue, boot back to Windows and use restart, then as it restarts boot to fastboot and use it to return to Android
+
 ## Charging in Windows does not work
 > [!WARNING]
 > Do not use a powered USB hub with host mode enabled, this can potentially break your device. If you use a powered USB hub, please use the [disable USB host mode guide](/guide/English/Additional-materials-en.md#disabling-usb-host-mode)
