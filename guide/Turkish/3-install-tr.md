@@ -96,7 +96,7 @@ mountvol y: /d
 adb reboot
 ```
 
-> Set up your device, then go to the last step
+> Cihazınızı kurduktan sonra son adıma gidin
 
 ## [Son Aşama: Dualboot (çift sistem) kurulumu](dualboot-tr.md)
 
