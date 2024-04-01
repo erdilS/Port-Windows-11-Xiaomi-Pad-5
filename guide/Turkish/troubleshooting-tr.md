@@ -4,11 +4,15 @@
 
 ## Sorun Giderme
 
+## Android'ten Windows klasörüne dosya taşıyamıyorum
+
+ Windows klasörüne dosya taşıyamıyorsanız, bu cihazı yeniden başlatmak yerine kapattığınızı gösterir. Bu sorunu düzeltmek için Windows'a dönün ve yeniden başlatın, yeniden başlatmadan sonra fastboota boot edin ve Android'e dönün
+
 ## Windows'ta şarj işlemi çalışmıyor
 > [!WARNING]
-> hOST modu etkinken ek güçle beslenen bir USB çoklayıcı kullanmayın, bu cihazınızı bozabilir. Ek güçle beslenen bir USB çoklayıcı kullanıyorsanız, lütfen [USB host modu devre dışı bırakma rehberini](/guide/Additional-materials/Additional-materials-en.md#disabling-usb-host-mode) kullanın
+> Host modu etkinken ek güçle beslenen bir USB çoklayıcı kullanmayın, bu cihazınızı bozabilir. Ek güçle beslenen bir USB çoklayıcı kullanıyorsanız, lütfen [USB host modu devre dışı bırakma rehberini](/guide/Additional-materials/Additional-materials-en.md#disabling-usb-host-mode) kullanın
 
-Windows'ta şarj etme yalnızca belirli kablolarla olabilmektedir. Çalıştığı bilinen kablolar orijinal Poco X3 Pro kablosu (USB-A bağlantı noktasındaki ek turuncu/kırmızı piniyle tanınır) ve Nimaso 100W USB-C'den USB-C'ye hızlı şarj kablosudur.
+Windows'ta şarj etme yalnızca belirli kablolarla olabilmektedir. Çalıştığı bilinen kablolar, orijinal Poco X3 Pro kablosu (USB-A bağlantı noktasındaki ek turuncu/kırmızı piniyle tanınır) ve Nimaso 100W USB-C'den USB-C'ye hızlı şarj kablosudur.
 
 ## Cihaz Android'e boot ediyor fakat bootloader'a boot edemiyor
 
@@ -40,7 +44,7 @@ Bu sorun bootloader'ın kavrayamadığı volume isimlerinden ötürü oluşmakta
 - Ardından ```rm <volume numarası>``` komutunu çalıştırın. (örneğin ```rm 99```)
 
 
-## Boot esnasında fsa4480.sys kaynaklı mavi ekran
+## Boot esnasında fsa4480.sys kaynaklı mavi ekran oluyor
 
 - Sürücü klasörünü açın
 
@@ -52,7 +56,7 @@ Bu sorun bootloader'ın kavrayamadığı volume isimlerinden ötürü oluşmakta
 
 - Windows açıldıktan sonra sürücüyü geri ekleyin ve yeniden yükleyin.
 
-## Android'e geçiş yaptıktan sonra bootloop (/sürekli yeniden başlama)
+## Android'e geçiş yaptıktan sonra bootloop (/sürekli yeniden başlama) oluyor
 
 - fastboot'u çalıştırın
 
