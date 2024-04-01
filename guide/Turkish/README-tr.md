@@ -39,7 +39,7 @@ Bu proje geliştirme aşamasındadır. Buradaki tüm dosyalar birçok kullanıc�
   
 - [Sürücüleri Güncelleme](update-tr.md)
   
-- [Yeniden yükleme](reinstall-tr.md)
+- [Yeniden kurulum](reinstall-tr.md)
   
 - [UEFI Güncelleme](UEFI-updating-tr.md)
   

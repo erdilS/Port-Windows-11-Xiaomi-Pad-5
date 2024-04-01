@@ -15,42 +15,32 @@
 - [```Android platform araçları```](https://developer.android.com/studio/releases/platform-tools)
 
 ### Notes:
-> [!NOTE]
-> Nasıl başlayacağınızı bilmiyor musunuz? İndirdiğiniz [```Android platform araçları```](https://developer.android.com/studio/releases/platform-tools) dosyasını açın, örneğin ``"C:\platform-tools"``, ardından yönetici olarak ``cmd (komut istemcisi)`` veya `powershell` açın ve yazın:
-
-```cmd
-cd "bulunduğu\yolu\platform-tools"
-```
-
-> `"bulunduğu\yolu\platform-tools"` kısmına platform-tools klasörünün bulunduğu gerçek yolu yazın
-
-> [!Warning]\
-> Şimdi veya ileriki bir zamanda diskpart üzerinden bölüm silmeye kalkışırsanız Windows'un göndereceği UFS komutu cihaz tarafından yanlış yorumlanarak cihazın UFS belleğinin tümüyle silinmesine yol açabilir.
+> [!Warning]
+> Bütün verileriniz silinecektir. İhtiyaacınız olan veriler varsa şimdi yedekleyin.
 > 
-> Cihazda bulunan tüm verileriniz silinecektir. Yedeğini almayı gerektiren dosyalarınız varsa yedeklemeyi ihmal etmeyin.
-> 
-> Rehberdeki komutların tümü test edilmiştir.
-> 
-> Eğer bir hata yaptığınızı düşünüyorsanız TABLETİNİZİ YENİDEN BAŞLATMAYIN, [Telegram grubumuzdan](https://t.me/nabuwoa) yardım isteyin.
+> Eğer bir hata yaptığınızı düşünüyorsanız TABLETİNİZİ YENİDEN BAŞLATMAYIN, [Telegram grubumuzda](https://t.me/nabuwoa) yardım isteyin.
 >
 >**LÜTFEN YOUTUBE VEYA BAŞKA BİR PLATFORMDAKİ GÜNCEL OLMAYAN VİDEO REHBERLERİNİ KULLANMAYIN! BU VİDEOLAR ESKİDİR VE BUNLARI KULLANARAK CİHAZINIZI BRICK EDEBİLİRSİNİZ! EĞER BİR VİDEO REHBERİNE İHTİYACINIZ VARSA, [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA) TARAFINDAN HAZIRLANAN BU [YENİ VİDEO REHBERİNİ](https://youtu.be/BbgTbTGbXYg) KULLANIN**
 
+
 ### Cihazınızı bölümlere ayırma ve bootu yedekleme
+> [!NOTE]
+> Nasıl başlayacağınızı bilmiyor musunuz? İndirdiğiniz [```Android platform araçları```](https://developer.android.com/studio/releases/platform-tools) arşiv dosyasını bir yere çıkartın: örneğin ``"C:\platform-tools"``. Ardından yönetici olarak ``cmd (komut istemcisi)`` veya `powershell` açın ve komutun `"bulunduğu\yol\platform-tools"` kısmını, platform-tools klasörünün bulunduğu gerçek yolla değiştirerek şu komutu girin:
+```cmd
+cd "bulunduğu\yol\platform-tools"
+```
+> Bu pencereyi rehberin tamamında kullanın; pencereyi rehberdeki adımları tamamlayana kadar kapatmayın.
 
 #### Bir bilgisayar aracılığıyla recovery modunda cihazı başlatın
 ```cmd
 fastboot boot <recovery.img>
 ```
 
-##### Cihazınızı bölümlere ayırma
+#### Cihazınızı bölümlere ayırma
 
 > Sizden komutu bir kez daha çalıştırmanıza dair bir uyarı gelirse, bunu yapın
 
-> Bu **isteğe bağlıdır** ancak bu komut dosyasını kullanarak **özel boyutlar ayarlayabilirsiniz**
-
-> Özel boyutları ayarlamak için ```adb shell partition [GB CİNSİNDEN HEDEFLENEN WINDOWS BOYUTU]```
-
->  Komutun sonuna GB harflerini eklemediğinizden emin olun, sadece sayı
+> **Bu isteğe bağlı:** isterseniz *özel boyut ayarlaması* yapabilirsiniz. Bunun için şu komutu kullanın: ```adb shell partition [GB CİNSİNDEN İSTEDİĞİNİZ WINDOWS BOYUTU]``` (komutun sonuna -GB harfleri eklenmemiş olarak- istediğiniz boyutu sayı olarak yazacaksınız. mesela windows'a 200gb yer ayrımak isterseniz ```adb shell partition 200``` komutunu girecekesiniz. Eğer özel boyut ayarlaması yapmazsanız varsayılan olarak hafıza boyutu yarıya yarıya bölünür. Varsayılan hali alttaki komuttur)
 
 ```cmd
 adb shell partition
@@ -64,9 +54,11 @@ adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.
 
 
 #### Android'in hâlâ çalışıp çalışmadığını kontrol edin 
-> Android'in hâlâ çalışıp çalışmadığını kontrol etmek için yeniden başlatın. Boot yapmazsa, reovery'de wipe all data (/tüm veriler silme) yapın ve tekrar deneyin.
+> Bunun için yeniden başlatın. Boot yapmazsa, reovery'de wipe all data (/tüm veriler silme) yapın ve tekrar -yeniden başlatmayı- deneyin.
 
 ```cmd
 adb reboot
 ```
+
+
 ### [Sonraki aşama: Rootlama (root erişimi alma)](/guide/Turkish/2-rootguide-tr.md)

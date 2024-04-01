@@ -4,17 +4,21 @@
 
 ## Sorun Giderme
 
+## Android'ten Windows klasörüne dosya taşıyamıyorum
+
+ Windows klasörüne dosya taşıyamıyorsanız, bu cihazı yeniden başlatmak yerine kapattığınızı gösterir. Bu sorunu düzeltmek için Windows'a dönün ve yeniden başlatın, yeniden başlatmadan sonra fastboota boot edin ve Android'e dönün
+
 ## Windows'ta şarj işlemi çalışmıyor
 > [!WARNING]
-> hOST modu etkinken ek güçle beslenen bir USB çoklayıcı kullanmayın, bu cihazınızı bozabilir. Ek güçle beslenen bir USB çoklayıcı kullanıyorsanız, lütfen [USB host modu devre dışı bırakma rehberini](/guide/Additional-materials/Additional-materials-en.md#disabling-usb-host-mode) kullanın
+> Host modu etkinken ek güçle beslenen bir USB çoklayıcı kullanmayın, bu cihazınızı bozabilir. Ek güçle beslenen bir USB çoklayıcı kullanıyorsanız, lütfen [USB host modu devre dışı bırakma rehberini](/guide/Additional-materials/Additional-materials-en.md#disabling-usb-host-mode) kullanın
 
-Windows'ta şarj etme yalnızca belirli kablolarla olabilmektedir. Çalıştığı bilinen kablolar orijinal Poco X3 Pro kablosu (USB-A bağlantı noktasındaki ek turuncu/kırmızı piniyle tanınır) ve Nimaso 100W USB-C'den USB-C'ye hızlı şarj kablosudur.
+Windows'ta şarj etme yalnızca belirli kablolarla olabilmektedir. Çalıştığı bilinen kablolar, orijinal Poco X3 Pro kablosu (USB-A bağlantı noktasındaki ek turuncu/kırmızı piniyle tanınır) ve Nimaso 100W USB-C'den USB-C'ye hızlı şarj kablosudur.
 
 ## Cihaz Android'e boot ediyor fakat bootloader'a boot edemiyor
 
 ### Gerekli Dosyalar:
 
-- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+- [Android platform araçları](https://developer.android.com/studio/releases/platform-tools)
 
 > [!WARNING]
 > Muhtemelen bu adımlar işinize yaramayacaktır zira Xiaomi Pad 5'e flaslamak için düzgün çalışan bir custom recovery henüz yok. Ayrıca yeni A/B cihazlarının çoğunda olduğu gibi TWRP Installer zip vb. yoktur ve bozuk fastboot nedeniyle mevcut recovery imajını boot edemezsiniz. Zaten AOSP rom yüklediyseniz, muhtemelen önceden yüklenmiş bir AOSP recoverysi de vardır ve buna doğrudan boot edebilirsiniz, bundan dolayı bu adımları takip edebilirsiniz. Rootsuz MIUI yüklüyse, bu adımlar size yardımcı olmayacaktır.
@@ -27,7 +31,7 @@ Bu sorun bootloader'ın kavrayamadığı volume isimlerinden ötürü oluşmakta
 
 - Tableti bilgisayara bağlayın
 
-- Bilgisayarda cmd'yi açın
+- Bilgisayarda platform araçları cmd'sini açın
 
 - ```adb shell``` komutunu çalıştırın
 
@@ -40,21 +44,22 @@ Bu sorun bootloader'ın kavrayamadığı volume isimlerinden ötürü oluşmakta
 - Ardından ```rm <volume numarası>``` komutunu çalıştırın. (örneğin ```rm 99```)
 
 
-## Boot esnasında fsa4480.sys kaynaklı mavi ekran
+## Boot esnasında fsa4480.sys kaynaklı mavi ekran oluyor
 
 - Sürücü klasörünü açın
 
-- ```components\QC8150\Device\DEVICE.SOC_QC8150.NABU\Drivers\USB``` klasörünü silin
+- Remove the NABU.xml dosyasından ```<DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.NABU\Drivers\USB" Name="fsa4480.inf" ID="fsa4480"/>``` satırını silin
 
 - Sürücüyü yeniden yükleyin
 
 - UEFI'ye boot edin
 
-- Windows açıldıktan sonra sürücüyü geri ekleyin ve yeniden yükleyin.
+> [!NOTE]
+> Halen mavi ekran alıyorsanız, `yeniden kurulum` rehberini takip edin ve bu driver paketini kullanın
 
-## Android'e geçiş yaptıktan sonra bootloop (/sürekli yeniden başlama)
+## Android'e geçiş yaptıktan sonra bootloop (/sürekli yeniden başlama) oluyor
 
-- fastboot'u çalıştırın
+- fastboot'a boot edin
 
 - ```fastboot set_active other```
 

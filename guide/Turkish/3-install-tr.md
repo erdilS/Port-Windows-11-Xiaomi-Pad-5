@@ -29,6 +29,9 @@ adb shell msc
 ```
 
 ### Diskpart'ı (Windows disk yönetimini) başlatın
+> [!WARNING]
+> DISKPART'TA İKEN SİLME, OLUŞTURMA YA DA BAŞKA BİR DEĞİŞİKLİK YAPMAYIN!!! BU BÜTÜN UFS'NİZİ SİLECEKTİR YA DA FASTBOOT'A BOOT ETMENİZİ ENGELLEYECEKTİR!!! BU CİHAZINIZIN ÇÖZÜMÜ OLMAKSIZIN KALICI OLARAK BRICK OLDUĞU ANLAMINA GELİR! (cihazı Xiaomi servisine götürme ya da EDL ile flashlama elbette bir çözümdür ancak mevzubahis iki çözüm de ücretsiz değildir)
+
 ```cmd
 diskpart
 ```
@@ -60,19 +63,18 @@ assign letter y
 exit
 ```
 
-### Kurulum işlemi
-> `<bulunduğu\yolu\install.esd>` yerine install.esd dosyasının bulunduğu gerçek yolu yazın (install.wim olarak da adlandırılmış olabilir)
+### Windows kurulumu
+> `<bulunduğu\yol\install.esd>` yerine install.esd dosyasının bulunduğu gerçek yolu yazın (install.wim olarak da adlandırılmış olabilir)
 ```cmd
-dism /apply-image /ImageFile:<bulunduğu\yolu\install.esd> /index:6 /ApplyDir:X:\
+dism /apply-image /ImageFile:<bulunduğu\yol\install.esd> /index:6 /ApplyDir:X:\
 ```
 
-> Eğer `Error 87` hatası alırsanız, `dism /get-imageinfo /ImageFile:<bulunduğu\yolu\install.esd>` komutu ile imajınızın indexini (dizinini) kontrol edin, ardından `index:6` yerine imajınızdaki Windows 11 Pro'nun gerçek index numarasını yazın
+> Eğer `Error 87` hatası alırsanız, `dism /get-imageinfo /ImageFile:<bulunduğu\yol\install.esd>` komutu ile imajınızın indexini (dizinini) kontrol edin, ardından `index:6` yerine imajınızdaki Windows 11 Pro'nun gerçek index numarasını yazın
 
 ### Sürücü kurulumu
 > Sürücüleri [buradan](https://github.com/map220v/MiPad5-Drivers/releases/latest) indirebilirsiniz
 >
 > Eğer `"Automatic WINNABU detection failed! Enter Drive Letter manually"` diyorsa **`X`** yazın
-
 ```cmd
  Sürücülerin bulunduğu klasörü açın ve OfflineUpdater.cmd dosyasını çalıştırın
 ```
@@ -94,7 +96,7 @@ mountvol y: /d
 adb reboot
 ```
 
-> Set up your device, then go to the last step
+> Cihazınızı kurduktan sonra son adıma gidin
 
 ## [Son Aşama: Dualboot (çift sistem) kurulumu](dualboot-tr.md)
 
