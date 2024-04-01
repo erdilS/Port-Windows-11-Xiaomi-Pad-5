@@ -15,9 +15,7 @@
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
 ### Notes:
-> [!Warning]\
-> If you delete any partitions via diskpart later on or now, windows will send a UFS command that gets misinterpreted which erase your entire UFS
-> 
+> [!Warning]
 > All your data will be erased! Back up now if needed.
 > 
 > DO NOT REBOOT YOUR TABLET if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/nabuwoa)
