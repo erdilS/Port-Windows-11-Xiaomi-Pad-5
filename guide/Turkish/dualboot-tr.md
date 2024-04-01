@@ -3,7 +3,7 @@
 
 # Xiaomi Pad 5'te Windows Çalıştırma
 
-## Android and Windows'u sorunsuzca dualboot edebilme
+## Android ve Windows'u sorunsuzca dualboot edebilme
 
 ### Gerekli Dosyalar
 - ```Beyin```
