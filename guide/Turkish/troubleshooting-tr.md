@@ -18,7 +18,7 @@ Windows'ta şarj etme yalnızca belirli kablolarla olabilmektedir. Çalıştığ
 
 ### Gerekli Dosyalar:
 
-- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+- [Android platform araçları](https://developer.android.com/studio/releases/platform-tools)
 
 > [!WARNING]
 > Muhtemelen bu adımlar işinize yaramayacaktır zira Xiaomi Pad 5'e flaslamak için düzgün çalışan bir custom recovery henüz yok. Ayrıca yeni A/B cihazlarının çoğunda olduğu gibi TWRP Installer zip vb. yoktur ve bozuk fastboot nedeniyle mevcut recovery imajını boot edemezsiniz. Zaten AOSP rom yüklediyseniz, muhtemelen önceden yüklenmiş bir AOSP recoverysi de vardır ve buna doğrudan boot edebilirsiniz, bundan dolayı bu adımları takip edebilirsiniz. Rootsuz MIUI yüklüyse, bu adımlar size yardımcı olmayacaktır.
@@ -31,7 +31,7 @@ Bu sorun bootloader'ın kavrayamadığı volume isimlerinden ötürü oluşmakta
 
 - Tableti bilgisayara bağlayın
 
-- Bilgisayarda cmd'yi açın
+- Bilgisayarda platform araçları cmd'sini açın
 
 - ```adb shell``` komutunu çalıştırın
 
@@ -48,17 +48,18 @@ Bu sorun bootloader'ın kavrayamadığı volume isimlerinden ötürü oluşmakta
 
 - Sürücü klasörünü açın
 
-- ```components\QC8150\Device\DEVICE.SOC_QC8150.NABU\Drivers\USB``` klasörünü silin
+- Remove the NABU.xml dosyasından ```<DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.NABU\Drivers\USB" Name="fsa4480.inf" ID="fsa4480"/>``` satırını silin
 
 - Sürücüyü yeniden yükleyin
 
 - UEFI'ye boot edin
 
-- Windows açıldıktan sonra sürücüyü geri ekleyin ve yeniden yükleyin.
+> [!NOTE]
+> Halen mavi ekran alıyorsanız, `yeniden kurulum` rehberini takip edin ve bu driver paketini kullanın
 
 ## Android'e geçiş yaptıktan sonra bootloop (/sürekli yeniden başlama) oluyor
 
-- fastboot'u çalıştırın
+- fastboot'a boot edin
 
 - ```fastboot set_active other```
 
