@@ -91,7 +91,7 @@ bcdboot X:\Windows /s Y: /f UEFI
 mountvol y: /d
 ```
 
-### Reboot to Android
+### Android'e reboot edin
 ```cmd
 adb reboot
 ```
