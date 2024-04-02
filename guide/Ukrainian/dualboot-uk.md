@@ -22,7 +22,7 @@
 - Завантажте [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img) and помістіть його в папку під назвою `UEFI` у вашій внутрішній пам'яті; якщо ця папка не існує, створіть її.
 - Поверніться до програми M3K WoA Helper і натисніть кнопку `Backup Android boot`. Виберіть параметри `Windows` і `Android`.
 - Натисніть кнопку `Mount Windows`, потім завантажте та перемістіть [StA_Installer_nabu.exe](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe) у щойно створену папку `Windows` у вашій внутрішній пам’яті. 
-- Поверніться до програми M3K WoA Helper і натисніть `Quickboot to Windows`.
+- Поверніться до програми WoA Helper і натисніть `Quickboot to Windows`.
 
 ### Налаштування у Windows
 - Перейдіть до `C:\StA_Installer_nabu.exe` та запустіть його. Якщо це не працює, переконайтеся, що будь-яке антивірусне програмне забезпечення вимкнено, оскільки воно, ймовірно, не дозволить запустити програму. 
