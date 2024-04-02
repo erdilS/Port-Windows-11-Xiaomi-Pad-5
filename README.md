@@ -9,7 +9,6 @@
 [```Русский```](/guide/Russian/README-RU.md) | **```English```** | [```Português```](/guide/Portuguese/README-PT.md) | [```Türkçe```](/guide/Turkish/README-tr.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | [```한국어```](/guide/Korean/README-KO.md)
 
 ## ⚠️ Warning
-
 We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline workers cowboys, dead pmics, dead ram, dead display ics, dead cpus, any xiaomi shenanigans, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
 
 This project is in development stage, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get. This is a delicate process, do it under your own risk and follow all the steps carefully.
@@ -20,7 +19,6 @@ This project is in development stage, all the files here have been contributed b
 
 
 ## Get Started
-
 - [Installation](guide/English/1-partition-en.md)
 
 - [Dualboot Setup](guide/English/dualboot-en.md)
@@ -29,7 +27,6 @@ This project is in development stage, all the files here have been contributed b
 
 
 ## Miscellaneous
-
 - [Project Status](guide/English/status.md)
 
 - [Troubleshooting](guide/English/troubleshooting-en.md)
@@ -47,7 +44,6 @@ This project is in development stage, all the files here have been contributed b
 
 
 ## Contributors
-
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
 [<img alt="map220v" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/14368485?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/map220v)
 [<img alt="Renegade Project" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/63859504?s=200&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/edk2-porting)
@@ -72,6 +68,22 @@ This project is in development stage, all the files here have been contributed b
 [<img alt="ciyanogen" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/84897942?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/ciyanogen)
 [<img alt="sercancamli" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/161332426?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/sercancamli)
 [<img alt="Mateus13000" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/38146322?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Mateus13000)
-[<img alt="rxuglr" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/69907487?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/rxuglr)
 [<img alt="annson24" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/8401837?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/annson24)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
