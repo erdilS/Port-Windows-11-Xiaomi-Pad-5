@@ -89,12 +89,12 @@ bcdboot X:\Windows /s Y: /f UEFI
 mountvol y: /d
 ```
 
-### Reboot to Android
+### 안드로이드로 재부팅
 ```cmd
 adb reboot
 ```
 
-> Set up your device, then go to the last step
+> 장치의 초기 설정을 마친 다음에, 마지막 단계로 이동하십시오
 
 ## [마지막 단계: 듀얼부팅 설정](dualboot-ko.md)
 

@@ -53,9 +53,9 @@ exit
 ```
 
 ### fastboot로 재부팅하여 UEFI 플래시
-> You can also use the WOA Helper app, in which case you can reboot with ```adb reboot```
+> 또는 WOA Helper 앱을 사용할 수도 있습니다. 이 경우, ```adb reboot``` 명령어를 통하여 재부팅할 수 있습니다.
 >
-> Make sure you use the latest UEFI, because Windows might not boot if you update drivers without updating the UEFI
+> 최신 버전의 UEFI를 사용하고 있는지 확인하십시오. UEFI를 업데이트하지 않고 드라이버를 업데이트하면 Windows가 부팅되지 않을 수도 있습니다
 ```cmd
 adb reboot bootloader
 ```
@@ -67,12 +67,3 @@ fastboot flash boot <uefi.img>
 ```
 
 ## 끝!
-
-
-
-
-
-
-
-
-
