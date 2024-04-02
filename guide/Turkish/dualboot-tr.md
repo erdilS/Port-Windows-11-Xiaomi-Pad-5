@@ -10,7 +10,7 @@
 - ```Rootlu bir tablet```
 - ```Tablette yüklü Windows```
 - [```UEFI imajı```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
-- [```M3K WoA Helper uygulaması```](https://github.com/woa-vayu/WoA-Helper-M3K/releases/latest)
+- [```WoA Helper uygulaması```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
 - [```StA Installer```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
 
 ## Dualboot uygulamasının kurulumu
@@ -18,7 +18,7 @@
 
 ### Android Tarafındaki Kurulum
 
-- [M3K WoA Helper uygulamasını](https://github.com/woa-vayu/WoA-Helper-M3K/releases/latest) indirin ve kurun, sonrasında uygulamayı açın ve root erişimi verin.
+- WoA Helper uygulamasını indirin ve kurun, sonrasında uygulamayı açın ve root erişimi verin.
 - [UEFI imajını](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v2.img) indirin ve dahili depolama alanınızdaki `UEFI` adlı klasörün içerisine yerleştirin.
 - `Mount Windows` butonuna basın, ardından [StA_Installer_nabu.exe](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe) indirin ve dahili depolama alanınızdaki yeni oluşturulmuş olan `Windows` klasörüne taşıyın
 - M3K WoA Helper uygulamasına dönün ve `Quickboot to Windows` tuşuna basın .
