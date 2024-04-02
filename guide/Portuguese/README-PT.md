@@ -2,7 +2,6 @@
 
 
 # Windows no Xiaomi Pad 5
-
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
 
 ## Idiomas
@@ -12,7 +11,6 @@
 > Outros idiomas além do inglês podem nem sempre estar atualizados 
 
 ## ⚠️ Aviso
-
 Nós não somos responsáveis por dispositivos brickados, partição de recovery perdida, funcionários da xiaomi misteriosamente desaparecidos, pmics estragados, memória ram assassinada, ics de tela destruídos, cpus exterminadas, qualquer palhaçada da xiaomi, perda de gato ou cachorro, gerra nuclear ou por levar demissão por esquecer de iniciar o android de volta e perder o alarme.
 
 Esse projeto ainda está em desenvolvimento, todos os arquivos são contribuições de vários usuários, aqui você terá um guia com arquivos funcionais que nós conseguimos. Esse é um processo delicado, faça por sua conta e risco e siga todos os passos com MUITO cuidado.
@@ -23,7 +21,6 @@ Esse projeto ainda está em desenvolvimento, todos os arquivos são contribuiç�
 
 
 ## Primeiros Passos
-
 - [Instalação](/guide/Portuguese/1-partition-pt.md)
 
 - [Configurando Dualboot](/guide/Portuguese/dualboot-pt.md)
@@ -32,7 +29,6 @@ Esse projeto ainda está em desenvolvimento, todos os arquivos são contribuiç�
 
 
 ## Outros
-
 - [Status do Projeto](/guide/Portuguese/status.md)
 
 - [Resolvendo problemas](/guide/Portuguese/troubleshooting-pt.md)
@@ -48,7 +44,6 @@ Esse projeto ainda está em desenvolvimento, todos os arquivos são contribuiç�
 
 
 ## Contribuidores
-
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
 [<img alt="map220v" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/14368485?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/map220v)
 [<img alt="Renegade Project" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/63859504?s=200&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/edk2-porting)
@@ -73,4 +68,21 @@ Esse projeto ainda está em desenvolvimento, todos os arquivos são contribuiç�
 [<img alt="ciyanogen" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/84897942?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/ciyanogen)
 [<img alt="sercancamli" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/161332426?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/sercancamli)
 [<img alt="Mateus13000" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/38146322?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Mateus13000)
-[<img alt="rxuglr" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/69907487?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/rxuglr)
+[<img alt="annson24" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/8401837?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/annson24)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
