@@ -9,7 +9,7 @@
 - Root права 
 - Встановлена Windows на планшеті
 - [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
-- [M3K WoA Helper app](https://github.com/woa-vayu/WoA-Helper-M3K/releases/latest)
+- [WoA Helper app](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
 - [StA Installer](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
 
 ### Налаштування подвійного завантаження  
@@ -18,7 +18,7 @@
 ### Налаштування у Android
 > [!NOTE]
 > Якщо ви не можете перемістити файли до папки Windows, це означає, що ви вимкнули Windows, а не перезавантажили її. Щоб вирішити цю проблему, завантажте Windows і скористайтеся перезапуском, а потім, коли він перезавантажиться, завантажте швидке завантаження та скористайтеся ним, щоб повернутися до Android. 
-- Завантажте та встановіть [M3K WoA Helper app](https://github.com/woa-vayu/WoA-Helper-M3K/releases/latest), потім відкрийте його та надайте йому root доступ.
+- Завантажте та встановіть WoA Helper app, потім відкрийте його та надайте йому root доступ.
 - Завантажте [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img) and помістіть його в папку під назвою `UEFI` у вашій внутрішній пам'яті; якщо ця папка не існує, створіть її.
 - Поверніться до програми M3K WoA Helper і натисніть кнопку `Backup Android boot`. Виберіть параметри `Windows` і `Android`.
 - Натисніть кнопку `Mount Windows`, потім завантажте та перемістіть [StA_Installer_nabu.exe](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe) у щойно створену папку `Windows` у вашій внутрішній пам’яті. 
