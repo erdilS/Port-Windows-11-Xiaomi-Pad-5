@@ -1,7 +1,6 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 # Запуск Windows на Xiaomi Pad 5
-
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
 
 ## Мова
@@ -11,12 +10,12 @@
 > Мови, окрім англійської, не завжди можуть бути актуальними 
 
 ## ⚠️ Попередження
-
 Ми не несемо відповідальності за заблоковані пристрої, відсутні розділи відновлення, мертві працівники заводу xiaomi, ковбої, мертві pmics, мертву оперативну пам'ять, мертві мікросхеми дисплея, мертві процесори, будь-які махінації xiaomi, мертвих кішок або собак, ядерні війни або звільнення, тому що ви забули завантажити назад на android для будильника.
 
 Цей проект знаходиться на стадії розробки, всі файли тут були створені іншими користувачами, тут ви знайдете гайд з робочими файлами, які нам вдалося отримати. Це делікатний процес, робіть це на свій страх і ризик і уважно виконуйте всі кроки.
 
 **ЯКЩО ВАМ НЕЗРУЧНО МОДИФІКУВАТИ СВІЙ ПЛАНШЕТ АБО ЙОГО ТАБЛИЦЮ РОЗДІЛІВ, АБО ВИ ПАРАНОЇДАЛЬНО ХОЧЕТЕ ЗАБЛОКУВАТИ СВІЙ ПРИСТРІЙ, БУДЬ ЛАСКА ПОКИНЬТЕ ЦЮ СТОРІНКУ ЗАРАЗ!! ВАС ПОПЕРЕДИЛИ, ВИ БУДЕТЕ ВИННІ САМІ, ЯКЩО ЗАБЛОКУЄТЕ СВІЙ ПРИСТРІЙ!" ВАС ПОПЕРЕДИЛИ!!**
+
 > [!WARNING]
 > **БУДЬ ЛАСКА, НЕ ВИКОРИСТОВУЙТЕ ВІДЕОІНСТРУКЦІЇ НА YOUTUBE АБО БУДЬ-ЯКІЙ ІНШІЙ ПЛАТФОРМІ! ЦІ ВІДЕО ЗАСТАРІЛИ, І ВИ МОЖЕТЕ ВИКОРИСТОВУВАТИ ЇХ НА СВОЄМУ ПРИСТРОЇ! ЯКЩО ВАМ КОНЧЕ ПОТРІБЕН ВІДЕОГАЙД, СКОРИСТАЙТЕСЯ ЦИМ [ВІДЕОПОСІБНИКОМ](https://youtu.be/BbgTbTGbXYg) ВІД [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
 
@@ -41,10 +40,7 @@
   
 - [Корисні програми та інструкції](/guide/Ukrainian/Additional-materials-uk.md)
 
-
-
 ## Вкладачі
-
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
 [<img alt="map220v" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/14368485?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/map220v)
 [<img alt="Renegade Project" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/63859504?s=200&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/edk2-porting)
@@ -69,4 +65,19 @@
 [<img alt="ciyanogen" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/84897942?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/ciyanogen)
 [<img alt="sercancamli" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/161332426?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/sercancamli)
 [<img alt="Mateus13000" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/38146322?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Mateus13000)
-[<img alt="rxuglr" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/69907487?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/rxuglr)
+[<img alt="annson24" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/8401837?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/annson24)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
