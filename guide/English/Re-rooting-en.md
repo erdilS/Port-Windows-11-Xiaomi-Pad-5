@@ -3,7 +3,6 @@
 # Running Windows on the Xiaomi Pad 5
 
 ## Re-rooting Android
-
 This section will guide you through the re-rooting process for when MIUI updates and removes root.
 
 ### Prerequisites
@@ -27,15 +26,10 @@ adb reboot
 ```
 
 ### Patch boot 
-
 - Copy the ```normal_boot.img``` file from the ```platform tools``` folder onto the tablet 
-
--  Open the Magisk app and click the ```Install``` button. Select ```Select and Patch a File``` option and find the ```normal_boot.img``` file that you copied to the tablet. Click the ```Let's Go``` button and wait for the patching process to complete.
-  
+- Open the Magisk app and click the ```Install``` button. Select ```Select and Patch a File``` option and find the ```normal_boot.img``` file that you copied to the tablet. Click the ```Let's Go``` button and wait for the patching process to complete.
 - Copy the ```magisk_patched....img``` file from the ```Downloads``` folder on the tablet to the ```platform tools``` folder on your computer. 
-
 - Reboot to fastboot
-  
 - Open command prompt in the platform tools folder 
 
 ### Flash patched boot 
@@ -45,18 +39,28 @@ fastboot flash boot <magisk_patched.img>
 ```
 
 ### Update boot.img in Windows' C:\
-
 - Reboot back to Android
-
 - Open ```WOA Helper```
-
 - Mount ```Windows```
-
-- Open any file explorer and go to the ```Windows```  folder.
-
+- Open any file explorer and go to the ```Windows```  folder in your internal storage
 - Delete ```boot.img```
 
 > [!NOTE]
 > **The updated boot.img will automatically be generated in C:\ on the next reboot**
 
-## Done
+## Finished!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
