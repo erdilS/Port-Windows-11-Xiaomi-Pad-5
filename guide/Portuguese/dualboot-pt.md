@@ -10,7 +10,7 @@
 - ```que o tablet tenha root```
 - ```Windows instalado no tablet```
 - [```Imagem do UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
-- [```M3K WOA Helper app```](https://github.com/woa-vayu/WoA-Helper-M3K/releases/latest)
+- [```WOA Helper app```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
 - [```StA Installer```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
 
 ## Configurando o app de dualboot
@@ -20,7 +20,7 @@
 > [!NOTE]
 > Se você não consegue mover arquivos para a pasta Windows, significa que você desligou o Windows ao invés de reiniciar. Pra concertar isso, inicie de volta para o Windows, e enquando ele reinicia, coloque o tablet no modo fastboot e inicie o Android de volta
 
-- Faça o download e instale o [M3K WOA Helper app](https://github.com/woa-vayu/WoA-Helper-M3K/releases/latest), abra, e permita o uso de root.
+- Faça o download e instale o WOA Helper app abra, e permita o uso de root.
 - Faça o download da [Imagem UEFI](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img) e coloque na pasta chamada `UEFI` no armazenamento interno, caso essa pasta não exista, você pode criá-la.
 - Retorne ao app M3K WOA Helper e pressione a opção `Back up Android boot`. Selecione ambas as opções `Windows` e `Android`.
 - Pressione a opção `Mount Windows`, faça o download e mova o arquivo [StA_Installer_nabu.exe](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe) para a pasta `Windows` recém criada no seu armazenamento interno.
