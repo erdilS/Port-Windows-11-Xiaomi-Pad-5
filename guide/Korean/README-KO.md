@@ -39,6 +39,8 @@
 
 - [UEFI 업데이트](UEFI-updating-ko.md)
 
+- [안드로이드 재루팅](Re-rooting-ko.md)
+
 - [유용한 앱 및 설명](Additional-materials-ko.md)
 
 ## 기여자
