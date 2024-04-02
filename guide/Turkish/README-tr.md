@@ -9,11 +9,9 @@
 [```Русский```](/guide/Russian/README-RU.md) | [```English```](/README.md) | [```Português```](/guide/Portuguese/README-PT.md) | **```Türkçe```** | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | [```한국어```](/guide/Korean/README-KO.md)
 
 > [!NOTE]
-> 
 > İngilizce dışındaki diğer diller her zaman güncel olmayabilir 
 
 ## ⚠️ Uyarı
-
 Brick edilmiş cihazlardan, eksik recovery bölümlerinden, ölü xiaomi fabrika işçişerinden, ölü şarj soketlerinden, ramlerden, ekranlardan, işlemcilerden, herhangi bir xiaomi saçmalığından, ölü kedi veya köpeklerden, nükleer savaşlardan veya Android'e geri dönmeyi unuttuğunuz için alarm kuramadığındızan dolayı kovulmanızdan sorumlu değiliz.
 
 Bu proje geliştirme aşamasındadır. Buradaki tüm dosyalar birçok kullanıcının katkıları sayesindedir. Burada, elde etmeyi başardığımız çalışan dosyalarla bir rehber bulacaksınız. Bu hassas bir süreçtir, riski göze alıyorsanız yapın ve tüm adımları dikkatlice izleyin.
@@ -48,7 +46,6 @@ Bu proje geliştirme aşamasındadır. Buradaki tüm dosyalar birçok kullanıc�
 
 
 ## Katkıda Bulunanlar
-
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
 [<img alt="map220v" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/14368485?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/map220v)
 [<img alt="Renegade Project" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/63859504?s=200&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/edk2-porting)
@@ -73,4 +70,19 @@ Bu proje geliştirme aşamasındadır. Buradaki tüm dosyalar birçok kullanıc�
 [<img alt="ciyanogen" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/84897942?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/ciyanogen)
 [<img alt="sercancamli" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/161332426?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/sercancamli)
 [<img alt="Mateus13000" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/38146322?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Mateus13000)
-[<img alt="rxuglr" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/69907487?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/rxuglr)
+[<img alt="annson24" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/8401837?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/annson24)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
