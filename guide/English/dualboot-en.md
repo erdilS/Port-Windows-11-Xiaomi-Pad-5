@@ -10,7 +10,7 @@
 - ```A rooted tablet```
 - ```Windows installed on the tablet```
 - [```UEFI image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
-- [```WOA Helper app```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
+- [```M3K WoA Helper app```](https://github.com/woa-vayu/WoA-Helper-M3K/releases/latest)
 - [```StA Installer```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
 
 ## Setting up the dualboot app
@@ -18,10 +18,10 @@
 
 ### Setup - Android
 
-- Download and install the [WOA Helper app](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk), then open it and grant it root access.
+- Download and install the [M3K WoA Helper app](https://github.com/woa-vayu/WoA-Helper-M3K/releases/latest), then open it and grant it root access.
 - Download the [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img) and place it inside the folder named `UEFI` in your internal storage.
 - Press the `Mount Windows` button, then download and move [StA_Installer_nabu.exe](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe) to the newly created `Windows` folder in your internal storage.
-- Return to the WOA Helper app and press `Quickboot to Windows`.
+- Return to the M3K WoA Helper app and press `Quickboot to Windows`.
   
 > [!NOTE]
 >  The first Windows boot can take up to 10 minutes, don't worry and just wait

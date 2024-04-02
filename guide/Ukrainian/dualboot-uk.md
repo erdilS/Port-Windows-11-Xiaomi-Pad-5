@@ -9,7 +9,7 @@
 - Root права 
 - Встановлена Windows на планшеті
 - [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
-- [WOA Helper app](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
+- [M3K WoA Helper app](https://github.com/woa-vayu/WoA-Helper-M3K/releases/latest)
 - [StA Installer](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
 
 ### Налаштування подвійного завантаження  
@@ -18,11 +18,11 @@
 ### Налаштування у Android
 > [!NOTE]
 > Якщо ви не можете перемістити файли до папки Windows, це означає, що ви вимкнули Windows, а не перезавантажили її. Щоб вирішити цю проблему, завантажте Windows і скористайтеся перезапуском, а потім, коли він перезавантажиться, завантажте швидке завантаження та скористайтеся ним, щоб повернутися до Android. 
-- Завантажте та встановіть [WOA Helper app](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk), потім відкрийте його та надайте йому root доступ.
+- Завантажте та встановіть [M3K WoA Helper app](https://github.com/woa-vayu/WoA-Helper-M3K/releases/latest), потім відкрийте його та надайте йому root доступ.
 - Завантажте [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img) and помістіть його в папку під назвою `UEFI` у вашій внутрішній пам'яті; якщо ця папка не існує, створіть її.
-- Поверніться до програми WOA Helper і натисніть кнопку `Backup Android boot`. Виберіть параметри `Windows` і `Android`.
+- Поверніться до програми M3K WoA Helper і натисніть кнопку `Backup Android boot`. Виберіть параметри `Windows` і `Android`.
 - Натисніть кнопку `Mount Windows`, потім завантажте та перемістіть [StA_Installer_nabu.exe](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe) у щойно створену папку `Windows` у вашій внутрішній пам’яті. 
-- Поверніться до програми WOA Helper і натисніть `Quickboot to Windows`.
+- Поверніться до програми M3K WoA Helper і натисніть `Quickboot to Windows`.
 
 ### Налаштування у Windows
 - Перейдіть до `C:\StA_Installer_nabu.exe` та запустіть його. Якщо це не працює, переконайтеся, що будь-яке антивірусне програмне забезпечення вимкнено, оскільки воно, ймовірно, не дозволить запустити програму. 
