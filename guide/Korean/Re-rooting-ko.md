@@ -6,9 +6,9 @@
 이 부분은 MIUI가 업데이트되어 루트가 제거된 경우를 위한 재루팅 과정을 가이드합니다.
 
 ### 준비
-- [```리커버리 이미```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```리커버리 이미지```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
   
-- [```안드로이드 플랫폼 도```](https://developer.android.com/studio/releases/platform-tools)
+- [```안드로이드 플랫폼 도구```](https://developer.android.com/studio/releases/platform-tools)
 
 ### PC에서 명령어로 리커버리 시작
 ```cmd
