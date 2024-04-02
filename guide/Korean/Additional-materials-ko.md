@@ -2,17 +2,17 @@
 
 # 윈도우가 설치된 Xiaomi pad 5를 위한 유용한 앱과 설명
 
-## Hide D drive (modem partition)
+## D 드라이브 숨기기 (modem 파티션)
 > [!NOTE]
-> This is recommended because this drive should not be modified, while some applications may try to write to it
+> 몇몇 애플리케이션들이 이 드라이브에 쓰기 작업을 할 수 있는데, 이 드라이브가 수정되면 안 되기 때문에 이 부분은 권장됩니다
 
-- Open a command prompt window and run ```diskpart```
-- Run ```list volume``` to see all available volumes
-- Select the disk that has letter D with ```select volume $```, replacing "$" with the volume number
-- Remove the letter with ```remove letter d```
-- Exit diskpart with ```exit```
+- 명령 프롬프트를 열고 ```diskpart``` 명령어를 실행합니다
+- ```list volume``` 명령어를 실행하여 모든 이용 가능한 볼륨들을 찾습니다
+- ```select volume $``` 명령어를 이용하여 D 디스크를 선택합니다. 이때 "$" 를 볼륨 숫자로 교체하십시오
+- ```remove letter d``` 명령어로 문자를 제거합니다
+- ```exit``` 명령어로 diskpart를 종료합니다
 
-#### Finished!
+#### 끝!
 
 
 ## USB 호스트 모드 비활성화
