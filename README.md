@@ -40,6 +40,8 @@ This project is in development stage, all the files here have been contributed b
 
 - [Updating UEFI](guide/English/UEFI-updating-en.md)
 
+- [Re-rooting Android](guide/English/Re-rooting-en.md)
+
 - [Useful apps and instructions](guide/English/Additional-materials-en.md)
 
 
@@ -71,4 +73,5 @@ This project is in development stage, all the files here have been contributed b
 [<img alt="sercancamli" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/161332426?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/sercancamli)
 [<img alt="Mateus13000" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/38146322?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Mateus13000)
 [<img alt="rxuglr" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/69907487?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/rxuglr)
+[<img alt="annson24" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/8401837?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/annson24)
 
