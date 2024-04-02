@@ -21,7 +21,7 @@
 - WoA Helper uygulamasını indirin ve kurun, sonrasında uygulamayı açın ve root erişimi verin.
 - [UEFI imajını](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v2.img) indirin ve dahili depolama alanınızdaki `UEFI` adlı klasörün içerisine yerleştirin.
 - `Mount Windows` butonuna basın, ardından [StA_Installer_nabu.exe](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe) indirin ve dahili depolama alanınızdaki yeni oluşturulmuş olan `Windows` klasörüne taşıyın
-- M3K WoA Helper uygulamasına dönün ve `Quickboot to Windows` tuşuna basın .
+- WoA Helper uygulamasına dönün ve `Quickboot to Windows` tuşuna basın .
 
 > [!NOTE]
 > Windows'un ilk bootu 10 dakika kadar sürebilir. Endişelenmeyin, sadece bekleyin.
