@@ -3,7 +3,7 @@
 # Xiaomi Pad 5 에서 윈도우 구동
 
 ## 안드로이드 재루팅
-이 부분은 MIUI가 업데이트되어 루트가 제거된 경우를 위한 리루팅 과정을 가이드합니다.
+이 부분은 MIUI가 업데이트되어 루트가 제거된 경우를 위한 재루팅 과정을 가이드합니다.
 
 ### 준비
 - [```리커버리 이미```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
