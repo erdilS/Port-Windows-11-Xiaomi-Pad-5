@@ -10,7 +10,7 @@
 ### 준비물
 - ```뇌```
   
-- [```안드로이드 boot 백업```](/guide/Korean/1-partition-ko.md#기존-boot-이미지-백업) (가이드의 첫 페이지에서 백업한 파일)
+- [```안드로이드 boot 이미지 백업```](/guide/Korean/1-partition-ko.md#기존-boot-이미지-백업) (가이드의 첫 페이지에서 백업한 파일)
 
 
 ## boot 패치 

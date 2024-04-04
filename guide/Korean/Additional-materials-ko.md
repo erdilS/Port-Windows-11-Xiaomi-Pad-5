@@ -25,7 +25,7 @@
 
 
 ## secureboot 비활성화
-> PC 없이 드라이버를 업데이트하고자 하는 경우
+> PC 없이 드라이버를 업데이트하고자 하는 경우 아래의 가이드를 참조하십시오
 
 [secureboot 비활성화 가이드](/guide/Korean/disable-secureboot-ko.md)
 

@@ -4,10 +4,10 @@
 # Xiaomi Pad 5 에서 윈도우 구동
 
 ## 재설치
-윈도우 버전이 마음에 들지 않거나 윈도우 설치에 실패한 경우, 또는 기타 등등의 이유로 인해, 윈도우 재설치를 원할 수 있을 것입니다. 다행히도 이 과정은 매우 쉽습니다.
+윈도우 버전이 마음에 들지 않거나 윈도우 설치에 실패한 경우, 또는 기타 등등의 이유로 인해, 윈도우 재설치를 원할 수 있습니다. 다행히도 이 과정은 매우 쉽습니다.
 
 > [!IMPORTANT]
-> 재설치는 모든 윈도우 파일을 아주 확실하게 지웁니다. 백업을 원한다면, [WOA Helper](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk) 앱을 사용하여 윈도우 파티션을 마운트하고 수동으로 파일을 복사할 수 있습니다
+> 재설치는 모든 윈도우 파일을 매우 확실하게 지웁니다. 백업을 원한다면, [WOA Helper](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk) 앱을 사용하여 윈도우 파티션을 마운트하고 수동으로 파일을 복사할 수 있습니다
 
 ### 준비물
 

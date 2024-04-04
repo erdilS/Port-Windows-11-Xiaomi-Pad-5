@@ -5,7 +5,7 @@
 
 ## secureboot 비활성화
 > [!Important]
-> 오직 secureboot를 비활성화하려는 경우에만 이 가이드를 이용하십시오.
+> secureboot를 비활성화하려는 경우에만 이 가이드를 이용하십시오.
 
 ### 준비물
 - ```뇌```
@@ -14,12 +14,12 @@
 
 - [```리커버리 이미지```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-- [```UEFI 이미지 (Secureboot 비활성화)```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-NoSecureboot-v3.img)
+- [```Secureboot가 비활성화된 UEFI 이미지```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-NoSecureboot-v3.img)
 
 ## secureboot의 장단점
-> 기본적으로, 이 가이드에서 secureboot는 활성화되어 있습니다
+> 기본적으로, secureboot는 활성화되어 있습니다
 
-##### secureboot의 장단점
+##### 활성화된 secureboot의 장점
 - √ 홈화면에 워터마크가 없습니다
 - √ 테스트 모드에서 작동하지 않는 앱이 작동합니다
 - √ 윈도우에서의 대규모 업데이트가 직접적으로 가능합니다 (예: 22h2 에서 23h2)

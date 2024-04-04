@@ -19,7 +19,7 @@
 
 ### 메모:
 > [!NOTE]
-> 어디서부터 시작해야 할지 잘 모르십니까? 다운로드된 [```안드로이드 플랫폼 도구```](https://developer.android.com/studio/releases/platform-tools) 을 원하는 경로에 압축해제 하십시오. 경로의 예시는 다음과 같습니다. ```"C:\platform-tools"``` 그런 다음 ```명령 프롬프트``` 또는 `Windows Powershell` 을 관리자 권한으로 열고 아래의 명령어를 입력하십시오:
+> 어디서부터 시작해야 할지 잘 모르십니까? 다운로드된 [```안드로이드 플랫폼 도구```](https://developer.android.com/studio/releases/platform-tools) 폴더를 원하는 경로에 압축해제 하십시오. 경로의 예시는 다음과 같습니다. ```"C:\platform-tools"``` 그런 다음 ```명령 프롬프트``` 또는 `Windows Powershell` 을 관리자 권한으로 열고 아래의 명령어를 입력하십시오:
 ```cmd
 cd "path\to\platform-tools"
 ```
@@ -33,7 +33,7 @@ cd "path\to\platform-tools"
 > 
 > 가이드에서 사용되는 명령어들은 모두 테스트되었습니다.
 > 
-> 실수한 것 같다면 태블릿을 재부팅하지 마시고, [Telegram chat](https://t.me/nabuwoa)에 도움을 요청하십시오
+> 실수한 것 같다면 태블릿을 재부팅하지 마시고, [텔레그램 채팅](https://t.me/nabuwoa)으로 도움을 요청하십시오
 >
 > **유튜브 또는 다른 플랫폼에 있는 최신 상태가 아닌 동영상 가이드를 보지 마시기 바랍니다! 이러한 동영상들은 최신 상태가 아니므로 따라 하다가 장치를 벽돌로 만들 수 있습니다! 정말 동영상 가이드가 필요하다면, [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)의 [동영상 가이드](https://youtu.be/BbgTbTGbXYg)를 보십시오**
 
