@@ -5,7 +5,7 @@
 ## Re-rooting Android
 В этом разделе мы расскажем вам о процессе повторного рутинга, когда MIUI обновляется и удаляет root.
 
-### Prerequisites
+### Требования
 - [```образ recovery```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
   
 - [```Android Platform Tools```](https://developer.android.com/studio/releases/platform-tools)
@@ -25,25 +25,25 @@ adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.
 adb reboot
 ```
 
-### Patch boot 
+### Пропатчите boot 
 - Скопируйте файл ```normal_boot.img``` из папки ```platform tools``` на ваш паншет 
 - Откройте приложение Magisk и нажмите кнопку ```Install```. Выберите параметр ```Select and Patch a File``` и найдите файл ```normal_boot.img``` который вы скопировали на планшет. Нажмите кнопку ```Let's Go``` и дождитесь завершения процесса патчинга.
-- Copy the ```magisk_patched....img``` file from the ```Downloads``` folder  on the tablet to the ```platform tools``` folder on your computer. 
-- Reboot to fastboot
-- Open command prompt in the platform tools folder 
+- Скопируйте файл ```magisk_patched....img``` из папки ```Downloads``` на вашем планшете в папку ```platform tools``` на вашем компьютере. 
+- Перезагрузитсь в fastboot
+- Откройте командную строку в папке platform tools 
 
-### Flash patched boot 
- > Replace `<magisk_patched.img>` with the actual ```magisk_patched.img``` name/path.
+### Прошейте пропатченый boot  
+ > Замените `<magisk_patched.img>` существующим путём/именем ```magisk_patched.img```
 ```cmd
 fastboot flash boot <magisk_patched.img>
 ```
 
-### Update boot.img in Windows' C:\
-- Reboot back to Android
-- Open ```WOA Helper```
-- Mount ```Windows```
-- Open any file explorer and go to the ```Windows```  folder in your internal storage
-- Delete ```boot.img```
+### Обновите boot.img в Windows' C:\
+- Перезагрузитесь обратно в Android 
+- Откройте приложение ```WOA Helper```
+- Смонтируйте ```Windows```
+- Откройте любой проводник и отройте папку ```Windows``` во внутренней памяти планшета
+- Удалите ```boot.img```
 
 > [!NOTE]
 > **Обновлённый boot.img будет автоматически создан в C:\ при следующей перезагрузке в Windows**
