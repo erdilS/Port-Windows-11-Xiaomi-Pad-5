@@ -40,6 +40,8 @@
 
 - [Обновление UEFI](UEFI-updating-ru.md)
 
+- [Re-rooting Android](guide/Russian/Re-rooting-ru.md)
+
 - [Полезные приложения и инструкции ](Additional-materials-ru.md)
 
 ## Разработчики
