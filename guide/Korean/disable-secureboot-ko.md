@@ -14,7 +14,7 @@
 
 - [```리커버리 이미지```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-- [```UEFI 이미지 (Secureboot 비활성화)```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-NoSecureboot-v3.img)
+- [```Secureboot가 비활성화된 UEFI 이미지```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-NoSecureboot-v3.img)
 
 ## secureboot의 장단점
 > 기본적으로, 이 가이드에서 secureboot는 활성화되어 있습니다
