@@ -19,7 +19,7 @@
 
 ### 메모:
 > [!NOTE]
-> 어디서부터 시작해야 할지 잘 모르십니까? 다운로드된 [```안드로이드 플랫폼 도구```](https://developer.android.com/studio/releases/platform-tools) 을 원하는 경로에 압축해제 하십시오. 경로의 예시는 다음과 같습니다. ```"C:\platform-tools"``` 그런 다음 ```명령 프롬프트``` 또는 `Windows Powershell` 을 관리자 권한으로 열고 아래의 명령어를 입력하십시오:
+> 어디서부터 시작해야 할지 잘 모르십니까? 다운로드된 [```안드로이드 플랫폼 도구```](https://developer.android.com/studio/releases/platform-tools) 폴더를 원하는 경로에 압축해제 하십시오. 경로의 예시는 다음과 같습니다. ```"C:\platform-tools"``` 그런 다음 ```명령 프롬프트``` 또는 `Windows Powershell` 을 관리자 권한으로 열고 아래의 명령어를 입력하십시오:
 ```cmd
 cd "path\to\platform-tools"
 ```
