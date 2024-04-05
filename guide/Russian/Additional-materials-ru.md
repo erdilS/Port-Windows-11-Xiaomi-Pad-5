@@ -19,7 +19,7 @@
 > [!Warning]
 > Unpowered USB devices will stop working
 
-Запустите [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/USBHost/USB.Host.Mode.Control.V4.0.vbs) чтобы включить/выключить режим USB host, подтвердите что вы хотите включить/выключить USB host mode а затем подтвердите перезагрузку 
+Запустите [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/USBHost/USB.Host.Mode.Control.V5.0.vbs) чтобы включить/выключить режим USB host, подтвердите что вы хотите включить/выключить USB host mode а затем подтвердите перезагрузку 
 
 #### Готово!
 
