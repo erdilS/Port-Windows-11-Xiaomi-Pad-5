@@ -7,7 +7,7 @@
 ## Установка
 
 ### Требования
-- [```Драйверы```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+- [```Драйверы```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 
 - [```ARM Windows esd```](https://worproject.com/esd) (Выберите - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```Выберите ваш язык```)
   
@@ -65,8 +65,6 @@ dism /apply-image /ImageFile:<путь\к\install.esd> /index:6 /ApplyDir:X:\
 
 
 ### Установка драйверов
-> Вы можете скачать драйвера [тут](https://github.com/map220v/MiPad5-Drivers/releases/latest)
->
 > Если он напишет `"Automatic WINNABU detection failed! Enter Drive Letter manually"`, введите **`X`**
 ```cmd
  Откройте папку с драйверами и заустите OfflineUpdater.cmd
