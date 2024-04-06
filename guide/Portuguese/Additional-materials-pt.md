@@ -20,7 +20,7 @@
 > Quando o modo USB host está ligado, os dispositovos conectados no USB do tablet vão ser alimentados pelo próprio tablet.
 > Sendo assim dispositivos que não têm alimentação/que precisam de alimentação/não tem bateria própria NÃO vão funcionar quando o modo USB host estiver desativado
 
-Execute o [Controle de USB Host](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/USBHost/USB.Host.Mode.Control.V5.0.vbs) para ativar/desativar o modo USB host, no programa confirme se você quer ativar/desativar o modo USB host 
+Execute o [Controle de USB Host](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/USBHost/USB.Host.Mode.Control.V6.0.vbs) para ativar/desativar o modo USB host, no programa confirme se você quer ativar/desativar o modo USB host 
 
 #### Concluído!
 
