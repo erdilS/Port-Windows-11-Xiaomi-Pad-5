@@ -14,7 +14,7 @@
   
 - [```Windows ARM esd```](https://worproject.com/esd) (Selecione - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```selecione seu idioma```)
     
-- [```Drivers```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+- [```Drivers```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 
 ### Inicie novamente o recovery para começar a instalação do Windows
 ```cmd
@@ -69,9 +69,7 @@ dism /apply-image /ImageFile:<caminho\para_o\install.esd> /index:6 /ApplyDir:X:\
 > Se o erro `Error 87` surgir, verifique o index da sua imagem (install.esd ou install.wim) com o comando `dism /get-imageinfo /ImageFile:<caminho\para_o\install.esd>`, e bustitua o `index:6` com o index correto do Windows 11 Pro da sua imagem
 
 
-### Instalar os Drivers
-> Você pode fazer o download dos drivers [aqui](https://github.com/map220v/MiPad5-Drivers/releases/latest)
-> 
+### Instalar os drivers
 > Se aparecer `"Automatic WINNABU detection failed! Enter Drive Letter manually"` digite **`X`**
 ```cmd
  abra a pasta dos Drivers e inicie o OfflineUpdater.cmd
