@@ -9,7 +9,7 @@
 
 - [```UEFI imajı```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
   
-- [```Sürücüler (driverlar)```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+- [```Sürücüler (driverlar)```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 
 ### Recovery modunu bilgisayar aracılığıyla başlatın
 ```cmd
@@ -44,8 +44,6 @@ exit
 ```
 
 ### Sürücü kurulumu
-> Sürücüleri [buradan](https://github.com/map220v/MiPad5-Drivers/releases/latest) indirebilirsiniz
-
 > `"Automatic WINNABU detection failed! Enter Drive Letter manually"` diye bir uyarı verirse, **`X`** yazın   
 ```cmd
 Sürücülerün bulunduğu klasörü açın ve OfflineUpdater.cmd dosyasını çalıştırın
