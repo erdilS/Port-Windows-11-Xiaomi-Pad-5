@@ -9,7 +9,7 @@
 
 - [```UEFI 이미지```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 
-- [```드라이버```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+- [```드라이버```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 
 ### 아래의 명령어를 PC로 입력하여 리커버리 부팅
 ```cmd
@@ -45,8 +45,6 @@ exit
 ```
 
 ### 드라이버 설치
-> [이곳](https://github.com/map220v/MiPad5-Drivers/releases/latest)에서 드라이버를 다운로드할 수 있습니다
->
 > `"Automatic WINNABU detection failed! Enter Drive Letter manually"`이 출력된다면 **`X`** 를 입력하십시오
 ```cmd
  드라이버 폴더를 열고 OfflineUpdater.cmd를 실행하십시오
