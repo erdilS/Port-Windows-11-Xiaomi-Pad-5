@@ -14,7 +14,7 @@
 
 - [```ARM Windows esd```](https://worproject.com/esd) (Şu seçenekleri seçin: Version: ```11``` | Build: ```22631.2861``` | Architecture: ```ARM64``` | Edition: ```CLIENT``` | Language:  ```istediğiniz dil```)
   
-- [```Sürücüler (driverlar)```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
+- [```Sürücüler (driverlar)```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 
 ### Windows'u kurmaya başlamak için recovery'e boot edin
