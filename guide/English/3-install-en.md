@@ -14,7 +14,7 @@
   
 - [```ARM Windows esd```](https://worproject.com/esd) (Select - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```select your language```)
     
-- [```Drivers```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
+- [```Drivers```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ### Boot back into recovery to start installing Windows
 ```cmd
