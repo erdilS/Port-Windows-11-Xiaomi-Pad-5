@@ -9,7 +9,7 @@
 
 - [```UEFI image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 
-- [```Drivers```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
+- [```Drivers```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ### Start recovery through the PC with the command
 ```cmd
