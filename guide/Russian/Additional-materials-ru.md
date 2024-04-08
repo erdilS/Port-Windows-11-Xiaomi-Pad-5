@@ -30,7 +30,7 @@
 
 ## Установка Microsoft Office
 
-- Скачайте этот [файл](https://mega.nz/file/Q7p1XK6L#J-KPp_-MNJ8iXGqEwwZ3_sfv2tMiq_AJjUiiaX6TBrI) на планшет  
+- Скачайте этот [файл](https://drive.google.com/file/d/1-i-0RraTSgwxqQSWal3uYWCen1TjK6d3/view?usp=drivesdk) на планшет  
   
 - Отключите защитник Windows, чтобы избежать каких-либо проблем при установке
   
