@@ -14,7 +14,7 @@
   
 - [```ARM 윈도우 esd```](https://worproject.com/esd) (항목 선택 - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```원하는 언어를 선택하십시오```)
     
-- [```드라이버```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
+- [```드라이버```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ### 윈도우 설치 시작을 위해 다시 리커버리로 부팅
 ```cmd
