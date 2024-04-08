@@ -9,7 +9,7 @@
 
 - [```UEFI 이미지```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 
-- [```드라이버```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
+- [```드라이버```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
 ### 아래의 명령어를 PC로 입력하여 리커버리 부팅
 ```cmd
