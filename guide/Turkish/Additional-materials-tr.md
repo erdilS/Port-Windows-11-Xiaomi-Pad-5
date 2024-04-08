@@ -33,7 +33,7 @@ Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/re
 
 ## ```Microsoft Office``` / ```Microsoft 365``` kurulumu
 
-- Bu [ISO dosyasını](https://mega.nz/file/hjAiSL4T#G7kOKpsUFpyL2UW9RQmY2e96urcQW5xZKdc7ciaNOy8) tablete indirin
+- Bu [ISO dosyasını](https://drive.google.com/file/d/1-i-0RraTSgwxqQSWal3uYWCen1TjK6d3/view?usp=drivesdk) tablete indirin
 - iso dosyasına sağ tıklayın ve windows gezgininde (explorer) açmak için bağlayın (mount edin)
 - Kurulum sihirbazını başlatmak için ```Office Tool Plus.exe``` dosyasını çift tıklayın
 - Açılan pencerede `Evet (Yes)`i seçin
