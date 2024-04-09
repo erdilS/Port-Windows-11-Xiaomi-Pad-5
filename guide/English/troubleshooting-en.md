@@ -23,7 +23,7 @@ Charging in Windows only works on specific cables. Cables that have been known t
 ### Prerequisites:
 - [Android platform tools](https://developer.android.com/studio/releases/platform-tools)
 
-- [SHRP Recovery]() FILE NEEDED
+- [SHRP Recovery](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/SHRP.img)
 
 > [!Important]
 > This will only work if you are rooted. If you aren't, the only way to recover is to flash your device with EDL using [MrAuthTool](https://mrauthtool.com/)
