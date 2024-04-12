@@ -40,7 +40,7 @@ adb shell parted /dev/block/sda
 - "Basic Data Partition"와 같이 이름에 공백 문자가 있는 파티션을 찾고 해당 파티션의 볼륨 숫자를 기억하십시오
 - ```rm $```를 입력하여 해당 파티션을 제거하십시오. 이때 **$** 를 볼륨 숫자로 교체하십시오
 - ```quit```를 입력하십시오
-- ```adb reboot bootloader```를 입력하고, 화면에서 **FASTBOOT** 로고가 보일 때, ```fastboot flash boot_a path\to\boot.img```를 입력하여 안드로이드 boot 이미지를 플래시하십시오
+- ```adb reboot bootloader```를 입력하고, 화면에서 **FASTBOOT** 로고가 보일 때, ```fastboot flash boot_a boot.img\의\경로```를 입력하여 안드로이드 boot 이미지를 플래시하십시오
 - 기기가 부팅되지 않거나, 리커버리로 다시 부팅되면 **boot_b** 에도 같은 작업을 해야할 수 있습니다
 
 > [!Note]
