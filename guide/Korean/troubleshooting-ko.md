@@ -30,21 +30,21 @@
 > [!Important]
 > 이 작업은 오직 기기를 루팅했을 때만 가능합니다. 루팅하지 않았을 때의 복구 방법은 [MrAuthTool](https://mrauthtool.com/)을 이용하여 EDL로 기기에 플래시하는 방법뿐입니다.
 
-- Remove the **UEFI** image from the UEFI folder in your internal storage, then place the **SHRP recovery** image here
-- Press `QUICKBOOT TO WINDOWS` in the WOA Helper app
-- Once booted into the recovery, connect your device to your PC and run:
+- 내부 저장소의 UEFI 폴더에서 **UEFI** 이미지를 제거하십시오. 그런 다음, **SHRP recovery** 이미지를 이곳으로 이동하십시오
+- WOA Helper 앱에서 `QUICKBOOT TO WINDOWS`를 선택하십시오
+- 리커버리로 부팅되면, PC에 기기를 연결하고 아래의 명령어를 입력하십시오:
 ```cmd
 adb shell parted /dev/block/sda
 ```
-- Run ```print``` to list all partitions
-- Look for partitions that have spaces in the names e.g "Basic Data Partition" and note their volume number
-- Remove this partition with ```rm $```, replacing **$** with the volume number
-- Run ```quit```
-- Run ```adb reboot bootloader```, and when you see the **FASTBOOT** logo on your screen, flash your Android boot image with ```fastboot flash boot_a path\to\boot.img```
-- You may have to do the same for **boot_b** if your device does not boot, or if it boots back to the recovery
+- 모든 파티션을 보기 위하여 ```print```를 입력하십시오
+- "Basic Data Partition"와 같이 이름에 공백 문자가 있는 파티션을 찾고 해당 파티션의 볼륨 숫자를 기억하십시오
+- ```rm $```를 입력하여 해당 파티션을 제거하십시오. 이때 **$** 를 볼륨 숫자로 교체하십시오
+- ```quit```를 입력하십시오
+- ```adb reboot bootloader```를 입력하고, 화면에서 **FASTBOOT** 로고가 보일 때, ```fastboot flash boot_a path\to\boot.img```를 입력하여 안드로이드 boot 이미지를 플래시하십시오
+- 기기가 부팅되지 않거나, 리커버리로 다시 부팅되면 **boot_b** 에도 같은 작업을 해야할 수 있습니다
 
 > [!Note]
-> Make sure you replace the recovery image in the UEFI folder with the UEFI file again
+> UEFI 폴더의 UEFI 파일을 리커버리 이미지로 교체했는지 다시 한 번 확인하십시오
 
 ##### 끝!
 
