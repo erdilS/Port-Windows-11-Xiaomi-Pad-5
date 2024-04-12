@@ -32,7 +32,7 @@
 
 - 내부 저장소의 UEFI 폴더에서 **UEFI** 이미지를 제거하십시오. 그런 다음, **SHRP recovery** 이미지를 이곳으로 이동하십시오
 - WOA Helper 앱에서 `QUICKBOOT TO WINDOWS`를 선택하십시오
-- 리커버리로 부팅되면, PC에 기기를 연결하고 아래의 명령어를 입력하십시오:
+- 리커버리로 부팅되면, PC에 기기를 연결하고 아래의 명령어를 입력하십시오
 ```cmd
 adb shell parted /dev/block/sda
 ```
