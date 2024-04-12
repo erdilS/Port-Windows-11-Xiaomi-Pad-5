@@ -5,9 +5,9 @@
 
 ## 문제 해결
 
-## I can't move files to the Windows folder from Android 
+## 안드로이드에서 윈도우 폴더로 파일을 이동할 수 없음
 
-If you are unable to move files to the Windows folder, it means you shut down Windows instead of restarting it. To fix this issue, boot back to Windows and use restart, then as it restarts boot to fastboot and use it to return to Android
+윈도우 폴더로 파일을 이동할 수 없다면, 윈도우를 재부팅할 때 다시 시작이 아닌 시스템 종료를 이용하였기 때문일 수 있습니다. 이 문제를 해결하기 위하여, 윈도우로 다시 부팅하고 다시 시작 버튼을 이용하십시오. 그런 다음, 다시 시작될 때 fastboot로 부팅하고 안드로이드로 다시 돌아올 수 있도록 작업하십시오 
 
 ##### 끝!
 
