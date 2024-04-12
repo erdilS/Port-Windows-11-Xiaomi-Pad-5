@@ -28,7 +28,7 @@
 - [SHRP 리커버리](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/SHRP.img)
 
 > [!Important]
-> 이 작업은 오직 기기를 루팅했을 때만 가능합니다. 루팅하지 않았다면, 복구하는 유일한 방법은 [MrAuthTool](https://mrauthtool.com/)을 이용하여 EDL로 기기에 플래시하는 방법뿐입니다.
+> 이 작업은 오직 기기를 루팅했을 때만 가능합니다. 루팅하지 않았을 때의 복구 방법은 [MrAuthTool](https://mrauthtool.com/)을 이용하여 EDL로 기기에 플래시하는 방법뿐입니다.
 
 - Remove the **UEFI** image from the UEFI folder in your internal storage, then place the **SHRP recovery** image here
 - Press `QUICKBOOT TO WINDOWS` in the WOA Helper app
