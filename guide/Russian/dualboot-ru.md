@@ -24,7 +24,7 @@
 - Нажмите кнопку `СМОНТИРОВАТЬ WINDOWS`, затем скачайте и переместите **StA_Installer_nabu.exe** в появившуюся папку `Windows` в вашем внутреннем хранилище.
 - Вернитесь в приложение WOA Helper и нажмите`БЫСТРАЯ ЗАГРУЗКА В WINDOWS`.
   
-  > [!NOTE]
+> [!NOTE]
 > The first Windows boot can take up to 10 minutes, don't worry and just wait
 
 > [!Important]
