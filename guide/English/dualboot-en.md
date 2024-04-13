@@ -24,7 +24,7 @@
 > [!NOTE]
 > The first Windows boot can take up to 10 minutes, don't worry and just wait
 
-> [!IMORTANT]
+> [!Important]
 > On the first Windows boot, it will not see any Wi-Fi networks. Restart your tablet by holding down the power button until it restarts. After the reboot, it will be fixed. If you get a pop-up saying "Could not connect", press retry until it works (usually 5 times)
 
 ### Setup - Windows
