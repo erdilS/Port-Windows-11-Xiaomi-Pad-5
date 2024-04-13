@@ -15,6 +15,8 @@
 
 > Follow any instructions provided on the screen
 
+> If you see an error after installing **App Packages**, ignore it, and reboot manually after it says **Done!**
+
 ## Finished!
 
 
