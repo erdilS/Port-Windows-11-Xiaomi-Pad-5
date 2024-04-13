@@ -23,6 +23,12 @@
 - Скачайте **образ UEFI** и скопируйте его в папку `UEFI` в вашем внутреннем хранилище, если папки нет, создайте её.
 - Нажмите кнопку `СМОНТИРОВАТЬ WINDOWS`, затем скачайте и переместите **StA_Installer_nabu.exe** в появившуюся папку `Windows` в вашем внутреннем хранилище.
 - Вернитесь в приложение WOA Helper и нажмите`БЫСТРАЯ ЗАГРУЗКА В WINDOWS`.
+  
+  > [!NOTE]
+> The first Windows boot can take up to 10 minutes, don't worry and just wait
+
+> [!Important]
+> On the first Windows boot, it will not see any Wi-Fi networks. Restart your tablet by holding down the power button until it restarts. After the reboot, it will be fixed. If you get a pop-up saying "Could not connect", press retry until it works (usually 5 times)
 
 ### Установка - Windows
 - Перейдите в `C:\StA_Installer_nabu.exe` и запустите его. Если это не сработает, убедитесь, что все антивирусные программы выключены, так как они, вероятно, не позволят приложению запуститься.
