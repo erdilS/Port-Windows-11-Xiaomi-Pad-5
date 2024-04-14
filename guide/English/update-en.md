@@ -11,11 +11,11 @@
 > Flash the UEFI image in fastboot or use the WOA Helper app
 
 ### Installing Drivers
-> Unpack the driver archive on nabu, then open the `OnlineUpdater.cmd` file
+> Unpack the driver archive on your nabu in Windows, then open the `OnlineUpdater.cmd` file
 
 > Follow any instructions provided on the screen
 
-> If you see an error after installing **App Packages**, ignore it, and reboot manually after it says **Done!**
+> If you see any errors after installing **App Packages**, ignore them. Reboot manually after it says **Done!**
 
 ## Finished!
 
