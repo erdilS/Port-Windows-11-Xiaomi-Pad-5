@@ -74,8 +74,9 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 ### Installing drivers
 > If it says `"Automatic WINNABU detection failed! Enter Drive Letter manually"` type **`X`**
 ```cmd
- Open the folder with Drivers and run OfflineUpdater.cmd
+Open the folder with Drivers and run OfflineUpdater.cmd
 ```
+> If any errors appear under **Installing App Packages**, ignore them and continue
 
 #### Create Windows bootloader files for the EFI
 > If an error occurs when copying boot files, check `diskpart` to see if ESPNABU still has letter Y. If it does not, add any other letter (such as K) and replace the Y in the below command with said letter respectively
