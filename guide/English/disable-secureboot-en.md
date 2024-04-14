@@ -1,6 +1,5 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-
 # Running Windows on the Xiaomi Pad 5
 
 ## Disabling secureboot
@@ -23,10 +22,10 @@
 - √ No watermark on homescreen
 - √ Apps that do not work with Test Mode will work
 - √ You can update big versions (e.g 22h2 to 23h2) in Windows update directly
-- × You cannot update drivers without a PC
+- × You cannot install unsigned drivers
 
 ##### Pros and cons of secureboot disabled
-- √ You can update drivers directly from your tablet; no PC is needed
+- √ You can install unsigned drivers
 - × Test mode watermark on homescreen
 - × Some apps/games with anti-cheat software may not work
 - × You cannot update big versions (e.g 22h2 to 23h2) through Windows Update
