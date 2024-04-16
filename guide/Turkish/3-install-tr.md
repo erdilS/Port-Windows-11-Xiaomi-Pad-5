@@ -14,7 +14,7 @@
 
 - [```ARM Windows esd```](https://worproject.com/esd) (Şu seçenekleri seçin: Version: ```11``` | Build: ```22631.2861``` | Architecture: ```ARM64``` | Edition: ```CLIENT``` | Language:  ```istediğiniz dil```)
   
-- [```Sürücüler (driverlar)```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+- [```Sürücüler (driverlar)```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 
 
 ### Windows'u kurmaya başlamak için recovery'e boot edin
@@ -76,6 +76,7 @@ dism /apply-image /ImageFile:<bulunduğu\yol\install.esd> /index:6 /ApplyDir:X:\
 ```cmd
  Sürücülerin bulunduğu klasörü açın ve OfflineUpdater.cmd dosyasını çalıştırın
 ```
+> If any errors appear under **Installing App Packages**, ignore them and continue
 
 #### EFI için Windows bootloader dosyalarını oluşturun
 > Boot dosyalarını kopyalarken bir hata oluşursa, ESPNABU'nun hala Y harfine sahip olup olmadığını kontrol edin. Eğer Y harfine sahip değilse, başka bir harf (mesela K) ekleyin ve aşağıdaki komuttaki Y'yi sırasıyla söz konusu harfle değiştirin
