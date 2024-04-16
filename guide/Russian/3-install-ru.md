@@ -7,9 +7,9 @@
 ## Установка
 
 ### Требования
-- [```Драйверы```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
-
 - [```ARM Windows esd```](https://worproject.com/esd) (Выберите - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```Выберите ваш язык```)
+
+- [```Драйверы```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
   
 ### Перезапустите рекавери чтобы начать установку Windows
 ```cmd
@@ -65,10 +65,11 @@ dism /apply-image /ImageFile:<путь\к\install.esd> /index:6 /ApplyDir:X:\
 
 
 ### Установка драйверов
-> Если он напишет `"Automatic WINNABU detection failed! Enter Drive Letter manually"`, введите **`X`**
-```cmd
- Откройте папку с драйверами и заустите OfflineUpdater.cmd
-```
+> Распакуйте пакет драйверов, затем откройте файл `OfflineUpdater.cmd` 
+
+> Введите букву диска **WINNABU**, должна быть X, затем нажмите Enter
+
+> Если в разделе **Installing App Packages** появятся какие-либо ошибки, проигнорируйте их и продолжайте
 
 #### Создайте файлы загрузчика Windows для EFI
 > Если при копировании загрузочных файлов возникает ошибка, откройте `diskpart', чтобы проверить, есть ли у ESPNABU буква Y. Если это не так, добавьте любую другую букву (например, K) и замените Y в приведенной ниже команде на указанную букву соответственно
