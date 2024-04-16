@@ -14,7 +14,7 @@
   
 - [```ARM 윈도우 esd```](https://worproject.com/esd) (항목 선택 - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```원하는 언어를 선택하십시오```)
     
-- [```드라이버```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+- [```드라이버```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 
 ### 윈도우 설치 시작을 위해 다시 리커버리로 부팅
 ```cmd
@@ -74,6 +74,7 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 ```cmd
  드라이버 폴더를 열고 OfflineUpdater.cmd를 실행하십시오
 ```
+> If any errors appear under **Installing App Packages**, ignore them and continue
 
 #### EFI에 대한 윈도우 부트로더 파일 생성
 > 부팅 파일 복사 도중 오류가 발생한다면, ESPNABU가 문자 Y로 할당되어 있는지 보기 위해 `diskpart`를 확인하십시오. 할당되어있지 않다면, K와 같은 다른 문자를 추가하고 아래 명령어의 Y들을 해당 문자로 각각 변경하십시오
