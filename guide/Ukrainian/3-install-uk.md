@@ -9,7 +9,7 @@
 ### Необхідні файли
 - [```Windows ARM esd```](https://worproject.com/esd) (вибирати - Version:  ```11 ``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```виберіть свою мову```)
   
-- [```Драйвери```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+- [```Драйвери```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 
 ### Завантажте відновлення, щоб розпочати встановлення Windows
 ```cmd
@@ -68,6 +68,7 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 ```cmd
  Відкрийте папку драйверів і запустіть OfflineUpdater.cmd
 ```
+> If any errors appear under **Installing App Packages**, ignore them and continue
 
 #### Створіть файли завантажувача Windows
 > Якщо під час копіювання завантажувальних файлів виникає помилка, перевірте `diskpart`, щоб перевірити, чи є в ESPNABU літера Y. Якщо це не так, додайте будь-яку іншу літеру (наприклад, K) і замініть Y у наведеній нижче команді на зазначену літеру відповідно
