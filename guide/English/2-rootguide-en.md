@@ -1,21 +1,18 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-
 # Running Windows on the Xiaomi Pad 5
 
-## Get root 
+## Rooting your tablet
 > [!NOTE]
-> **If you already have root just skip this step and go to the next page**
+> **If you are already rooted just skip this step and go to the next page**
 
 ### Prerequisites
 - ```Brain```
   
 - [```Android boot backup```](/guide/English/1-partition-en.md#Make-a-backup-of-your-existing-boot-image) (which you backed up on the first guide page)
 
-
-## Patch boot 
-
-- Copy the ```normal_boot.img``` file from the ```platform tools``` folder onto the tablet 
+### Patching your boot image
+- Copy the ```normal_boot.img``` file from the ```platform tools``` folder onto your tablet 
 
 - Download and install the [Magisk app](https://github.com/topjohnwu/Magisk/releases/latest) on the tablet
   
@@ -27,10 +24,22 @@
   
 - Open command prompt in the platform tools folder 
 
- ## Flash patched boot 
- > Replace `<magisk_patched.img>` with the actual ```magisk_patched.img``` name/path.
+### Flash the patched boot image
+> Replace `<magisk_patched.img>` with the actual ```magisk_patched.img``` name/path.
 ```cmd
 fastboot flash boot <magisk_patched.img>
 ```
 
 ### [Next step: Installing Windows](/guide/English/3-install-en.md)
+
+
+
+
+
+
+
+
+
+
+
+
