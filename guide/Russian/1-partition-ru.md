@@ -63,7 +63,6 @@ adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.
 
 
 #### Проверьте, запускается ли Андроид
-> А
 > Просто проверьте работает ли он 
 Если он зацикливается на анимации и не загружается, используйте MIUI recovery или другие recovery для форматирования data
 
