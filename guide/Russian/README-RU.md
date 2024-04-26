@@ -32,7 +32,7 @@
 ## Разное
 - [Статус Проекта](status.md)
 
-- [Исправление ошибок](troubleshooting-ru.md)
+- [Исправление проблем](troubleshooting-ru.md)
 
 - [Обновление Драйверов](update-ru.md)
 
