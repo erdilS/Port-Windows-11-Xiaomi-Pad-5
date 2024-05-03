@@ -9,7 +9,7 @@
 - ```A rooted tablet```
 - ```Windows installed on the tablet```
 - [```UEFI image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
-- [```WoA Helper app```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
+- [```WoA Helper app```](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
 - [```StA Installer```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
 
 ## Setting up the dualboot app
