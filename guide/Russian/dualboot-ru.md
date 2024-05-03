@@ -9,7 +9,7 @@
 - ```Рут```
 - ```Установленная Windows```
 - [```Образ UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
-- [```WOA Helper```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
+- [```WOA Helper```](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
 - [```StA Installer```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
 
 ## Установка приложения двойной загрузки
