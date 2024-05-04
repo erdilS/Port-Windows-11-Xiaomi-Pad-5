@@ -1,6 +1,5 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-
 # Running Windows on the Xiaomi Pad 5
 
 ## Installation
@@ -35,18 +34,13 @@ cd "path\to\platform-tools"
 ```cmd
 fastboot boot <recovery.img>
 ```
-#### Partitioning your device
 
+### Partitioning your device
+> Replace **$** with the amount of storage you want Windows to have (do not add GB, just write the number)
+> 
 > If it asks you to run it once again, do so
-
-> This is **optional**, but you can also **set custom sizes (by default, it splits the storage in half)**
-
-> To set custom sizes do ```adb shell partition [TARGET WINDOWS SIZE IN GB]```
-
-> Make sure you do not add GB at the end, just the number
-
-```cmd
-adb shell partition
+```sh
+adb shell partition $
 ```
 
 ### Make a backup of your existing boot image
