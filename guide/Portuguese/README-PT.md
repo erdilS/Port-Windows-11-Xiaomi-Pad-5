@@ -33,7 +33,7 @@ Esse projeto ainda está em desenvolvimento, todos os arquivos são contribuiç�
 
 - [Resolvendo problemas](/guide/Portuguese/troubleshooting-pt.md)
 
-- [Atualizando os Drivers](/guide/Portuguese/update-pt.md)
+- ~[Atualizando os Drivers](/guide/Portuguese/update-pt.md)~
 
 - [Re-instalação](/guide/Portuguese/reinstall-pt.md)
 
