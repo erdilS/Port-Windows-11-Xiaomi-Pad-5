@@ -36,7 +36,7 @@ adb shell parted /dev/block/sda
 ```
 - Run ```print``` to list all partitions
 - Look for partitions that have spaces in the names e.g "Basic Data Partition" and note their volume number
-- Remove this partition with ```rm $```, replacing **$** with the volume number
+- Rename this partition with ```name $ test```, replacing **$** with the partition number, and replacing **test** with the name you want the partition to have
 - Run ```quit```
 - Run ```adb reboot bootloader```, and when you see the **FASTBOOT** logo on your screen, flash your Android boot image with ```fastboot flash boot_a path\to\boot.img```
 - You may have to do the same for **boot_b** if your device does not boot, or if it boots back to the recovery
