@@ -36,7 +36,7 @@ Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/re
 > [!Warning]
 > do this only if necessary!
 
-[Guide to disabling secureboot](/guide/English/disable-secureboot-en.md)
+> [Guide to disabling secureboot](/guide/English/disable-secureboot-en.md)
 
 #### Finished!
 
