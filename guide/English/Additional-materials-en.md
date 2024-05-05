@@ -33,7 +33,8 @@ Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/re
 
 
 ## Disable secureboot
-> If you want to be able to update drivers without a PC
+> [!Warning]
+> do this only if necessary!
 
 [Guide to disabling secureboot](/guide/English/disable-secureboot-en.md)
 
@@ -44,7 +45,8 @@ Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/re
 - Download this [ISO file](https://drive.google.com/file/d/1-i-0RraTSgwxqQSWal3uYWCen1TjK6d3/view?usp=drivesdk) to the tablet
 - Right-click on the iso file and select Mount to open it in explorer
 - Double-click on ```Office Tool Plus.exe``` to start the installation wizard
-- In the window that appears, click `Yes`
+- Approve any UAC dialogs 
+- In the window that appears, click `Yes` to start installation 
 - Wait for the installation to complete
 
 #### Finished!
@@ -56,7 +58,7 @@ Follow the instructions by Massgravel [here](https://github.com/massgravel/Micro
 #### Finished!
 
 
-## How to use the Flashlight 
+~## How to use the Flashlight~
  - Download [Flashlight.7z](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/flashlight_fix.7z) and unzip to any folder
 > Run flashlight.exe to enable the flashlight 
 > Press any key to disable it
