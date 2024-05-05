@@ -58,12 +58,12 @@ Follow the instructions by Massgravel [here](https://github.com/massgravel/Micro
 #### Finished!
 
 
-## ~How to use the Flashlight
+## ~How to use the Flashlight~
  - Download [Flashlight.7z](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/flashlight_fix.7z) and unzip to any folder
 > Run flashlight.exe to enable the flashlight 
 > Press any key to disable it
 
-#### Finished!~
+#### Finished!
 
 
 
