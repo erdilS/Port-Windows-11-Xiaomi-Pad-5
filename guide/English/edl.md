@@ -22,12 +22,23 @@
 ### Buy credits
 > Contact one of the authorized vendors listed on the MrAuthTool homepage on Telegram to buy credits.
 >
+> Don't hesitate to contact multiple people, because some may take a long time to respond.
+> 
 > You will need **5** credits to flash your device using this tool.
 
-### Flashing your device
-- Boot into EDL mode on your device.
+### Booting into EDL mode
 > [!Note]
-> If your bootloader is unlocked, you can run ```fastboot oem edl``` while in fastboot mode. Otherwise you need to open your device and short the testpoints.
+> If you're already in EDL mode, skip this step and continue with "Flashing your device"
+- If your bootloader is unlocked and if you have access to fastboot mode, run ```fastboot oem edl``` to boot to EDL mode.
+
+> If your bootloader is locked, or Android doesn't boot and you cannot access fastboot mode in any way, you will need to either remove the back of your device to short the EDL testpoints, or you will have to use an EDL cable
+>
+> (Not all EDL cables work and you may risk wasting money on one that won't, but this is probably still better than having to open your device).
+- Look for a cable that has **V2** in its name, for example **Hydra V2 EDL Cable** or **V2 EDL Pro Cable**. Make sure it is for USB-C devices.
+- Insert the cable into your device, then hold the button.
+- It should boot you into EDL mode now.
+
+### Flashing your device
 - Download the stock fastboot rom for your device and select it in MrAuthTool.
 - Press **flash**.
 - Wait until it finishes flashing, then reboot.
