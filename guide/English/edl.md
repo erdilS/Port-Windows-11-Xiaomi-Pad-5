@@ -35,7 +35,7 @@
 >
 > (Not all EDL cables work and you may risk wasting money on one that won't, but this is probably still better than having to open your device).
 - Look for a cable that has **V2** in its name, for example **Hydra V2 EDL Cable** or **V2 EDL Pro Cable**. Make sure it is for USB-C devices.
-- Insert the cable into your device, then hold the button on the cable.
+- Insert the cable into your device, then hold the button on the cable which may look like [this](https://t.me/nabuwoa/204867).
 - It should boot you into EDL mode now.
 
 ### Flashing your device
