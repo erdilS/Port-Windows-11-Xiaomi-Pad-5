@@ -23,7 +23,7 @@
 > You will need **PLACEHOLDER** credits to flash your device using this tool.
 
 ### Flashing your device
-- Boot into EDL mode on your device, for example by running ```fastboot oem edl``` while in fastboot mode.
+- Boot into EDL mode on your device. If your bootloader is unlocked, you can run ```fastboot oem edl``` while in fastboot mode. Otherwiae you need to open your device and short the testpoints.
 - Download the stock fastboot rom for your device and select it in MrAuthTool.
 - Press **flash**.
 - Wait until it finishes flashing, then reboot.
