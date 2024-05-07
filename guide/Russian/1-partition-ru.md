@@ -15,12 +15,6 @@
 
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
-### Примечание:
-> Не знаете с чего начать? Просто извлеките загруженные [```platform-tools```](https://developer.android.com/studio/releases/platform-tools), например  ```"C:\platform-tools"``` затем откройте ```командная строка``` или `powershell` от имени администратора и введите:
-```cmd
-cd "путь\к\platform-tools"
-```
-> Замените  `"путь\к\platform-tools"` существующим путём к папке platform tools
 
 
 > [!Warning]
@@ -35,6 +29,13 @@ cd "путь\к\platform-tools"
 > Не запускайте все команды сразу, выполняйте их по очереди!
 >
 > Следуйте инструкции с осторожностью! В случае ошибки велика вероятность нарушить работоспособность планшета!
+
+> [!NOTE]
+> Не знаете с чего начать? Просто извлеките загруженные [```platform-tools```](https://developer.android.com/studio/releases/platform-tools), например  ```"C:\platform-tools"``` затем откройте ```командная строка``` или `powershell` от имени администратора и введите:
+```cmd
+cd "путь\к\platform-tools"
+```
+> Замените  `"путь\к\platform-tools"` существующим путём к папке platform tools
 
 
 #### Запустите рекавери с компьютера при помощи команды
