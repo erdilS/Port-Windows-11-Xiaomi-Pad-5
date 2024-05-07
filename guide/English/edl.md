@@ -8,6 +8,8 @@
 ### Prerequisites
 - A crypto wallet with $5 USDT
 
+- [A Telegram account](https://telegram.org)
+
 - [MrAuthTool 2.0](https://mrauthtool.com/)
 
 - [Stock fastboot rom](https://xiaomifirmwareupdater.com/miui/nabu/)
@@ -20,10 +22,12 @@
 ### Buy credits
 > Contact one of the authorized vendors listed on the MrAuthTool homepage on Telegram to buy credits.
 >
-> You will need **PLACEHOLDER** credits to flash your device using this tool.
+> You will need **5** credits to flash your device using this tool.
 
 ### Flashing your device
-- Boot into EDL mode on your device. If your bootloader is unlocked, you can run ```fastboot oem edl``` while in fastboot mode. Otherwiae you need to open your device and short the testpoints.
+- Boot into EDL mode on your device.
+> [!Note]
+> If your bootloader is unlocked, you can run ```fastboot oem edl``` while in fastboot mode. Otherwise you need to open your device and short the testpoints.
 - Download the stock fastboot rom for your device and select it in MrAuthTool.
 - Press **flash**.
 - Wait until it finishes flashing, then reboot.
