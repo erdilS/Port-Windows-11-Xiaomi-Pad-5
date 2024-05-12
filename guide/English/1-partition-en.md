@@ -30,9 +30,10 @@ cd "path\to\platform-tools"
 ```
 > Use this window throughout the entire guide. Do not close it.
 
-#### Boot recovery through the PC with the command
+#### Boot the modded recovery
+> Open a CMD window inside the platform-tools folder, then (while your tablet is in fastboot mode) run
 ```cmd
-fastboot boot <recovery.img>
+fastboot boot path\to\recovery.img
 ```
 
 ### Partitioning your device
