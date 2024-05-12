@@ -17,8 +17,9 @@ If you want to relock your bootloader you'll need your partition table to be sto
 - [```Recovery Image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
 #### Boot the modded recovery
+> Open a CMD window inside the platform-tools folder, then (while your tablet is in fastboot mode) run
 ```cmd
-fastboot boot <recovery.img>
+fastboot boot path\to\recovery.img
 ```
 
 #### Restore the partition layout
