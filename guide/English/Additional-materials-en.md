@@ -12,7 +12,10 @@ You can also find a list of dedicated ARM software [at this link](https://armrep
 
 ## Hide D drive (modem partition)
 > [!NOTE]
-> This is recommended because this drive should not be modified, while some applications may try to write to it
+> This is recommended because this drive should not be modified, while some applications may try to write to it.
+
+> [!NOTE]
+> The following steps must be done on the Mi Pad 5, not using an external computer. 
 
 - Open a command prompt window and run ```diskpart```
 - Run ```list volume``` to see all available volumes
