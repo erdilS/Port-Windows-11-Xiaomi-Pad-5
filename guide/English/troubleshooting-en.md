@@ -35,7 +35,7 @@ Charging in Windows only works on specific cables. Cables that have been known t
 adb shell parted /dev/block/sda
 ```
 - Run ```print``` to list all partitions
-- Look for partitions that have spaces in the names e.g "Basic Data Partition" and note their volume number
+- Look for partitions that are more than 16 characters long, for example "Basic Data Partition" and note their volume number
 - Rename this partition with ```name $ test```, replacing **$** with the partition number, and replacing **test** with the name you want the partition to have
 - Run ```quit```
 - Run ```adb reboot bootloader```, and when you see the **FASTBOOT** logo on your screen, flash your Android boot image with ```fastboot flash boot_a path\to\boot.img```
