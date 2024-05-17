@@ -30,6 +30,9 @@ You can also find a list of dedicated ARM software [at this link](https://armrep
 > [!Warning]
 > Unpowered USB devices will stop working
 
+> [!Important]
+> The following steps must be done on the Mi Pad 5, not using an external computer. 
+
 Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/USBHost) to enable/disable USB host mode and  confirm that you want to disable/enable USB host mode 
 
 #### Finished!
