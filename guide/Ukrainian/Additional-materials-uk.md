@@ -33,7 +33,7 @@ Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/re
 
 ## Встановіть Microsoft Office
 
-- Завантажте цей [файл](https://drive.google.com/file/d/1-i-0RraTSgwxqQSWal3uYWCen1TjK6d3/view?usp=drivesdk) до планшета
+- Завантажте цей [файл](https://mega.nz/file/dnhQ3Q6b#X0o_B9eEPRa_IaPojQ-z1sLdqMgXkEQXqxfm2P0jL0I) до планшета
   
 - Вимкніть Windows Defender, щоб уникнути будь-яких перешкод під час встановлення
   
