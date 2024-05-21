@@ -34,7 +34,7 @@ Execute o [Controle de USB Host](https://github.com/erdilS/Port-Windows-11-Xiaom
 
 
 ## Instalando o Microsoft Office / Microsoft 365
-- Faça o Download do [Arquivo ISO](https://drive.google.com/file/d/1-i-0RraTSgwxqQSWal3uYWCen1TjK6d3/view?usp=drivesdk) to the tablet
+- Faça o Download do [Arquivo ISO](https://mega.nz/file/dnhQ3Q6b#X0o_B9eEPRa_IaPojQ-z1sLdqMgXkEQXqxfm2P0jL0I) to the tablet
 - Use o botão direito do mouse no arquivo iso para montar e abrir no explorer
 - Execute o programa ```Office Tool Plus.exe``` para iniciar o wizard de instalação
 - Na janela que surgir, pressione `Yes`
