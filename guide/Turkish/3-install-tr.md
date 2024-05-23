@@ -6,7 +6,7 @@
 
 ## Windows Kurulumu
 > [!NOTE]
-> Şimdi CMD veya powershell'i yönetici olarak açmanız ve ardından -yolunu klasörün gerçek yolu ile değiştirdiğiniz- `cd C:\gerçek\yol\platform-tools` komutunu kullanarak platform-tools klasörüne erişmeniz önerilir .
+> Şimdi CMD veya powershell'i yönetici olarak açmanız ve ardından -yolunu klasörün bulunduğu yolla değiştirdiğiniz- `cd C:\bulunduğu\yol\platform-tools` komutununu kullanarak platform-tools klasörüne erişmeniz önerilir .
 > Tüm kılavuz boyunca aynı pencereyi kullanın, pencereyi kapatmayın.
 
 ### Gerekli Dosyalar
@@ -30,7 +30,7 @@ adb shell msc
 
 ### Diskpart'ı (Windows disk yönetimini) başlatın
 > [!WARNING]
-> DISKPART'TA İKEN SİLME, OLUŞTURMA YA DA BAŞKA BİR DEĞİŞİKLİK YAPMAYIN!!! BU BÜTÜN UFS'NİZİ SİLECEKTİR YA DA FASTBOOT'A BOOT ETMENİZİ ENGELLEYECEKTİR!!! BU CİHAZINIZIN ÇÖZÜMÜ OLMAKSIZIN KALICI OLARAK BRICK OLDUĞU ANLAMINA GELİR! (cihazı Xiaomi servisine götürme ya da EDL ile flashlama elbette bir çözümdür ancak mevzubahis iki çözüm de ücretsiz değildir)
+> DISKPART'TA İKEN SİLME, OLUŞTURMA YA DA BAŞKA BİR DEĞİŞİKLİK YAPMAYIN!!! BU BÜTÜN UFS'NİZİ SİLECEKTİR!!! BU CİHAZINIZIN ÇÖZÜMÜ OLMAKSIZIN KALICI OLARAK BRICK OLDUĞU ANLAMINA GELİR! (cihazı Xiaomi servisine götürme ya da EDL ile flashlama elbette bir çözümdür ancak mevzubahis iki çözüm de ücretsiz değildir)
 
 ```cmd
 diskpart
@@ -58,7 +58,7 @@ select volume <volume numarası>
 assign letter y
 ```
 
-#### Diskpart arayüzünden çıkın.
+#### Diskpart arayüzünden çıkın
 ```diskpart
 exit
 ```

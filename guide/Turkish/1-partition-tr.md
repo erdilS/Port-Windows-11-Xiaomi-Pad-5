@@ -23,38 +23,36 @@
 >**LÜTFEN YOUTUBE VEYA BAŞKA BİR PLATFORMDAKİ GÜNCEL OLMAYAN VİDEO REHBERLERİNİ KULLANMAYIN! BU VİDEOLAR ESKİDİR VE BUNLARI KULLANARAK CİHAZINIZI BRICK EDEBİLİRSİNİZ! EĞER BİR VİDEO REHBERİNE İHTİYACINIZ VARSA, [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA) TARAFINDAN HAZIRLANAN BU [YENİ VİDEO REHBERİNİ](https://youtu.be/BbgTbTGbXYg) KULLANIN**
 
 
-### Cihazınızı bölümlere ayırma ve bootu yedekleme
+### Cihazınızı bölümlere ayırın ve bootu yedekleyin
 > [!NOTE]
 > Nasıl başlayacağınızı bilmiyor musunuz? İndirdiğiniz [```Android platform araçları```](https://developer.android.com/studio/releases/platform-tools) arşiv dosyasını bir yere çıkartın: örneğin ``"C:\platform-tools"``. Ardından yönetici olarak ``cmd (komut istemcisi)`` veya `powershell` açın ve komutun `"bulunduğu\yol\platform-tools"` kısmını, platform-tools klasörünün bulunduğu gerçek yolla değiştirerek şu komutu girin:
+
 ```cmd
 cd "bulunduğu\yol\platform-tools"
 ```
 > Bu pencereyi rehberin tamamında kullanın; pencereyi rehberdeki adımları tamamlayana kadar kapatmayın.
 
-#### Bir bilgisayar aracılığıyla recovery modunda cihazı başlatın
+#### Modlanmış recoverye boot edin
+> platform-tools klasöründe açın, sonrasında (tabletiniz fastboot modundayken) aşağıdaki komutu çalıştırın
 ```cmd
-fastboot boot <recovery.img>
+fastboot boot path\to\recovery.img
 ```
 
-#### Cihazınızı bölümlere ayırma
-
-> Sizden komutu bir kez daha çalıştırmanıza dair bir uyarı gelirse, bunu yapın
-
-> **Bu isteğe bağlı:** isterseniz *özel boyut ayarlaması* yapabilirsiniz. Bunun için şu komutu kullanın: ```adb shell partition [GB CİNSİNDEN İSTEDİĞİNİZ WINDOWS BOYUTU]``` (komutun sonuna -GB harfleri eklenmemiş olarak- istediğiniz boyutu sayı olarak yazacaksınız. mesela windows'a 200gb yer ayrımak isterseniz ```adb shell partition 200``` komutunu girecekesiniz. Eğer özel boyut ayarlaması yapmazsanız varsayılan olarak hafıza boyutu yarıya yarıya bölünür. Varsayılan hali alttaki komuttur)
-
-```cmd
-adb shell partition
+#### Cihazınızı bölümlere ayırın
+> Komutun **$** kısmına Windows'a ayırmak istediğiniz depolama boyutunu girin (sayısal olarak boyutu girin, sonuna GB eklemeyin)
+> 
+> Komutu tekrar çalıştırmanız istenirse bunu yapın
+```sh
+adb shell partition $
 ```
 
 ### Mevcut boot imajınızın bir yedeğini alın
-
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
 ```
 
-
 #### Android'in hâlâ çalışıp çalışmadığını kontrol edin 
-> Bunun için yeniden başlatın. Boot yapmazsa, reovery'de wipe all data (/tüm veriler silme) yapın ve tekrar -yeniden başlatmayı- deneyin.
+> Bunun için yeniden başlatın. Boot yapmazsa, reovery'de wipe all data (tüm veriler silme işlevi) yapın ve tekrar -yeniden başlatmayı- deneyin.
 
 ```cmd
 adb reboot

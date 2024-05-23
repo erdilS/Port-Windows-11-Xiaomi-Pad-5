@@ -17,8 +17,9 @@ Bilmiyorum, Ama bazı insanlar bunu soruyordu
 
 ## Eski UEFI'yi yenisiyle değiştirin
 > Henüz dualboot'u kurmadıysanız, [dualboot rehberini](/guide/Turkish/dualboot-tr.md) takip edip WOA Helper'ı düzgünce kurun
+
 - Android'e boot edin
-- Dahili depolama alanınızdaki `UEFI` klasörünü açın
+- Dahili depolamanızdaki `UEFI` klasörünü açın
 - Eski UEFI'yi silin
 - Yenisini içine yerleştirin
 

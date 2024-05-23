@@ -10,7 +10,10 @@ Ayrıca [bu linkte](https://armrepo.ver.lt/) ARM'a özel yazılımların bir lis
 
 ## D sürücüsünü gizleme (modem bölümü)
 > [!NOTE]
-> Bu sürücü ile oynanılmamalıdır. Bazı programlar bu sürücüde değişiklik yapabileceğinden bu işlemi yapmanızı öneriyoruz
+> Bu sürücü ile oynanılmamalıdır. Bazı programlar bu sürücüde değişiklik yapabileceğinden bahsedeceğimiz işlemi yapmanızı öneriyoruz
+
+> [!Important]
+> İşlemler Mi Pad 5 üzerinde yapılmalıdır, harici bir bilgisayar üzerinden değil.
 
 - CMD açın ve ```diskpart``` komutunu çalıştırın
 - Bütün mevcut bölümleri görmek için ```list volume``` komutunu çalıştırın
@@ -23,11 +26,15 @@ Ayrıca [bu linkte](https://armrepo.ver.lt/) ARM'a özel yazılımların bir lis
 > [!Warning]
 > Ek güç verilmemiş USB aygıtlar çalışmayı durduracaktır.
 
+> [!Important]
+> Linkteki adımları Mi Pad 5'in Windows tarafında yapınız, bilgisayarınız üzerinde değil. 
+
 Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/USBHost) to enable/disable USB host mode and confirm that you want to disable/enable USB host mode 
 
 
 ## Secureboot'u devre dışı bırakma
-> Sürücüleri bilgisayar olmadan güncelleyebilmek için secureboot kapatılmalıdır.
+> [!Warning]
+> Sadece gerekliyse bu işlemi yapın!
 
 [Secureboot'u devre dışı bırakma rehberi](/guide/Turkish/disable-secureboot-tr.md)
 
@@ -36,6 +43,7 @@ Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/re
 - Bu [ISO dosyasını](https://mega.nz/file/dnhQ3Q6b#X0o_B9eEPRa_IaPojQ-z1sLdqMgXkEQXqxfm2P0jL0I) tablete indirin
 - iso dosyasına sağ tıklayın ve windows gezgininde (explorer) açmak için bağlayın (mount edin)
 - Kurulum sihirbazını başlatmak için ```Office Tool Plus.exe``` dosyasını çift tıklayın
+- Tüm UAC uyarılarını onaylayın 
 - Açılan pencerede `Evet (Yes)`i seçin
 - Kurulumun bitmesini bekleyin
 
@@ -43,7 +51,7 @@ Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/re
 
 [Buradan](https://github.com/massgravel/Microsoft-Activation-Scripts) Massgravel'ın talimatlarını takip edin
 
- ## El feneri (flashlight) nasıl kullanılır
+ ## ~El feneri (flashlight) nasıl kullanılır~
 
 - [Flashlight.7z](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/flashlight_fix.7z) arşiv dosyasını indirin ve herhangi bir klasöre çıkartın
 > El fenerini açmak için flashlight.exe'yi çalıştın
