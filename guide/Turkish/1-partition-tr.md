@@ -35,7 +35,7 @@ cd "bulunduğu\yol\platform-tools"
 #### Modlanmış recoverye boot edin
 > platform-tools klasöründe açın, sonrasında (tabletiniz fastboot modundayken) aşağıdaki komutu çalıştırın
 ```cmd
-fastboot boot path\to\recovery.img
+fastboot boot bulunduğu\yol\recovery.img
 ```
 
 #### Cihazınızı bölümlere ayırın
