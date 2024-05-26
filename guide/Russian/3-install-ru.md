@@ -10,7 +10,7 @@
 
 - `Мозг`
 
-- - [```Скрипт DriveLetterAssigner```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/DriveLetterAssigner.V1.0.exe)
+- [```Скрипт DriveLetterAssigner```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/DriveLetterAssigner.V1.0.exe)
 
 - [```ARM64 Windows esd```](https://worproject.com/esd) (Выберите - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```Выберите ваш язык```)
 
