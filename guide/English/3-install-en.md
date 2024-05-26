@@ -5,12 +5,11 @@
 > **PLEASE DON'T USE ANY VIDEO GUIDES AS THESE ARE USUALLY OUTDATED AND CAN AND PROBABLY WILL BRICK YOUR NABU!!! IF YOU ABSOLUTELY NEED A VIDEO GUIDE, USE THIS [VIDEO GUIDE](https://youtu.be/BbgTbTGbXYg) BY [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
 
 ## Installation
-> [!NOTE]
-> It is recommended to open CMD or powershell as an admin now, and then access the platform-tools folder using the `cd C:\path\to\platform-tools` command, replacing the path with the actual path of the folder.
-> Use the same window in the entire guide, do not close it.
 
 ### Prerequisites
 - ```Brain```
+
+- [```DriveLetterAssigner script```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/DriveLetterAssigner.V1.0.exe)
   
 - [```ARM Windows esd```](https://worproject.com/esd) (Select - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```select your language```)
     
@@ -21,45 +20,15 @@
 fastboot boot <recovery.img>
 ```
 
-#### Execute msc 
+### Execute msc 
 > If it asks you to run it once again, do so
 ```cmd
 adb shell msc
 ```
+### Assign letters to WINNABU and ESPNABU partitions 
 
-### Start the Windows disk manager
-> [!WARNING]
-> DO NOT ERASE, CREATE OR OTHERWISE MODIFY ANY PARTITION WHILE IN DISKPART!!!! THIS WILL ERASE ALL OF YOUR UFS!!!! THIS MEANS THAT YOUR DEVICE WILL BE PERMANENTLY BRICKED WITH NO SOLUTION! (except for taking the device to Xiaomi or flashing it with EDL, both of which will cost money)
-```cmd
-diskpart
-```
-
-#### Select the Windows volume of the tablet
-> Use `list volume` to find it, it's the one named **WINNABU**
-```diskpart
-select volume <number>
-```
-
-#### Assign the letter X
-```diskpart
-assign letter x
-```
-
-#### Select the ESP volume of the tablet
-> Use `list volume` to find it, it's the one named **ESPNABU**
-```diskpart
-select volume <number>
-```
-
-#### Assign the letter Y
-```diskpart
-assign letter y
-```
-
-#### Exit diskpart
-```diskpart
-exit
-```
+#### Just run  [```DriveLetterAssigner script```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/DriveLetterAssigner.V1.0.exe) and press `Y` on you your keyboard 
+> It will automatically assign the letters X and Y to Windows and ESP partitions of the tablet
 
 ### Installing Windows
 > Replace `<path\to\install.esd>` with the actual path of install.esd (it may also be named install.wim)
