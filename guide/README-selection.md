@@ -9,7 +9,7 @@
 - [English](/README.md)
 - [Português](Portuguese/README-PT.md)
 - [Turkish](Turkish/README-tr.md)
-- [Russian](Russian/README-ru.md)
+- [Russian](Russian/README-RU.md)
 - [Ukrainian](Ukrainian/README-uk.md)
 - [Korean](Korean/README-ko.md)
 
