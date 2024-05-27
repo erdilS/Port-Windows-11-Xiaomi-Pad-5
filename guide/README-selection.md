@@ -7,7 +7,7 @@
 ### Select your language
 
 - [English](/README.md)
-- [Português](Portuguese/README-pt.md)
+- [Português](Portuguese/README-PT.md)
 - [Turkish](Turkish/README-tr.md)
 - [Russian](Russian/README-ru.md)
 - [Ukrainian](Ukrainian/README-uk.md)
