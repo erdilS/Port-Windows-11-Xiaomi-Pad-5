@@ -31,6 +31,9 @@ adb shell msc
 > It will automatically assign the letters X and Y to Windows and ESP partitions of the tablet
 
 ### Installing Windows
+> [!Important]
+> make sure that you using **admin cmd**
+
 > Replace `<path\to\install.esd>` with the actual path of install.esd (it may also be named install.wim)
 
 ```cmd
