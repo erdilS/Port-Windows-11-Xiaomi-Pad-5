@@ -7,7 +7,7 @@
 ### Select your language
 
 - [English](English/Re-rooting-en.md)
-- [Português](Portuguese/Re-rooting-pt.md)
+- ~[Português](Portuguese/Re-rooting-pt.md)~
 - [Turkish](Turkish/Re-rooting-tr.md)
 - [Russian](Russian/Re-rooting-ru.md)
 - [Ukrainian](Ukrainian/Re-rooting-uk.md)
