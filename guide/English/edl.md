@@ -43,6 +43,13 @@
 - Press **flash**.
 - Wait until it finishes flashing, then reboot.
 
+### Reflashing your rom with MiFlash
+> [!Important]
+> This tool only flashes the rom to one slot. If your device ever switches slots, it'll boot back into EDL again.
+- Reboot to fastboot mode.
+- Flash the fastboot rom a second time using **MiFlash** or with the **flash_all.bat** file in the rom.
+- Reboot after it finishes flashing.
+
 ## Finished!
 
 
