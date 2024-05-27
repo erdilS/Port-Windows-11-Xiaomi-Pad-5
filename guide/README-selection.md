@@ -6,7 +6,7 @@
 
 ### Select your language
 
-- [English](//README.md)
+- [English](/README.md)
 - [Português](Portuguese/README-pt.md)
 - [Turkish](Turkish/README-tr.md)
 - [Russian](Russian/README-ru.md)
