@@ -6,7 +6,12 @@
 
 ## Установка
 
-### Требования
+### Требования 
+
+- `Мозг`
+
+- [```Скрипт DriveLetterAssigner```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/DriveLetterAssigner.V1.0.exe)
+
 - [```ARM64 Windows esd```](https://worproject.com/esd) (Выберите - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```Выберите ваш язык```)
 
 - [```Драйверы```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
@@ -21,39 +26,11 @@ fastboot boot <recovery.img>
 ```cmd
 adb shell msc
 ```
+### Привяжите буквы к разделам WINNABU и ESPNABU 
 
-### Запустите Менеджер дисков Windows
-> Как только планшет определился как диск
-```cmd
-diskpart
-```
+#### Просто запустите скрипт [```DriveLetterAssigner```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/DriveLetterAssigner.V1.0.exe) и нажмите `Y` на вашей клавиатуре 
+> Скрипт автоматически привяжет буквы X и Y к разделам Windows и ESP планшета
 
-#### Выберите Windows раздел планшета
-> Используйте команду `list volume` чтобы найти разделы "WINNABU" и "ESPNABU"
-```diskpart
-select volume <number>
-```
-
-#### Привяжите букву X
-```diskpart
-assign letter x
-```
-
-#### Выберите ESP раздел планшета
-> Используйте команду `list volume` чтобы найти его, обычно это последний раздел
-```diskpart
-select volume <number>
-```
-
-#### Привяжите букву Y
-```diskpart
-assign letter y
-```
-
-#### Закройте diskpart
-```diskpart
-exit
-```
 
 ### Установка Windows
 > Замените `<путь\к\install.esd>` существующим путём к install.esd (он может также называться install.wim)
