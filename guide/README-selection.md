@@ -11,7 +11,7 @@
 - [Turkish](Turkish/README-tr.md)
 - [Russian](Russian/README-RU.md)
 - [Ukrainian](Ukrainian/README-uk.md)
-- [Korean](Korean/README-ko.md)
+- [Korean](Korean/README-KO.md)
 
 
 
