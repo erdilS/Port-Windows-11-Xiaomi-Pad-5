@@ -27,7 +27,7 @@ adb shell msc
 ```
 ### Assign letters to WINNABU and ESPNABU partitions 
 
-#### Just run  [```DriveLetterAssigner script```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/DriveLetterAssigner.V1.0.exe) and press `Y` on you your keyboard 
+> Just run  [```DriveLetterAssigner script```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/DriveLetterAssigner.V1.0.exe) and press `Y` on you your keyboard 
 > It will automatically assign the letters X and Y to Windows and ESP partitions of the tablet
 
 ### Installing Windows
