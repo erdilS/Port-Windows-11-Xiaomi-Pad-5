@@ -82,7 +82,7 @@ Follow the instructions by Massgravel [here](https://github.com/massgravel/Micro
 - Select the ```Local reinstall``` option.
 - Click the `Next` button.
 - Click the `Reset` button.
-> After rebooting, you will get a clean Windows 
+> After rebooting, you will get a clean Windows.
 
 
 
