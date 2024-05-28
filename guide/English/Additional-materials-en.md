@@ -72,7 +72,7 @@ Follow the instructions by Massgravel [here](https://github.com/massgravel/Micro
 #### Finished!
 
 ## Factory reset Windows 11
-> [!Waring]
+> [!Warning]
 > After you complete these steps, all your data in Windows will be erased including files, settings, and apps.
 - Open Settings app.
 - Click on System.
