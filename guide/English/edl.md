@@ -42,6 +42,8 @@
 - Download the stock fastboot rom for your device and select it in MrAuthTool.
 - Press **flash**.
 - Wait until it finishes flashing, then reboot.
+> [!Note]
+> If the tool is stuck and does not flash, reboot your device by holding **power** for +- 30 seconds (you may need to use a combination of **power** + either **volume** buttons if it doesn't work) until you hear the USB disconnect sound on your PC.
 
 ### Reflashing your rom with MiFlash
 > [!Important]
