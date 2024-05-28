@@ -71,7 +71,18 @@ Follow the instructions by Massgravel [here](https://github.com/massgravel/Micro
 
 #### Finished!
 
-
+## Factory reset Windows 11
+> [!Waring]
+> After you complete these steps, all your data in Windows will be erased including files, settings, and apps.
+- Open Settings app.
+- Click on System.
+- Click the Recovery tab.
+- Under the **Recovery options** section, click the ```Reset PC``` button in the **Reset this PC** setting.
+- Click the ```Remove Everything``` option.
+- Select the ```Local reinstall``` option.
+- Click the `Next` button.
+- Click the `Reset` button.
+> After rebooting, you will get a clean Windows 
 
 
 
