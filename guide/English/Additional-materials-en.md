@@ -81,6 +81,8 @@ Follow the instructions by Massgravel [here](https://github.com/massgravel/Micro
 - Click the `Reset` button.
 > After rebooting, you will get a clean Windows.
 
+#### Finished!
+
 
 
 
