@@ -14,14 +14,11 @@ You can also find a list of dedicated ARM software [at this link](https://armrep
 > [!NOTE]
 > This is recommended because this drive should not be modified, while some applications may try to write to it.
 
-> [!Important]
-> The following steps must be done on the Mi Pad 5, not using an external computer. 
+- Download [ModemHide.vbs](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/ModemHide_V1.0.vbs) to your NABU
+- Run it
+- Approve any UAC dialogs 
+- Click `Yes` in the dialog box
 
-- Open a command prompt window and run ```diskpart```
-- Run ```list volume``` to see all available volumes
-- Select the disk that has letter D with ```select volume $```, replacing "$" with the volume number
-- Remove the letter with ```remove letter d```
-- Exit diskpart with ```exit```
 
 #### Finished!
 
