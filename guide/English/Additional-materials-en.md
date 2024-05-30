@@ -14,14 +14,11 @@ You can also find a list of dedicated ARM software [at this link](https://armrep
 > [!NOTE]
 > This is recommended because this drive should not be modified, while some applications may try to write to it.
 
-> [!Important]
-> The following steps must be done on the Mi Pad 5, not using an external computer. 
+- Download [ModemHide.vbs](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/ModemHide_V1.0.vbs) to your NABU
+- Run it
+- Approve any UAC dialogs 
+- Click `Yes` in the dialog box
 
-- Open a command prompt window and run ```diskpart```
-- Run ```list volume``` to see all available volumes
-- Select the disk that has letter D with ```select volume $```, replacing "$" with the volume number
-- Remove the letter with ```remove letter d```
-- Exit diskpart with ```exit```
 
 #### Finished!
 
@@ -40,7 +37,7 @@ Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/re
 
 ## Disable secureboot
 > [!Warning]
-> Do this only if necessary!
+> Do it only if necessary!
 
 > [Guide to disabling secureboot](/guide/English/disable-secureboot-en.md)
 
@@ -71,7 +68,20 @@ Follow the instructions by Massgravel [here](https://github.com/massgravel/Micro
 
 #### Finished!
 
+## Factory reset Windows 11
+> [!Warning]
+> After you complete these steps, all your data in Windows will be erased including files, settings, and apps.
+- Open Settings app.
+- Click on System.
+- Click the Recovery tab.
+- Under the **Recovery options** section, click the ```Reset PC``` button in the **Reset this PC** setting.
+- Click the ```Remove Everything``` option.
+- Select the ```Local reinstall``` option.
+- Click the `Next` button.
+- Click the `Reset` button.
+> After rebooting, you will get a clean Windows.
 
+#### Finished!
 
 
 

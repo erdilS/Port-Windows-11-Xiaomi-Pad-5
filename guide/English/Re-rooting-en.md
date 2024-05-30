@@ -3,7 +3,7 @@
 # Running Windows on the Xiaomi Pad 5
 
 ## Re-rooting Android
-This section will guide you through the re-rooting process for when MIUI updates and removes root.
+This section will guide you through the re-rooting process for when MIUI/Hyper OS updates and removes root.
 
 ### Prerequisites
 - [```Recovery Image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
