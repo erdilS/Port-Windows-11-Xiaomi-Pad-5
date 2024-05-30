@@ -8,18 +8,14 @@ Bu kapsamlı bir liste değildir, sadece topluluğun test etmiş olduğu uygulam
 
 Ayrıca [bu linkte](https://armrepo.ver.lt/) ARM'a özel yazılımların bir listesini bulabilirsiniz
 
+#### Bitti!
+
 ## D sürücüsünü gizleme (modem bölümü)
 > [!NOTE]
-> Bu sürücü ile oynanılmamalıdır. Bazı programlar bu sürücüde değişiklik yapabileceğinden bahsedeceğimiz işlemi yapmanızı öneriyoruz
+> Bu işlemi yapmanız önerilir çünkü sürücüde herhangi bir değişiklik yapılmaması gerekmektedir, ayrıca sürücü gizlenmezse bazı uygulamaların bu sürücüye dosya yazma ihtimali her daim olacaktır.
 
-> [!Important]
-> İşlemler Mi Pad 5 üzerinde yapılmalıdır, harici bir bilgisayar üzerinden değil.
-
-- CMD açın ve ```diskpart``` komutunu çalıştırın
-- Bütün mevcut bölümleri görmek için ```list volume``` komutunu çalıştırın
-- D harfine sahip sürücüyü bulun. ```select volume $``` komutu ile sücüyü seçin ($ harfi yerine D sürücüsünün numarasını girmeyi unutmayın)
-- ```remove letter d``` komutuyla sürücünün (d) harfini silin
-- ```exit``` komutuyla çıkış yapın
+- [ModemHide.vbs](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/ModemHide_V1.0.vbs) dosyasını cihaza indirin ce çalıştırın
+- `Evet`e tıklayarak bütün Kullanıcı Hesabı Denetimi uyarılarını onaylayın
 
 
 ## USB Host modunu devre dışı bırakma
@@ -38,6 +34,7 @@ Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/re
 
 [Secureboot'u devre dışı bırakma rehberi](/guide/Turkish/disable-secureboot-tr.md)
 
+
 ## ```Microsoft Office``` / ```Microsoft 365``` kurulumu
 
 - Bu [ISO dosyasını](https://mega.nz/file/dnhQ3Q6b#X0o_B9eEPRa_IaPojQ-z1sLdqMgXkEQXqxfm2P0jL0I) tablete indirin
@@ -47,12 +44,28 @@ Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/re
 - Açılan pencerede `Evet (Yes)`i seçin
 - Kurulumun bitmesini bekleyin
 
+
  ### Windows / Office aktivasyonunu yapma
 
 [Buradan](https://github.com/massgravel/Microsoft-Activation-Scripts) Massgravel'ın talimatlarını takip edin
+
 
  ## ~El feneri (flashlight) nasıl kullanılır~
 
 - [Flashlight.7z](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/flashlight_fix.7z) arşiv dosyasını indirin ve herhangi bir klasöre çıkartın
 > El fenerini açmak için flashlight.exe'yi çalıştın
 > Kapatmak için ise herhangi bir tuşa basın
+
+
+## Factory reset Windows 11
+> [!Warning]
+> Bu adımları tamamladıktan sonra dosyalar, ayarlar ve uygulamalar dahil olmak üzere Windows'taki tüm verileriniz silinecektir
+- Ayarlar uygulamasını açın
+- Sistem'e tıklayın
+- Kurtarma sekmesine tıklayın
+- **Kurtarma seçenekleri** bölümünün altında, **Bu bilgisayarı sıfırla** ayarındaki ```Bilgisayarı sıfırla``` düğmesine tıklayın
+- ```Her Şeyi Kaldır``` seçeneğine tıklayın
+- ```Yerel yeniden yükleme``` seçeneğini seçin
+- `Sonraki` düğmesine tıklayın
+- `Sıfırla` düğmesine tıklayın
+> Yeniden başlattıktan sonra temiz bir Windows elde edeceksiniz

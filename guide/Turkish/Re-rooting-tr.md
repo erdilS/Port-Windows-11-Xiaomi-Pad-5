@@ -3,7 +3,7 @@
 # Xiaomi Pad 5'te Windows Çalıştırma
 
 ## Android'i Yeniden Rootlama
-Bu bölüm, MIUI güncellendiğinde ve root kaldırıldığında yeniden rootlama işlemi boyunca size rehberlik edecektir.
+Bu bölüm, MIUI/HyperOS güncellendiğinde ve root kaldırıldığında yeniden rootlama işlemi boyunca size rehberlik edecektir.
 
 ### Ön Gereklilikler
 - [```Recovery İmajı```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
