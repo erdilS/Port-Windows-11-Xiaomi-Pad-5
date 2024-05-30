@@ -10,12 +10,12 @@
 ### Gerekli Dosyalar
 - ```Beyin```
   
-- [```Android boot yedeği```](/guide/Turkish/1-partition-tr.md#Make-a-backup-of-your-existing-boot-image) (bir önceki sayfada yedeğini almıştınız)
+- [```Android boot yedeği```](/guide/Turkish/1-partition-tr.md#Make-a-backup-of-your-existing-boot-image) (bir önceki sayfada zaten bu yedeği almıştınız)
 
 
-## Boot patchleme (yamalama)
+## Boot dosyasını yamalamayın (patchleyin)
 
-- ``platform tools`` klasöründeki ``normal_boot.img`` dosyasını tablete kopyalayın 
+- ```platform tools``` klasöründeki ```normal_boot.img``` dosyasını tablete kopyalayın 
 
 - [Magisk uygulamasını](https://github.com/topjohnwu/Magisk/releases/latest) tablete indirin ve kurun
   
@@ -28,7 +28,7 @@
 - platform-tools klasöründe cmd açın
 
  ## Patchli boot flashlama
-- <magisk_patched.img>` yerine ```magisk_patched.img``` dosyasının gerçek adını ve bulunduğu gerçek yolu yazın.
+- Komutun ```<magisk_patched.img>``` kısmına, ```magisk_patched.img``` dosyasının bulunduğu asıl yolu ve dosyanın asıl adını yazın.
 ```cmd
 fastboot flash boot <magisk_patched.img>
 ```

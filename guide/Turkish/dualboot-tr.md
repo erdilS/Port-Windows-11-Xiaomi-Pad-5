@@ -16,16 +16,19 @@
 > Bu rehber rootlu olduğunuzu varsayar, eğer değilseniz lütfen öncelikle [root rehberini](2-rootguide-tr.md) takip edin
 
 ### Android Tarafındaki Kurulum
-- WoA Helper uygulamasını indirin ve kurun, sonrasında uygulamayı açın ve root erişimi verin.
+- **WoA Helper** uygulamasını indirin ve kurun, sonrasında uygulamayı açın ve root erişimi verin.
 - **UEFI imajını** indirin ve dahili depolama alanınızdaki `UEFI` adlı klasörün içerisine yerleştirin.
-- `MOUNT WINDOWS` butonuna basın, ardından **StA_Installer_nabu.exe** indirin ve dahili depolama alanınızdaki yeni oluşturulmuş olan `Windows` klasörüne taşıyın
-- WoA Helper uygulamasına dönün ve `WINDOWS'A QUICKBOOT ET` tuşuna basın .
+- **WoA Helper** uygulamasını açın ve **WOA TOOLBOX**'taki **STA CREATOR**'u kullanın
 
-> [!NOTE]
-> Windows'un ilk bootu 10 dakika kadar sürebilir. Endişelenmeyin, sadece bekleyin.
+> [!Important]
+> `/sdcard/Windows` klasörü boşsa, romunuz mount işlevini desteklemiyordur. Bu durumda uygulama içerisinde bir boot.img dosyası oluşturmak ve bunu, Windows'a ilk boot edişinizde manuel olarak kopyalamak zorundasınız (mesela, dosyayı bir yere upload edip sonrasında Windows'a geçtiğinizde dosyayı indirebilirsiniz). Aynı şeyler dahili depolamanızda oluşturulan StA dosyaları için de geçerlidir
+>
+> Eğer klasör salt okunur ise aynı şeyleri yapmanız gerekir
+
+- **QUICKBOOT TO WINDOWS** butonuna basın
 
 ### Windows Tarafındaki Kurulum
--  `C:\StA_Installer_nabu.exe` konumuna gidin ve dosyayı çalıştırın. Eğer çalışmazsa, herhangi bir antivirüs yazılımının aktif olmadığından emin olun (antivirüs uygulaması, uygulamanın çalıştırılmasını engelleyebilir).
+-  `C:\sta` konumuna gidin, -eğer yoksa- masaüstüne sta.exe'nin bir kısayolunu oluşturun.
 
 #### Android'e boot etme
 - Masaüstünüzde yeni oluşturulmuş olan kısayolu çalıştırın (erişim kolaylığı için başlat menünüze ya da görev çubuğunuza sabitleyebilirsiniz)
