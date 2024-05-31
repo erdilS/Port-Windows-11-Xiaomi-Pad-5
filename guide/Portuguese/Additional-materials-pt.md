@@ -2,25 +2,25 @@
 
 # Apps úteis e algumas instruções pra o Windows no Xiaomi pad 5
 
+
 ## Esconder o disco D: (Partição modem)
 > [!NOTE]
 > Isso é recomendado pois algum programa pode tentar modificar a partição, o que não pode acontecer
 
-- Abra uma janela do cmd (prompt de comando) e use ```diskpart```
-- Use ```list volume``` para ver todos os volumes disponíveis
-- Selecione o disco com a letra D usando ```select volume $```, substituindo o "$" pelo número do volume
-- Remova a letra D com ```remove letter d```
-- Saia do diskpart usando ```exit```
+- Download [`ModemHide.vbs`](https://github.com/Misha803/My-Scripts/releases/tag/ModemHide) to your NABU
+- Run it
+- Approve any UAC dialogs 
+- Click `Yes` in the dialog box
+
 
 #### Concluído!
-
 
 ## Desativando o modo USB host
 > [!Warning]
 > Quando o modo USB host está ligado, os dispositovos conectados no USB do tablet vão ser alimentados pelo próprio tablet.
 > Sendo assim dispositivos que não têm alimentação/que precisam de alimentação/não tem bateria própria NÃO vão funcionar quando o modo USB host estiver desativado
 
-Execute o [Controle de USB Host](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/USBHost) para ativar/desativar o modo USB host, no programa confirme se você quer ativar/desativar o modo USB host 
+Execute o [Controle de USB Host](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) para ativar/desativar o modo USB host, no programa confirme se você quer ativar/desativar o modo USB host 
 
 #### Concluído!
 
