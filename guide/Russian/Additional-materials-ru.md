@@ -6,7 +6,7 @@
 > [!NOTE]
 > Это рекомендовано так как этот диск не следует модифицировать, в то время как некоторые приложения могут пытаться записать в него
 
-- Скачайте [ModemHide.vbs](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/ModemHide_V1.0.vbs) на ваш NABU
+- Скачайте [ModemHide.vbs](https://github.com/Misha803/My-Scripts/releases/tag/ModemHide) на ваш NABU
 - Запустите его
 - Одобряйте все диалоги контроля учетных записей
 - Нажмите `Да` в диалоговом окне
@@ -19,7 +19,7 @@
 > [!Warning]
 > Unpowered USB devices will stop working
 
-Запустите [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/USBHost) чтобы включить/выключить режим USB host и подтвердите что вы хотите включить/выключить USB host mode 
+Запустите [USB Host Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) чтобы включить/выключить режим USB host и подтвердите что вы хотите включить/выключить USB host mode 
 
 #### Готово!
 
