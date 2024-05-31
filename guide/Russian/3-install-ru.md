@@ -10,7 +10,7 @@
 
 - `Мозг`
 
-- [```Скрипт DriveLetterAssigner```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/DriveLetterAssigner.V1.0.exe)
+- [```Скрипт DriveLetterAssigner```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)
 
 - [```ARM64 Windows esd```](https://worproject.com/esd) (Выберите - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```Выберите ваш язык```)
 
@@ -28,7 +28,7 @@ adb shell msc
 ```
 ### Привяжите буквы к разделам WINNABU и ESPNABU 
 
-#### Просто запустите скрипт [```DriveLetterAssigner```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/DriveLetterAssigner.V1.0.exe) и нажмите `Y` на вашей клавиатуре 
+> **Просто запустите скрипт [```DriveLetterAssigner```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner) и нажмите `Y` на вашей клавиатуре**
 > Скрипт автоматически привяжет буквы X и Y к разделам Windows и ESP планшета
 
 
