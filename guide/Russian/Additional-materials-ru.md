@@ -6,7 +6,7 @@
 > [!NOTE]
 > Это рекомендовано так как этот диск не следует модифицировать, в то время как некоторые приложения могут пытаться записать в него
 
-- Скачайте [ModemHide.vbs](https://github.com/Misha803/My-Scripts/releases/tag/ModemHide) на ваш NABU
+- Скачайте [`ModemHide.vbs`](https://github.com/Misha803/My-Scripts/releases/tag/ModemHide) на ваш NABU
 - Запустите его
 - Одобряйте все диалоги контроля учетных записей
 - Нажмите `Да` в диалоговом окне
