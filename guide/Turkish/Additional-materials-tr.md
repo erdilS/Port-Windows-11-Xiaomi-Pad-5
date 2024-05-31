@@ -14,7 +14,7 @@ Ayrıca [bu linkte](https://armrepo.ver.lt/) ARM'a özel yazılımların bir lis
 > [!NOTE]
 > Bu işlemi yapmanız önerilir çünkü sürücüde herhangi bir değişiklik yapılmaması gerekmektedir, ayrıca sürücü gizlenmezse bazı uygulamaların bu sürücüye dosya yazma ihtimali her daim olacaktır.
 
-- [ModemHide.vbs](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/ModemHide_V1.0.vbs) dosyasını cihaza indirin ce çalıştırın
+- [ModemHide.vbs](https://github.com/Misha803/My-Scripts/releases/tag/ModemHide) dosyasını cihaza indirin ce çalıştırın
 - `Evet`e tıklayarak bütün Kullanıcı Hesabı Denetimi uyarılarını onaylayın
 
 
@@ -25,7 +25,7 @@ Ayrıca [bu linkte](https://armrepo.ver.lt/) ARM'a özel yazılımların bir lis
 > [!Important]
 > Linkteki adımları Mi Pad 5'in Windows tarafında yapınız, bilgisayarınız üzerinde değil. 
 
-Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/USBHost) to enable/disable USB host mode and confirm that you want to disable/enable USB host mode 
+Run [USB Host Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) to enable/disable USB host mode and confirm that you want to disable/enable USB host mode 
 
 
 ## Secureboot'u devre dışı bırakma
