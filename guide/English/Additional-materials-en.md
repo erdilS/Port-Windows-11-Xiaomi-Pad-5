@@ -14,7 +14,7 @@ You can also find a list of dedicated ARM software [at this link](https://armrep
 > [!NOTE]
 > This is recommended because this drive should not be modified, while some applications may try to write to it.
 
-- Download [ModemHide.vbs](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/ModemHide_V1.0.vbs) to your NABU
+- Download [`ModemHide.vbs`](https://github.com/Misha803/My-Scripts/releases/tag/ModemHide) to your NABU
 - Run it
 - Approve any UAC dialogs 
 - Click `Yes` in the dialog box
@@ -30,7 +30,7 @@ You can also find a list of dedicated ARM software [at this link](https://armrep
 > [!Important]
 > The following steps must be done on the Mi Pad 5 in Windows, not on your computer. 
 
-Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/USBHost) to enable/disable USB host mode and  confirm that you want to disable/enable USB host mode 
+Run [USB Host Mode Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) to enable/disable USB host mode and  confirm that you want to disable/enable USB host mode 
 
 #### Finished!
 
