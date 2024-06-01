@@ -10,7 +10,7 @@
 ### Inicie o Windows
 > Faça o Flash da imagem do UEFI pelo fatboot ou use o aplicativo WOA Helper
 
-### Installing Drivers
+### Instalando os Drivers
 > Descompacta o arquivo dos drivers no seu nabu no Windows, em seguida execute o arquivo `OnlineUpdater.cmd`
 > Siga as instrução que possam aprecer durante o processo
 
