@@ -16,8 +16,9 @@
 - [```Drivers```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 
 ### Boot back into the modded recovery
+> Replace **path\to** with the actual path of the recovery image
 ```cmd
-fastboot boot <recovery.img>
+fastboot boot path\to\recovery.img
 ```
 
 ### Execute msc 
