@@ -21,7 +21,6 @@
 >
 > **PLEASE DON'T USE OUTDATED VIDEO GUIDES ON YOUTUBE OR ANY OTHER PLATFORM! THESE VIDEOS ARE OUTDATED AND YOU CAN BRICK YOUR DEVICE USING THEM! IF YOU NEED A VIDEO GUIDE, USE THIS [NEW VIDEO GUIDE](https://youtu.be/BbgTbTGbXYg) FROM [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
 
-
 ### Partitioning your device and backup boot
 > [!NOTE]
 > Don't know how to start? Unzip the downloaded [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools), then open ```command prompt``` or `powershell` as administrator and run the following command, replacing `"path\to\platform-tools"` with the actual path of the platform tools folder
@@ -31,7 +30,7 @@ cd "path\to\platform-tools"
 > Use this window throughout the entire guide. Do not close it.
 
 #### Boot the modded recovery
-> Open a CMD window inside the platform-tools folder, then (while your tablet is in fastboot mode) run
+> Replace **path\to** with the actual path of the recovery image
 ```cmd
 fastboot boot path\to\recovery.img
 ```
@@ -48,7 +47,6 @@ adb shell partition $
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
 ```
-
 
 #### Check if Android still starts
 > Reboot to check if Android still works. If it doesn't boot, wipe all data in recovery and try again.
