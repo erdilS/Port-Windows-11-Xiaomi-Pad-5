@@ -6,25 +6,24 @@
 > This is done as a last resort when your device either only boots to EDL mode by itself, or if you are unable to restore it with other means
 
 ### Prerequisites
-- A crypto wallet with $5 USDT
+- A crypto wallet with $3 USDT
 
 - [A Telegram account](https://telegram.org)
 
-- [MrAuthTool 2.0](https://mrauthtool.com/)
+- [MiFlash HXRU Auth Tool](https://hxrutool.com)
 
-- [Stock fastboot rom](https://xiaomifirmwareupdater.com/miui/nabu/)
+- [Stock fastboot rom](http://xmfirmwareupdater.com/miui/nabu/)
 
-### Setting up MrAuthTool
-- Create a MrAuthTool account [here](https://mrauthtool.com/Sing_Up.php)
-- Download **MR 2.0** on the MrAuthTool homepage, extract **Mr_Auth_Tool_2.0.exe** from the archive, and open it
-- Sign into your account
+### Setting up HXRU Tool
+- Create a HRXU account [here](https://dashboard.hxrutool.com/Register)
+- Download **MiFlash HXRU Auth Tool** on the homepage
+- Inside **MiFlash_HXRU.rar** you will find a folder with a file inside called **PASS123.rar**, open it with password `123`
+- Inside this protected archive is a folder containing **MiFlash_HXRU.zip**. Extract its contents somewhere
 
 ### Buy credits
-> Contact one of the authorized vendors listed on the MrAuthTool homepage on Telegram to buy credits.
->
-> Don't hesitate to contact multiple people, because some may take a long time to respond.
+> Contact [@hxruofficial](https://t.me/hxruofficial) on Telegram to buy credits.
 > 
-> You will need **5** credits to flash your device using this tool.
+> You will need **5** credits to flash your device using this tool, which will cost around **$3**
 
 ### Booting into EDL mode
 > [!Note]
@@ -39,11 +38,13 @@
 - It should boot you into EDL mode now.
 
 ### Flashing your device
-- Download the stock fastboot rom for your device and select it in MrAuthTool.
+- Open **XiaoMiFlash.exe** and grant it administrator access.
+- Download the stock fastboot rom for your device (which should have a .tgz extension) and open it. Inside there should be a .tar file. Extract the contents of this .tar file into any folder).
+- Click the **select** button in **XiaoMiFlash** and select this folder.
 - Press **flash**.
-- Wait until it finishes flashing, then reboot.
-> [!Note]
-> If the tool is stuck and does not flash, reboot your device by holding **power** for +- 30 seconds (you may need to use a combination of **power** + either **volume** buttons if it doesn't work) until you hear the USB disconnect sound on your PC.
+- If you get a `write time out` error, hold the **power** + **volume down** button for +- 30 seconds to reboot EDL. After this press the **flash** button again.
+- After a few seconds a login popup should show up. Enter your HRXU account details here and press **Request Auth Flashing**.
+- After it says **flash done**, reboot your device by holding **power** +- 14 seconds.
 
 ### Reflashing your rom with MiFlash
 > [!Important]
@@ -53,18 +54,6 @@
 - Reboot after it finishes flashing.
 
 ## Finished!
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
