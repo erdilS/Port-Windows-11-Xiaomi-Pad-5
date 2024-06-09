@@ -18,15 +18,17 @@ This project is in development stage, all the files here have been contributed b
 
 
 ## Get Started
-- [Installation](guide/English/1-partition-en.md)
+- [Project Status](guide/English/status.md)
 
-- [Dualboot Setup](guide/English/dualboot-en.md)
+- [IMPORTANT: READ FIRST!](guide/English/important.md)
+
+- [Installation](guide/English/1-partition-en.md)
 
 - [Uninstallation](guide/English/uninstall-en.md)
 
 
 ## Miscellaneous
-- [Project Status](guide/English/status.md)
+- [Dualboot Setup](guide/English/dualboot-en.md)
 
 - [Troubleshooting](guide/English/troubleshooting-en.md)
 
