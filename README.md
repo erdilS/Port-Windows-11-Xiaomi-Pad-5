@@ -18,9 +18,10 @@ This project is in development stage, all the files here have been contributed b
 
 
 ## Get Started
-- [Project Status](guide/English/status.md)
 
-- [IMPORTANT: READ FIRST!](guide/English/important.md)
+- [**```IMPORTANT: READ FIRST!```**](guide/English/important.md)
+
+- [Project Status](guide/English/status.md)
 
 - [Installation](guide/English/1-partition-en.md)
 
