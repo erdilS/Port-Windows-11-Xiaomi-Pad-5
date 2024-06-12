@@ -8,9 +8,9 @@
 ## 24H2 EDL issues
 If you ever create a restore point or modify any partitions (even on external devices) in disk manager in any 24H2 release, your device will be sent into EDL after rebooting. It's unknown what causes this issue, but it happens on any WoA device, not just the Mi Pad 5.
 
-So far 24H2 seems to be stable, but whatever you do, **DO NOT CREATE A RESTORE POINT** or use software that creates one (like Driver Booster Pro).
-
-Also **DO NOT USE DISK MANAGER** to edit, create, format, or modify partitions in any way even on external devices. This also sends the device into EDL.
+If you want to use 24H2;
+- **DO NOT CREATE A RESTORE POINT** or use software that creates one (like Driver Booster Pro).
+- **DO NOT USE DISK MANAGER** to edit, create, format, or modify partitions in any way even on external devices.
 
 ## White line issues
 In some extremely rare cases, your screen may display white lines after putting it to sleep in Windows. This is a hardware issue caused by Xiaomi shipping out screens with incompatible display configurations.
