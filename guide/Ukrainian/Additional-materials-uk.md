@@ -39,7 +39,7 @@ Run [USB Host Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-H
 [Інструкція з вимкнення безпечного завантаження](/guide/Ukrainian/disable-secureboot-uk.md)
 
 ## Install Microsoft Office / Microsoft 365
-- Download this [ISO file](https://mega.nz/file/dnhQ3Q6b#X0o_B9eEPRa_IaPojQ-z1sLdqMgXkEQXqxfm2P0jL0I) to the tablet
+- Download this [ISO file](https://drive.google.com/file/d/10FTyC0XBccj0BkxdIa_W_haixQz-d3to/view?usp=drivesdk) to the tablet
 - Right-click on the iso file and select Mount to open it in explorer
 - Double-click on ```Office Tool Plus.exe``` to start the installation wizard
 - Approve any UAC dialogs 
