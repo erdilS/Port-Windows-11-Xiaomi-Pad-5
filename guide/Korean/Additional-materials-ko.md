@@ -32,7 +32,7 @@
 
 
 ## ```Microsoft Office```/```Microsoft 365``` 설치
-- 태블릿에 [ISO 파일](https://mega.nz/file/dnhQ3Q6b#X0o_B9eEPRa_IaPojQ-z1sLdqMgXkEQXqxfm2P0jL0I)을 다운로드 하십시오
+- 태블릿에 [ISO 파일](https://drive.google.com/file/d/10FTyC0XBccj0BkxdIa_W_haixQz-d3to/view?usp=drivesdk)을 다운로드 하십시오
 - 파일에 마우스 우클릭을 하고 탑재를 선택하여 파일 탐색기에서 파일을 여십시오
 - ```Office Tool Plus.exe```를 더블 클릭하여 설치 마법사를 시작하십시오
 - Approve any UAC dialogs 
