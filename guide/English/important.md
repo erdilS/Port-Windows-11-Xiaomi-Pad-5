@@ -11,13 +11,11 @@ If you ever create a restore point in any 24H2 release, your device will be sent
 So far 24H2 seems to be stable, but whatever you do, **DO NOT CREATE A RESTORE POINT** or use software that creates one (like Driver Booster Pro)
 
 ## White line issues
-In some extremely rare cases, your screen may display white lines after putting it to sleep in Windows. This is a hardware issue caused by Xiaomi shipping our screens with incompatible display configurations.
+In some extremely rare cases, your screen may display white lines after putting it to sleep in Windows. This is a hardware issue caused by Xiaomi shipping out screens with incompatible display configurations.
 
 If you see white lines after sleeping in Windows, **REBOOT IMMEDIATELY!!**. These lines can become permanent if they stay on the screen for too long.
 
 Currently the only solution is to either never put your device to sleep in Windows, or to sell your nabu and buy a new one.
-
-
 
 
 
