@@ -37,7 +37,7 @@ Run [USB Host Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-H
 
 ## ```Microsoft Office``` / ```Microsoft 365``` kurulumu
 
-- Bu [ISO dosyasını](https://mega.nz/file/dnhQ3Q6b#X0o_B9eEPRa_IaPojQ-z1sLdqMgXkEQXqxfm2P0jL0I) tablete indirin
+- Bu [ISO dosyasını](https://drive.google.com/file/d/10FTyC0XBccj0BkxdIa_W_haixQz-d3to/view?usp=drivesdk) tablete indirin
 - iso dosyasına sağ tıklayın ve windows gezgininde (explorer) açmak için bağlayın (mount edin)
 - Kurulum sihirbazını başlatmak için ```Office Tool Plus.exe``` dosyasını çift tıklayın
 - Tüm UAC uyarılarını onaylayın 
