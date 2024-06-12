@@ -30,7 +30,7 @@
 [Руководство по отключению SecureBoot ](/guide/Russian/disable-secureboot-ru.md)
 
 ## Установка Microsoft Office / Microsoft 365
-- Скачайте этот [ISO файл](https://mega.nz/file/dnhQ3Q6b#X0o_B9eEPRa_IaPojQ-z1sLdqMgXkEQXqxfm2P0jL0I) на планшет
+- Скачайте этот [ISO файл](https://drive.google.com/file/d/10FTyC0XBccj0BkxdIa_W_haixQz-d3to/view?usp=drivesdk) на планшет
 - Щелкните правой кнопкой мыши по ISO-файлу и выберите "Смонтировать", чтобы открыть его в проводнике
 - Дважды щелкните на ```Office Tool Plus.exe```, чтобы запустить мастер установки
 - Одобряйте все диалоги контроля учётных записей
