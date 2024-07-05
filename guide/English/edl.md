@@ -37,6 +37,10 @@
 - Insert the cable into your device, then hold the button on the cable which may look like [this](https://t.me/nabuwoa/204867).
 - It should boot you into EDL mode now.
 
+### Installing EDL drivers
+> If the device in **Device Manager** is called **QUSB_BULK_CID** or has a ⚠️ yellow warning triangle / question mark, and is located in any other category (for example **Other devices**), you need to install EDL drivers first.
+- To install EDL drivers, extract the contents of [QUD.zip](https://github.com/n00b69/woa-betalm/releases/download/Qfil/QUD.zip) somewhere, right click on **QUSB_BULK_CID**, click on **Update driver** and **Browse my computer for drivers**, then find and select the **QUD** folder.
+
 ### Flashing your device
 - Open **XiaoMiFlash.exe** and grant it administrator access.
 - Download the stock fastboot rom for your device (which should have a .tgz extension) and open it. Inside there should be a .tar file. Extract the contents of this .tar file into any folder).
