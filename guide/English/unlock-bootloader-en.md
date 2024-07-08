@@ -8,11 +8,15 @@
 1. [Mi Community App(only for HyperOS/MIUI 14)](https://apkpure.net/xiaomi-community/com.mi.global.bbs/download).
 2. [Mi Unlock Tool](https://miuirom.xiaomi.com/rom/u1106245679/6.5.224.28/miflash_unlock-en-6.5.224.28.zip).
 
- >[!NOTE]
- >
- > Waiting period in Mi unlock Tool May be different so wait till.
- > During the waiting period, do not reset your device or log out of your Xiaomi account.
- > Backup Data: Unlocking the bootloader will erase all data on your device. Make sure to back up important data before proceeding.
+>[!NOTE]
+>
+> Waiting period in Mi unlock Tool May be different so wait till.
+
+>[!WARNING]
+>
+> During the waiting period, do not reset your device or log out of your Xiaomi account.
+>
+> Backup Data: Unlocking the bootloader will erase all data on your device. Make sure to back up important data before proceeding.
 
 ### 1. Enable Developer Options:
 
@@ -29,29 +33,38 @@
    - Go to Settings → Additional settings → Developer options.
    - Enable OEM unlocking and USB debugging.
 
-**```Standard Process (For those who is on Miui-13 or less):```**
+### 3. Bind Mi Account:/Apply to unlock
 
-### 3. Bind Mi Account:
-   - go to Settings > Additional settings > Developer options > Mi Unlock status.
+<details>
+<summary><b><strong>Standard Process (For those who is on Miui-13 or less):</strong></b></summary>
+
+ **```3. Bind Mi Account:```**
+   - Go to Settings > Additional settings > Developer options > Mi Unlock status.
    - Click on "Add your Mi Account." After successful addition, you will see "Added Successfully."
 
+  </summary>
+</details>
 
- **```New Process (only for HyperOS/miui-14):```**
- 
-If your device is the global version, you can apply for the bootloader unlock at a specific time.
+<details>
+<summary><b><strong>New Process (only for HyperOS/miui-14):</strong></b></summary>
+
+>
+
+> If your device is the global version, you can apply for the bootloader unlock at a specific time.
 
    **Time Trick:**
    - Xiaomi allows 2,000 devices to be apply unlock daily.
    - The reset time for this daily limit is 7 PM Moscow time.
 
-### 3. Steps:
+ **```3. Apply to unlock:```**
    - Match your time with 7 PM Moscow time and be ready if you were not fast this will not work.
    - Open Xiaomi Community app, set it to Global, and sign in with the same account as on your device.
    - Go to the "Me" tab, click on "Unlock bootloader," then click on "Apply".
    - Once granted access, go to Settings > Additional settings > Developer options > Mi Unlock status.
    - Click on "Add your Mi Account." After successful addition, you will see "Added Successfully."
 
-
+  </summary>
+</details>
 
 ### 4. Unlocking the Bootloader:
    - Open the Mi Flash Unlock Tool and sign in with the same Mi account.
@@ -61,6 +74,6 @@ If your device is the global version, you can apply for the bootloader unlock at
 
   
 #### Credits and Acknowledgements:
-This guide has been tested by: [@ArKT_7](), [@I914900HX](), [@Samponnporlsak]()
+This guide has been tested by: [@ArKT_7](https://t.me/ArKT_7), [@I914900HX](https://t.me/I914900HX), [@Samponnporlsak](https://t.me/Samponnporlsak)
 
-Special thanks to [@hxruofficial]() for sharing the time trick to apply in HyperOS/miui-14. He specializes in Qualcomm flashing, EDL, and FDL. Check out his tools and services at HXRU Tool (https://hxrutool.com/).
+Special thanks to [@hxruofficial](https://t.me/hxruofficial) for sharing the time trick to apply in HyperOS/miui-14. He specializes in Qualcomm flashing, EDL, and FDL. Check out his tools and services at [HXRU Tool](https://hxrutool.com/).
