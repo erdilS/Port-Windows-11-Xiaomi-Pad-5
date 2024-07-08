@@ -25,6 +25,8 @@
 - Нажмите кнопку **`БЫСТРАЯ ЗАГРУЗКА В WINDOWS`**.
 
 ### Установка - Windows
+> [!Tip]
+> If this is your first time booting Windows and you wish to skip the Microsoft Account login, press the **I don't have internet** button in the WiFi page, then when prompted, press the **Continue with limited setup** button.
 - Перейдите к `C:\sta` и создайте ярлык **sta.exe** на вашем рабочем столе, если таковой не существует 
 
 #### Загрузка в Android
