@@ -6,7 +6,7 @@
 
 ### Select your language
 
-- [English](English/unlock-bootloader.md)
+- [English](English/unlock-bootloader-en.md)
 - ~[Português](Portuguese/)~
 - ~[Turkish](Turkish/)~
 - ~[Russian](Russian/)~
