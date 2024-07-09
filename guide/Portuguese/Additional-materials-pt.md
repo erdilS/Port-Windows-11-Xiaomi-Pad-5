@@ -24,8 +24,10 @@ Aqui uma lista de softwares compilados para ARM [neste link](https://armrepo.ver
 
 ## Desativando o modo USB host
 > [!Warning]
-> Quando o modo USB host está ligado, os dispositovos conectados no USB do tablet vão ser alimentados pelo próprio tablet.
-> Sendo assim dispositivos que não têm alimentação/que precisam de alimentação/não tem bateria própria NÃO vão funcionar quando o modo USB host estiver desativado
+> Dispositivos sem energia própria não vão funcionar
+
+> [!Important]
+> Os passos a seguir são para o seu Mi Pad 5 no Windows, não é para o seu computador.
 
 Execute o [Controle de USB Host](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) para ativar/desativar o modo USB host, no programa confirme se você quer ativar/desativar o modo USB host 
 
