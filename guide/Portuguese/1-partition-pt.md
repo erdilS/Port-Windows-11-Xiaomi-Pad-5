@@ -27,7 +27,7 @@
 
 ### Particionando seu dispositivo e fazendo backup da boot.img
 > [!NOTE]
-> Não sabe como começar? Só descompactar o [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools), por exemplo ```"C:\platform-tools"``` e abra o ```cmd (command prompt)``` ou o `powershell` como administrador e digite:
+> Não sabe como começar? Só descompactar o [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools), e abra o ```cmd (command prompt)``` ou o `powershell` como administrador e digite o seguinte comando, substituindo o "caminho\para_o\platform-tools" com o lacal correto da pasta:
 ```cmd
 cd "caminho\para_o\platform-tools"
 ```
