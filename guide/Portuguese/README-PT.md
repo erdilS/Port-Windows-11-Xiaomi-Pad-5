@@ -22,7 +22,7 @@ Esse projeto ainda está em desenvolvimento, todos os arquivos são contribuiç�
 
 ## Primeiros Passos
 
-- [**```IMPORTANTE: LEIA PRIMEIRO!```**](guide/Portuguese/important-pt.md)
+- [**```IMPORTANTE: LEIA PRIMEIRO!```**](/guide/Portuguese/important-pt.md)
 
 - [Status do Projeto](/guide/Portuguese/status.md)
 
