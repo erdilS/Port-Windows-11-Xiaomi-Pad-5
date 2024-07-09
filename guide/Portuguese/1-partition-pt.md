@@ -19,11 +19,7 @@
 
 ### Notas:
 > [!Warning]\
-> Se você apagar alguma partição usando o diskpart depois ou agora, o Windows vai enviar um comando ufs que é mal interpretado CAUSANDO COM QUE A UFS SEJA COMPLETAMENTE FORMATADA (O TABLET SERA BRICKADO)
-> 
 > Faça um backup de seus arquivos importantes que estiverem no Android antes de começar.
-> 
-> Todos os comandos foram previamente testados.
 > 
 > NÃO REINICIE O TABLET se você acha que fez algo errado, peça por ajuda no [Telegram chat](https://t.me/nabuwoa)
 >
