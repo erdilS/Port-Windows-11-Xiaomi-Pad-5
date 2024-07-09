@@ -29,6 +29,9 @@ adb shell msc
 > Execute o script **DriveLetterAssigner_NABU** e pressione `Y` no seu teclado para atribuir as letras **X** e **Y** nas partições **WINNABU** e **ESPNABU**
 
 ### Instalar Windows
+> [!Important]
+> Tenha certeza de que está rodando o CMD/Powershell como **Administrador**
+
 > Substitua o `<caminho\para_o\install.esd>` com o caminho correto do arquivo install.esd (também pode estar nomeado como install.wim)
 ```cmd
 dism /apply-image /ImageFile:<caminho\para_o\install.esd> /index:6 /ApplyDir:X:\
