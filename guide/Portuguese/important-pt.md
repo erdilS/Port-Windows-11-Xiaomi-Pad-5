@@ -12,7 +12,7 @@ Se você quiser usar o Windows 11 24H2;
 - **NÃO CRIE UM PONTO DE RESTAURAÇÃO** e não use programas que crie um (exemplo: Driver Booster Pro).
 - **NÃO USE O GERENCIADOR DE DISCOS** para editar, criar, formatar, ou modificar qualquer partição de forma alguma. INCLUINDO dispositos externos.
 
-## Problema das linhas brancas
+## Problema com linhas brancas
 Em alguns casos extremamente raros, a tela pode exibir algumas linhas brancas depois de suspender o tablet no Windows. Esse é um problema de hardware causado pela distribuição de telas com configurações incompatíveis, culpa da Xiaomi.
 
 Se você ver linhas brancas depois de suspender no Windows, **REINICIE IMEDIATAMENTE!!**. As linhas podem se tornar permantes depois de um longo período de tempo.
