@@ -72,7 +72,7 @@
    - Abra a Mi Flash Unlock Tool e entre com a mesma conta Mi do dispositivo.
    - Inicie o dispositivo no modo Fastboot e conecte no PC.
    - Use a Mi Unlock Tool no seu PC para desbloquear o bootloader.
-   - se o erro periódo de espera (waiting period error) surgir depois dos 99%, provavelmente 72 hours/3 dias, saia do programa e espere esse periódo acabar, então repita o passo 4.
+   - se o erro periódo de espera (waiting period error) surgir depois dos 99%, provavelmente 72 horas/3 dias, saia do programa e espere esse periódo acabar, então repita o passo 4.
 
   
 #### Créditos e Reconhecimentos:
