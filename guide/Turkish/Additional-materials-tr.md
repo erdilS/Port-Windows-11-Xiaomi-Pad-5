@@ -25,7 +25,7 @@ Ayrıca [bu linkte](https://armrepo.ver.lt/) ARM'a özel yazılımların bir lis
 > [!Important]
 > Linkteki adımları Mi Pad 5'in Windows tarafında yapınız, bilgisayarınız üzerinde değil. 
 
-Run [USB Host Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) to enable/disable USB host mode and confirm that you want to disable/enable USB host mode 
+[USB Host Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) kullanarak USB host modunu etkinleştirin/devre dışı bırakın ve USB host modunu devre dışı bırakmak/etkinleştirmek istediğinizi onaylayın.
 
 
 ## Secureboot'u devre dışı bırakma
