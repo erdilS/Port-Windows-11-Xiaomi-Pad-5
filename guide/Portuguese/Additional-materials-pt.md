@@ -68,40 +68,40 @@ Siga as instruções do Massgravel [aqui](https://github.com/massgravel/Microsof
 
 ## Factory reset Windows 11
 > [!Warning]
-> After you complete these steps, all your data in Windows will be erased including files, settings, and apps.
-- Open Settings app.
-- Click on System.
-- Click the Recovery tab.
-- Under the **Recovery options** section, click the ```Reset PC``` button in the **Reset this PC** setting.
-- Click the ```Remove Everything``` option.
-- Select the ```Local reinstall``` option.
-- Click the `Next` button.
-- Click the `Reset` button.
-> After rebooting, you will get a clean Windows.
+> Depois de seguido os passos, todo o conteúdo do seu Windows será apagado, incluindo arquivos, configurações e apps.
+- Abra o aplicativo de Configurações.
+- Vá em Sistema.
+- Entre na opção Recuperação.
+- Na sessão **Opções de Recuperação**, clique no botão ```Restaurar o computador```.
+- Clique em ```Remover Tudo```.
+- Selecione a opção ```Reinstalação Local```.
+- Clique em `Próximo`.
+- Clique em `Resetar`.
+> Depois de reiniciar, seu Windows estará novo em folha.
 
-#### Finished!
+#### Concluído!
 
-## Disable adaptive brightness
+## Desativo o brilho adaptável
 
-- Open Windows 11 Settings by pressing **`Win + I`** or by right-clicking the Start button and selecting "Settings".
+- Abra as configurações do Windows 11 com **`Win + I`** ou dando um clique-direito no botão de Start e selecione "Configurações".
 
-- Navigate to the **`System`** section from the left sidebar.
+- Navegue até a sessão **`Sistema`** na barra lateral esquerda.
 
-- Select **`Display`** within the System settings.
+- Selecione **`Tela`**.
 
-- In the **`Brightness`** section, you'll see two options:
+- Na sessão **`Brilho`**, haverá duas opções:
 
-**```1. Change brightness automatically when lighting changes:```**
+**```1. Mudar brilho automaticamente com mudanças de luminosidade:```**
 
-> Turn this option off by toggling the switch to the **`Off`** position.
+> Desative essa opção deixando o botão em **`Off`**.
   
- **```2. Change brightness based on content:```**
+ **```2. Mudar o brilho baseado no conteúdo:```**
 
-> Turn this option off by selecting **`Off`** from the dropdown menu.
+> Desative essa opção deixando o botão em **`Off`**.
 
 >[!NOTE]
-> After making these changes, adaptive brightness and content-adaptive brightness will be disabled on your device.
+> Depois dessas mudanças, qualquer mudança automatica de brilho será desativada no seu dispositivo.
 
- #### Finished!
+ #### Concluído!
 
 
