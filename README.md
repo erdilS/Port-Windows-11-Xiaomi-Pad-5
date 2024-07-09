@@ -29,15 +29,18 @@ This project is in development stage, all the files here have been contributed b
 
 
 ## Miscellaneous
+
+- [Bootloader unlocking guide](guide/English/unlock-bootloader-en.md)
+
 - [Dualboot Setup](guide/English/dualboot-en.md)
 
 - [Troubleshooting](guide/English/troubleshooting-en.md)
 
 - [Updating Drivers](guide/English/update-en.md)
 
-- [Reinstallation](guide/English/reinstall-en.md)
-
 - [Updating UEFI](guide/English/UEFI-updating-en.md)
+
+- [Reinstallation](guide/English/reinstall-en.md)
 
 - [Re-rooting Android](guide/English/Re-rooting-en.md)
 
@@ -71,21 +74,4 @@ This project is in development stage, all the files here have been contributed b
 [<img alt="sr cn" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/161332426?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/srxcm)
 [<img alt="Mateus13000" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/38146322?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Mateus13000)
 [<img alt="annson24" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/8401837?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/annson24)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
