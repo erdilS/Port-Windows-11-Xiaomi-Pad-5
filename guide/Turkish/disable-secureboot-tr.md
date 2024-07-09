@@ -1,134 +1,112 @@
-<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
+# Xiaomi Pad 5 Üzerinde Windows Çalıştırma
 
+## Secureboot'u Devre Dışı Bırakma
+> [!Önemli]
+> Secureboot'u devre dışı bırakmak istiyorsanız bu kılavuzu takip edin.
 
-# Running Windows on the Xiaomi Pad 5
-
-## Disabling secureboot
-> [!Important]
-> Bu rehberi yalnızca secureboot'u devre dışı bırakmak istiyorsanız takip edin.
-
-### Gerekli Dosyalar
-- ```Brain```
+### Gereksinimler
+- ```Beyin```
 
 - [```Android platform araçları```](https://developer.android.com/studio/releases/platform-tools)
 
-- [```Recovery imajı```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```Kurtarma Görüntüsü```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-- [```UEFI imajı (Secureboot kapalı)```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-NoSecureboot-v3.img)
+- [```UEFI görüntüsü (Secureboot kapalı)```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-NoSecureboot-v3.img)
 
-## Secureboot'un artıları ve eksileri
+## Secureboot'un Artıları ve Eksileri
+> Varsayılan olarak, bu kılavuzda secureboot etkindir.
 
-##### Açık Secureboot'un artıları ve eksileri
-- √ Ana ekranda filigran olmaz
-- √ Test Modu ile çalışmayan uygulamalar çalışacaktır
-- √ Büyük sürümleri (örneğin 22h2'den 23h2'ye) doğrudan Windows Update üzerinden güncelleyebilirsiniz
-- × PC olmadan sürücüleri güncelleyemezsiniz
+##### Secureboot'un Açık Olmasının Artıları ve Eksileri
+- √ Ana ekranda filigran yok
+- √ Test Modu ile çalışmayan uygulamalar çalışacak
+- √ Windows güncellemesinde büyük sürümleri doğrudan güncelleyebilirsiniz (örn. 22h2'den 23h2'ye)
+- × İmzalanmamış sürücüleri yükleyemezsiniz
 
-##### Kapatılmış Secureboot'un artıları ve eksileri
-- √ Sürücüleri doğrudan tabletinizden güncelleyebilirsiniz; PC gerekmez
-- × Ana ekranda test modu filigranı belirir
-- × Anticheat yazılımına sahip bazı uygulamalar/oyunlar çalışmayabilir
-- × Windows Update aracılığıyla büyük sürümleri (örneğin 22h2'den 23h2'ye) güncelleyemezsiniz
+##### Secureboot'un Devre Dışı Bırakılmasının Artıları ve Eksileri
+- √ İmzalanmamış sürücüleri yükleyebilirsiniz
+- × Ana ekranda test modu filigranı
+- × Anti-hile yazılımı olan bazı uygulamalar/oyunlar çalışmayabilir
+- × Windows Güncellemesi ile büyük sürümleri (örn. 22h2'den 23h2'ye) güncelleyemezsiniz
 
-## Secureboot'u kapatma
+## Secureboot'u Devre Dışı Bırakma
 
-####  Rootlu boot imajınızın yedeğini alın
-> Android'e dönmek için buna ihtiyacınız olacak, ancak zaten bir yedekleme yaptıysanız bu adımı atlayabilirsiniz
+#### Rootlu Önyükleme Görüntünüzün Yedeğini Alın
+> Android'e geri dönmek için buna ihtiyacınız olacak, ancak zaten bir yedek aldıysanız bu adımı atlayabilirsiniz
 
-WOA Helper uygulamasındaki `Backup Android boot` işlevini kullanın ya da modlu recovery'e boot edin ve alttaki komutu çalıştırın
+WOA Helper uygulamasındaki `Android önyükleme yedeği` işlevini kullanın veya modifiye edilmiş kurtarma moduna önyükleme yapın ve şu komutu çalıştırın:
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```
 
-#### Recovery'e boot edin
-<gerçek\yol\recovery> kısmını recovery imajının bulunduğu gerçek yol ile değiştirin
+#### Kurtarma Moduna Önyükleme Yapın
+> <path\to\recovery> ile kurtarma görüntüsünün gerçek yolunu değiştirin
 ```cmd
-fastboot boot <gerçek\yol\recovery.img>
+fastboot boot <path\to\recovery.img>
 ```
 
-#### Yığın depolama (mass storage) modunu etkinleştir
-> Xiaomi Pad 5 modlu recovery'e boot edildikten sonra
+#### Kütle Depolama Modunu Etkinleştirin
+> Xiaomi Pad 5 modifiye edilmiş kurtarma modunda önyüklediğinde
 ```cmd
 adb shell msc
 ```
 
-####  Diskpart'ı (Windows disk yönetimini) başlatın
+#### Windows Disk Yöneticisini Başlatın
+> Xiaomi Pad 5 disk olarak algılandığında
 ```cmd
 diskpart
 ```
 
-### ESP volümüne `Y` harfini atayın
-
-#### Tabletteki ESP bölümünü seçin
-> Bunu bulmak için `list volume` komutunu kullanabilirsiniz, "ESPNABU" isimli volümdür.
+#### Tabletin ESP Hacmini Seçin
+> `list volume` kullanarak bulun, "ESPNABU" adını taşıyan
 ```diskpart
-select volume <volume numarası>
+select volume <number>
 ```
 
-#### Y harfini atayın
+#### Y Harfi Atayın
 ```diskpart
 assign letter y
 ```
 
-### Diskpart arayüzünden çıkın.
+#### Diskpart'tan Çıkın
 ```diskpart
 exit
 ```
 
-#### Bootloader dosyalarını modifiye edin
+#### Önyükleyici Dosyalarını Değiştirin
 > Test imzalamayı etkinleştirmek için
 ```cmd
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" testsigning on
 ```
 
-#### SiPolicy'iyi kaldırın
-> Mevcut bir kurulumda secureboot'u devre dışı bıraktığınızı varsayarsak, bu dosyayı silmeniz gerekir, aksi takdirde sistem boot yapmaz
+#### SiPolicy'i Kaldırma
+> Secureboot'u mevcut bir kurulumda devre dışı bırakıyorsanız, bu dosyayı silmeniz gerekir yoksa sistem önyükleme yapmaz
 ```cmd
 del Y:\EFI\Microsoft\Boot\SiPolicy.p7b
 ```
 
-#### ESPNABU'nun harfini kaldırın
-> Eğer bu işe yaramazsa, bunu görmezden gelin ve bir sonraki komuta geçin. Bu hayalet sürücü bilgisayarınızı bir sonraki yeniden başlatışınızda kaybolacaktır.
+#### ESPNABU için Sürücü Harfini Kaldırın
+> Bu işe yaramazsa, görmezden gelin ve bir sonraki komuta geçin. Bu hayalet sürücü, PC'nizi bir sonraki yeniden başlatmanızda kaybolacaktır.
 ```cmd
 mountvol y: /d
 ```
 
-#### Fastboot'a reboot edin
+#### Fastboot Moduna Yeniden Başlatın
 ```cmd
 adb reboot bootloader
 ```
 
-#### UEFI flashlayın
-> Bu sayfadaki secureboot'u kapalı UEFI'yi kullandığınızdan emin olun. <gerçek\yol\uefi-NoSecureboot-v3.img> yerine UEFI görüntüsünün bulunduğu gerçek yolu yazın
+#### UEFI'yi Flashlama
+> Bu sayfadaki secureboot kapalı UEFI'yi kullandığınızdan emin olun, <path\to\uefi-NoSecureboot-v3.img> ile UEFI görüntüsünün gerçek yolunu değiştirin
 ```cmd
-fastboot flash boot <gerçek\yol\uefi-NoSecureboot-v3.img>
+fastboot flash boot <path\to\uefi-NoSecureboot-v3.img>
 ```
 
-> [!Important]
-> Android'in dahili depolama alanındaki UEFI klasöründeki eski UEFI'nizi de değiştirdiğinizden emin olun, böylece bir dahaki sefere Android'den Windows'a geçmeye çalıştığınızda yanlışlıkla flashlamazsınız
+> [!Önemli]
+> Android'in dahili depolamasındaki UEFI klasörünüzde eski UEFI'nizi de değiştirmeniz gerektiğinden emin olun, böylece Android'den Windows'a geçmeye çalıştığınızda yanlışlıkla onu flashlamazsınız.
 
-#### Reboot to Windows
+#### Windows'a Yeniden Başlatın
 ```cmd
 fastboot reboot
 ```
 
-## Finished!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Tamamlandı!
