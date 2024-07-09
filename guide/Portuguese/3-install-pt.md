@@ -7,6 +7,8 @@
 ## Instalação
 ### Pré requesitos
 - ```Cérebro```
+ 
+- [```DriveLetterAssigner```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner_NABU)
   
 - [```Windows ARM esd```](https://worproject.com/esd) (Selecione - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```selecione seu idioma```)
     
