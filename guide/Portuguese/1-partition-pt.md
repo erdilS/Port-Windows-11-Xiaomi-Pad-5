@@ -9,7 +9,7 @@
 
 ### Pré requesitos
 
-- [```bootloader desbloqueado```(guide/Portuguese/unlock-bootloader-pt.md)
+- [```bootloader desbloqueado```](guide/Portuguese/unlock-bootloader-pt.md)
 
 -  ```Cérebro```
   
