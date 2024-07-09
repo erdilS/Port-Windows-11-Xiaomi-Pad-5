@@ -18,14 +18,6 @@
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
 ### Notas:
-> [!NOTE]
-> Não sabe como começar? Só descompactar o [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools), por exemplo ```"C:\platform-tools"``` e abra o ```cmd (command prompt)``` ou o `powershell` como administrador e digite:
-```cmd
-cd "caminho\para_o\platform-tools"
-```
-> Substitua o  `"caminho\para_o\platform-tools"` com a diretório certo para a pasta do platform tools
-
-
 > [!Warning]\
 > Se você apagar alguma partição usando o diskpart depois ou agora, o Windows vai enviar um comando ufs que é mal interpretado CAUSANDO COM QUE A UFS SEJA COMPLETAMENTE FORMATADA (O TABLET SERA BRICKADO)
 > 
@@ -37,7 +29,6 @@ cd "caminho\para_o\platform-tools"
 >
 > **POR FAVOR NÃO USE VÍDEOS TUTORIAIS DO YOUTUBE OU QUALQUER OUTRA PLATAFORMA! ESTES PODEM ESTAR DESATUALIZADOS E VOCÊ PODE BRICKAR SEU TABLET SEGUINDO OS MESMOS! PRECISA DE UM TUTORIAL EM VÍDEO, USE ESSE (VÍDEO EM INGLÊS) [NEW VIDEO GUIDE](https://youtu.be/BbgTbTGbXYg) DO [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
 
-
 ### Particionando seu dispositivo e fazendo backup da boot.img
 
 #### Inicie o recovery usando seu PC com o comando
@@ -45,6 +36,12 @@ cd "caminho\para_o\platform-tools"
 fastboot boot <recovery.img>
 ```
 #### Particionando seu dispositivo
+> [!NOTE]
+> Não sabe como começar? Só descompactar o [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools), por exemplo ```"C:\platform-tools"``` e abra o ```cmd (command prompt)``` ou o `powershell` como administrador e digite:
+```cmd
+cd "caminho\para_o\platform-tools"
+```
+> Substitua o  `"caminho\para_o\platform-tools"` com a diretório certo para a pasta do platform tools
 
 > Se o comando disser pra fazer de novo, faça
 
