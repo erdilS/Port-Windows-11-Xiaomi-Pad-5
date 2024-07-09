@@ -8,7 +8,7 @@ Esta não é uma lista muito abrangente, é apenas uma lista de apps/jogos que f
 
 Aqui uma lista de softwares compilados para ARM [neste link](https://armrepo.ver.lt/)
 
-#### Finished!
+#### Concluído!
 
 ## Esconder o disco D: (Partição modem)
 > [!NOTE]
