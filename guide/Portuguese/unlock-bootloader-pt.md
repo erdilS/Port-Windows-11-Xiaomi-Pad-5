@@ -25,7 +25,7 @@
    **Na MIUI:**
    - Vá para Configurações → Sobre o telefone → Versão do MIUI.
    - Aperte na Versão do MIUI várias vezes até que a opções do desenvolder seja ativada (um popup vai avisar).
-   **for HyperOS:**
+   **Na HyperOS:**
    - Vá para Configurações → Sobre o telefone → Informações e especificações detalhadas → Versão do OS.
    - Aperte na Versão do OS várias vezes até que a opções do desenvolder seja ativada (um popup vai avisar).
 
