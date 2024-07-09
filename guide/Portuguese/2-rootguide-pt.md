@@ -13,7 +13,7 @@
 - [```A boot.img do Android```](/guide/Portuguese/1-partition-pt.md#fa%C3%A7a-um-backup-da-sua-bootimg-atual) (que você fez o backup seguindo a página anterior)
 
 
-## Patch da boot.img com o magisk
+### Patch da boot.img com o magisk
 - Copie o arquivo ```normal_boot.img``` da pasta ```platform tools``` para o armazenamento do tablet 
 
 - Faça o download e instale o [Magisk app](https://github.com/topjohnwu/Magisk/releases/latest) no tablet
@@ -26,7 +26,7 @@
   
 - Abra o cmd (command prompt) na pasta platform tools 
 
- ## Faça o flash do magisk_patched.img
+ ### Faça o flash do magisk_patched.img
  > Substitua o `<magisk_patched.img>` com o nome (ou caminho) que está no ```magisk_patched.img``` que você copiou do tablet.
 ```cmd
 fastboot flash boot <magisk_patched.img>
