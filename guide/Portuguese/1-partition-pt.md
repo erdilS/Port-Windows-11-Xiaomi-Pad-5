@@ -34,8 +34,9 @@ cd "caminho\para_o\platform-tools"
 > Use essa mesma janela em todos os passos.
 
 #### Inicie o recovery usando seu PC com o comando
+> Substitua o **caminho\para_o** com o caminho correto do recovery.img
 ```cmd
-fastboot boot <recovery.img>
+fastboot boot caminho\para_o\recovery.img
 ```
 #### Particionando seu dispositivo
 
