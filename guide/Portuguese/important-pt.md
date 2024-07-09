@@ -6,7 +6,7 @@
 > Embora o Xiaomi Pad 5 seja no momento o dispositivo Android que roda Windows com melhor suporte e estabilidade, existem alguns raros problemas que pode afetar seu dispositivo de forma severa. Tenha certeza de que você compreenda esses problemas antes de instalar o Windows.
 
 ## 24H2 Problemas com EDL
-Se você criar um ponto de restauração ou modificar qualquer partição (mesmo que em um dispositivo externo) no gerencador de disco no lançamento 24H2, seu dispositivo ficará no modo EDL após reiniciar. Não se sabe a causa disso, mas acontece em qualquer dispositivo WoA, incluindo o Mi Pad 5.
+Se você criar um ponto de restauração ou modificar qualquer partição (mesmo que em um dispositivo externo) no gerencador de discos no lançamento 24H2, seu dispositivo ficará no modo EDL após reiniciar. Não se sabe a causa disso, mas acontece em qualquer dispositivo WoA, incluindo o Mi Pad 5.
 
 Se você quiser usar o Windows 11 24H2;
 - **NÃO CRIE UM PONTO DE RESTAURAÇÃO** e não use programas que crie um (exemplo: Driver Booster Pro).
