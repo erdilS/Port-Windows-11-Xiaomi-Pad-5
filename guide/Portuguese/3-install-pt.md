@@ -5,10 +5,6 @@
 > **POR FAVOR NÃO USE VÍDEOS TUTORIAIS DO YOUTUBE OU QUALQUER OUTRA PLATAFORMA! ESTES PODEM ESTAR DESATUALIZADOS E VOCÊ PODE BRICKAR SEU TABLET SEGUINDO OS MESMOS! PRECISA DE UM TUTORIAL EM VÍDEO, USE ESSE (VÍDEO EM INGLÊS) [VIDEO GUIDE](https://youtu.be/BbgTbTGbXYg) POR [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
 
 ## Instalação
-> [!NOTE]
-> É recomendado que use o CMD ou powershell como administrador, e então acessar a pasta platform-tools usando o comando `cd C:\caminho\para_o\platform-tools`, substituindo o \caminho\para_o com o caminho correto para a pasta platform-tools.
-> Use a mesma janela para todos os comandos, não feche a janela em nenhum momento.
-
 ### Pré requesitos
 - ```Cérebro```
   
