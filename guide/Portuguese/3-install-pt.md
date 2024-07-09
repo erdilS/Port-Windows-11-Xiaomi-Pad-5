@@ -28,46 +28,6 @@ adb shell msc
 ### Atribuindo letras para WINNABU e ESPNABU
 > Execute o script **DriveLetterAssigner_NABU** e pressione `Y` no seu teclado para atribuir as letras **X** e **Y** nas partições **WINNABU** e **ESPNABU**
 
-
-
-
-
-
-
-
-### Inicie o gerenciador de discos do Windows
-> Quando o seu Xiaomi Pad 5 for detectado como um disco use
-```cmd
-diskpart
-```
-
-#### Selecione o volume Windows do tablet
-> Use `list volume` para encontrá-lo, é o que tem o nome de **WINNABU**
-```diskpart
-select volume <número>
-```
-
-#### Atribua a letra X
-```diskpart
-assign letter x
-```
-
-#### Selecione o volume ESP do tablet
-> Use `list volume` para encontrá-lo, é o que tem o nome de **ESPNABU**
-```diskpart
-select volume <número>
-```
-
-#### Atribua a letra Y
-```diskpart
-assign letter y
-```
-
-#### Saia do diskpart 
-```diskpart
-exit
-```
-
 ### Instalar Windows
 > Substitua o `<caminho\para_o\install.esd>` com o caminho correto do arquivo install.esd (também pode estar nomeado como install.wim)
 ```cmd
