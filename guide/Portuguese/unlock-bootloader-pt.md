@@ -1,81 +1,80 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-# Running Windows on the Xiaomi Pad 5
+# Windows no Xiaomi Pad 5
 
-## Unlocking the Bootloader: A Detailed Step-by-Step Guide for HyperOS/MIUI
+## Desbloqueando o Bootloader: Um guia detalhado passo-a-passo para HyperOS/MIUI
 
-### Prerequisites:
-- [```Mi Community App(only for HyperOS/MIUI 14)```](https://apkpure.net/xiaomi-community/com.mi.global.bbs/download).
+### Pré requesitos:
+- [```Aplicativo Mi Community(apenas para HyperOS/MIUI 14)```](https://apkpure.net/xiaomi-community/com.mi.global.bbs/download).
 
-- [`Mi Unlock Tool`](https://miuirom.xiaomi.com/rom/u1106245679/6.5.224.28/miflash_unlock-en-6.5.224.28.zip).
+- [`A Mi Unlock Tool`](https://miuirom.xiaomi.com/rom/u1106245679/6.5.224.28/miflash_unlock-en-6.5.224.28.zip).
 >
 
 >[!NOTE]
 >
-> Waiting period in Mi unlock Tool May be different so wait till.
+> O período de espera na Mi Unlock Tool pode variar, apenas aguarde.
 
 >[!WARNING]
 >
-> During the waiting period, do not reset your device or log out of your Xiaomi account.
+> Durante o período de espera, não formatar o tablet ou desconectar a sua conta Xiaomi.
 >
-> Backup Data: Unlocking the bootloader will erase all data on your device. Make sure to back up important data before proceeding.
+> Fazer Backup: Desbloquear o Bootloader vai formatar seu tablet, por isso faça o Backup de arquivos importantes antes de desbloquear.
 
-### 1. Enable Developer Options:
+### 1. Ativar a Opções do Desenvolvedor:
 
-   **for MIUI:**
-   - Go to Settings → About phone → MIUI version.
-   - Tap the MIUI version multiple times until developer options are enabled(you will se a popup down).
-
+   **Na MIUI:**
+   - Vá para Configurações → Sobre o telefone → Versão do MIUI.
+   - Aperte na Versão do MIUI várias vezes até que a opções do desenvolder seja ativada (um popup vai avisar).
    **for HyperOS:**
-   - Go to Settings → My device → Detailed info and specs → OS version.
-   - Tap the OS version multiple times until developer options are enabled(you will se a popup down).
+   - Vá para Configurações → Sobre o telefone → Informações e especificações detalhadas → Versão do OS.
+   - Aperte na Versão do OS várias vezes até que a opções do desenvolder seja ativada (um popup vai avisar).
 
 
 ### 2. Enable OEM Unlocking and USB Debugging:
-   - Go to Settings → Additional settings → Developer options.
-   - Enable OEM unlocking and USB debugging.
+   - Vá para Configurações → Configurações adicionais → Opções do Desenvolvedor.
+   - Ative o Desbloqueio de OEM e a Depuração USB.
 
-### 3. Bind Mi Account:/Apply to unlock
+### 3. Adicionar conta e solicitar o desbloqueio
 
 <details>
-<summary><b><strong>Standard Process (For those who is on Miui-13 or less):</strong></b></summary>
+<summary><b><strong>Processo comum (Para aqueles na Miui-13 ou inferior):</strong></b></summary>
 
- **```3. Bind Mi Account:```**
-   - Go to Settings > Additional settings > Developer options > Mi Unlock status.
-   - Click on "Add your Mi Account." After successful addition, you will see "Added Successfully."
+ **```3. Adicionar conta:```**
+   - Vá para Configurações > Configurações adicionais > Opções do Desenvolvedor > Status do Mi Unlock.
+   - Aperte em "Adicionar conta e dispositivo". Se feito com sucesso, o aviso "Adicionado com sucesso" vai surgir.
 
   </summary>
 </details>
 
 <details>
-<summary><b><strong>New Process (only for HyperOS/miui-14):</strong></b></summary>
+<summary><b><strong>Novo Processo (Apenas para HyperOS/miui-14):</strong></b></summary>
 
 >
 
-> If your device is the global version, you can apply for the bootloader unlock at a specific time.
+> Se seu dispositivo é da versão global, vocẽ pode se inscrever para o desbloqueio de bootloader em um horário específico.
 
-   **Time Trick:**
-   - Xiaomi allows 2,000 devices to be apply unlock daily.
-   - The reset time for this daily limit is 7 PM Moscow time.
+   **Truque do Horário:**
+   - A Xiaomi permite a inscrição diária de 2,000 dispositivos.
+   - O horário que essa contagem diária reseta é as 7 PM Horário de Moscow.
 
- **```3. Apply to unlock:```**
-   - Match your time with 7 PM Moscow time and be ready if you were not fast this will not work.
-   - Open Xiaomi Community app, set it to Global, and sign in with the same account as on your device.
-   - Go to the "Me" tab, click on "Unlock bootloader," then click on "Apply".
-   - Once granted access, go to Settings > Additional settings > Developer options > Mi Unlock status.
-   - Click on "Add your Mi Account." After successful addition, you will see "Added Successfully."
+ **```3. Solicitando o Desbloqueio:```**
+   - Sincronize com o fuso horário de Moscow e quando for as 7 PM, esteja pronto e seja rápido.
+   - Abra o aplcativo Xiaomi Community, selecione Global, e entre com a mesma conta do seu dispositivo.
+   - Vá para a sessão "Me", clique na opção "Unlock bootloader," e por fim em "Solicite o desbloqueio".
+   - Quando você receber o acesso, vá para Configurações > Configurações adicionais > Opções do Desenvolvedor > Status do Mi Unlock.
+   - Aperte em "Adicionar conta e dispositivo". Se feito com sucesso, o aviso "Adicionado com sucesso" vai surgir.
 
   </summary>
 </details>
 
-### 4. Unlocking the Bootloader:
-   - Open the Mi Flash Unlock Tool and sign in with the same Mi account.
-   - Put your device in Fastboot Mode and connect it to your PC.
-   - Use the Mi Unlock Tool on your PC to unlock the bootloader.
-   - If it shows a waiting period error after 99%, likely 72 hours/3 days, close everything and wait until the period is over, then repeat step 4.
+### 4. Desbloqueando o Bootloader:
+   - Abra a Mi Flash Unlock Tool e entre com a mesma conta Mi do dispositivo.
+   - Inicie o dispositivo no modo Fastboot e conecte no PC.
+   - Use a Mi Unlock Tool no seu PC para desbloquear o bootloader.
+   - se o erro periódo de espera (waiting period error) surgir depois dos 99%, provavelmente 72 hours/3 dias, saia do programa e espere esse periódo acabar, então repita o passo 4.
 
   
-#### Credits and Acknowledgements:
-This guide has been tested by: [@ArKT_7](https://t.me/ArKT_7), [@I914900HX](https://t.me/I914900HX), [@Samponnporlsak](https://t.me/Samponnporlsak)
+#### Créditos e Reconhecimentos:
+Este guia foi testado por: [@ArKT_7](https://t.me/ArKT_7), [@I914900HX](https://t.me/I914900HX), [@Samponnporlsak](https://t.me/Samponnporlsak)
 
-Special thanks to [@hxruofficial](https://t.me/hxruofficial) for sharing the time trick to apply in HyperOS/miui-14. He specializes in Qualcomm flashing, EDL, and FDL. Check out his tools and services at [HXRU Tool](https://hxrutool.com/).
+Agradecimentos especiais para [@hxruofficial](https://t.me/hxruofficial) por compartilhar o truque do horário na HyperOS/miui-14. Ele é especializado em Qualcomm flashing, EDL, e FDL. Veja as ferramentas e serviços dele em [HXRU Tool](https://hxrutool.com/).
