@@ -44,7 +44,7 @@ Esse projeto ainda está em desenvolvimento, todos os arquivos são contribuiç�
 
 - [Re-instalação](/guide/Portuguese/reinstall-pt.md)
 
-- [Re-rooting Android](guide/English/Re-rooting-en.md)
+- [Refazendo o Root no Android](/guide/Portuguese/Re-rooting-pt.md)
 
 - [Apps úteis e algumas instruções](/guide/Portuguese/Additional-materials-pt.md)
 
