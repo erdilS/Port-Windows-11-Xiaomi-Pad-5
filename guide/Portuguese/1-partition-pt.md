@@ -31,7 +31,7 @@
 ```cmd
 cd "caminho\para_o\platform-tools"
 ```
-> Substitua o  `"caminho\para_o\platform-tools"` com a diretório certo para a pasta do platform tools
+> Use essa mesma janela em todos os passos.
 
 #### Inicie o recovery usando seu PC com o comando
 ```cmd
