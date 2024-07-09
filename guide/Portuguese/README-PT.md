@@ -21,23 +21,30 @@ Esse projeto ainda está em desenvolvimento, todos os arquivos são contribuiç�
 
 
 ## Primeiros Passos
-- [Instalação](/guide/Portuguese/1-partition-pt.md)
 
-- [Configurando Dualboot](/guide/Portuguese/dualboot-pt.md)
+- [**```IMPORTANTE: LEIA PRIMEIRO!```**](guide/Portuguese/important-pt.md)
+
+- [Status do Projeto](/guide/Portuguese/status.md)
+
+- [Instalação](/guide/Portuguese/1-partition-pt.md)
 
 - [Desinstalação](/guide/Portuguese/uninstall-pt.md)
 
 
 ## Outros
-- [Status do Projeto](/guide/Portuguese/status.md)
+- [Desbloqueando o Bootloader](/guide/Portuguese/unlock-bootloader-pt.md)
+
+- [Configurando Dualboot](/guide/Portuguese/dualboot-pt.md)
 
 - [Resolvendo problemas](/guide/Portuguese/troubleshooting-pt.md)
 
 - [Atualizando os Drivers](/guide/Portuguese/update-pt.md)
 
+- [Atualizando a UEFI](/guide/Portuguese/UEFI-updating-pt.md)
+
 - [Re-instalação](/guide/Portuguese/reinstall-pt.md)
 
-- [Atualizando a UEFI](/guide/Portuguese/UEFI-updating-pt.md)
+- [Re-rooting Android](guide/English/Re-rooting-en.md)
 
 - [Apps úteis e algumas instruções](/guide/Portuguese/Additional-materials-pt.md)
 
