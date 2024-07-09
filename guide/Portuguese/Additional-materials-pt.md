@@ -58,7 +58,7 @@ Siga as instruções do Massgravel [aqui](https://github.com/massgravel/Microsof
 #### Concluído!
 
 
-## Como usar o Flash traseiro no Windows 
+## ~Como usar o Flash traseiro no Windows~
  - Faça o download do arquivo [Flashlight.7z](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/flashlight_fix.7z) e descompacte o arquivo em qualquer pasta
 > Execute o flashlight.exe para ativar o Flash
 > Pressione qualquer tecla pra desativar
@@ -66,21 +66,42 @@ Siga as instruções do Massgravel [aqui](https://github.com/massgravel/Microsof
 #### Concluído!
 
 
+## Factory reset Windows 11
+> [!Warning]
+> After you complete these steps, all your data in Windows will be erased including files, settings, and apps.
+- Open Settings app.
+- Click on System.
+- Click the Recovery tab.
+- Under the **Recovery options** section, click the ```Reset PC``` button in the **Reset this PC** setting.
+- Click the ```Remove Everything``` option.
+- Select the ```Local reinstall``` option.
+- Click the `Next` button.
+- Click the `Reset` button.
+> After rebooting, you will get a clean Windows.
 
+#### Finished!
 
+## Disable adaptive brightness
 
+- Open Windows 11 Settings by pressing **`Win + I`** or by right-clicking the Start button and selecting "Settings".
 
+- Navigate to the **`System`** section from the left sidebar.
 
+- Select **`Display`** within the System settings.
 
+- In the **`Brightness`** section, you'll see two options:
 
+**```1. Change brightness automatically when lighting changes:```**
 
+> Turn this option off by toggling the switch to the **`Off`** position.
+  
+ **```2. Change brightness based on content:```**
 
+> Turn this option off by selecting **`Off`** from the dropdown menu.
 
+>[!NOTE]
+> After making these changes, adaptive brightness and content-adaptive brightness will be disabled on your device.
 
-
-
-
-
-
+ #### Finished!
 
 
