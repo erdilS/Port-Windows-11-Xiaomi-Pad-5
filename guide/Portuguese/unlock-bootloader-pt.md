@@ -5,7 +5,7 @@
 ## Desbloqueando o Bootloader: Um guia detalhado passo-a-passo para HyperOS/MIUI
 
 ### Pré requesitos:
-- [```Aplicativo Mi Community(apenas para HyperOS/MIUI 14)```](https://apkpure.net/xiaomi-community/com.mi.global.bbs/download).
+- [```Aplicativo Mi Community (apenas para HyperOS/MIUI 14)```](https://apkpure.net/xiaomi-community/com.mi.global.bbs/download).
 
 - [`A Mi Unlock Tool`](https://miuirom.xiaomi.com/rom/u1106245679/6.5.224.28/miflash_unlock-en-6.5.224.28.zip).
 >
