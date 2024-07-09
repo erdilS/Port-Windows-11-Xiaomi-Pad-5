@@ -61,7 +61,7 @@ mountvol y: /d
 adb reboot
 ```
 
-> Set up your device, then go to the last step
+> Faça a configuração inicial, e siga para o último passo
 
 ## [Último passo: Configurar o Dualboot](/guide/Portuguese/dualboot-pt.md)
 
