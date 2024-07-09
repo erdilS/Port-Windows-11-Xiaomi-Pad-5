@@ -40,11 +40,9 @@ dism /apply-image /ImageFile:<caminho\para_o\install.esd> /index:6 /ApplyDir:X:\
 > Se o erro `Error 87` surgir, verifique o index da sua imagem (install.esd ou install.wim) com o comando `dism /get-imageinfo /ImageFile:<caminho\para_o\install.esd>`, e bustitua o `index:6` com o index correto do Windows 11 Pro da sua imagem
 
 ### Instalar os drivers
-> Se aparecer `"Automatic WINNABU detection failed! Enter Drive Letter manually"` digite **`X`**
-```cmd
- abra a pasta dos Drivers e inicie o OfflineUpdater.cmd
-```
-> If any errors appear under **Installing App Packages**, ignore them and continue
+> Descompacte o arquivo dos Drivers, então execute o arquivo `OfflineUpdater.cmd`
+
+> Se exigido que você digite uma letra, digite a letra da partição **WINNABU** (no caso a letra **X**), aperte enter
 
 #### Crie os arquivos do bootloader do windows para o EFI
 > Se um erro acontecer ao copiar os arquivos de boot, verifique com o `diskpart` se o ESPNABU ainda está com a letra Y. Se não estiver com a letra Y, use outra letra (como o K por exemplo) e substitua a letra Y do comando abaixo com a nova letra que você colocou
