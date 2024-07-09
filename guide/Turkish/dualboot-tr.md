@@ -1,39 +1,39 @@
-<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
+# Xiaomi Pad 5 Üzerinde Windows Çalıştırma
 
-# Xiaomi Pad 5'te Windows Çalıştırma
+## Android ve Windows'u Sorunsuz Dualboot Yapma
 
-## Android ve Windows'u sorunsuzca dualboot edebilme
-
-### Gerekli Dosyalar
+### Gereksinimler
 - ```Beyin```
-- ```Rootlu bir tablet```
-- ```Tablette yüklü Windows```
-- [```UEFI imajı```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+- ```Rootlu tablet```
+- ```Tablete kurulu Windows```
+- [```UEFI görüntüsü```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 - [```WoA Helper uygulaması```](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
-- [```StA Installer```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
 
-## Dualboot uygulamasının kurulumu
-> Bu rehber rootlu olduğunuzu varsayar, eğer değilseniz lütfen öncelikle [root rehberini](2-rootguide-tr.md) takip edin
+## Dualboot Uygulamasını Ayarlama
+> Bu kılavuz rootlu olduğunuzu varsayar, rootlu değilseniz, lütfen önce [root kılavuzunu](2-rootguide-tr.md) takip edin
 
-### Android Tarafındaki Kurulum
-- **WoA Helper** uygulamasını indirin ve kurun, sonrasında uygulamayı açın ve root erişimi verin.
-- **UEFI imajını** indirin ve dahili depolama alanınızdaki `UEFI` adlı klasörün içerisine yerleştirin.
-- **WoA Helper** uygulamasını açın ve **WOA TOOLBOX**'taki **STA CREATOR**'u kullanın
-
-> [!Important]
-> `/sdcard/Windows` klasörü boşsa, romunuz mount işlevini desteklemiyordur. Bu durumda uygulama içerisinde bir boot.img dosyası oluşturmak ve bunu, Windows'a ilk boot edişinizde manuel olarak kopyalamak zorundasınız (mesela, dosyayı bir yere upload edip sonrasında Windows'a geçtiğinizde dosyayı indirebilirsiniz). Aynı şeyler dahili depolamanızda oluşturulan StA dosyaları için de geçerlidir
+### Kurulum - Android
+- **WOA Helper** uygulamasını indirin ve kurun, ardından açın ve root erişimi verin.
+- **UEFI görüntüsünü** indirin ve dahili depolamanızda `UEFI` adlı klasörün içine yerleştirin.
+- WOA Helper uygulamasını açın ve **WOA TOOLBOX**'ta **STA CREATOR**'ı kullanın.
+> [!Önemli]
+> Eğer `/sdcard/Windows` boşsa, ROM'unuz mount desteklemiyor demektir ve uygulama içinde boot.img yedeği oluşturmanız, ardından Windows'a önyükleme yaptıktan sonra manuel olarak kopyalamanız gerekecek (örneğin bir yere yükleyip ardından Windows'a önyükleme yaptığınızda indirerek). Aynı şey iç depolamanızda oluşturulan StA dosyaları için de geçerlidir.
 >
-> Eğer klasör salt okunur ise aynı şeyleri yapmanız gerekir
+> Klasör salt okunursa da aynı işlemi yapın.
+- **QUICKBOOT TO WINDOWS** butonuna basın.
 
-- **QUICKBOOT TO WINDOWS** butonuna basın
+### Kurulum - Windows
+> [!İpucu]
+> Eğer bu ilk defa Windows'u önyüklediğiniz zamansa ve Microsoft Hesabı girişini atlamak istiyorsanız, WiFi sayfasında **İnternetim yok** butonuna basın, ardından istendiğinde **Sınırlı kurulumla devam et** butonuna basın.
+- `C:\sta` dizinine gidin ve **sta.exe**'nin bir kısayolunu masaüstünüze oluşturun, eğer zaten mevcut değilse
 
-### Windows Tarafındaki Kurulum
--  `C:\sta` konumuna gidin, -eğer yoksa- masaüstüne sta.exe'nin bir kısayolunu oluşturun.
+#### Android'e Önyükleme
+- Masaüstünüzdeki yeni kısayolu çalıştırın (kolay erişim için başlat menüsüne veya görev çubuğuna da sabitleyebilirsiniz)
 
-#### Android'e boot etme
-- Masaüstünüzde yeni oluşturulmuş olan kısayolu çalıştırın (erişim kolaylığı için başlat menünüze ya da görev çubuğunuza sabitleyebilirsiniz)
-
-#### Windows'a boot etme
-- WOA Helper uygulamasındaki `WINDOWS'A QUICKBOOT ET` butonuna basın ya da hızlı ayarlar panelinizde yeni oluşturulmuş olan toggle'ı kullanın
+#### Windows'a Önyükleme
+- Uygulama içindeki **QUICKBOOT TO WINDOWS** butonuna basın veya hızlı ayarlar panelinizde yeni oluşturulan düğmeyi kullanın
   
-## Bitti!
+## Tamamlandı!
+
+> [!İPUCU]
+> Windows'unuzu nasıl etkinleştireceğinize dair kılavuzun yanı sıra diğer yararlı bilgileri bulabileceğiniz [**```Yararlı uygulamalar ve talimatlar```**](Additional-materials-en.md) sayfasına göz atmayı unutmayın.
