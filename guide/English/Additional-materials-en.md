@@ -84,9 +84,28 @@ Follow the instructions by Massgravel [here](https://github.com/massgravel/Micro
 #### Finished!
 
 
+## Disable adaptive brightness
 
+- Open Windows 11 Settings by pressing **`Win + I`** or by right-clicking the Start button and selecting "Settings".
 
+- Navigate to the **`System`** section from the left sidebar.
 
+- Select **`Display`** within the System settings.
+
+- In the **`Brightness`** section, you'll see two options:
+
+**```1. Change brightness automatically when lighting changes:```**
+
+> Turn this option off by toggling the switch to the **`Off`** position.
+  
+ **```2. Change brightness based on content:```**
+
+> Turn this option off by selecting **`Off`** from the dropdown menu.
+
+>[!NOTE]
+> After making these changes, adaptive brightness and content-adaptive brightness will be disabled on your device.
+
+ #### Finished!
 
 
 
