@@ -1,7 +1,7 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 
-# Windows no the Xiaomi Pad 5
+# Windows no Xiaomi Pad 5
 
 ## Re-instalação
 Se você não gostou da sua versão do Windows, estragou sua instalação do Windows, ou algo do tipo, você provavelmente vai querer re-instalar o Windows. Por sorte isso é algo muito simples de fazer.
