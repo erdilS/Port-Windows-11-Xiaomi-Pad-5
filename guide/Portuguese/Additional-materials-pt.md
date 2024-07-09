@@ -2,6 +2,13 @@
 
 # Apps úteis e algumas instruções pra o Windows no Xiaomi pad 5
 
+### Lista de apps/jogos suportados
+Esta não é uma lista muito abrangente, é apenas uma lista de apps/jogos que foram testados pela comunidade
+[A lista pode ser encontrada aqui](https://docs.google.com/spreadsheets/d/1XYuoySgYQE0HL573sA-0RGMX7I4lt5rWJuQ8Z8yRJNY/edit?usp=drivesdk)
+
+You can also find a list of dedicated ARM software [at this link](https://armrepo.ver.lt/)
+
+#### Finished!
 
 ## Esconder o disco D: (Partição modem)
 > [!NOTE]
