@@ -39,17 +39,11 @@ cd "caminho\para_o\platform-tools"
 fastboot boot caminho\para_o\recovery.img
 ```
 #### Particionando seu dispositivo
-
+> Substitua o **$** com a quantidade de armazenamento que você quer que o Windows tenha (não escreva GB, apenas digite o número)
+> 
 > Se o comando disser pra fazer de novo, faça
-
-> Isso é **opcional**, mas você também pode definir **uma capacidade customizada para a partição do windows (por padrão, o armazenamento é divido igualmente)**
-
-> Para escolher uma capacidade customizada use  ```adb shell partition [VALOR DA CAPACIDADE DA PARTIÇÃO DO WINDOWS EM GB]```
-
-> Não precisa colocar GB no final, só o número
-
-```cmd
-adb shell partition
+```sh
+adb shell partition $
 ```
 
 ### Faça um backup da sua boot.img atual
