@@ -45,7 +45,7 @@ dism /apply-image /ImageFile:<caminho\para_o\install.esd> /index:6 /ApplyDir:X:\
 > Se exigido que você digite uma letra, digite a letra da partição **WINNABU** (no caso a letra **X**), aperte enter
 
 #### Crie os arquivos do bootloader do windows para o EFI
-> Se um erro acontecer ao copiar os arquivos de boot, verifique com o `diskpart` se o ESPNABU ainda está com a letra Y. Se não estiver com a letra Y, use outra letra (como o K por exemplo) e substitua a letra Y do comando abaixo com a nova letra que você colocou
+> Se um erro ocorrer ao copiar os arquivos do bootloader, execute o **DriveLetterAssigner_NABU** novamente, e execute o comando abaixo novamente, substituindo a letra **Y** pelo **U**
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
