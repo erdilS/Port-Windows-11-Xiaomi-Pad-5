@@ -31,9 +31,9 @@
    - Aperte na Versão do OS várias vezes até que a opções do desenvolder seja ativada (um popup vai avisar).
 
 
-### 2. Enable OEM Unlocking and USB Debugging:
+### 2. Ative o Desbloqueio de OEM e a Depuração USB:
    - Vá para Configurações → Configurações adicionais → Opções do Desenvolvedor.
-   - Ative o Desbloqueio de OEM e a Depuração USB.
+   - Ative as opções Desbloqueio de OEM e Depuração USB.
 
 ### 3. Adicionar conta e solicitar o desbloqueio
 
