@@ -60,7 +60,7 @@
 
  **```3. Solicitando o Desbloqueio:```**
    - Sincronize com o fuso horário de Moscow e quando for as 7 PM, esteja pronto e seja rápido.
-   - Abra o aplcativo Xiaomi Community, selecione Global, e entre com a mesma conta do seu dispositivo.
+   - Abra o aplicativo Xiaomi Community, selecione Global, e entre com a mesma conta do seu dispositivo.
    - Vá para a sessão "Me", clique na opção "Unlock bootloader," e por fim em "Solicite o desbloqueio".
    - Quando você receber o acesso, vá para Configurações > Configurações adicionais > Opções do Desenvolvedor > Status do Mi Unlock.
    - Aperte em "Adicionar conta e dispositivo". Se feito com sucesso, o aviso "Adicionado com sucesso" vai surgir.
