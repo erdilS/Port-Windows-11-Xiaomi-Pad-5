@@ -25,6 +25,16 @@ fastboot boot <recovery.img>
 adb shell msc
 ```
 
+### Atribuindo letras para WINNABU e ESPNABU
+> Execute o script **DriveLetterAssigner_NABU** e pressione `Y` no seu teclado para atribuir as letras **X** e **Y** nas partições **WINNABU** e **ESPNABU**
+
+
+
+
+
+
+
+
 ### Inicie o gerenciador de discos do Windows
 > Quando o seu Xiaomi Pad 5 for detectado como um disco use
 ```cmd
