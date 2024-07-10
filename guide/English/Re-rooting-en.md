@@ -10,6 +10,11 @@ This section will guide you through the re-rooting process for when MIUI/Hyper O
   
 - [```Android Platform Tools```](https://developer.android.com/studio/releases/platform-tools)
 
+### Reboot to **fastboot** 
+- Boot your NABU to **fastboot** by holding down the **`volume down`** button during reboot
+
+- Connect it to your PC/Laptop using a cable
+
 ### Start recovery through the PC with the command
 ```cmd
 fastboot boot <recovery.img>
