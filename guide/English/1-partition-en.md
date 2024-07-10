@@ -5,7 +5,7 @@
 ## Installation
 
 ### Prerequisites
-- ```Unlocked bootloader```
+- ```Unlocked bootloader (If your bootloader is locked and you don't know how to unlock it use [this](unlock-bootloader.md) guide)```
 
 -  ```Brain```
   
