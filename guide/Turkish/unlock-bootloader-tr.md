@@ -7,11 +7,11 @@
 
 - [`Mi Unlock Tool`](https://miuirom.xiaomi.com/rom/u1106245679/6.5.224.28/miflash_unlock-en-6.5.224.28.zip).
 
->[!NOT]
+>[!NOTE]
 >
 > Mi Unlock Tool'daki bekleme süresi farklı olabilir, bu yüzden bekleyin.
 
->[!UYARI]
+>[!WARNING]
 >
 > Bekleme süresi boyunca, cihazınızı sıfırlamayın veya Xiaomi hesabınızdan çıkış yapmayın.
 >
