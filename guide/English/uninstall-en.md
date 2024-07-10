@@ -19,6 +19,11 @@ If you want to relock your bootloader you'll need your partition table to be sto
 #### Switch to Android 
 > Switch to Android before starting the uninstallation process
 
+#### Reboot to fastboot
+- Boot your NABU to **fastboot** by holding down the **`volume down`** button during reboot
+
+- Connect it to your PC/Laptop using a cable
+
 #### Boot the modded recovery
 > Open a CMD window inside the platform-tools folder, then (while your tablet is in fastboot mode) run
 ```cmd
