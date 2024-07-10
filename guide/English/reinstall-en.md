@@ -18,6 +18,10 @@ If you don't like your Windows version or you've bricked your Windows install, o
 
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
+### Reboot to fastboot
+- Boot your NABU to **fastboot** by holding down the **`volume down`** button during reboot
+
+- Connect it to your PC/Laptop using a cable
 
 ### Boot recovery to format the Windows and boot partitions
 
