@@ -37,11 +37,14 @@ Run [USB Host Mode Control](https://github.com/Misha803/My-Scripts/releases/tag/
 ## Сan I update my Windows using Windows Update or an ISO image?
 - ✅ **Yes!** You can install any updates that appear in Windows Update and you can also use an ISO image for this
 
+## Can I update my Android after installing Windows?
+- ✅ **Yes!** You can update Android in any way, just use the [Re-rooting Android guide](Re-rooting-en.md) after the update
+
 ## Disable secureboot
 > [!Warning]
 > Do it only if necessary!
 
-> [Guide to disabling secureboot](/guide/English/disable-secureboot-en.md)
+> [**`Guide to disabling secureboot`**](/guide/English/disable-secureboot-en.md)
 
 #### Finished!
 
