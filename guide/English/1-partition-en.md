@@ -38,7 +38,7 @@ cd "path\to\platform-tools"
 - Connect it to your PC/Laptop using a cable
 
 #### Boot the modded recovery
-> Replace **path\to** with the actual path of the recovery image
+> Replace **path\to\recovery.img** with the actual path of the recovery image
 ```cmd
 fastboot boot path\to\recovery.img
 ```
