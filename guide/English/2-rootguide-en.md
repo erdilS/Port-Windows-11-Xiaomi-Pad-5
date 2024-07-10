@@ -20,9 +20,12 @@
   
 - Copy the ```magisk_patched....img``` file from the ```Downloads``` folder on the tablet to the ```platform tools``` folder on your computer. 
 
-- Reboot to fastboot
-  
-- Open command prompt in the platform tools folder 
+### Reboot to fastboot
+- Boot your NABU to **fastboot** by holding down the **`volume down`** button during reboot
+
+- Connect it to your PC/Laptop using a cable
+
+- Go back to the command prompt window that you opened earlier
 
 ### Flash the patched boot image
 > Replace `<magisk_patched.img>` with the actual ```magisk_patched.img``` name/path.
