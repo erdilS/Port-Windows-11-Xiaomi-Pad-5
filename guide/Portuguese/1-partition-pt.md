@@ -9,7 +9,7 @@
 
 ### Pré requesitos
 
-- ```bootloader desbloqueado```
+- [```Bootloader desbloqueado```](/guide/Portuguese/unlock-bootloader-pt.md)
 
 -  ```Cérebro```
   
@@ -18,44 +18,32 @@
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
 ### Notas:
-> [!NOTE]
-> Não sabe como começar? Só descompactar o [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools), por exemplo ```"C:\platform-tools"``` e abra o ```cmd (command prompt)``` ou o `powershell` como administrador e digite:
-```cmd
-cd "caminho\para_o\platform-tools"
-```
-> Substitua o  `"caminho\para_o\platform-tools"` com a diretório certo para a pasta do platform tools
-
-
 > [!Warning]\
-> Se você apagar alguma partição usando o diskpart depois ou agora, o Windows vai enviar um comando ufs que é mal interpretado CAUSANDO COM QUE A UFS SEJA COMPLETAMENTE FORMATADA (O TABLET SERA BRICKADO)
-> 
 > Faça um backup de seus arquivos importantes que estiverem no Android antes de começar.
-> 
-> Todos os comandos foram previamente testados.
 > 
 > NÃO REINICIE O TABLET se você acha que fez algo errado, peça por ajuda no [Telegram chat](https://t.me/nabuwoa)
 >
 > **POR FAVOR NÃO USE VÍDEOS TUTORIAIS DO YOUTUBE OU QUALQUER OUTRA PLATAFORMA! ESTES PODEM ESTAR DESATUALIZADOS E VOCÊ PODE BRICKAR SEU TABLET SEGUINDO OS MESMOS! PRECISA DE UM TUTORIAL EM VÍDEO, USE ESSE (VÍDEO EM INGLÊS) [NEW VIDEO GUIDE](https://youtu.be/BbgTbTGbXYg) DO [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
 
-
 ### Particionando seu dispositivo e fazendo backup da boot.img
+> [!NOTE]
+> Não sabe como começar? Só descompactar o [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools), e abra o ```cmd (command prompt)``` ou o `powershell` como administrador e digite o seguinte comando, substituindo o "caminho\para_o\platform-tools" com o lacal correto da pasta:
+```cmd
+cd "caminho\para_o\platform-tools"
+```
+> Use essa mesma janela em todos os passos.
 
 #### Inicie o recovery usando seu PC com o comando
+> Substitua o **caminho\para_o** com o caminho correto do recovery.img
 ```cmd
-fastboot boot <recovery.img>
+fastboot boot caminho\para_o\recovery.img
 ```
 #### Particionando seu dispositivo
-
+> Substitua o **$** com a quantidade de armazenamento que você quer que o Windows tenha (não escreva GB, apenas digite o número)
+> 
 > Se o comando disser pra fazer de novo, faça
-
-> Isso é **opcional**, mas você também pode definir **uma capacidade customizada para a partição do windows (por padrão, o armazenamento é divido igualmente)**
-
-> Para escolher uma capacidade customizada use  ```adb shell partition [VALOR DA CAPACIDADE DA PARTIÇÃO DO WINDOWS EM GB]```
-
-> Não precisa colocar GB no final, só o número
-
-```cmd
-adb shell partition
+```sh
+adb shell partition $
 ```
 
 ### Faça um backup da sua boot.img atual

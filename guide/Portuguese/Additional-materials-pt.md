@@ -2,6 +2,13 @@
 
 # Apps úteis e algumas instruções pra o Windows no Xiaomi pad 5
 
+### Lista de apps/jogos suportados
+Esta não é uma lista muito abrangente, é apenas uma lista de apps/jogos que foram testados pela comunidade
+[A lista pode ser encontrada aqui](https://docs.google.com/spreadsheets/d/1XYuoySgYQE0HL573sA-0RGMX7I4lt5rWJuQ8Z8yRJNY/edit?usp=drivesdk)
+
+Aqui uma lista de softwares compilados para ARM [neste link](https://armrepo.ver.lt/)
+
+#### Concluído!
 
 ## Esconder o disco D: (Partição modem)
 > [!NOTE]
@@ -17,8 +24,10 @@
 
 ## Desativando o modo USB host
 > [!Warning]
-> Quando o modo USB host está ligado, os dispositovos conectados no USB do tablet vão ser alimentados pelo próprio tablet.
-> Sendo assim dispositivos que não têm alimentação/que precisam de alimentação/não tem bateria própria NÃO vão funcionar quando o modo USB host estiver desativado
+> Dispositivos sem energia própria não vão funcionar
+
+> [!Important]
+> Os passos a seguir são para o seu Mi Pad 5 no Windows, não é para o seu computador.
 
 Execute o [Controle de USB Host](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) para ativar/desativar o modo USB host, no programa confirme se você quer ativar/desativar o modo USB host 
 
@@ -49,7 +58,7 @@ Siga as instruções do Massgravel [aqui](https://github.com/massgravel/Microsof
 #### Concluído!
 
 
-## Como usar o Flash traseiro no Windows 
+## ~Como usar o Flash traseiro no Windows~
  - Faça o download do arquivo [Flashlight.7z](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/flashlight_fix.7z) e descompacte o arquivo em qualquer pasta
 > Execute o flashlight.exe para ativar o Flash
 > Pressione qualquer tecla pra desativar
@@ -57,21 +66,42 @@ Siga as instruções do Massgravel [aqui](https://github.com/massgravel/Microsof
 #### Concluído!
 
 
+## Factory reset Windows 11
+> [!Warning]
+> Depois de seguido os passos, todo o conteúdo do seu Windows será apagado, incluindo arquivos, configurações e apps.
+- Abra o aplicativo de Configurações.
+- Vá em Sistema.
+- Entre na opção Recuperação.
+- Na sessão **Opções de Recuperação**, clique no botão ```Restaurar o computador```.
+- Clique em ```Remover Tudo```.
+- Selecione a opção ```Reinstalação Local```.
+- Clique em `Próximo`.
+- Clique em `Resetar`.
+> Depois de reiniciar, seu Windows estará novo em folha.
 
+#### Concluído!
 
+## Desativo o brilho adaptável
 
+- Abra as configurações do Windows 11 com **`Win + I`** ou dando um clique-direito no botão de Start e selecione "Configurações".
 
+- Navegue até a sessão **`Sistema`** na barra lateral esquerda.
 
+- Selecione **`Tela`**.
 
+- Na sessão **`Brilho`**, haverá duas opções:
 
+**```1. Mudar brilho automaticamente com mudanças de luminosidade:```**
 
+> Desative essa opção deixando o botão em **`Off`**.
+  
+ **```2. Mudar o brilho baseado no conteúdo:```**
 
+> Desative essa opção deixando o botão em **`Off`**.
 
+>[!NOTE]
+> Depois dessas mudanças, qualquer mudança automatica de brilho será desativada no seu dispositivo.
 
-
-
-
-
-
+ #### Concluído!
 
 
