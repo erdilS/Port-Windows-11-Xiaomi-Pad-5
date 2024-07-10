@@ -18,6 +18,14 @@ Charging in Windows only works on specific cables. Cables that have been known t
 
 ##### Done!
 
+## NABU in fastboot is not detected by my PC/Laptop, what should I do?
+- Download [**`QUD.zip`**](https://github.com/n00b69/woa-betalm/releases/download/Qfil/QUD.zip) and extract it.
+- Open Device Manager and find an unknown device or device with errors that may be called Android or QUSB_BULK.
+- Right click it, select **```Update Drivers```** → **`Browse files`**, then select the QUD folder you extracted before.
+
+##### Done!
+
+
 ## Device can boot into Android but not bootloader
 
 ### Prerequisites:
