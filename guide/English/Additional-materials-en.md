@@ -34,6 +34,8 @@ Run [USB Host Mode Control](https://github.com/Misha803/My-Scripts/releases/tag/
 
 #### Finished!
 
+## Сan I update my Windows using Windows Update or an ISO image?
+- ✅ **Yes!** You can install any updates that appear in Windows Update and you can also use an ISO image for this
 
 ## Disable secureboot
 > [!Warning]
