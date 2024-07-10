@@ -8,7 +8,7 @@
 
 - [English](English/unlock-bootloader-en.md)
 - ~[Português](Portuguese/)~
-- ~[Turkish](Turkish/)~
+- [Turkish](Turkish/unlock-bootloader-tr.md)
 - ~[Russian](Russian/)~
 - ~[Ukrainian](Ukrainian/)~
 - ~[Korean](Korean/)~
