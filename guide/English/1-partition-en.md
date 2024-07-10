@@ -14,6 +14,9 @@
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
 ### Notes:
+>[!NOTE]
+> You can use any Android for dualboot - MIUI/Hyper OS or any custom ROM
+
 > [!Warning]
 > All your data will be erased! Back up now if needed.
 > 
