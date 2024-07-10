@@ -16,6 +16,9 @@ If you want to relock your bootloader you'll need your partition table to be sto
   
 - [```Recovery Image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
+#### Switch to Android 
+> Switch to Android before starting the uninstallation process
+
 #### Boot the modded recovery
 > Open a CMD window inside the platform-tools folder, then (while your tablet is in fastboot mode) run
 ```cmd
@@ -24,7 +27,7 @@ fastboot boot path\to\recovery.img
 
 #### Restore the partition layout
 > [!Warning]
-> This will wipe your Android files. Backup first if needed.
+> It will wipe your Android files. Backup first if needed.
 ```cmd
 adb shell restore
 ```
