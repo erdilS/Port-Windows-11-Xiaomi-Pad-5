@@ -11,6 +11,7 @@ If you ever create a restore point or modify any partitions (even on external de
 If you want to use 24H2;
 - **DO NOT CREATE A RESTORE POINT** or use software that creates one (like Driver Booster Pro).
 - **DO NOT USE DISK MANAGER** to edit, create, format, or modify partitions in any way. This includes external devices.
+- Even if you avoid doing this, be warned that there have been cases where people's devices were sent into EDL even while avoiding anything mentioned before!
 
 ## White line issues
 In some extremely rare cases, your screen may display white lines after putting it to sleep in Windows. This is a hardware issue caused by Xiaomi shipping out screens with incompatible display configurations.
