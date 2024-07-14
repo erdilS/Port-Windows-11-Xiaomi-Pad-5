@@ -1,6 +1,5 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-
 # Xiaomi Pad 5 에서 윈도우 구동
 
 ## 루팅 
@@ -32,5 +31,6 @@
 ```cmd
 fastboot flash boot <magisk_patched.img>
 ```
+
 
 ### [다음 단계: 윈도우 설치](/guide/Korean/3-install-ko.md)
