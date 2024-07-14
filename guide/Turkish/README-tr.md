@@ -71,6 +71,7 @@ Bu proje geliştirme aşamasındadır. Buradaki tüm dosyalar birçok kullanıc�
 [<img alt="sr cn" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/161332426?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/srxcm)
 [<img alt="Mateus13000" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/38146322?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Mateus13000)
 [<img alt="annson24" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/8401837?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/annson24)
+[<img alt="Ost268" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/99175924?s=96&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/galaxysollector)
 
 
 
