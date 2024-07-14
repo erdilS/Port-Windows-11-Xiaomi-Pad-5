@@ -12,7 +12,6 @@
 - [```안드로이드 boot 이미지 백업```](/guide/Korean/1-partition-ko.md#기존-boot-이미지-백업) (가이드의 첫 페이지에서 백업한 파일)
 
 ### boot 이미지 패치 
-
 - ```normal_boot.img``` 파일을  ```플랫폼 도구``` 폴더에서 태블릿으로 복사하십시오
 
 - 태블릿에서 [Magisk 앱](https://github.com/topjohnwu/Magisk/releases/latest)을 다운로드하고 설치하십시오
