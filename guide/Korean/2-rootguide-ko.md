@@ -28,7 +28,7 @@
 - 이전에 열었던 명령 프롬프트 창으로 돌아갑니다
 
 ### 패치된 boot 이미지 플래시 
-> `<magisk_patched.img>`를 ```magisk_patched.img``` 의 실제 이름/경로로 교체하세요.
+> `<magisk_patched.img>`를 ```magisk_patched.img``` 의 실제 이름/경로로 변경하세요.
 ```cmd
 fastboot flash boot <magisk_patched.img>
 ```
