@@ -23,7 +23,7 @@
 
 ## 시작
 
-- [**```중요: 먼저 읽으세요!```**](guide/English/important.md)
+- [**```중요: 먼저 읽으세요!```**](important.md)
 
 - [프로젝트 지원 상태](status.md)
 
