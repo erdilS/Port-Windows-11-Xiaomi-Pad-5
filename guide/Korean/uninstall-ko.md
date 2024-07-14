@@ -16,14 +16,23 @@
   
 - [```리커버리 이미지```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-#### 커스텀 리커버리로 부팅합니다
+#### Android로 전환합니다
+> Switch to Android before starting the uninstallation process
+
+#### **fastboot**로 재부팅합니다
+- 재부팅될 때 **`볼륨 아래`** 버튼을 누른 상태를 유지하여 NABU를 **fastboot**로 재부팅하세요
+
+- 케이블을 사용하여 PC/노트북에 기기를 연결합니다
+
+#### 맞춤화된 리커버리로 부팅합니다
+> platform-tools 폴더에서 CMD 창을 열고, 아래의 명령어를 실행합니다 (fastboot 모드에 진입하면 실행하세요)
 ```cmd
-fastboot boot <recovery.img>
+fastboot boot path\to\recovery.img
 ```
 
 #### 파티션 레이아웃을 복원합니다
 > [!Warning]
-> 안드로이드 파일이 모두 초기화됩니다. 필요하다면 미리 백업하십시오.
+> 안드로이드 파일이 모두 초기화됩니다. 필요하다면 미리 백업하세요.
 ```cmd
 adb shell restore
 ```
