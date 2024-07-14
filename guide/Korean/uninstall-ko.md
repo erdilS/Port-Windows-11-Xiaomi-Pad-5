@@ -8,7 +8,7 @@
 
 윈도우 제거를 원할 경우 수동으로 파티션을 제거하지 않고 이 과정이 사용되며 이를 통해 실수 또한 방지합니다.
 
-부트로더 리락을 원할 경우 파티션 테이블을 순정 상태로 돌려놓아야 합니다.
+부트로더 리락을 원할 경우 파티션 테이블을 순정 상태로 복원해야 합니다.
 
 ### 준비물
 
@@ -17,7 +17,7 @@
 - [```리커버리 이미지```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
 #### Android로 전환합니다
-> Switch to Android before starting the uninstallation process
+> 제거 과정을 진행하기 전에 Android로 전환하세요
 
 #### **fastboot**로 재부팅합니다
 - 재부팅될 때 **`볼륨 아래`** 버튼을 누른 상태를 유지하여 NABU를 **fastboot**로 재부팅하세요
