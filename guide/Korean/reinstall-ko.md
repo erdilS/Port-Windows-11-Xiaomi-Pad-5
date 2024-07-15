@@ -12,7 +12,7 @@
 
 ### 준비물
 
-- ```이미 존재하는 윈도우 및 boot 파티션``` (*이것이 충족되지 않는다면, [이 가이드를 참고하세요](/guide/Korean/1-partition-ko.md)*)
+- ```이미 존재하는 Windows 및 boot 파티션``` (*해당 파티션들이 없는 경우, [이 가이드를 참고하세요](/guide/Korean/1-partition-ko.md)*)
 
 - [```리커버리 이미지```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
