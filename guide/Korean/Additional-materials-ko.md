@@ -75,40 +75,40 @@
 
 ## Windows 11 초기화
 > [!Warning]
-> After you complete these steps, all your data in Windows will be erased including files, settings, and apps.
-- Open Settings app.
-- Click on System.
-- Click the Recovery tab.
-- Under the **Recovery options** section, click the ```Reset PC``` button in the **Reset this PC** setting.
-- Click the ```Remove Everything``` option.
-- Select the ```Local reinstall``` option.
-- Click the `Next` button.
-- Click the `Reset` button.
-> After rebooting, you will get a clean Windows.
+> 이 과정을 완료하면, 파일, 설정, 앱을 포함한 Windows의 모든 데이터가 삭제됩니다.
+- 설정 앱을 엽니다.
+- 시스템을 선택합니다.
+- 복구 탭을 선택합니다.
+- **복구 옵션** 부분 밑에서, **이 PC 초기화** 부분의 ```PC 초기화``` 버튼을 선택합니다.
+- ```모든 항목 제거``` 옵션을 선택합니다.
+- ```로컬 다시 설치``` 옵션을 선택합니다.
+- `다음` 버튼을 선택합니다.
+- `다시 설정` 버튼을 선택합니다.
+> 재부팅 후에, Windows가 초기화됩니다.
 
 #### 끝!
 
 
-## 자동 밝기 최적화 비활성화
+## 밝기 최적화 비활성화
 
-- Open Windows 11 Settings by pressing **`Win + I`** or by right-clicking the Start button and selecting "Settings".
+- **`Win + I`** 키를 입력하거나 시작 버튼을 마우스로 우클릭하고 "설정"을 선택하여 Windows 11 설정을 엽니다.
 
-- Navigate to the **`System`** section from the left sidebar.
+- 왼쪽 사이드바에서 **`시스템`**을 선택합니다.
 
-- Select **`Display`** within the System settings.
+- 시스템 설정에서 **`디스플레이`**를 선택합니다.
 
-- In the **`Brightness`** section, you'll see two options:
+- **`밝기`** 부분에서, 두 개의 옵션이 있습니다:
 
-**```1. Change brightness automatically when lighting changes:```**
+**```1. 조명이 변경될 때 밝기 자동 변경:```**
 
-> Turn this option off by toggling the switch to the **`Off`** position.
+> 체크 박스를 선택 해제하여 이 옵션을 끄세요.
   
- **```2. Change brightness based on content:```**
+ **```2. 표시된 콘텐츠와 밝기를 최적화하여 배터리 향상을 지원합니다:```**
 
-> Turn this option off by selecting **`Off`** from the dropdown menu.
+> 메뉴에서 **`끄기`**를 선택하여 이 옵션을 끄세요.
 
 >[!NOTE]
-> After making these changes, adaptive brightness and content-adaptive brightness will be disabled on your device.
+> 이렇게 하면, 콘텐츠와 밝기 최적화가 기기에서 비활성화됩니다.
 
  #### 끝!
 
