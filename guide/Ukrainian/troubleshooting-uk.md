@@ -3,56 +3,54 @@
 
 # Running Windows on the Xiaomi Pad 5
 
-## Troubleshooting Issues
+## Вирішення проблем
 
+## Пристрій може завантажитися в Android, але не завантажувач
 
-## Device can boot into android but not bootloader
-
-### Prerequisites:
+### Потрібні програми:
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
 > [!WARNING]
- Probably these steps won't help you because Xiaomi Pad 5 doesn't have a fully working custom recovery to flash it to device. Also like most of newer A/B devices we don't have a TWRP Installer zip etc. and you can't boot existing recovery image because of broken fastboot. If you have already installed AOSP rom, probably it has a preinstalled AOSP recovery and you can boot it directly, so you can follow these steps. If you have unrooted MIUI, this steps won't help you.
+ Ймовірно, ці кроки вам не допоможуть, тому що Xiaomi Pad 5 не має повністю робочого користувацького відновлення, щоб прошити його на пристрій. Крім того, як і в більшості нових A/B-пристроїв, ми не маємо zip-файлу інсталятора TWRP тощо, і ви не можете завантажити наявний образ відновлення через несправність швидкого завантаження. Якщо ви вже встановили AOSP rom, ймовірно, у нього попередньо встановлено відновлення AOSP, і ви можете завантажити його безпосередньо, тож ви можете виконати ці дії. Якщо у вас нерутована MIUI, ці кроки вам не допоможуть.
 >
-> So please avoid to use disk labels which contains spaces and special characters, and if it is possible just use ESPNABU and WINNABU labels which are tested for a million times. If you brick fastboot with disk labels and you have unrooted MIUI, you have to flash rom via EDL with authorized account and you have to pay for it.
+> Тому, будь ласка, уникайте використання міток диска, які містять пробіли та спеціальні символи, і, якщо це можливо, просто використовуйте мітки ESPNABU та WINNABU, які перевірені мільйон разів. Якщо ви зламаєте швидке завантаження дисковими мітками та маєте нерутовану MIUI, вам доведеться прошити ПЗУ через EDL з авторизованим обліковим записом (ви повинні заплатити за це).
+
+Це спричинено розділами з назвами томів, які завантажувач не може обробити, щоб виправити це їх потрібно видалити, для цього введіть ці команди:
+
+- Завантажтеся у відновлення
+
+- Під'єднайте планшет до комп'ютера
+
+- Відкрийте `cmd' на комп'ютері
+
+- Виконайте ```adb shell```
+
+- Виконайте ```parted```
+
+- Виконайте ```print``` щоб показати всі розділи
+
+- Знайдіть розділи, у назвах яких є пробіли, наприклад, «Розділ основних даних», і запам’ятайте номер їхнього тому
+
+- Виконайте ```rm <vol number>``` e.g ```rm 99```
 
 
-This is caused by partitions with volume names the bootloader cannot handle, to fix this:
+## BSOD fsa4480.sys при завантаженні
 
-- Boot to recovery
+- Відкрийте теку драйверів
 
-- Connect tablet to PC
+- Видаліть теку ```components\QC8150\Device\DEVICE.SOC_QC8150.NABU\Drivers\USB```
 
-- Open cmd on PC
+- Перевстановіть драйвери
 
-- Run ```adb shell```
+- Завантажте UEFI
 
-- Run ```parted```
-
-- Run ```print``` to list all partitions
-
-- Look for partitions that have spaces in the names e.g "Basic Data Partition" and note their volume number
-
-- Now run ```rm <vol number>``` e.g ```rm 99```
+- Після завантаження знову додайте драйвер і знову встановіть драйвер
 
 
-## fsa4480.sys BSOD on boot
+## Постійне завантаження після переходу на Android
 
-- Open driver folder
-
-- Remove the ```components\QC8150\Device\DEVICE.SOC_QC8150.NABU\Drivers\USB``` folder
-
-- Reinstall the driver
-
-- Boot UEFI
-
-- After it boots, readd the driver and reinstall the driver again
-
-
-## Bootloop after switching to Android 
-
-- Run fastboot
+- Запустіть fastboot
 
 - ```fastboot set_active other```
 
