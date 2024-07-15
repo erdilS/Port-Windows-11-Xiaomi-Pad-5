@@ -3,10 +3,10 @@
 # 윈도우가 설치된 Xiaomi pad 5를 위한 유용한 앱과 설명
 
 ### 지원되는 앱/게임 목록
-This is by no means a comprehensive list, it simply lists apps/games that have been tested by the community
-[The link can be found here](https://docs.google.com/spreadsheets/d/1XYuoySgYQE0HL573sA-0RGMX7I4lt5rWJuQ8Z8yRJNY/edit?usp=drivesdk)
+이것은 결코 포괄적인 목록이 아니며 단순히 커뮤니티에서 테스트한 앱/게임을 나열한 것입니다
+[이 링크를 참고하세요](https://docs.google.com/spreadsheets/d/1XYuoySgYQE0HL573sA-0RGMX7I4lt5rWJuQ8Z8yRJNY/edit?usp=drivesdk)
 
-You can also find a list of dedicated ARM software [at this link](https://armrepo.ver.lt/)
+[이 링크에서](https://armrepo.ver.lt/) 전용 ARM 소프트웨어 목록을 확인할 수 있습니다
 
 #### 끝!
 
@@ -14,10 +14,10 @@ You can also find a list of dedicated ARM software [at this link](https://armrep
 > [!NOTE]
 > 몇몇 애플리케이션들이 이 드라이브에 쓰기 작업을 할 수 있는데, 이 드라이브가 수정되면 안 되기 때문에 이 부분은 권장됩니다
 
-- Download [`ModemHide.vbs`](https://github.com/Misha803/My-Scripts/releases/tag/ModemHide) to your NABU
-- Run it
-- Approve any UAC dialogs 
-- Click `Yes` in the dialog box
+- [`ModemHide.vbs`](https://github.com/Misha803/My-Scripts/releases/tag/ModemHide)를 NABU에 다운로드 합니다
+- 파일을 실행합니다
+- 사용자 계정 컨트롤 창에서 권한을 허용합니다 
+- 창이 나타나면 `Yes`를 선택합니다
 
 
 #### 끝! 
@@ -28,17 +28,17 @@ You can also find a list of dedicated ARM software [at this link](https://armrep
 > 전원이 공급되지 않는 USB 장치는 작동하지 않습니다
 
 > [!Important]
-> The following steps must be done on the Mi Pad 5 in Windows, not on your computer. 
+> 이 과정은 컴퓨터가 아니라 Mi Pad 5의 Windows에서 진행해야 합니다.
 
-Run [USB Host Mode Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) to enable/disable USB host mode and  confirm that you want to disable/enable USB host mode 
+[USB Host Mode Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control)을 실행하여 USB 호스트 모드를 활성화/비활성화하세요. USB 호스트 모드를 비활성화/활성화할지 확인하세요 
 
 #### 끝!
 
-## Сan I update my Windows using Windows Update or an ISO image?
-- ✅ **Yes!** You can install any updates that appear in Windows Update and you can also use an ISO image for this
+## Windows 업데이트나 ISO 이미지를 사용하여 Windows를 업데이트할 수 있나요?
+- ✅ **네!** Windows 업데이트에서 모든 업데이트를 설치할 수 있으며 ISO 이미지를 사용하여 진행할 수도 있습니다.
 
 ## Can I update my Android after installing Windows?
-- ✅ **Yes!** You can update Android in any way, just use the [Re-rooting Android guide](Re-rooting-en.md) after the update
+- ✅ **네!** 어떤 방식으로든 Android를 업데이트할 수 있습니다. 업데이트 후 [안드로이드 재루팅 가이드](Re-rooting-ko.md)를 참고하세요
 
 ## secureboot 비활성화
 > [!Warning]
@@ -61,7 +61,7 @@ Run [USB Host Mode Control](https://github.com/Misha803/My-Scripts/releases/tag/
 
 
 ## Windows / Office 활성화
-[이곳](https://github.com/massgravel/Microsoft-Activation-Scripts)에서 Massgravel의 설명을 참조하세요
+[이곳](https://github.com/massgravel/Microsoft-Activation-Scripts)에서 Massgravel님의 설명을 참조하세요
 
 #### 끝!
 
