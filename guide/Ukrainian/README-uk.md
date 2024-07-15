@@ -19,13 +19,12 @@
 > [!WARNING]
 > **БУДЬ ЛАСКА, НЕ ВИКОРИСТОВУЙТЕ ВІДЕОІНСТРУКЦІЇ НА YOUTUBE АБО БУДЬ-ЯКІЙ ІНШІЙ ПЛАТФОРМІ! ЦІ ВІДЕО ЗАСТАРІЛИ, І ВИ МОЖЕТЕ ВИКОРИСТОВУВАТИ ЇХ НА СВОЄМУ ПРИСТРОЇ! ЯКЩО ВАМ КОНЧЕ ПОТРІБЕН ВІДЕОГАЙД, СКОРИСТАЙТЕСЯ ЦИМ [ВІДЕОПОСІБНИКОМ](https://youtu.be/BbgTbTGbXYg) ВІД [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
 
-
 ## Початок
-- [Встановлення](1-partition-uk.md)
+- [Встановлення Windows](1-partition-uk.md)
   
 - [Налаштування подвійного завантаження](dualboot-uk.md)
   
-- [Видалення](uninstall-uk.md)
+- [Видалення Windows](uninstall-uk.md)
 
 ## Різне
 - [Статус проекту](status.md)
