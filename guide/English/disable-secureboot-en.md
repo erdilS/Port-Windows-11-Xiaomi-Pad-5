@@ -1,117 +1,117 @@
-<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Працює на Xiaomi Pad 5">
+<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-# Запуск Windows на Xiaomi Pad 5
+# Running Windows on the Xiaomi Pad 5
 
-## Вимкнення безпечного завантаження
-> [!Важливо]
-> Дотримуйтесь цього посібника, лише якщо ви хочете вимкнути безпечне завантаження.
+## Disabling secureboot
+> [!Important]
+> Follow this guide only if you want to disable secureboot.
 
-### Передумови
-- ```Мозок```
+### Prerequisites
+- ```Brain```
 
-- [```Android platform-tools```](https://developer.android.com/studio/releases/platform-tools)
+- [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
-- [```Образ відновлення```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```Recovery Image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-- [```Образ UEFI з вимкненним secureboot```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-NoSecureboot-v3.img)
+- [```UEFI image (Secureboot off)```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-NoSecureboot-v3.img)
 
-## Плюси та мінуси безпечного завантаження
-> За умовчанням безпечне завантаження ввімкнено в цьому посібнику
+## Pros and cons of secureboot
+> By default, secureboot is enabled in this guide
 
-##### Плюси і мінуси безпечного завантаження
-- √ Без водяного знака на головному екрані
-- √ Програми, які не працюють у тестовому режимі, працюватимуть
-- √ Ви можете робити великі оновлення (наприклад, з 22H2 до 23H2) безпосередньо в оновленні Windows
-- × Ви не можете встановити непідписані драйвери
+##### Pros and cons of secureboot
+- √ No watermark on homescreen
+- √ Apps that do not work with Test Mode will work
+- √ You can update big versions (e.g 22h2 to 23h2) in Windows update directly
+- × You cannot install unsigned drivers
 
-##### Плюси та мінуси вимкненого безпечного завантаження 
-- √ Ви можете інсталювати непідписані драйвери
-- × Водяний знак на головному екрані
-- × Деякі програми/ігри з античіт-програмним забезпеченням можуть не працювати
-- × Ви не можете оновлювати робити великі оновлення (наприклад, 22H2 до 23H2) через Windows Update
+##### Pros and cons of secureboot disabled
+- √ You can install unsigned drivers
+- × Test mode watermark on homescreen
+- × Some apps/games with anti-cheat software may not work
+- × You cannot update big versions (e.g 22h2 to 23h2) through Windows Update
 
-## Вимкнення безпечного завантаження
+## Disabling secureboot
 
-#### Зробіть резервну копію кореневого завантажувального образу
-> Це знадобиться, щоб повернутися до Android, але ви можете пропустити цей крок, якщо ви вже зробили резервну копію
+#### Make a backup of your rooted boot image
+> You will need this to return to Android, but you can skip this step if you've already made a backup
 
-Скористайтеся функцією «Резервне копіювання завантаження Android» у програмі WOA Helper або завантажте модифіковане відновлення та запустіть
+Use the `Backup Android boot` function in the WOA Helper app, or boot to the modded recovery and run
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```
 
-#### Завантажте відновлення
-> Замініть <path\to\recovery> фактичним шляхом до образу відновлення
+#### Boot to the recovery
+> Replace <path\to\recovery> with the actual path of the recovery image
 ```cmd
 fastboot boot <path\to\recovery.img>
 ```
 
-#### Активуйте режим накопичувача
-> Коли Xiaomi Pad 5 завантажиться в модифіковане відновлення
+#### Activate mass storage mode
+> Once the Xiaomi Pad 5 has booted into the modded recovery
 ```cmd
 adb shell msc
 ```
 
-#### Запустіть диспетчер дисків Windows
-> Коли Xiaomi Pad 5 буде виявлено як диск
+#### Start the Windows disk manager
+> Once the Xiaomi Pad 5 is detected as a disk
 ```cmd
 diskpart
 ```
 
-#### Виберіть гучність esp планшета
-> Використовуйте `list volume`, щоб знайти його, це той, що називається "ESPNABU"
+#### Select the esp volume of the tablet
+> Use `list volume` to find it, it's the one named "ESPNABU"
 ```diskpart
-sel vol <номер>
+select volume <number>
 ```
 
-#### Призначити літеру Y
+#### Assign the letter Y
 ```diskpart
-присвоїти букву у
+assign letter y
 ```
 
-#### Вийти з diskpart
+#### Exit diskpart
 ```diskpart
 exit
 ```
 
-#### Змініть файли завантажувача
-> Щоб увімкнути тестовий режим
+#### Modify the bootloader files
+> To enable test signing
 ```cmd
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" testsigning on
 ```
 
-#### Видалення SiPolicy
-> Якщо припустити, що ви вимикаєте безпечне завантаження для наявної інсталяції, вам потрібно видалити цей файл, інакше система не завантажуватиметься
+#### Removing SiPolicy
+> Assuming you are disabling secureboot on an existing install, you need to delete this file or the system will not boot
 ```cmd
 del Y:\EFI\Microsoft\Boot\SiPolicy.p7b
 ```
 
-#### Видаліть букву диска для ESPNABU
-> Якщо це не працює, проігноруйте це та перейдіть до наступної команди. Цей фантомний диск зникне під час наступного перезавантаження ПК.
+#### Remove the drive letter for ESPNABU
+> If this does not work, ignore it and skip to the next command. This phantom drive will disappear the next time you reboot your PC.
 ```cmd
 mountvol y: /d
 ```
 
-#### Перезавантажтеся у fastboot
+#### Reboot to fastboot
 ```cmd
 adb reboot bootloader
 ```
 
-#### Прошивка UEFI
-> Переконайтеся, що ви використовуєте UEFI no secureboot із цієї сторінки, замініть <path\to\uefi-NoSecureboot-v3.img> фактичним шляхом до образу UEFI
+#### Flashing the UEFI
+> Make sure you use the no secureboot UEFI from this page, replace <path\to\uefi-NoSecureboot-v3.img> with the actual path to the UEFI image
 ```cmd
-fastboot flash boot <шлях\до\uefi-NoSecureboot-v3.img>
+fastboot flash boot <path\to\uefi-NoSecureboot-v3.img>
 ```
-> [!Важливо]
-> Обов’язково замініть свій старий UEFI у папці UEFI у внутрішній пам’яті Android, щоб випадково не перепрошити його наступного разу, коли спробуєте перейти на Windows з Android
 
-#### Перезавантажтеся у Windows
+> [!Important]
+> Make sure to also replace your old UEFI in the UEFI folder in your internal storage of Android, so you don't accidentally flash it the next time you try to switch to Windows from Android
+
+#### Reboot to Windows
 ```cmd
 fastboot reboot
 ```
 
-## Готово!
-
+## Finished!
 
 
 
