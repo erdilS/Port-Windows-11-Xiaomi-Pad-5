@@ -17,17 +17,17 @@
 ### 설정 - 안드로이드
 - **WOA Helper** 앱을 다운로드 및 설치하시고, 앱을 열고 루트 권한을 허용하세요.
 - **UEFI 이미지** 를 다운로드하고 내부 저장소의 `UEFI` 폴더로 파일을 이동하세요.
-- Open the WOA Helper app and use the **STA CREATOR** in **WOA TOOLBOX**.
+- WOA Helper 앱을 열고 **WOA 도구**에서 **STA 생성**을 선택하세요.
 > [!Important]
-> If `/sdcard/Windows` is empty, your rom does not support mounting and you will have to make a boot.img backup inside the app, then copy it manually to Windows once you boot to it (for example by uploading it somewhere and then downloading it while booted into Windows). The same applies to the StA files, which are also generated in your internal storage.
+> `/sdcard/Windows`가 비어있는 경우, 기기의 롬이 마운트를 지원하지 않으며 앱에서 boot.img 백업을 생성해야 합니다. 그런 다음 Windows로 부팅할 때 백업된 boot.img를 수동으로 Windows에 복사해야 합니다. (예시: 클라우드에 업로드한 다음 Windows로 부팅한 후 다운로드합니다.) StA 파일도 같은 방식으로 진행합니다. (해당 파일 또한 내부 저장소에 생성되어 있습니다.)
 >
-> Do the same thing if the folder is read-only.
-- Press the **QUICKBOOT TO WINDOWS** button.
+> 폴더가 읽기 전용인 경우 같은 방식으로 진행하세요.
+- **WINDOWS로 즉시 부팅** 버튼을 선택하세요.
 
 ### 설정 - 윈도우
 > [!Tip]
-> If this is your first time booting Windows and you wish to skip the Microsoft Account login, press the **I don't have internet** button in the WiFi page, then when prompted, press the **Continue with limited setup** button.
-- Navigate to `C:\sta` and create a shortcut of **sta.exe** to your desktop, if one isn't already present
+> Windows를 처음 부팅하고 Microsoft 계정 로그인을 건너뛰려는 경우, 네트워크 페이지 에서 **인터넷에 연결되어 있지 않음** 버튼을 선택하고, 다음 페이지가 표시되면, **제한된 설치로 계속** 버튼을 선택하세요.
+- sta 바로가기가 없는 경우, `C:\sta`로 이동하여 **sta.exe**의 바로가기를 바탕화면에 만드세요.z
 
 #### 안드로이드로 부팅합니다
 - 바탕화면에 새로 생성된 바로 가기를 실행하세요 (빠른 실행을 위해 시작 메뉴 / 작업표시줄에 고정할 수도 있습니다)
@@ -38,7 +38,7 @@
 ## 끝!
 
 > [!TIP]
-> Don't forget to check out [**```Useful apps and instructions```**](Additional-materials-en.md) page. You'll find a guide on how to activate your Windows, as well as other helpful information.
+> [**```유용한 앱 및 설명```**](Additional-materials-ko.md) 페이지를 확인해보세요. Windows 정품 인증 방법에 대한 가이드와 기타 유용한 정보를 확인할 수 있습니다.
 
 
 
