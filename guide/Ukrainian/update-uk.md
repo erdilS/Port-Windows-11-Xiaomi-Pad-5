@@ -45,15 +45,15 @@ exit
 ```
 
 ### Встановлення драйверів
-> Якщо написано `"Automatic WINNABU detection failed! Enter Drive Letter manually"` Введіть **`X`**
-```cmd
- Відкрийте папку драйверів і запустіть OfflineUpdater.cmd
-```
+> Якщо написано `"Automatic WINNABU detection failed! Enter Drive Letter manually"` введіть **`X`**
+>
+> Відкрийте папку драйверів і запустіть ```OfflineUpdater.cmd```
+
 
 ### Перезавантаження до fastboot для прошивки UEFI
-> You can also use the WOA Helper app, in which case you can reboot with ```adb reboot```
+> Ви також можете використовувати програму WOA Helper, у цьому випадку ви можете перезавантажити за допомогою ```adb reboot```
 >
-> Make sure you use the latest UEFI, because Windows might not boot if you update drivers without updating the UEFI
+> Переконайтеся, що ви використовуєте останню версію UEFI, тому що Windows може не завантажитися, якщо оновити драйвери без оновлення UEFI
 ```cmd
 adb reboot bootloader
 ```
