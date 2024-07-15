@@ -32,8 +32,8 @@
 
 
 ### 2. OEM 잠금 해제 및 USB 디버깅 활성화:
-   - Go to Settings → Additional settings → Developer options.
-   - Enable OEM unlocking and USB debugging.
+   - 설정 → 일반 → 개발자 옵션 순서대로 이동합니다.
+   - OEM 잠금 해제 및 USB 디버깅을 활성화합니다.
 
 ### 3. Mi 계정 추가:/언락 신청
 
