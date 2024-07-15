@@ -106,7 +106,7 @@ fastboot flash boot <path\to\uefi-NoSecureboot-v3.img>
 > [!Important]
 > 안드로이드 내부 저장소의 UEFI 폴더 내의 구버전 UEFI도 교체했는지 확인하세요. 그러면 다음번에 안드로이드에서 윈도우르 전환하려고 할 때 실수로 구버전 UEFI를 플래시 하지 않게 됩니다
 
-#### 윈도우로 재부팅합니다
+#### Windows로 재부팅합니다
 ```cmd
 fastboot reboot
 ```
