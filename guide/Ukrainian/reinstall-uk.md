@@ -29,4 +29,4 @@ fastboot boot <recovery.img>
 adb shell format
 ```
 
-- Продовжуйте з [цього](/guide/Ukrainian/3-install-uk.md#Запустити-msc) моменту
+- Продовжуйте з [цього](/guide/Ukrainian/3-install-uk.md#Запустіть-msc) моменту
