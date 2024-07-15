@@ -7,7 +7,7 @@
 
 ### Необхідні файли
 
-- ```розблокований завантажувач```
+- ```Розблокований завантажувач```
 
 - [```Відновлення```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
@@ -15,14 +15,12 @@
 
 ## Нотатки:
 > [!NOTE]
-> Не знаєте, як почати? Просто Розпакуйте завантажений [```Android platform tools```](http://developer.android.com/studio/release/platform-tools), наприклад ```"C:\platform-tools"``` потім відкрийте ```командний рядок``` або `powershell` як адміністратор і введіть:
+> Не знаєте, як почати? Просто розпакуйте завантажений [```Android platform tools```](http://developer.android.com/studio/release/platform-tools), у теку (наприклад ```"C:\platform-tools"```), а потім відкрийте `cmd` або `powershell` як адміністратор і введіть:
 
 ```cmd
 cd "шлях\до\platform-tools"
 ```
 > Замініть ```"шлях\до\platform-tools"``` фактичним шляхом до папки platform tools
-
-
 
 > [!WARNING]\
 > Якщо ви видалили будь-який розділ використовуючи diskpart, Windows рано или пізно відправить команду пам'яти, яка буде неправильно розпізнана, і тому пам'ять буде стерта.
