@@ -37,7 +37,7 @@
 ## Windows 업데이트나 ISO 이미지를 사용하여 Windows를 업데이트할 수 있나요?
 - ✅ **네!** Windows 업데이트에서 모든 업데이트를 설치할 수 있으며 ISO 이미지를 사용하여 진행할 수도 있습니다.
 
-## Can I update my Android after installing Windows?
+## Windows를 설치한 후 Android를 업데이트할 수 있나요?
 - ✅ **네!** 어떤 방식으로든 Android를 업데이트할 수 있습니다. 업데이트 후 [안드로이드 재루팅 가이드](Re-rooting-ko.md)를 참고하세요
 
 ## secureboot 비활성화
