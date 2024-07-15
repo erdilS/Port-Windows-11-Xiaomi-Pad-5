@@ -10,7 +10,7 @@
 
 - `Мозг`
 
-- [```Скрипт DriveLetterAssigner_NABU```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner_NABU)
+- [```Скрипт DriveLetterAssigner```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)
 
 - [```ARM64 Windows esd```](https://worproject.com/esd) (Выберите - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```Выберите ваш язык```)
 
@@ -28,7 +28,7 @@ adb shell msc
 ```
 ### Привяжите буквы к разделам WINNABU и ESPNABU 
 
-> **Просто запустите скрипт [```DriveLetterAssigner_NABU```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner_NABU) и нажмите `Y` на вашей клавиатуре**
+> **Просто запустите скрипт [```DriveLetterAssigner V2.0```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner) и нажмите `Y` на вашей клавиатуре**
 > Скрипт автоматически привяжет буквы X и Y к разделам Windows и ESP планшета
 
 
@@ -49,7 +49,7 @@ dism /apply-image /ImageFile:<путь\к\install.esd> /index:6 /ApplyDir:X:\
 > Если в разделе **Installing App Packages** появятся какие-либо ошибки, проигнорируйте их и продолжайте
 
 #### Создайте файлы загрузчика Windows для EFI
-> Если при копировании загрузочных файлов возникает ошибка, просто запустите скрипт [**```DriveLetterAssigner_NABU```**](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner_NABU) снова, он присвоит ESPNABU букву U. Затем снова запустите следующую команду, заменив Y на U
+> Если при копировании загрузочных файлов возникает ошибка, просто запустите скрипт [**```DriveLetterAssigner V2.0```**](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner) снова, он присвоит ESPNABU букву U. Затем снова запустите следующую команду, заменив Y на U
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
