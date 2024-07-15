@@ -10,6 +10,11 @@
   
 - [```안드로이드 플랫폼 도구```](https://developer.android.com/studio/releases/platform-tools)
 
+### fastboot로 재부팅
+- 재부팅될 때 **`볼륨 아래`** 버튼을 누른 상태를 유지하여 NABU를 **fastboot**로 재부팅하세요
+
+- 케이블을 사용하여 PC/노트북에 기기를 연결합니다
+
 ### PC에서 명령어로 리커버리 시작
 ```cmd
 fastboot boot <recovery.img>
@@ -33,7 +38,7 @@ adb reboot
 - 플랫폼 도구 폴더에서 명령 프롬프트를 엽니다 
 
 ### 패치된 boot 플래시
- > `<magisk_patched.img>`를 실제 ```magisk_patched.img```의 이름/경로로 교체하십시오.
+ > `<magisk_patched.img>`를 실제 ```magisk_patched.img```의 이름/경로로 교체하세요.
 ```cmd
 fastboot flash boot <magisk_patched.img>
 ```
