@@ -2,54 +2,48 @@
 
 # Корисні програми та інструкції для Windows на Xiaomi Pad 5
 
-### List of supported apps/games
-This is by no means a comprehensive list, it simply lists apps/games that have been tested by the community
-[The link can be found here](https://docs.google.com/spreadsheets/d/1XYuoySgYQE0HL573sA-0RGMX7I4lt5rWJuQ8Z8yRJNY/edit?usp=drivesdk)
+### [Список підтримуваних програм/ігор](https://docs.google.com/spreadsheets/d/1XYuoySgYQE0HL573sA-0RGMX7I4lt5rWJuQ8Z8yRJNY/edit?usp=drivesdk)
+Це аж ніяк не вичерпний список, він просто перераховує програми/ігри, які були перевірені спільнотою
 
-You can also find a list of dedicated ARM software [at this link](https://armrepo.ver.lt/)
+Ви також можете знайти список спеціального програмного забезпечення ARM [за цим посиланням](https://armrepo.ver.lt/)
 
-#### Finished!
+## Приховати розділ D (розділ модему)
+> [!ПРИМІТКА]
+> Це рекомендовано, оскільки цей диск не слід модифікувати, а деякі програми можуть спробувати це зробити.
 
-## Hide D drive (modem partition)
-> [!NOTE]
-> This is recommended because this drive should not be modified, while some applications may try to write to it.
+- Завантажте [`ModemHide.vbs`](https://github.com/Misha803/My-Scripts/releases/tag/ModemHide) до свого планшету
+- Запустіть це
+- Схваліть будь-які діалоги UAC 
+- Натисніть `Так` у діалоговому вікні
 
-- Download [`ModemHide.vbs`](https://github.com/Misha803/My-Scripts/releases/tag/ModemHide) to your NABU
-- Run it
-- Approve any UAC dialogs 
-- Click `Yes` in the dialog box
+#### Готово!
 
-#### Finished!
-
-
-## Disabling USB host mode
+## Вимкнення режиму USB-хоста
 > [!Warning]
-> Unpowered USB devices will stop working
+> USB-пристрої без зовнішнього живлення перестануть працювати
 
-Run [USB Host Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) to enable/disable USB host mode and  confirm that you want to disable/enable USB host mode 
+Запустіть [USB Host Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) щоб увімкнути/вимкнути режим USB-хоста та підтвердити, що ви бажаєте вимкнути/увімкнути режим USB-хоста
 
-#### Finished!
-
-
+#### Готово!
 
 ## Вимкнення безпечного завантаження 
 > [!Warning]
-> Do it only if necessary!
+> Робіть це тільки в разі необхідності!
 
 [Інструкція з вимкнення безпечного завантаження](/guide/Ukrainian/disable-secureboot-uk.md)
 
-## Install Microsoft Office / Microsoft 365
-- Download this [ISO file](https://drive.google.com/file/d/10FTyC0XBccj0BkxdIa_W_haixQz-d3to/view?usp=drivesdk) to the tablet
-- Right-click on the iso file and select Mount to open it in explorer
-- Double-click on ```Office Tool Plus.exe``` to start the installation wizard
-- Approve any UAC dialogs 
-- In the window that appears, click `Yes` to start installation 
-- Wait for the installation to complete
+## Встановлення Microsoft Office / Microsoft 365
+- Завантажте цей [ISO файл](https://drive.google.com/file/d/10FTyC0XBccj0BkxdIa_W_haixQz-d3to/view?usp=drivesdk) на планшет
+- Клацніть правою кнопкою миші на .iso файл та виберіть Змонтувати, щоб відкрити його в провіднику
+- Двічі клацніть ```Office Tool Plus.exe``, щоб запустити майстер встановлення
+- Схваліть будь-які діалоги UAC
+- У вікні, що з’явиться, натисніть «Так», щоб розпочати встановлення
+- Дочекайтеся завершення встановлення
   
-#### Finished!
+#### Готово!
 
-## Activate Windows / Office
-Follow the instructions by Massgravel [here](https://github.com/massgravel/Microsoft-Activation-Scripts)
+## Активація Windows / Office
+Дотримуйтесь інструкцій Massgravel [тут](https://github.com/massgravel/Microsoft-Activation-Scripts)
 
 ## Ліхтарик
 

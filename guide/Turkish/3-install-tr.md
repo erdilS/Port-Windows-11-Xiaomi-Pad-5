@@ -9,7 +9,7 @@
 ### Gerekli Dosyalar
 - ```Beyin```
 
-- [```DriveLetterAssigner script```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/DriveLetterAssigner.V1.0.exe)
+- [```DriveLetterAssigner script```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)
 
 - [```ARM Windows esd```](https://worproject.com/esd) (Şu seçenekleri seçin: Version: ```11``` | Build: ```22631.2861``` | Architecture: ```ARM64``` | Edition: ```CLIENT``` | Language:  ```istediğiniz dil```)
   
@@ -28,7 +28,7 @@ adb shell msc
 
 ### WINNABU ve ESPNABU bölümlerine harf atayın 
 
-> **Sadece [```DriveLetterAssigner scriptini```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/DriveLetterAssigner.V1.0.exe) çalıştırın ve klavyede "Y" tuşuna basın**
+> **Sadece [```DriveLetterAssigner scriptini```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner) çalıştırın ve klavyede "Y" tuşuna basın**
 
 > X ve Y harflerini tabletin Windows ve ESP bölümlerine otomatik olarak atayacaktır
 
@@ -50,7 +50,7 @@ dism /apply-image /ImageFile:<bulunduğu\yol\install.esd> /index:6 /ApplyDir:X:\
 > Bir harf girmenizi isterse, **WINNABU** sürücü harfini girin (X olmalıdır), ardından enter tuşuna basın
 
 #### EFI için Windows bootloader dosyalarını oluşturun
-> Boot dosyaları kopyalanırken bir hata oluşursa, yalnızca [```DriveLetterAssigner scriptini```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/DriveLetterAssigner.V1.0.exe) yeniden çalıştırın, bu ESPNABU'ya U harfini atayacaktır, ardından Y'yi U ile değiştirerek aşağıdaki komutu tekrar çalıştırın
+> Boot dosyaları kopyalanırken bir hata oluşursa, yalnızca [```DriveLetterAssigner scriptini```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner) yeniden çalıştırın, bu ESPNABU'ya U harfini atayacaktır, ardından Y'yi U ile değiştirerek aşağıdaki komutu tekrar çalıştırın
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```

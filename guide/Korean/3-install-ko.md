@@ -9,7 +9,7 @@
 ### 준비물
 - ```뇌```
 
-  [```드라이브 문자 할당 프로그램```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner_NABU)
+  [```드라이브 문자 할당 프로그램```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)
   
 - [```ARM 윈도우 esd```](https://worproject.com/esd) (항목 선택 - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```원하는 언어를 선택하세요```)
     
@@ -28,7 +28,7 @@ adb shell msc
 ```
 
 ### WINNABU와 ESPNABU에 문자 할당
-> **DriveLetterAssigner_NABU** 파일을 열고 키보드의 `Y` 키를 입력하여 문자 **X**와 **Y**를 **WINNABU**와 **ESPNABU**로 자동으로 할당합니다
+> **DriveLetterAssigner V2.0** 파일을 열고 키보드의 `Y` 키를 입력하여 문자 **X**와 **Y**를 **WINNABU**와 **ESPNABU**로 자동으로 할당합니다
 
 ### 설치
 > [!Important]
@@ -48,7 +48,7 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 > 프로그램이 문자를 입력하라고 하는 경우, **WINNABU** (기본적으로 **X** 입니다) 의 드라이브 문자를 입력하고, enter 키를 입력하세요
 
 #### EFI에 대한 윈도우 부트로더 파일 생성
-> 부팅 파일 복사 도중 오류가 발생하는 경우, ESPNABU가 문자 Y로 할당되어 있는지 보기 위해 `diskpart`를 확인하세요. 할당되어있지 않다면, K와 같은 다른 문자를 추가하고 아래 명령어의 Y들을 해당 문자로 각각 변경하세요
+> If an error occurs when copying boot files, run **DriveLetterAssigner V2.0** again, then run the following command again, replacing **Y** with **U**
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```

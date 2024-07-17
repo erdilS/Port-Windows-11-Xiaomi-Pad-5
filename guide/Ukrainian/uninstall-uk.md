@@ -31,4 +31,5 @@ fastboot -w
 ```cmd
 fastboot reboot 
 ```
-## Зроблено!
+
+## Готово!
