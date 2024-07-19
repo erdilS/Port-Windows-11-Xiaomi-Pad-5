@@ -38,7 +38,7 @@ adb shell restore
 ```
 
 ### Reboot to Android 
-> If you are rebooted into MIUI Recovery perform the following actions:
+>[!NOTE] If you are rebooted into MIUI Recovery perform the following actions:
 > 1. Select Wipe Data
 > 2. Wipe All Data
 > 3. After Data is wiped successfully, Click Back To Main Menu
