@@ -41,4 +41,13 @@ adb shell restore
 ```cmd
 adb reboot 
 ```
+
+> [!NOTE]
+> MIUI 리커버리로 부팅된 경우 다음 작업을 수행하세요:
+> 1. Wipe Data를 선택합니다
+> 2. 모든 데이터를 삭제합니다
+> 3. 데이터가 성공적으로 삭제되면, Back To Main Menu를 선택합니다
+> 4. Reboot를 선택합니다
+> 5. 시스템으로 재부팅합니다
+
 ## 끝!
