@@ -48,7 +48,7 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 > 프로그램이 문자를 입력하라고 하는 경우, **WINNABU** (기본적으로 **X** 입니다) 의 드라이브 문자를 입력하고, enter 키를 입력하세요
 
 #### EFI에 대한 윈도우 부트로더 파일 생성
-> If an error occurs when copying boot files, run **DriveLetterAssigner V2.0** again, then run the following command again, replacing **Y** with **U**
+> 부팅 파일 복사 시 오류가 발생하는 경우, **DriveLetterAssigner V2.0**을 다시 실행한 후, **Y**를 **U**로 바꿔서 아래의 명령을 다시 실행하세요
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```

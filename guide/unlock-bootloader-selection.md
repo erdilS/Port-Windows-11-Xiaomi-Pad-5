@@ -11,4 +11,4 @@
 - [Turkish](Turkish/unlock-bootloader-tr.md)
 - ~[Russian](Russian/)~
 - ~[Ukrainian](Ukrainian/)~
-- ~[Korean](Korean/)~
+- [Korean](Korean/unlock-bootloader-ko.md)
