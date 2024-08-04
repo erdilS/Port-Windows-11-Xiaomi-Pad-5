@@ -10,15 +10,16 @@
 
 - `Мозг`
 
-- [```Скрипт DriveLetterAssigner```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)
+- [```Скрипт DriveLetterAssigner```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner) (Отключите антивирус на время, система считает файл подозрительным)
 
 - [```ARM64 Windows esd```](https://worproject.com/esd) (Выберите - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```Выберите ваш язык```)
 
 - [```Драйверы```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
   
-### Перезапустите рекавери чтобы начать установку Windows
+### Перезапуститесь в модифицированное рекавери чтобы начать установку Windows
+> Замените **path\to\recovery.img** на фактический путь к образу рекавери
 ```cmd
-fastboot boot <recovery.img>
+fastboot boot path\to\recovery.img
 ```
 
 #### Запустите msc
@@ -27,19 +28,19 @@ fastboot boot <recovery.img>
 adb shell msc
 ```
 ### Привяжите буквы к разделам WINNABU и ESPNABU 
-
-> **Просто запустите скрипт [```DriveLetterAssigner V2.0```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner) и нажмите `Y` на вашей клавиатуре**
-> Скрипт автоматически привяжет буквы X и Y к разделам Windows и ESP планшета
+> Откройте скрипт **DriveLetterAssigner V2.0** и нажмите `Y` на клавиатуре, чтобы автоматически назначить буквы **X** и **Y** для **WINNABU** и **ESPNABU**
 
 
 ### Установка Windows
-> Замените `<путь\к\install.esd>` существующим путём к install.esd (он может также называться install.wim)
+> Запустите новое окно командной строки/PowerShell как **Администратор**
+
+> Замените `<path\to\install.esd>` на фактический путь install.esd (файл образа Винды который вы скачивали ранее) (он также может называться install.wim)
+
 ```cmd
-dism /apply-image /ImageFile:<путь\к\install.esd> /index:6 /ApplyDir:X:\
+dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 ```
 
-> если вы получили `Ошибка 87`, проверьте индекс вашего образа используя `dism /get-imageinfo /ImageFile:<путь\к\install.esd>`, затем замените `index:6` существующим номером индекса Windows 11 Pro в вашем образе 
-
+> Если вы получили `Error 87`, проверьте индекс вашего образа с помощью `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, затем замените `index:6` существующим номером индекса Windows 11 Pro в вашем образе
 
 ### Установка драйверов
 > Распакуйте пакет драйверов, затем откройте файл `OfflineUpdater.cmd` 
@@ -55,6 +56,7 @@ bcdboot X:\Windows /s Y: /f UEFI
 ```
 
 #### Удалите букву диска для ESPNABU, чтобы избежать появления фантомной буквы диска
+> Если это не сработает, проигнорируйте это и перейдите к следующей команде. Этот фантомный диск исчезнет при следующей перезагрузке ПК.
 ```cmd
 mountvol y: /d
 ```
