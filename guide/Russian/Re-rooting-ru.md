@@ -43,7 +43,7 @@ adb reboot
 fastboot flash boot <magisk_patched.img>
 ```
 
-### Обновите boot.img в Windows' C:\
+### Обновите boot.img в Windows C:\
 - Перезагрузитесь обратно в Android 
 - Откройте приложение ```WOA Helper```
 - Смонтируйте ```Windows```
