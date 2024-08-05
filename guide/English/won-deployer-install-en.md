@@ -2,9 +2,33 @@
 
 # Running Windows on the Xiaomi Pad 5
 
+## Installation using WoN-deployer
+
 ### Prerequisites
 - ```A functioning brain (seriously, you'll need to think!)```
+
+- [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
+  
 - [```ADB drivers installed on your PC```](https://dl.google.com/android/repository/usb_driver_r13-windows.zip)
+  
+- [```ARM Windows ESD```](https://worproject.com/esd) (Select - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```select your language```)
+    
+- [```Drivers```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
+
+- ```Unlocked bootloader``` - (If your bootloader is locked and you don't know how to unlock it use [this](unlock-bootloader.md) guide)
+
+### Notes:
+>[!NOTE]
+> You can use any Android for dualboot - MIUI/Hyper OS or any custom ROM
+>
+> If you need any help please contact us in [Telegram chat](https://t.me/nabuwoa)
+
+
+> [!Warning]
+> All your data will be erased! Back up now if needed.
+> 
+> **PLEASE DON'T USE ANY VIDEO GUIDES ON YOUTUBE OR ANY OTHER PLATFORM!**
+
 
 ### Get WoN Deployer (Windows on Nabu Installer)
 
@@ -32,3 +56,15 @@
    ```
 >[!NOTE]
 > - If you installed properly then it gives an output else error so do WoN-deployer installation again
+
+### Reboot to **fastboot** 
+- Boot your NABU to **fastboot** by holding down the **`volume down`** button during reboot
+
+- Connect it to your PC/Laptop using a cable
+
+### Run the WoN Deployer
+- **```Open PowerShell/terminal as Administrator```**
+- Type `won-deployer` in the PowerShell and follow the on-screen instructions.
+    ```shell
+   won-deployer
+   ```
