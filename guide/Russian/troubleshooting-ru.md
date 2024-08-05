@@ -31,7 +31,7 @@
 
 - [SHRP Recovery](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/SHRP.img)
 
-> [!Важно]
+> [!Important]
 > Это сработает только если у вас есть root-доступ. Если нет, единственный способ восстановить — прошить устройство с помощью EDL с помощью [MrAuthTool](https://mrauthtool.com/)
 
 - Удалите образ **UEFI** из папки UEFI во внутреннем хранилище, затем поместите сюда образ **SHRP recovery**
@@ -47,7 +47,7 @@ adb shell parted /dev/block/sda
 - Запустите ```adb reboot bootloader```, и когда вы увидите логотип **FASTBOOT** на экране, прошейте образ загрузки Android с помощью ```fastboot flash boot_a path\to\boot.img```
 - Вам может потребоваться сделать то же самое для **boot_b**, если ваше устройство не загружается или загружается обратно в режим восстановления
 
-> [!Примечание]
+> [!Note]
 > Убедитесь, что вы снова заменили образ восстановления в папке UEFI на файл UEFI
 
 ##### Готово!
