@@ -63,8 +63,9 @@
 - Connect it to your PC/Laptop using a cable
 
 ### Run the WoN Deployer
-- **```Open PowerShell/terminal as Administrator```**
-- Type `won-deployer` in the PowerShell and follow the on-screen instructions.
-    ```shell
+- Open **`PowerShell/terminal`** as Administrator
+- Type **`won-deployer`** in the PowerShell and follow the on-screen instructions.
+  
+   ```shell
    won-deployer
    ```
