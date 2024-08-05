@@ -91,4 +91,4 @@
 
 
 >[!IMPORTANT]
-> If you faced any error please run the below command and share the screenshot to [@ArKT_7](https://telegram.me/ArKT_7) or to [Offcial Group](https://telegram.me/nabuwoa)
+> If you faced any error please contact [@ArKT_7](https://telegram.me/ArKT_7) or ask for help in [Offcial Telegram Group](https://telegram.me/nabuwoa)
