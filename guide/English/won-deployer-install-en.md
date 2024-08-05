@@ -69,3 +69,26 @@
    ```shell
    won-deployer
    ```
+ 
+- **Enter Windows ESD or WIM file path and select edition**
+ > For Windows 10, press and hold  `shift ` +  `mouse right click ` for option copy as path
+
+   - Copy as path your Windows ESD/WIM file and Paste path here.
+  **`Enter the path of Windows ESD (Copy as path)::`**
+
+   - Enter Index number of which edition of Windows you want to Install.
+  **`Please enter the index number of the edition you want to use:`**
+<!-- ${\color{Magenta}[y/n] \space \color{cyan}(n): }$ -->
+
+- **Enter [```nabu-driver.zip```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers) file path**
+
+   - copy as path your nabu-driver.zip file and Paste path here.
+  **`Enter the path of the driver ZIP file (Copy as path)::`**
+
+- **Follow on-screen Instruction**
+
+   - **`Good Luck`**.
+
+
+>[!IMPORTANT]
+> If you faced any error please run the below command and share the screenshot to [@ArKT_7](https://telegram.me/ArKT_7) or to [Offcial Group](https://telegram.me/nabuwoa)
