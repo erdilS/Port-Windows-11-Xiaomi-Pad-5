@@ -41,7 +41,12 @@ fastboot reboot
 #### Finishing setup
 - Open the **Magisk** app again.
 - Follow the instructions on the screen, and your device should reboot after a few seconds.
-- Now boot back into fastboot mode for the last section of the guide.
+
+### Copying the rooted boot image
+> After your device has booted
+```cmd
+adb pull /dev/block/by-name/boot root.img
+```
 
 ### [Next step: Installing Windows](/guide/English/3-install-en.md)
 
