@@ -10,23 +10,42 @@
 
 ### Требования
 
-- [ADB и Fastboot](https://developer.android.com/studio/releases/platform-tools)
-  
-- [gpt_both0.bin](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/gpt_both0.bin)
+- [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
-### Восстановление GPT
-> Замените ```<gpt_both0.bin>``` путём к файлу `gpt_both0.bin`.
+- [```Recovery Image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
+#### Переключитесь на Android
+> Переключитесь на Android перед началом процесса удаления
+
+#### Перезагрузитесь в режим fastboot
+- Загрузите планшет в режим **fastboot**, удерживая кнопку **`уменьшения громкости`** во время перезагрузки
+
+- Подключите его к ПК/ноутбуку с помощью кабеля
+
+#### Загрузите модифицированное recovery
+> Откройте окно CMD в папке platform-tools, затем (пока планшет находится в режиме fastboot) запустите
 ```cmd
-fastboot flash partition:0 <gpt_both0.bin>
+fastboot boot path\to\recovery.img
 ```
 
-### Очистите раздел `userdata` чтобы избежать цикличной перезагрузки и восстановить размер файловой системы
+#### Восстановите разметку раздела
+> [!Warning]
+> Это сотрет ваши файлы Android. Сначала сделайте резервную копию, если необходимо.
 ```cmd
-fastboot -w
+adb shell restore
 ```
-### Перезагрузитесь в Android 
+
+### Перезагрузите в Android
 ```cmd
-fastboot reboot 
+adb reboot
 ```
+
+> [!NOTE]
+> Если вы перезагрузились в MIUI Recovery, выполните следующие действия:
+> 1. Выберите Wipe Data
+> 2. Wipe All Data
+> 3. После успешного удаления данных нажмите Back To Main Menu
+> 4. Нажмите Reboot
+> 5. Перезагрузите в System
+
 ## Готово!

@@ -3,12 +3,17 @@
 # Running Windows on the Xiaomi Pad 5
 
 ## Re-rooting Android
-В этом разделе мы расскажем вам о процессе повторного рутинга, когда MIUI обновляется и удаляет root.
+В этом разделе мы расскажем вам о процессе повторного рутинга, когда MIUI/Hyper OS обновляется и удаляет root.
 
 ### Требования
 - [```образ recovery```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
   
 - [```Android Platform Tools```](https://developer.android.com/studio/releases/platform-tools)
+
+### Перезагрузите планшет в **fastboot**
+- Загрузите планшет в **fastboot**, удерживая кнопку **громкости вниз** во время перезагрузки
+
+- Подключите его к ПК/ноутбуку с помощью кабеля
 
 ### Запустите recovery через ПК с помощью команды
 ```cmd
@@ -38,7 +43,7 @@ adb reboot
 fastboot flash boot <magisk_patched.img>
 ```
 
-### Обновите boot.img в Windows' C:\
+### Обновите boot.img в Windows C:\
 - Перезагрузитесь обратно в Android 
 - Откройте приложение ```WOA Helper```
 - Смонтируйте ```Windows```
