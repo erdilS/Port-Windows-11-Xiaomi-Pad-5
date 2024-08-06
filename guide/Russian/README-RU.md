@@ -33,7 +33,7 @@
 
 ## Прочее 
 
-- ~[Руководство по разблокировке загрузчика](/guide/English/unlock-bootloader-en.md)~
+- [Руководство по разблокировке загрузчика](/guide/English/unlock-bootloader-ru.md)
 
 - [Настройка двойной загрузки](dualboot-ru.md)
 
