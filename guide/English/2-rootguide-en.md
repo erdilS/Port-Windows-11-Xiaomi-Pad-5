@@ -28,10 +28,20 @@
 - Go back to the command prompt window that you opened earlier
 
 ### Flash the patched boot image
-> Replace `<magisk_patched.img>` with the actual ```magisk_patched.img``` name/path.
+> Replace `magisk_patched.img` with the actual ```magisk_patched.img``` name/path.
 ```cmd
-fastboot flash boot <magisk_patched.img>
+fastboot flash boot magisk_patched.img
 ```
+
+### Reboot to Android
+```cmd
+fastboot reboot
+```
+
+#### Finishing setup
+- Open the **Magisk** app again.
+- Follow the instructions on the screen, and your device should reboot after a few seconds.
+- Now boot back into fastboot mode for the last section of the guide.
 
 ### [Next step: Installing Windows](/guide/English/3-install-en.md)
 
