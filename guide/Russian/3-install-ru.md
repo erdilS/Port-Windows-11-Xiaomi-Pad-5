@@ -17,9 +17,9 @@
 - [```Драйверы```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
   
 ### Загрузитесь в модифицированное рекавери чтобы начать установку Windows
-> Замените **path\to\recovery.img** на фактический путь к образу рекавери
+> Замените **путь\к\recovery.img** на фактический путь к образу рекавери
 ```cmd
-fastboot boot path\to\recovery.img
+fastboot boot путь\к\recovery.img
 ```
 
 #### Запустите msc
