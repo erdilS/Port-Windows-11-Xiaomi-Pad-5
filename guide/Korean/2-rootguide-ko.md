@@ -28,9 +28,24 @@
 - 이전에 열었던 명령 프롬프트 창으로 돌아갑니다
 
 ### 패치된 boot 이미지 플래시 
-> `<magisk_patched.img>`를 ```magisk_patched.img``` 의 실제 이름/경로로 변경하세요.
+> `magisk_patched.img`를 ```magisk_patched.img``` 의 실제 이름/경로로 변경하세요.
 ```cmd
-fastboot flash boot <magisk_patched.img>
+fastboot flash boot magisk_patched.img
+```
+
+### 안드로이드로 재부팅
+```cmd
+fastboot reboot
+```
+
+#### 설정 마무리
+- **Magisk** 앱을 다시 엽니다.
+- 화면에 표시되는 지시를 따르면, 몇 초 후 기기가 재부팅됩니다.
+
+### Copying the rooted boot image
+> 기기가 부팅된 후 아래의 명령어를 입력합니다
+```cmd
+adb pull /dev/block/by-name/boot root.img
 ```
 
 ### [다음 단계: 윈도우 설치](/guide/Korean/3-install-ko.md)
