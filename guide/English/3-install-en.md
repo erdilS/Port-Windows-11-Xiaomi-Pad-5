@@ -68,7 +68,7 @@ mountvol y: /d
 adb reboot
 ```
 
-## [Last step: Setting up dualboot](/guide/4-dualboot.md)
+## [Last step: Setting up dualboot](/guide/English/4-dualboot.md)
 
 
 
