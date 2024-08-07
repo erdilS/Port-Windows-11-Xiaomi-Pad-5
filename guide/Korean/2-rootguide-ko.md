@@ -42,7 +42,7 @@ fastboot reboot
 - **Magisk** 앱을 다시 엽니다.
 - 화면에 표시되는 지시를 따르면, 몇 초 후 기기가 재부팅됩니다.
 
-### Copying the rooted boot image
+### 루팅된 boot 이미지 복사
 > 기기가 부팅된 후 아래의 명령어를 입력합니다
 ```cmd
 adb pull /dev/block/by-name/boot root.img
