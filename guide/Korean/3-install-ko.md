@@ -68,7 +68,7 @@ mountvol y: /d
 adb reboot
 ```
 
-## [마지막 단계: 듀얼부팅 설정](dualboot-ko.md)
+## [마지막 단계: 듀얼부팅 설정](/guide/Korean/4-dualboot-ko.md)
 
 
 
