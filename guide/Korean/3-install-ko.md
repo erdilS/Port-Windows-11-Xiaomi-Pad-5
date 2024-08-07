@@ -42,8 +42,11 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 
 > `오류 87`이 출력되는 경우, `dism /get-imageinfo /ImageFile:<path\to\install.esd>` 명령어로 이미지의 인덱스를 확인하시고, `index:6` 을 이미지에 있는 Windows 11 Pro의 실제 인덱스 수로 변경하세요
 
+### 윈도우로 boot.img 복사
+- 가이드의 마지막 페이지에서 복사한 **root.img**를 윈도우 파일 탐색기에서 **WINNABU** 디스크로 드래그 앤 드롭하고, **boot.img**로 이름을 변경합니다.
+
 ### 드라이버 설치
-> 드라이버 파일을 압축 해제하고, `OfflineUpdater.cmd` 파일을 실행하세요
+- 드라이버 압축 파일을 압축 해제하고, `OfflineUpdater.cmd` 파일을 엽니다 (오류가 발생할 경우, `OfflineUpdaterFix.cmd` 를 실행하세요)
 
 > 프로그램이 문자를 입력하라고 하는 경우, **WINNABU** (기본적으로 **X** 입니다) 의 드라이브 문자를 입력하고, enter 키를 입력하세요
 
@@ -60,11 +63,10 @@ mountvol y: /d
 ```
 
 ### 안드로이드로 재부팅
+> 장치의 초기 설정을 마친 다음에, 마지막 단계로 이동하세요
 ```cmd
 adb reboot
 ```
-
-> 장치의 초기 설정을 마친 다음에, 마지막 단계로 이동하세요
 
 ## [마지막 단계: 듀얼부팅 설정](dualboot-ko.md)
 
