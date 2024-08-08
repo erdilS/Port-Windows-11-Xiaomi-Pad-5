@@ -1,6 +1,18 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 # Running Windows on the Xiaomi Pad 5
+
+### Notes:
+> [!NOTE]
+> You can use any Android version for dualboot - MIUI/HyperOS or any custom ROM
+>
+> If you need any help, please contact us in [Telegram chat](https://t.me/nabuwoa)
+
+
+> [!Warning]
+> All your data will be erased! Back up now if needed.
+>
+
 ## There are three methods to install Windows:
 
 | **Coming Soon: Install Windows without a PC (wininstaller)**                                                                       | **Install Windows using automated scripts (won-deployer)**                                                 | **Install Windows Manually yourself**                                                                          |
