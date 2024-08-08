@@ -26,7 +26,7 @@
 
 > [!Warning]
 > All your data will be erased! Back up now if needed.
-
+>
 > **PLEASE DON'T USE ANY VIDEO GUIDES ON YOUTUBE OR ANY OTHER PLATFORM!**
 
 ### Get WoN Deployer (Windows on Nabu Installer)
