@@ -85,26 +85,17 @@ won-deployer
    - **`Good Luck`**.
 
 > [!IMPORTANT]
-> If you faced any error please contact [@ArKT_7](https://telegram.me/ArKT_7) or ask for help in the [Offcial Telegram Group](https://telegram.me/nabuwoa)
+> If you faced any error please run the below command and share the screenshot to [@ArKT_7](https://telegram.me/ArKT_7) or ask for help in the [Offcial Telegram Group](https://telegram.me/nabuwoa)
+### re-run program with detailed log output
+
+   1. Close the PowerShell/Terminal you have open earlier
+
+   2. Open PowerShell/Terminal as an Administrator again and run the following command:
+
+   ```shell
+   won-deployer --debug
+   ```
+---
 
 ## Finished!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
