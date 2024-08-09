@@ -44,6 +44,8 @@ fastboot reboot
 
 ### Copying the rooted boot image
 > After your device has booted
+
+- A superuser request for Shell might appear on your phone's screen. If it does, grant it access.
 ```cmd
 adb shell "su -c cp dev/block/by-name/boot /sdcard/root.img"; adb pull /sdcard/root.img
 ```
