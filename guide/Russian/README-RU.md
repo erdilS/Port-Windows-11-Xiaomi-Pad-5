@@ -27,7 +27,7 @@
 
 - [Статус Проекта](status.md)
   
-- [Установка](1-partition-ru.md)
+- [Установка](selection-ru.md)
 
 - [Удаление](uninstall-ru.md)
 
