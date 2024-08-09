@@ -88,4 +88,4 @@ adb reboot
 
 > Set up your device, then go to the last step
 
-## [Останній крок: Налаштування подвійного завантаження](dualboot-uk.md)
+## [Останній крок: Налаштування подвійного завантаження](4-dualboot-uk.md)
