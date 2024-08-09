@@ -44,8 +44,10 @@ fastboot reboot
 
 ### 루팅된 boot 이미지 복사
 > 기기가 부팅된 후 아래의 명령어를 입력합니다
+
+- A superuser request for Shell might appear on your phone's screen. If it does, grant it access.
 ```cmd
-adb shell "su -c cp dev/block/by-name/boot /sdcard/root.img"; adb pull /sdcard/root.img
+adb shell "su -c cp dev/block/by-name/boot /sdcard/root.img" & adb pull /sdcard/root.img
 ```
 
 ### [다음 단계: 윈도우 설치](/guide/Korean/3-install-ko.md)
