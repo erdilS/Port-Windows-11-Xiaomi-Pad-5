@@ -34,16 +34,19 @@ adb shell msc
 > [!Important]
 > Make sure that you are running CMD/Powershell as an **Administrator**
 
-> Replace `<path\to\install.esd>` with the actual path of install.esd (it may also be named install.wim)
+> Replace `path\to\install.esd` with the actual path of install.esd (it may also be named install.wim or 22631.2861.XXXXXXX.esd)
 
 ```cmd
-dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
+dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 ```
 
-> If you get `Error 87`, check the index of your image with `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, then replace `index:6` with the actual index number of Windows 11 Pro in your image
+> If you get `Error 87`, check the index of your image with `dism /get-imageinfo /ImageFile:path\to\install.esd`, then replace `index:6` with the actual index number of **Windows 11 Pro** in your image
 
-### Installing drivers
-> Unpack the driver archive, then open the `OfflineUpdater.cmd` file
+### Copying your boot.img into Windows
+- Drag and drop the **root.img** from the last page of the guide into the **WINNABU** disk in Windows Explorer, then rename it to **boot.img**.
+
+### Installing Drivers
+- Unpack the driver archive, then open the `OfflineUpdater.cmd` file (if an error shows up, run `OfflineUpdaterFix.cmd` instead)
 
 > If it asks you to enter a letter, enter the drive letter of **WINNABU** (which should be **X**), then press enter
 
@@ -60,13 +63,12 @@ mountvol y: /d
 ```
 
 ### Reboot to Android
+> Set up your phone, then proceed to the last step
 ```cmd
 adb reboot
 ```
 
-> Set up your device, then go to the last step
-
-## [Last step: Set up Dualboot](dualboot-en.md)
+## [Last step: Setting up dualboot](/guide/English/4-dualboot-en.md)
 
 
 
