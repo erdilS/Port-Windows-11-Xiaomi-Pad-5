@@ -25,7 +25,7 @@
 
 - [Project Status](guide/English/status.md)
 
-- [Installation](guide/English/1-partition-en.md)
+- [Installation](guide/English/selection-en.md)
 
 - [Uninstallation](guide/English/uninstall-en.md)
 
