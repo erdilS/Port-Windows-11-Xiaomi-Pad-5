@@ -31,5 +31,20 @@
 fastboot flash boot <magisk_patched.img>
 ```
 
+### Перезавантаження в Android
+```cmd
+fastboot reboot
+```
+
+#### Завершення налаштування
+- Відкрийте програму **Magisk**.
+- Дотримуйтесь інструкцій на екрані, і ваш пристрій має перезавантажитися через кілька секунд.
+
+### Копіювання завантажувального образу з root
+> Після завантаження пристрою
+```cmd
+adb shell su -c cp "dev/block/by-name/boot /sdcard/root.img"; adb pull /sdcard/root.img
+```
+
 ### [Наступний крок: Встановлення Windows](/guide/Ukrainian/3-install-uk.md)
 
