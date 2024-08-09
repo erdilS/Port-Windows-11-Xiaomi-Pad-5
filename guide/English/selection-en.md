@@ -15,7 +15,7 @@
 
 ## There are three methods to install Windows:
 
-| **Coming Soon: Install Windows without a PC (wininstaller)**                                                                       | **Install Windows using automated scripts (won-deployer)**                                                 | **Install Windows Manually yourself**                                                                          |
+| **Coming Soon: Install Windows without a PC (wininstaller)**                                                                       | **Install Windows using automated scripts (WoN-deployer)**                                                 | **Install Windows Manually yourself**                                                                          |
 |----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | <a href="nopc-en.md"><img src="Link" width="280"></a> | <a href="won-deployer-install-en.md"><img src="Link" width="280"></a> | <a href="1-partition-en.md"><img src="Link" width="200"></a> |
 | - Easy and quick                         | - Easy and quick                         | - Harder and longer                      |
