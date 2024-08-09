@@ -6,12 +6,12 @@
 
 ### Select your language
 
-- [English](English/1-partition-en.md)
-- [Português](Portuguese/1-partition-pt.md)
-- [Turkish](Turkish/1-partition-tr.md)
-- [Russian](Russian/1-partition-ru.md)
-- [Ukrainian](Ukrainian/1-partition-uk.md)
-- [Korean](Korean/1-partition-ko.md)
+- [English](English/selection-en.md)
+- ~[Português](Portuguese/selection-pt.md)~
+- ~[Turkish](Turkish/selection-tr.md)~
+- [Russian](Russian/selection-ru.md)
+- [Ukrainian](Ukrainian/selection-uk.md)
+- ~[Korean](Korean/selection-ko.md)~
 
 
 
