@@ -21,6 +21,6 @@
 | - Easy and quick                         | - Easy and quick                         | - Harder and longer                      |
 | - No PC needed                           | - Requires a PC                         | - Requires a PC                          |
 | - Limited in regards to OS version selection | - Highly customizable in regards to OS version, language, edition and storage allocation | - Highly customizable in regards to OS version, language, edition and storage allocation |
-| [**`Coming Soon!`**](selection.md) | [**```Guide on how to install using WoN-deployer```**](won-deployer-install-en.md) | [**`Manual Guide`**](1-partition-en.md) |
+| **`Coming Soon!`** | [**```Guide on how to install using WoN-deployer```**](won-deployer-install-en.md) | [**`Manual Guide`**](1-partition-en.md) |
 
 ---
