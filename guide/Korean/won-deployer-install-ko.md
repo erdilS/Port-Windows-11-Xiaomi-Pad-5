@@ -1,21 +1,21 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows Running On A Xiaomi Pad 5">
 
-# Running Windows on the Xiaomi Pad 5
+# Xiaomi Pad 5 에서 윈도우 구동
 
-## Installation using WoN-deployer
+## WoN-deployer를 사용한 설치
 
-### Prerequisites
-- ```A functioning brain (seriously, you'll need to think!)```
+### 준비물
+- ```제대로 작동하는 두뇌 (진지하게, 생각해야 합니다!)```
 
-- [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
+- [```안드로이드 플랫폼 도구```](https://developer.android.com/studio/releases/platform-tools)
   
-- [```ADB drivers installed on your PC```](https://dl.google.com/android/repository/usb_driver_r13-windows.zip)
+- [```ADB 드라이버가 설치된 PC```](https://dl.google.com/android/repository/usb_driver_r13-windows.zip)
   
-- [```ARM Windows ESD```](https://worproject.com/esd) (Select - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```select your language```)
+- [```ARM 윈도우 ESD```](https://worproject.com/esd) (항목 선택 - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```원하는 언어를 선택하세요```)
     
-- [```Drivers```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
+- [```드라이버```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 
-- ```Unlocked bootloader``` (If your bootloader is locked and you don't know how to unlock it use [this](unlock-bootloader.md) guide)
+- ```언락 상태의 부트 로더``` - (부트로더가 락 상태이며 언락 방법을 모를 경우 [이 가이드](unlock-bootloader.md)를 이용하세요)
 
 ### Notes:
 > [!NOTE]
