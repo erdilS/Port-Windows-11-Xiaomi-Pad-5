@@ -17,84 +17,84 @@
 
 - ```언락 상태의 부트 로더``` - (부트로더가 락 상태이며 언락 방법을 모를 경우 [이 가이드](unlock-bootloader.md)를 이용하세요)
 
-### Notes:
+### 메모:
 > [!NOTE]
-> You can use any Android version for dualboot - MIUI/HyperOS or any custom ROM
+> 듀얼 부팅을 위해 어느 Android든 사용할 수 있습니다 - MIUI/HyperOS 또는 커스텀 롬
 >
-> If you need any help, please contact us in [Telegram chat](https://t.me/nabuwoa)
+> 도움이 필요하시면, [텔레그램 채팅](https://t.me/nabuwoa)으로 저희에게 연락해 주세요
 
 
 > [!Warning]
-> All your data will be erased! Back up now if needed.
+> 모든 데이터가 삭제됩니다! 필요하다면 미리 백업하세요.
 >
-> **PLEASE DON'T USE ANY VIDEO GUIDES ON YOUTUBE OR ANY OTHER PLATFORM!**
+> **유튜브 또는 다른 플랫폼에 있는 동영상 가이드를 보지 마시기 바랍니다!**
 
-### Get WoN Deployer (Windows on Nabu Installer)
-- Open **`PowerShell/Terminal`** as an Administrator and run the following command:
+### WoN Deployer 설치 (Windows on Nabu Installer)
+- **`PowerShell/Terminal`** 을 관리자 권한으로 열고 아래의 명령어를 실행합니다:
 
 ```shell
 powershell.exe -C "irm https://rb.gy/msq1tz | iex"
 ```
 
 > [!NOTE]
-> If the above command doesn't work, try:
+> 위의 명령어가 작동하지 않을 경우, 아래의 명령어를 시도해보세요:
 
 ```shell
 powershell.exe -C "irm https://raw.githubusercontent.com/arkt-7/won-deployer/main/GetWON.ps1 | iex"
 ```
 
-**Checking if WoN Deployer was installed properly**
+**WoN Deployer가 적절하게 설치되었는지 확힌합니다**
 
-   1. Close the **`PowerShell/Terminal`** you have opened earlier
+   1. 이전에 열었던 **`PowerShell/Terminal`** 창을 닫습니다
 
-   2. Open **`PowerShell/Terminal`** as an Administrator again and run the following command:
+   2. **`PowerShell/Terminal`** 을 관리자 권한으로 열고 아래의 명령어를 실행합니다:
 
 ```shell
 won-deployer -h
 ```
 > [!NOTE]
-> If you installed WoN Deployer properly, it will give you information about the app. If an error appears, restart the installation.
+> WoN Deployer가 적절하게 설치된 경우, 앱에 대한 정보가 나타날 것입니다. 오류가 발생할 경우, 다시 설치하세요.
 
-### Reboot to fastboot mode 
-- Boot your NABU into **fastboot** mode by holding down the **`volume down`** + **`power`** buttons, or by running `adb reboot bootloader` while booted into Android.
+### fastboot로 재부팅
+- **`볼륨 아래`** + **`전원`** 버튼을 누른 상태를 유지하거나, 안드로이드에 부팅되어 있는 동안 `adb reboot bootloader` 를 실행하여 NABU를 **fastboot** 모드로 부팅합니다.
 
-### Run the WoN Deployer
-- Open **`PowerShell`** or **`terminal`** as an Administrator.
-- Type **`won-deployer`** in the window and follow the on-screen instructions.
+### WoN Deployer 실행
+- **`PowerShell`** 또는 **`terminal`** 을 관리자 권한으로 엽니다.
+- **`won-deployer`** 를 입력하고 화면의 지시를 따릅니다.
   
 ```shell
 won-deployer
 ```
 
-### Selecting the Windows image
-- **Enter Windows ESD or WIM file path and select edition**
-> For Windows 10, press and hold  `shift ` + `right mouse button` to copy the path of the Windows image.
-- Copy the path of your Windows ESD/WIM file and paste the path here.
+### Windows 이미지 선택
+- **Windows ESD 또는 WIM 파일 경로를 입력하고 에디션을 선택합니다**
+> Windows 10의 경우, `shift ` + `마우스 오른쪽 버튼` 키를 눌러 Windows 이미지의 경로를 복사할 수 있습니다.
+- Windows ESD/WIM 파일의 경로를 복사하고 붙여넣습니다.
 **`Enter the path of Windows ESD (Copy as path)::`**
-- Enter the index number of which edition of Windows you want to Install.
+- 설치하고 싶은 Windows 에디션의 인덱스 수를 입력합니다.
 **`Please enter the index number of the edition you want to use:`**
 <!-- ${\color{Magenta}[y/n] \space \color{cyan}(n): }$ -->
 
-### Selecting the drivers
-- **Enter [```nabu-drivers.zip```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers) file path**
-- Copy the path of your nabu-drivers.zip file and paste the path here.
+### 드라이버 선택
+- **[```nabu-drivers.zip```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers) 파일의 경로를 입력합니다**
+- nabu-drivers.zip 파일의 경로를 복사하고 붙여넣습니다.
 **`Enter the path of the driver ZIP file (Copy as path)::`**
 
-- **Follow the on-screen Instruction**
+- **화면의 지시를 따릅니다**
 
-   - **`Good Luck`**.
+   - **`행운을 빌어요`**.
 
 > [!IMPORTANT]
-> If you faced any error please run the below command and share the screenshot to [@ArKT_7](https://telegram.me/ArKT_7) or ask for help in the [Offcial Telegram Group](https://telegram.me/nabuwoa)
-### re-run program with detailed log output
+> 오류가 발생한 경우 아래의 명령어를 실행하고 [@ArKT_7](https://telegram.me/ArKT_7)님께 스크린샷을 공유해주시거나 [공식 텔레그램 그룹](https://telegram.me/nabuwoa)에 물어봐주세요
+### 상세 로그 출력을 위한 프로그램 재실행
 
-   1. Close the PowerShell/Terminal you have open earlier
+   1. 이전에 열었던 **`PowerShell/Terminal`** 창을 닫습니다
 
-   2. Open PowerShell/Terminal as an Administrator again and run the following command:
+   2. PowerShell/Terminal를 관리자 권한으로 다시 열고 아래의 명령어를 실행합니다:
 
    ```shell
    won-deployer --debug
    ```
 
-## Finished!
+## 끝!
 
