@@ -27,7 +27,7 @@
 
 - [프로젝트 지원 상태](status.md)
 
-- [설치](1-partition-ko.md)
+- [설치](selection-ko.md)
 
 - [제거](uninstall-ko.md)
 
