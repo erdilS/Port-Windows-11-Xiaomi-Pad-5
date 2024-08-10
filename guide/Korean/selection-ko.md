@@ -2,7 +2,7 @@
 
 # Xiaomi Pad 5 에서 윈도우 구동
 
-### Notes:
+### 메모:
 > [!NOTE]
 > 듀얼 부팅을 위해 어느 Android든 사용할 수 있습니다 - MIUI/HyperOS 또는 커스텀 롬
 >
