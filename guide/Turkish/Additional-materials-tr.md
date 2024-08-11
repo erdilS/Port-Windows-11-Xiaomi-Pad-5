@@ -14,7 +14,7 @@ Ayrıca [bu linkte](https://armrepo.ver.lt/) ARM'a özel yazılımların bir lis
 > [!NOTE]
 > Bu işlemi yapmanız önerilir çünkü sürücüde herhangi bir değişiklik yapılmaması gerekmektedir, ayrıca sürücü gizlenmezse bazı uygulamaların bu sürücüye dosya yazma ihtimali her daim olacaktır.
 
-- [ModemHide.vbs](https://github.com/Misha803/My-Scripts/releases/tag/ModemHide) dosyasını cihaza indirin ce çalıştırın
+- [ModemHide.vbs](https://github.com/Misha803/My-Scripts/releases/tag/ModemHide) dosyasını cihaza indirin ve çalıştırın
 - `Evet`e tıklayarak bütün Kullanıcı Hesabı Denetimi uyarılarını onaylayın
 
 
@@ -25,8 +25,15 @@ Ayrıca [bu linkte](https://armrepo.ver.lt/) ARM'a özel yazılımların bir lis
 > [!Important]
 > Linkteki adımları Mi Pad 5'in Windows tarafında yapınız, bilgisayarınız üzerinde değil. 
 
-[USB Host Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) kullanarak USB host modunu etkinleştirin/devre dışı bırakın ve USB host modunu devre dışı bırakmak/etkinleştirmek istediğinizi onaylayın.
+USB host modunu etkinleştirmek/devre dışı bırakmak için [USB Host Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) dosyasını açın ve USB host modunu devre dışı bırakmak/etkinleştirmek istediğinizi onaylayın.
 
+#### Bitti!
+
+## Windows Update ya da bir ISO imajı kullanarak Windows'u güncelleyebilir miyim?
+- ✅ **Evet!** Windows Update'te çıkan güncellemeleri yapabilrsiniz ya da ISO imajı kullanarak güncelleyebilirsiniz
+
+## Windows kurduktan sonra Android'i güncelleyebilir miyim?
+- ✅ **Evet!** Android'i istediğin şekilde güncelleyebilirsin, sadece [Yeniden rootlama rehberini](Re-rooting-tr.md) takip ederek Android'i yeniden rootlamayı unutma
 
 ## Secureboot'u devre dışı bırakma
 > [!Warning]
@@ -34,6 +41,7 @@ Ayrıca [bu linkte](https://armrepo.ver.lt/) ARM'a özel yazılımların bir lis
 
 [Secureboot'u devre dışı bırakma rehberi](/guide/Turkish/disable-secureboot-tr.md)
 
+#### Bitti!
 
 ## ```Microsoft Office``` / ```Microsoft 365``` kurulumu
 
@@ -49,6 +57,7 @@ Ayrıca [bu linkte](https://armrepo.ver.lt/) ARM'a özel yazılımların bir lis
 
 [Buradan](https://github.com/massgravel/Microsoft-Activation-Scripts) Massgravel'ın talimatlarını takip edin
 
+#### Bitti!
 
  ## ~El feneri (flashlight) nasıl kullanılır~
 
@@ -56,6 +65,7 @@ Ayrıca [bu linkte](https://armrepo.ver.lt/) ARM'a özel yazılımların bir lis
 > El fenerini açmak için flashlight.exe'yi çalıştın
 > Kapatmak için ise herhangi bir tuşa basın
 
+#### Bitti!
 
 ## Factory reset Windows 11
 > [!Warning]
@@ -69,3 +79,28 @@ Ayrıca [bu linkte](https://armrepo.ver.lt/) ARM'a özel yazılımların bir lis
 - `Sonraki` düğmesine tıklayın
 - `Sıfırla` düğmesine tıklayın
 > Yeniden başlattıktan sonra temiz bir Windows elde edeceksiniz
+
+#### Bitti!
+
+## Adaptif parlaklığı kapatma
+
+- **`Win + I`** tuşlarına basarak Windows 11 Ayarlar'ı açın ya da Başlat'a sağ tık yaparak "Ayarlar"ı açın.
+
+- Soldaki menüden **`Sistem`** sekmesine gidin.
+
+- **`Ekran`**a tıklayın.
+
+-  **`Parlaklık`** sekmesinde, iki seçenek göreceksiniz:
+
+**```1. Parlaklığı ışığa göre değiştirin:```**
+
+> Düğmeyi **`Kapalı`** konumuna getirerek kapatabilirsiniz.
+  
+ **```2. Parlaklığı içeriğe göre değiştirin:```**
+
+> Aşağı açılır menüden **`Kapalı`**ya tıklayarak kapatabilirsiniz.
+
+>[!NOTE]
+> Bu değişiklikleri yaptıktan sonra adaptif ışık ve adaptif içerik parklıkları kapanacaktır.
+
+#### Bitti!
