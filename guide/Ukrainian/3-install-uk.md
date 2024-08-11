@@ -81,11 +81,18 @@ bcdboot X:\Windows /s Y: /f UEFI
 mountvol y: /d
 ```
 
-### Reboot to Android
+### Перезавантажте в fastboot
 ```cmd
-adb reboot
+adb reboot bootloader
 ```
 
-> Set up your device, then go to the last step
+#### Завантажтесь з UEFI
+> Замініть `path\to\nabu-uefi.img` на фактичний шлях до образу UEFI
+```cmd
+fastboot boot fastboot\до\nabu-uefi.img
+```
+
+### Перезавантажте Android
+Ваш пристрій має перезавантажитися самостійно через +- 10 хвилин очікування, після чого ви завантажитеся в Android для останнього кроку.
 
 ## [Останній крок: Налаштування подвійного завантаження](4-dualboot-uk.md)
