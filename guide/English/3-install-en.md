@@ -62,11 +62,13 @@ bcdboot X:\Windows /s Y: /f UEFI
 mountvol y: /d
 ```
 
-### Reboot to Android
-> Set up your phone, then proceed to the last step
+### Reboot to fastboot
 ```cmd
-adb reboot
+adb reboot bootloader
 ```
+
+### Reboot to Android
+Your device should reboot by itself after +- 10 minutes of waiting, after which you will be booted into Android, for the last step.
 
 ## [Last step: Setting up dualboot](/guide/English/4-dualboot-en.md)
 
