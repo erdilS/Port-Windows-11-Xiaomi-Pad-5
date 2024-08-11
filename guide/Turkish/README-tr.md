@@ -12,34 +12,43 @@
 > İngilizce dışındaki diğer diller her zaman güncel olmayabilir 
 
 ## ⚠️ Uyarı
-Brick edilmiş cihazlardan, eksik recovery bölümlerinden, ölü xiaomi fabrika işçişerinden, ölü şarj soketlerinden, ramlerden, ekranlardan, işlemcilerden, herhangi bir xiaomi saçmalığından, ölü kedi veya köpeklerden, nükleer savaşlardan veya Android'e geri dönmeyi unuttuğunuz için alarm kuramadığındızan dolayı kovulmanızdan sorumlu değiliz.
+> [!NOTE]
+> Brick edilmiş cihazlardan, eksik recovery bölümlerinden, ölü xiaomi fabrika işçişerinden, ölü şarj soketlerinden, ramlerden, ekranlardan, işlemcilerden, herhangi bir xiaomi saçmalığından, ölü kedi veya köpeklerden, nükleer savaşlardan veya Android'e geri dönmeyi unuttuğunuz için alarm kuramadığındızan dolayı kovulmanızdan sorumlu değiliz.
+> Bu proje geliştirme aşamasındadır. Buradaki tüm dosyalar birçok kullanıcının katkıları sayesindedir. Burada, elde etmeyi başardığımız çalışan dosyalarla bir rehber bulacaksınız. Bu hassas bir süreçtir, riski göze alıyorsanız yapın ve tüm adımları dikkatlice izleyin.
 
-Bu proje geliştirme aşamasındadır. Buradaki tüm dosyalar birçok kullanıcının katkıları sayesindedir. Burada, elde etmeyi başardığımız çalışan dosyalarla bir rehber bulacaksınız. Bu hassas bir süreçtir, riski göze alıyorsanız yapın ve tüm adımları dikkatlice izleyin.
-
+> [!WARNING]
 **TABLETİNİZİ YA DA TABLETİN BÖLÜM TABLOSUNU MODİFİYE ETMEKTEN RAHATSIZSANIZ YA DA TABLETİNİZİ BRICK ETMEKTEN KORKUYORSANIZ ŞU AN UZAKLAŞIN!!! DİKKAT, TABLETİNİZİ BRICK EDERSENİZ KENDİ BAŞINIZASINIZ!!! BU KONUDA SİZİ UYARIYORUZ!!!**
 
 > [!WARNING]
-> 
 > **LÜTFEN YOUTUBE'DA VEYA BAŞKA BİR PLATFORMDA BULUNAN VIDEO REHBERLERİ KULLANMAYIN! BU VIDEOLAR ESKİDİR VE BUNLARI KULLANARAK CİHAZINIZI BRICK EDEBİLİRSİNİZ! İLLA Kİ BİR VIDEO REHBERE İHTİYACINIZ VARSA [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA) TARAFINDAN HAZIRLANMIŞ BU [VIDEO REHBERİ](https://youtu.be/BbgTbTGbXYg) KULLANIN**
 
 
 ## Başlangıç
+
+- [**```ÖNEMLİ: ÖNCELİKLE BUNU OKUYUN!```**](guide/English/important-tr.md)
+
+- [Proje Durumu](status-tr.md)
+
 - [Kurulum](1-partition-tr.md)
-  
-- [Dualboot (çift sistem) Kurulumu](dualboot-tr.md)
   
 - [Kaldırma](uninstall-tr.md)
 
+
 ## Diğer
-- [Proje Durumu](status-tr.md)
+
+- [Bootloader kilidini açma rehberi](guide/English/unlock-bootloader-tr.md)
+
+- [Dualboot (çift sistem) Kurulumu](dualboot-tr.md)
   
 - [Sorun giderme](troubleshooting-tr.md)
   
 - [Sürücüleri Güncelleme](update-tr.md)
+
+- [UEFI Güncelleme](UEFI-updating-tr.md)
   
 - [Yeniden kurulum](reinstall-tr.md)
-  
-- [UEFI Güncelleme](UEFI-updating-tr.md)
+
+- [Re-rooting Android](guide/English/Re-rooting-tr.md)
   
 - [Faydalı uygulamalar ve talimatlar](/guide/Turkish/Additional-materials-tr.md)
 
@@ -72,18 +81,3 @@ Bu proje geliştirme aşamasındadır. Buradaki tüm dosyalar birçok kullanıc�
 [<img alt="Mateus13000" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/38146322?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Mateus13000)
 [<img alt="annson24" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/8401837?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/annson24)
 [<img alt="Ost268" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/99175924?s=96&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/galaxysollector)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
