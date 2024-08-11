@@ -5,7 +5,7 @@
 ## 安装
 
 #### 先决条件
-- ```Bootloader 已经解锁``` - (如果你的 bootloader 是上锁状态并且不知道如何解锁，请看[这篇指南](/guide/Simplified Chinese/unlock-bootloader-cn.md))
+- ```Bootloader 已经解锁``` - (如果你的 bootloader 是上锁状态并且不知道如何解锁，请看[这篇指南](/guide/Simplified%20Chinese/unlock-bootloader-cn.md))
 
 -  ```大脑```
   
@@ -63,4 +63,4 @@ adb reboot
 ```
 
 
-### [下一步：获取 root 权限](/guide/Simplified Chinese/2-rootguide-cn.md)
+### [下一步：获取 root 权限](/guide/Simplified%20Chinese/2-rootguide-cn.md)

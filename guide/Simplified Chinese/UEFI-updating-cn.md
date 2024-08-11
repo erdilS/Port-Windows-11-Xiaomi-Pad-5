@@ -16,7 +16,7 @@
 - [```最新的 UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 
 ## 用新的 UEFI 替换旧的 UEFI
-> 如果你还没有设置双启动，请按照 [双启动指南](/guide/Simplified Chinese/4-dualboot-cn.md) 正确设置 WOA Helper。
+> 如果你还没有设置双启动，请按照 [双启动指南](/guide/Simplified%20Chinese/4-dualboot-cn.md) 正确设置 WOA Helper。
 - 启动到 Android
 - 打开内部存储中的 `UEFI` 文件夹
 - 删除旧的 UEFI

@@ -11,7 +11,7 @@
 
 #### 先决条件
 
-- ```现有的 Windows 和启动分区``` (*如果未满足条件，[返回并假装这个指南从未存在过](/guide/Simplified Chinese/1-partition-cn.md)*)
+- ```现有的 Windows 和启动分区``` (*如果未满足条件，[返回并假装这个指南从未存在过](/guide/Simplified%20Chinese/1-partition-cn.md)*)
 
 - [```恢复镜像```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
@@ -33,4 +33,4 @@ fastboot boot <recovery.img>
 ```cmd
 adb shell format
 ```
-## [下一步：安装 Windows](/guide/Simplified Chinese/3-install-cn.md#进入-MSC-(大容量存储)-模式)
+## [下一步：安装 Windows](/guide/Simplified%20Chinese/3-install-cn.md#进入-MSC-(大容量存储)-模式)

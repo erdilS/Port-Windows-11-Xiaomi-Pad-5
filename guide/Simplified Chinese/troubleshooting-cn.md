@@ -12,7 +12,7 @@
 
 ## Windows 中无法充电
 > [!WARNING]
-> 在启用 USB 主机模式期间，不要使用带供电的 USB Hub，这可能会烧坏平板的尾插。如果你使用带供电的 USB Hub，请参考 [禁用 USB 主机模式指南](/guide/Simplified Chinese/Additional-materials-cn.md#禁用-USB-主机模式)。
+> 在启用 USB 主机模式期间，不要使用带供电的 USB Hub，这可能会烧坏平板的尾插。如果你使用带供电的 USB Hub，请参考 [禁用 USB 主机模式指南](/guide/Simplified%20Chinese/Additional-materials-cn.md#禁用-USB-主机模式)。
 
 在 Windows 中，充电仅在特定的数据线上有效。已知可用的数据线包括小米原装充电线（USB-A 公头中有额外的橙色/红色引脚）和 Nimaso 100W USB-C 到 USB-C 快速充电电缆。
 

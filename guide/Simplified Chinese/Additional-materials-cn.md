@@ -41,7 +41,7 @@
 > [!Warning]
 > 仅在必要时才这样做！
 
-> [**`禁用安全启动指南`**](/guide/Simplified Chinese/disable-secureboot-cn.md)
+> [**`禁用安全启动指南`**](/guide/Simplified%20Chinese/disable-secureboot-cn.md)
 
 
 ## 安装 Microsoft Office / Microsoft 365

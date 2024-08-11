@@ -66,7 +66,7 @@ mountvol y: /d
 #### 重启到安卓
 在安装完成后，长按电源键重启回到安卓。
 
-## [最后一步: 配置双系统](/guide/Simplified Chinese/4-dualboot-cn.md)
+## [最后一步: 配置双系统](/guide/Simplified%20Chinese/4-dualboot-cn.md)
 
 
 

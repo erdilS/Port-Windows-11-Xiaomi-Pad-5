@@ -15,7 +15,7 @@
   
 - [```驱动包```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 
-- ```Bootloader 已经解锁``` - (如果你的 bootloader 是上锁状态并且不知道如何解锁，请看[这篇指南](/guide/Simplified Chinese/unlock-bootloader-cn.md))
+- ```Bootloader 已经解锁``` - (如果你的 bootloader 是上锁状态并且不知道如何解锁，请看[这篇指南](/guide/Simplified%20Chinese/unlock-bootloader-cn.md))
 
 ### 注意:
 > [!NOTE]

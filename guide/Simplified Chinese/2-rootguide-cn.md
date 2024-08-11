@@ -9,7 +9,7 @@
 #### 先决条件
 - ```大脑```
   
-- 在上一页中备份出来的 [```安卓 boot 分区镜像```](/guide/Simplified Chinese/1-partition-cn.md#备份当前的-boot-分区) 
+- 在上一页中备份出来的 [```安卓 boot 分区镜像```](/guide/Simplified%20Chinese/1-partition-cn.md#备份当前的-boot-分区) 
 
 #### 给 boot 镜像打补丁
 
@@ -53,7 +53,7 @@ fastboot reboot
 adb shell "su -c cp dev/block/by-name/boot /sdcard/root.img" & adb pull /sdcard/root.img
 ```
 
-### [下一步：刷入 Windows](/guide/Simplified Chinese/3-install-cn.md)
+### [下一步：刷入 Windows](/guide/Simplified%20Chinese/3-install-cn.md)
 
 
 
