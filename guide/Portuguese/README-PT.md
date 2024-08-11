@@ -5,7 +5,7 @@
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
 
 ## Idiomas
-[```Русский```](/guide/Russian/README-RU.md) | [```English```](/README.md) | **```Português```** | [```Türkçe```](/guide/Turkish/README-tr.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | [```한국어```](/guide/Korean/README-KO.md)
+[```Русский```](/guide/Russian/README-RU.md) | [```English```](/README.md) | **```Português```** | [```Türkçe```](/guide/Turkish/README-tr.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | [```한국어```](/guide/Korean/README-KO.md) |  | [```简体中文```](/guide/Simplified%20Chinese/README-CN.md)
 
 > [!NOTE]
 > Outros idiomas além do inglês podem nem sempre estar atualizados 
@@ -78,20 +78,4 @@ Esse projeto ainda está em desenvolvimento, todos os arquivos são contribuiç�
 [<img alt="annson24" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/8401837?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/annson24)
 [<img alt="Ost268" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/99175924?s=96&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/galaxysollector)
 [<img alt="gvzd" src="https://i.ibb.co/VxsvNZ6/Ellipse-1.png" />](https://https://github.com/gvzd)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[<img alt="chiyuki0325" src="https://imgsrc.baidu.com/forum/pic/item/810a19d8bc3eb13511b8c49ae01ea8d3fd1f4497.png" />](https://github.com/chiyuki0325)
