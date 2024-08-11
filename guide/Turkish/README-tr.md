@@ -36,21 +36,21 @@
 
 ## Diğer
 
-- [Bootloader kilidini açma rehberi](guide/English/unlock-bootloader-tr.md)
+- [Bootloader Kilidini Açma Rehberi](guide/English/unlock-bootloader-tr.md)
 
 - [Dualboot (çift sistem) Kurulumu](dualboot-tr.md)
   
-- [Sorun giderme](troubleshooting-tr.md)
+- [Sorun Giderme](troubleshooting-tr.md)
   
 - [Sürücüleri Güncelleme](update-tr.md)
 
 - [UEFI Güncelleme](UEFI-updating-tr.md)
   
-- [Yeniden kurulum](reinstall-tr.md)
+- [Yeniden Kurulum](reinstall-tr.md)
 
-- [Re-rooting Android](guide/English/Re-rooting-tr.md)
+- [Android'i Yeniden Rootlama](guide/English/Re-rooting-tr.md)
   
-- [Faydalı uygulamalar ve talimatlar](/guide/Turkish/Additional-materials-tr.md)
+- [Faydalı Uygulamalar ve Talimatlar](/guide/Turkish/Additional-materials-tr.md)
 
 
 
