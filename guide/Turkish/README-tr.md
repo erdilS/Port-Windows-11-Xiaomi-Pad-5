@@ -6,7 +6,7 @@
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
 
 ## Dil
-[```Русский```](/guide/Russian/README-RU.md) | [```English```](/README.md) | [```Português```](/guide/Portuguese/README-PT.md) | **```Türkçe```** | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | [```한국어```](/guide/Korean/README-KO.md)
+[```Русский```](/guide/Russian/README-RU.md) | [```English```](/README.md) | [```Português```](/guide/Portuguese/README-PT.md) | **```Türkçe```** | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | [```한국어```](/guide/Korean/README-KO.md) | [简体中文](/guide/Simplified Chinese/README-CN.md)
 
 > [!NOTE]
 > İngilizce dışındaki diğer diller her zaman güncel olmayabilir 
@@ -72,7 +72,7 @@ Bu proje geliştirme aşamasındadır. Buradaki tüm dosyalar birçok kullanıc�
 [<img alt="Mateus13000" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/38146322?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Mateus13000)
 [<img alt="annson24" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/8401837?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/annson24)
 [<img alt="Ost268" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/99175924?s=96&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/galaxysollector)
-
+[<img alt="chiyuki0325" src="https://imgsrc.baidu.com/forum/pic/item/810a19d8bc3eb13511b8c49ae01ea8d3fd1f4497.png" />](https://github.com/chiyuki0325)
 
 
 

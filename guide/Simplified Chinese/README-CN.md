@@ -1,56 +1,57 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
+# 在小米平板 5 上运行 Windows 11
 
-# Windows no Xiaomi Pad 5
-[![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
+[![Telegram](https://img.shields.io/badge/Telegram-群组-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
 
-## Idiomas
-[```Русский```](/guide/Russian/README-RU.md) | [```English```](/README.md) | **```Português```** | [```Türkçe```](/guide/Turkish/README-tr.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | [```한국어```](/guide/Korean/README-KO.md) | [简体中文](/guide/Simplified Chinese/README-CN.md)
+## 语言 
+[```Русский```](/guide/Russian/README-RU.md) | [```English```](/README.md) | [```Português```](/guide/Portuguese/README-PT.md) | [```Türkçe```](/guide/Turkish/README-tr.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | [```한국어```](/guide/Korean/README-KO.md) | **```简体中文```**
 
+## ⚠️ 警告
 > [!NOTE]
-> Outros idiomas além do inglês podem nem sempre estar atualizados 
+>
+> - 我们不对以下情况负责：平板变砖，recovery 分区丢失，小米生产线工人事故，电源芯片烧坏，显示芯片损坏，内存和 CPU 爆炸，任何小米相关问题，宠物死亡，核战争，或因为你忘记重启到安卓系统设置闹钟而被解雇。
+> - 这个项目仍处于开发阶段，所有文件都由其他用户贡献。在这里，你将找到我们设法收集的可用文件和指南。这是一个非常谨慎的过程，**请自行承担风险并仔细遵循所有步骤**。
 
-## ⚠️ Aviso
-Nós não somos responsáveis por dispositivos brickados, partição de recovery perdida, funcionários da xiaomi misteriosamente desaparecidos, pmics estragados, memória ram assassinada, ics de tela destruídos, cpus exterminadas, qualquer palhaçada da xiaomi, perda de gato ou cachorro, gerra nuclear ou por levar demissão por esquecer de iniciar o android de volta e perder o alarme.
-
-Esse projeto ainda está em desenvolvimento, todos os arquivos são contribuições de vários usuários, aqui você terá um guia com arquivos funcionais que nós conseguimos. Esse é um processo delicado, faça por sua conta e risco e siga todos os passos com MUITO cuidado.
-
-**SE VOCÊ NÃO SE SENTE CONFORTAVÉL MODIFICANDO SEU TABLET, A TABELA DE PARTIÇÃO DO MESMO OU TEM MUITO MEDO DE BRICKAR SEU TABLET, POR FAVOR SE RETIRE!!! VOCÊ FOI AVISADO, EM CASO DE DISPOSITIVO BRICKADO VOCÊ ESTÁ POR CONTA PRÓPRIA!!! NOVAMENTE! VOCÊ FOI AVISADO!!!**
 > [!WARNING]
-> **NÃO USE VÍDEOS TUTORIAIS DO YOUTUBE OU QUALQUER OUTRA PLATAFORMA! ESTES PODEM ESTAR DESATUALIZADOS E VOCÊ PODE BRICKAR SEU TABLET SEGUINDO OS MESMOS! SE VOCÊ REALMENTE PRECISA DE UM TUTORIAL EM VÍDEO, USE ESSE (VÍDEO EM INGLÊS) [VIDEO GUIDE](https://youtu.be/BbgTbTGbXYg) POR [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
+> **如果你对修改你平板的分区表感到不适，或者执着于把设备变砖，请立即点击离开！！！我们已经警告过你了，如果你不小心让你的平板变砖了，那你就只能靠你自己了！！！再次提醒，你已经被警告过了！！！**
+
+> [!WARNING]
+> **请不要遵照 YouTube、哔哩哔哩或其他平台上的那些严重过时的视频指南操作！使用过时的安装方法可能导致你的设备出现问题，甚至变砖。如果你实在是需要看着视频操作，请看这份由 [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA) 制作的 [视频指南](https://youtu.be/BbgTbTGbXYg)**。
 
 
-## Primeiros Passos
+## 正文
 
-- [**```IMPORTANTE: LEIA PRIMEIRO!```**](/guide/Portuguese/important-pt.md)
+- [**```注意：请先阅读本页!!!```**](/guide/Simplified Chinese/important-cn.md)
 
-- [Status do Projeto](/guide/Portuguese/status.md)
+- [项目进展](/guide/Simplified Chinese/status-cn.md)
 
-- [Instalação](/guide/Portuguese/1-partition-pt.md)
+- [安装指南](/guide/Simplified Chinese/selection-cn.md)
 
-- [Desinstalação](/guide/Portuguese/uninstall-pt.md)
-
-
-## Outros
-- [Desbloqueando o Bootloader](/guide/Portuguese/unlock-bootloader-pt.md)
-
-- [Configurando Dualboot](/guide/Portuguese/dualboot-pt.md)
-
-- [Resolvendo problemas](/guide/Portuguese/troubleshooting-pt.md)
-
-- [Atualizando os Drivers](/guide/Portuguese/update-pt.md)
-
-- [Atualizando a UEFI](/guide/Portuguese/UEFI-updating-pt.md)
-
-- [Re-instalação](/guide/Portuguese/reinstall-pt.md)
-
-- [Refazendo o Root no Android](/guide/Portuguese/Re-rooting-pt.md)
-
-- [Apps úteis e algumas instruções](/guide/Portuguese/Additional-materials-pt.md)
+- [卸载指南](/guide/Simplified Chinese/uninstall-cn.md)
 
 
+## 杂项内容
 
-## Contribuidores
+- [Bootloader 解锁指南](/guide/Simplified Chinese/unlock-bootloader-cn.md)
+
+- [配置双系统启动](/guide/Simplified Chinese/dualboot-cn.md)
+
+- [故障排除](/guide/Simplified Chinese/troubleshooting-cn.md)
+
+- [升级驱动](/guide/Simplified Chinese/update-cn.md)
+
+- [升级 UEFI](/guide/Simplified Chinese/UEFI-updating-cn.md)
+
+- [重装系统](/guide/Simplified Chinese/reinstall-cn.md)
+
+- [重新 Root 安卓](/guide/Simplified Chinese/Re-rooting-cn.md)
+
+- [其它应用说明](/guide/Simplified Chinese/Additional-materials-cn.md)
+
+
+
+## 贡献者
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
 [<img alt="map220v" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/14368485?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/map220v)
 [<img alt="Renegade Project" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/63859504?s=200&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/edk2-porting)
@@ -77,5 +78,5 @@ Esse projeto ainda está em desenvolvimento, todos os arquivos são contribuiç�
 [<img alt="Mateus13000" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/38146322?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Mateus13000)
 [<img alt="annson24" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/8401837?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/annson24)
 [<img alt="Ost268" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/99175924?s=96&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/galaxysollector)
-[<img alt="gvzd" src="https://i.ibb.co/VxsvNZ6/Ellipse-1.png" />](https://https://github.com/gvzd)
+[<img alt="gvzd" src="https://i.ibb.co/VxsvNZ6/Ellipse-1.png" />](https://github.com/gvzd)
 [<img alt="chiyuki0325" src="https://imgsrc.baidu.com/forum/pic/item/810a19d8bc3eb13511b8c49ae01ea8d3fd1f4497.png" />](https://github.com/chiyuki0325)
