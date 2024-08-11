@@ -35,7 +35,7 @@
 
 - [Bootloader 解锁指南](/guide/Simplified Chinese/unlock-bootloader-cn.md)
 
-- [配置双系统启动](/guide/Simplified Chinese/dualboot-cn.md)
+- [配置双系统启动](/guide/Simplified Chinese/4-dualboot-cn.md)
 
 - [故障排除](/guide/Simplified Chinese/troubleshooting-cn.md)
 

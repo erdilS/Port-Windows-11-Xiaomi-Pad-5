@@ -1,6 +1,6 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-# 在小米平板 5 上运行 Windows 11
+# 在小米平板 5 上安装 Windows
 
 ## 重要说明 / 警告
 > 尽管目前小米平板 5 在可刷入 Windows 的安卓设备中的支持情况和稳定性属于第一梯队，但仍然存在一些罕见问题，可能严重影响到你的设备。在刷入 Windows 前请务必充分了解这些问题。

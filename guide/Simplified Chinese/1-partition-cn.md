@@ -4,8 +4,8 @@
 
 ## 安装
 
-### 先决条件
-- ```Bootloader 已经解锁``` - (如果你的 bootloader 是上锁状态并且不知道如何解锁，请看[这篇指南](unlock-bootloader.md))
+#### 先决条件
+- ```Bootloader 已经解锁``` - (如果你的 bootloader 是上锁状态并且不知道如何解锁，请看[这篇指南](/guide/Simplified Chinese/unlock-bootloader-cn.md))
 
 -  ```大脑```
   
@@ -13,7 +13,7 @@
 
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
-### 注意:
+#### 注意:
 >[!NOTE]
 > 你可以使用任何安卓版本进行双系统启动 —— MIUI，HyperOS 或者任何第三方 ROM
 
@@ -24,7 +24,6 @@
 >
 > **请不要遵照 YouTube、哔哩哔哩或其他平台上的那些严重过时的视频指南操作！使用过时的安装方法可能导致你的设备出现问题，甚至变砖。如果你实在是需要看着视频操作，请看这份由 [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA) 制作的 [视频指南](https://youtu.be/BbgTbTGbXYg)**。
 
-### 给 Windows 分区并备份 boot 分区
 > [!NOTE]
 > 不知道从何开始? 首先解压下载好的 [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)，之后以管理员权限打开 ```命令提示符``` 或 ```PowerShell```，并运行提到的命令。注意把其中的 `"path\to\platform-tools"`  替换为你自己解压 platform tools 的实际路径。
 ```cmd
@@ -33,7 +32,7 @@ cd "path\to\platform-tools"
 > 在整个安装过程中，一直都需要使用这个命令窗口。不要关掉它。
 
 #### 重启到 fastboot
-- 在重启时按住音量减，把你的平板重启到 fastboot 模式
+- 重启时按住 **`音量下`** 键以进入 **fastboot** 模式
 
 - 使用数据线把平板连接到电脑
 
