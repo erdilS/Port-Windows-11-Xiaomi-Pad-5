@@ -17,7 +17,7 @@
 
 ### Notes:
 > [!NOTE]
-> You can use any Android version for dualboot - MIUI/HyperOS or any custom ROM
+> You can only use MIUI/HyperOS to install windows using WoN-deployer, you can flash any custom ROM after Windows Installation 
 >
 > If you need any help, please contact us in [Telegram chat](https://t.me/nabuwoa)
 
@@ -28,7 +28,7 @@
 > **PLEASE DON'T USE ANY VIDEO GUIDES ON YOUTUBE OR ANY OTHER PLATFORM!**
 
 ### Get WoN Deployer (Windows on Nabu Installer)
-- Open **`PowerShell/Terminal`** as an Administrator and run the following command:
+- Open **`Terminal/PowerShell`** as an Administrator and run the following command:
 
 ```shell
 powershell.exe -C "irm https://rb.gy/msq1tz | iex"
