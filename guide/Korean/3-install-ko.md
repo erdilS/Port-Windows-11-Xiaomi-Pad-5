@@ -62,13 +62,31 @@ bcdboot X:\Windows /s Y: /f UEFI
 mountvol y: /d
 ```
 
-### 안드로이드로 재부팅
-> 장치의 초기 설정을 마친 다음에, 마지막 단계로 이동하세요
+### fastboot로 재부팅
 ```cmd
-adb reboot
+adb reboot bootloader
 ```
 
+#### UEFI로 부팅
+> `path\to\nabu-uefi.img`를 실제 UEFI 이미지의 경로로 변경하세요
+```cmd
+fastboot boot path\to\nabu-uefi.img
+```
+
+### 안드로이드로 재부팅
+기기가 약 10분 후 자동으로 재부팅되고, 안드로이드로 부팅되면 마지막 단계로 이동할 수 있습니다.
+
 ## [마지막 단계: 듀얼부팅 설정](/guide/Korean/4-dualboot-ko.md)
+
+
+
+
+
+
+
+
+
+
 
 
 

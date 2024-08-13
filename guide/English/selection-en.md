@@ -4,14 +4,12 @@
 
 ### Notes:
 > [!NOTE]
-> You can use any Android version for dualboot - MIUI/HyperOS or any custom ROM
->
 > If you need any help, please contact us in [Telegram chat](https://t.me/nabuwoa)
 
 
 > [!Warning]
 > All your data will be erased! Back up now if needed.
->
+
 
 ## There are three methods to install Windows:
 
@@ -21,6 +19,7 @@
 | - Easy and quick                         | - Easy and quick                         | - Harder and longer                      |
 | - No PC needed                           | - Requires a PC                         | - Requires a PC                          |
 | - Limited in regards to OS version selection | - Highly customizable in regards to OS version, language, edition and storage allocation | - Highly customizable in regards to OS version, language, edition and storage allocation |
-| **`Coming Soon!`** | [**```Guide on how to install using WoN-deployer```**](won-deployer-install-en.md) | [**`Manual Guide`**](1-partition-en.md) |
+| - You can use any Android version - MIUI/HyperOS or any custom ROM | - You can only use MIUI/HyperOS to install windows using WoN-deployer, you can flash any custom ROM after Windows Installation | - You can use any Android version - MIUI/HyperOS or any custom ROM
+| [**`WinInstaller Guide`**](https://github.com/Kumar-Jy/Windows-in-NABU-Without-PC/blob/main/guide/Installation.md) | [**```Guide on how to install using WoN-deployer```**](won-deployer-install-en.md) | [**`Manual Guide`**](1-partition-en.md) |
 
 ---
