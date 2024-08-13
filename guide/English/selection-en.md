@@ -15,10 +15,10 @@
 
 | **Coming Soon: Install Windows without a PC (wininstaller)**                                                                       | **Install Windows using automated scripts (WoN-deployer)**                                                 | **Install Windows Manually yourself**                                                                          |
 |----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| <a href="nopc-en.md"><img src="Link" width="280"></a> | <a href="won-deployer-install-en.md"><img src="Link" width="280"></a> | <a href="1-partition-en.md"><img src="Link" width="200"></a> |
+| <a href="nopc-en.md"><img src="https://github.com/Kumar-Jy/Windows-in-NABU-Without-PC/blob/main/guide/WinInstaller.png" width="280"></a> | <a href="won-deployer-install-en.md"><img src="Link" width="280"></a> | <a href="1-partition-en.md"><img src="Link" width="200"></a> |
 | - Easy and quick                         | - Easy and quick                         | - Harder and longer                      |
 | - No PC needed                           | - Requires a PC                         | - Requires a PC                          |
-| - Limited in regards to OS version selection | - Highly customizable in regards to OS version, language, edition and storage allocation | - Highly customizable in regards to OS version, language, edition and storage allocation |
+| - - Highly customizable in regards to OS version, language, edition and storage allocation | - Highly customizable in regards to OS version, language, edition and storage allocation | - Highly customizable in regards to OS version, language, edition and storage allocation |
 | - You can use any Android version - MIUI/HyperOS or any custom ROM | - You can only use MIUI/HyperOS to install windows using WoN-deployer, you can flash any custom ROM after Windows Installation | - You can use any Android version - MIUI/HyperOS or any custom ROM
 | [**`WinInstaller Guide`**](https://github.com/Kumar-Jy/Windows-in-NABU-Without-PC/blob/main/guide/Installation.md) | [**```Guide on how to install using WoN-deployer```**](won-deployer-install-en.md) | [**`Manual Guide`**](1-partition-en.md) |
 
