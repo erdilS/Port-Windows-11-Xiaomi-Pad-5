@@ -5,8 +5,7 @@
 ## Kurulum
 
 ### Gerekli Dosyalar
-
-- ```Kilidi açılmış bootloader```
+- ```Kilidi açılmış bootloader``` - (Bootloader'ınız kilitliyse ve kilidi nasıl açacağınızı bilmiyorsanız [bu](unlock-bootloader.md) rehberi kullanın)
 
 - `Beyin`
 
@@ -15,10 +14,13 @@
 - [```Android platform araçları```](https://developer.android.com/studio/releases/platform-tools)
 
 ### Notes:
+>[!NOTE]
+> Herhangi bir Android romunu (MIUI/Hyper OS ya da herhangi bir custom rom olabilir) dualboot için kullanabilirsiniz
+
 > [!Warning]
 > Bütün verileriniz silinecektir. İhtiyaacınız olan veriler varsa şimdi yedekleyin.
 > 
-> Eğer bir hata yaptığınızı düşünüyorsanız TABLETİNİZİ YENİDEN BAŞLATMAYIN, [Telegram grubumuzda](https://t.me/nabuwoa) yardım isteyin.
+> Eğer bir hata yaptığınızı düşünüyorsanız, TABLETİNİZİ YENİDEN BAŞLATMAYIN, [Telegram grubumuzda](https://t.me/nabuwoa) yardım isteyin.
 >
 >**LÜTFEN YOUTUBE VEYA BAŞKA BİR PLATFORMDAKİ GÜNCEL OLMAYAN VİDEO REHBERLERİNİ KULLANMAYIN! BU VİDEOLAR ESKİDİR VE BUNLARI KULLANARAK CİHAZINIZI BRICK EDEBİLİRSİNİZ! EĞER BİR VİDEO REHBERİNE İHTİYACINIZ VARSA, [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA) TARAFINDAN HAZIRLANAN BU [YENİ VİDEO REHBERİNİ](https://youtu.be/BbgTbTGbXYg) KULLANIN**
 
@@ -31,6 +33,11 @@
 cd "bulunduğu\yol\platform-tools"
 ```
 > Bu pencereyi rehberin tamamında kullanın; pencereyi rehberdeki adımları tamamlayana kadar kapatmayın.
+
+#### **fastboot**'a reboot edin 
+- Cihazınızı **fastboot**'a boot etmek için reboot sırasında **`ses kısma`** tuşuna basılı tutun
+
+- Cihazınızı kabloyla bilgisayara bağlayın
 
 #### Modlanmış recoverye boot edin
 > platform-tools klasöründe açın, sonrasında (tabletiniz fastboot modundayken) aşağıdaki komutu çalıştırın

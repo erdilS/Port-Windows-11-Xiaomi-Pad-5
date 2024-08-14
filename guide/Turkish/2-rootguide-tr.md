@@ -13,7 +13,7 @@
 - [```Android boot yedeği```](/guide/Turkish/1-partition-tr.md#Make-a-backup-of-your-existing-boot-image) (bir önceki sayfada zaten bu yedeği almıştınız)
 
 
-## Boot dosyasını yamalamayın (patchleyin)
+### Boot dosyasını yamalamayın (patchleyin)
 
 - ```platform tools``` klasöründeki ```normal_boot.img``` dosyasını tablete kopyalayın 
 
@@ -27,10 +27,35 @@
   
 - platform-tools klasöründe cmd açın
 
- ## Patchli boot flashlama
+
+### **fastboot**'a reboot edin 
+- Cihazınızı **fastboot**'a boot etmek için reboot sırasında **`ses kısma`** tuşuna basılı tutun
+
+- Cihazınızı kabloyla bilgisayara bağlayın
+
+- Daha öncesinde açtığınız komut istemicisi penceresine geri dönün
+
+### Patchli boot flashlama
 - Komutun ```<magisk_patched.img>``` kısmına, ```magisk_patched.img``` dosyasının bulunduğu asıl yolu ve dosyanın asıl adını yazın.
 ```cmd
 fastboot flash boot <magisk_patched.img>
+```
+
+### Andoid'e reboot edin
+```cmd
+fastboot reboot
+```
+
+#### Kurulumun bitişi
+- **Magisk** uygulamasını yeniden açın.
+- Karşınıza çıkan talimatları takip edin, cihazınız birkaç saniye sonra açılmış olmalıdır.
+
+### Copying the rooted boot image
+> Cihazınız açıldıktan sonra
+
+- Shell için bir superuser isteği cihazınızın ekranında belirebilir. Eğer belirirse, yetkiyi verin.
+```cmd
+adb shell "su -c cp dev/block/by-name/boot /sdcard/root.img" & adb pull /sdcard/root.img
 ```
 
 ### [Sıradaki Aşama: Windows kurulumu](/guide/Turkish/3-install-tr.md)
