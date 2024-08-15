@@ -20,6 +20,22 @@
 | - No PC needed                           | - Requires a PC                         | - Requires a PC                          |
 | - - Highly customizable in regards to OS version, language, edition and storage allocation | - Highly customizable in regards to OS version, language, edition and storage allocation | - Highly customizable in regards to OS version, language, edition and storage allocation |
 | - You can use any Android version - MIUI/HyperOS or any custom ROM | - You can only use MIUI/HyperOS to install windows using WoN-deployer, you can flash any custom ROM after Windows Installation | - You can use any Android version - MIUI/HyperOS or any custom ROM
-| [**`WinInstaller Guide`**](https://github.com/Kumar-Jy/Windows-in-NABU-Without-PC/blob/main/guide/Installation.md) | [**```Guide on how to install using WoN-deployer```**](won-deployer-install-en.md) | [**`Manual Guide`**](1-partition-en.md) |
+| [**`WinInstaller guide`**](https://github.com/Kumar-Jy/Windows-in-NABU-Without-PC/blob/main/guide/Installation.md) | [**```WoN-Deployer guide```**](won-deployer-install-en.md) | [**`Manual guide`**](1-partition-en.md) |
 
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
