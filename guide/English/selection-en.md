@@ -16,7 +16,7 @@
 | <p align="center"><a href="1-partition-en.md"><img src="https://github.com/WOA-Project/SurfaceDuo-Guides/assets/3755345/9791796b-406b-4f0d-8aad-20fff18741da" width="280"></a></p> | <p align="center"><a href="nopc-en.md"><img src="https://github.com/Kumar-Jy/Windows-in-NABU-Without-PC/blob/main/guide/WinInstaller.png" width="280"></a></p> | <p align="center"><a href="won-deployer-install-en.md"><img src="https://github.com/ArKT-7/won-deployer/blob/main/assets/Won-nabu-bg.png" width="280"></a></p> |
 | - Harder and longer                         | - Easy and quick                         | - Easy and quick                      |
 | - Requires a PC                           | - No PC needed                         | - Requires a PC                          | |
-| - You can use any Android version - MIUI/HyperOS or any custom ROM | - You can use any Android version - MIUI/HyperOS or any custom ROM | - You can only use MIUI/HyperOS to install windows using WoN-deployer, you can flash any custom ROM after Windows Installation
+| - You can use any Android version - MIUI/HyperOS or any custom ROM | - You can use any Android version - MIUI/HyperOS or any custom ROM | - You can use any Android version - MIUI/HyperOS or any custom ROM
 | [**`Manual guide`**](1-partition-en.md) |[**`WinInstaller guide`**](https://github.com/Kumar-Jy/Windows-in-NABU-Without-PC/blob/main/guide/Installation.md) | [**```WoN-Deployer guide```**](won-deployer-install-en.md) | 
 
 ---
