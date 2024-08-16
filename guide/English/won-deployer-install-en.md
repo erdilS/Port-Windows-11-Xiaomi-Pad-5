@@ -17,11 +17,7 @@
 
 ### Notes:
 > [!NOTE]
-> **First-time Installation :** you have to use only MIUI or HyperOS to install Windows using WoN-deployer. After that, you can flash any custom ROM.
-> 
-> **Reinstallation (with repartitioning) :** Same as first-time installation - need to have on MIUI or HyperOS.
-> 
-> **Reinstallation (without repartitioning) :** You can use any ROM.
+> It’s better to flash stock MIUI or HyperOS for the First time install.
 > 
 > If you need any help, please contact us in [Telegram chat](https://t.me/nabuwoa)
 
@@ -107,13 +103,14 @@ won-deployer
 ## 3. Dualboot setup
 
 ### Prerequisites
-
-- [```UEFI image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+- [```Magisk app```](https://raw.githubusercontent.com/arkt-7/won-deployer/main/files/Magisk_stable.apk)
 
 - [```WoA Helper app```](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
 
+- [```UEFI image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+  
 ### Setup - Android
-- After completing inintial setup on android, restart once so `magisk` can auto install
+- Download and install the `Magisk` app.
 - Download and install the `WOA Helper` app, then open it and grant it root access.
 - Download the `UEFI image` and place it inside the folder named `UEFI` in your internal storage.
 - Open the WOA Helper app and press the **QUICKBOOT TO WINDOWS** button.
