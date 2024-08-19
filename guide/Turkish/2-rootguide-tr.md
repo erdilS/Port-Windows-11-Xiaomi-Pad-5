@@ -55,7 +55,7 @@ fastboot reboot
 
 - Shell için bir superuser isteği cihazınızın ekranında belirebilir. Eğer belirirse, yetkiyi verin.
 ```cmd
-adb shell "su -c cp dev/block/by-name/boot /sdcard/root.img" & adb pull /sdcard/root.img
+adb shell "su -c cp dev/block/by-name/boot /sdcard/rooted_boot.img" & adb pull /sdcard/rooted_boot.img
 ```
 
 ### [Sıradaki Aşama: Windows kurulumu](/guide/Turkish/3-install-tr.md)
