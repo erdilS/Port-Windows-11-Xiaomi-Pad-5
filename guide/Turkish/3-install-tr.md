@@ -44,7 +44,7 @@ dism /apply-image /ImageFile:<bulunduğu\yol\install.esd> /index:6 /ApplyDir:X:\
 > Eğer `Error 87` hatası alırsanız, `dism /get-imageinfo /ImageFile:<bulunduğu\yol\install.esd>` komutu ile imajınızın indexini (dizinini) kontrol edin, ardından `index:6` yerine imajınızdaki Windows 11 Pro'nun gerçek index numarasını yazın
 
 ### boot.img dosyasını Windows'a kopyalayın
-- **root.img** dosyasını **platform-tools** klasöründen **WINNABU** diskine sürükleyip bırakın, sonra da adını **boot.img** olarak değiştirin.
+- **rooted_boot.img** dosyasını **platform-tools** klasöründen **WINNABU** diskine sürükleyip bırakın, sonra da adını **boot.img** olarak değiştirin.
 
 ### Sürücüleri kurun
 > Sürücü arşivini çıkarın, ardından `OfflineUpdater.cmd` dosyasını açın (eğer hata verirse, `OfflineUpdaterFix.cmd` dosyasını çalıştırın)
