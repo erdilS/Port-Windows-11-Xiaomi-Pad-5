@@ -56,12 +56,15 @@ exit
 ```
 
 ### Встановлення Windows
-> Замінити `<path\to\install.esd>` із фактичним шляхом до install.esd (його також можна назвати install.wim) 
+> Замінити `path\to\install.esd` із фактичним шляхом до install.esd (його також можна назвати install.wim) 
 ```cmd
-dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
+dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 ``` 
 
-> Якщо ви отримуєте помилкуa `Error 87`, перевірте індекс вашого зображення за допомогою `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, потім замініть `index:6` на фактичний номер індексу Windows 11 Pro у вашому зображенні 
+> Якщо ви отримуєте помилкуa `Error 87`, перевірте індекс вашого зображення за допомогою `dism /get-imageinfo /ImageFile:path\to\install.esd`, потім замініть `index:6` на фактичний номер індексу Windows 11 Pro у вашому зображенні 
+
+### Copying your boot.img into Windows
+- Drag and drop the **rooted_boot.img** from the **platform-tools** folder into the **WINNABU** disk in Windows Explorer, then rename it to **boot.img**.
 
 ### Встановлення драйверів
 > Якщо він пише `"Automatic WINNABU detection failed! Enter Drive Letter manually"`, введіть **`X`**
