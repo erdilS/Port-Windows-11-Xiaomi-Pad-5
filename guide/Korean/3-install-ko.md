@@ -18,7 +18,7 @@
 ### 윈도우 설치 시작을 위해 다시 리커버리로 부팅
 > 경로 **path\to**를 리커버리 이미지의 실제 경로로 변경하세요
 ```cmd
-fastboot boot <recovery.img>
+fastboot boot path\to\recovery.img
 ```
 
 #### msc를 실행합니다
@@ -34,16 +34,16 @@ adb shell msc
 > [!Important]
 > CMD/Powershell이 **관리자 권한**으로 실행되고 있는지 확인하세요
 
-> `<path\to\install.esd>`를 실제 install.esd의 경로로 변경하세요 (파일 이름이 install.wim 일 수도 있습니다)
+> `path\to\install.esd`를 실제 install.esd의 경로로 변경하세요 (파일 이름이 install.wim 일 수도 있습니다)
 
 ```cmd
-dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
+dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 ```
 
-> `오류 87`이 출력되는 경우, `dism /get-imageinfo /ImageFile:<path\to\install.esd>` 명령어로 이미지의 인덱스를 확인하시고, `index:6` 을 이미지에 있는 Windows 11 Pro의 실제 인덱스 수로 변경하세요
+> `오류 87`이 출력되는 경우, `dism /get-imageinfo /ImageFile:path\to\install.esd` 명령어로 이미지의 인덱스를 확인하시고, `index:6` 을 이미지에 있는 Windows 11 Pro의 실제 인덱스 수로 변경하세요
 
 ### 윈도우로 boot.img 복사
-- 가이드의 마지막 페이지에서 복사한 **root.img**를 윈도우 파일 탐색기에서 **WINNABU** 디스크로 드래그 앤 드롭하고, **boot.img**로 이름을 변경합니다.
+- 가이드의 마지막 페이지에서 복사한 **rooted_boot.img**를 윈도우 파일 탐색기에서 **WINNABU** 디스크로 드래그 앤 드롭하고, **boot.img**로 이름을 변경합니다.
 
 ### 드라이버 설치
 - 드라이버 압축 파일을 압축 해제하고, `OfflineUpdater.cmd` 파일을 엽니다 (오류가 발생할 경우, `OfflineUpdaterFix.cmd` 를 실행하세요)
