@@ -103,17 +103,37 @@ won-deployer
 ## 3. Dualboot setup
 
 ### Prerequisites
-- [```Magisk app```](https://raw.githubusercontent.com/arkt-7/won-deployer/main/files/Magisk_stable.apk)
+- ```Internet connected in nabu (it is required as it will download files!)```
+  
+### Setup - Android 
+- After completeing android setup restart your nabu once.
+- Open `Magisk` dummy app which is pre-insatlled.
+- Click ok and then install the new `Won deployer setup` app. (retry once if fails)
+- now close `Magisk` dummy app and make sure to clear it from ram/recents.
+- Open new `Won deployer setup` app and install both apps from there and UEFI image. (follow on screen instructions)
+- now close everything and open `WOA Helper` app, then grant it root access.
+- Open the WOA Helper app and press the **QUICKBOOT TO WINDOWS** button.
+
+<details>
+<summary><b><strong>If you faced any issue with the above method, then you can do dualboot setup from here:</strong></b></summary>
+
+### Prerequisites
+- [```Magisk app```](https://raw.githubusercontent.com/arkt-7/won-deployer/main/files/Magisk_canary.apk)
 
 - [```WoA Helper app```](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
 
 - [```UEFI image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
   
-### Setup - Android
+### Setup - Android Manually
 - Download and install the `Magisk` app.
 - Download and install the `WOA Helper` app, then open it and grant it root access.
 - Download the `UEFI image` and place it inside the folder named `UEFI` in your internal storage.
 - Open the WOA Helper app and press the **QUICKBOOT TO WINDOWS** button.
+
+  </summary>
+</details>
+
+
 
 ### Setup - Windows
 > [!Tip]
@@ -124,5 +144,11 @@ won-deployer
 
 #### Booting to Windows
 - Press **QUICKBOOT TO WINDOWS** inside the app, or use the newly created toggle in your quick settings panel
-  
+
 ## Finished!
+
+### Visual Guide
+
+- Here’s a visual method for installing and verifying the correct installation of Won-Deployer:
+
+<img align="left" src="https://github.com/ArKT-7/won-deployer/blob/main/assets/tool-insatllation1.gif" width="720" alt="Installation Guide">
