@@ -43,7 +43,7 @@ fastboot reboot
 ### Копіювання завантажувального образу з root
 > Після завантаження пристрою
 ```cmd
-adb shell su -c cp "dev/block/by-name/boot /sdcard/rooted_boot.img"; adb pull /sdcard/rooted_boot.img
+adb shell "su -c cp /dev/block/by-name/boot /sdcard/rooted_boot.img" & adb pull /sdcard/rooted_boot.img
 ```
 
 ### [Наступний крок: Встановлення Windows](/guide/Ukrainian/3-install-uk.md)
