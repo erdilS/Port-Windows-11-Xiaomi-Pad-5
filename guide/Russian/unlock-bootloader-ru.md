@@ -37,7 +37,7 @@
 ### 3. Привяжите учётную запись Mi:/Подтвердите для разблокировки
 
 <details>
-<summary><b><strong>Standard Process (For those who is on Miui-13 or less):</strong></b></summary>
+<summary><b><strong>Стандартный процесс (Для тех, кто на MIUI-13 или меньше):</strong></b></summary>
 
  **```3. Привяжите Учётную Запись Mi:```**
    - Перейдите в Настройки > Дополнительные настройки > Параметры разработчика > Статус Mi Unlock.
