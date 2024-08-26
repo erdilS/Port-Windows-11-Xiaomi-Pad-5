@@ -18,7 +18,7 @@
 - [```UEFI image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 
 ### Boot back into the modded recovery
-> Replace **path\to** with the actual path of the recovery image
+> Replace `path\to\recovery.img` with the actual path of the recovery image
 ```cmd
 fastboot boot path\to\recovery.img
 ```
