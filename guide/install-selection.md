@@ -12,7 +12,7 @@
 - [**`Russian`**](Russian/selection-ru.md)
 - [**`Ukrainian`**](Ukrainian/selection-uk.md)
 - [**`Korean`**](Korean/selection-ko.md)
-- [**`Simplified Chinese`**](Simplified Chinese/selection-cn.md)
+- [**```Simplified Chinese```**](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/Simplified%20Chinese/selection-cn.md)
 
 
 
