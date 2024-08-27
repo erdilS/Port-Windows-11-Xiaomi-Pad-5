@@ -12,6 +12,7 @@
 - [**`Russian`**](Russian/selection-ru.md)
 - [**`Ukrainian`**](Ukrainian/selection-uk.md)
 - [**`Korean`**](Korean/selection-ko.md)
+- [**`Simplified Chinese`**](Simplified Chinese/selection-cn.md)
 
 
 
