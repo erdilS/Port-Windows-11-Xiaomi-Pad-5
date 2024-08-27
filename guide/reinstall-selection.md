@@ -6,12 +6,13 @@
 
 ### Select your language
 
-- [English](English/reinstall-en.md)
-- [Português](Portuguese/reinstall-pt.md)
-- [Turkish](Turkish/reinstall-tr.md)
-- [Russian](Russian/reinstall-ru.md)
-- [Ukrainian](Ukrainian/reinstall-uk.md)
-- [Korean](Korean/reinstall-ko.md)
+- [**`English`**](English/reinstall-en.md)
+- [**`Português`**](Portuguese/reinstall-pt.md)
+- [**`Turkish`**](Turkish/reinstall-tr.md)
+- [**`Russian`**](Russian/reinstall-ru.md)
+- [**`Ukrainian`**](Ukrainian/reinstall-uk.md)
+- [**`Korean`**](Korean/reinstall-ko.md)
+- [**`Simplified Chinese`**](Simplified%20Chinese/reinstall-cn.md)
 
 
 
