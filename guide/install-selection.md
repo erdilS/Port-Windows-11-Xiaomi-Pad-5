@@ -11,7 +11,7 @@
 - ~[Turkish](Turkish/selection-tr.md)~
 - [Russian](Russian/selection-ru.md)
 - [Ukrainian](Ukrainian/selection-uk.md)
-- ~[Korean](Korean/selection-ko.md)~
+- [Korean](Korean/selection-ko.md)
 
 
 
