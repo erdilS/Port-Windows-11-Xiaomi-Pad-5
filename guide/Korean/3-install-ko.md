@@ -11,7 +11,7 @@
 
   [```드라이브 문자 할당 프로그램```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)
   
-- [```ARM 윈도우 esd```](https://worproject.com/esd) (항목 선택 - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```원하는 언어를 선택하세요```)
+- [```ARM 윈도우 esd```](https://arkt-7.github.io/woawin/)
     
 - [```드라이버```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 
