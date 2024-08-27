@@ -6,12 +6,12 @@
 
 ### Select your language
 
-- [English](English/selection-en.md)
-- ~[Português](Portuguese/selection-pt.md)~
-- ~[Turkish](Turkish/selection-tr.md)~
-- [Russian](Russian/selection-ru.md)
-- [Ukrainian](Ukrainian/selection-uk.md)
-- [Korean](Korean/selection-ko.md)
+- [**`English`**](English/selection-en.md)
+- ~[**Português**](Portuguese/selection-pt.md)~
+- ~[**Turkish**](Turkish/selection-tr.md)~
+- [**`Russian`**](Russian/selection-ru.md)
+- [**`Ukrainian`**](Ukrainian/selection-uk.md)
+- [**`Korean`**](Korean/selection-ko.md)
 
 
 
