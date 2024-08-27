@@ -9,26 +9,24 @@
   
 - [```ADB drivers installed on your PC```](https://dl.google.com/android/repository/usb_driver_r13-windows.zip)
   
-- [```ARM Windows ESD```](https://worproject.com/esd) (Select - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```select your language```)
+- [```ARM Windows ESD```](https://arkt-7.github.io/woawin/) (Select - Build:  ```22631.4108 - latest``` or ```22631.2861``` Language:  ```select your language```)
     
 - [```Drivers```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 
 - ```Unlocked bootloader``` (If your bootloader is locked and you don't know how to unlock it use [this](unlock-bootloader-en.md) guide)
 
+---
 ### Notes:
 > [!NOTE]
 > It’s better to flash stock MIUI or HyperOS for the First time install.
 > 
 > If you need any help, please contact us in [Telegram chat](https://t.me/nabuwoa)
 
-> [!NOTE]
-> It’s recommended to flash stock MIUI or HyperOS for the First time install.
-
 > [!Warning]
 > All your data will be erased! Back up now if needed.
 >
 > **PLEASE DON'T USE ANY VIDEO GUIDES ON YOUTUBE OR ANY OTHER PLATFORM!**
-
+---
 ### 1. Get WoN Deployer (Windows on Nabu Installer)
 - Open **`Terminal/PowerShell`** as an Administrator and run the following command:
 
