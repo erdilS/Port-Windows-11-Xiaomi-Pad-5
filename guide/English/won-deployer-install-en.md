@@ -24,7 +24,7 @@
 
 > [!Warning]
 > All your data will be erased! Back up now if needed.
->
+> if you are re-installing windows make sure first you boot to android then boot to fastboot and continue
 > **PLEASE DON'T USE ANY VIDEO GUIDES ON YOUTUBE OR ANY OTHER PLATFORM!**
 ---
 ### 1. Get WoN Deployer (Windows on Nabu Installer)
@@ -116,7 +116,7 @@ won-deployer
 <summary><b><strong>If you faced any issue with the above method, then you can do dualboot setup from here:</strong></b></summary>
 
 ### Prerequisites
-- [```Magisk app```](https://raw.githubusercontent.com/arkt-7/won-deployer/main/files/Magisk_canary.apk)
+- [```Magisk app```](https://raw.githubusercontent.com/arkt-7/won-deployer/main/files/Magisk_stable.apk)
 
 - [```WoA Helper app```](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
 
