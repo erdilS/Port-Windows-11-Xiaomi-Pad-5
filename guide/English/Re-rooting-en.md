@@ -11,13 +11,14 @@ This section will guide you through the re-rooting process for when MIUI/Hyper O
 - [```Android Platform Tools```](https://developer.android.com/studio/releases/platform-tools)
 
 ### Reboot to **fastboot** 
-- Boot your NABU to **fastboot** by holding down the **`volume down`** button during reboot
+- Boot your NABU into **fastboot** by holding down the **`volume down`** button during reboot
 
 - Connect it to your PC/Laptop using a cable
 
-### Start recovery through the PC with the command
+### Boot the modded recovery
+> While in fastboot mode, replace `path\to\recovery.img` with the actual path of the recovery image
 ```cmd
-fastboot boot <recovery.img>
+fastboot boot path\to\recovery.img
 ```
 
 ### Make a backup of your existing boot image
@@ -38,9 +39,9 @@ adb reboot
 - Open command prompt in the platform tools folder 
 
 ### Flash patched boot 
- > Replace `<magisk_patched.img>` with the actual ```magisk_patched.img``` name/path.
+ > Replace `path\to\magisk_patched.img` with the actual ```magisk_patched.img``` name/path.
 ```cmd
-fastboot flash boot <magisk_patched.img>
+fastboot flash boot path\to\magisk_patched.img
 ```
 
 ### Update boot.img in Windows' C:\
