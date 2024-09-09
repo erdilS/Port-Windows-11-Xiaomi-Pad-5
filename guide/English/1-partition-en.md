@@ -33,12 +33,12 @@ cd "path\to\platform-tools"
 > Use this window throughout the entire guide. Do not close it.
 
 #### Reboot to **fastboot** 
-- Boot your NABU to **fastboot** by holding down the **`volume down`** button during reboot
+- Boot your NABU into **fastboot** by holding down the **`volume down`** button during reboot
 
 - Connect it to your PC/Laptop using a cable
 
-#### Boot the modded recovery
-> Replace **path\to\recovery.img** with the actual path of the recovery image
+### Boot the modded recovery
+> While in fastboot mode, replace `path\to\recovery.img` with the actual path of the recovery image
 ```cmd
 fastboot boot path\to\recovery.img
 ```
