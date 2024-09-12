@@ -8,6 +8,8 @@
 - ```Unlocked bootloader``` - (If your bootloader is locked and you don't know how to unlock it use [this](unlock-bootloader.md) guide)
 
 -  ```Brain```
+
+- ```Windows 10 PC/Laptop```
   
 - [```Modified recovery image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
