@@ -9,7 +9,7 @@
 
 -  ```Brain```
 
-- ```Windows 10 PC/Laptop```
+- ```Windows 10(or higher) PC/Laptop```
   
 - [```Modified recovery image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
