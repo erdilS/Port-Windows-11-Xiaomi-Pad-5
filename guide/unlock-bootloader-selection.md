@@ -9,7 +9,7 @@
 - [**`English`**](English/unlock-bootloader-en.md)
 - [**`Português`**](Portuguese/unlock-bootloader-pt.md)
 - [**`Turkish`**](Turkish/unlock-bootloader-tr.md)
-- ~[**Russian**](Russian/)~
+- [**`Russian`**](Russian/unlock-bootloader-ru.md)
 - ~[**Ukrainian**](Ukrainian/)~
 - [**`Korean`**](Korean/unlock-bootloader-ko.md)
 - [**`Simplified Chinese`**](Simplified%20Chinese/unlock-bootloader-cn.md)
