@@ -6,9 +6,10 @@
 
 ### Select your language
 
-- [English](English/unlock-bootloader-en.md)
-- [Português](Portuguese/unlock-bootloader-pt.md)
-- [Turkish](Turkish/unlock-bootloader-tr.md)
-- ~[Russian](Russian/)~
-- ~[Ukrainian](Ukrainian/)~
-- [Korean](Korean/unlock-bootloader-ko.md)
+- [**`English`**](English/unlock-bootloader-en.md)
+- [**`Português`**](Portuguese/unlock-bootloader-pt.md)
+- [**`Turkish`**](Turkish/unlock-bootloader-tr.md)
+- ~[**Russian**](Russian/)~
+- ~[**Ukrainian**](Ukrainian/)~
+- [**`Korean`**](Korean/unlock-bootloader-ko.md)
+- [**`Simplified Chinese`**](Simplified%20Chinese/unlock-bootloader-cn.md)
