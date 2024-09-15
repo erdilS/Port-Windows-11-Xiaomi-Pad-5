@@ -8,7 +8,7 @@
 
 - [**`English`**](/README.md)
 - [**`Português`**](Portuguese/README-PT.md)
-- [**`Turkish`**](Turkish/README-tr.md)
+- ~[**Turkish**](Turkish/README-tr.md)~
 - [**`Russian`**](Russian/README-RU.md)
 - [**`Ukrainian`**](Ukrainian/README-uk.md)
 - [**`Korean`**](Korean/README-KO.md)
