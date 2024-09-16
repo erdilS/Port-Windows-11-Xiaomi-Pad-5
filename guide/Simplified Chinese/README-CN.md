@@ -24,30 +24,30 @@
 
 - [**```注意：请先阅读本页!!!```**](/guide/Simplified%20Chinese/important-cn.md)
 
-- [项目进展](/guide/Simplified%20Chinese/status-cn.md)
+- [**`项目进展`**](/guide/Simplified%20Chinese/status-cn.md)
 
-- [安装指南](/guide/Simplified%20Chinese/selection-cn.md)
+- [**`安装指南`**](/guide/Simplified%20Chinese/selection-cn.md)
 
-- [卸载指南](/guide/Simplified%20Chinese/uninstall-cn.md)
+- [**`卸载指南`**](/guide/Simplified%20Chinese/uninstall-cn.md)
 
 
 ## 杂项内容
 
-- [Bootloader 解锁指南](/guide/Simplified%20Chinese/unlock-bootloader-cn.md)
+- [**`Bootloader 解锁指南`**](/guide/Simplified%20Chinese/unlock-bootloader-cn.md)
 
-- [配置双系统启动](/guide/Simplified%20Chinese/4-dualboot-cn.md)
+- [**`配置双系统启动`**](/guide/Simplified%20Chinese/4-dualboot-cn.md)
 
-- [故障排除](/guide/Simplified%20Chinese/troubleshooting-cn.md)
+- [**`故障排除`**](/guide/Simplified%20Chinese/troubleshooting-cn.md)
 
-- [升级驱动](/guide/Simplified%20Chinese/update-cn.md)
+- [**`升级驱动`**](/guide/Simplified%20Chinese/update-cn.md)
 
-- [升级 UEFI](/guide/Simplified%20Chinese/UEFI-updating-cn.md)
+- [**`升级 UEFI`**](/guide/Simplified%20Chinese/UEFI-updating-cn.md)
 
-- [重装系统](/guide/Simplified%20Chinese/reinstall-cn.md)
+- [**`重装系统`**](/guide/Simplified%20Chinese/reinstall-cn.md)
 
-- [重新 Root 安卓](/guide/Simplified%20Chinese/Re-rooting-cn.md)
+- [**`重新 Root 安卓`**](/guide/Simplified%20Chinese/Re-rooting-cn.md)
 
-- [其它应用说明](/guide/Simplified%20Chinese/Additional-materials-cn.md)
+- [**`其它应用说明`**](/guide/Simplified%20Chinese/Additional-materials-cn.md)
 
 
 
