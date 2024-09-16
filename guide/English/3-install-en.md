@@ -30,7 +30,7 @@ adb shell msc
 ```
 
 ### Assign letters to WINNABU and ESPNABU
-> Open the **DriveLetterAssigner V2.0** script and press `Y` on you your keyboard to automatically assign the letters **X** and **Y** to **WINNABU** and **ESPNABU**
+> Open the **DriveLetterAssigner** script and press `Y` on you your keyboard to automatically assign the letters **X** and **Y** to **WINNABU** and **ESPNABU**
 
 ### Installing Windows
 > [!Important]
@@ -53,7 +53,7 @@ dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 > If it asks you to enter a letter, enter the drive letter of **WINNABU** (which should be **X**), then press enter
 
 #### Create Windows bootloader files for the EFI
-> If an error occurs when copying boot files, run **DriveLetterAssigner V2.0** again, then run the following command again, replacing **Y** with **U**
+> If an error occurs when copying boot files, run **DriveLetterAssigner** again, then run the following command again, replacing **Y** with **U**
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
