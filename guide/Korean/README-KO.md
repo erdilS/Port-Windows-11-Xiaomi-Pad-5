@@ -25,30 +25,30 @@
 
 - [**```중요: 먼저 읽으세요!```**](important.md)
 
-- [프로젝트 지원 상태](status.md)
+- [**`프로젝트 지원 상태`**](status.md)
 
-- [설치](selection-ko.md)
+- [**`설치`**](selection-ko.md)
 
-- [제거](uninstall-ko.md)
+- [**`제거`**](uninstall-ko.md)
 
 
 ## 추가 정보
 
-- [부트로더 언락 가이드](unlock-bootloader-ko.md)
+- [**`부트로더 언락 가이드`**](unlock-bootloader-ko.md)
 
-- [듀얼부팅 설정](dualboot-ko.md)
+- [**`듀얼부팅 설정`**](dualboot-ko.md)
 
-- [문제 해결](troubleshooting-ko.md)
+- [**`문제 해결`**](troubleshooting-ko.md)
 
-- [드라이버 업데이트](update-ko.md)
+- [**`드라이버 업데이트`**](update-ko.md)
 
-- [UEFI 업데이트](UEFI-updating-ko.md)
+- [**`UEFI 업데이트`**](UEFI-updating-ko.md)
 
-- [재설치](reinstall-ko.md)
+- [**`재설치`**](reinstall-ko.md)
 
-- [안드로이드 재루팅](Re-rooting-ko.md)
+- [**`안드로이드 재루팅`**](Re-rooting-ko.md)
 
-- [유용한 앱 및 설명](Additional-materials-ko.md)
+- [**`유용한 앱 및 설명`**](Additional-materials-ko.md)
 
 ## 기여자
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
