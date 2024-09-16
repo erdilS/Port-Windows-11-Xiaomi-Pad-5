@@ -1,7 +1,7 @@
 # Xiaomi Pad 5 Üzerinde Windows Çalıştırma
 
 ## Secureboot'u Devre Dışı Bırakma
-> [!Önemli]
+> [!Important]
 > Secureboot'u devre dışı bırakmak istiyorsanız bu kılavuzu takip edin.
 
 ### Gereksinimler
