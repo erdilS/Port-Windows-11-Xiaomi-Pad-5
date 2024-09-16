@@ -26,7 +26,7 @@ adb shell msc
 ```
 
 #### 给 WINNABU 和 ESPNABU 分配盘符
-> 打开 **DriveLetterAssigner V2.0** 脚本，之后在提示窗口按下键盘 Y 键，之后脚本将给 **WINNABU** 和 **ESPNABU** 分别分配 **X** 和 **Y** 盘符
+> 打开 **DriveLetterAssigner** 脚本，之后在提示窗口按下键盘 Y 键，之后脚本将给 **WINNABU** 和 **ESPNABU** 分别分配 **X** 和 **Y** 盘符
 
 #### 刷入 Windows
 > [!Important]
@@ -51,7 +51,7 @@ dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 
 #### 创建 Windows 引导器文件
 
-> 如果复制引导文件时出现错误，请再次运行 **DriveLetterAssigner V2.0**，然后再次运行以下命令，将 **Y** 替换为 **U**
+> 如果复制引导文件时出现错误，请再次运行 **DriveLetterAssigner**，然后再次运行以下命令，将 **Y** 替换为 **U**
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
