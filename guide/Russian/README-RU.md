@@ -25,29 +25,29 @@
 
 ## Начнём
 
-- [Статус Проекта](status.md)
+- [**`Статус Проекта`**](status.md)
   
-- [Установка](selection-ru.md)
+- [**`Установка`**](selection-ru.md)
 
-- [Удаление](uninstall-ru.md)
+- [**`Удаление`**](uninstall-ru.md)
 
 ## Прочее 
 
-- [Руководство по разблокировке загрузчика](/guide/Russian/unlock-bootloader-ru.md)
+- [**`Руководство по разблокировке загрузчика`**](/guide/Russian/unlock-bootloader-ru.md)
 
-- [Настройка двойной загрузки](dualboot-ru.md)
+- [**`Настройка двойной загрузки`**](dualboot-ru.md)
 
-- [Исправление проблем](troubleshooting-ru.md)
+- [**`Исправление проблем`**](troubleshooting-ru.md)
 
-- [Обновление Драйверов](update-ru.md)
+- [**`Обновление Драйверов`**](update-ru.md)
   
-- [Обновление UEFI](UEFI-updating-ru.md)
+- [**`Обновление UEFI`**](UEFI-updating-ru.md)
 
-- [Переустановка](reinstall-ru.md)
+- [**`Переустановка`**](reinstall-ru.md)
 
-- [Re-rooting Android](Re-rooting-ru.md)
+- [**`Re-rooting Android`**](Re-rooting-ru.md)
 
-- [Полезные приложения и инструкции](Additional-materials-ru.md)
+- [**`Полезные приложения и инструкции`**](Additional-materials-ru.md)
 
 ## Соавторы 
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
