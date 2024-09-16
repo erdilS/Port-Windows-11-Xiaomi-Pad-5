@@ -20,24 +20,24 @@
 > **БУДЬ ЛАСКА, НЕ ВИКОРИСТОВУЙТЕ ВІДЕОІНСТРУКЦІЇ НА YOUTUBE АБО БУДЬ-ЯКІЙ ІНШІЙ ПЛАТФОРМІ! ЦІ ВІДЕО ЗАСТАРІЛИ, І ВИ МОЖЕТЕ ВИКОРИСТОВУВАТИ ЇХ НА СВОЄМУ ПРИСТРОЇ! ЯКЩО ВАМ КОНЧЕ ПОТРІБЕН ВІДЕОГАЙД, СКОРИСТАЙТЕСЯ ЦИМ [ВІДЕОПОСІБНИКОМ](https://youtu.be/BbgTbTGbXYg) ВІД [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
 
 ## Початок
-- [Встановлення Windows](selection-uk.md)
+- [**`Встановлення Windows`**](selection-uk.md)
   
-- [Налаштування подвійного завантаження](dualboot-uk.md)
+- [**`Налаштування подвійного завантаження`**](dualboot-uk.md)
   
-- [Видалення Windows](uninstall-uk.md)
+- [**`Видалення Windows`**](uninstall-uk.md)
 
 ## Різне
-- [Статус проекту](status.md)
+- [**`Статус проекту`**](status.md)
   
-- [Діагностика](troubleshooting-uk.md)
+- [**`Діагностика`**](troubleshooting-uk.md)
   
-- [Оновлення драйверів](update-uk.md)
+- [**`Оновлення драйверів`**](update-uk.md)
   
-- [Перевстановлення](reinstall-uk.md)
+- [**`Перевстановлення`**](reinstall-uk.md)
   
-- [Оновлення UEFI](UEFI-updating-uk.md)
+- [**`Оновлення UEFI`**](UEFI-updating-uk.md)
   
-- [Корисні програми та інструкції](/guide/Ukrainian/Additional-materials-uk.md)
+- [**`Корисні програми та інструкції`**](/guide/Ukrainian/Additional-materials-uk.md)
 
 ## Вкладачі
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
