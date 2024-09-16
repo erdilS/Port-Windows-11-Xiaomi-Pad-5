@@ -28,7 +28,7 @@ adb shell msc
 ```
 
 ### WINNABU와 ESPNABU에 문자 할당
-> **DriveLetterAssigner V2.0** 파일을 열고 키보드의 `Y` 키를 입력하여 문자 **X**와 **Y**를 **WINNABU**와 **ESPNABU**로 자동으로 할당합니다
+> **DriveLetterAssigner** 파일을 열고 키보드의 `Y` 키를 입력하여 문자 **X**와 **Y**를 **WINNABU**와 **ESPNABU**로 자동으로 할당합니다
 
 ### 설치
 > [!Important]
@@ -51,7 +51,7 @@ dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 > 프로그램이 문자를 입력하라고 하는 경우, **WINNABU** (기본적으로 **X** 입니다) 의 드라이브 문자를 입력하고, enter 키를 입력하세요
 
 #### EFI에 대한 윈도우 부트로더 파일 생성
-> 부팅 파일 복사 시 오류가 발생하는 경우, **DriveLetterAssigner V2.0**을 다시 실행한 후, **Y**를 **U**로 바꿔서 아래의 명령을 다시 실행하세요
+> 부팅 파일 복사 시 오류가 발생하는 경우, **DriveLetterAssigner**을 다시 실행한 후, **Y**를 **U**로 바꿔서 아래의 명령을 다시 실행하세요
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
