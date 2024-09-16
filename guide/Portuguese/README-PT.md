@@ -24,29 +24,29 @@ Esse projeto ainda está em desenvolvimento, todos os arquivos são contribuiç�
 
 - [**```IMPORTANTE: LEIA PRIMEIRO!```**](/guide/Portuguese/important-pt.md)
 
-- [Status do Projeto](/guide/Portuguese/status.md)
+- [**`Status do Projeto`**](/guide/Portuguese/status.md)
 
-- [Instalação](/guide/Portuguese/1-partition-pt.md)
+- [**`Instalação`**](/guide/Portuguese/1-partition-pt.md)
 
-- [Desinstalação](/guide/Portuguese/uninstall-pt.md)
+- [**`Desinstalação`**](/guide/Portuguese/uninstall-pt.md)
 
 
 ## Outros
-- [Desbloqueando o Bootloader](/guide/Portuguese/unlock-bootloader-pt.md)
+- [**`Desbloqueando o Bootloader`**](/guide/Portuguese/unlock-bootloader-pt.md)
 
-- [Configurando Dualboot](/guide/Portuguese/dualboot-pt.md)
+- [**`Configurando Dualboot`**](/guide/Portuguese/dualboot-pt.md)
 
-- [Resolvendo problemas](/guide/Portuguese/troubleshooting-pt.md)
+- [**`Resolvendo problemas`**](/guide/Portuguese/troubleshooting-pt.md)
 
-- [Atualizando os Drivers](/guide/Portuguese/update-pt.md)
+- [**`Atualizando os Drivers`**](/guide/Portuguese/update-pt.md)
 
-- [Atualizando a UEFI](/guide/Portuguese/UEFI-updating-pt.md)
+- [**`Atualizando a UEFI`**](/guide/Portuguese/UEFI-updating-pt.md)
 
-- [Re-instalação](/guide/Portuguese/reinstall-pt.md)
+- [**`Re-instalação`**](/guide/Portuguese/reinstall-pt.md)
 
-- [Refazendo o Root no Android](/guide/Portuguese/Re-rooting-pt.md)
+- [**`Refazendo o Root no Android`**](/guide/Portuguese/Re-rooting-pt.md)
 
-- [Apps úteis e algumas instruções](/guide/Portuguese/Additional-materials-pt.md)
+- [**`Apps úteis e algumas instruções`**](/guide/Portuguese/Additional-materials-pt.md)
 
 
 
