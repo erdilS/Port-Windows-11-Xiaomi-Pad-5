@@ -4,23 +4,36 @@
 
 ### 메모:
 > [!NOTE]
-> 듀얼 부팅을 위해 어느 Android든 사용할 수 있습니다 - MIUI/HyperOS 또는 커스텀 롬
->
 > 도움이 필요하시면, [텔레그램 채팅](https://t.me/nabuwoa)으로 저희에게 연락해 주세요
-
+>
+> 듀얼 부팅을 위해 어느 Android든 사용할 수 있습니다 (MIUI/HyperOS 또는 커스텀 롬 등)
 
 > [!Warning]
 > 모든 데이터가 삭제됩니다! 필요하다면 미리 백업하세요.
->
 
 ## Windows를 설치하기 위한 세 가지 방법이 있습니다:
 
-| **출시 예정: PC 없이 Windows 설치 (wininstaller)**                                                                       | **자동화 스크립트를 이용하여 Windows 설치 (WoN-deployer)**                                                 | **스스로 직접 Windows 설치**                                                                          |
+| **스스로 직접 Windows 설치**                                                                       | **PC 없이 Windows 설치 (wininstaller)**                                                 | **자동화 스크립트를 이용하여 Windows 설치 (WoN-deployer)**                                                                          |
 |----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| <a href="nopc-en.md"><img src="Link" width="280"></a> | <a href="won-deployer-install-en.md"><img src="Link" width="280"></a> | <a href="1-partition-en.md"><img src="Link" width="200"></a> |
-| - 쉽고 빠릅니다                           | - 쉽고 빠릅니다                          | - 어렵고 오래 걸립니다                     |
-| - PC가 필요하지 않습니다                   | - PC가 필요합니다                        | - PC가 필요합니다                         |
-| - OS 버전 선택이 제한됩니다 | - 버전, 언어, 에디션 및 저장공간 할당을 직접 설정할 수 있습니다 | - 버전, 언어, 에디션 및 저장공간 할당을 직접 설정할 수 있습니다 |
-| **`출시 예정!`** | [**```WoN-deployer를 사용하여 설치```**](won-deployer-install-en.md) | [**`직접 설치 가이드`**](1-partition-en.md) |
+| <p align="center"><a href="1-partition-en.md"><img src="https://github.com/WOA-Project/SurfaceDuo-Guides/assets/3755345/9791796b-406b-4f0d-8aad-20fff18741da" width="280"></a></p> | <p align="center"><a href="https://github.com/Kumar-Jy/Windows-in-NABU-Without-PC/blob/main/guide/Installation.md"><img src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="280"></a></p> | <p align="center"><a href="won-deployer-install-en.md"><img src="https://github.com/ArKT-7/won-deployer/blob/main/assets/Won-nabu-bg.png" width="280"></a></p> |
+| - 어렵고 오래 걸립니다                         | - 쉽고 빠릅니다                         | - 쉽고 빠릅니다                      |
+| - PC가 필요합니다                           | - PC가 필요하지 않습니다. **PC가 있는 경우, 이 방법을 이용하지 마세요.**                         | - PC가 필요합니다                          | |
+| [**`직접 설치 가이드`**](1-partition-ko.md) |[**`WinInstaller 가이드`**](https://github.com/Kumar-Jy/Windows-in-NABU-Without-PC/blob/main/guide/Installation.md) | [**```WoN-Deployer 가이드```**](won-deployer-install-ko.md) | 
 
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
