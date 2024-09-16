@@ -27,7 +27,7 @@ fastboot boot путь\к\recovery.img
 adb shell msc
 ```
 ### Привяжите буквы к разделам WINNABU и ESPNABU 
-> Запустите скрипт **DriveLetterAssigner V2.0** и нажмите **`Y`** на клавиатуре, чтобы автоматически назначить буквы **X** и **Y** для **WINNABU** и **ESPNABU**
+> Запустите скрипт **DriveLetterAssigner** и нажмите **`Y`** на клавиатуре, чтобы автоматически назначить буквы **X** и **Y** для **WINNABU** и **ESPNABU**
 
 
 ### Установка Windows
@@ -48,7 +48,7 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 > Если он попросит вас ввести букву, введите букву диска **WINNABU** (которая должна быть **X**), затем нажмите enter
 
 #### Создайте файлы загрузчика Windows для EFI
-> Если при копировании загрузочных файлов возникает ошибка, просто запустите скрипт [**```DriveLetterAssigner V2.0```**](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner) снова, он присвоит ESPNABU букву U. Затем снова запустите следующую команду, заменив Y на U
+> Если при копировании загрузочных файлов возникает ошибка, просто запустите скрипт [**```DriveLetterAssigner```**](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner) снова, он присвоит ESPNABU букву U. Затем снова запустите следующую команду, заменив Y на U
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
