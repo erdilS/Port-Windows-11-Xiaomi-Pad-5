@@ -26,7 +26,7 @@ adb shell msc
 ```
 
 ### Atribuindo letras para WINNABU e ESPNABU
-> Execute o script **DriveLetterAssigner V2.0** e pressione `Y` no seu teclado para atribuir as letras **X** e **Y** nas partições **WINNABU** e **ESPNABU**
+> Execute o script **DriveLetterAssigner** e pressione `Y` no seu teclado para atribuir as letras **X** e **Y** nas partições **WINNABU** e **ESPNABU**
 
 ### Instalar Windows
 > [!Important]
@@ -45,7 +45,7 @@ dism /apply-image /ImageFile:<caminho\para_o\install.esd> /index:6 /ApplyDir:X:\
 > Se exigido que você digite uma letra, digite a letra da partição **WINNABU** (no caso a letra **X**), aperte enter
 
 #### Crie os arquivos do bootloader do windows para o EFI
-> Se um erro ocorrer ao copiar os arquivos do bootloader, execute o **DriveLetterAssigner V2.0** novamente, e execute o comando abaixo novamente, substituindo a letra **Y** pelo **U**
+> Se um erro ocorrer ao copiar os arquivos do bootloader, execute o **DriveLetterAssigner** novamente, e execute o comando abaixo novamente, substituindo a letra **Y** pelo **U**
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
