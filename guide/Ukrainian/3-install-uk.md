@@ -7,6 +7,8 @@
 ## Встановлення Windows
 
 ### Необхідні файли
+- [```DriveLetterAssinger```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)
+
 - [```Windows ARM esd```](https://arkt-7.github.io/woawin/)
   
 - [```Драйвери```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
@@ -22,59 +24,31 @@ fastboot boot <recovery.img>
 adb shell msc
 ```
 
-### Запуск diskpart
-> Коли ваш Xiaomi Pad 5 визначився як диск
-```cmd
-diskpart
-```
-
-#### Вибір розділа Windows у планшеті
-> Використовуйте `list volume` для того, щоб знайти розділ Windows, він називається "WINNABU"
-```diskpart
-select volume <номер>
-```
-
-#### Призначення літери `X`
-```diskpart
-assign letter x
-```
-
-#### Вибір розділа ESP в телефоні
-> Використовуйте `list volume` для того, щоб знайти розділ ESP, він назвається "ESPNABU"
-```diskpart
-select volume <номер>
-```
-
-#### Призначення літери `Y`
-```diskpart
-assign letter y
-```
-
-#### Вихід із diskpart:
-```diskpart
-exit
-```
+### Призначення літер для WINNABU і ESPNABU
+> Відкрийте сценарій DriveLetterAssigner і натисніть Y на вашій клавіатурі для автоматичного призначення літер X і Y розділам WINNABU і ESPNABU
 
 ### Встановлення Windows
-> Замінити `path\to\install.esd` із фактичним шляхом до install.esd (його також можна назвати install.wim) 
+> [!Important]
+> Переконайтесь що запустили cmd/PowerShell від імені **адміністратора**
+> Замініть `path\to\install.esd` фактичним шляхом до install.esd (він також може називатися install.wim або 22631.2861.XXXXXXX.esd) 
 ```cmd
 dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 ``` 
 
-> Якщо ви отримуєте помилкуa `Error 87`, перевірте індекс вашого зображення за допомогою `dism /get-imageinfo /ImageFile:path\to\install.esd`, потім замініть `index:6` на фактичний номер індексу Windows 11 Pro у вашому зображенні 
+> Якщо ви отримуєте помилку `Error 87`, перевірте індекс вашого образу за допомогою `dism /get-imageinfo /ImageFile:path\to\install.esd`, потім замініть `index:6` на фактичний номер індексу Windows 11 Pro у вашому образі 
 
-### Copying your boot.img into Windows
-- Drag and drop the **rooted_boot.img** from the **platform-tools** folder into the **WINNABU** disk in Windows Explorer, then rename it to **boot.img**.
+### Копіювання boot.img у Windows
+- Перетягніть **rooted_boot.img** із папки **platform-tools** у розділ **WINNABU** у провіднику Windows, а потім перейменуйте його на **boot.img**.
 
 ### Встановлення драйверів
-> Якщо він пише `"Automatic WINNABU detection failed! Enter Drive Letter manually"`, введіть **`X`**
+> Якщо ви маєте помилку `"Automatic WINNABU detection failed! Enter Drive Letter manually"`, введіть **`X`**
 ```cmd
  Відкрийте папку драйверів і запустіть OfflineUpdater.cmd
 ```
 > Якщо відображаються помилки під **Installing App Packages**, ігноруйте їх і продовжуйте
 
 #### Створіть файли завантажувача Windows
-> Якщо під час копіювання завантажувальних файлів виникає помилка, перевірте `diskpart`, щоб перевірити, чи є в ESPNABU літера Y. Якщо це не так, додайте будь-яку іншу літеру (наприклад, K) і замініть Y у наведеній нижче команді на зазначену літеру відповідно
+> Якщо під час копіювання завантажувальних файлів виникає помилка, знову запустіть **DriveLetterAssigner**, а потім знову виконайте наведену нижче команду, замінивши Y на U
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
@@ -84,7 +58,7 @@ bcdboot X:\Windows /s Y: /f UEFI
 mountvol y: /d
 ```
 
-### Перезавантажте в fastboot
+### Перезавантажте планшет в fastboot
 ```cmd
 adb reboot bootloader
 ```
@@ -95,7 +69,7 @@ adb reboot bootloader
 fastboot boot fastboot\до\nabu-uefi.img
 ```
 
-### Перезавантажте Android
+### Перезавантажтесь в Android
 Ваш пристрій має перезавантажитися самостійно через +- 10 хвилин очікування, після чого ви завантажитеся в Android для останнього кроку.
 
 ## [Останній крок: Налаштування подвійного завантаження](4-dualboot-uk.md)
