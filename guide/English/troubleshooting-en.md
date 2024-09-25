@@ -26,31 +26,36 @@ Charging in Windows only works on specific cables. Cables that have been known t
 ##### Done!
 
 
-## Device can boot into Android but not bootloader
+## Device can boot into Android and/or Windows but not bootloader
 
 ### Prerequisites:
 - [Android platform tools](https://developer.android.com/studio/releases/platform-tools)
 
 - [SHRP Recovery](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/SHRP.img)
 
-> [!Important]
-> This will only work if you are rooted. If you aren't, the only way to recover is to flash your device with EDL using [MrAuthTool](https://mrauthtool.com/)
+#### If you have access to Windows:
+- Rename **C:\boot.img** to **C:\bootb.img**.
+- Download the **SHRP recovery** image, rename it to **boot.img**, and place it in `C:\`.
+- Run the **Switch to Android** or **Android** shortcut to flash and boot into SHRP recovery.
 
+#### If you have access to Android:
 - Remove the **UEFI** image from the UEFI folder in your internal storage, then place the **SHRP recovery** image here
-- Press `QUICKBOOT TO WINDOWS` in the WOA Helper app
+- Press `QUICKBOOT TO WINDOWS` in the WOA Helper app.
+
+
 - Once booted into the recovery, connect your device to your PC and run:
 ```cmd
 adb shell parted /dev/block/sda
 ```
-- Run ```print``` to list all partitions
-- Look for partitions that are more than 16 characters long, for example "Basic Data Partition" and note their volume number
-- Rename this partition with ```name $ test```, replacing **$** with the partition number, and replacing **test** with the name you want the partition to have
-- Run ```quit```
-- Run ```adb reboot bootloader```, and when you see the **FASTBOOT** logo on your screen, flash your Android boot image with ```fastboot flash boot_a path\to\boot.img```
-- You may have to do the same for **boot_b** if your device does not boot, or if it boots back to the recovery
+- Run ```print``` to list all partitions.
+- Look for partitions that are more than 16 characters long, for example "Basic Data Partition" and note their volume number.
+- Rename this partition with ```name $ test```, replacing **$** with the partition number, and replacing **test** with the name you want the partition to have.
+- Run ```quit```.
+- Run ```adb reboot bootloader```, and when you see the **FASTBOOT** logo on your screen, flash your Android boot image with ```fastboot flash boot_a path\to\boot.img```.
+- You may have to do the same for **boot_b** if your device does not boot, or if it boots back to the recovery.
 
-> [!Note]
-> Make sure you replace the recovery image in the UEFI folder with the UEFI file again
+> [!important]
+> Make sure to put the UEFI image back into the UEFI folder, or if you used the Windows method, the boot.img in C:\
 
 ##### Done!
 
