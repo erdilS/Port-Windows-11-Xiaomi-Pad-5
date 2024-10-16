@@ -13,6 +13,8 @@
 
 - ```Мозг```
 
+- ```ПК/Ноутбук с Windows 10(или выше)```
+
 - [```Образ рекавери```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
@@ -27,8 +29,9 @@
 > НЕ ПЕРЕЗАГРУЖАЙТЕ ПЛАНШЕТ, если вы считаете, что совершили ошибку, обратитесь за помощью в [чат Telegram](https://t.me/nabuwoa)
 >
 > **ПОЖАЛУЙСТА, НЕ ИСПОЛЬЗУЙТЕ УСТАРЕВШИЕ ВИДЕО-ГАЙДЫ НА YOUTUBE ИЛИ ЛЮБОЙ ДРУГОЙ ПЛАТФОРМЕ! ЭТИ ВИДЕО УСТАРЕЛИ, И ВЫ МОЖЕТЕ ОКИРПИЧИТЬ СВОЁ УСТРОЙСТВО, ИСПОЛЬЗУЯ ИХ! ЕСЛИ ВАМ НУЖЕН ВИДЕО-ГАЙД, ВОСПОЛЬЗУЙТЕСЬ ЭТИМ [НОВЫМ ВИДЕО-ГАЙДОМ](https://youtu.be/BbgTbTGbXYg ) ОТ [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA )**
- 
 
+### Разметка устройства и резервное копирование загрузочного образа 
+ 
 > [!NOTE]
 > Не знаете с чего начать? Просто извлеките загруженные [```platform-tools```](https://developer.android.com/studio/releases/platform-tools), затем откройте ```командную строку``` или `powershell` как администратор и выполните следующую команду, заменив `"path\to\platform-tools"` на фактический путь к папке инструментов платформы
 ```cmd
@@ -38,25 +41,26 @@ cd "path\to\platform-tools"
 
 
 #### Перезагрузитесь в fastboot
-- Загрузите планшет в **fastboot**, удерживая кнопку **уменьшения громкости** во время перезагрузки.
+- Загрузите планшет в **fastboot**, удерживая кнопку **`уменьшения громкости`** во время перезагрузки.
 
 - Подключите его к ПК/ноутбуку с помощью кабеля.
 
-#### Загрузите модифицированный recovery
+#### Загрузитесь в модифицированный recovery
 > Замените **путь\к\recovery.img** на фактический путь к образу recovery
 ```cmd
 fastboot boot путь\к\recovery.img
 ```
 
 ##### Разметка устройства
-> Замените **$** на объем памяти, который вы хотите предоставить Windows (не добавляйте ГБ, просто напишите число).
+> Замените **$** на количество памяти, которое вы хотите выделить для системы Windows (не добавляйте ГБ, просто укажите число).
+> 
 > Если он попросит запустить его ещё раз, то так и сделайте
 
 ```cmd
 adb shell partition $
 ```
 
-### Сделайте резервную копию вашего образа boot
+### Сделайте резервную копию вашего загрузочного образа 
 
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
@@ -64,13 +68,18 @@ adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.
 
 
 #### Проверьте, запускается ли Android
-> Просто проверьте работает ли он 
-Если он завис на загрузочной анимации и не загружается, используйте HyperOS Recovery, MIUI Recovery или другие recovery для форматирования userdata
+> Перезагрузите планшет, чтобы проверить, работает ли Android.
 
 ```cmd
 adb reboot
 ```
-
+> [!NOTE]
+> Если он завис на загрузочной анимации или загрузился в HyperOS/MIUI recovery выполните следующие шаги:
+> 1. Выберите **`Wipe Data`**
+> 2. **`Wipe All Data`**
+> 3. После успешной очистки данных нажмите **`Back To Main Menu`**
+> 4. Нажмите **`Reboot`**
+> 5. **`Reboot to System`**
 
 
 ### [Следующий шаг: Получение root прав](/guide/Russian/2-rootguide-ru.md)
