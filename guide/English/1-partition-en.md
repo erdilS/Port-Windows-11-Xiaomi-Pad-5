@@ -59,11 +59,17 @@ adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.
 ```
 
 #### Check if Android still starts
-> Reboot to check if Android still works. If it doesn't boot, wipe all data in recovery and try again.
+> Reboot to check if Android still works.
 
 ```cmd
 adb reboot
 ```
-
+> [!NOTE]
+> If it doesn't boot, or booted into HyperOS/MIUI Recovery perform the following actions:
+> 1. Select **`Wipe Data`**
+> 2. **`Wipe All Data`**
+> 3. After Data is wiped successfully, Click **`Back To Main Menu`**
+> 4. Click **`Reboot`**
+> 5. **`Reboot to System`**
 
 ### [Next step: Get Root](/guide/English/2-rootguide-en.md)
