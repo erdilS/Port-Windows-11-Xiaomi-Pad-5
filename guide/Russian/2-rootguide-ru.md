@@ -10,6 +10,7 @@
 
 ### Требования
 - ```Мозг```
+
 - [```Бэкап образа boot от Android```](/guide/English/1-partition-en.md#Make-a-backup-of-your-existing-boot-image) (вы делали его на первой странице)
 
 ### Пропатчите загрузочный образ
@@ -29,10 +30,30 @@
 
 - Вернитесь в окно командной строки, которое вы открыли ранее
  
+
 ### Прошейте патченый boot-образ
- > Замените `<magisk_patched.img>` актуальным путём/названием файла. Уберите лишние символы, чтобы получилось ```magisk_patched.img``` 
+> Замените `<magisk_patched.img>` актуальным путём/названием файла.
 ```cmd
-fastboot flash boot <magisk_patched.img>
+fastboot flash boot magisk_patched.img
 ```
+
+### Перезагрузка в Android
+```cmd
+fastboot reboot
+```
+
+#### Завершите настройку 
+- Снова откройте приложение **Magisk**.
+- Следуйте инструкциям на экране, и ваше устройство должно перезагрузиться через несколько секунд.
+
+### Ко
+> After your device has booted
+
+- A superuser request for Shell might appear on your phone's screen. If it does, grant it access.
+```cmd
+adb shell "su -c cp /dev/block/by-name/boot$(getprop grep ro.boot.slot_suffix) /sdcard/rooted_boot.img" & adb pull /sdcard/rooted_boot.img
+```
+
+### [Next step: Installing Windows](/guide/English/3-install-en.md)
 
 ### [Следующий шаг: Установка Windows](/guide/Russian/3-install-ru.md)
