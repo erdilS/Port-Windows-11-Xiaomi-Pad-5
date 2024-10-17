@@ -46,14 +46,12 @@ fastboot reboot
 - Снова откройте приложение **Magisk**.
 - Следуйте инструкциям на экране, и ваше устройство должно перезагрузиться через несколько секунд.
 
-### Ко
-> After your device has booted
+### Скопируйте рутированный boot-образ 
+> После того как ваше устройство загрузилось 
 
-- A superuser request for Shell might appear on your phone's screen. If it does, grant it access.
+- На экране вашего планшета может появиться запрос суперпользователя для Shell. Если это произойдет, предоставьте ему доступ.
 ```cmd
 adb shell "su -c cp /dev/block/by-name/boot$(getprop grep ro.boot.slot_suffix) /sdcard/rooted_boot.img" & adb pull /sdcard/rooted_boot.img
 ```
-
-### [Next step: Installing Windows](/guide/English/3-install-en.md)
 
 ### [Следующий шаг: Установка Windows](/guide/Russian/3-install-ru.md)
