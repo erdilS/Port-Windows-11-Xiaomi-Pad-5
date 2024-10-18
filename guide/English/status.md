@@ -14,6 +14,7 @@ Stable. Almost everything works except for a few components.
 - [X] Bluetooth
 - [X] Brightness
 - [x] Charging
+- [ ] Fast charging
 - [X] Display
 - [X] GPU
 - [X] Touchscreen
@@ -24,11 +25,11 @@ Stable. Almost everything works except for a few components.
 - [X] Microphone
 - [X] Miracast
 - [X] Location
-- [ ] Flashlight ```Temporarily broken in latest drivers release, if you want a working flashlight, use older drivers```
 - [X] Smart Case Mode
 - [X] Xiaomi Keyboard support
 - [ ] Xiaomi Pen charging support
 - [ ] Camera
+- [ ] Flashlight 
 
 #### Sensors
 
