@@ -15,9 +15,10 @@
 
 - Подключите его к ПК/ноутбуку с помощью кабеля
 
-### Запустите recovery через ПК с помощью команды
+### Загрузитесь в модифицированное recovery
+> Находясь в fastboot, замените `путь\к\recovery.img` фактическим путём к образу recovery 
 ```cmd
-fastboot boot <recovery.img>
+fastboot boot путь\к\recovery.img
 ```
 
 ### Создайте резервную копию вашего существующего загрузочного образа
@@ -38,9 +39,9 @@ adb reboot
 - Откройте командную строку в папке platform tools 
 
 ### Прошейте пропатченый boot  
- > Замените `<magisk_patched.img>` существующим путём/именем ```magisk_patched.img```
+ > Замените `путь\к\magisk_patched.img` существующим путём/именем ```magisk_patched.img```
 ```cmd
-fastboot flash boot <magisk_patched.img>
+fastboot flash boot путь\к\magisk_patched.img
 ```
 
 ### Обновите boot.img в Windows C:\
