@@ -29,6 +29,8 @@ Charging in Windows only works on specific cables. Cables that have been known t
 ## Device can boot into Android and/or Windows but not bootloader
 
 ### Prerequisites:
+- [Termux](https://play.google.com/store/apps/details?id=com.termux)
+
 - [Android platform tools](https://developer.android.com/studio/releases/platform-tools)
 
 - [SHRP Recovery](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/SHRP.img)
