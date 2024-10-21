@@ -35,7 +35,7 @@ Charging in Windows only works on specific cables. Cables that have been known t
 
 #### If you have access to Android:
 - Install **Termux** and grant it root access.
-- Install **tsu** and **parted** using these two commands, press `Y` if ir asks you to confirm:
+- Install **tsu** and **parted** using these two commands, press `Y` if it asks you to confirm:
 ```cmd
 pkg install tsu
 ```
