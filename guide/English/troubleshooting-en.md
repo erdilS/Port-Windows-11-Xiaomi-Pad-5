@@ -33,16 +33,31 @@ Charging in Windows only works on specific cables. Cables that have been known t
 
 - [SHRP Recovery](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/SHRP.img)
 
+#### If you have access to Android:
+- Install **Termux** and grant it root access.
+- Install **tsu** and **parted** using these two commands, press `Y` if ir asks you to confirm:
+```cmd
+pkg install tsu
+```
+```cmd
+pkg install parted
+```
+- Run the below command to open parted:
+```cmd
+parted /dev/block/sda
+```
+- Run ```print``` to list all partitions.
+- Look for partitions that are more than 16 characters long, for example "Basic Data Partition" and note their volume number.
+- Rename this partition with ```name $ test```, replacing **$** with the partition number, and replacing **test** with the name you want the partition to have.
+- Run ```quit```.
+
+##### Done!
+
+
 #### If you have access to Windows:
 - Rename **C:\boot.img** to **C:\bootb.img**.
 - Download the **SHRP recovery** image, rename it to **boot.img**, and place it in `C:\`.
 - Run the **Switch to Android** or **Android** shortcut to flash and boot into SHRP recovery.
-
-#### If you have access to Android:
-- Remove the **UEFI** image from the UEFI folder in your internal storage, then place the **SHRP recovery** image here
-- Press `QUICKBOOT TO WINDOWS` in the WOA Helper app.
-
-
 - Once booted into the recovery, connect your device to your PC and run:
 ```cmd
 adb shell parted /dev/block/sda
