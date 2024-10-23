@@ -9,6 +9,8 @@
 
 -  ```大脑```
   
+-  运行 Windows 10（或更高）的计算机 / 笔记本电脑
+  
 - [```Recovery 镜像```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
@@ -56,11 +58,20 @@ adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.
 ```
 
 #### 检查安卓是否仍能正常启动
-> 重启以检查安卓是否仍能正常启动。如果无法启动，请在原厂 recovery 中清除所有数据，并再次尝试。
+> 重启以检查安卓是否仍能正常启动。
 
 ```cmd
 adb reboot
 ```
 
+>  [!NOTE]
+>
+> 如果安卓无法启动，或进入了 HyperOS / MIUI 的系统恢复界面（recovery），请按下面的步骤操作：
+>
+> 1. 选择「清除数据」
+> 2. 「清除所有数据」
+> 3. 成功清除所有数据后，选择「回到主菜单」
+> 4. 选择「重新启动」
+> 5. 「重启到系统」
 
 ### [下一步：获取 root 权限](/guide/Simplified%20Chinese/2-rootguide-cn.md)
