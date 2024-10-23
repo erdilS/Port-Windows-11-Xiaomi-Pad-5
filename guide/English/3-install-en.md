@@ -36,6 +36,9 @@ adb shell msc
 > [!Important]
 > Make sure that you are running CMD/Powershell as an **Administrator**
 
+> [!Warning]
+> DO NOT USE 24H2!!!
+
 > Replace `path\to\install.esd` with the actual path of install.esd (it may also be named install.wim or 22631.2861.XXXXXXX.esd)
 
 ```cmd
