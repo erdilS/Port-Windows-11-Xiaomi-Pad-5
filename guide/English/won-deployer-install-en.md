@@ -13,7 +13,7 @@
   
 - [```ADB drivers installed on your PC```](https://dl.google.com/android/repository/usb_driver_r13-windows.zip)
   
-- [```ARM Windows ESD```](https://arkt-7.github.io/woawin/) (Select - Build:  ```22631.4108 - latest``` or ```22631.2861``` Language:  ```select your language```)
+- [```ARM Windows ESD```](https://arkt-7.github.io/woawin/) (Select - Build:  ```select build``` Language:  ```select your language```)
     
 - [```Drivers```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 
@@ -114,8 +114,10 @@ won-deployer
 - Click ok and then install the new `Won deployer setup` app. (retry once if fails)
 - now close `Magisk` dummy app and make sure to clear it from ram/recents.
 - Open new `Won deployer setup` app and install both apps from there and UEFI image. (follow on screen instructions)
-- now close everything and open `WOA Helper` app, then grant it root access.
-- Open the WOA Helper app and press the **QUICKBOOT TO WINDOWS** button.
+- now close everything and open `Magisk` app, then click `Ok` to addition setup and complete it.
+- after Restart done open `WOA Helper` app, then grant it root access.
+- click `BACKUP BOOT IMAGE` > `Windows` > OK Done!
+- Now Use WOA Helper app and press the **QUICKBOOT TO WINDOWS** button.
 
 <details>
 <summary><b><strong>If you faced any issue with the above method, then you can do dualboot setup from here:</strong></b></summary>
