@@ -77,4 +77,4 @@
 [<img alt="Ost268" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/99175924?s=96&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/galaxysollector)
 [<img alt="gvzd" src="https://i.ibb.co/VxsvNZ6/Ellipse-1.png" />](https://https://github.com/gvzd)
 [<img alt="chiyuki0325" src="https://imgsrc.baidu.com/forum/pic/item/810a19d8bc3eb13511b8c49ae01ea8d3fd1f4497.png" />](https://github.com/chiyuki0325)
-[<img alt="Andrew-star2008" src="https://avatars.githubusercontent.com/u/149420042?s=400&u=f920f480e0839f37716eb36cd15ef56f8a23d9ef&v=4" />](https://github.com/Andrew-star2008)
+[<img alt="Andrew-star2008" src="https://avatars.githubusercontent.com/u/149420042?s=400&u=f920f480e0839f37716eb36cd15ef56f8a23d9ef&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Andrew-star2008)
