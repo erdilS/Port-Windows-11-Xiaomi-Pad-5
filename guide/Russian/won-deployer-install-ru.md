@@ -13,7 +13,7 @@
 - [```Драйверы ADB, установленные на вашем ПК```](https://dl.google.com/android/repository/usb_driver_r13-windows.zip)
 
 - [```ARM Windows ESD```](https://arkt-7.github.io/woawin/) (Выберите - Сборка: ```выберите сборку``` Язык: ```выберите язык```)
-- 
+ 
 - [```Драйверы```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 
 - ```Разблокированный загрузчик``` (Если ваш загрузчик заблокирован и вы не знаете, как его разблокировать, воспользуйтесь [этим](unlock-bootloader-ru.md) руководством)
