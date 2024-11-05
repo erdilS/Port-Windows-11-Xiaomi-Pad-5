@@ -11,8 +11,8 @@
   
 - [```ADB 드라이버가 설치된 PC```](https://dl.google.com/android/repository/usb_driver_r13-windows.zip)
   
-- [```ARM 윈도우 ESD```](https://worproject.com/esd) (항목 선택 - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```원하는 언어를 선택하세요```)
-    
+- [```ARM 윈도우 ESD```](https://arkt-7.github.io/woawin/) (항목 선택 - Build:  ```빌드를 선택하세요``` Language:  ```원하는 언어를 선택하세요```)
+
 - [```드라이버```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 
 - ```언락 상태의 부트 로더``` - (부트로더가 락 상태이며 언락 방법을 모를 경우 [이 가이드](unlock-bootloader.md)를 이용하세요)
@@ -96,5 +96,50 @@ won-deployer
    won-deployer --debug
    ```
 
-## 끝!
+## 3. 듀얼 부팅 설정
+
+### 필수 조건
+- ```nabu에서 인터넷이 연결되어 있어야 합니다 (파일 다운로드가 필요합니다!)```
+
+### 설정 - 안드로이드
+- 안드로이드 설정을 완료한 후 nabu를 한 번 재부팅하세요.
+- 미리 설치된 `Magisk` 더미 앱을 엽니다.
+- 확인을 클릭한 다음, 새 `Won deployer setup` 앱을 설치하세요. (실패 시 한 번 더 시도하세요)
+- 이제 `Magisk` 더미 앱을 닫고 RAM/최근 앱에서 완전히 종료하세요.
+- 새 `Won deployer setup` 앱을 열고 두 앱과 UEFI 이미지를 거기에서 설치하세요. (화면의 지시 사항을 따르세요)
+- 모든 것을 닫은 후, `Magisk` 앱을 열고, 추가 설정을 위해 `확인`을 클릭하여 완료합니다.
+- 재부팅 후, `WOA Helper` 앱을 열고, 루트 권한을 부여하세요.
+- `BACKUP BOOT IMAGE` > `Windows` > `확인`을 클릭하여 완료하세요!
+- 이제 `WOA Helper` 앱을 사용하여 **QUICKBOOT TO WINDOWS** 버튼을 누르세요.
+
+<details>
+<summary><b><strong>위 방법으로 문제가 발생했다면, 여기서 듀얼 부팅 설정을 수행할 수 있습니다:</strong></b></summary>
+
+### 필수 조건
+- [```Magisk 앱```](https://raw.githubusercontent.com/arkt-7/won-deployer/main/files/Magisk_stable.apk)
+
+- [```WoA Helper 앱```](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
+
+- [```UEFI 이미지```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+
+### 수동 설정 - 안드로이드
+- `Magisk` 앱을 다운로드하고 설치하세요.
+- `WOA Helper` 앱을 다운로드하고 설치한 후, 열고 루트 접근을 허용하세요.
+- `UEFI 이미지`를 다운로드하여 내부 저장소의 `UEFI` 폴더에 넣으세요.
+- WOA Helper 앱을 열고 **QUICKBOOT TO WINDOWS** 버튼을 누르세요.
+
+  </summary>
+</details>
+
+### 설정 - 윈도우
+> [!Tip]
+> 처음으로 Windows를 부팅하는 경우 Microsoft 계정 로그인을 건너뛰려면 WiFi 페이지에서 **인터넷이 없습니다** 버튼을 누르고, 프롬프트가 나타나면 **제한된 설정으로 계속** 버튼을 누르세요.
+
+#### 안드로이드로 부팅
+- 바탕화면에 있는 새 바로가기 `Android`를 실행하세요 (접근을 쉽게 하려면 시작 메뉴 또는 작업 표시줄에 고정할 수 있습니다)
+
+#### Windows로 부팅
+- 앱 내부에서 **QUICKBOOT TO WINDOWS** 버튼을 누르거나 빠른 설정 패널에서 새로 생성된 토글을 사용하세요.
+
+## 완료!
 
