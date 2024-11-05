@@ -74,7 +74,7 @@ adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.
 adb reboot
 ```
 > [!NOTE]
-> Если ваш смартфон застрял на этапе загрузки или загрузился в режиме HyperOS/MIUI recovery, выполните следующие действия:
+> Если ваш планшет застрял на этапе загрузки или загрузился в HyperOS/MIUI recovery, выполните следующие действия:
 > 1. Выберите пункт **`Wipe Data`**
 > 2. **`Wipe All Data`**
 > 3. После успешной очистки данных нажмите пункт **`Back To Main Menu`**
