@@ -1,39 +1,39 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-# Запуск Windows на Xiaomi Pad 5
+# Отключение SecureBoot на Xiaomi Pad 5
 
-## Отключение secureboot
+## Отключение SecureBoot
 > [!Important]
-> Следуйте этому руководству, только если вы хотите отключить secureboot.
+> Следуйте этому руководству, только если вы хотите отключить SecureBoot.
 
 ### Требования
 - ```Мозг```
 
-- [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
+- [```SDK platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
 - [```Образ рекавери```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-- [```Образ UEFI(Secureboot выключен)```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-NoSecureboot-v3.img)
+- [```Образ UEFI(SecureBoot в нём выключен зарание)```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-NoSecureboot-v3.img)
 
-## Плюсы и минусы secureboot
-> По умолчанию, secureboot включен в этом гайде
+## Плюсы и минусы SecureBoot
+> По умолчанию, SecureBoot включен в этом гайде
 
-##### Плюсы и минусы secureboot
+##### Плюсы и минусы SecureBoot
 - √ Отсутствие водяного знака на рабочем столе
 - √ Приложения, которые не работают в тестовом режиме, будут работать
 - √ Вы можете установить крупные обновления (например, с 22h2 на 23h2) непосредственно в центре обновления Windows
 - × Вы не сможете установить неподписанные драйверы
 
-##### Плюсы и минусы отключения secureboot
+##### Плюсы и минусы отключения SecureBoot
 - √ Вы можете устанавливать неподписанные драйверы
 - × Водяной знак тестового режима на рабочем столе
 - × Некоторые приложения/игры с анти-читерским ПО могут не работать
 - × Вы не сможете установить крупные обновления (например, с 22h2 до 23h2) через центр обновления Windows
 
-## Отключение secureboot
+## Отключение SecureBoot
 
 #### Создайте резервную копию рутированного boot-образа.
-> Она понадобится вам для возврата в Android, но вы можете пропустить этот шаг, если уже сделали резервную копию.
+> Она вам понадобится для возврата к Android, но вы можете пропустить этот шаг, если уже создали резервную копию.
 
 Используйте функцию `Backup Android boot` в приложении WOA Helper или загрузитесь в модифицированное рекавери и выполните команду
 ```cmd
@@ -41,9 +41,9 @@ adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.
 ```
 
 #### Загрузитесь в рекавери
-> Замените <path\to\recovery> на фактический путь к образу рекавери
+> Замените <путь\к\recovery> на фактический путь к образу рекавери
 ```cmd
-fastboot boot <path\to\recovery.img>
+fastboot boot <путь\к\recovery.img>
 ```
 
 #### Активируйте режим mass storage
@@ -81,7 +81,7 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" testsigning on
 ```
 
 #### Удаление SiPolicy
-> Предполагая, что вы отключаете secureboot на уже установленной системе, вам нужно удалить этот файл, иначе система не загрузится
+> Предполагая, что вы отключаете SecureBoot на уже установленной системе, вам нужно удалить этот файл, иначе система не загрузится
 ```cmd
 del Y:\EFI\Microsoft\Boot\SiPolicy.p7b
 ```
@@ -98,13 +98,13 @@ adb reboot bootloader
 ```
 
 #### Прошивка UEFI
-> Убедитесь, что вы используете UEFI без secureboot с этой страницы, замените <path\to\uefi-NoSecureboot-v3.img> на фактический путь к образу UEFI
+> Убедитесь, что вы используете UEFI без SecureBoot с этой страницы, замените <path\to\uefi-NoSecureboot-v3.img> на фактический путь к образу UEFI
 ```cmd
 fastboot flash boot <path\to\uefi-NoSecureboot-v3.img>
 ```
 
 > [!Важно]
-> Не забудьте также заменить старый UEFI в папке UEFI во внутреннем хранилище Android, чтобы случайно не прошить его при следующей попытке переключиться на Windows с Android.
+> Не забудьте также заменить старый UEFI в папке UEFI во внутренней памяти Android, чтобы избежать случайной прошивки при следующей попытке перейти на Windows с Android
 
 #### Перезагрузитесь в Windows
 ```cmd
