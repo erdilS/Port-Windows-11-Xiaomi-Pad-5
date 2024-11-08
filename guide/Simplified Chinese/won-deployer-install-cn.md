@@ -11,7 +11,7 @@
   
 - [```电脑上安装了 ADB 驱动```](https://dl.google.com/android/repository/usb_driver_r13-windows.zip)
   
-- [```ARM Windows ESD```](https://worproject.com/esd) (选择 - Version:  ```11```，Build:  ```22631.2861```，Architecture:  ```ARM64，```Edition:  ```CLIENT```，Language:  ```Chinese (Simplified, China)```)
+- [```ARM Windows ESD```](https://arkt-7.github.io/woawin/) (选择 - Build: ```选择构建```，Language: ```选择您的语言```)
   
 - [```驱动包```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 
@@ -101,6 +101,51 @@ won-deployer
    ```shell
    won-deployer --debug
    ```
+
+## 3. 双启动设置
+
+### 必要条件
+- ```nabu 已连接互联网 (这是必需的，因为它将下载文件！)```
+
+### 设置 - 安卓
+- 完成安卓设置后，重新启动您的 nabu 一次。
+- 打开预装的 `Magisk` 占位应用。
+- 点击确认，然后安装新的 `Won deployer setup` 应用。(如果失败，请重试一次)
+- 现在关闭 `Magisk` 占位应用，并确保从 RAM/最近应用中清除。
+- 打开新的 `Won deployer setup` 应用，从中安装两个应用和 UEFI 镜像。(按照屏幕上的指示操作)
+- 现在关闭所有内容，打开 `Magisk` 应用，点击 `确认` 进行附加设置并完成。
+- 重启完成后，打开 `WOA Helper` 应用，并授予其 root 访问权限。
+- 点击 `备份引导镜像` > `Windows` > `确认` 完成！
+- 现在使用 `WOA Helper` 应用并按下 **快速启动到 Windows** 按钮。
+
+<details>
+<summary><b><strong>如果以上方法遇到问题，可以从此处进行双启动设置：</strong></b></summary>
+
+### 必要条件
+- [```Magisk 应用```](https://raw.githubusercontent.com/arkt-7/won-deployer/main/files/Magisk_stable.apk)
+
+- [```WoA Helper 应用```](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
+
+- [```UEFI 镜像```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+
+### 手动设置 - 安卓
+- 下载并安装 `Magisk` 应用。
+- 下载并安装 `WOA Helper` 应用，打开它并授予 root 访问权限。
+- 下载 `UEFI 镜像` 并将其放置在内存中的 `UEFI` 文件夹内。
+- 打开 `WOA Helper` 应用并按下 **快速启动到 Windows** 按钮。
+
+  </summary>
+</details>
+
+### 设置 - Windows
+> [!提示]
+> 如果这是您第一次启动 Windows，并且希望跳过 Microsoft 帐户登录，请在 WiFi 页面中按 **我没有互联网** 按钮，然后在提示时按 **继续进行有限设置** 按钮。
+
+#### 启动到安卓
+- 运行桌面上名为 `Android` 的新快捷方式（您也可以将其固定到开始菜单/任务栏以便于访问）
+
+#### 启动到 Windows
+- 在应用中按下 **快速启动到 Windows**，或使用快速设置面板中新创建的切换开关
 
 ## 大功告成!
 
