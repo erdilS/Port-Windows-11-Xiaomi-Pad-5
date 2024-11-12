@@ -4,23 +4,23 @@
 
 ## Обновление драйверов
 
-### Что нужно
+### Требования
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [Иодифицированное recovery](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [Образ recovery](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-- [образ UEFI](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+- [Образ UEFI](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 
 - [Драйвера](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 
 ### Загрузитесь в recovery
-> Вместо `path\to\recovery.img` напишите настоящие нахождение recovery.img
+> Замените `путь\к\recovery.img` на действительный путь к recovery.img
 ```cmd
-fastboot boot path\to\recovery.img
+fastboot boot путь\к\recovery.img
 ```
 
-#### Выполните MSC скрипт
-> если вас просят повторить ещё раз, сделайте это 
+#### Запустите msc
+> Если скрипт попросит запустить его снова, то сделайте это 
 ```cmd
 adb shell msc
 ```
@@ -30,13 +30,13 @@ adb shell msc
 diskpart
 ```
 
-#### Выберите сколько хотите выделить места на диске для Windows
-> Используйте `list volume` замените "$" на то, сколько хотите выделить ГБ для **WINNABU**
+#### Выберите раздел Windows планшета
+> Используйте `list volume`чтобы отобразить  замените "$" на номер WINNABU
 ```diskpart
 select volume $
 ```
 
-#### Отметьте этот раздел буквой X
+#### Привяжите букву X
 ```diskpart
 assign letter x
 ```
@@ -50,12 +50,12 @@ exit
 > [!Note]
 > Этот процесс длится примерно 20 минут. Если будет идти дольше, просто ждите
 
-- Распакуйте архив с драйверами, и запустите `OfflineUpdater.cmd` файл (если будет ошибка, запустите`OfflineUpdaterFix.cmd`)
+- Распакуйте архив с драйверами, и запустите `OfflineUpdater.cmd` файл (если появляется ошибка, запустите`OfflineUpdaterFix.cmd`)
 
-> если скажет ввести букву вашего диска, то ввидите её **WINNABU** (это буква **X**), и нажмите enter
+> если он попросит ввести букву диска, ввидите букву **WINNABU** (должна быть **X**), и нажмите enter
 
 #### Перезагрузите ваше устройство
-> Не забудьте также изменить образ UEFI в Android, иначе вы можете столкнуться с "синим экраном смерти" (BSoD) при последующей загрузке Windows.
+> Не забудьте также обновить образ UEFI в Android, иначе вы можете столкнуться с "синим экраном смерти" (BSoD) при последующей загрузке в Windows.
 ```cmd
 adb reboot
 ```
