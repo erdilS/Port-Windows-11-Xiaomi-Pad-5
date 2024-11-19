@@ -34,6 +34,9 @@ cd "path\to\platform-tools"
 ```
 > Use this window throughout the entire guide. Do not close it.
 
+> [!Note]
+> If your device is not detected in fastboot or recovery mode, you'll have to install USB drivers [using this guide](troubleshooting-en.md#device-is-not-recognized-in-fastboot-or-recovery)
+
 #### Reboot to **fastboot** 
 - Boot your NABU into **fastboot** by holding down the **`volume down`** button during reboot
 
