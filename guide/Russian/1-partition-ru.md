@@ -5,7 +5,7 @@
 ## Установка
 
 ### Предварительные требования
-- ```Разблокированный загрузчик``` - (Если ваш загрузчик заблокирован и вы не знаете, как его разблокировать, воспользуйтесь [этим]([unlock-bootloader-en.md](https://github.com/Andrew-star2008/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/Russian/unlock-bootloader-ru.md) руководством)
+- ```Разблокированный загрузчик``` - (Если ваш загрузчик заблокирован и вы не знаете, как его разблокировать, воспользуйтесь [этим](https://github.com/Andrew-star2008/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/Russian/unlock-bootloader-ru.md) руководством)
 
 - ```Мозг```
 
