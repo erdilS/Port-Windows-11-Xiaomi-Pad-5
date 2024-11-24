@@ -9,6 +9,13 @@
 If you are unable to move files to the Windows folder, it means you shut down Windows instead of restarting it. To fix this issue, boot back to Windows and use restart, then as it restarts boot to fastboot and use it to return to Android
 
 ##### Done!
+## Device is not recognized in fastboot or recovery
+> This likely means you don't have (proper) USB drivers installed
+- Download [QUD.zip](https://github.com/n00b69/woa-betalm/releases/download/Qfil/QUD.zip) here and extract it.
+- Open Device Manager and find an unknown device or device with errors that may be called **Android**, **ADB Interface**, or **QUSB_BULK**.
+- Right click this devjce, select "Update Drivers" > "Browse files", then select the **QUD folder** you extracted before.
+
+##### Finished!
 
 ## Charging in Windows does not work
 > [!WARNING]

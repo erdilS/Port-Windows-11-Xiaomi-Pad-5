@@ -10,20 +10,21 @@
 ## ⚠️ Warning
 > [!NOTE]
 > - We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline workers cowboys, dead pmics, dead ram, dead display ics, dead cpus, any xiaomi shenanigans, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back into android for the alarm.
-> - This project is in development stage, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get. This is a delicate process, do it under your own risk and follow all the steps carefully.
+> - This project is in late stages of development, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get. This is a delicate process, do it under your own risk and follow all the steps carefully.
 
 > [!WARNING]
 > **IF YOU AREN'T COMFORTABLE MODDING YOUR TABLET OR ITS PARTITION TABLE OR YOU ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU ARE ON YOUR OWN IF YOU BRICK YOUR DEVICE!!! AGAIN! YOU HAVE BEEN WARNED!!!**
 
 > [!WARNING]
-> **PLEASE DON'T USE VIDEO GUIDES ON YOUTUBE OR ANY OTHER PLATFORM! THESE VIDEOS ARE OUTDATED AND YOU CAN BRICK YOUR DEVICE USING THEM! IF YOU ABSOLUTELY NEED A VIDEO GUIDE, USE THIS [VIDEO GUIDE](https://www.youtube.com/watch?v=8Fl5AtHNH7M) BY [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
+> **DO NOT USE VIDEO GUIDES**
+> If you do, we will not be able to help you if you mess up.
 
 
 ## Get Started
 
 - [**```IMPORTANT: READ FIRST!```**](guide/English/important.md)
 
-- [**`Project Status`**](guide/English/status.md)
+- [**`Project status`**](guide/English/status.md)
 
 - [**`Installation`**](guide/English/selection-en.md)
 
@@ -34,11 +35,11 @@
 
 - [**`Bootloader unlocking guide`**](guide/English/unlock-bootloader-en.md)
 
-- [**`Dualboot Setup`**](guide/English/dualboot-en.md)
+- [**`Dualboot setup`**](guide/English/dualboot-en.md)
 
 - [**`Troubleshooting`**](guide/English/troubleshooting-en.md)
 
-- [**`Updating Drivers`**](guide/English/update-en.md)
+- [**`Updating drivers`**](guide/English/update-en.md)
 
 - [**`Updating UEFI`**](guide/English/UEFI-updating-en.md)
 
@@ -78,4 +79,4 @@
 [<img alt="annson24" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/8401837?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/annson24)
 [<img alt="Ost268" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/99175924?s=96&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/galaxysollector)
 [<img alt="gvzd" src="https://i.ibb.co/VxsvNZ6/Ellipse-1.png" />](https://https://github.com/gvzd)
-[<img alt="chiyuki0325" src="https://imgsrc.baidu.com/forum/pic/item/810a19d8bc3eb13511b8c49ae01ea8d3fd1f4497.png" />](https://github.com/chiyuki0325)
+[<img alt="chiyuki0325" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/73830635?s=96&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/chiyuki0325)

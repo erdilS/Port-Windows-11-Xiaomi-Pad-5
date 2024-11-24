@@ -10,34 +10,37 @@
 -  ```Brain```
 
 - ```Windows 10(or higher) PC/Laptop```
-  
-- [```Modified recovery image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
+- [```Modified recovery image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+
 ### Notes:
->[!NOTE]
+> [!NOTE]
 > You can use any Android for dualboot - MIUI/Hyper OS or any custom ROM
 
 > [!Warning]
 > All your data will be erased! Back up now if needed.
 > 
 > DO NOT REBOOT YOUR TABLET if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/nabuwoa)
->
-> **PLEASE DON'T USE OUTDATED VIDEO GUIDES ON YOUTUBE OR ANY OTHER PLATFORM! THESE VIDEOS ARE OUTDATED AND YOU CAN BRICK YOUR DEVICE USING THEM! IF YOU NEED A VIDEO GUIDE, USE THIS [NEW VIDEO GUIDE](https://youtu.be/BbgTbTGbXYg) FROM [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
 
-### Partitioning your device and backup boot
+### Opening CMD as an administrator
 > [!NOTE]
-> Don't know how to start? Unzip the downloaded [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools), then open ```command prompt``` or `powershell` as administrator and run the following command, replacing `"path\to\platform-tools"` with the actual path of the platform tools folder
+> Don't know how to start? Unzip the downloaded [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools), then open ```command prompt``` as an administrator and run the following command, replacing `"path\to\platform-tools"` with the actual path of the platform tools folder
 ```cmd
 cd "path\to\platform-tools"
 ```
 > Use this window throughout the entire guide. Do not close it.
 
-#### Reboot to **fastboot** 
-- Boot your NABU into **fastboot** by holding down the **`volume down`** button during reboot
+> [!Note]
+> If your device is not detected in fastboot or recovery mode, you'll have to install USB drivers [using this guide](troubleshooting-en.md#device-is-not-recognized-in-fastboot-or-recovery)
 
-- Connect it to your PC/Laptop using a cable
+#### Reboot into fastboot mkde
+- Boot your NABU into **fastboot mode** by holding down the **`volume down`** button while rebooting with a USB cable connected
+- Alternatively, run the below command while booted in Android
+```cmd
+adb reboot bootloader
+```
 
 ### Boot the modded recovery
 > While in fastboot mode, replace `path\to\recovery.img` with the actual path of the recovery image
@@ -60,16 +63,11 @@ adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.
 
 #### Check if Android still starts
 > Reboot to check if Android still works.
-
 ```cmd
 adb reboot
 ```
-> [!NOTE]
-> If it doesn't boot, or booted into HyperOS/MIUI Recovery perform the following actions:
-> 1. Select **`Wipe Data`**
-> 2. **`Wipe All Data`**
-> 3. After Data is wiped successfully, Click **`Back To Main Menu`**
-> 4. Click **`Reboot`**
-> 5. **`Reboot to System`**
 
-### [Next step: Get Root](/guide/English/2-rootguide-en.md)
+> [!NOTE]
+> If it doesn't boot into Android, reboot into fastboot mode and run `fastboot -w`, or boot into stock recovery and perform a **factory reset**
+
+### [Next step: Rooting your device](/guide/English/2-rootguide-en.md)

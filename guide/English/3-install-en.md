@@ -1,8 +1,6 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 # Running Windows on the Xiaomi Pad 5
-> [!WARNING]
-> **PLEASE DON'T USE ANY VIDEO GUIDES AS THESE ARE USUALLY OUTDATED AND CAN AND PROBABLY WILL BRICK YOUR NABU!!! IF YOU ABSOLUTELY NEED A VIDEO GUIDE, USE THIS [VIDEO GUIDE](https://www.youtube.com/watch?v=8Fl5AtHNH7M) BY [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
 
 ## Installation
 
@@ -30,7 +28,7 @@ adb shell msc
 ```
 
 ### Assign letters to WINNABU and ESPNABU
-> Open the **DriveLetterAssigner** script and press `Y` on you your keyboard to automatically assign the letters **X** and **Y** to **WINNABU** and **ESPNABU**
+> Open the **DriveLetterAssigner** script and press `Y` on your keyboard to automatically assign the letters **X** and **Y** to **WINNABU** and **ESPNABU**
 
 ### Installing Windows
 > [!Important]
@@ -67,7 +65,7 @@ bcdboot X:\Windows /s Y: /f UEFI
 mountvol y: /d
 ```
 
-### Reboot to fastboot
+### Reboot into fastboot
 ```cmd
 adb reboot bootloader
 ```
@@ -78,8 +76,8 @@ adb reboot bootloader
 fastboot boot path\to\nabu-uefi.img
 ```
 
-### Reboot to Android
-Your device should reboot by itself after +- 10 minutes of waiting, after which you will be booted into Android, for the last step.
+### Reboot into Android
+> Your device should reboot by itself after +- 10 minutes of waiting, after which you will be booted into Android, for the last step.
 
 ## [Last step: Setting up dualboot](/guide/English/4-dualboot-en.md)
 
