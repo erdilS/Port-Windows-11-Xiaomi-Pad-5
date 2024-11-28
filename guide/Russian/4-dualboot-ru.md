@@ -9,7 +9,7 @@
 
 - [```Образ UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 
-- [```Приложение WoA Helper```](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
+- [```Приложение WoA Helper```](https://github.com/n00b69/woa-helper/releases/tag/APK)
 
 ### Настройка - Android
 - Скачайте и установите приложение **`WOA Helper`**, затем откройте его и предоставьте ему root-доступ.
