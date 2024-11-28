@@ -9,10 +9,10 @@
 
 - [```UEFI image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 
-- [```WoA Helper app```](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
+- [```WoA Helper app```](https://github.com/n00b69/woa-helper/releases/tag/APK)
 
-## Dualboot guide
-This guide assumes you are rooted, if you aren't, please follow [this guide](2-rootguide-en.md) first.
+## Setting up the dualboot app
+> This guide assumes you are rooted, if you aren't, please follow the [root guide](2-rootguide-en.md) first
 
 ### Setup - Android
 - Download and install the **WOA Helper** app, then open it and grant it root access.
