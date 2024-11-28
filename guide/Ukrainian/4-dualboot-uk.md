@@ -9,7 +9,7 @@
 
 - [```Образ UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 
-- [```Додаток WoA Helper```](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
+- [```Додаток WoA Helper```](https://github.com/n00b69/woa-helper/releases/tag/APK)
 
 ## Інструкція з подвійного завантаження
 У цьому посібнику припускається, що ви маєте root права. Якщо ні, спершу дотримуйтеся [цього посібника](2-rootguide-uk.md).
