@@ -7,7 +7,7 @@
 - ```Rootlu tablet```
 - ```Tablete kurulu Windows```
 - [```UEFI görüntüsü```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
-- [```WoA Helper uygulaması```](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
+- [```WoA Helper uygulaması```](https://github.com/n00b69/woa-helper/releases/tag/APK)
 
 ## Dualboot Uygulamasını Ayarlama
 > Bu kılavuz rootlu olduğunuzu varsayar, rootlu değilseniz, lütfen önce [root kılavuzunu](2-rootguide-tr.md) takip edin
