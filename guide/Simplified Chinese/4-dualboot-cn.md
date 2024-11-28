@@ -13,7 +13,7 @@
 
 - [```UEFI 镜像```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 
-- [```WoA Helper app```](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
+- [```WoA Helper app```](https://github.com/n00b69/woa-helper/releases/tag/APK)
 
 ## 配置双系统
 本指南需要 root 权限。如果尚未 root，请先按照 [本指南之前的步骤](2-rootguide-en.md) 进行操作。
