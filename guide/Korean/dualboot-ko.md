@@ -9,7 +9,7 @@
 - ```루팅된 태블릿```
 - ```윈도우가 설치된 태블릿```
 - [```UEFI 이미지```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
-- [```WoA Helper 앱```](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
+- [```WoA Helper 앱```](https://github.com/n00b69/woa-helper/releases/tag/APK)
 
 ## 듀얼부팅 앱 설정
 > 이 가이드는 태블릿이 루팅되어있다고 가정하므로 루팅하지 않았다면 [루팅 가이드](2-rootguide-ko.md)를 먼저 보시기 바랍니다.
