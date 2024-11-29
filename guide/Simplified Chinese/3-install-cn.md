@@ -14,7 +14,7 @@
 - [```驱动包```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 
 #### 启动修改后的 recovery
-> 将 **path\to\recovery.img** 替换为你下载的 recovery 镜像的实际路径
+> 将 `path\to\recovery.img` 替换为你下载的 recovery 镜像的实际路径
 ```cmd
 fastboot boot path\to\recovery.img
 ```
