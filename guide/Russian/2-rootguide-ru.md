@@ -48,4 +48,4 @@ fastboot reboot
 adb shell "su -c cp /dev/block/by-name/boot$(getprop grep ro.boot.slot_suffix) /sdcard/rooted_boot.img" & adb pull /sdcard/rooted_boot.img
 ```
 
-### [Следующий шаг: установка Windows](/guide/Russian/3-install-ru.md)
+### [Следующий шаг: установка Windows](https://github.com/Andrew-star2008/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/Russian/3-install-ru.md)
