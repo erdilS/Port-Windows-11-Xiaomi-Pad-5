@@ -1,4 +1,4 @@
-<img align="right" src="https://imgsrc.baidu.com/forum/pic/item/.jpg" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
+<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 # 在小米平板 5 上安装 Windows
 
