@@ -13,10 +13,11 @@
 > - This project is in late stages of development, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get. This is a delicate process, do it under your own risk and follow all the steps carefully.
 
 > [!WARNING]
-> **IF YOU AREN'T COMFORTABLE MODDING YOUR TABLET OR ITS PARTITION TABLE OR YOU ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU ARE ON YOUR OWN IF YOU BRICK YOUR DEVICE!!! AGAIN! YOU HAVE BEEN WARNED!!!**
+> **If you're not comfortable with modding your tablet or its partition table, or worried about bricking your device, it's okay to take a step back. But the process is simple, so even beginners can handle it. Just follow the instructions carefully, and you should be fine.**
 
 > [!WARNING]
-> **DO NOT USE VIDEO GUIDES**
+> **DO NOT USE VIDEO GUIDES!**
+> 
 > If you do, we will not be able to help you if you mess up.
 
 
