@@ -1,49 +1,67 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
+# Running Windows on the Xiaomi Pad 5
 
-# Windows on the Xiaomi Pad 5
-
-## 🔧 Fix GPT to Use Windows 24H2 
+## Fix the GPT to use Windows 24H2 safely
 
 ### Prerequisites:
-
-- [```Alredy installed Windows```](selection-en.md)
+- [```Already installed Windows```](selection-en.md)
 
 - [```Recovery image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
-> [!important]
-> If you want to use Windows 24H2, follow these steps to fix GPT so it can run normally without EDL brick issue:
- 
-> [!NOTE]
-> This will not going to affect your current Windows or Android, so it is safe to do, nothing will be deleted or erased.
+> [!Important]
+> If you want to use Windows 24H2 safely, these steps are required to avoid EDL issues.
+> 
+> Doing this will not affect your Android or Windows install.
 
-### 1️⃣ Connect Tablet in Fastboot Mode
-
-- Boot your NABU to **fastboot** by holding down the **`volume down`** button during reboot
-
-- Connect it to your PC/Laptop using a cable
-
-### 2️⃣ Run the following command:
-- Replace **`path_to_recovery.img`** with the correct path to downloaded **`recovery.img`** file.
-  
+### Booting into fastboot mode
+- Boot your NABU into **fastboot mode** by holding down the **`volume down`** + **`power`** button, or run the below command while booted into Android.
 ```cmd
-fastboot boot path_to_recovery.img
+adb reboot bootloader
 ```
 
+#### Boot into the modified recovery
+> Replace `path\to\recovery.img` with the actual path of the downloaded **recovery.img**
+```cmd
+fastboot boot path\to\recovery.img
+```
 
-### 3️⃣ After twrp booted,  Run this command:
-- If prompted, run the command again.
-  
+### Fixing the GPT
+> Once booted into the recovery image
+>
+> If it asks you to run it again, do so
 ```cmd
 adb shell fixgpt
 ```
 
-### 4️⃣ Reboot your device
+#### Reboot your device
 ```cmd
 adb reboot
 ```
 
-### ✅ Done! Enjoy Windows 24H2 or can update normally.
+## ✅ Done! Windows 24H2 can now safely be used.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
