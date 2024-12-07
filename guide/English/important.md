@@ -6,12 +6,7 @@
 > While the Xiaomi Pad 5 is currently one of the most supported and stable Android devices to run Windows on, there are some rare issues that may severely affect your device. Make sure you understand these issues before installing Windows.
 
 ## 24H2 EDL issues
-If you ever create a restore point or modify any partitions (even on external devices) in disk manager in any 24H2 release, your device will be sent into EDL after rebooting. It's unknown what causes this issue, but it happens on any WoA device, not just the Mi Pad 5.
-
-If you want to use 24H2;
-- **DO NOT CREATE A RESTORE POINT** or use software that creates one (like Driver Booster Pro).
-- **DO NOT USE DISK MANAGER** to edit, create, format, or modify partitions in any way. This includes external devices.
-- Even if you avoid doing this, be warned that there have been cases where people's devices were sent into EDL even while avoiding anything mentioned before!
+If you installed Windows on your NABU before 07.12.2024 and have not applied the GPT fix, please do so now using [this guide](fix-gpt-en.md) to avoid EDl issues.
 
 ## White line issues
 In some extremely rare cases, your screen may display white lines after putting it to sleep in Windows. This is a hardware issue caused by Xiaomi shipping out screens with incompatible display configurations.
@@ -19,28 +14,3 @@ In some extremely rare cases, your screen may display white lines after putting 
 If you see white lines after sleeping in Windows, **REBOOT IMMEDIATELY!!**. These lines can become permanent if they stay on the screen for too long.
 
 Currently the only solution is to either never put your device to sleep in Windows, or to sell your nabu and buy a new one.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
