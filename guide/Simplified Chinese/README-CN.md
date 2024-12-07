@@ -7,7 +7,7 @@
 ## 语言 
 [```Русский```](/guide/Russian/README-RU.md) | [```English```](/README.md) | [```Português```](/guide/Portuguese/README-PT.md) | [```Türkçe```](/guide/Turkish/README-tr.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | [```한국어```](/guide/Korean/README-KO.md) | **```简体中文```**
 
-## ⚠️ 警告
+## 警告
 > [!NOTE]
 >
 > - 我们不对以下情况负责：平板变砖，recovery 分区丢失，小米生产线工人事故，电源芯片烧坏，显示芯片损坏，内存和 CPU 爆炸，任何小米相关问题，宠物死亡，核战争，或因为你忘记重启到安卓系统设置闹钟而被解雇。
