@@ -35,7 +35,7 @@ adb shell msc
 > Make sure that you are running CMD/Powershell as an **Administrator**
 
 > [!Warning]
-> DO NOT USE 24H2!!!
+> If you are installing 24H2, make sure that you have ran the `adb shell fixgpt` command before doing so
 
 > Replace `path\to\install.esd` with the actual path of install.esd (it may also be named install.wim or 22631.2861.XXXXXXX.esd)
 
@@ -53,7 +53,7 @@ dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 
 > If it asks you to enter a letter, enter the drive letter of **WINNABU** (which should be **X**), then press enter
 
-#### Create Windows bootloader files for the EFI
+#### Create Windows bootloader files
 > If an error occurs when copying boot files, run **DriveLetterAssigner** again, then run the following command again, replacing **Y** with **U**
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
