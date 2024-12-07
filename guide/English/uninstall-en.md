@@ -63,6 +63,8 @@ adb reboot
 > 4. Click **Reboot**
 > 5. Reboot to System
 
+## Done!
+
 </details>
 
 
