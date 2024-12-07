@@ -34,8 +34,8 @@ adb shell msc
 > [!Important]
 > Make sure that you are running CMD/Powershell as an **Administrator**
 
-> [!Warning]
-> If you are installing 24H2, make sure that you have ran the `adb shell fixgpt` command before doing so
+> [!Important]
+> For performance reasons, it is recommended to use Windows 11 24H2 (builds that start with 261XX, such as 26100.2454)
 
 > Replace `path\to\install.esd` with the actual path of install.esd (it may also be named install.wim or 22631.2861.XXXXXXX.esd)
 
