@@ -17,8 +17,12 @@
 > [!NOTE]
 > Doing this will not affect your Android or Windows install.
 
-### Booting into fastboot mode
+### Reboot into fastboot mode
 - Boot your NABU into **fastboot mode** by holding down the **`volume down`** button while rebooting with a USB cable connected
+- Or, if you have USB debugging enabled, run the below command while booted into Android.
+```cmd
+adb reboot bootloader
+```
 
 ### Boot into the modified recovery
 > Replace `path\to\recovery.img` with the actual path of the downloaded **recovery.img**
