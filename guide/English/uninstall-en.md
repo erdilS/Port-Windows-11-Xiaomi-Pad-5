@@ -110,7 +110,9 @@ fastboot reboot
 >
 
 ### Prerequisites
-- Any other device (Android, Windows, Mac or Linux)**
+ `A `**`cable`**` to connect your `**`Xiaomi Pad 5`**` to your `**`other device`**`
+
+ **`Any other device (Android, Windows, Mac or Linux)`**
 
 ### Connect to the Fastboot Tool on the website
 - Open the **[Nabu Fastboot Tool](https://arkt-7.github.io/nabu/)** in the browser of any device.
