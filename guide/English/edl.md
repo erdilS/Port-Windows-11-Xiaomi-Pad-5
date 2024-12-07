@@ -55,10 +55,10 @@ There are two methods for booting your Xiaomi Pad 5 into **EDL mode**:
 ### **🔧 Prerequisites for Method 1**
 Before starting with Method 1, ensure you have the following:
 
-1. **Patched MiFlash Tool**  
-2. **Patched firehose (.elf) file**  
-3. **Extracted Fastboot ROM for Nabu**  
-4. **EDL 9008 drivers installed** (as described above)
+1. [**`Patched MiFlash Tool`**](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/MiFlashPatched.zip)  
+2. [**`Patched firehose (.elf) file`**](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/prog_ufs_firehose_sm7150_ddr.elf)
+3. **`Extracted`** [**`Fastboot ROM for Nabu`**](http://xmfirmwareupdater.com/miui/nabu/)  
+4. **`EDL 9008 drivers installed`** (as described above)
 
 ---
 
@@ -109,10 +109,10 @@ Before starting with Method 1, ensure you have the following:
 
 ### **🔧 Prerequisites for Method 2**
 
-1. **$3 USDT** (crypto wallet) for credits  
-2. **Telegram account** for communication with HXRU support  
-3. **MiFlash HXRU Tool**  
-4. **Stock Fastboot ROM for Nabu**
+1. **`$3 USDT`** (crypto wallet) for credits  
+2. **`Telegram account`** for communication with HXRU support  
+3. [**`MiFlash HXRU Tool`**](https://hxrutool.net/tool/Xiaomi_Auth_Tool_v9.0.0.5_mtk.zip)  
+4. [**`Stock Fastboot ROM for Nabu`**](http://xmfirmwareupdater.com/miui/nabu/)  
 
 ---
 
