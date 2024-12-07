@@ -1,6 +1,5 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-
 # Running Windows on the Xiaomi Pad 5
 
 ## Reinstallation
@@ -9,24 +8,24 @@ If you don't like your Windows version or you've bricked your Windows install, o
 > [!IMPORTANT]
 > Quite obviously, this will erase all of your Windows files. If you'd like to back up any of them, you can do so by mounting Windows using the [WOA Helper](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk) app and manually copying any files you wish to keep
 
-
 ### Prerequisites
-
 - ```Existing Windows and boot partitions``` (*If not met, [go back and just pretend this guide never existed](/guide/English/1-partition-en.md)*)
 
 - [```Recovery Image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
-### Reboot to fastboot
-- Boot your NABU to **fastboot** by holding down the **`volume down`** button during reboot
-
-- Connect it to your PC/Laptop using a cable
-
-### Boot recovery to format the Windows and boot partitions
-
+#### Reboot into fastboot mode
+- Boot your NABU into **fastboot mode** by holding down the **`volume down`** button while rebooting with a USB cable connected
+- Or, if you have USB debugging enabled, run the below command while booted into Android.
 ```cmd
-fastboot boot <recovery.img>
+adb reboot bootloader
+```
+
+### Boot modified recovery
+> Replace `path\to\recovery.img` with the actual path of the modded recovery image
+```cmd
+fastboot boot path\to\recovery.img
 ```
 
 ### Format the partitions
@@ -34,4 +33,5 @@ fastboot boot <recovery.img>
 ```cmd
 adb shell format
 ```
-## [Next step: Reinstalling Windows](/guide/English/3-install-en.md#Execute-msc)
+
+## [Next step: Reinstalling Windows](/guide/English/3-install-en.md)
