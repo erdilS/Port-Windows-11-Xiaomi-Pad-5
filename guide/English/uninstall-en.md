@@ -2,19 +2,27 @@
 
 # Running Windows on the Xiaomi Pad 5
 
-## 🧹 Uninstallation
+## Uninstallation
 
-### ❓ Why is Uninstallation Needed?
-
-#### 🔹 If you want to uninstall windows this is used instead of deleting partitions manually to avoid human error.
-#### 🔹 If you want to relock your bootloader you'll need your partition table to be stock.
+### Why is Uninstallation Needed?
+> If you want to relock your bootloader you'll need your partition table to be stock.
 
 > [!Warning]
 > **All your data will be erased! Back up now if needed.**
 
->[!NOTE]
+### Switch to Android 
+> If your last boot was Windows, Switch to Android first before starting the uninstallation process
+
+#### Reboot into fastboot mode
+- Boot your NABU into **fastboot mode** by holding down the **`volume down`** button while rebooting with a USB cable connected
+- Or, if you have USB debugging enabled, run the below command while booted into Android.
+```cmd
+adb reboot bootloader
+```
+
+> [!NOTE]
 >
-> ▶️ Click to Expand the menu.
+> ▶️ Click to expand the menu.
 
 >
 
@@ -27,12 +35,6 @@
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
 - [```Modified Recovery Image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img) 
-
-### Switch to Android 
-> If your last boot was Windows, Switch to Android first before starting the uninstallation process
-
-#### Reboot into fastboot mode
-- Boot your NABU into **fastboot mode** by holding down the **`volume down`** button while rebooting with a USB cable connected
 
 #### Boot the modded recovery
 > Open a CMD window inside the platform-tools folder, then (while your tablet is in fastboot mode) run
@@ -76,12 +78,6 @@ adb reboot
 
 - [```gpt_both0.bin```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/gpt_both0.bin) 
 
-### Switch to Android 
-> If your last boot was Windows, Switch to Android first before starting the uninstallation process
-
-#### Reboot into fastboot mode
-- Boot your NABU into **fastboot mode** by holding down the **`volume down`** button while rebooting with a USB cable connected
-
 ### Restore partition table   
 > Replace ```path\to\gpt_both0.bin``` with the path to the gpt_both0.bin file.
 ```cmd
@@ -111,34 +107,20 @@ fastboot reboot
   
 >
 
-### 📋 Prerequisites
+### Prerequisites
+- Any other device (Android, Windows, Mac or Linux)**
 
-- a **cable** to connect your **Xiaomi Pad 5** to your **other device**
-- **any other device (android, windows, mac or linux)**
+### Connect to the Fastboot Tool on the website
+- Open the **[Nabu Fastboot Tool](https://arkt-7.github.io/nabu/)** in the browser of any device.
+- Click on the **`Connect Device Fastboot`** button.
+- Select **`Android`** from the list that appears and **`allow`** permissions.
 
-> [!Warning]
-> **Make sure to reboot to android before start the uninstallation process.**
-
---- 
-
-### 🚀 Steps to Stock Partition Layout / Uninstall Windows 
-
-1. **Reboot the Nabu device into fastboot mode:**
-   - **Power off** your **Xiaomi Pad 5**
-   - Hold down **`Power + Volume Down`** buttons until the device enters **`fastboot mode`.**
-   
-2. **Connect to the Fastboot Tool on the Website:**
-   - Open the **[Nabu Fatboot Tool](https://arkt-7.github.io/nabu/)** in browser of other device.
-   - Click on the **`Connect Device Fastboot`** button.
-   - Select **`Android`** from the list that appears and **`allow`** permissions.
-
-3. **Format and Make partition Stock:**
-   - Scroll down to the **`Format/wipe make Partition Stock`** section.
-   - In the input box, type **`format`**.
-   - Finally, click the **`Format/Wipe`** button and Click **`OK`** to the warning popup.
-   - Once formatting completes, a success popup will appear. Click **`OK`** on the popup.
-   - After that, scroll up and click the **`Reboot Device`** button to restart.
-
+### Format and Make partition Stock
+- Scroll down to the **`Format/wipe make Partition Stock`** section.
+- In the input box, type **`format`**.
+- Finally, click the **`Format/Wipe`** button and press **`OK`** when a warning popup appears.
+- Once the formatting completes, a success popup will appear. Click **`OK`** to dismiss the popup.
+- Scroll up and click on the **`Reboot Device`** button to restart your device.
 
 > [!NOTE]
 > If your device **rebooted into Recovery** perform the following actions:
@@ -151,3 +133,26 @@ fastboot reboot
 ## Done!
 
 </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
