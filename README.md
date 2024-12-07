@@ -50,9 +50,9 @@
 
 - [**`📂Useful apps and instructions`**](guide/English/Additional-materials-en.md)
 
-- [**`🔧 Fix GPT to Use Windows 24H2`**](guide/English/fix-gpt-en.md)
+- [**`🔧Fix GPT to Use Windows 24H2`**](guide/English/fix-gpt-en.md)
 
-- [**`🧱 Restoring the Device in EDL Mode`**](guide/English/edl-en.md)
+- [**`🧱Restoring the Device in EDL Mode`**](guide/English/edl.md)
 
 
 
