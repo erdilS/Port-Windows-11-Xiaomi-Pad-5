@@ -24,12 +24,8 @@ adb reboot bootloader
 >
 > ▶️ Click to expand the menu.
 
->
-
 <details>
   <summary><strong>Method 1 - Uninstall using adb shell restore</strong></summary>
-
->
 
 ### Prerequisites
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
@@ -55,25 +51,12 @@ adb shell restore
 adb reboot 
 ```
 
-> [!NOTE]
-> If your device **rebooted into Recovery** perform the following actions:
-> 1. Select **Wipe Data/Factory reset**
-> 2. **Wipe All Data**
-> 3. After Data is wiped successfully, Click Back To Main Menu
-> 4. Click **Reboot**
-> 5. Reboot to System
-
 ## Done!
 
 </details>
 
-
->
-
 <details>
   <summary><strong>Method 2 - Uninstall in fastboot</strong></summary>
-  
->
 
 ### Prerequisites
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
@@ -101,13 +84,8 @@ fastboot reboot
 
 </details>
 
-
->
-
 <details>
   <summary><strong>Method 3 - Uninstall using "Nabu Fastboot Tool"</strong></summary>
-  
->
 
 ### Prerequisites
  `A `**`cable`**` to connect your `**`Xiaomi Pad 5`**` to your `**`other device`**`
@@ -126,19 +104,17 @@ fastboot reboot
 - Once the formatting completes, a success popup will appear. Click **`OK`** to dismiss the popup.
 - Scroll up and click on the **`Reboot Device`** button to restart your device.
 
+## Done!
+
+</details>
+
 > [!NOTE]
-> If your device **rebooted into Recovery** perform the following actions:
+> If your device **rebooted into recovery** after uninstalling Windows, perform the following actions:
 > 1. Select **Wipe Data/Factory reset**
 > 2. **Wipe All Data**
 > 3. After Data is wiped successfully, Click Back To Main Menu
 > 4. Click **Reboot**
 > 5. Reboot to System
-
-## Done!
-
-</details>
-
-
 
 
 
