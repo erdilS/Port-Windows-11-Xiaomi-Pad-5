@@ -41,9 +41,9 @@ fastboot reboot
 - Follow the instructions on the screen, and your device should reboot after a few seconds.
 
 ### Copying the rooted boot image
-> After your device has booted
-
-- A superuser request for Shell might appear on your tablet's screen. If it does, grant it access.
+> After your device has booted back into Android
+- A superuser request for Shell might appear on your phone's screen. If it does, grant it access.
+- If the command fails, open **Magisk**, click on `Superuser`, find **Shell**, and grant it access.
 ```cmd
 adb shell "su -c cp /dev/block/by-name/boot$(getprop grep ro.boot.slot_suffix) /sdcard/rooted_boot.img" & adb pull /sdcard/rooted_boot.img
 ```
