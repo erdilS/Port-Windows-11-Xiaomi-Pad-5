@@ -48,26 +48,150 @@ adb reboot bootloader
 fastboot boot path\to\recovery.img
 ```
 
-### Partitioning your device
-> Replace **$** with the amount of storage you want Windows to have (do not add GB, just write the number)
-> 
-> If it asks you to run it once again, do so
-```sh
-adb shell partition $
-```
-
 ### Make a backup of your existing boot image
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
 ```
 
+### Partitioning your device
+> There are two methods to partition your device. Please select the method you would like to use below. 
+
+#### Method 1: Manual partitioning 
+
+<details>
+  <summary><strong>Click here for method 1</strong></summary> 
+
+#### Unmount data
+> Ignore any possible errors and continue
+```cmd
+adb shell umount /dev/block/by-name/userdata
+``` 
+
+#### Resizing the partition table
+```cmd
+adb shell sgdisk --resize-table 64 /dev/block/sda
+```
+
+#### Preparing for partitioning
+```cmd
+adb shell parted /dev/block/sda
+``` 
+
+#### Printing the current partition table
+> Parted will print the list of partitions, **userdata** should be the last partition in the list
+```cmd
+print
+``` 
+
+#### Removing userdata
+> Replace **$** with the number of the **userdata** partition, which should be **31**
+```cmd
+rm $
+``` 
+
+#### Recreating userdata
+> Replace **10.9GB** with the former start value of **userdata** which we just deleted
+>
+> Replace **70GB** with the end value you want **userdata** to have. In this example your available usable space in Android will be 70GB-10.9GB = **59GB**
+```cmd
+mkpart userdata ext4 10.9GB 70GB
+``` 
+
+#### Creating ESP partition
+> Replace **70GB** with the end value of **userdata**
+>
+> Replace **70.3GB** with the value you used before, adding **0.3GB** to it
+```cmd
+mkpart esp fat32 70GB 70.3GB
+``` 
+
+#### Creating Windows partition
+> Replace **70.3GB** with the end value of **esp**
+```cmd
+mkpart win ntfs 70.3GB -0MB
+``` 
+
+#### Making ESP bootable
+> Use `print` to see all partitions. Replace "$" with your ESP partition number, which should be **32**
+```cmd
+set $ esp on
+``` 
+
+#### Exit parted
+```cmd
+quit
+``` 
+
+### Formatting data
+> Ensure that **userdata** actually has partition number **31** by scrolling up to the output of the `print` command
+```cmd
+adb shell mke2fs -t f2fs -f /dev/block/sda31
+```
+
 #### Check if Android still starts
-> Reboot to check if Android still works.
+> If it doesn't, boot into stock recovery and perform a **factory reset** there
 ```cmd
 adb reboot
 ```
 
-> [!NOTE]
-> If it doesn't boot into Android, reboot into fastboot mode and run `fastboot -w`, or boot into stock recovery and perform a **factory reset**
+### Formatting Windows and ESP partitions
+```cmd
+adb shell mkfs.ntfs -f /dev/block/by-name/win -L WINNABU
+``` 
+
+```cmd
+adb shell mkfs.fat -F32 -s1 /dev/block/by-name/esp -n ESPNABU
+``` 
+
+</details>
+
+#### Method 2: Automatic partitioning 
+
+<details>
+  <summary><strong>Click here for method 2</strong></summary> 
+
+### Run the partitioning script
+> Replace **$** with the amount of storage you want Windows to have (do not add GB, just write the number)
+> 
+> If it asks you to run it once again, do so
+```cmd
+adb shell partition $
+``` 
+
+#### Check if Android still starts
+> If it doesn't, boot into stock recovery and perform a **factory reset** there
+```cmd
+adb reboot
+```
+
+</details>
 
 ### [Next step: Rooting your device](/guide/English/2-rootguide-en.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
