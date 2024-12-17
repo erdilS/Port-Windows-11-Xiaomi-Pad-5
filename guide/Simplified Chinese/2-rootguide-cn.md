@@ -50,7 +50,7 @@ fastboot reboot
 
 - 如果平板的屏幕上出现超级用户权限申请，那么就允许权限。
 ```cmd
-adb shell "su -c cp dev/block/by-name/boot /sdcard/root.img" & adb pull /sdcard/root.img
+adb shell "su -c cp /dev/block/by-name/boot$(getprop grep ro.boot.slot_suffix) /sdcard/root.img" & adb pull /sdcard/root.img
 ```
 
 ### [下一步：刷入 Windows](/guide/Simplified%20Chinese/3-install-cn.md)
