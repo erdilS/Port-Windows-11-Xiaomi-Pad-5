@@ -109,7 +109,7 @@ fastboot oem edl
 </details>
 
 ### Reflashing your rom with MiFlash
-> [!Important]
+> [!Warning]
 > These tools only flash the rom to one slot. If your device ever switches slots, it'll boot back into EDL again.
 - Reboot to fastboot mode.
 - Flash the fastboot rom a second time using **MiFlash** or with the **flash_all.bat** file in the rom.
