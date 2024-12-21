@@ -16,7 +16,7 @@
 ## Є три способи встановлення Windows:
 | **Незабаром: встановлення Windows без ПК (wininstaller)**                                                                        | **Встановлення Windows за допомогою автоматизованих сценаріїв (won-deployer)**                                                 | **Встановлення Windows вручну самостійно**                                                                          |
 |----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| <a href="nopc-en.md"><img src="Link" width="280"></a> | <a href="won-deployer-install-en.md"><img src="Link" width="280"></a> | <a href="1-partition-en.md"><img src="Link" width="200"></a> |
+| <a href="nopc-en.md"><img src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="280"></a> | <a href="won-deployer-install-uk.md"><img src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="280"></a> | <a href="1-partition-uk.md"><img src="https://github.com/ArKT-7/won-deployer/blob/main/assets/Won-nabu-bg.png" width="200"></a> |
 | - Легко і швидко | - Легко і швидко | - Важче і довше |
 | - ПК не потрібен | - Потрібен ПК | - Потрібен ПК |
 | - Обмеження щодо вибору версії ОС | - Широкі можливості налаштування щодо версії ОС, мови, видання та розподілу пам’яті | - Широкі можливості налаштування щодо версії ОС, мови, видання та розподілу пам’яті |
