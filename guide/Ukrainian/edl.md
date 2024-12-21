@@ -1,4 +1,4 @@
-<img align = "право" src = "https://raw.githubusercontent.com/erdils/port-windows-11-xiaomi-pad-5/main/nabu.png" width = "425" alt = "Windows 11 Біг на майданчику Xiaomi 5 ">
+<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 # Запуск вікон на майданчику Xiaomi 5
 
