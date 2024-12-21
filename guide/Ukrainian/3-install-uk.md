@@ -7,11 +7,13 @@
 ## Встановлення Windows
 
 ### Необхідні файли
-- [```DriveLetterAssinger```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)
-
 - [```Windows ARM esd```](https://arkt-7.github.io/woawin/)
-  
+
+- [```DriveLetterAssinger```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)  
+
 - [```Драйвери```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
+
+- [```UEFI образ```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 
 ### Завантажте відновлення, щоб розпочати встановлення Windows
 ```cmd
@@ -30,6 +32,7 @@ adb shell msc
 ### Встановлення Windows
 > [!Important]
 > Переконайтесь що запустили cmd/PowerShell від імені **адміністратора**
+>
 > Замініть `path\to\install.esd` фактичним шляхом до install.esd (він також може називатися install.wim або 22631.2861.XXXXXXX.esd) 
 ```cmd
 dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
