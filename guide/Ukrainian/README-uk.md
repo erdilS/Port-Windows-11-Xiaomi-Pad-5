@@ -43,6 +43,8 @@
   
 - [**`Корисні програми та інструкції`**](/guide/Ukrainian/Additional-materials-uk.md)
 
+- [**`Відновлення пристрою у EDL режимі`**](/guide/Ukrainian/edl.md)
+
 ## Вкладачі
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
 [<img alt="map220v" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/14368485?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/map220v)
