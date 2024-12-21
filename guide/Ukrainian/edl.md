@@ -39,11 +39,11 @@ fastboot oem edl
 ## Прошивка
 
 ### Передумови
-- [`Виправлений Mi Flash'] (https://github.com/erdils/port-windows-11-xiaomi-pad-5/release/download/1.0/miflashpatched.zip)
+- `Виправлений Mi Flash` (https://github.com/erdils/port-windows-11-xiaomi-pad-5/release/download/1.0/miflashpatched.zip)
 
-- [`Виправлений firehose (.elf) файл '] (https://github.com/erdils/port-windows-11-xiaomi-pad-5/release/download/1.0/prog_ufs_firehose_sm7150_ddr.elf)
+- `Виправлений firehose (.elf) файл` (https://github.com/erdils/port-windows-11-xiaomi-pad-5/release/download/1.0/prog_ufs_firehose_sm7150_ddr.elf)
 
-- `Розпакована` [`Fastboot прошивка для планшету`] (http://xmfirmwareupdater.com/miui/nabu/)
+- `Розпакована Fastboot прошивка для планшету` (http://xmfirmwareupdater.com/miui/nabu/)
 
 ### Підготовка необхідних файлів
 - Розпакуйте **Fastboot прошивку** для вашого плашнету Xiaomi Pad 5.
@@ -51,7 +51,7 @@ fastboot oem edl
 - Скопіюйте раніше завантажений файл **firehose (.elf)** у папку **images** всередині вашої витягнутої **прошивки**, перезаписавши існуючий файл.
 
 #### Відкрийте MiFlash
-- Перейдіть до папки **MiFlash** всередині витягнутої ***MiflashPatched.zip**.
+- Перейдіть до папки **MiFlash** всередині витягнутої **MiflashPatched.zip**.
 - Запустіть **xiaomiflash.exe** від імені адміністратора.
 
 ### Прошивка
@@ -61,7 +61,7 @@ fastboot oem edl
 - Після підтвердження вашого пристрою виявлено і вибрано **Flash all**, натисніть кнопку **Flash**, щоб запустити процес прошивки.
 
 > [!WARNING]
-> Якщо ви бачите будь -яку помилку, яка не проходить через 2 хвилини, перезавантажте пристрій у режим **EDL** знову, а потім натисніть **Refresh** і **Flash** для прошивки.
+> Якщо ви бачите будь-яку помилку, яка не проходить через 2 хвилини, перезавантажте пристрій у режим **EDL** знову, а потім натисніть **Refresh** і **Flash** для прошивки.
 
 #### Перезавантажте пристрій
 - Після завершення прошивки натисніть кнопку **Reboot**, щоб перезапустити пристрій.
