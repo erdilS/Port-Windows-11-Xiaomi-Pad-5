@@ -11,7 +11,7 @@
 Idk, but some people were asking about it 
 
 ### Prerequisites
-- [```WOA Helper app```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
+- [```WOA Helper app```](https://github.com/n00b69/woa-helper/releases/tag/APK)
   
 - [```Latest UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
 
