@@ -43,6 +43,8 @@
   
 - [**`Корисні програми та інструкції`**](/guide/Ukrainian/Additional-materials-uk.md)
 
+- [**`Виправлення GPT для використовування Windows 11 24H2`**](/guide/Ukrainian/fixgpt.md)
+
 - [**`Відновлення пристрою у EDL режимі`**](/guide/Ukrainian/edl.md)
 
 ## Вкладачі
