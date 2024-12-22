@@ -70,4 +70,4 @@ adb reboot
 > [!NOTE]
 > Если устройство не загружается в Android, перезагрузите его в fastboot и выполните `fastboot -w` или загрузитесь в стандартное recovery и сделайте **Factory Reset**
 
-### [Следующий шаг: получение root](/guide/English/2-rootguide-ru.md)
+### [Следующий шаг: получение root](/guide/Russian/2-rootguide-ru.md)
