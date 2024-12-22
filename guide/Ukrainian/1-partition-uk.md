@@ -3,18 +3,25 @@
 
 # Запуск Windows на Xiaomi Pad 5
 
-Цей крок потрібен щоби ми створили розділи, де буде знаходитись Windows
+Цей крок потрібен щоб ми створили розділи, де буде знаходитись Windows
 
 ### Необхідні файли
 
-- ```Розблокований завантажувач```
+- ОС Windows 10 або вище
+
+- ```Розблокований завантажувач``` (якщо він заблокований і ви не знаєте як його розблокувати використовуйте [цей](https://github.com/Ilya114/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/Ukrainian/unlock-bootloader-uk.md) посібник)
 
 - [```Відновлення```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
-## Нотатки:
 > [!NOTE]
+> Ви можете використовувати будь-який Android для подвійного завантаження - MIUI/Hyper OS або будь-яке іншу прошивку
+
+> [!WARNING]
+> Усі ваші дані буде видалено! Зробіть резервну копію, якщо потрібно
+> НЕ ПЕРЕЗАВАНТАЖУЙТЕ ПЛАНШЕТ, якщо вважаєте, що зробили помилку, зверніться за допомогою в [Telegram-чат](https://t.me/nabuwoa)
+
 > Не знаєте, як почати? Просто розпакуйте завантажений [```Android platform tools```](http://developer.android.com/studio/release/platform-tools), у теку (наприклад ```"C:\platform-tools"```), а потім відкрийте `cmd` або `powershell` як адміністратор і введіть:
 
 ```cmd
@@ -22,7 +29,7 @@ cd "шлях\до\platform-tools"
 ```
 > Замініть ```"шлях\до\platform-tools"``` фактичним шляхом до папки platform tools
 
-> [!WARNING]\
+> [!WARNING]
 > Якщо ви видалили будь-який розділ використовуючи diskpart, Windows рано или пізно відправить команду пам'яти, яка буде неправильно розпізнана, і тому пам'ять буде стерта.
 > 
 > Усі ваші дані будуть видалені! Зробіть резервне копіювання, якщо потрібно.

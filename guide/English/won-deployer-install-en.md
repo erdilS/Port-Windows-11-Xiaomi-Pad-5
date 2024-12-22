@@ -125,7 +125,7 @@ won-deployer
 ### Prerequisites
 - [```Magisk app```](https://raw.githubusercontent.com/arkt-7/won-deployer/main/files/Magisk_stable.apk)
 
-- [```WoA Helper app```](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
+- [```WoA Helper app```](https://github.com/n00b69/woa-helper/releases/tag/APK)
 
 - [```UEFI image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
   
