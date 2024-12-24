@@ -65,6 +65,11 @@ bcdboot X:\Windows /s Y: /f UEFI
 mountvol y: /d
 ```
 
+### Make a backup of your rooted boot image
+```cmd
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
+```
+
 ### Reboot into fastboot
 ```cmd
 adb reboot bootloader
