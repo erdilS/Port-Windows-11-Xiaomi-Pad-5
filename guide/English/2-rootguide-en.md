@@ -9,7 +9,7 @@
 ### Prerequisites
 - ```Brain```
   
-- [```Android boot backup```](/guide/English/1-partition-en.md#Make-a-backup-of-your-existing-boot-image) (which you backed up on the first guide page)
+- [```Modified recovery image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
 - [```Magisk app```](https://github.com/topjohnwu/Magisk/releases/latest)
 
