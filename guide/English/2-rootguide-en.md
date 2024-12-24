@@ -8,24 +8,8 @@
 
 ### Prerequisites
 - ```Brain```
-  
-- [```Modified recovery image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-- [```Magisk app```](https://github.com/topjohnwu/Magisk/releases/latest)
-
-### Install magisk app
-- Just install downloaded [Magisk app](https://github.com/topjohnwu/Magisk/releases/latest) on the tablet
-
-### Reboot into fastboot
-```cmd
-adb reboot bootloader
-```
-
-### Boot the modded recovery again
-> Replace `path\to\recovery.img` with the actual path of the recovery image
-```cmd
-fastboot boot path\to\recovery.img
-```
+- [```Magisk.apk```](https://github.com/topjohnwu/Magisk/releases/latest)
 
 ### Flash magisk 
 - Download [`magisk.apk`](https://github.com/topjohnwu/Magisk/releases/latest)
@@ -36,11 +20,16 @@ adb push path\to\magisk.apk /tmp && adb shell twrp install /tmp/magisk.apk
 ```
 
 ### Reboot into Android
+> If it doesn't, boot into stock recovery and perform a **factory reset** there
 ```cmd
 adb reboot
 ```
 
+### Set up your Android
+- Just setup your Android as usual, connect to Wi-Fi etc
+
 ### Finishing setup
+- Download and install [Magisk app](https://github.com/topjohnwu/Magisk/releases/latest) on the tablet
 - Open the **Magisk** app again.
 - Follow the instructions on the screen, and your device should reboot after a few seconds.
 
