@@ -28,7 +28,7 @@ adb shell msc
 ```
 
 ### Assign letters to WINNABU and ESPNABU
-> Run the **DriveLetterAssigner** script and click **`YES`** to automatically assign the letters **X** and **Y** to **WINNABU** and **ESPNABU**
+> Run the **DriveLetterAssigner** and click **`YES`** to automatically assign the letters **X** and **Y** to **WINNABU** and **ESPNABU**
 
 ### Installing Windows
 > [!Important]
