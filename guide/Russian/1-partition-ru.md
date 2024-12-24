@@ -166,4 +166,5 @@ adb reboot
 
 </details>
 
-### [Следующий шаг: Рутинг вашего устройства](/guide/Russian/2-rootguide-ru.md)
+### [Следующий шаг: Получение root](/guide/Russian/2-rootguide-ru.md)
+
