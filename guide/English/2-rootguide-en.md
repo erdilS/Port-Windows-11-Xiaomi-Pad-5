@@ -28,5 +28,47 @@ adb reboot
 - Set up your device, then download and install [Magisk](https://github.com/topjohnwu/Magisk/releases/latest), if it isn't already installed.
 - Open the **Magisk** app and follow the instructions on the screen, and your device should reboot after a few seconds.
 
+### Back up your rooted boot.img
+> Reboot into the modified recovery image, then run the below command
+```cmd
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
+```
+
 ### [Next step: Installing Windows](/guide/English/3-install-en.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
