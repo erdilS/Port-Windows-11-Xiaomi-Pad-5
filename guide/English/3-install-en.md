@@ -7,7 +7,7 @@
 ### Prerequisites
 - ```Brain```
 
-- [```DriveLetterAssigner```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)
+- [```DriveLetterAssigner Tool```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)
   
 - [```ARM Windows ESD```](https://arkt-7.github.io/woawin/)
     
@@ -28,7 +28,7 @@ adb shell msc
 ```
 
 ### Assign letters to WINNABU and ESPNABU
-> Open the **DriveLetterAssigner** script and press `Y` on your keyboard to automatically assign the letters **X** and **Y** to **WINNABU** and **ESPNABU**
+> Run the **DriveLetterAssigner** script and click **`YES`** to automatically assign the letters **X** and **Y** to **WINNABU** and **ESPNABU**
 
 ### Installing Windows
 > [!Important]
@@ -80,22 +80,3 @@ fastboot boot path\to\nabu-uefi.img
 > Your device should reboot by itself after +- 10 minutes of waiting, after which you will be booted into Android, for the last step.
 
 ## [Last step: Setting up dualboot](/guide/English/4-dualboot-en.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
