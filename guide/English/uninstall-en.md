@@ -88,7 +88,7 @@ fastboot reboot
   <summary><strong>Method 3 - Uninstall using "Nabu Fastboot Tool"</strong></summary>
 
 ### Prerequisites
- `A `**`cable`**` to connect your `**`Xiaomi Pad 5`**` to your `**`other device`**`
+ `A `**`cable`**` to connect your `**`Xiaomi Pad 5`**` to your `**`other device`**
 
  **`Any other device (Android, Windows, Mac or Linux)`**
 
