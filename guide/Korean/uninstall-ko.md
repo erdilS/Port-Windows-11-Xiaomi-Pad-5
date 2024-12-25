@@ -93,15 +93,15 @@ fastboot reboot
  **`다른 장치 (Android, Windows, Mac 또는 Linux)`**
 
 ### Fastboot Tool 웹사이트 연결
-- **[Nabu Fastboot Tool](https://arkt-7.github.io/nabu/)**를 다른 장치의 브라우저에서 엽니다.
+- **[Nabu Fastboot Tool](https://arkt-7.github.io/nabu/)** 를 다른 장치의 브라우저에서 엽니다.
 - **`Connect Device Fastboot`** 버튼을 클릭합니다.
-- 리스트에서 **`Android`**를 선택하고 **`allow`**를 선택하여 권한을 허용합니다.
+- 리스트에서 **`Android`** 를 선택하고 **`allow`** 를 선택하여 권한을 허용합니다.
 
 ### 초기화 및 파티션 순정화
 - **`Format/wipe make Partition Stock`** 부분까지 화면을 스크롤하여 내립니다.
-- 입력 상자에 **`format`**을 입력합니다.
-- 마지막으로, **`Format/Wipe`** 버튼을 클릭하고 경고 메시지가 나타나면 **`OK`**를 선택합니다.
-- 초기화가 끝나면, 성공 메시지가 나타납니다. **`OK`**를 클릭하여 메시지 창을 닫습니다.
+- 입력 상자에 **`format`** 을 입력합니다.
+- 마지막으로, **`Format/Wipe`** 버튼을 클릭하고 경고 메시지가 나타나면 **`OK`** 를 선택합니다.
+- 초기화가 끝나면, 성공 메시지가 나타납니다. **`OK`** 를 클릭하여 메시지 창을 닫습니다.
 - 화면을 스크롤하여 올리고 **`Reboot Device`** 버튼을 클릭핳여 장치를 다시 시작합니다.
 
 ## 끝!
