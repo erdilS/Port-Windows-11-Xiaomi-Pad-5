@@ -22,7 +22,7 @@ adb reboot bootloader
 
 > [!NOTE]
 >
-> ▶️ Click to expand the menu.
+> ▶️ 클릭하여 메뉴를 확장하세요.
 
 <details>
   <summary><strong>방법 1 - adb shell restore 명령어를 사용하여 제거</strong></summary>
