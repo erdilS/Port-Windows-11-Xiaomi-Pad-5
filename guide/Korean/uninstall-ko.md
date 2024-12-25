@@ -70,7 +70,7 @@ fastboot flash partition:0 path\to\gpt_both0.bin
 ```
 
 #### userdata 초기화
-> To avoid a bootloop and restore FS size
+> 이를 통하여 무한 부팅을 방지하고 파일 시스템 크기를 복원합니다
 ```cmd
 fastboot -w
 ```
