@@ -5,24 +5,32 @@
 ## 제거
 
 ### 왜 이 과정이 필요합니까?
+> 윈도우 제거를 원할 경우 수동으로 파티션을 제거하지 않고 이 과정이 사용되며 이를 통해 실수 또한 방지합니다.
 
-윈도우 제거를 원할 경우 수동으로 파티션을 제거하지 않고 이 과정이 사용되며 이를 통해 실수 또한 방지합니다.
-
-부트로더 리락을 원할 경우 파티션 테이블을 순정 상태로 복원해야 합니다.
-
-### 준비물
-
-- [```안드로이드 플랫폼 도구```](https://developer.android.com/studio/releases/platform-tools)
-  
-- [```리커버리 이미지```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+> [!Warning]
+> **모든 데이터가 삭제됩니다! 필요한 경우 백업하세요.**
 
 #### Android로 전환합니다
-> 제거 과정을 진행하기 전에 Android로 전환하세요
+> 마지막으로 부팅한 운영체제가 Windows인 경우, 제거 과정을 진행하기 전에 먼저 Android로 전환하세요
 
-#### **fastboot**로 재부팅합니다
-- 재부팅될 때 **`볼륨 아래`** 버튼을 누른 상태를 유지하여 NABU를 **fastboot**로 재부팅하세요
+#### fastboot 모드로 재부팅합니다
+- USB 케이블이 연결된 상태에서 재부팅할 때 **`볼륨 아래`** 버튼을 누른 상태를 유지하여 NABU를 **fastboot**로 재부팅하세요
+- 또는, USB 디버깅이 활성화했다면, Android로 부팅되어 있는 상태에서 아래의 명령어를 입력하세요.
+```cmd
+adb reboot bootloader
+```
 
-- 케이블을 사용하여 PC/노트북에 기기를 연결합니다
+> [!NOTE]
+>
+> ▶️ Click to expand the menu.
+
+<details>
+  <summary><strong>방법 1 - adb shell restore 명령어를 사용하여 제거</strong></summary>
+
+### 준비물
+- [```안드로이드 플랫폼 도구```](https://developer.android.com/studio/releases/platform-tools)
+  
+- [```맞춤화된 리커버리 이미지```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
 #### 맞춤화된 리커버리로 부팅합니다
 > platform-tools 폴더에서 CMD 창을 열고, 아래의 명령어를 실행합니다 (fastboot 모드에 진입하면 실행하세요)
@@ -32,7 +40,8 @@ fastboot boot path\to\recovery.img
 
 #### 파티션 레이아웃을 복원합니다
 > [!Warning]
-> 안드로이드 파일이 모두 초기화됩니다. 필요하다면 미리 백업하세요.
+> 안드로이드 파일이 모두 초기화됩니다. 필요한 경우 미리 백업하세요.
+
 ```cmd
 adb shell restore
 ```
@@ -42,6 +51,63 @@ adb shell restore
 adb reboot 
 ```
 
+## 끝!
+
+</details>
+
+<details>
+  <summary><strong>방법 2 - fastboot에서 제거</strong></summary>
+
+### 준비물물
+- [```안드로이드 플랫폼 도구```](https://developer.android.com/studio/releases/platform-tools)
+
+- [```gpt_both0.bin```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/gpt_both0.bin) 
+
+### 파티션 테이블 복원
+> ```path\to\gpt_both0.bin```를 gpt_both0.bin 파일의 경로로 교체하세요.
+```cmd
+fastboot flash partition:0 path\to\gpt_both0.bin
+```
+
+#### userdata 초기화
+> To avoid a bootloop and restore FS size
+```cmd
+fastboot -w
+```
+
+#### Android로 재부팅
+```cmd
+fastboot reboot
+```
+
+## 끝!
+
+</details>
+
+<details>
+  <summary><strong>방법 3 - "Nabu Fastboot Tool"을 이용하여 제거</strong></summary>
+
+### 준비물
+ **`Xiaomi Pad 5`**`를 `**`다른 장치`**`로 연결할 `**`케이블`**
+
+ **`다른 장치 (Android, Windows, Mac 또는 Linux)`**
+
+### Connect to the Fastboot Tool on the website
+- Open the **[Nabu Fastboot Tool](https://arkt-7.github.io/nabu/)** in the browser of any device.
+- Click on the **`Connect Device Fastboot`** button.
+- Select **`Android`** from the list that appears and **`allow`** permissions.
+
+### Format and Make partition Stock
+- Scroll down to the **`Format/wipe make Partition Stock`** section.
+- In the input box, type **`format`**.
+- Finally, click the **`Format/Wipe`** button and press **`OK`** when a warning popup appears.
+- Once the formatting completes, a success popup will appear. Click **`OK`** to dismiss the popup.
+- Scroll up and click on the **`Reboot Device`** button to restart your device.
+
+## Done!
+
+</details>
+
 > [!NOTE]
 > MIUI 리커버리로 부팅된 경우 다음 작업을 수행하세요:
 > 1. Wipe Data를 선택합니다
@@ -50,4 +116,23 @@ adb reboot
 > 4. Reboot를 선택합니다
 > 5. 시스템으로 재부팅합니다
 
-## 끝!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
