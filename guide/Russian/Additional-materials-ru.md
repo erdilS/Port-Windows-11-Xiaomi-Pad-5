@@ -56,7 +56,7 @@
 
 #### Готово!
 
-## Activate Windows / Office
+## Активация Windows / Office
 Следуйте инструкциям от Massgravel [здесь](https://github.com/massgravel/Microsoft-Activation-Scripts)
 
 #### Готово!
