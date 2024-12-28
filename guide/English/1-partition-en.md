@@ -54,12 +54,35 @@ adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.
 ```
 
 ### Partitioning your device
-> There are two methods to partition your device. Please select the method you would like to use below. 
+> There are two methods to partition your device. Please select the method you would like to use below.
+ 
+> [!NOTE]
+>
+> ▶️ Click to expand the menu.
 
-#### Method 1: Manual partitioning 
+### Method 1: Automatic partitioning (recommended)
 
 <details>
   <summary><strong>Click here for method 1</strong></summary> 
+
+### Run the partitioning script
+> Replace **$** with the amount of storage you want Windows to have (do not add GB, just write the number)
+> 
+> If it asks you to run it once again, do so
+```cmd
+adb shell partition $
+```
+
+### [Next step: Rooting your device](/guide/English/2-rootguide-en.md)
+
+</details>
+
+----
+
+### Method 2: Manual partitioning (use it only if you know what you're doing)
+
+<details>
+  <summary><strong>Click here for method 2</strong></summary> 
 
 #### Unmount data
 > Ignore any possible errors and continue
@@ -128,12 +151,6 @@ quit
 adb shell mke2fs -t f2fs -f /dev/block/sda31
 ```
 
-#### Check if Android still starts
-> If it doesn't, boot into stock recovery and perform a **factory reset** there
-```cmd
-adb reboot
-```
-
 ### Formatting Windows and ESP partitions
 ```cmd
 adb shell mkfs.ntfs -f /dev/block/by-name/win -L WINNABU
@@ -141,32 +158,14 @@ adb shell mkfs.ntfs -f /dev/block/by-name/win -L WINNABU
 
 ```cmd
 adb shell mkfs.fat -F32 -s1 /dev/block/by-name/esp -n ESPNABU
-``` 
-
-</details>
-
-#### Method 2: Automatic partitioning 
-
-<details>
-  <summary><strong>Click here for method 2</strong></summary> 
-
-### Run the partitioning script
-> Replace **$** with the amount of storage you want Windows to have (do not add GB, just write the number)
-> 
-> If it asks you to run it once again, do so
-```cmd
-adb shell partition $
-``` 
-
-#### Check if Android still starts
-> If it doesn't, boot into stock recovery and perform a **factory reset** there
-```cmd
-adb reboot
 ```
 
+### [Next step: Rooting your device](/guide/English/2-rootguide-en.md)
+
+----
+
 </details>
 
-### [Next step: Rooting your device](/guide/English/2-rootguide-en.md)
 
 
 
