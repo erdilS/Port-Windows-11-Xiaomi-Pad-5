@@ -15,7 +15,7 @@
 - Download [`magisk.apk`](https://github.com/topjohnwu/Magisk/releases/latest) onto your PC/Laptop 
 > Replace `path\to\magisk.apk` with the actual path of the magisk.apk
 ```cmd
-adb push path\to\magisk.apk /tmp && adb shell twrp install /tmp/magisk.apk
+adb push path\to\magisk.apk /tmp/magisk.zip && adb shell twrp install /tmp/magisk.zip
 ```
 
 #### Reboot into Android
