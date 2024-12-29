@@ -84,6 +84,12 @@ adb shell partition $
 <details>
   <summary><strong>Click here for method 2</strong></summary> 
 
+### Fixing the GPT
+> Or Windows may brick your device
+```cmd
+adb shell fixgpt
+```
+
 #### Unmount data
 > Ignore any possible errors and continue
 ```cmd
@@ -95,7 +101,7 @@ adb shell umount /dev/block/by-name/userdata
 adb shell sgdisk --resize-table 64 /dev/block/sda
 ```
 
-#### Preparing for partitioning
+### Preparing for partitioning
 ```cmd
 adb shell parted /dev/block/sda
 ``` 
