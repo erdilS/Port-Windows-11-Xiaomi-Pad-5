@@ -84,12 +84,6 @@ adb shell partition $
 <details>
   <summary><strong>Click here for method 2</strong></summary> 
 
-### Fixing the GPT
-> Or Windows may brick your device
-```cmd
-adb shell fixgpt
-```
-
 #### Unmount data
 > Ignore any possible errors and continue
 ```cmd
@@ -160,6 +154,12 @@ adb shell mkfs.ntfs -f /dev/block/sda33 -L WINNABU
 > Ensure that **esp** actually has partition number **32** by scrolling up to the output of the `print` command
 ```cmd
 adb shell mkfs.fat -F32 -s1 /dev/block/sda32 -n ESPNABU
+```
+
+### Fixing the GPT
+> Or Windows may brick your device
+```cmd
+adb shell fixgpt
 ```
 
 #### Reboot your device
