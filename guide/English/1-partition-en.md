@@ -145,19 +145,23 @@ set $ esp on
 quit
 ``` 
 
-### Formatting data
-> Ensure that **userdata** actually has partition number **31** by scrolling up to the output of the `print` command
-```cmd
-adb shell mke2fs -t f2fs -f /dev/block/sda31
-```
-
 ### Formatting Windows and ESP partitions
+> Ensure that **win** actually has partition number **33** by scrolling up to the output of the `print` command
 ```cmd
-adb shell mkfs.ntfs -f /dev/block/by-name/win -L WINNABU
+adb shell mkfs.ntfs -f /dev/block/sda33 -L WINNABU
 ``` 
 
+> Ensure that **esp** actually has partition number **32** by scrolling up to the output of the `print` command
 ```cmd
-adb shell mkfs.fat -F32 -s1 /dev/block/by-name/esp -n ESPNABU
+adb shell mkfs.fat -F32 -s1 /dev/block/sda32 -n ESPNABU
+```
+
+#### Reboot your device
+> To check if Android still starts
+>
+> If it doesn't, reboot into stock recovery and perform a factory reset there
+```cmd
+adb reboot
 ```
 
 ### [Next step: Rooting your device](/guide/English/2-rootguide-en.md)
