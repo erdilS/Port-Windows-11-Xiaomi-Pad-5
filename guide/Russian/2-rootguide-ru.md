@@ -6,46 +6,45 @@
 > [!NOTE]
 > **Если вы уже рутированы, просто пропустите этот шаг и перейдите на следующую страницу**
 
-### Что нужно
+### Предварительные условия
 - ```Мозг```
   
-- [```Резервное копирование boot-образа```](/guide/Russian/1-partition-ru.md#Make-a-backup-of-your-existing-boot-image) (которые вы скопировали на первой странице руководства)
+- [```Magisk.apk```](https://github.com/topjohnwu/Magisk/releases/latest)
 
-### Патчим ваш boot-образ
-- Скопируйте файл ```normal_boot.img``` из папки ```platform tools``` на свой планшет
-
-- Скачайте и установите [приложение Magisk](https://github.com/topjohnwu/Magisk/releases/latest) на ваш планшет
-  
--  Откройте Magisk, потом нажмите кнопку ```Установка```. Выберите ```Пропатчить boot-образ``` выберите файл ```normal_boot.img``` который вы скопировали на свой планшет. Нажмите на ```Начать``` и подождите когда процесс закончится
-  
-- Скопируйте ```magisk_patched....img``` файл, в папку ```Downloads``` на вашем планшете, в папку ```platform tools``` на вашем ПК. 
-
-### Перезагрузитесь в fastboot
+### Прошивка magisk 
+- Скачайте [`magisk.apk`](https://github.com/topjohnwu/Magisk/releases/latest) onto your PC/Laptop 
+> Замените `путь\к\magisk.apk` на актуальный путь к magisk.apk
 ```cmd
-adb reboot bootloader
+adb push путь\к\magisk.apk /tmp/magisk.zip && adb shell twrp install /tmp/magisk.zip
 ```
 
-### Прошейте патченый boot-образ
-> Замените `magisk_patched.img` на физический путь к ```magisk_patched.img```.
+#### Перезагрузка в Android
+> Если он не загружается, войдите в режим восстановления и выполните **сброс к заводским настройкам**
 ```cmd
-fastboot flash boot magisk_patched.img
+adb reboot
 ```
 
-### Перезагрузитесь в Android
+### Завершение настройки
+- Настройте своё устройство, затем скачайте и установите [Magisk](https://github.com/topjohnwu/Magisk/releases/latest), если он ещё не установлен.
+- Откройте приложение **Magisk** и следуйте инструкциям на экране. Через несколько секунд ваше устройство перезагрузится.
+
+### Создайте резервную копию загрузочного образа с правами суперпользователя
+> Перезагрузитесь в модифицированный образ восстановления, затем выполните приведенную ниже команду
 ```cmd
-fastboot reboot
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```
 
-#### Закончите установку
-- Откройте приложение **Magisk** снова.
-- Следуйте инструкциям на экране, и через несколько секунд ваше устройство перезагрузится.
+### [Следующий шаг: Установка Windows](/guide/Russian/3-install-ru.md)
 
-### Копирование рутированого boot-образа
-> Загрузка вашего устройства
 
-- На экране вашего планшета может появиться запрос суперпользователя для Shell. Если оно появится, предоставьте доступ.
-```cmd
-adb shell "su -c cp /dev/block/by-name/boot$(getprop grep ro.boot.slot_suffix) /sdcard/rooted_boot.img" & adb pull /sdcard/rooted_boot.img
-```
 
-### [Следующий шаг: установка Windows](/guide/Russian/3-install-ru.md)
+
+
+
+
+
+
+
+
+
+
