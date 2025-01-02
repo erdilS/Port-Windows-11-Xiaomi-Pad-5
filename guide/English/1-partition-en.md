@@ -54,12 +54,35 @@ adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.
 ```
 
 ### Partitioning your device
-> There are two methods to partition your device. Please select the method you would like to use below. 
+> There are two methods to partition your device. Please select the method you would like to use below.
+ 
+> [!NOTE]
+>
+> ▶️ Click to expand the menu.
 
-#### Method 1: Manual partitioning 
+### Method 1: Automatic partitioning (recommended)
 
 <details>
   <summary><strong>Click here for method 1</strong></summary> 
+
+### Run the partitioning script
+> Replace **$** with the amount of storage you want Windows to have (do not add GB, just write the number)
+> 
+> If it asks you to run it once again, do so
+```cmd
+adb shell partition $
+```
+
+### [Next step: Rooting your device](/guide/English/2-rootguide-en.md)
+
+</details>
+
+----
+
+### Method 2: Manual partitioning (use it only if you know what you're doing)
+
+<details>
+  <summary><strong>Click here for method 2</strong></summary> 
 
 #### Unmount data
 > Ignore any possible errors and continue
@@ -72,7 +95,7 @@ adb shell umount /dev/block/by-name/userdata
 adb shell sgdisk --resize-table 64 /dev/block/sda
 ```
 
-#### Preparing for partitioning
+### Preparing for partitioning
 ```cmd
 adb shell parted /dev/block/sda
 ``` 
@@ -122,51 +145,37 @@ set $ esp on
 quit
 ``` 
 
-### Formatting data
-> Ensure that **userdata** actually has partition number **31** by scrolling up to the output of the `print` command
-```cmd
-adb shell mke2fs -t f2fs -f /dev/block/sda31
-```
-
-#### Check if Android still starts
-> If it doesn't, boot into stock recovery and perform a **factory reset** there
-```cmd
-adb reboot
-```
-
 ### Formatting Windows and ESP partitions
+> Ensure that **win** actually has partition number **33** by scrolling up to the output of the `print` command
 ```cmd
-adb shell mkfs.ntfs -f /dev/block/by-name/win -L WINNABU
+adb shell mkfs.ntfs -f /dev/block/sda33 -L WINNABU
 ``` 
 
+> Ensure that **esp** actually has partition number **32** by scrolling up to the output of the `print` command
 ```cmd
-adb shell mkfs.fat -F32 -s1 /dev/block/by-name/esp -n ESPNABU
-``` 
+adb shell mkfs.fat -F32 -s1 /dev/block/sda32 -n ESPNABU
+```
 
-</details>
-
-#### Method 2: Automatic partitioning 
-
-<details>
-  <summary><strong>Click here for method 2</strong></summary> 
-
-### Run the partitioning script
-> Replace **$** with the amount of storage you want Windows to have (do not add GB, just write the number)
-> 
-> If it asks you to run it once again, do so
+### Fixing the GPT
+> Or Windows may brick your device
 ```cmd
-adb shell partition $
-``` 
+adb shell fixgpt
+```
 
-#### Check if Android still starts
-> If it doesn't, boot into stock recovery and perform a **factory reset** there
+#### Reboot your device
+> To check if Android still starts
+>
+> If it doesn't, reboot into stock recovery and perform a factory reset there
 ```cmd
 adb reboot
 ```
-
-</details>
 
 ### [Next step: Rooting your device](/guide/English/2-rootguide-en.md)
+
+----
+
+</details>
+
 
 
 
