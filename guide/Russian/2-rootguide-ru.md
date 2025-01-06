@@ -12,7 +12,7 @@
 - [```Magisk.apk```](https://github.com/topjohnwu/Magisk/releases/latest)
 
 ### Прошивка magisk 
-- Скачайте [`magisk.apk`](https://github.com/topjohnwu/Magisk/releases/latest) onto your PC/Laptop 
+- Скачайте [`magisk.apk`](https://github.com/topjohnwu/Magisk/releases/latest) на ваш ПК/Ноутбук
 > Замените `путь\к\magisk.apk` на актуальный путь к magisk.apk
 ```cmd
 adb push путь\к\magisk.apk /tmp/magisk.zip && adb shell twrp install /tmp/magisk.zip
