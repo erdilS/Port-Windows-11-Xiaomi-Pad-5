@@ -19,7 +19,7 @@ adb push path\to\magisk.apk /tmp/magisk.zip && adb shell twrp install /tmp/magis
 ```
 
 #### Reboot into Android
-> If it doesn't boot, renoot into stock recovery and perform a **factory reset** there
+> If it doesn't boot, reboot into stock recovery and perform a **factory reset** there
 ```cmd
 adb reboot
 ```
