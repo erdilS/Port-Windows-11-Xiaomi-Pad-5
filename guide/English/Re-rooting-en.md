@@ -44,12 +44,8 @@ adb reboot
 ### Update boot.img in Windows' C:\
 - Reboot back to Android
 - Open ```WOA Helper```
-- Mount ```Windows```
-- Open any file explorer and go to the ```Windows```  folder in your internal storage
-- Delete ```boot.img```
-
-> [!NOTE]
-> **The updated boot.img will automatically be generated in C:\ on the next reboot**
+- Click ```BACKUP BOOT IMAGE``` > ```Windows```
+- Done
 
 ## Finished!
 
