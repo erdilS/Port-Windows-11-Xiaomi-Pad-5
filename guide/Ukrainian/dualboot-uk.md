@@ -8,7 +8,7 @@
 - Мозок 
 - Root права 
 - Встановлена Windows на планшеті
-- [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+- [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
 - [WoA Helper app](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
 - [StA Installer](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
 
