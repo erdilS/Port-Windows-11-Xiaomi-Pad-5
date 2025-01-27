@@ -7,6 +7,8 @@
 ### Prerequisites
 - [```Drivers```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 
+- [```Latest UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
+
 ### Boot into Windows
 > Flash the UEFI image in fastboot or use the WOA Helper app
 
