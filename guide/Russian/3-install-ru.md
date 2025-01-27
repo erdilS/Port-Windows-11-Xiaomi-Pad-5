@@ -13,7 +13,7 @@
     
 - [```Драйвера```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 
-- [```образ UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+- [```образ UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
 
 ### Опять загрузитесь в модифицированное recovery
 > Замените `путь\к\recovery.img` на актуальный путь к **recovery.img**
