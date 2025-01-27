@@ -12,7 +12,7 @@
 ### Передумови
 - [```WOA Helper```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
   
-- [```Найновіші версії UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+- [```Найновіші версії UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
 
 ## Замініть старий UEFI на новий
 > Якщо ви ще не налаштували подвійне завантаження, дотримуйтесь [посібника з подвійного завантаження](/guide/Ukrainian/dualboot-uk.md) щоб правильно налаштувати WOA Helper 
