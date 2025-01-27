@@ -8,7 +8,7 @@
 - ```Cérebro```
 - ```que o tablet tenha root```
 - ```Windows instalado no tablet```
-- [```Imagem do UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+- [```Imagem do UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
 - [```WOA Helper app```](https://github.com/n00b69/woa-helper/releases/tag/APK)
 - [```StA Installer```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
 
