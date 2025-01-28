@@ -97,7 +97,7 @@ fastboot oem edl
 
 ### Flashing your device
 - Open **XiaoMiFlash.exe** and grant it administrator access.
-- Download the stock fastboot rom for your device (which should have a .tgz extension) and open it. Inside there should be a .tar file. Extract the contents of this .tar file into any folder).
+- Download the stock fastboot rom for your device (which should have a .tgz extension) and open it. Inside there should be a .tar file. Extract the contents of this .tar file into any folder.
 - Click the **select** button in **XiaoMiFlash** and select this folder.
 - Press **flash**.
 - If you get a `write time out` error, hold the **power** + **volume down** button for +- 30 seconds to reboot EDL. After this press the **flash** button again.
