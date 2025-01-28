@@ -9,6 +9,13 @@
 윈도우 폴더로 파일을 이동할 수 없다면, 윈도우를 재부팅할 때 다시 시작이 아닌 시스템 종료를 이용하였기 때문일 수 있습니다. 이 문제를 해결하기 위하여, 윈도우로 다시 부팅하고 다시 시작 버튼을 이용하세요. 그런 다음, 다시 시작될 때 fastboot로 부팅하고 안드로이드로 다시 돌아올 수 있도록 작업하세요 
 
 ##### 끝!
+## fastboot 또는 리커버리에서 장치가 인식되지 않음
+> This likely means you don't have (proper) USB drivers installed
+- Download [QUD.zip](https://github.com/n00b69/woa-betalm/releases/download/Qfil/QUD.zip) here and extract it.
+- Open Device Manager and find an unknown device or device with errors that may be called **Android**, **ADB Interface**, or **QUSB_BULK**.
+- Right click this devjce, select "Update Drivers" > "Browse files", then select the **QUD folder** you extracted before.
+
+##### 끝!
 
 ## 윈도우에서 충전 작동 안 됨
 > [!WARNING]
