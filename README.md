@@ -42,8 +42,6 @@
 
 - [**`🔄Updating drivers`**](guide/English/update-en.md)
 
-- [**`🔄Updating UEFI`**](guide/English/UEFI-updating-en.md)
-
 - [**`♻️Reinstallation`**](guide/English/reinstall-en.md)
 
 - [**`📱Re-rooting Android`**](guide/English/Re-rooting-en.md)
