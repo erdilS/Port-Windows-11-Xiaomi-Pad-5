@@ -76,7 +76,7 @@ adb reboot bootloader
 fastboot boot path\to\nabu-uefi.img
 ```
 
-### Android로 재부팅
-기기가 약 10분 후 자동으로 재부팅되고, Android로 부팅되면 마지막 단계로 이동할 수 있습니다.
+### 안드로이드로 재부팅
+기기가 약 10분 후 자동으로 재부팅되고, 안드로이드로 부팅되면 마지막 단계로 이동할 수 있습니다.
 
 ## [마지막 단계: 듀얼부팅 설정](/guide/Korean/dualboot-selection-ko.md)
