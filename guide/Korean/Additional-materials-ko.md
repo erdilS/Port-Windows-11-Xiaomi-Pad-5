@@ -35,10 +35,10 @@
 #### 끝!
 
 ## Windows 업데이트나 ISO 이미지를 사용하여 Windows를 업데이트할 수 있나요?
-- ✅ **네!** Windows 업데이트에서 모든 업데이트를 설치할 수 있으며 ISO 이미지를 사용하여 진행할 수도 있습니다.
+- ✅ **그렇습니다!** Windows 업데이트에서 모든 업데이트를 설치할 수 있으며 ISO 이미지를 사용하여 진행할 수도 있습니다.
 
 ## Windows를 설치한 후 Android를 업데이트할 수 있나요?
-- ✅ **네!** 어떤 방식으로든 Android를 업데이트할 수 있습니다. 업데이트 후 [안드로이드 재루팅 가이드](Re-rooting-ko.md)를 참고하세요
+- ✅ **그렇습니다!** 어떤 방식으로든 Android를 업데이트할 수 있습니다. 업데이트 후 [안드로이드 재루팅 가이드](Re-rooting-ko.md)를 참고하세요
 
 ## secureboot 비활성화
 > [!Warning]
@@ -49,7 +49,7 @@
 #### 끝!
 
 
-## ```Microsoft Office```/```Microsoft 365``` 설치
+## Microsoft Office / Microsoft 365 설치
 - 태블릿에 [ISO 파일](https://drive.google.com/file/d/10FTyC0XBccj0BkxdIa_W_haixQz-d3to/view?usp=drivesdk)을 다운로드 하세요
 - 파일에 마우스 우클릭을 하고 탑재를 선택하여 파일 탐색기에서 파일을 여세요
 - ```Office Tool Plus.exe```를 더블 클릭하여 설치 마법사를 시작하세요

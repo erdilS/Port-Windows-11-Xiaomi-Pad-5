@@ -5,10 +5,10 @@
 ## 안드로이드 및 윈도우 듀얼부팅
 
 ### 준비물
-- ```뇌```
-- ```루팅된 태블릿```
-- ```윈도우가 설치된 태블릿```
+- ```윈도우 설치가 완료되었고 루팅된 태블릿```
+
 - [```UEFI 이미지```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
+
 - [```WoA Helper 앱```](https://github.com/n00b69/woa-helper/releases/tag/APK)
 
 ## 듀얼부팅 앱 설정

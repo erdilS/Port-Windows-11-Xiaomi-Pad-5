@@ -1,13 +1,11 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 # Xiaomi Pad 5 에서 윈도우 구동
+
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
 
 ## 언어
-[```Русский```](/guide/Russian/README-RU.md) | [```English```](/README.md) | [```Português```](/guide/Portuguese/README-PT.md) | [```Türkçe```](/guide/Turkish/README-tr.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | **```한국어```** |  | [```简体中文```](/guide/Simplified%20Chinese/README-CN.md)
-
-> [!NOTE]
-> 영어 이외의 다른 언어로 작성된 가이드는 최신 상태가 아닐 수도 있습니다.
+[```Русский```](/guide/Russian/README-RU.md) | [```English```](/README.md) | [```Português```](/guide/Portuguese/README-PT.md) | [```Türkçe```](/guide/Turkish/README-tr.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | **```한국어```** | [```简体中文```](/guide/Simplified%20Chinese/README-CN.md)
 
 ## ⚠️ 경고
 > [!NOTE]
@@ -15,40 +13,46 @@
 > - 이 프로젝트는 개발 단계이며 이곳에 있는 모든 파일은 다른 사용자에 의하여 제공됩니다. 이곳에서 저희가 제작한 가이드를 확인할 수 있습니다. 이는 섬세한 과정이므로 위험을 감수하고 모든 단계를 주의 깊게 따르세요.
 
 > [!WARNING]
-> **태블릿이나 파티션 테이블을 개조하는 것이 불편하거나 장치를 벽돌로 만드는 것이 걱정된다면 지금 이 페이지를 종료하세요!!! 마지막 경고입니다. 장치를 벽돌로 만들면 스스로 책임져야 합니다!!! 다시 한번 알려드립니다! 이것은 마지막 경고입니다!!!**
+> **태블릿이나 파티션 테이블을 개조하는 것이 불편하거나 장치를 벽돌로 만드는 것이 걱정된다면 돌아가셔도 좋습니다. 다만 이 과정은 간단하므로 초보자도 할 수 있습니다. 설명대로 잘 따라하기만 한다면 과정을 완료할 수 있을 것입니다.**
 
 > [!WARNING]
-> **유튜브 또는 다른 플랫폼에 있는 동영상 가이드를 보지 마세요! 이러한 동영상들은 최신 상태가 아니므로 따라 하다가 장치를 벽돌로 만들 수 있습니다! 정말 동영상 가이드가 필요하다면, [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)의 [동영상 가이드](https://youtu.be/BbgTbTGbXYg)를 보세요**
+> **동영상 가이드를 이용하지 마세요!**
+> 
+> 동영상 가이드를 이용하다가 문제가 발생한 경우, 도움을 드릴 수 없습니다.
 
 
 ## 시작
 
-- [**```중요: 먼저 읽으세요!```**](important.md)
+- [**```📖중요: 먼저 읽으세요!```**](important.md)
 
-- [**`프로젝트 지원 상태`**](status.md)
+- [**`📊프로젝트 지원 상태`**](status.md)
 
-- [**`설치`**](selection-ko.md)
+- [**`📥설치`**](selection-ko.md)
 
-- [**`제거`**](uninstall-ko.md)
+- [**`🗑️제거`**](uninstall-ko.md)
 
 
 ## 추가 정보
 
-- [**`부트로더 언락 가이드`**](unlock-bootloader-ko.md)
+- [**`🔓부트로더 언락 가이드`**](unlock-bootloader-ko.md)
 
-- [**`듀얼부팅 설정`**](dualboot-ko.md)
+- [**`🔀듀얼부팅 설정`**](dualboot-selection2-ko.md)
 
-- [**`문제 해결`**](troubleshooting-ko.md)
+- [**`🔧문제 해결`**](troubleshooting-ko.md)
 
-- [**`드라이버 업데이트`**](update-ko.md)
+- [**`🔄드라이버 업데이트`**](update-ko.md)
 
-- [**`UEFI 업데이트`**](UEFI-updating-ko.md)
+- [**`🔄UEFI 업데이트`**](UEFI-updating-ko.md)
 
-- [**`재설치`**](reinstall-ko.md)
+- [**`♻️재설치`**](reinstall-ko.md)
 
-- [**`안드로이드 재루팅`**](Re-rooting-ko.md)
+- [**`📱안드로이드 재루팅`**](Re-rooting-ko.md)
 
-- [**`유용한 앱 및 설명`**](Additional-materials-ko.md)
+- [**`📂유용한 앱 및 설명`**](Additional-materials-ko.md)
+
+- [**`🔧윈도우 24H2 사용을 위한 GPT 수정`**](fix-gpt-ko.md)
+
+- [**`🧱EDL 모드 상태의 장치 복구`**](edl.md)
 
 ## 기여자
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
@@ -79,3 +83,5 @@
 [<img alt="Ost268" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/99175924?s=96&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/galaxysollector)
 [<img alt="gvzd" src="https://i.ibb.co/VxsvNZ6/Ellipse-1.png" />](https://https://github.com/gvzd)
 [<img alt="chiyuki0325" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/73830635?s=96&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/chiyuki0325)
+[<img alt="Kumar-Jy" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/20044626?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Kumar-Jy)
+[<img alt="ArKT-7" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/157277855?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/ArKT-7)

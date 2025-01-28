@@ -8,49 +8,51 @@
 
 ### 준비물
 - ```뇌```
-  
-- [```안드로이드 boot 이미지 백업```](/guide/Korean/1-partition-ko.md#기존-boot-이미지-백업) (가이드의 첫 페이지에서 백업한 파일)
 
-### boot 이미지 패치 
-- ```normal_boot.img``` 파일을  ```플랫폼 도구``` 폴더에서 태블릿으로 복사하세요
+- [```Magisk.apk```](https://github.com/topjohnwu/Magisk/releases/latest)
 
-- 태블릿에서 [Magisk 앱](https://github.com/topjohnwu/Magisk/releases/latest)을 다운로드하고 설치하세요
-  
--  Magisk 앱을 열고 ```Install``` 버튼을 클릭하세요. ```Select and Patch a File``` 옵션을 선택하고 태블릿에 복사한 ```normal_boot.img``` 파일을 선택하세요. ```Let's Go``` 버튼을 클릭하고 패치 과정이 완료될 때까지 기다리세요.
-  
-- 태블릿의 ```Downloads``` 폴더에서 ```magisk_patched....img``` 파일을 컴퓨터의 ```플랫폼 도구``` 폴더로 복사하세요. 
-
-### fastboot로 재부팅
-- 재부팅될 때 **`볼륨 아래`** 버튼을 누른 상태를 유지하여 NABU를 **fastboot**로 재부팅하세요
-
-- 케이블을 사용하여 PC/노트북에 기기를 연결합니다
-
-- 이전에 열었던 명령 프롬프트 창으로 돌아갑니다
-
-### 패치된 boot 이미지 플래시 
-> `magisk_patched.img`를 ```magisk_patched.img``` 의 실제 이름/경로로 변경하세요.
+### magisk 설치 
+- [`magisk.apk`](https://github.com/topjohnwu/Magisk/releases/latest) PC/노트북에서 다운로드합니다 
+> `path\to\magisk.apk`를 magisk.apk의 실제 경로로 변경하세요
 ```cmd
-fastboot flash boot magisk_patched.img
+adb push path\to\magisk.apk /tmp/magisk.zip && adb shell twrp install /tmp/magisk.zip
 ```
 
-### 안드로이드로 재부팅
+#### 안드로이드로 재부팅합니다
+> 부팅되지 않는다면, 순정 리커버리로 재부팅하여 공장 초기화를 진행해보세요
 ```cmd
-fastboot reboot
+adb reboot
 ```
 
-#### 설정 마무리
-- **Magisk** 앱을 다시 엽니다.
-- 화면에 표시되는 지시를 따르면, 몇 초 후 기기가 재부팅됩니다.
+### 설정 마무리
+- 장치의 초기 설정을 마치고 [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)를 다운로드하고 설치합니다. (설치되어 있지 않은 경우)
+- **Magisk** 앱을 열고 화면에 표시되는 지시를 따르면 장치가 몇 초후 재부팅됩니다.
 
-### 루팅된 boot 이미지 복사
-> 기기가 부팅된 후 아래의 명령어를 입력합니다
-
-- A superuser request for Shell might appear on your phone's screen. If it does, grant it access.
+### 루팅된 boot.img 백업
+> 맞춤화된 리커버리 이미지로 재부팅한 후 아래의 명령어를 실행하세요
 ```cmd
-adb shell "su -c cp /dev/block/by-name/boot$(getprop grep ro.boot.slot_suffix) /sdcard/rooted_boot.img" & adb pull /sdcard/rooted_boot.img
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```
 
 ### [다음 단계: 윈도우 설치](/guide/Korean/3-install-ko.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

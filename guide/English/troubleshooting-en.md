@@ -13,7 +13,7 @@ If you are unable to move files to the Windows folder, it means you shut down Wi
 > This likely means you don't have (proper) USB drivers installed
 - Download [QUD.zip](https://github.com/n00b69/woa-betalm/releases/download/Qfil/QUD.zip) here and extract it.
 - Open Device Manager and find an unknown device or device with errors that may be called **Android**, **ADB Interface**, or **QUSB_BULK**.
-- Right click this devjce, select "Update Drivers" > "Browse files", then select the **QUD folder** you extracted before.
+- Right click this device, select "Update Drivers" > "Browse files", then select the **QUD folder** you extracted before.
 
 ##### Finished!
 

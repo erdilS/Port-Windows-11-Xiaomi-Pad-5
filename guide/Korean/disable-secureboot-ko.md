@@ -18,7 +18,7 @@
 ## secureboot의 장단점
 > 기본적으로, secureboot는 활성화되어 있습니다
 
-##### 활성화된 secureboot의 장점
+##### 활성화된 secureboot의 장단점
 - √ 홈화면에 워터마크가 없습니다
 - √ 테스트 모드에서 작동하지 않는 앱이 작동합니다
 - √ 윈도우에서의 대규모 업데이트가 직접적으로 가능합니다 (예: 22h2 에서 23h2)
@@ -40,7 +40,7 @@ WOA Helper 앱에서 `Backup Android boot` 기능을 사용하거나, 커스텀 
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```
 
-#### 리커버리로 부팅합니다다
+#### 리커버리로 부팅합니다
 > <path\to\recovery.img>를 실제 리커버리 이미지 파일의 경로로 변경하세요
 ```cmd
 fastboot boot <path\to\recovery.img>
@@ -86,7 +86,7 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" testsigning on
 del Y:\EFI\Microsoft\Boot\SiPolicy.p7b
 ```
 
-## ESPNABU에 대한 드라이브 문자 제거
+#### ESPNABU에 대한 드라이브 문자를 제거합니다
 > 이 명령어가 작동하지 않더라도, 무시하고 다음에 입력할 명령어로 건너뛰세요. 이 드라이브는 PC를 재부팅하면 자동으로 제거됩니다.
 ```cmd
 mountvol y: /d
@@ -112,7 +112,6 @@ fastboot reboot
 ```
 
 ## 끝!
-
 
 
 

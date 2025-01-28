@@ -9,6 +9,13 @@
 윈도우 폴더로 파일을 이동할 수 없다면, 윈도우를 재부팅할 때 다시 시작이 아닌 시스템 종료를 이용하였기 때문일 수 있습니다. 이 문제를 해결하기 위하여, 윈도우로 다시 부팅하고 다시 시작 버튼을 이용하세요. 그런 다음, 다시 시작될 때 fastboot로 부팅하고 안드로이드로 다시 돌아올 수 있도록 작업하세요 
 
 ##### 끝!
+## fastboot 또는 리커버리에서 장치가 인식되지 않음
+> 이 경우는 주로 (적절한) USB 드라이버가 설치되지 않았음을 의미합니다
+- [QUD.zip](https://github.com/n00b69/woa-betalm/releases/download/Qfil/QUD.zip)을 다윤로드하고 압축 해제하세요.
+- 장치 관리자를 열고 알 수 없는 장치나 **Android**, **ADB Interface**, 또는 **QUSB_BULK** 등 오류가 표시되는 장치를 찾습니다.
+- 이 장치를 마우스로 우클릭하고, "드라이버 업데이트" > "내 컴퓨터에서 드라이버 찾아보기"를 선택하고, 이전에 압축 해제했던 **QUD 폴더** 를 선택합니다.
+
+##### 끝!
 
 ## 윈도우에서 충전 작동 안 됨
 > [!WARNING]
@@ -26,31 +33,53 @@
 ##### 끝!
 
 
-## 안드로이드로 부팅할 수 있으나 부트로더로 부팅할 수 없음
+## 안드로이드로 또는 윈도우로 부팅할 수 있으나 부트로더로는 부팅할 수 없음
 
 ### 준비물:
+- [Termux](https://play.google.com/store/apps/details?id=com.termux)
+
 - [안드로이드 플랫폼 도구](https://developer.android.com/studio/releases/platform-tools)
 
 - [SHRP 리커버리](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/SHRP.img)
 
-> [!Important]
-> 이 작업은 오직 기기를 루팅했을 때만 가능합니다. 루팅하지 않았을 때의 복구 방법은 [MrAuthTool](https://mrauthtool.com/)을 이용하여 EDL로 기기에 플래시하는 방법뿐입니다.
+#### 안드로이드로 접근 가능할 때:
+- **Termux** 를 설치하고 루트 권한을 부여합니다.
+- 아래의 두 명령어를 사용하여 **tsu** 와 **parted** 를 설치합니다. 확인 요청 문구가 나타나면 `Y` 를 입력하세요:
+```cmd
+pkg install tsu
+```
+```cmd
+pkg install parted
+```
+- 아래의 명령어를 입력하여 parted를 시작합니다:
+```cmd
+parted /dev/block/sda
+```
+- ```print```를 입력하여 모든 파티션 목록을 출력합니다.
+- 이름이 16자 이상인 파티션을 찾습니다. (예시: "Basic Data Partition") 그런 다음 해당 파티션의 볼륨 숫자를 기억하세요.
+- ```name $ test``` 명령어로 이 파티션의 이름을 변경합니다. **$** 를 파티션 숫자로, **test** 를 파티션에 새로 지정할 이름으로 변경하세요.
+- ```quit```를 입력합니다.
 
-- 내부 저장소의 UEFI 폴더에서 **UEFI** 이미지를 제거하세요. 그런 다음, **SHRP recovery** 이미지를 이곳으로 이동하세요
-- WOA Helper 앱에서 `QUICKBOOT TO WINDOWS`를 선택하세요
-- 리커버리로 부팅되면, PC에 기기를 연결하고 아래의 명령어를 입력하세요
+##### 끝!
+
+
+#### 윈도우로 접근 가능할 때:
+- **C:\boot.img** 를 **C:\bootb.img** 로 이름을 변경합니다.
+- **SHRP 리커버리** 이미지를 다운로드하고, **boot.img** 로 이름을 변경하고, `C:\`로 해당 파일을 이동합니다.
+- **Switch to Android** 또는 **Android** 바로 가기를 실행하여 SHRP 리커버리를 플래시하고 부팅합니다.
+- 리커버리로 부팅되면, 기기를 PC에 연결하고 아래의 명령어를 실행합니다:
 ```cmd
 adb shell parted /dev/block/sda
 ```
-- ```print```를 입력하여 모든 파티션을 나열합니다
-- "Basic Data Partition"과 같이 길이가 16자를 초과하는 파티션을 찾고, 해당 파티션의 볼륨 숫자를 기억하세요
-- ```name $ test```를 입력하여 해당 파티션의 이름을 변경하세요. **$** 를 해당 파티션 숫자로, **test**를 파티션에 새로 적용할 이름으로 변경하세요
-- ```quit```를 입력하세요
-- ```adb reboot bootloader```를 입력하고, 화면에서 **FASTBOOT** 로고가 나타나면, ```fastboot flash boot_a boot.img\의\경로```를 입력하여 안드로이드 boot 이미지를 플래시하세요
-- 기기가 부팅되지 않거나, 리커버리로 다시 부팅되면 **boot_b** 에도 같은 작업을 해야할 수 있습니다
+- ```print```를 입력하여 모든 파티션 목록을 출력합니다.
+- 이름이 16자 이상인 파티션을 찾습니다. (예시: "Basic Data Partition") 그런 다음 해당 파티션의 볼륨 숫자를 기억하세요.
+- ```name $ test``` 명령어로 이 파티션의 이름을 변경합니다. **$** 를 파티션 숫자로, **test** 를 파티션에 새로 지정할 이름으로 변경하세요.
+- ```quit```를 입력합니다.
+- ```adb reboot bootloader``` 를 입력하고, 화면에 **FASTBOOT** 로고가 보이면, ```fastboot flash boot_a path\to\boot.img``` 를 입력하여 안드로이드 boot 이미지를 플래시합니다.
+- 기기가 부팅되지 않거나, 리커버리로 다시 부팅되는 경우 **boot_b** 에도 같은 작업을 진행해보세요.
 
-> [!Note]
-> UEFI 폴더의 리커버리 이미지를 UEFI 파일로 교체했는지 다시 한 번 확인하세요
+> [!important]
+> UEFI 이미지를 UEFI 폴더로 다시 이동했는지 확인하세요. 윈도우 방법을 이용했다면, boot.img를 C:\로 이동하세요
 
 ##### 끝!
 

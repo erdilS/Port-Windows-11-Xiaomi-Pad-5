@@ -3,55 +3,49 @@
 # Xiaomi Pad 5 에서 윈도우 구동
 
 ## 안드로이드 재루팅
-이 부분은 MIUI가 업데이트되어 루트가 제거된 경우를 위한 재루팅 과정을 가이드합니다.
+이 부분은 MIUI/Hyper OS가 업데이트되어 루트가 제거되는 경우를 위한 재루팅 과정을 설명합니다.
 
 ### 준비
 - [```리커버리 이미지```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
   
 - [```안드로이드 플랫폼 도구```](https://developer.android.com/studio/releases/platform-tools)
 
-### fastboot로 재부팅
+- [```Magisk.apk```](https://github.com/topjohnwu/Magisk/releases/latest)
+
+### **fastboot** 로 재부팅
 - 재부팅될 때 **`볼륨 아래`** 버튼을 누른 상태를 유지하여 NABU를 **fastboot**로 재부팅하세요
 
 - 케이블을 사용하여 PC/노트북에 기기를 연결합니다
 
-### PC에서 명령어로 리커버리 시작
+### 맞춤화된 리커버리로 부팅
+> fastboot 모드에서, 경로 `path\to\recovery.img`를 리커버리 이미지의 실제 경로로 변경하세요
 ```cmd
-fastboot boot <recovery.img>
+fastboot boot path\to\recovery.img
 ```
 
-### 기존 boot 이미지 백업
+### magisk 설치 
+- [`magisk.apk`](https://github.com/topjohnwu/Magisk/releases/latest) PC/노트북에서 다운로드합니다 
+> `path\to\magisk.apk`를 magisk.apk의 실제 경로로 변경하세요
 ```cmd
-adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
+adb push path\to\magisk.apk /tmp/magisk.zip && adb shell twrp install /tmp/magisk.zip
 ```
 
-### 안드로이드로 재부팅
+#### 안드로이드로 재부팅합니다
+> 부팅되지 않는다면, 순정 리커버리로 재부팅하여 공장 초기화를 진행해보세요
 ```cmd
 adb reboot
 ```
 
-### boot 패치
-- ```normal_boot.img``` 파일을 ```플랫폼 도구``` 폴더에서 태블릿으로 복사합니다
-- Magisk 앱을 열고 ```Install``` 버튼을 클릭합니다. ```Select and Patch a File``` 옵션을 선택하고 태블릿에 복사한 ```normal_boot.img``` 파일을 찾습니다. ```Let's Go``` 버튼을 클릭하고 패치 과정이 끝날 때까지 기다립니다.
-- ```magisk_patched....img``` 파일을 태블릿의 ```Downloads``` 폴더에서 컴퓨터의 ```플랫폼 도구``` 폴더로 복사합니다. 
-- fastboot로 재부팅합니다
-- 플랫폼 도구 폴더에서 명령 프롬프트를 엽니다 
+### 설정 마무리
+- 장치의 초기 설정을 마치고 [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)를 다운로드하고 설치합니다. (설치되어 있지 않은 경우)
+- **Magisk** 앱을 열고 화면에 표시되는 지시를 따르면 장치가 몇 초후 재부팅됩니다.
 
-### 패치된 boot 플래시
- > `<magisk_patched.img>`를 실제 ```magisk_patched.img```의 이름/경로로 교체하세요.
-```cmd
-fastboot flash boot <magisk_patched.img>
-```
 
 ### Windows의 C:\에 boot.img 업데이트
 - 안드로이드로 재부팅합니다
 - ```WOA Helper```를 엽니다
-- ```Windows```를 마운트합니다
-- 파일 탐색기를 열고 내부 저장소의 ```Windows``` 폴더로 이동합니다
-- ```boot.img```를 삭제합니다
-
-> [!NOTE]
-> **업데이트된 boot.img는 재부팅 후 C:\에 자동으로 생성됩니다**
+- ```BACKUP BOOT IMAGE``` > ```Windows``` 순서대로 클릭합니다
+- 끝
 
 ## 끝!
 
