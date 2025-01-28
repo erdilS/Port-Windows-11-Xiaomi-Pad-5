@@ -13,7 +13,7 @@
     
 - [```Drivers```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 
-- [```UEFI image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+- [```UEFI image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
 
 ### Boot back into the modded recovery
 > Replace `path\to\recovery.img` with the actual path of the recovery image
@@ -79,4 +79,4 @@ fastboot boot path\to\nabu-uefi.img
 ### Reboot into Android
 > Your device should reboot by itself after +- 10 minutes of waiting, after which you will be booted into Android, for the last step.
 
-## [Last step: Setting up dualboot](/guide/English/4-dualboot-en.md)
+## [Last step: Setting up dualboot](/guide/English/dualboot-selection-en.md)

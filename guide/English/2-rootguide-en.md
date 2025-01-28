@@ -4,51 +4,62 @@
 
 ## Rooting your tablet
 > [!NOTE]
-> **If you are already rooted just skip this step and go to the next page**
+> **If you are already rooted, skip this step and go to the next page**
 
 ### Prerequisites
 - ```Brain```
-  
-- [```Android boot backup```](/guide/English/1-partition-en.md#Make-a-backup-of-your-existing-boot-image) (which you backed up on the first guide page)
 
-### Patching your boot image
-- Copy the ```normal_boot.img``` file from the ```platform tools``` folder onto your tablet 
+- [```Magisk.apk```](https://github.com/topjohnwu/Magisk/releases/latest)
 
-- Download and install the [Magisk app](https://github.com/topjohnwu/Magisk/releases/latest) on the tablet
-  
--  Open the Magisk app and click the ```Install``` button. Select ```Select and Patch a File``` option and find the ```normal_boot.img``` file that you copied to the tablet. Click the ```Let's Go``` button and wait for the patching process to complete.
-  
-- Copy the ```magisk_patched....img``` file from the ```Downloads``` folder on the tablet to the ```platform tools``` folder on your computer. 
-
-### Reboot into fastboot
+### Flash magisk 
+- Download [`magisk.apk`](https://github.com/topjohnwu/Magisk/releases/latest) onto your PC/Laptop 
+> Replace `path\to\magisk.apk` with the actual path of the magisk.apk
 ```cmd
-adb reboot bootloader
+adb push path\to\magisk.apk /tmp/magisk.zip && adb shell twrp install /tmp/magisk.zip
 ```
 
-### Flash the patched boot image
-> Replace `magisk_patched.img` with the actual ```magisk_patched.img``` name/path.
+#### Reboot into Android
+> If it doesn't boot, reboot into stock recovery and perform a **factory reset** there
 ```cmd
-fastboot flash boot magisk_patched.img
+adb reboot
 ```
 
-### Reboot into Android
-```cmd
-fastboot reboot
-```
+### Finishing setup
+- Set up your device, then download and install [Magisk](https://github.com/topjohnwu/Magisk/releases/latest), if it isn't already installed.
+- Open the **Magisk** app and follow the instructions on the screen, and your device should reboot after a few seconds.
 
-#### Finishing setup
-- Open the **Magisk** app again.
-- Follow the instructions on the screen, and your device should reboot after a few seconds.
-
-### Copying the rooted boot image
-> After your device has booted back into Android
-- A superuser request for Shell might appear on your phone's screen. If it does, grant it access.
-- If the command fails, open **Magisk**, click on `Superuser`, find **Shell**, and grant it access.
+### Back up your rooted boot.img
+> Reboot into the modified recovery image, then run the below command
 ```cmd
-adb shell "su -c cp /dev/block/by-name/boot$(getprop ro.boot.slot_suffix) /sdcard/rooted_boot.img" & adb pull /sdcard/rooted_boot.img
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```
 
 ### [Next step: Installing Windows](/guide/English/3-install-en.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -24,7 +24,7 @@
 >
 > Если вам нужна помощь, свяжитесь с нами в [чате Telegram](https://t.me/nabuwoa)
 
-> [!Предупреждение]
+> [!NOTE]
 > Все ваши данные будут удалены! Сделайте резервную копию сейчас, если необходимо.
 >
 > **ПОЖАЛУЙСТА, НЕ ИСПОЛЬЗУЙТЕ НИКАКИЕ ВИДЕОРУКОВОДСТВА НА YOUTUBE ИЛИ ЛЮБОЙ ДРУГОЙ ПЛАТФОРМЕ!**
@@ -54,6 +54,11 @@ won-deployer -h
 ```
 > [!NOTE]
 > Если вы правильно установили WoN Deployer, он предоставит вам информацию о приложении. Если появится ошибка, перезапустите установку.
+
+## 2. Как установить/переустановить Windows на Nabu 
+
+<a href="won-deployer-install-ru.md"><img src="https://github.com/ArKT-7/won-deployer/blob/main/assets/Won-nabu-bg.png" width="280"></a>
+
 ### Перезагрузитесь в режим fastboot
 - Загрузите планшет в режим **fastboot**, удерживая кнопки **`уменьшения громкости`** + **`питания`** или запустив `adb reboot bootloader` во время загрузки в Android.
 
@@ -140,3 +145,9 @@ won-deployer --debug
 - Нажмите **QUICKBOOT TO WINDOWS** в приложении или используйте новый переключатель в панели быстрых настроек.
 
 ## Готово!
+
+### Визуальный гайд
+
+- Вот наглядный способ установки и проверки правильности установки Won-Deployer:
+
+<img align="left" src="https://github.com/ArKT-7/won-deployer/blob/main/assets/tool-insatllation1.gif" width="720" alt="Installation Guide">

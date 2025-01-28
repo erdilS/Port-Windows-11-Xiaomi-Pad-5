@@ -10,6 +10,8 @@ This section will guide you through the re-rooting process for when MIUI/Hyper O
   
 - [```Android Platform Tools```](https://developer.android.com/studio/releases/platform-tools)
 
+- [```Magisk.apk```](https://github.com/topjohnwu/Magisk/releases/latest)
+  
 ### Reboot to **fastboot** 
 - Boot your NABU into **fastboot** by holding down the **`volume down`** button during reboot
 
@@ -21,38 +23,29 @@ This section will guide you through the re-rooting process for when MIUI/Hyper O
 fastboot boot path\to\recovery.img
 ```
 
-### Make a backup of your existing boot image
+### Flash magisk 
+- Download [`magisk.apk`](https://github.com/topjohnwu/Magisk/releases/latest) onto your PC/Laptop 
+> Replace `path\to\magisk.apk` with the actual path of the magisk.apk
 ```cmd
-adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
+adb push path\to\magisk.apk /tmp/magisk.zip && adb shell twrp install /tmp/magisk.zip
 ```
 
-### Reboot back to Android
+#### Reboot into Android
+> If it doesn't boot, reboot manually by press and hold power button
 ```cmd
 adb reboot
 ```
 
-### Patch boot 
-- Copy the ```normal_boot.img``` file from the ```platform tools``` folder onto the tablet 
-- Open the Magisk app and click the ```Install``` button. Select ```Select and Patch a File``` option and find the ```normal_boot.img``` file that you copied to the tablet. Click the ```Let's Go``` button and wait for the patching process to complete.
-- Copy the ```magisk_patched....img``` file from the ```Downloads``` folder on the tablet to the ```platform tools``` folder on your computer. 
-- Reboot to fastboot
-- Open command prompt in the platform tools folder 
+### Finishing setup
+- Set up your device, then download and install [Magisk](https://github.com/topjohnwu/Magisk/releases/latest), if it isn't already installed.
+- Open the **Magisk** app and follow the instructions on the screen, and your device should reboot after a few seconds.
 
-### Flash patched boot 
- > Replace `path\to\magisk_patched.img` with the actual ```magisk_patched.img``` name/path.
-```cmd
-fastboot flash boot path\to\magisk_patched.img
-```
 
 ### Update boot.img in Windows' C:\
 - Reboot back to Android
 - Open ```WOA Helper```
-- Mount ```Windows```
-- Open any file explorer and go to the ```Windows```  folder in your internal storage
-- Delete ```boot.img```
-
-> [!NOTE]
-> **The updated boot.img will automatically be generated in C:\ on the next reboot**
+- Click ```BACKUP BOOT IMAGE``` > ```Windows```
+- Done
 
 ## Finished!
 

@@ -1,25 +1,40 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-# Windows на Xiaomi Pad 5
+# Запуск Windows на Xiaomi Pad 5
 
-### Примечания:
+### Заметки:
 > [!NOTE]
-> Вы можете использовать любую версию Android для двойной загрузки: MIUI, HyperOS или любую другую прошивку.
-
-> Если вам нужна помощь, свяжитесь с нами в [чате Telegram](https://t.me/nabuwoa)
-
+> Если вам нужна какая-либо помощь, пожалуйста, свяжитесь с нами в [чате Telegram](https://t.me/nabuwoa)
+> 
+> Вы можете использовать любую версию Android - MIUI / HyperOS или любой пользовательский ROM
 
 > [!Warning]
-> Все ваши данные будут удалены! Если вам это необходимо, сделайте резервную копию прямо сейчас.
-
+> Все ваши данные будут удалены! Сделайте резервную копию если нужно
 
 ## Существует три способа установки Windows:
-| **Скоро: установка Windows без ПК (wininstaller)** | **Установка Windows с помощью автоматизированных скриптов (WoN-deployer)** | **Установка Windows вручную** |
+
+| **Установите Windows вручную самостоятельно**                                                                       | **Установка Windows без ПК (wininstaller)**                                                 | **Установка Windows используя автоматические скрипты (WoN-deployer)**                                                                          |
 |----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| <a href="nopc-en.md"><img src="Link" width="280"></a> | <a href="won-deployer-install-ru.md"><img src="Link" width="280"></a> | <a href="1-partition-en.md"><img src="Link" width="200"></a> |
-| - Легко и быстро | - Легко и быстро | - Сложнее и дольше |
-| - Не нужен ПК | - Требуется ПК | - Требуется ПК |
-| - Ограничения на выбор версии ОС | - Широкий ассортимент версий ОС, языков, редакций и вариантов распределения хранилища | - Множество вариантов выбора ОС, языка, редакции и способа распределения хранилища. |
-| [**`Скоро!`**](selection.md) | [**```Руководство по установке с помощью WoN-deployer```**](won-deployer-install-ru.md) | [**`Руководство по установке`**](1-partition-ru.md) |
+| <p align="center"><a href="1-partition-en.md"><img src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="280"></a></p> | <p align="center"><a href="https://github.com/Kumar-Jy/Windows-in-NABU-Without-PC"><img src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="280"></a></p> | <p align="center"><a href="won-deployer-install-en.md"><img src="https://github.com/ArKT-7/won-deployer/blob/main/assets/Won-nabu-bg.png" width="280"></a></p> |
+| - Сложнее и дольше | - Легко и быстро | - Легко и быстро                         |  |                    
+| - Нужен ПК | - ПК не нужен | - Нужен ПК
+| - Простота устранения неполадок в случае возникновения ошибок | - Трудно поддается устранению в случае возникновения ошибок | - Трудно поддается устранению в случае возникновения ошибок
+| [**`Руководство по установке`**](1-partition-ru.md) |[**`WinInstaller гайд`**](https://github.com/Kumar-Jy/Windows-in-NABU-Without-PC) | [**```WoN-Deployer гайд```**](won-deployer-install-ru.md) | 
 
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

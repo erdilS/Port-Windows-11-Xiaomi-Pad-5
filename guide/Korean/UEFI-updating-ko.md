@@ -13,7 +13,7 @@
 ### 준비물
 - [```WOA Helper 앱```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
   
-- [```최신 버전의 UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+- [```최신 버전의 UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
 
 ## 구버전 UEFI 를 새로운 UEFI로 교체
 > 듀얼부팅 설정을 하지 않았다면, [듀얼부팅 가이드](/guide/Korean/dualboot-ko.md)를 참조하여 WOA Helper 앱을 설정합니다

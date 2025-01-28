@@ -13,7 +13,7 @@ Sei lá, algumas pessoas que pediram
 ### Pré requesitos
 - [```O app WOA Helper```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
   
-- [```Imagem UEFI mais recente```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+- [```Imagem UEFI mais recente```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
 
 ## Substitua a UEFI antiga pela nova
 > Se você ainda não cnfigurou o dualboot, siga o [guia de dualboot](/guide/Portuguese/dualboot-pt.md) para configurar corretamente o app WOA Helper

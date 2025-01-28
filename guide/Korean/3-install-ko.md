@@ -15,6 +15,8 @@
     
 - [```드라이버```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 
+- [```UEFI image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
+
 ### 윈도우 설치 시작을 위해 다시 리커버리로 부팅
 > 경로 **path\to**를 리커버리 이미지의 실제 경로로 변경하세요
 ```cmd

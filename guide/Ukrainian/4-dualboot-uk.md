@@ -7,7 +7,7 @@
 ### Передумови
 - [```Magisk```](https://github.com/topjohnwu/Magisk/releases/latest)
 
-- [```Образ UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+- [```Образ UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
 
 - [```Додаток WoA Helper```](https://github.com/n00b69/woa-helper/releases/tag/APK)
 

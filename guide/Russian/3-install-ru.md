@@ -1,81 +1,100 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-# Windows на Xiaomi Pad 5
->[!WARNING]
-> **ПОЖАЛУЙСТА, НЕ ПОЛЬЗУЙТЕСЬ УСТАРЕВШИМИ ВИДЕОИНСТРУКЦИЯМИ, КОТОРЫЕ МОЖНО НАЙТИ НА YOUTUBE ИЛИ ДРУГИХ ПЛАТФОРМАХ! ЭТИ ВИДЕО УЖЕ НЕАКТУАЛЬНЫ, И ИХ ИСПОЛЬЗОВАНИЕ МОЖЕТ ПРИВЕСТИ К ПОЛОМКЕ ВАШЕГО УСТРОЙСТВА. ЕСЛИ ВАМ ДЕЙСТВИТЕЛЬНО НЕОБХОДИМ ВИДЕОГАЙД, ВОСПОЛЬЗУЙТЕСЬ ЭТИМ [НОВЫЙ ВИДЕОГАЙД](https://www.youtube.com/watch?v=8Fl5AtHNH7M) ОТ [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
+# Запуск Windows на Xiaomi Pad 5
 
 ## Установка
 
-### Требования 
-- `Мозг`
+### Предварительные условия
+- ```Мозг```
 
-- [```Скрипт DriveLetterAssigner```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner) (Отключите антивирус на время, система считает файл подозрительным)
-
-- [```ARM64 Windows esd```](https://arkt-7.github.io/woawin/)
-
-- [```Драйверы```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
+- [```DriveLetterAssigner```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)
   
-### Загрузитесь в модифицированное рекавери чтобы начать установку Windows
-> Замените **путь\к\recovery.img** на фактический путь к образу рекавери
+- [```ARM Windows ESD```](https://arkt-7.github.io/woawin/)
+    
+- [```Драйвера```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
+
+- [```образ UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
+
+### Опять загрузитесь в модифицированное recovery
+> Замените `путь\к\recovery.img` на актуальный путь к **recovery.img**
 ```cmd
 fastboot boot путь\к\recovery.img
 ```
 
-#### Запустите msc
-> Если скрипт попросит запустить его снова, то сделайте это
+### Выполните msc
+> Если он попросит вас запустить его еще раз, сделайте это
 ```cmd
 adb shell msc
 ```
-### Привяжите буквы к разделам WINNABU и ESPNABU 
-> Запустите скрипт **DriveLetterAssigner** и нажмите **`Y`** на клавиатуре, чтобы автоматически назначить буквы **X** и **Y** для **WINNABU** и **ESPNABU**
 
-
+### Назначьте буквы WINNABU и ESPNABU
+> Откройте скрипт **DriveLetterAssigner** и нажмите букву `Y` на вашей клавиатуре для автоматического присвоения букв **X** и **Y** для **WINNABU** и **ESPNABU**
 ### Установка Windows
 > [!Important]
-> Убедитесь, что вы используете **`CMD/Powershell`** от имени **администратора**
+> Убедитесь, что вы используете CMD/Powershell от **имени администратора**
 
-> Замените `<путь\к\install.esd>` на фактический путь install.esd (файл образа Windows который вы скачивали ранее) (он также может называться install.wim)
+> [!Important]
+> По соображениям производительности рекомендуется использовать Windows 11 24H2 (сборки, начинающиеся с 261XX, например 26100.2454)
+
+> Замените `путь\к\install.esd` на фактический путь к **install.esd** (он также может называться install.wim или 22631.2861.XXXXXXX.esd)
 
 ```cmd
-dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
+dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 ```
 
-> Если вы получили `Error 87`, проверьте индекс вашего образа с помощью **`dism /get-imageinfo /ImageFile:<path\to\install.esd>`**, затем замените `index:6` номером индекса Windows 11 Pro в вашем образе
+> Если вы получаете `Error 87`, проверьте индекс вашего образа с помощью `dism / get -imageinfo /ImageFile: path \to \install .esd`, затем замените `index: 6` фактическим номером индекса **Windows 11 Pro** в вашем образе.
 
 ### Копирование вашего boot.img в Windows
-- В проводнике Windows перетащите файл **rooted_boot.img** из папки **platform-tools** на диск **WINNABU**. Затем переименуйте его в **boot.img**.
+- Перетащите файл **root_boot.img** из папки **platform-tools** на диск **WINNABU** в проводнике Windows, затем переименуйте его в **boot.img**.
 
 ### Установка драйверов
-- Распакуйте архив с драйверами, затем откройте файл `OfflineUpdater.cmd` (если появляется ошибка, запустите вместо этого `OfflineUpdaterFix.cmd`).
+- Распакуйте архив драйверов, затем откройте файл `OfflineUpdater.cmd` (если появляется ошибка, запустите вместо этого `OfflineUpdaterFix.cmd `)
 
-> Если он попросит вас ввести букву диска, введите букву диска **WINNABU** (которая должна быть **X**), затем нажмите enter
+> Если он попросит вас ввести букву, введите букву диска **WINNABU** (которая должна быть **X**), затем нажмите enter
 
-#### Создайте файлы загрузчика Windows для EFI
-> Если при копировании загрузочных файлов возникает ошибка, снова запустите **DriveLetterAssigner**, затем выполните следующую команду ещё раз, заменив **Y** на **U**
+#### Создание файлов загрузчика Windows
+> Если при копировании загрузочных файлов возникает ошибка, запустите **DriveLetterAssigner** еще раз, затем снова запустите следующую команду, заменив **Y** на **U**
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
 
 #### Удалите букву диска для ESPNABU
-> Если это не сработает, просто перейдите к следующей команде. Этот фантомный диск исчезнет при следующей перезагрузке компьютера.
+> Если это не сработает, проигнорируйте это и перейдите к следующей команде. Этот фантомный диск исчезнет при следующей перезагрузке компьютера.
 ```cmd
 mountvol y: /d
 ```
 
-### Перезагрузитесь в fastboot
+### Перезагрузка в fastboot
 ```cmd
 adb reboot bootloader
 ```
 
 #### Загрузка в UEFI
-> Замените `путь\к\nabu-uefi.img` фактическим путём к образу UEFI
+> Замените `путь\к\nabu-uefi.img` на актуальный путь к образу UEFI
 ```cmd
-fastboot boot путь\к\nabu-uefi.img
+fastboot boot path\to\nabu-uefi.img
 ```
 
 ### Перезагрузка в Android
-После примерно 10 минут ожидания ваше устройство должно автоматически перезагрузиться. После перезагрузки вы сможете войти в систему Android и завершить последний шаг.
+> Ваше устройство должно перезагрузиться само по себе после +- 10 минут, после чего вы загрузитесь в Android для последнего шага.
+
+## [Последний шаг: Настройка двойной загрузка](/guide/Russian/4-dualboot-ru.md)
 
 
-## [Последний шаг: Настройка двойной загрузки](4-dualboot-ru.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

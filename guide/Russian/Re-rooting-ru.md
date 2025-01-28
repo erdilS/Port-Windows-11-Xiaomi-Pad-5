@@ -10,6 +10,8 @@
   
 - [```SDK Platform Tools```](https://developer.android.com/studio/releases/platform-tools)
 
+- [```Magisk.apk```](https://github.com/topjohnwu/Magisk/releases/latest)
+  
 ### Перезагрузите планшет в **fastboot**
 - Загрузите планшет в **fastboot**, удерживая кнопку **громкости вниз** во время перезагрузки
 
@@ -21,28 +23,22 @@
 fastboot boot путь\к\recovery.img
 ```
 
-### Создайте резервную копию существующего загрузочного образа
+### Прошивка magisk 
+- Скачайте [`magisk.apk`](https://github.com/topjohnwu/Magisk/releases/latest) на ваш ПК/Ноутбук
+> Замените `путь\к\magisk.apk` на актуальный путь к magisk.apk
 ```cmd
-adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
+adb push путь\к\magisk.apk /tmp/magisk.zip && adb shell twrp install /tmp/magisk.zip
 ```
 
-### Перезагрузитесь обратно в Android
+#### Перезагрузка в Android
+> Если он не загружается, перезагрузите его вручную, нажав и удерживая кнопку питания.
 ```cmd
 adb reboot
 ```
 
-### Пропатчите boot 
-- Скопируйте файл ```normal_boot.img``` из папки ```platform tools``` на ваш паншет 
-- Откройте приложение Magisk и нажмите кнопку ```Установка```. Выберите параметр ```Пропатчить boot-образ``` и найдите файл ```normal_boot.img``` который вы скопировали на планшет. Нажмите кнопку ```Установить``` и дождитесь завершения процесса патчинга.
-- Скопируйте файл ```magisk_patched....img``` из папки ```Downloads``` на вашем планшете в папку ```platform tools``` на вашем компьютере. 
-- Перезагрузитсь в fastboot
-- Откройте командную строку в папке platform tools 
-
-### Прошейте пропатченый boot  
- > Замените `путь\к\magisk_patched.img` существующим путём/именем ```magisk_patched.img```
-```cmd
-fastboot flash boot путь\к\magisk_patched.img
-```
+### Завершение настройки
+- Настройте своё устройство, затем скачайте и установите [Magisk](https://github.com/topjohnwu/Magisk/releases/latest), если он ещё не установлен.
+- Откройте приложение **Magisk** и следуйте инструкциям на экране. Через несколько секунд ваше устройство перезагрузится.
 
 ### Обновите boot.img в Windows C:\
 - Перезагрузитесь обратно в Android 
