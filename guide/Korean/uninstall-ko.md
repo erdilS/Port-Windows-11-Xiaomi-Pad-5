@@ -10,12 +10,12 @@
 > [!Warning]
 > **모든 데이터가 삭제됩니다! 필요한 경우 백업하세요.**
 
-#### Android로 전환합니다
-> 마지막으로 부팅한 운영체제가 Windows인 경우, 제거 과정을 진행하기 전에 먼저 Android로 전환하세요
+### 안드로이드로 전환
+> 마지막으로 부팅한 운영체제가 Windows인 경우, 제거 과정을 진행하기 전에 먼저 안드로이드로 전환하세요
 
 #### fastboot 모드로 재부팅합니다
-- USB 케이블이 연결된 상태에서 재부팅할 때 **`볼륨 아래`** 버튼을 누른 상태를 유지하여 NABU를 **fastboot**로 재부팅하세요
-- 또는, USB 디버깅이 활성화했다면, Android로 부팅되어 있는 상태에서 아래의 명령어를 입력하세요.
+- USB 케이블이 연결된 상태로 재부팅될 때 **`볼륨 아래`** 버튼을 누른 상태를 유지하여 NABU를 **fastboot 모드**로 부팅하세요
+- 또는, USB 디버깅이 활성화되어 있다면, 안드로이드에 부팅되어 있는 동안 아래의 명령어를 사용해도 됩니다.
 ```cmd
 adb reboot bootloader
 ```
@@ -38,7 +38,7 @@ adb reboot bootloader
 fastboot boot path\to\recovery.img
 ```
 
-#### 파티션 레이아웃을 복원합니다
+### 파티션 레이아웃을 복원합니다
 > [!Warning]
 > 안드로이드 파일이 모두 초기화됩니다. 필요한 경우 미리 백업하세요.
 
@@ -46,7 +46,7 @@ fastboot boot path\to\recovery.img
 adb shell restore
 ```
 
-### 안드로이드로 재부팅
+#### 안드로이드로 재부팅합니다
 ```cmd
 adb reboot 
 ```
@@ -58,7 +58,7 @@ adb reboot
 <details>
   <summary><strong>방법 2 - fastboot에서 제거</strong></summary>
 
-### 준비물물
+### 준비물
 - [```안드로이드 플랫폼 도구```](https://developer.android.com/studio/releases/platform-tools)
 
 - [```gpt_both0.bin```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/gpt_both0.bin) 
@@ -69,13 +69,13 @@ adb reboot
 fastboot flash partition:0 path\to\gpt_both0.bin
 ```
 
-#### userdata 초기화
+#### userdata를 초기화합니다
 > 이를 통하여 무한 부팅을 방지하고 파일 시스템 크기를 복원합니다
 ```cmd
 fastboot -w
 ```
 
-#### Android로 재부팅
+#### 안드로이드로 재부팅합니다
 ```cmd
 fastboot reboot
 ```
