@@ -53,22 +53,22 @@ fastboot oem edl
 - `추출된` [`Nabu의 fastboot 롬`](http://xmfirmwareupdater.com/miui/nabu/) 
 
 ### 필요한 파일 준비
-- Unzip the **fastboot ROM** for your Xiaomi Pad 5.
-- Unzip the **MiflashPatched.zip** file you downloaded earlier.
-- Copy the **firehose (.elf)** file from the **MiflashPatched.zip** folder into the **images** folder inside your extracted **fastboot ROM**, overwriting the existing file.
+- Xiaomi Pad 5의 **fastboot 롬** 을 압축 해제합니다.
+- 이전에 다운로드했던 **MiflashPatched.zip** 파일을 압축 해제합니다.
+- **MiflashPatched.zip** 폴더에서 **firehose (.elf)** 파일을 압축 해제했던 **fastboot 롬** 의 **images** 폴더로 복사합니다. 파일이 이미 존재하면 덮어 씁니다.
 
-#### Open MiFlash Tool 
-- Navigate to the **MiFlash** folder inside the extracted **MiflashPatched.zip**.
-- Launch **XiaoMiFlash.exe** as an administrator.
+#### MiFlash 도구를 엽니다 
+- 압축 해제했던 **MiflashPatched.zip** 내부의 **MiFlash** 폴더로 이동합니다.
+- **XiaoMiFlash.exe** 를 관리자 권한으로 실행합니다.
 
-### Flashing the ROM
-- Click the **Select** button in **MiFlash** and choose the folder where you extracted your **fastboot ROM** (the one where you replaced the **firehose.elf** file).
-- In the **MiFlash** tool, ensure the **"Clean All"** option is checked.
-- Click **Refresh** in **MiFlash** to verify the connection to your device.
-- After confirming your device is detected and the **"Clean All"** option is selected, click **Flash** to start the flashing process.
+### 롬 플래시
+- **MiFlash** 에서 **Select** 버튼을 클릭하고 **fastboot 롬** 을 압축 해제했던 폴더 (**firehose.elf** 파일을 교체했던 폴더)를 선택합니다.
+- **MiFlash** 도구에서, **"Clean All"** 옵션이 선택되었는지 확인합니다.
+- **MiFlash** 에서 **Refresh** 를 클릭하여 기기의 연결 상태를 확인합니다.
+- 기기가 연결되었고 **"Clean All"** 옵션이 선택되었는지 확인했다면, **Flash** 를 클릭하여 플래시 과정을 시작합니다.
 
 > [!Important]
-> If you see any error that doesn't go away after 2 minutes, reboot the device into **EDL mode** again, then click **Refresh** and **Flash** again to retry.
+> 2분 이상 동안 사라지지 않는 오류가 표시되는 경우, **EDL mode** 로 다시 재부팅하고, **Refresh** 및 **Flash** 를 클릭하여 다시 시도하세요.
 
 #### 장치를 재부팅합니다
 - 플래시가 완료되면, **Reboot** 버튼을 클릭하여 장치를 재부팅합니다.
@@ -96,12 +96,12 @@ fastboot oem edl
 - 텔레그램에서 **@hxruofficial** 님께 연락하여 **5 크레딧** (대략 **$3**)을 구매합니다. 장치를 복구하려면 이 크레딧이 필요합니다.
 
 ### 장치 복구
-- Open **XiaoMiFlash.exe** and grant it administrator access.
-- Download the stock fastboot rom for your device (which should have a .tgz extension) and open it. Inside there should be a .tar file. Extract the contents of this .tar file into any folder).
-- Click the **select** button in **XiaoMiFlash** and select this folder.
-- Press **flash**.
-- If you get a `write time out` error, hold the **power** + **volume down** button for +- 30 seconds to reboot EDL. After this press the **flash** button again.
-- After a few seconds a login popup should show up. Enter your HRXU account details here and press **Request Auth Flashing**.
+- **XiaoMiFlash.exe** 를 열고 관리자 권한을 부여합니다.
+- 기기의 순정 fastboot 롬을 다운로드하고 엽니다. (.tgz 확장의 파일입니다) 내부에 .tar 파일이 있을 것입니다. 이 .tar 파일을 아무 폴더에 압축 해제하세요.
+- **XiaoMiFlash** 에서 **select** 버튼을 클릭하고 압축 해제한 폴더를 선택합니다.
+- **flash** 를 선택합니다.
+- `write time out` 오류가 발생한 경우, **전원** + **볼륨 아래** 버튼을 30초 정도 누른 상태를 유지하여 EDL로 재부팅하세요. 이후 **flash** 버튼을 다시 선택하세요.
+- 몇 초 후 로그인 팝업이 나타날 것입니다. HRXU 계정 정보를 이곳에 작성하고 **Request Auth Flashing** 를 선택하세요.
 
 #### 장치를 재부팅합니다
 - **flash done** 이 표시되면, **전원** 을 14초 정도 누른 상태를 유지하여 장치를 재부팅합니다.
