@@ -33,7 +33,7 @@
 ##### 끝!
 
 
-## 안드로이드로 부팅할 수 있으나 부트로더로 부팅할 수 없음
+## 안드로이드로 또는 윈도우로 부팅할 수 있으나 부트로더로는 부팅할 수 없음
 
 ### 준비물:
 - [Termux](https://play.google.com/store/apps/details?id=com.termux)
@@ -42,46 +42,46 @@
 
 - [SHRP 리커버리](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/SHRP.img)
 
-#### If you have access to Android:
-- Install **Termux** and grant it root access.
-- Install **tsu** and **parted** using these two commands, press `Y` if it asks you to confirm:
+#### 안드로이드로 접근 가능할 때:
+- **Termux** 를 설치하고 루트 권한을 부여합니다.
+- 아래의 두 명령어를 사용하여 **tsu** 와 **parted** 를 설치합니다. 확인 요청 문구가 나타나면 `Y` 를 입력하세요:
 ```cmd
 pkg install tsu
 ```
 ```cmd
 pkg install parted
 ```
-- Run the below command to open parted:
+- 아래의 명령어를 입력하여 parted를 시작합니다:
 ```cmd
 parted /dev/block/sda
 ```
-- Run ```print``` to list all partitions.
-- Look for partitions that are more than 16 characters long, for example "Basic Data Partition" and note their volume number.
-- Rename this partition with ```name $ test```, replacing **$** with the partition number, and replacing **test** with the name you want the partition to have.
-- Run ```quit```.
+- ```print```를 입력하여 모든 파티션 목록을 출력합니다.
+- 이름이 16자 이상인 파티션을 찾습니다. (예시: "Basic Data Partition") 그런 다음 해당 파티션의 볼륨 숫자를 기억하세요.
+- ```name $ test``` 명령어로 이 파티션의 이름을 변경합니다. **$** 를 파티션 숫자로, **test** 를 파티션에 새로 지정할 이름으로 변경하세요.
+- ```quit```를 입력합니다.
 
-##### Done!
+##### 끝!
 
 
-#### If you have access to Windows:
-- Rename **C:\boot.img** to **C:\bootb.img**.
-- Download the **SHRP recovery** image, rename it to **boot.img**, and place it in `C:\`.
-- Run the **Switch to Android** or **Android** shortcut to flash and boot into SHRP recovery.
-- Once booted into the recovery, connect your device to your PC and run:
+#### 윈도우로 접근 가능할 때:
+- **C:\boot.img** 를 **C:\bootb.img** 로 이름을 변경합니다.
+- **SHRP 리커버리** 이미지를 다운로드하고, **boot.img** 로 이름을 변경하고, `C:\`로 해당 파일을 이동합니다.
+- **Switch to Android** 또는 **Android** 바로 가기를 실행하여 SHRP 리커버리를 플래시하고 부팅합니다.
+- 리커버리로 부팅되면, 기기를 PC에 연결하고 아래의 명령어를 실행합니다:
 ```cmd
 adb shell parted /dev/block/sda
 ```
-- Run ```print``` to list all partitions.
-- Look for partitions that are more than 16 characters long, for example "Basic Data Partition" and note their volume number.
-- Rename this partition with ```name $ test```, replacing **$** with the partition number, and replacing **test** with the name you want the partition to have.
-- Run ```quit```.
-- Run ```adb reboot bootloader```, and when you see the **FASTBOOT** logo on your screen, flash your Android boot image with ```fastboot flash boot_a path\to\boot.img```.
-- You may have to do the same for **boot_b** if your device does not boot, or if it boots back to the recovery.
+- ```print```를 입력하여 모든 파티션 목록을 출력합니다.
+- 이름이 16자 이상인 파티션을 찾습니다. (예시: "Basic Data Partition") 그런 다음 해당 파티션의 볼륨 숫자를 기억하세요.
+- ```name $ test``` 명령어로 이 파티션의 이름을 변경합니다. **$** 를 파티션 숫자로, **test** 를 파티션에 새로 지정할 이름으로 변경하세요.
+- ```quit```를 입력합니다.
+- ```adb reboot bootloader``` 를 입력하고, 화면에 **FASTBOOT** 로고가 보이면, ```fastboot flash boot_a path\to\boot.img``` 를 입력하여 안드로이드 boot 이미지를 플래시합니다.
+- 기기가 부팅되지 않거나, 리커버리로 다시 부팅되는 경우 **boot_b** 에도 같은 작업을 진행해보세요.
 
 > [!important]
-> Make sure to put the UEFI image back into the UEFI folder, or if you used the Windows method, the boot.img in C:\
+> UEFI 이미지를 UEFI 폴더로 다시 이동했는지 확인하세요. 윈도우 방법을 이용했다면, boot.img를 C:\로 이동하세요
 
-##### Done!
+##### 끝!
 
 ## 부팅 시 fsa4480.sys 블루스크린
 - 드라이버 폴더를 엽니다
