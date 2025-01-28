@@ -1,25 +1,25 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-# Running Windows on the Xiaomi Pad 5
+# Xiaomi Pad 5 에서 윈도우 구동
 
-## Updating Drivers
+## 드라이버 업데이트
 
-### Prerequisites
-- [```Drivers```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
+### 준비물
+- [```드라이버```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 
-- [```Latest UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
+- [```촤신 버전의 UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
 
-### Boot into Windows
-> Flash the UEFI image in fastboot or use the WOA Helper app
+### 윈도우로 부팅
+> fastboot에서 UEFI 이미지를 플래시하거나 WOA Helper 앱을 이용하세요
 
-### Installing Drivers
-> Unpack the driver archive on your nabu in Windows, then open the `OnlineUpdater.cmd` file
+### 드라이버 설치
+> 패드의 윈도우에서 드라이버 압축 파일을 압축 해제하고, `OnlineUpdater.cmd` 파일을 여세요
 
-> Follow any instructions provided on the screen
+> 화면의 지시를 따르세요
 
-> If you see any errors after installing **App Packages**, ignore them. Reboot manually after it says **Done!**
+> **App Packages**를 설치한 후 오류 문구가 출력되어도, 해당 오류를 무시해도 됩니다. **Done!** 문구가 출력되면 수동으로 재부팅하세요
 
-## Finished!
+## 끝!
 
 
 
