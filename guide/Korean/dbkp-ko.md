@@ -9,9 +9,9 @@
 - [WOA Helper 앱](https://github.com/n00b69/woa-helper/releases/tag/APK)
 
 ### 설정 - 안드로이드
-- Download and install the **WOA Helper** app, then open it and grant it root access.
-- Open **WOA Toolbox**, then press the **DUALBOOT KERNEL PATCHER** button.
-- Wait for it to finish, then reboot your device.
+- **WOA Helper** 앱을 다운로드 및 설치하시고, 앱을 열고 루트 권한을 허용하세요.
+- **WOA 도구** 를 열고, then press the **듀얼부팅 커널 패치** 버튼을 클릭하세요.
+- 끝날 떄까지 기다리시고, 장치를 재부팅하세요.
 
 #### 윈도우로 부팅하려면
 - **마그네틱 케이스** 를 닫고 장치를 재부팅합니다. (또는 전원을 켭니다)
