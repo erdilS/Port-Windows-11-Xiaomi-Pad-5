@@ -5,21 +5,65 @@
 ## 드라이버 업데이트
 
 ### 준비물
-- [```드라이버```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
+- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [```촤신 버전의 UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
+- [맞춤화된 리커버리 이미지](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-### 윈도우로 부팅
-> fastboot에서 UEFI 이미지를 플래시하거나 WOA Helper 앱을 이용하세요
+- [UEFI 이미지](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
+
+- [드라이버](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
+
+### Boot back into the modded recovery
+> Replace `path\to\recovery.img` with the actual path of the recovery image
+```cmd
+fastboot boot path\to\recovery.img
+```
+
+#### Execute the msc script
+> If it asks you to run it once again, do so
+```cmd
+adb shell msc
+```
+
+### Diskpart
+```cmd
+diskpart
+```
+
+#### Select the Windows volume of the tablet
+> Use `list volume` to find it, replace "$" with the actual number of **WINNABU**
+```diskpart
+select volume $
+```
+
+#### Assign the letter X
+```diskpart
+assign letter x
+```
+
+#### Exit diskpart
+```diskpart
+exit
+```
 
 ### 드라이버 설치
-> 패드의 윈도우에서 드라이버 압축 파일을 압축 해제하고, `OnlineUpdater.cmd` 파일을 여세요
+> [!Note]
+> This process will take +- 20 minutes. Do not worry, this is normal.
 
-> 화면의 지시를 따르세요
+- Unpack the driver archive, then open the `OfflineUpdater.cmd` file (if an error shows up, run `OfflineUpdaterFix.cmd` instead)
 
-> **App Packages**를 설치한 후 오류 문구가 출력되어도, 해당 오류를 무시해도 됩니다. **Done!** 문구가 출력되면 수동으로 재부팅하세요
+> If it asks you to enter a letter, enter the drive letter of **WINNABU** (which should be **X**), then press enter
+
+#### Reboot your device
+> Make sure to also change the UEFI image in Android, otherwise you may face a "blue screen of death" (BSoD) when booting Windows later.
+```cmd
+adb reboot
+```
 
 ## 끝!
+
+
+
 
 
 
