@@ -18,7 +18,7 @@
 adb push path\to\magisk.apk /tmp/magisk.zip && adb shell twrp install /tmp/magisk.zip
 ```
 
-#### Android로 재부팅합니다
+#### 안드로이드로 재부팅합니다
 > 부팅되지 않는다면, 순정 리커버리로 재부팅하여 공장 초기화를 진행해보세요
 ```cmd
 adb reboot
