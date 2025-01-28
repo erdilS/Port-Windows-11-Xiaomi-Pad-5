@@ -108,12 +108,12 @@ fastboot oem edl
 
 </details>
 
-### Reflashing your rom with MiFlash
+### MiFlash로 롬 재설치
 > [!Warning]
-> These tools only flash the rom to one slot. If your device ever switches slots, it'll boot back into EDL again.
-- Reboot to fastboot mode.
-- Flash the fastboot rom a second time using **MiFlash** or with the **flash_all.bat** file in the rom.
-- Reboot after it finishes flashing.
+> 이러한 도구들은 한 쪽 슬롯에만 롬을 설치합니다. 장치가 부팅 슬롯을 변경할 경우 다시 EDL로 부팅될 것입니다.
+- fastboot 모드로 재부팅합니다.
+- **MiFlash**를 사용하거나 롬에 있는 **flash_all.bat** 파일을 사용하여 fastboot 롬을 두 번 설치합니다.
+- 플래시가 끝나면 장치를 재부팅합니다.
 
 #### 성공!
 이제 Xiaomi Pad 5가 원래대로 성공적으로 복구되었을 것입니다!
