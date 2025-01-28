@@ -1,49 +1,49 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-# Running Windows on the Xiaomi Pad 5
+# Xiaomi Pad 5 에서 윈도우 구동
 
-## Fix the GPT to use Windows 24H2 safely
+## 윈도우 24H2를 안전하게 사용하기 위한 GPT 수정
 
-### Prerequisites:
-- [```Already installed Windows```](selection-en.md)
+### 준비물:
+- [```잘 설치된 윈도우```](selection-ko.md)
 
-- [```Recovery image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```리커버리 이미지```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-- [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
+- [```안드로이드 플랫폼 도구```](https://developer.android.com/studio/releases/platform-tools)
 
 > [!Important]
-> If you want to use Windows 24H2 safely, these steps are required to avoid EDL issues.
+> 윈도우 24H2를 안전하게 사용하려면, EDL 문제를 예방하기 위해 이 과정이 필요합니다.
 
 > [!NOTE]
-> Doing this will not affect your Android or Windows install.
+> 이 과정을 진행해도 기존에 설치된 안드로이드 및 윈도우에 영향을 주지 않습니다.
 
-### Reboot into fastboot mode
-- Boot your NABU into **fastboot mode** by holding down the **`volume down`** button while rebooting with a USB cable connected
-- Or, if you have USB debugging enabled, run the below command while booted into Android.
+### fastboot 모드로 재부팅
+- USB 케이블이 연결된 상태로 재부팅될 때 **`볼륨 아래`** 버튼을 누른 상태를 유지하여 NABU를 **fastboot 모드**로 부팅하세요
+- 또는, USB 디버깅이 활성화되어 있다면, 안드로이드에 부팅되어 있는 동안 아래의 명령어를 사용해도 됩니다.
 ```cmd
 adb reboot bootloader
 ```
 
-### Boot into the modified recovery
-> Replace `path\to\recovery.img` with the actual path of the downloaded **recovery.img**
+### 맞춤화된 리커버리로 부팅
+> `path\to\recovery.img` 를 다운로드된 **recovery.img** 의 실제 경로로 변경하세요
 ```cmd
 fastboot boot path\to\recovery.img
 ```
 
-### Fixing the GPT
-> Once booted into the recovery image
+### GPT 수정
+> 리커버리 이미지로 부팅되면 아래의 명령어를 입력하세요
 >
-> If it asks you to run it again, do so
+> 한번 더 실행하라는 문구가 출력되면, 명령어를 한번 더 입력하세요
 ```cmd
 adb shell fixgpt
 ```
 
-### Reboot your device
+### 장치 재부팅
 ```cmd
 adb reboot
 ```
 
-## ✅ Done! Windows 24H2 can now safely be used.
+## ✅ 끝났습니다! 이제 윈도우 24H2를 안전하게 사용할 수 있습니다.
 
 
 
