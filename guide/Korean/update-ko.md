@@ -7,6 +7,8 @@
 ### 준비물
 - [```드라이버```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 
+- [```촤신 버전의 UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
+
 ### 윈도우로 부팅
 > fastboot에서 UEFI 이미지를 플래시하거나 WOA Helper 앱을 이용하세요
 
