@@ -36,7 +36,7 @@
 
 - [**`🔓부트로더 언락 가이드`**](unlock-bootloader-ko.md)
 
-- [**`🔀듀얼부팅 설정`**](dualboot-ko.md)
+- [**`🔀듀얼부팅 설정`**](dualboot-selection2-ko.md)
 
 - [**`🔧문제 해결`**](troubleshooting-ko.md)
 
