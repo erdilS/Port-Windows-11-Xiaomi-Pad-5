@@ -33,7 +33,7 @@ cd "path\to\platform-tools"
 > 전체 가이드를 이용하는 동안 이 창을 계속 유지하세요. 창을 닫지 마세요.
 
 > [!Note]
-> 장치가 fastboot 또는 리커버리 모드에서 인식되지 않을 경우, [이 가이드](troubleshooting-ko.md#device-is-not-recognized-in-fastboot-or-recovery)를 이용하여 USB 드라이버를 설치해야 합니다
+> 장치가 fastboot 또는 리커버리 모드에서 인식되지 않을 경우, [이 가이드](troubleshooting-ko.md#fastboot-또는-리커버리에서-장치가-인식되지-않음)를 이용하여 USB 드라이버를 설치해야 합니다
 
 #### **fastboot**로 재부팅합니다
 - USB 케이블이 연결된 상태로 재부팅될 때 **`볼륨 아래`** 버튼을 누른 상태를 유지하여 NABU를 **fastboot 모드**로 부팅하세요
