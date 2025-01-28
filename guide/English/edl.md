@@ -34,7 +34,7 @@ fastboot oem edl
 ### Checking if everything is alright
 - Open **Device Manager** on your PC and look for a new device, such as **Qualcomm HS-USB QDLoader 9008**.
 - If the device is named **QUSB_BULK_CID** and/or has a yellow warning ⚠️ in **Device Manager**, you need install/update the drivers.
-- To do this, ownload and extract **[QUD.zip](https://github.com/n00b69/woa-betalm/releases/download/Qfil/QUD.zip)** file, select the device with errors in Device Manager, select **Update drivers**, then select the **QUD folder** you extracted.
+- To do this, download and extract **[QUD.zip](https://github.com/n00b69/woa-betalm/releases/download/Qfil/QUD.zip)** file, select the device with errors in Device Manager, select **Update drivers**, then select the **QUD folder** you extracted.
 
 > [!NOTE]
 >
