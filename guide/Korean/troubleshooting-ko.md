@@ -36,30 +36,52 @@
 ## 안드로이드로 부팅할 수 있으나 부트로더로 부팅할 수 없음
 
 ### 준비물:
+- [Termux](https://play.google.com/store/apps/details?id=com.termux)
+
 - [안드로이드 플랫폼 도구](https://developer.android.com/studio/releases/platform-tools)
 
 - [SHRP 리커버리](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/SHRP.img)
 
-> [!Important]
-> 이 작업은 오직 기기를 루팅했을 때만 가능합니다. 루팅하지 않았을 때의 복구 방법은 [MrAuthTool](https://mrauthtool.com/)을 이용하여 EDL로 기기에 플래시하는 방법뿐입니다.
+#### If you have access to Android:
+- Install **Termux** and grant it root access.
+- Install **tsu** and **parted** using these two commands, press `Y` if it asks you to confirm:
+```cmd
+pkg install tsu
+```
+```cmd
+pkg install parted
+```
+- Run the below command to open parted:
+```cmd
+parted /dev/block/sda
+```
+- Run ```print``` to list all partitions.
+- Look for partitions that are more than 16 characters long, for example "Basic Data Partition" and note their volume number.
+- Rename this partition with ```name $ test```, replacing **$** with the partition number, and replacing **test** with the name you want the partition to have.
+- Run ```quit```.
 
-- 내부 저장소의 UEFI 폴더에서 **UEFI** 이미지를 제거하세요. 그런 다음, **SHRP recovery** 이미지를 이곳으로 이동하세요
-- WOA Helper 앱에서 `QUICKBOOT TO WINDOWS`를 선택하세요
-- 리커버리로 부팅되면, PC에 기기를 연결하고 아래의 명령어를 입력하세요
+##### Done!
+
+
+#### If you have access to Windows:
+- Rename **C:\boot.img** to **C:\bootb.img**.
+- Download the **SHRP recovery** image, rename it to **boot.img**, and place it in `C:\`.
+- Run the **Switch to Android** or **Android** shortcut to flash and boot into SHRP recovery.
+- Once booted into the recovery, connect your device to your PC and run:
 ```cmd
 adb shell parted /dev/block/sda
 ```
-- ```print```를 입력하여 모든 파티션을 나열합니다
-- "Basic Data Partition"과 같이 길이가 16자를 초과하는 파티션을 찾고, 해당 파티션의 볼륨 숫자를 기억하세요
-- ```name $ test```를 입력하여 해당 파티션의 이름을 변경하세요. **$** 를 해당 파티션 숫자로, **test**를 파티션에 새로 적용할 이름으로 변경하세요
-- ```quit```를 입력하세요
-- ```adb reboot bootloader```를 입력하고, 화면에서 **FASTBOOT** 로고가 나타나면, ```fastboot flash boot_a boot.img\의\경로```를 입력하여 안드로이드 boot 이미지를 플래시하세요
-- 기기가 부팅되지 않거나, 리커버리로 다시 부팅되면 **boot_b** 에도 같은 작업을 해야할 수 있습니다
+- Run ```print``` to list all partitions.
+- Look for partitions that are more than 16 characters long, for example "Basic Data Partition" and note their volume number.
+- Rename this partition with ```name $ test```, replacing **$** with the partition number, and replacing **test** with the name you want the partition to have.
+- Run ```quit```.
+- Run ```adb reboot bootloader```, and when you see the **FASTBOOT** logo on your screen, flash your Android boot image with ```fastboot flash boot_a path\to\boot.img```.
+- You may have to do the same for **boot_b** if your device does not boot, or if it boots back to the recovery.
 
-> [!Note]
-> UEFI 폴더의 리커버리 이미지를 UEFI 파일로 교체했는지 다시 한 번 확인하세요
+> [!important]
+> Make sure to put the UEFI image back into the UEFI folder, or if you used the Windows method, the boot.img in C:\
 
-##### 끝!
+##### Done!
 
 ## 부팅 시 fsa4480.sys 블루스크린
 - 드라이버 폴더를 엽니다
