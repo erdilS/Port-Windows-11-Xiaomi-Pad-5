@@ -23,7 +23,7 @@ fastboot oem edl
 </details>
 
 <details>
-  <summary><strong>Method 2: 부트로더가 락 상태이거나 장치가 부팅 불가능할 때</strong></summary>
+  <summary><strong>방법 2: 부트로더가 락 상태이거나 장치가 부팅 불가능할 때</strong></summary>
 
 - **EDL 케이블** 이 있다면 장치에 이 케이블을 연결하고 케이블의 버튼을 눌러 **EDL mode** 로 부팅합니다.
 > 온라인에서 찾을 수 있는 EDL 케이블은 이름에 V2가 포함되어 있어야 작동합니다. (예시: **Hydra V2 EDL Cable**)
