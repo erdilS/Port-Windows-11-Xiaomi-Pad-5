@@ -43,7 +43,7 @@ adb reboot bootloader
 ```
 
 #### 맞춤화된 리커버리로 부팅합니다
-> fastboot 모드에서, 경로 `path\to\recovery.img`를 리커버리 이미지의 실제 경로로 변경하세요
+> fastboot 모드에서, `path\to\recovery.img`를 리커버리 이미지의 실제 경로로 변경하세요
 ```cmd
 fastboot boot path\to\recovery.img
 ```
