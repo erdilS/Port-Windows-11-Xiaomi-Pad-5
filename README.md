@@ -27,7 +27,7 @@
 
 - [**`📊Project status`**](guide/English/status.md)
 
-- [**`📥Installation`**](guide/English/selection-en.md)
+- [**`📥Installation`**](guide/English/installation-selection-en.md)
 
 - [**`🗑️Uninstallation`**](guide/English/uninstall-en.md)
 
@@ -40,7 +40,7 @@
 
 - [**`🔧Troubleshooting`**](guide/English/troubleshooting-en.md)
 
-- [**`🔄Updating drivers`**](guide/English/update-en.md)
+- [**`🔄Updating drivers / UEFI`**](guide/English/update-en.md)
 
 - [**`♻️Reinstallation`**](guide/English/reinstall-en.md)
 
