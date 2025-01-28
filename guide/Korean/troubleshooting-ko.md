@@ -10,10 +10,10 @@
 
 ##### 끝!
 ## fastboot 또는 리커버리에서 장치가 인식되지 않음
-> This likely means you don't have (proper) USB drivers installed
-- Download [QUD.zip](https://github.com/n00b69/woa-betalm/releases/download/Qfil/QUD.zip) here and extract it.
-- Open Device Manager and find an unknown device or device with errors that may be called **Android**, **ADB Interface**, or **QUSB_BULK**.
-- Right click this devjce, select "Update Drivers" > "Browse files", then select the **QUD folder** you extracted before.
+> 이 경우는 주로 (적절한) USB 드라이버가 설치되지 않았음을 의미합니다
+- [QUD.zip](https://github.com/n00b69/woa-betalm/releases/download/Qfil/QUD.zip)을 다윤로드하고 압축 해제하세요.
+- 장치 관리자를 열고 알 수 없는 장치나 **Android**, **ADB Interface**, 또는 **QUSB_BULK** 등 오류가 표시되는 장치를 찾습니다.
+- 이 장치를 마우스로 우클릭하고, "드라이버 업데이트" > "내 컴퓨터에서 드라이버 찾아보기"를 선택하고, 이전에 압축 해제했던 **QUD 폴더** 를 선택합니다.
 
 ##### 끝!
 
