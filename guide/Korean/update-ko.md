@@ -13,14 +13,14 @@
 
 - [드라이버](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 
-### Boot back into the modded recovery
-> Replace `path\to\recovery.img` with the actual path of the recovery image
+### 맞춤화된 리커버리로 부팅합
+> `path\to\recovery.img`를 리커버리 이미지의 실제 경로로 변경하세요
 ```cmd
 fastboot boot path\to\recovery.img
 ```
 
-#### Execute the msc script
-> If it asks you to run it once again, do so
+#### msc 스크립트 실행
+> 한번 더 실행하라는 문구가 출력되면, 명령어를 한번 더 입력하세요
 ```cmd
 adb shell msc
 ```
@@ -30,32 +30,32 @@ adb shell msc
 diskpart
 ```
 
-#### Select the Windows volume of the tablet
-> Use `list volume` to find it, replace "$" with the actual number of **WINNABU**
+#### 태블릿의 윈도우 볼륨을 선택합니다
+> `list volume` 을 이용하여 볼륨을 찾고, "$"을 **WINNABU** 의 실제 숫자로 변경하세요
 ```diskpart
 select volume $
 ```
 
-#### Assign the letter X
+#### 문자 X 를 할당합니다
 ```diskpart
 assign letter x
 ```
 
-#### Exit diskpart
+#### diskpart를 종료합니다
 ```diskpart
 exit
 ```
 
 ### 드라이버 설치
 > [!Note]
-> This process will take +- 20 minutes. Do not worry, this is normal.
+> 이 과정은 20분 정도 걸립니다. 걱정하지 마세요. 일반적인 시간입니다.
 
-- Unpack the driver archive, then open the `OfflineUpdater.cmd` file (if an error shows up, run `OfflineUpdaterFix.cmd` instead)
+- 드라이버 압축 파일을 압축 해제하고, `OfflineUpdater.cmd` 파일을 엽니다 (오류가 발생할 경우, `OfflineUpdaterFix.cmd` 를 실행하세요)
 
-> If it asks you to enter a letter, enter the drive letter of **WINNABU** (which should be **X**), then press enter
+> 프로그램이 문자를 입력하라고 하는 경우, **WINNABU** (기본적으로 **X** 입니다) 의 드라이브 문자를 입력하고, enter 키를 입력하세요
 
-#### Reboot your device
-> Make sure to also change the UEFI image in Android, otherwise you may face a "blue screen of death" (BSoD) when booting Windows later.
+#### 기기를 재부팅합니다
+> 안드로이드에서도 UEFI 이미지를 변경했는지 확인하세요. 그렇지 않으면 이후 윈도우로 부팅할 때 "블루 스크린" (BSoD) 이 표시될 수 있습니다.
 ```cmd
 adb reboot
 ```
