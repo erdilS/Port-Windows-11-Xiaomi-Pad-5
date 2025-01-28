@@ -1,13 +1,13 @@
-# Running Windows on the Xiaomi Pad 5
+# Xiaomi Pad 5 에서 윈도우 구동
 
-There are two methods to dualboot Windows. Select the method you would like to use below.
+윈도우를 듀얼부팅하기 위한 두 방법이 있습니다. 아래에서 원하는 방법을 선택하세요.
 
-| **Classic method** | **Dualboot Kernelpatcher**
+| **기존 방법** | **듀얼부팅 커널패치**
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------
-| <a href="dualboot-en.md"><img src="https://github.com/n00b69/woa-op7/blob/main/guide/zsta.png" width="80"></a> | <a href="dbkp-en.md"><img src="https://github.com/n00b69/woa-op7/blob/main/guide/zdbkp.png" width="80"></a>
-| - Root required | - No root required
-| - Dualboot using an app | - Dualboot using the magnetic case
-| [Classic guide](dualboot-en.md) | [DBKP guide](dbkp-en.md)
+| <a href="dualboot-ko.md"><img src="https://github.com/n00b69/woa-op7/blob/main/guide/zsta.png" width="80"></a> | <a href="dbkp-ko.md"><img src="https://github.com/n00b69/woa-op7/blob/main/guide/zdbkp.png" width="80"></a>
+| - 루트 권한 필요 | - 루트 권한 불필요
+| - 앱을 사용하여 듀얼부팅 | - 마그네틱 케이스를 사용하여 듀얼부팅
+| [Classic guide](dualboot-ko.md) | [DBKP guide](dbkp-ko.md)
 
 
 
