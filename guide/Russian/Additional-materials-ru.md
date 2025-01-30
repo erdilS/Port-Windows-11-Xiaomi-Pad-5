@@ -2,127 +2,49 @@
 
 # Полезные приложения и инструкции для Windows на Xiaomi pad 5
 
-### Список поддерживаемых приложений/игр
-Это ни в коем случае не полный список, в нем просто перечислены приложения / игры, которые были протестированы сообществом
-[ссылку можно найти здесь](https://docs.google.com/spreadsheets/d/1XYuoySgYQE0HL573sA-0RGMX7I4lt5rWJuQ8Z8yRJNY/edit?usp=drivesdk)
+### List of supported apps/games
+> These are by no means comprehensive lists, they do however list apps/games that have been tested by the community
 
-Вы также можете найти список специализированного программного обеспечения ARM [по этой ссылке](https://armrepo.ver.lt/)
+- [Renegade Google Sheets list](https://docs.google.com/spreadsheets/d/1XYuoySgYQE0HL573sA-0RGMX7I4lt5rWJuQ8Z8yRJNY/edit?usp=drivesdk)
 
-#### Готово!
+- [ARM Repo (native ARM software)](https://armrepo.ver.lt/)
 
-## Скрыть диск D (раздел модема)
-> [!NOTE]
-> Это рекомендуется, поскольку этот диск не следует изменять, в то время как некоторые приложения могут пытаться выполнить запись на него.
+- [News & supported applications](https://windowsonarm.org/)
 
-- Скачайте [`ModemHide.vbs`](https://github.com/Misha803/My-Scripts/releases/tag/ModemHide) на ваш NABU
-- Запустите его
-- Одобряйте любые диалоги UAC 
-- Нажмите `Да` в диалоговом окне
+#### Finished!
 
 
-#### Готово!
-
-
-## Откличение режима USB Host
+### Toggling USB host mode
 > [!Warning]
-> Отключенные USB-устройства перестанут работать
+> Disable USB host mode if you use a powered USB hub, as this can irreversibly damage your device. If you don't use a powered USB hub, enable USB host mode or you will not be able to use any USB devices.
 
-> [!Important]
-> Следующие шаги необходимо выполнить на Mi Pad 5 в Windows, а не на вашем компьютере . 
+- Run [USB Host Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) to enable/disable USB host mode, then confirm that you want to disable/enable USB host mode.
+- If USB host mode is currently enabled and USB does not work, turn it off, then back on.
 
-Запустите [USB Host Mode Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) чтобы включить/отключить режим USB-хоста и подтвердить, что вы хотите отключить/включить режим USB-хоста
-
-#### Готово!
-
-## Могу ли я обновить свою Windows с помощью Центра обновления Windows или ISO-образа?
-- ✅ **Да!** Вы можете установить любые обновления, которые появляются в Центре обновления Windows, и вы также можете использовать для этого ISO-образ
-
-## Могу ли я обновить свой Android после установки Windows?
-- ✅ **Да!** Вы можете обновить Android любым способом, просто используйте [ гайд по повторному рутированию Android](Re-rooting-ru.md) после обновления
-
-## Отключение SecureBoot
-> [!Warning]
-> Делайте это только в случае необходимости!
-
-> [**`Гайд по отключению SecureBoot`**](/guide/English/disable-secureboot-ru.md)
-
-#### Готово!
+#### Finished!
 
 
-## Установка Microsoft Office / Microsoft 365
-- Скачайте [файл ISO](https://drive.google.com/file/d/10FTyC0XBccj0BkxdIa_W_haixQz-d3to/view?usp=drivesdk) на планшет
-- Щелкните правой кнопкой мыши по ISO-файлу и выберите "Смонтировать", чтобы открыть его в проводнике
-- Дважди щёлкните на ```Office Tool Plus.exe``` чтобы запустить установку
-- Принимайте все UAC диалоги
-- В появившемся окне нажмите кнопку `Да` , чтобы начать установку 
-- Дождитесь завершения установки
+### Install Microsoft Office
+- Go to [Gravesoft's Office installer page](https://gravesoft.dev/office_c2r_links).
+- Download the installer that fits your purposes. Make sure you select `Online x64`.
+- Open the `setup.exe` and follow any instructions provided within.
 
-#### Готово!
+#### Finished!
 
 
-## Активация Windows / Office
-Следуйте инструкциям от Massgravel [здесь](https://github.com/massgravel/Microsoft-Activation-Scripts)
+### Activate Windows / Office
+- Follow the instructions by Massgravel [here](https://github.com/massgravel/Microsoft-Activation-Scripts)
+
+#### Finished!
 
 
-#### Готово!
+### Making the keyboard float
+> [!WARNING]  
+> Make sure these steps are done on the device running Windows, not your computer!
 
+- Open CMD as an administrator and run ```reg delete HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Scaling /v MonitorSize```
+- Press `y` then enter.
+- Reboot your device.
 
-## ~Как пользоваться фонариком~
- - Скачайте [Flashlight.7z](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/flashlight_fix.7z) и распакуйте в любую папку
-> Запустите flashlight.exe чтобы включить фонарик
-> Нажмите любую клавишу, чтобы отключить его
-
-#### Готово!
-
-## Сброс Windows 11 к заводским настройкам
-> [!Warning]
-> После выполнения этих действий все ваши данные в Windows будут удалены, включая файлы, настройки и приложения.
-- Откройте приложение настроек.
-- Нажмите на кнопку Система.
-- Нажмите на вкладку Recovery.
-- В разделе "Параметры восстановления" нажмите кнопку "Сбросить компьютер" в разделе "Сбросить настройки этого компьютера".
-- Нажмите на опцию ```Удалить всё```.
-- Выберите опцию ```Локальная переустановка```.
-- Нажмите на кнопку `Далее`.
-- Нажмите на кнопку `Перезагрузка`.
-> После перезагрузки вы получите чистую Windows.
-
-#### Готово!
-
-
-## Отключение адаптивной яркости
-
-- Откройте настройки Windows 11, нажав **Win + I** или щелкнув правой кнопкой мыши кнопку "Пуск" и выбрав "Настройки".
-
-- Перейдите к разделу **`Система`** на левой боковой панели.
-
-- Выберите **`Дисплей`** в системных настройках.
-
-- В разделе ** `Яркость`** вы увидите два варианта:
-
-**```1. Автоматически изменять яркость при изменении освещения:```**
-
-> Отключите эту опцию, переведя переключатель в положение **`Выкл`**.
-  
- **```Изменение яркости в зависимости от содержимого:```**
-
-> Отключите эту опцию, выбрав **`Выкл` ** из выпадающего меню.
-
->[!NOTE]
-> После того как вы внесете эти изменения, на вашем устройстве будут деактивированы функции адаптивной яркости и контент-адаптивной яркости.
-
- #### Готово!
-
-
-
-
-
-
-
-
-
-
-
-
-
+##### Finished!
 
