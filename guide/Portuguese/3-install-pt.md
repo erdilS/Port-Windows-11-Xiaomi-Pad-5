@@ -76,7 +76,7 @@ fastboot boot path\to\nabu-uefi.img
 ### Reboot into Android
 > Your device should reboot by itself after +- 10 minutes of waiting, after which you will be booted into Android, for the last step.
 
-## [Último passo: Configurar o Dualboot](/guide/Portuguese/dualboot-pt.md)
+## [Último passo: Configurar o Dualboot](/guide/Portuguese/4-dualboot-pt.md)
 
 
 
