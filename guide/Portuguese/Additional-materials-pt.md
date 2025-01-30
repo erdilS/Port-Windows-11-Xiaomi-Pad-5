@@ -2,106 +2,49 @@
 
 # Apps úteis e algumas instruções pra o Windows no Xiaomi pad 5
 
-### Lista de apps/jogos suportados
-Esta não é uma lista muito abrangente, é apenas uma lista de apps/jogos que foram testados pela comunidade
-[A lista pode ser encontrada aqui](https://docs.google.com/spreadsheets/d/1XYuoySgYQE0HL573sA-0RGMX7I4lt5rWJuQ8Z8yRJNY/edit?usp=drivesdk)
+### List of supported apps/games
+> These are by no means comprehensive lists, they do however list apps/games that have been tested by the community
 
-Aqui uma lista de softwares compilados para ARM [neste link](https://armrepo.ver.lt/)
+- [Renegade Google Sheets list](https://docs.google.com/spreadsheets/d/1XYuoySgYQE0HL573sA-0RGMX7I4lt5rWJuQ8Z8yRJNY/edit?usp=drivesdk)
 
-#### Concluído!
+- [ARM Repo (native ARM software)](https://armrepo.ver.lt/)
 
-## Esconder o disco D: (Partição modem)
-> [!NOTE]
-> Isso é recomendado pois algum programa pode tentar modificar a partição, o que não pode acontecer
+- [News & supported applications](https://windowsonarm.org/)
 
-- Download [`ModemHide.vbs`](https://github.com/Misha803/My-Scripts/releases/tag/ModemHide) to your NABU
-- Run it
-- Approve any UAC dialogs 
-- Click `Yes` in the dialog box
+#### Finished!
 
 
-#### Concluído!
-
-## Desativando o modo USB host
+### Toggling USB host mode
 > [!Warning]
-> Dispositivos sem energia própria não vão funcionar
+> Disable USB host mode if you use a powered USB hub, as this can irreversibly damage your device. If you don't use a powered USB hub, enable USB host mode or you will not be able to use any USB devices.
 
-> [!Important]
-> Os passos a seguir são para o seu Mi Pad 5 no Windows, não é para o seu computador.
+- Run [USB Host Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) to enable/disable USB host mode, then confirm that you want to disable/enable USB host mode.
+- If USB host mode is currently enabled and USB does not work, turn it off, then back on.
 
-Execute o [Controle de USB Host](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) para ativar/desativar o modo USB host, no programa confirme se você quer ativar/desativar o modo USB host 
-
-#### Concluído!
+#### Finished!
 
 
-## Desativando o secureboot
-> Caso você queira atualizar os drivers sem um outro PC
+### Install Microsoft Office
+- Go to [Gravesoft's Office installer page](https://gravesoft.dev/office_c2r_links).
+- Download the installer that fits your purposes. Make sure you select `Online x64`.
+- Open the `setup.exe` and follow any instructions provided within.
 
-[Guia para desativar o secureboot](/guide/Portuguese/disable-secureboot-pt.md)
-
-#### Concluído!
-
-
-## Instalando o Microsoft Office / Microsoft 365
-- Faça o Download do [Arquivo ISO](https://drive.google.com/file/d/10FTyC0XBccj0BkxdIa_W_haixQz-d3to/view?usp=drivesdk) to the tablet
-- Use o botão direito do mouse no arquivo iso para montar e abrir no explorer
-- Execute o programa ```Office Tool Plus.exe``` para iniciar o wizard de instalação
-- Na janela que surgir, pressione `Yes`
-- Espere a instalação terminar
-
-#### Concluído!
+#### Finished!
 
 
-## Ativar o Windows / Office
-Siga as instruções do Massgravel [aqui](https://github.com/massgravel/Microsoft-Activation-Scripts)
+### Activate Windows / Office
+- Follow the instructions by Massgravel [here](https://github.com/massgravel/Microsoft-Activation-Scripts)
 
-#### Concluído!
-
-
-## ~Como usar o Flash traseiro no Windows~
- - Faça o download do arquivo [Flashlight.7z](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/flashlight_fix.7z) e descompacte o arquivo em qualquer pasta
-> Execute o flashlight.exe para ativar o Flash
-> Pressione qualquer tecla pra desativar
-
-#### Concluído!
+#### Finished!
 
 
-## Factory reset Windows 11
-> [!Warning]
-> Depois de seguido os passos, todo o conteúdo do seu Windows será apagado, incluindo arquivos, configurações e apps.
-- Abra o aplicativo de Configurações.
-- Vá em Sistema.
-- Entre na opção Recuperação.
-- Na sessão **Opções de Recuperação**, clique no botão ```Restaurar o computador```.
-- Clique em ```Remover Tudo```.
-- Selecione a opção ```Reinstalação Local```.
-- Clique em `Próximo`.
-- Clique em `Resetar`.
-> Depois de reiniciar, seu Windows estará novo em folha.
+### Making the keyboard float
+> [!WARNING]  
+> Make sure these steps are done on the device running Windows, not your computer!
 
-#### Concluído!
+- Open CMD as an administrator and run ```reg delete HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Scaling /v MonitorSize```
+- Press `y` then enter.
+- Reboot your device.
 
-## Desativo o brilho adaptável
-
-- Abra as configurações do Windows 11 com **`Win + I`** ou dando um clique-direito no botão de Start e selecione "Configurações".
-
-- Navegue até a sessão **`Sistema`** na barra lateral esquerda.
-
-- Selecione **`Tela`**.
-
-- Na sessão **`Brilho`**, haverá duas opções:
-
-**```1. Mudar brilho automaticamente com mudanças de luminosidade:```**
-
-> Desative essa opção deixando o botão em **`Off`**.
-  
- **```2. Mudar o brilho baseado no conteúdo:```**
-
-> Desative essa opção deixando o botão em **`Off`**.
-
->[!NOTE]
-> Depois dessas mudanças, qualquer mudança automatica de brilho será desativada no seu dispositivo.
-
- #### Concluído!
-
+##### Finished!
 
