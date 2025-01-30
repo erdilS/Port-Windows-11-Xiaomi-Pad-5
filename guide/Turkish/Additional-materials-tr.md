@@ -2,105 +2,66 @@
 
 # Xiaomi Pad 5'te Windows için faydalı uygulamalar ve talimatlar
 
-## Çalıştığı bilinen uygulamalar/oyunlar
-Bu kapsamlı bir liste değildir, sadece topluluğun test etmiş olduğu uygulamaları/oyunları listeler
-[Linki burada bulabilirsiniz](https://docs.google.com/spreadsheets/d/1XYuoySgYQE0HL573sA-0RGMX7I4lt5rWJuQ8Z8yRJNY/edit?usp=drivesdk)
+### List of supported apps/games
+> These are by no means comprehensive lists, they do however list apps/games that have been tested by the community
 
-Ayrıca [bu linkte](https://armrepo.ver.lt/) ARM'a özel yazılımların bir listesini bulabilirsiniz
+- [Renegade Google Sheets list](https://docs.google.com/spreadsheets/d/1XYuoySgYQE0HL573sA-0RGMX7I4lt5rWJuQ8Z8yRJNY/edit?usp=drivesdk)
 
-#### Bitti!
+- [ARM Repo (native ARM software)](https://armrepo.ver.lt/)
 
-## D sürücüsünü gizleme (modem bölümü)
-> [!NOTE]
-> Bu işlemi yapmanız önerilir çünkü sürücüde herhangi bir değişiklik yapılmaması gerekmektedir, ayrıca sürücü gizlenmezse bazı uygulamaların bu sürücüye dosya yazma ihtimali her daim olacaktır.
+- [News & supported applications](https://windowsonarm.org/)
 
-- [ModemHide.vbs](https://github.com/Misha803/My-Scripts/releases/tag/ModemHide) dosyasını cihaza indirin ve çalıştırın
-- `Evet`e tıklayarak bütün Kullanıcı Hesabı Denetimi uyarılarını onaylayın
+#### Finished!
 
 
-## USB Host modunu devre dışı bırakma
+### Toggling USB host mode
 > [!Warning]
-> Ek güç verilmemiş USB aygıtlar çalışmayı durduracaktır.
+> Disable USB host mode if you use a powered USB hub, as this can irreversibly damage your device. If you don't use a powered USB hub, enable USB host mode or you will not be able to use any USB devices.
 
-> [!Important]
-> Linkteki adımları Mi Pad 5'in Windows tarafında yapınız, bilgisayarınız üzerinde değil. 
+- Run [USB Host Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) to enable/disable USB host mode, then confirm that you want to disable/enable USB host mode.
+- If USB host mode is currently enabled and USB does not work, turn it off, then back on.
 
-USB host modunu etkinleştirmek/devre dışı bırakmak için [USB Host Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) dosyasını açın ve USB host modunu devre dışı bırakmak/etkinleştirmek istediğinizi onaylayın.
-
-#### Bitti!
-
-## Windows Update ya da bir ISO imajı kullanarak Windows'u güncelleyebilir miyim?
-- ✅ **Evet!** Windows Update'te çıkan güncellemeleri yapabilrsiniz ya da ISO imajı kullanarak güncelleyebilirsiniz
-
-## Windows kurduktan sonra Android'i güncelleyebilir miyim?
-- ✅ **Evet!** Android'i istediğin şekilde güncelleyebilirsin, sadece [Yeniden rootlama rehberini](Re-rooting-tr.md) takip ederek Android'i yeniden rootlamayı unutma
-
-## Secureboot'u devre dışı bırakma
-> [!Warning]
-> Sadece gerekliyse bu işlemi yapın!
-
-[Secureboot'u devre dışı bırakma rehberi](/guide/Turkish/disable-secureboot-tr.md)
-
-#### Bitti!
-
-## ```Microsoft Office``` / ```Microsoft 365``` kurulumu
-
-- Bu [ISO dosyasını](https://drive.google.com/file/d/10FTyC0XBccj0BkxdIa_W_haixQz-d3to/view?usp=drivesdk) tablete indirin
-- iso dosyasına sağ tıklayın ve windows gezgininde (explorer) açmak için bağlayın (mount edin)
-- Kurulum sihirbazını başlatmak için ```Office Tool Plus.exe``` dosyasını çift tıklayın
-- Tüm UAC uyarılarını onaylayın 
-- Açılan pencerede `Evet (Yes)`i seçin
-- Kurulumun bitmesini bekleyin
+#### Finished!
 
 
- ### Windows / Office aktivasyonunu yapma
+### Install Microsoft Office
+- Go to [Gravesoft's Office installer page](https://gravesoft.dev/office_c2r_links).
+- Download the installer that fits your purposes. Make sure you select `Online x64`.
+- Open the `setup.exe` and follow any instructions provided within.
 
-[Buradan](https://github.com/massgravel/Microsoft-Activation-Scripts) Massgravel'ın talimatlarını takip edin
+#### Finished!
 
-#### Bitti!
 
- ## ~El feneri (flashlight) nasıl kullanılır~
+### Activate Windows / Office
+- Follow the instructions by Massgravel [here](https://github.com/massgravel/Microsoft-Activation-Scripts)
 
-- [Flashlight.7z](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/flashlight_fix.7z) arşiv dosyasını indirin ve herhangi bir klasöre çıkartın
-> El fenerini açmak için flashlight.exe'yi çalıştın
-> Kapatmak için ise herhangi bir tuşa basın
+#### Finished!
 
-#### Bitti!
 
-## Factory reset Windows 11
-> [!Warning]
-> Bu adımları tamamladıktan sonra dosyalar, ayarlar ve uygulamalar dahil olmak üzere Windows'taki tüm verileriniz silinecektir
-- Ayarlar uygulamasını açın
-- Sistem'e tıklayın
-- Kurtarma sekmesine tıklayın
-- **Kurtarma seçenekleri** bölümünün altında, **Bu bilgisayarı sıfırla** ayarındaki ```Bilgisayarı sıfırla``` düğmesine tıklayın
-- ```Her Şeyi Kaldır``` seçeneğine tıklayın
-- ```Yerel yeniden yükleme``` seçeneğini seçin
-- `Sonraki` düğmesine tıklayın
-- `Sıfırla` düğmesine tıklayın
-> Yeniden başlattıktan sonra temiz bir Windows elde edeceksiniz
+### Making the keyboard float
+> [!WARNING]  
+> Make sure these steps are done on the device running Windows, not your computer!
 
-#### Bitti!
+- Open CMD as an administrator and run ```reg delete HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Scaling /v MonitorSize```
+- Press `y` then enter.
+- Reboot your device.
 
-## Adaptif parlaklığı kapatma
+##### Finished!
 
-- **`Win + I`** tuşlarına basarak Windows 11 Ayarlar'ı açın ya da Başlat'a sağ tık yaparak "Ayarlar"ı açın.
 
-- Soldaki menüden **`Sistem`** sekmesine gidin.
 
-- **`Ekran`**a tıklayın.
 
--  **`Parlaklık`** sekmesinde, iki seçenek göreceksiniz:
 
-**```1. Parlaklığı ışığa göre değiştirin:```**
 
-> Düğmeyi **`Kapalı`** konumuna getirerek kapatabilirsiniz.
-  
- **```2. Parlaklığı içeriğe göre değiştirin:```**
 
-> Aşağı açılır menüden **`Kapalı`**ya tıklayarak kapatabilirsiniz.
 
->[!NOTE]
-> Bu değişiklikleri yaptıktan sonra adaptif ışık ve adaptif içerik parklıkları kapanacaktır.
 
-#### Bitti!
+
+
+
+
+
+
+
+
+
