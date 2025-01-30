@@ -1,35 +1,61 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-
 # Windows no Xiaomi Pad 5
 
-## Conseguindo root 
+## Rooting your tablet
 > [!NOTE]
-> **Se você já tem root, pode pular para o próxmo passo**
+> **If you are already rooted, skip this step and go to the next page**
 
-### Pré requesitos
-- ```Cérebro```
-  
-- [```A boot.img do Android```](/guide/Portuguese/1-partition-pt.md#fa%C3%A7a-um-backup-da-sua-bootimg-atual) (que você fez o backup seguindo a página anterior)
+### Prerequisites
+- ```Brain```
 
+- [```Magisk.apk```](https://github.com/topjohnwu/Magisk/releases/latest)
 
-### Patch da boot.img com o magisk
-- Copie o arquivo ```normal_boot.img``` da pasta ```platform tools``` para o armazenamento do tablet 
-
-- Faça o download e instale o [Magisk app](https://github.com/topjohnwu/Magisk/releases/latest) no tablet
-  
--  Abra o Magisk e selecione a opção ```Instalar```. Selecione a opção ```Selecione e corrija um arquivo``` e procure o arquivo ```normal_boot.img``` que voçê copiou para o tablet. Aperte a opção ```VAMOS LÁ``` e espere o processo de patch finalizar.
-  
-- Copie o arquivo ```magisk_patched....img``` que está na pasta ```Downloads``` no tablet para a pasta ```platform tools``` no seu PC. 
-
-- Reinicie no modo fastboot
-  
-- Abra o cmd (command prompt) na pasta platform tools 
-
- ### Faça o flash do magisk_patched.img
- > Substitua o `<magisk_patched.img>` com o nome (ou caminho) que está no ```magisk_patched.img``` que você copiou do tablet.
+### Flash magisk 
+- Download [`magisk.apk`](https://github.com/topjohnwu/Magisk/releases/latest) onto your PC/Laptop 
+> Replace `path\to\magisk.apk` with the actual path of the magisk.apk
 ```cmd
-fastboot flash boot <magisk_patched.img>
+adb push path\to\magisk.apk /tmp/magisk.zip && adb shell twrp install /tmp/magisk.zip
+```
+
+#### Reboot into Android
+> If it doesn't boot, reboot into stock recovery and perform a **factory reset** there
+```cmd
+adb reboot
+```
+
+### Finishing setup
+- Set up your device, then download and install [Magisk](https://github.com/topjohnwu/Magisk/releases/latest), if it isn't already installed.
+- Open the **Magisk** app and follow the instructions on the screen, and your device should reboot after a few seconds.
+
+### Back up your rooted boot.img
+> Reboot into the modified recovery image, then run the below command
+```cmd
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```
 
 ### [Próximo Passo: Instalando o Windows](/guide/Portuguese/3-install-pt.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
