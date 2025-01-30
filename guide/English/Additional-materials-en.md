@@ -14,6 +14,19 @@
 #### Finished!
 
 
+### Disable adaptive brightness
+- Open Windows 11 Settings by pressing **`Win + I`** or by right-clicking the Start button and selecting "Settings".
+- Navigate to the **`System`** section from the left sidebar.
+- Select **`Display`** within the System settings.
+- In the **`Brightness`** section, you'll see two options:
+**```1. Change brightness automatically when lighting changes:```**
+> Turn this option off by toggling the switch to the **`Off`** position.
+ **```2. Change brightness based on content:```**
+> Turn this option off by selecting **`Off`** from the dropdown menu.
+
+#### Finished!
+
+
 ### Toggling USB host mode
 > [!Warning]
 > Disable USB host mode if you use a powered USB hub, as this can irreversibly damage your device. If you don't use a powered USB hub, enable USB host mode or you will not be able to use any USB devices.
