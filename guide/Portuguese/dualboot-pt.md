@@ -6,32 +6,38 @@
 
 ### Pré requesitos
 - ```Cérebro```
+
 - ```que o tablet tenha root```
+
 - ```Windows instalado no tablet```
-- [```Imagem do UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
-- [```WOA Helper app```](https://github.com/n00b69/woa-helper/releases/tag/APK)
-- [```StA Installer```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
+- 
+- [```UEFI image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+
+- [```WoA Helper app```](https://github.com/n00b69/woa-helper/releases/tag/APK)
 
 ## Configurando o app de dualboot
 > Esse guia pressupõe que você tem root, caso contrário, siga o [guia de root](2-rootguide-pt.md) primeiro
 
 ### Preparação - Android
-> [!NOTE]
-> Se você não consegue mover arquivos para a pasta Windows, significa que você desligou o Windows ao invés de reiniciar. Pra concertar isso, inicie de volta para o Windows, e enquando ele reinicia, coloque o tablet no modo fastboot e inicie o Android de volta
-
-- Faça o download e instale o WOA Helper app abra, e permita o uso de root.
-- Faça o download da **Imagem UEFI** e coloque na pasta chamada `UEFI` no armazenamento interno, caso essa pasta não exista, você pode criá-la.
-- Pressione a opção `MONTAR WINDOWS`, faça o download e mova o arquivo **StA_Installer_nabu.exe** para a pasta `Windows` recém criada no seu armazenamento interno.
-- Retorne ao app WOA Helper e pressione `REINÍCIO RÁPIDO PARA O WINDOWS`.
+- Download and install the **WOA Helper** app, then open it and grant it root access.
+- Download the **UEFI image** and place it inside the folder named `UEFI` in your internal storage.
+- Open the WOA Helper app and use the **STA CREATOR** in **WOA TOOLBOX**.
+> [!Important]
+> If `/sdcard/Windows` is empty, your rom does not support mounting and you will have to make a boot.img backup inside the app, then copy it manually to Windows once you boot to it (for example by uploading it somewhere and then downloading it while booted into Windows). The same applies to the StA files, which are also generated in your internal storage.
+>
+> Do the same thing if the folder is read-only.
+- Press the **REINÍCIO RÁPIDO PARA O WINDOWS** button.
 
 ### Preparação - Windows
-- Navegue até e abra o programa `C:\StA_Installer_nabu.exe`. Se não funcionar ou abrir, tenha certeza que seu antivírus esteja desligado, já que o mesmo pode atrapalar a instalação do programa.
+> [!Tip]
+> If this is your first time booting Windows and you wish to skip the Microsoft Account login, press the **I don't have internet** button in the WiFi page, then when prompted, press the **Continue with limited setup** button.
+- Navigate to `C:\sta` and create a shortcut of **sta.exe** to your desktop, if one isn't already present
 
 #### Inicializando o Android
 - Abra o novo atalho na sua área de trabalho (para facilitar o acesso, você pode fixar o programa no menu iniciar / na barra de tarefas).
 
 #### Inicializando o Windows
-- Pressione `REINÍCIO RÁPIDO PARA O WINDOWS` no app, ou adicione o toggle no seu painel de configurações rápidas.
+- Pressione **REINÍCIO RÁPIDO PARA O WINDOWS** no app, ou adicione o toggle no seu painel de configurações rápidas.
   
 ## Concluído!
 
