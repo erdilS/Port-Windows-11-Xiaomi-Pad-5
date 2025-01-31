@@ -26,6 +26,15 @@
 
 #### Finished!
 
+### Set up Android boot.img auto-flashing
+
+>[!NOTE]
+> Set up Android boot.img auto-flashing on Windows boot or when the battery is low (<15%) to prevent battery dies with uefi.img flashed. 
+
+- Download the **boot.img auto-flasher** [here](https://github.com/Misha803/My-Scripts/releases/tag/boot.img-Auto-Flasher).
+- Run it, click **INSTALL** button, select when should Android boot.img be auto-flashed (on Windows boot/Low battery) and wait for installation to complete.
+
+#### Finished! 
 
 ### Toggling USB host mode
 > [!Warning]
@@ -50,14 +59,9 @@
 
 #### Finished!
 
+## Сan I update my Windows using Windows Update or an ISO image?
+- ✅ **Yes!** You can install any updates that appear in Windows Update and you can also use an ISO image for this
 
-### Making the keyboard float
-> [!WARNING]  
-> Make sure these steps are done on the device running Windows, not your computer!
-
-- Open CMD as an administrator and run ```reg delete HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Scaling /v MonitorSize```
-- Press `y` then enter.
-- Reboot your device.
-
-##### Finished!
+## Can I update my Android after installing Windows?
+- ✅ **Yes!** You can update Android in any way, just use the [Re-rooting Android guide](Re-rooting-en.md) after the update
 
