@@ -48,7 +48,7 @@ exit
 
 ### Installing drivers
 > [!Note]
-> This process will take +- 20 minutes. Do not worry, this is normal.
+> This process will take +- 40 minutes. Do not worry, this is normal.
 
 - Unpack the driver archive, then open the `OfflineUpdater.cmd` file (if an error shows up, run `OfflineUpdaterFix.cmd` instead)
 
