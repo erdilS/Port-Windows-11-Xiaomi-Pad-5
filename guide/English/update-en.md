@@ -55,6 +55,7 @@ exit
 > If it asks you to enter a letter, enter the drive letter of **WINNABU** (which should be **X**), then press enter
 
 #### Reboot your device
+> [!Warning]
 > Make sure to also change the UEFI image in Android, otherwise you may face a "blue screen of death" (BSoD) when booting Windows later.
 ```cmd
 adb reboot
