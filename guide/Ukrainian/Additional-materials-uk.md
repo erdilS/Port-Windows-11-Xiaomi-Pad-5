@@ -2,52 +2,53 @@
 
 # Корисні програми та інструкції для Windows на Xiaomi Pad 5
 
-### List of supported apps/games
-> These are by no means comprehensive lists, they do however list apps/games that have been tested by the community
+### Список підтримуваних програм і ігор
+> Це аж ніяк не вичерпний список, він просто перераховує програми/ігри, які були перевірені спільнотою
 
-- [Renegade Google Sheets list](https://docs.google.com/spreadsheets/d/1XYuoySgYQE0HL573sA-0RGMX7I4lt5rWJuQ8Z8yRJNY/edit?usp=drivesdk)
+- [Список перевірених ігор в Google таблиці від Renegade](https://docs.google.com/spreadsheets/d/1XYuoySgYQE0HL573sA-0RGMX7I4lt5rWJuQ8Z8yRJNY/edit?usp=drivesdk)
 
-- [ARM Repo (native ARM software)](https://armrepo.ver.lt/)
+- [ARM Repo (нативне ПО на ARM)](https://armrepo.ver.lt/)
 
-- [News & supported applications](https://windowsonarm.org/)
+- [Новини та підтримувані програми](https://windowsonarm.org/)
 
-#### Finished!
+### Вимкнути адаптивну яскравість
+- Відкрийте налаштування Windows 11, натиснувши **`Win + I`** або клацнувши правою кнопкою миші кнопку «Пуск» і вибравши «Параметри»
+- Перейдіть до розділу **`Система`** на лівій бічній панелі.
+- Виберіть **`Дисплей`** у налаштуваннях системи.
+- У розділі **`Яскравість`** ви побачите два варіанти:
+***```1. Змінювати яскравість автоматично при зміні освітлення:```**
+> Вимкніть цю опцію, перевівши перемикач у положення **`Вимк`**.
+ **```2. Змінити яскравість залежно від вмісту:```**
+> Вимкніть цю опцію, вибравши **`Вимк`** зі спадного меню.
 
+### Налаштуваня автоматичного перепрошивання Android boot.img
 
-### Toggling USB host mode
+> [!Note]
+> Налаштуйте автоматичне перепрошивання Android boot.img під час завантаження Windows або коли заряд батареї низький (<15%), щоб запобігти розрядці батареї з прошитим uefi.img.
+
+- Завантажте [**boot.img auto-flasher**](https://github.com/Misha803/My-Scripts/releases/tag/boot.img-Auto-Flasher).
+- Запустіть його, натисніть кнопку **INSTALL**, виберіть, коли Android boot.img повинен автоматично прошиватися (при завантаженні Windows/низькому заряді батареї) і дочекайтеся завершення встановлення
+
+### Вимкнення режиму USB-хоста
 > [!Warning]
-> Disable USB host mode if you use a powered USB hub, as this can irreversibly damage your device. If you don't use a powered USB hub, enable USB host mode or you will not be able to use any USB devices.
+> Вимкніть режим USB-хосту, якщо ви маєте USB-хаб з зовнішнім живленням, оскільки це може незворотно пошкодити ваш пристрій. Якщо ви не використовуєте USB-концентратор із живленням, увімкніть режим USB-хосту, інакше ви не зможете використовувати жодні USB-пристрої
 
-- Run [USB Host Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) to enable/disable USB host mode, then confirm that you want to disable/enable USB host mode.
-- If USB host mode is currently enabled and USB does not work, turn it off, then back on.
+- Запустіть [USB Host Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) щоб увімкнути/вимкнути режим USB-хоста та підтвердити, що ви бажаєте вимкнути/увімкнути режим USB-хоста
+- Якщо режим USB-хоста наразі ввімкнено, а USB не працює, вимкніть його, а потім увімкніть знову
 
-#### Finished!
+## Встановлення Microsoft Office
+- Перейдіть на [сторінку інсталятора Office від Gravesoft](https://gravesoft.dev/office_c2r_links).
+- Завантажте інсталятор, який відповідає вашим цілям. Переконайтеся, що ви вибрали `Online x64`.
+- Відкрийте `setup.exe` і дотримуйтесь подальших інструкцій
 
+## Активація Windows / Office
+Використовуйте [Massgravel](https://github.com/massgravel/Microsoft-Activation-Scripts)
 
-### Install Microsoft Office
-- Go to [Gravesoft's Office installer page](https://gravesoft.dev/office_c2r_links).
-- Download the installer that fits your purposes. Make sure you select `Online x64`.
-- Open the `setup.exe` and follow any instructions provided within.
+## Чи можна оновити Windows за допомогою Windows Update або ISO-образу?
+- ✅ **Так!** Ви можете інсталювати будь-які оновлення, які з’являються в Windows Update, а також можете використовувати для цього ISO образ
 
-#### Finished!
-
-
-### Activate Windows / Office
-- Follow the instructions by Massgravel [here](https://github.com/massgravel/Microsoft-Activation-Scripts)
-
-#### Finished!
-
-
-### Making the keyboard float
-> [!WARNING]  
-> Make sure these steps are done on the device running Windows, not your computer!
-
-- Open CMD as an administrator and run ```reg delete HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Scaling /v MonitorSize```
-- Press `y` then enter.
-- Reboot your device.
-
-##### Finished!
-
+## Чи можу я оновити свій Android після встановлення Windows?
+- ✅ **Так!** Ви можете оновити Android будь-яким способом, просто скористайтеся [посібником із повторного отримання root прав](re-root-uk.md) після оновлення
 
 
 
