@@ -9,41 +9,29 @@
 ### Передумови
 - Мозок
   
-- [```Резервне копіювання завантаження Android```](/guide/English/1-partition-en.md#Make-a-backup-of-your-existing-boot-image) (резервну копію якої ви створили на першій сторінці посібника)
+- [```Magisk.apk```](https://github.com/topjohnwu/Magisk/releases/latest)
 
-## Патч завантаження 
-
-- Скопіюйте ```normal_boot.img``` файл із ```platform tools``` папку на планшет 
-
-- Завантажте та встановіть [Magisk app](https://github.com/topjohnwu/Magisk/releases/latest) на планшет
-  
-- Відкрийте програму Magisk і натисніть ```Install``` кнопку. Виберіть ```Select and Patch a File``` варіант і знайдіть ```normal_boot.img``` файл, який ви скопіювали на планшет. Натисніть на ```Let's Go``` і дочекайтеся завершення процесу виправлення.
-  
-- Скопіюйте ```magisk_patched..img``` файл із теки ```Downloads``` на планшеті до теки ```platform-tools``` на комп’ютері.
-
-- Перезавантажте планшет в fastboot
-  
-- Відкрийте командний рядок у теці platform-tools
-
- ## Прошивка виправленного boot
- > Замінити `<magisk_patched.img>` на фактичний шлях і ім'я ```magisk_patched.img```.
+### Прошивка Magisk
+- Завантажте [`magisk.apk`](https://github.com/topjohnwu/Magisk/releases/latest) на свій ПК/ноутбук
+> Замініть `path\to\magisk.apk` на фактичний шлях до magisk.apk
 ```cmd
-fastboot flash boot <magisk_patched.img>
+adb push path\to\magisk.apk /tmp/magisk.zip && adb shell twrp install /tmp/magisk.zip
 ```
 
-### Перезавантаження в Android
+#### Перезавантажте Android
+> Якщо він не завантажується, перезавантажтеся у стандартне відновлення та виконайте там **Wipe data**
 ```cmd
-fastboot reboot
+adb reboot
 ```
 
-#### Завершення налаштування
-- Відкрийте програму **Magisk**.
-- Дотримуйтесь інструкцій на екрані, і ваш пристрій має перезавантажитися через кілька секунд.
+### Завершення налаштування
+- Налаштуйте свій пристрій, а потім завантажте та інсталюйте [Magisk](https://github.com/topjohnwu/Magisk/releases/latest), якщо він ще не встановлений
+- Відкрийте програму **Magisk** і дотримуйтесь інструкцій на екрані, потім ваш пристрій має перезавантажитися через кілька секунд
 
-### Копіювання завантажувального образу з root
-> Після завантаження пристрою
+### Зробіть резервну копію вашого root.img
+> Перезавантажтеся у TWRP, а потім виконайте наведену нижче команду
 ```cmd
-adb shell "su -c cp /dev/block/by-name/boot$(getprop ro.boot.slot_suffix) /sdcard/rooted_boot.img" & adb pull /sdcard/rooted_boot.img
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```
 
 ### [Наступний крок: Встановлення Windows](/guide/Ukrainian/3-install-uk.md)
