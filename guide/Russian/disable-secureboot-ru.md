@@ -103,7 +103,7 @@ adb reboot bootloader
 fastboot flash boot <path\to\uefi-NoSecureboot-v3.img>
 ```
 
-> [!Важно]
+> [!WARNING]
 > Не забудьте также заменить старый UEFI в папке UEFI во внутренней памяти Android, чтобы избежать случайной прошивки при следующей попытке перейти на Windows с Android
 
 #### Перезагрузитесь в Windows
