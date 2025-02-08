@@ -5,9 +5,9 @@
 ## Исправление GPT для безопасного использования Windows 24H2
 
 ### Требования:
-- [```Уже Установленная Windows```](selection-ru.md)
+- [```Уже установленная Windows```](selection-ru.md)
 
-- [```образ Recovery```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```Образ реквавери```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
 - [```platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
@@ -20,7 +20,7 @@
 ### Загрузка в fastboot
 - Загрузите NABU в **fastboot**, удерживая нажатой кнопку **`уменьшения громкости`** во время перезагрузки с подключенным USB-кабелем
 
-### Загрузка в модифицированый Recovery
+### Загрузка в модифицированый рекавери
 > Замените `путь\к\recovery.img` на фактический путь к загруженному файлу **recovery.img**
 ```cmd
 fastboot boot путь\к\recovery.img
@@ -29,7 +29,7 @@ fastboot boot путь\к\recovery.img
 ### Исправление GPT
 > После загрузки в recovery
 >
-> Если он попросит вас запустить его ещё раз, сделайте это
+> Скрипт может попросить вас запустить его еще раз. В таком случае, выполните эту же команду заново.
 ```cmd
 adb shell fixgpt
 ```
@@ -39,4 +39,4 @@ adb shell fixgpt
 adb reboot
 ```
 
-## ✅ Готово! Теперь можно безопасно использовать Windows 24H2. С наступающим Новым Годом вас!
+## ✅ Готово! Теперь можно безопасно использовать Windows 24H2.
