@@ -44,7 +44,7 @@
 
 - [**`♻️Переустановка`**](reinstall-ru.md)
 
-- [**`📱Re-rooting Android`**](Re-rooting-ru.md)
+- [**`📱Ре-рутинг Android`**](Re-rooting-ru.md)
 
 - [**`📂Полезные приложения и инструкции`**](Additional-materials-ru.md)
 
