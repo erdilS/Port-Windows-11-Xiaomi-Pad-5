@@ -1,50 +1,54 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-# Полезные приложения и инструкции для Windows на Xiaomi pad 5
+# Полезные инструкции для Windows на Xiaomi pad 5
 
-### List of supported apps/games
-> These are by no means comprehensive lists, they do however list apps/games that have been tested by the community
+### Отключение SecureBoot
+> [!Important]
+> Используйте этот гайд, только если вам необходимо отключить SecureBoot.
 
-- [Renegade Google Sheets list](https://docs.google.com/spreadsheets/d/1XYuoySgYQE0HL573sA-0RGMX7I4lt5rWJuQ8Z8yRJNY/edit?usp=drivesdk)
+- [Перейдите на страницу гайда и следуйте ему](/guide/Russian/disable-secureboot-ru.md)
 
-- [ARM Repo (native ARM software)](https://armrepo.ver.lt/)
+### Списки поддерживаемых игр/приложений
+> Эти списки ни в коем случае не полные, однако в них перечислены те игры/приложения, что были протестированы сообществом.
 
-- [News & supported applications](https://windowsonarm.org/)
+- [Google таблица Renegade](https://docs.google.com/spreadsheets/d/1XYuoySgYQE0HL573sA-0RGMX7I4lt5rWJuQ8Z8yRJNY/edit?usp=drivesdk)
 
-#### Finished!
+- [ARM Repo (нативные ARM приложения)](https://armrepo.ver.lt/)
 
-
-### Toggling USB host mode
-> [!Warning]
-> Disable USB host mode if you use a powered USB hub, as this can irreversibly damage your device. If you don't use a powered USB hub, enable USB host mode or you will not be able to use any USB devices.
-
-- Run [USB Host Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) to enable/disable USB host mode, then confirm that you want to disable/enable USB host mode.
-- If USB host mode is currently enabled and USB does not work, turn it off, then back on.
-
-#### Finished!
+- [Новости и поддерживаемые приложения](https://windowsonarm.org/)
 
 
-### Install Microsoft Office
-- Go to [Gravesoft's Office installer page](https://gravesoft.dev/office_c2r_links).
-- Download the installer that fits your purposes. Make sure you select `Online x64`.
-- Open the `setup.exe` and follow any instructions provided within.
+### Переключение режима USB хоста
+> [!WARNING]
+> Выключите режим USB хоста, если вы используете USB-хаб с питанием,посколько он может сломать ваш порт. Если вы не используете такой хаб, включите режим USB хоста, иначе ни одно устройство USB не будет работать.
 
-#### Finished!
+- Запустите [USB Host Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) для включения или отключения режима USB хоста, а затем подтвердите свой выбор.
+- Если режим USB хоста включен,но устройства USB всё равно не работают, выключите режим USB хоста и включите занаво.
 
-
-### Activate Windows / Office
-- Follow the instructions by Massgravel [here](https://github.com/massgravel/Microsoft-Activation-Scripts)
-
-#### Finished!
+#### Готово!
 
 
-### Making the keyboard float
+### Установка Microsoft Office
+- Перейдите на [страницу установки Office от Gravesoft](https://gravesoft.dev/office_c2r_links).
+- Скачайте установщик, подходящий вашим требованиям. Убедитесь, что вы выбрали установщик `Online x64`.
+- Откройте `setup.exe` и следуйте всем инструкциям в приложении.
+
+#### Готово!
+
+
+### Активация Windows / Office
+- [Следуйте этой инструкции от Massgravel](https://github.com/massgravel/Microsoft-Activation-Scripts)
+
+#### Готово!
+
+
+### Включение плавающей клавиатуры
 > [!WARNING]  
-> Make sure these steps are done on the device running Windows, not your computer!
+> Убедитесь,что вы выполняете эти шаги на планшете, а не на вашем компьютере!
 
-- Open CMD as an administrator and run ```reg delete HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Scaling /v MonitorSize```
-- Press `y` then enter.
-- Reboot your device.
+- Откройте консоль от имени администратора и введите ```reg delete HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Scaling /v MonitorSize```
+- После этого нажмите `y`.
+- Перезагрузите планшет.
 
-##### Finished!
+##### Готово!
 
