@@ -65,6 +65,7 @@ adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.
   <summary><strong>Нажмите здесь, чтобы перейти к способу 1</strong></summary> 
 
 ### Запустите скрипт разбиения
+
 > [!NOTE]
 > 
 > Замените **$** на объём памяти, который вы хотите выделить для Windows (не добавляйте ГБ, просто напишите число)
