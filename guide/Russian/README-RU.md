@@ -3,7 +3,7 @@
 
 # Запуск Windows на Xiaomi Pad 5
 
-[![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
+[![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoaru)
 
 ## Языки
 **```Русский```** | [```English```](/README.md) | [```Português```](/guide/Portuguese/README-PT.md) | [```Türkçe```](/guide/Turkish/README-tr.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | [```한국어```](/guide/Korean/README-KO.md) |  [```简体中文```](/guide/Simplified%20Chinese/README-CN.md)
@@ -24,6 +24,8 @@
 
 ## Начнём
 
+- [**`📖ВАЖНО! Перед установкой...`**](important-ru.md)
+  
 - [**`📊Статус Проекта`**](status.md)
   
 - [**`📥Установка`**](selection-ru.md)
@@ -44,7 +46,7 @@
 
 - [**`♻️Переустановка`**](reinstall-ru.md)
 
-- [**`📱Re-rooting Android`**](Re-rooting-ru.md)
+- [**`📱Ре-рутинг Android`**](Re-rooting-ru.md)
 
 - [**`📂Полезные приложения и инструкции`**](Additional-materials-ru.md)
 
