@@ -2,11 +2,11 @@
 
 # Windows на Xiaomi Pad 5
 
-## Re-rooting Android
-В этом разделе мы подробно рассмотрим процесс повторного получения root-прав на вашем устройстве после обновления MIUI/Hyper OS, либо другой прошивки, в ходе которого root-доступ был утрачен.
+## Ре-рутинг Android
+В этом разделе мы подробно рассмотрим процесс повторного получения root-прав на вашем устройстве после обновления MIUI/Hyper OS, либо другой прошивки, после которого root-доступ был утрачен.
 
 ### Требования
-- [```образ recovery```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```Образ рекавери```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
   
 - [```SDK Platform Tools```](https://developer.android.com/studio/releases/platform-tools)
 
@@ -17,8 +17,8 @@
 
 - Подключите его к ПК/ноутбуку с помощью кабеля
 
-### Загрузитесь в модифицированное recovery
-> Находясь в fastboot, замените `путь\к\recovery.img` фактическим путём к образу recovery 
+### Загрузитесь в модифицированный рекавери
+> Находясь в fastboot, замените `путь\к\recovery.img` фактическим путём к образу рекавери
 ```cmd
 fastboot boot путь\к\recovery.img
 ```
@@ -51,16 +51,6 @@ adb reboot
 > **Обновлённый boot.img будет автоматически создан в C:\ при следующей перезагрузке в Windows**
 
 ## Готово!
-
-
-
-
-
-
-
-
-
-
 
 
 
