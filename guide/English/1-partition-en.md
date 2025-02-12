@@ -60,29 +60,10 @@ adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.
 >
 > ▶️ Click to expand the menu.
 
-### Method 1: Automatic partitioning (recommended)
+### Method 1: Manual partitioning (use it only if you know what you're doing)
 
 <details>
   <summary><strong>Click here for method 1</strong></summary> 
-
-### Run the partitioning script
-> Replace **$** with the amount of storage you want Windows to have (do not add GB, just write the number)
-> 
-> If it asks you to run it once again, do so
-```cmd
-adb shell partition $
-```
-
-### [Next step: Rooting your device](/guide/English/2-rootguide-en.md)
-
-</details>
-
-----
-
-### Method 2: Manual partitioning (use it only if you know what you're doing)
-
-<details>
-  <summary><strong>Click here for method 2</strong></summary> 
 
 #### Unmount data
 > Ignore any possible errors and continue
@@ -176,6 +157,24 @@ adb reboot
 
 </details>
 
+### Method 2: Automatic partitioning (recommended)
+
+<details>
+  <summary><strong>Click here for method 2</strong></summary> 
+
+### Run the partitioning script
+> Replace **$** with the amount of storage you want Windows to have (do not add GB, just write the number)
+> 
+> If it asks you to run it once again, do so
+```cmd
+adb shell partition $
+```
+
+### [Next step: Rooting your device](/guide/English/2-rootguide-en.md)
+
+</details>
+
+----
 
 
 
