@@ -6,12 +6,12 @@
 
 ### Select your language
 - [**`English`**](English/disable-secureboot-en.md)
-- [**`Português`**](Portuguese/disable-secureboot-pt.md)
-- [**`Turkish`**](Turkish/disable-secureboot-tr.md)
+- ~~[**`Português`**](Portuguese/disable-secureboot-pt.md)~~
+- ~~[**`Turkish`**](Turkish/disable-secureboot-tr.md)~~
 - [**`Russian`**](Russian/disable-secureboot-ru.md)
 - [**`Ukrainian`**](Ukrainian/disable-secureboot-uk.md)
 - [**`Korean`**](Korean/disable-secureboot-ko.md)
-- [**`Simplified Chinese`**](Simplified%20Chinese/disable-secureboot-cn.md)
+- ~~[**`Simplified Chinese`**](Simplified%20Chinese/disable-secureboot-cn.md)~~
 
 
 

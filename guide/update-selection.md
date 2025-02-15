@@ -7,12 +7,12 @@
 ### Select your language
 
 - [**`English`**](English/update-en.md)
-- [**`Português`**](Portuguese/update-pt.md)
-- [**`Turkish`**](Turkish/update-tr.md)
+- ~~[**`Português`**](Portuguese/update-pt.md)~~
+- ~~[**`Turkish`**](Turkish/update-tr.md)~~
 - [**`Russian`**](Russian/update-ru.md)
 - [**`Ukrainian`**](Ukrainian/update-uk.md)
 - [**`Korean`**](Korean/update-ko.md)
-- [**`Simplified Chinese`**](Simplified%20Chinese/update-cn.md)
+- ~~[**`Simplified Chinese`**](Simplified%20Chinese/update-cn.md)~~
 
 
 

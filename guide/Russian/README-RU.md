@@ -3,13 +3,10 @@
 
 # Запуск Windows на Xiaomi Pad 5
 
-[![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoaru)
+[![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
 
 ## Языки
-**```Русский```** | [```English```](/README.md) | [```Português```](/guide/Portuguese/README-PT.md) | [```Türkçe```](/guide/Turkish/README-tr.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | [```한국어```](/guide/Korean/README-KO.md) |  [```简体中文```](/guide/Simplified%20Chinese/README-CN.md)
-
-> [!NOTE]
-> Возможно, другие языки, помимо английского, не всегда будут актуальны.
+**```Русский```** | [```English```](/README.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | [```한국어```](/guide/Korean/README-KO.md)
 
 ## ⚠️ Предупреждение
 > [!NOTE]
@@ -19,8 +16,22 @@
 > [!WARNING]
 > ЕСЛИ ВЫ ОПАСАЕТЕСЬ ВНОСИТЬ ИЗМЕНЕНИЯ В СВОЙ ПЛАНЕТ ИЛИ НЕ УВЕРЕНЫ, ЧТО СПРАВИТЕСЬ С ЭТОЙ ЗАДАЧЕЙ, ПОЖАЛУЙСТА, ПРЕКРАТИТЕ ЧТЕНИЕ НЕМЕДЛЕННО! ВЫ БЫЛИ ПРЕДУПРЕЖДЕНЫ О ВОЗМОЖНЫХ РИСКАХ, И ОТВЕТСТВЕННОСТЬ ЗА ИХ ПРИНЯТИЕ ЛЕЖИТ НА ВАС.
 
+> [!CAUTION]
+> **❗For everyone not using latest drivers and UEFI you MUST update or reinstall Windows and use the [latest release](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers) (v2501.27)❗**
+>
+> **Otherwise you have a constant risk of your UFS DYING AT ANY TIME NO MATTER WHAT!**
+>
+> [**Reinstall guide**](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/English/reinstall-en.md)
+>
+> [**Update guide**](https://github.com/Kumar-Jy/Windows-in-NABU-Without-PC/blob/main/guide/DriverUpdate.md)
+>
+> **UPDATING IS ONLY POSSIBLE WITH WININSTALLER AND WILL TAKE 3.5 HOURS. MAKE SURE YOUR BATTERY IS FULL.**
+>
+>
+> **❗️REINSTALLING IS RECOMMENDED BECAUSE THE NEXT UPDATE WILL REQUIRE A REINSTALL IF YOU UPDATED FROM OLDER DRIVERS❗️**
+
 > [!WARNING]
-> **ПОЖАЛУЙСТА, НЕ ОБРАЩАЙТЕСЬ К УСТАРЕВШИМ ВИДЕОИНСТРУКЦИЯМ, ДОСТУПНЫМ НА YOUTUBE ИЛИ ДРУГИХ ПЛАТФОРМАХ! ЭТИ МАТЕРИАЛЫ НЕ ЯВЛЯЮТСЯ АКТУАЛЬНЫМИ, И ИХ ИСПОЛЬЗОВАНИЕ МОЖЕТ ПРИВЕСТИ К ПОЛОМКЕ ВАШЕГО УСТРОЙСТВА. ЕСЛИ ВАМ ВСЁ ЖЕ НУЖЕН ВИДЕОГАЙД УСПОЛЬЗУЙТЕ ЭТОТ [ВИДЕОГАЙД](https://youtu.be/BbgTbTGbXYg) ОТ [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
+> **ПОЖАЛУЙСТА, НЕ ИСПОЛЬЗУЙТЕ УСТАРЕВШИЕ ВИДЕОИНСТРУКЦИИ НА YOUTUBE ИЛИ ДРУГИХ ПЛАТФОРМАХ! ЭТИ МАТЕРИАЛЫ НЕ ЯВЛЯЮТСЯ АКТУАЛЬНЫМИ, И ИХ ИСПОЛЬЗОВАНИЕ МОЖЕТ ПРИВЕСТИ К 🧱🧱🧱 ВАШЕГО УСТРОЙСТВА. 
 
 ## Начнём
 
@@ -49,6 +60,10 @@
 - [**`📱Ре-рутинг Android`**](Re-rooting-ru.md)
 
 - [**`📂Полезные приложения и инструкции`**](Additional-materials-ru.md)
+
+- [**`🔧Исправление GPT чтобы безопасно использовать Windows 24H2`**](fix-gpt-ru.md)
+
+- [**`🧱Восстановление устройства в режиме edl`**](edl-ru.md)
 
 ## Соавторы 
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
@@ -79,5 +94,5 @@
 [<img alt="Ost268" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/99175924?s=96&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/galaxysollector)
 [<img alt="gvzd" src="https://i.ibb.co/VxsvNZ6/Ellipse-1.png" />](https://https://github.com/gvzd)
 [<img alt="chiyuki0325" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/73830635?s=96&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/chiyuki0325)
-[<img alt="Andrew-star2008" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/149420042?&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Andrew-star2008)
-
+[<img alt="Kumar-Jy" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/20044626?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Kumar-Jy)
+[<img alt="ArKT-7" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/157277855?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/ArKT-7)

@@ -5,7 +5,7 @@
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
 
 ## 언어
-[```Русский```](/guide/Russian/README-RU.md) | [```English```](/README.md) | [```Português```](/guide/Portuguese/README-PT.md) | [```Türkçe```](/guide/Turkish/README-tr.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | **```한국어```** | [```简体中文```](/guide/Simplified%20Chinese/README-CN.md)
+[```Русский```](/guide/Russian/README-RU.md) | [```English```](/README.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | **```한국어```** 
 
 ## ⚠️ 경고
 > [!NOTE]
@@ -14,6 +14,20 @@
 
 > [!WARNING]
 > **태블릿이나 파티션 테이블을 개조하는 것이 불편하거나 장치를 벽돌로 만드는 것이 걱정된다면 돌아가셔도 좋습니다. 다만 이 과정은 간단하므로 초보자도 할 수 있습니다. 설명대로 잘 따라하기만 한다면 과정을 완료할 수 있을 것입니다.**
+
+> [!CAUTION]
+> **❗For everyone not using latest drivers and UEFI you MUST update or reinstall Windows and use the [latest release](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers) (v2501.27)❗**
+>
+> **Otherwise you have a constant risk of your UFS DYING AT ANY TIME NO MATTER WHAT!**
+>
+> [**Reinstall guide**](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/English/reinstall-en.md)
+>
+> [**Update guide**](https://github.com/Kumar-Jy/Windows-in-NABU-Without-PC/blob/main/guide/DriverUpdate.md)
+>
+> **UPDATING IS ONLY POSSIBLE WITH WININSTALLER AND WILL TAKE 3.5 HOURS. MAKE SURE YOUR BATTERY IS FULL.**
+>
+>
+> **❗️REINSTALLING IS RECOMMENDED BECAUSE THE NEXT UPDATE WILL REQUIRE A REINSTALL IF YOU UPDATED FROM OLDER DRIVERS❗️**
 
 > [!WARNING]
 > **동영상 가이드를 이용하지 마세요!**

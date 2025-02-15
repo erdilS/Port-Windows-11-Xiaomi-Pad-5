@@ -4,10 +4,7 @@
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
 
 ## Мова
-[```Русский```](/guide/Russian/README-RU.md) | [```English```](/README.md) | [```Português```](/guide/Portuguese/README-PT.md) | [```Türkçe```](/guide/Turkish/README-tr.md) | **```Ukrainian```** | [```한국어```](/guide/Korean/README-KO.md) |  | [```简体中文```](/guide/Simplified%20Chinese/README-CN.md)
-
-> [!NOTE]
-> Мови, окрім англійської, не завжди можуть бути актуальними 
+[```Русский```](/guide/Russian/README-RU.md) | [```English```](/README.md) | **```Ukrainian```** | [```한국어```](/guide/Korean/README-KO.md)
 
 > [!Note]
 > - Ми не несемо відповідальності за заблоковані пристрої, відсутні розділи відновлення, мертві працівники заводу Xiaomi, мертві pmics, мертву оперативну пам'ять, мертві мікросхеми дисплея, мертві процесори, будь-які махінації xiaomi, мертвих кішок або собак, ядерні війни або звільнення, тому що ви забули завантажити Android назад для будильника.
@@ -16,8 +13,22 @@
 > [!Warning]
 > **ЯКЩО ВАМ НЕЗРУЧНО МОДИФІКУВАТИ СВІЙ ПЛАНШЕТ АБО ЙОГО ТАБЛИЦЮ РОЗДІЛІВ, АБО ВИ ПАРАНОЇДАЄТЕСЯ ЗЛАМАТИ СВІЙ СВІЙ ПРИСТРІЙ, БУДЬ ЛАСКА ПОКИНЬТЕ ЦЮ СТОРІНКУ ЗАРАЗ!! ВАС ПОПЕРЕДИЛИ, ВИ БУДЕТЕ ВИННІ САМІ, ЯКЩО ЗЛАМАЄТЕ СВІЙ ПРИСТРІЙ!!! ВАС ПОПЕРЕДИЛИ!!!**
 
+> [!CAUTION]
+> **❗For everyone not using latest drivers and UEFI you MUST update or reinstall Windows and use the [latest release](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers) (v2501.27)❗**
+>
+> **Otherwise you have a constant risk of your UFS DYING AT ANY TIME NO MATTER WHAT!**
+>
+> [**Reinstall guide**](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/English/reinstall-en.md)
+>
+> [**Update guide**](https://github.com/Kumar-Jy/Windows-in-NABU-Without-PC/blob/main/guide/DriverUpdate.md)
+>
+> **UPDATING IS ONLY POSSIBLE WITH WININSTALLER AND WILL TAKE 3.5 HOURS. MAKE SURE YOUR BATTERY IS FULL.**
+>
+>
+> **❗️REINSTALLING IS RECOMMENDED BECAUSE THE NEXT UPDATE WILL REQUIRE A REINSTALL IF YOU UPDATED FROM OLDER DRIVERS❗️**
+
 > [!WARNING]
-> **БУДЬ ЛАСКА, НЕ ВИКОРИСТОВУЙТЕ ВІДЕО ПОСІБНИКИ НА YOUTUBE АБО ІНШІЙ ПЛАТФОРМІ! ЦІ ВІДЕО ЗАСТАРІЛИ, І ВИ МОЖЕТЕ ЗЛАМАТИ СВІЙ ПРИСТРІЙ! ЯКЩО ВАМ КОНЧЕ ПОТРІБЕН ВІДЕОГАЙД, СКОРИСТАЙТЕСЯ ЦИМ [ВІДЕОПОСІБНИКОМ](https://youtu.be/BbgTbTGbXYg) ВІД [ArtoSeVeN](https://www.youtube.com/channel/UCYjwfxlYlJ7Nnzv01oszQvA)**
+> **БУДЬ ЛАСКА, НЕ ВИКОРИСТОВУЙТЕ ВІДЕО ПОСІБНИКИ НА YOUTUBE АБО ІНШІЙ ПЛАТФОРМІ! ЦІ ВІДЕО ЗАСТАРІЛИ, І ВИ МОЖЕТЕ ЗЛАМАТИ СВІЙ ПРИСТРІЙ! 
 
 ## Початок
 - [**`📖ВАЖЛИВО: ПРОЧИТАЙТЕ ПЕРШИМ!`**](important.md)
@@ -78,6 +89,8 @@
 [<img alt="Ost268" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/99175924?s=96&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/galaxysollector)
 [<img alt="gvzd" src="https://i.ibb.co/VxsvNZ6/Ellipse-1.png" />](https://https://github.com/gvzd)
 [<img alt="chiyuki0325" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/73830635?s=96&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/chiyuki0325)
+[<img alt="Kumar-Jy" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/20044626?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Kumar-Jy)
+[<img alt="ArKT-7" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/157277855?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/ArKT-7)
 
 
 
