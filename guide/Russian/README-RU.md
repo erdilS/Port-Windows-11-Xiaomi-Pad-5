@@ -17,18 +17,18 @@
 > ЕСЛИ ВЫ ОПАСАЕТЕСЬ ВНОСИТЬ ИЗМЕНЕНИЯ В СВОЙ ПЛАНЕТ ИЛИ НЕ УВЕРЕНЫ, ЧТО СПРАВИТЕСЬ С ЭТОЙ ЗАДАЧЕЙ, ПОЖАЛУЙСТА, ПРЕКРАТИТЕ ЧТЕНИЕ НЕМЕДЛЕННО! ВЫ БЫЛИ ПРЕДУПРЕЖДЕНЫ О ВОЗМОЖНЫХ РИСКАХ, И ОТВЕТСТВЕННОСТЬ ЗА ИХ ПРИНЯТИЕ ЛЕЖИТ НА ВАС.
 
 > [!CAUTION]
-> **❗For everyone not using latest drivers and UEFI you MUST update or reinstall Windows and use the [latest release](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers) (v2501.27)❗**
+> **❗Всем, кто не использует последние версии драйверов и UEFI, необходимо обновить или переустановить Windows и использовать [последнюю версию](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers) (v2501.27)❗**
 >
-> **Otherwise you have a constant risk of your UFS DYING AT ANY TIME NO MATTER WHAT!**
+> **В противном случае вы постоянно рискуете, что ваш UFS УМРЕТ В ЛЮБОЙ МОМЕНТ, НЕСМОТРЯ НИ НА ЧТО!**
 >
-> [**Reinstall guide**](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/English/reinstall-en.md)
+> [**Руководство по переустановке**](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/English/reinstall-en.md)
 >
-> [**Update guide**](https://github.com/Kumar-Jy/Windows-in-NABU-Without-PC/blob/main/guide/DriverUpdate.md)
+> [**Руководство по обновлению**](https://github.com/Kumar-Jy/Windows-in-NABU-Without-PC/blob/main/guide/DriverUpdate.md)
 >
-> **UPDATING IS ONLY POSSIBLE WITH WININSTALLER AND WILL TAKE 3.5 HOURS. MAKE SURE YOUR BATTERY IS FULL.**
+> **ОБНОВЛЕНИЕ ВОЗМОЖНО ТОЛЬКО С ПОМОЩЬЮ WININSTALLER И ЗАЙМЕТ 3,5 часа. УБЕДИТЕСЬ, что ВАША БАТАРЕЯ ЗАРЯЖЕНА.**
 >
 >
-> **❗️REINSTALLING IS RECOMMENDED BECAUSE THE NEXT UPDATE WILL REQUIRE A REINSTALL IF YOU UPDATED FROM OLDER DRIVERS❗️**
+> **❗️РЕКОМЕНДУЕТСЯ ПЕРЕУСТАНОВКА, ПОСКОЛЬКУ СЛЕДУЮЩЕЕ ОБНОВЛЕНИЕ ПОТРЕБУЕТ ПОВТОРНОЙ УСТАНОВКИ, ЕСЛИ ВЫ ОБНОВЛЯЛИСЬ С БОЛЕЕ СТАРЫХ ДРАЙВЕРОВ❗️**
 
 > [!WARNING]
 > **ПОЖАЛУЙСТА, НЕ ИСПОЛЬЗУЙТЕ УСТАРЕВШИЕ ВИДЕОИНСТРУКЦИИ НА YOUTUBE ИЛИ ДРУГИХ ПЛАТФОРМАХ! ЭТИ МАТЕРИАЛЫ НЕ ЯВЛЯЮТСЯ АКТУАЛЬНЫМИ, И ИХ ИСПОЛЬЗОВАНИЕ МОЖЕТ ПРИВЕСТИ К 🧱🧱🧱 ВАШЕГО УСТРОЙСТВА. 
