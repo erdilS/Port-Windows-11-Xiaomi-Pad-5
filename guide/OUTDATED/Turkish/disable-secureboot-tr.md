@@ -13,7 +13,7 @@
 
 - [```Kurtarma Görüntüsü```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-- [```UEFI görüntüsü (Secureboot kapalı)```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-NoSecureboot-v3.img)
+- [```UEFI görüntüsü (Secureboot kapalı)```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/XXXnabu-NoSecureboot-v4.img)
 
 ## Secureboot'un Artıları ve Eksileri
 > Varsayılan olarak, bu kılavuzda secureboot etkindir.
