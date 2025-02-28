@@ -6,7 +6,7 @@
 
 ### Select your language
 
-- [**`English`**](English/selection-en.md)
+- [**`English`**](English/installation-selection-en.md)
 - ~~[`Português`](Portuguese/selection-pt.md)~~
 - ~~[`Turkish`](Turkish/selection-tr.md)~~
 - [**`Russian`**](Russian/selection-ru.md)
