@@ -15,7 +15,7 @@
 
 - [```Recovery 镜像```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-- [```无安全启动的 UEFI 镜像```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-NoSecureboot-v3.img)
+- [```无安全启动的 UEFI 镜像```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/XXXnabu-NoSecureboot-v4.img)
 
 ## 安全启动的利弊
 > 默认情况下，本指南中启用了安全启动
