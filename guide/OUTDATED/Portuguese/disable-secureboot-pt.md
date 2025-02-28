@@ -14,7 +14,7 @@
 
 - [```Imagem do Recovery```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-- [```Imagem UEFI (Secureboot off)```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-NoSecureboot-v3.img)
+- [```Imagem UEFI (Secureboot off)```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/XXXnabu-NoSecureboot-v4.img)
 
 ## Vantagens e desvantagens de ter secureboot
 > Por padrão, ele já vem ativado, nada precisa ser feito se você quer assim
