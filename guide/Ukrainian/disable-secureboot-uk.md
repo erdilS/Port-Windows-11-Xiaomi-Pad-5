@@ -13,7 +13,7 @@
 
 - [```Образ відновлення```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-- [```Образ UEFI з вимкненним secureboot```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-NoSecureboot-v3.img)
+- [```Образ UEFI з вимкненним secureboot```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/XXXnabu-NoSecureboot-v4.img)
 
 ## Плюси та мінуси безпечного завантаження
 > За умовчанням безпечне завантаження ввімкнено в цьому посібнику
