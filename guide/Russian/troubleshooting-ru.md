@@ -56,9 +56,9 @@ adb shell parted /dev/block/sda
 - Откройте папку драйвера
 - Удалите строку ```<DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.NABU\Drivers\USB" Name="fsa4480.inf" ID="fsa4480"/>``` из NABU.xml
 - Переустановите драйвер
-- Загрузите UEFI
+- Загрузитесь в Windows
 > [!NOTE]
-> Если вы все еще получаете BSOD, воспользуйтесь руководством [по переустановке](guide/Russian/reinstall-ru.md)
+> Если вы все еще получаете BSOD, воспользуйтесь руководством [по переустановке](/guide/Russian/reinstall-ru.md)
 
 ##### Готово!
 
