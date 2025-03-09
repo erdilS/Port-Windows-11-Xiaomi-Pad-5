@@ -14,7 +14,7 @@
 - [```Последняя версия UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/nabu-uefi-v4.img)
 
 ## Замените старый UEFI на новый
-> Если вы ещё не настроили двойную загрузку, то выполните [настройку двойной загрузки](/guide/Russian/4-dualboot-ru.md), что бы настроить WOA Helper правильно
+> Если вы ещё не настроили двойную загрузку, то выполните [настройку двойной загрузки](dualboot-ru.md), что бы настроить WOA Helper правильно
 - Загрузитесь в Android
 - Откройте папку `UEFI` во внутренней памяти Android 
 - Удалите старый UEFI
