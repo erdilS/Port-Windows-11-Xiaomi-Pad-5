@@ -9,7 +9,7 @@
 ### Предварительные условия
 - ```Мозг```
   
-- [```Magisk.apk```](https://github.com/topjohnwu/Magisk/releases/latest)
+- [```magisk.apk```](https://github.com/topjohnwu/Magisk/releases/latest)
 
 ### Прошивка magisk 
 - Скачайте [`magisk.apk`](https://github.com/topjohnwu/Magisk/releases/latest) на ваш ПК/Ноутбук

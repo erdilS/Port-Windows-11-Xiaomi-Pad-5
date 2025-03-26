@@ -10,7 +10,7 @@
   
 - [```SDK Platform Tools```](https://developer.android.com/studio/releases/platform-tools)
 
-- [```Magisk.apk```](https://github.com/topjohnwu/Magisk/releases/latest)
+- [```magisk.apk```](https://github.com/topjohnwu/Magisk/releases/latest)
   
 ### Перезагрузите планшет в **fastboot**
 - Загрузите планшет в **fastboot**, удерживая кнопку **громкости вниз** во время перезагрузки
@@ -40,7 +40,7 @@ adb reboot
 - Настройте своё устройство, затем скачайте и установите [Magisk](https://github.com/topjohnwu/Magisk/releases/latest), если он ещё не установлен.
 - Откройте приложение **Magisk** и следуйте инструкциям на экране. Через несколько секунд ваше устройство перезагрузится.
 
-### Обновите boot.img в Windows C:\
+### Обновите boot.img в Windows на диске C:\
 - Перезагрузитесь обратно в Android 
 - Откройте приложение ```WOA Helper```
 - Смонтируйте ```Windows```
@@ -48,7 +48,7 @@ adb reboot
 - Удалите ```boot.img```
 
 > [!NOTE]
-> **Обновлённый boot.img будет автоматически создан в C:\ при следующей перезагрузке в Windows**
+> **Обновлённый boot.img будет автоматически создан в диске C:\ при следующей перезагрузке в Windows**
 
 ## Готово!
 
