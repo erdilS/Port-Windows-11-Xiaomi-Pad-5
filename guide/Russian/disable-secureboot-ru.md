@@ -41,7 +41,7 @@ adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.
 ```
 
 #### Загрузитесь в рекавери
-> Замените <путь\к\recovery> на фактический путь к образу рекавери
+> Замените <путь\к\recovery.img> на фактический путь к образу рекавери
 ```cmd
 fastboot boot <путь\к\recovery.img>
 ```
