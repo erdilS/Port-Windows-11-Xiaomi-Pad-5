@@ -11,7 +11,7 @@
 
 - [Образ UEFI](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
 
-- [Драйвера](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
+- [Драйверы](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 
 ### Загрузитесь в recovery
 > Замените `путь\к\recovery.img` на действительный путь к recovery.img
@@ -64,7 +64,7 @@ adb reboot
 
 ## Обновление UEFI 
 > [!Warning]
-> Если вы переходите от более старой версии UEFI, выпущенной до 2 февраля 2025 года, к UEFI-V4, вам потребуется обновить драйверы. Это можно сделать с помощью [гайда по обновлению драйверов](update-ru.md).
+> Если вы переходите от более старой версии UEFI, выпущенной до 2 февраля 2025 года, к UEFI-V4, вам потребуется обновить драйверы. Это можно сделать с помощью [гайда по обновлению драйверов]([update-ru.md](https://github.com/Alexey-Proger/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/Russian/update-ru.md#%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B4%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%D0%BE%D0%B2)).
 > 
 > Учтите, что следующий релиз драйверов будет работать, только если вы переустановите Windows с новыми драйверами и UEFI, поэтому есть смысл переустановить Windows сейчас.
 
