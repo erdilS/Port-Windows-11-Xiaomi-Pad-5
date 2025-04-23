@@ -13,7 +13,7 @@
 
 - [```SDK platform-tools```](https://developer.android.com/studio/releases/platform-tools)
 
-- [```Модифицированный образ рекавери```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```Модифицированный образ recovery```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
 ### Заметки:
 > [!NOTE]
