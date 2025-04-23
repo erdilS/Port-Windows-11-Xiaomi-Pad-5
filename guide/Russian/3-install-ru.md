@@ -16,7 +16,7 @@
 - [```Образ UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
 
 ### Опять загрузитесь в модифицированный recovery
-> Замените `путь\к\recovery.img` на актуальный путь к **recovery.img**
+- Замените `путь\к\recovery.img` на актуальный путь к **recovery.img**
 ```cmd
 fastboot boot путь\к\recovery.img
 ```
@@ -28,7 +28,8 @@ adb shell msc
 ```
 
 ### Назначьте буквы WINNABU и ESPNABU
-> Откройте **DriveLetterAssigner** и нажмите `Yes` для автоматического присвоения букв **X** и **Y** для **WINNABU** и **ESPNABU**
+- Откройте **DriveLetterAssigner** и нажмите `Yes` для автоматического присвоения букв **X** и **Y** для **WINNABU** и **ESPNABU**
+
 ### Установка Windows
 > [!Important]
 > Убедитесь, что вы используете командную строку от имени администратора
@@ -36,12 +37,10 @@ adb shell msc
 > [!Important]
 > По соображениям производительности рекомендуется использовать Windows 11 24H2 (сборки, начинающиеся с 261XX, например 26100.2454)
 
-> Замените `путь\к\install.esd` на фактический путь к **install.esd** (он также может называться install.wim или 22631.2861.XXXXXXX.esd)
-
+- Замените `путь\к\install.esd` на фактический путь к **install.esd** (он также может называться install.wim или 22631.2861.XXXXXXX.esd)
 ```cmd
 dism /apply-image /ImageFile:путь\к\install.esd /index:6 /ApplyDir:X:\
 ```
-
 > Если вы получаете `Error 87`, проверьте индекс вашего образа с помощью `dism / get -imageinfo /ImageFile:путь\к\install.esd`, затем замените `index: 6` фактическим номером индекса **Windows 11 Pro** в вашем образе.
 
 ### Копирование вашего boot.img в Windows
@@ -49,7 +48,6 @@ dism /apply-image /ImageFile:путь\к\install.esd /index:6 /ApplyDir:X:\
 
 ### Установка драйверов
 - Распакуйте архив с драйверами, затем откройте файл `OfflineUpdater.cmd` (если появляется ошибка, запустите вместо него `OfflineUpdaterFix.cmd `)
-
 > Если он попросит вас ввести букву, введите букву диска **WINNABU** (которая должна быть **X**), затем нажмите enter
 
 #### Создание файлов загрузчика Windows
@@ -70,13 +68,13 @@ adb reboot bootloader
 ```
 
 #### Загрузка в UEFI
-> Замените `путь\к\uefi.img` на актуальный путь к образу UEFI
+- Замените `путь\к\uefi.img` на актуальный путь к образу UEFI
 ```cmd
 fastboot boot путь\к\uefi.img
 ```
 
 ### Перезагрузка в Android
-> Ваше устройство должно перезагрузиться само по себе после +- 10 минут, после чего вы загрузитесь в Android для последнего шага.
+- Ваше устройство должно перезагрузиться само по себе после +- 10 минут, после чего вы загрузитесь в Android для последнего шага.
 
 ## [Последний шаг: Настройка двойной загрузки](/guide/Russian/4-dualboot-ru.md)
 
