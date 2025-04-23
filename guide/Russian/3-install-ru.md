@@ -9,13 +9,13 @@
 
 - [```DriveLetterAssigner```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)
   
-- [```ARM Windows ESD```](https://arkt-7.github.io/woawin/)
+- [```Windows ARM ESD```](https://arkt-7.github.io/woawin/)
     
 - [```Драйвера```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 
 - [```Образ UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
 
-### Опять загрузитесь в модифицированный рекавери
+### Опять загрузитесь в модифицированный recovery
 > Замените `путь\к\recovery.img` на актуальный путь к **recovery.img**
 ```cmd
 fastboot boot путь\к\recovery.img
@@ -28,7 +28,7 @@ adb shell msc
 ```
 
 ### Назначьте буквы WINNABU и ESPNABU
-> Откройте скрипт **DriveLetterAssigner** и нажмите букву `Y` на вашей клавиатуре для автоматического присвоения букв **X** и **Y** для **WINNABU** и **ESPNABU**
+> Откройте **DriveLetterAssigner** и нажмите `Yes` для автоматического присвоения букв **X** и **Y** для **WINNABU** и **ESPNABU**
 ### Установка Windows
 > [!Important]
 > Убедитесь, что вы используете командную строку от имени администратора
@@ -39,13 +39,13 @@ adb shell msc
 > Замените `путь\к\install.esd` на фактический путь к **install.esd** (он также может называться install.wim или 22631.2861.XXXXXXX.esd)
 
 ```cmd
-dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
+dism /apply-image /ImageFile:путь\к\install.esd /index:6 /ApplyDir:X:\
 ```
 
-> Если вы получаете `Error 87`, проверьте индекс вашего образа с помощью `dism / get -imageinfo /ImageFile: path \to \install .esd`, затем замените `index: 6` фактическим номером индекса **Windows 11 Pro** в вашем образе.
+> Если вы получаете `Error 87`, проверьте индекс вашего образа с помощью `dism / get -imageinfo /ImageFile:путь\к\install.esd`, затем замените `index: 6` фактическим номером индекса **Windows 11 Pro** в вашем образе.
 
 ### Копирование вашего boot.img в Windows
-- Перетащите файл **root_boot.img** из папки **platform-tools** на диск **WINNABU** в проводнике Windows, затем переименуйте его в **boot.img**.
+- Перетащите файл **magisk_patched.img** из папки **platform-tools** на диск **WINNABU** в проводнике Windows, затем переименуйте его в **boot.img**.
 
 ### Установка драйверов
 - Распакуйте архив с драйверами, затем откройте файл `OfflineUpdater.cmd` (если появляется ошибка, запустите вместо него `OfflineUpdaterFix.cmd `)
@@ -70,9 +70,9 @@ adb reboot bootloader
 ```
 
 #### Загрузка в UEFI
-> Замените `путь\к\nabu-uefi.img` на актуальный путь к образу UEFI
+> Замените `путь\к\uefi.img` на актуальный путь к образу UEFI
 ```cmd
-fastboot boot path\to\nabu-uefi.img
+fastboot boot путь\к\uefi.img
 ```
 
 ### Перезагрузка в Android
