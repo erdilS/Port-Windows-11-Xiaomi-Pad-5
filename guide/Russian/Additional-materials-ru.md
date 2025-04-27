@@ -3,7 +3,7 @@
 # Полезные инструкции для Windows на Xiaomi pad 5
 
 ### Отключение SecureBoot
-> **Важно.**
+> [!Important]
 > Используйте этот гайд, только если вам необходимо отключить SecureBoot.
 
 - [Перейдите на страницу гайда и следуйте ему](/guide/Russian/disable-secureboot-ru.md)
