@@ -1,4 +1,4 @@
-﻿<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
+<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 
 # Windows на Xiaomi Pad 5
@@ -6,7 +6,7 @@
 ## Переустановка
 Если текущая версия Windows не подходит или была испорчена, вероятно, Вам поможет переустановка Windows, благо это довольно простой процесс.
 
-> [!IMPORTANT]
+> [!ВАЖНО]
 > Совершенно очевидно, что это сотрет все ваши файлы в Windows. Если вы хотите создать резервную копию ваших файлов, вы можете сделать это, смонтировав Windows с помощью приложения [WOA Helper](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk) и вручную скопировав все файлы, которые вы хотите сохранить
 
 ### Требования
@@ -25,7 +25,7 @@
 ### Запустите рекавери для форматирования разделов
 
 ```cmd
-fastboot boot <recovery.img>
+fastboot boot путь/к/recovery.img
 ```
 
 ### Форматирование разделов
