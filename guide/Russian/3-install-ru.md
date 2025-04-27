@@ -44,7 +44,7 @@ dism /apply-image /ImageFile:путь\к\install.esd /index:6 /ApplyDir:X:\
 > Если вы получаете `Error 87`, проверьте индекс вашего образа с помощью `dism / get -imageinfo /ImageFile:путь\к\install.esd`, затем замените `index: 6` фактическим номером индекса **Windows 11 Pro** в вашем образе.
 
 ### Копирование вашего boot.img в Windows
-- Перетащите файл **magisk_patched.img** из папки **platform-tools** на диск **WINNABU** в проводнике Windows, затем переименуйте его в **boot.img**.
+- Перетащите файл **rooted_boot.img** из папки **platform-tools** на диск **WINNABU** в проводнике Windows, затем переименуйте его в **boot.img**.
 
 ### Установка драйверов
 - Распакуйте архив с драйверами, затем откройте файл `OfflineUpdater.cmd` (если появляется ошибка, запустите вместо него `OfflineUpdaterFix.cmd `)
