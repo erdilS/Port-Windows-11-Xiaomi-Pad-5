@@ -98,13 +98,13 @@ adb reboot bootloader
 ```
 
 #### Прошивка UEFI
-> Убедитесь, что вы используете UEFI без SecureBoot с этой страницы, замените `путь\к\uefi-NoSecureboot-v3.img` на фактический путь к образу UEFI
+> Убедитесь, что вы используете UEFI без SecureBoot с этой страницы, замените `путь\к\XXXnabu-NoSecureboot-v4.img` на фактический путь к образу UEFI
 ```cmd
-fastboot flash boot путь\к\uefi-NoSecureboot-v3.img
+fastboot flash boot путь\к\XXXnabu-NoSecureboot-v4.img
 ```
 
 > [!WARNING]
-> Не забудьте также заменить старый UEFI в папке UEFI во внутренней памяти Android, чтобы избежать случайной прошивки при следующей попытке перейти на Windows с Android
+> Не забудьте также заменить старый UEFI в папке UEFI во внутренней памяти Android, чтобы избежать случайной прошивки при следующей перезагрузке в Windows из Android
 
 #### Перезагрузитесь в Windows
 ```cmd
