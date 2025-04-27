@@ -1,4 +1,4 @@
-﻿<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
+<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 
 # Windows на Xiaomi Pad 5
@@ -7,7 +7,7 @@
 
 ## Я не могу переместить файлы в папку Windows из Android
 
-Если вы не можете переместить файлы в папку Windows, это означает, что вы выключили Windows, а не перезапустили ее. Чтобы исправить эту проблему, загрузитесь обратно в Windows и используйте перезагрузку, затем, когда она перезагрузится, загрузитесь в fastboot и используйте его для возврата в Android
+Если вы не можете переместить файлы в папку Windows, это означает, что вы выключили Windows вместо того, чтобы перезагрузить. Чтобы исправить эту проблему, загрузитесь обратно в Windows и перезагрузите устройство, затем, когда устройство перезагрузится, загрузитесь в fastboot и выполните `fastboot boot путь/к/modded-twrp.img` для возврата в Android
 
 ##### Готово!
 
@@ -35,7 +35,7 @@
 > Это сработает, только если у вас есть root-доступ. Если нет, единственный способ восстановить — прошить устройство из EDL с помощью [MrAuthTool](https://mrauthtool.com/)
 
 - Удалите образ **UEFI** из папки UEFI во внутреннем хранилище, затем поместите сюда образ **SHRP recovery**
-- Нажмите `QUICKBOOT TO WINDOWS` в приложении WOA Helper
+- Нажмите `БЫСТРАЯ ЗАГРУЗКА В WINDOWS` в приложении WOA Helper
 - После загрузки в режим восстановления подключите устройство к ПК и выполните:
 ```cmd
 adb shell parted /dev/block/sda
@@ -44,8 +44,8 @@ adb shell parted /dev/block/sda
 - Найдите разделы длиной более 16 символов, например «Basic Data Partition», и запишите их номер тома
 - Переименуйте этот раздел в ```name $ test```, заменив **$** на номер раздела, а **test** на имя, которое вы хотите присвоить разделу
 - Запустите ```quit```
-- Запустите ```adb reboot bootloader```, и когда вы увидите логотип **FASTBOOT** на экране, прошейте образ загрузки Android с помощью ```fastboot flash boot_a path\to\boot.img```
-- Вам может потребоваться сделать то же самое для **boot_b**, если ваше устройство не загружается или загружается обратно в режим восстановления
+- Запустите ```adb reboot bootloader```, и когда вы увидите логотип **FASTBOOT** на экране, прошейте образ загрузки Android с помощью ```fastboot flash boot_a путь\к\boot.img```
+- Вам может потребоваться сделать то же самое для **boot_b**, если ваше устройство не загружается или загружается обратно в режим recovery
 
 > [!Note]
 > Убедитесь, что вы заменили образ восстановления в папке UEFI на файл UEFI
@@ -67,7 +67,7 @@ adb shell parted /dev/block/sda
 
 - ```fastboot set_active other```
 
-- ```fastboot flash boot <boot.img>```
+- ```fastboot flash boot путь\к\boot.img```
 
 - ```fastboot reboot```
 

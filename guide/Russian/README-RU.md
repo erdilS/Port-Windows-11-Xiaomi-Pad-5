@@ -19,11 +19,11 @@
 > [!CAUTION]
 > **❗Всем, кто не использует последние версии драйверов и UEFI, необходимо обновить или переустановить Windows и использовать [ПОСЛЕДНЮЮ версию драйверов](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers) (v2501.27)❗**
 >
-> **В ПРОТИВНОМ СЛУЧАЕ ВАШ UFS УМРЕТ В ЛЮБОЙ МОМЕНТ, НЕСМОТРЯ НИ НА ЧТО!**
+> **В ПРОТИВНОМ СЛУЧАЕ ВАША UFS МОЖЕТ УМРЕТЬ В ЛЮБОЙ МОМЕНТ, НЕСМОТРЯ НИ НА ЧТО!**
 >
-> [**Руководство по переустановке**](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/English/reinstall-en.md)
+> [**Руководство по переустановке**](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/Russian/reinstall-ru.md)
 >
-> [**Руководство по обновлению**](https://github.com/Kumar-Jy/Windows-in-NABU-Without-PC/blob/main/guide/DriverUpdate.md)
+> [**Руководство по обновлению**](https://github.com/Kumar-Jy/Windows-in-NABU-Without-PC/blob/main/guide/Russian/DriverUpdate-ru.md)
 >
 > **ОБНОВЛЕНИЕ ВОЗМОЖНО ТОЛЬКО С ПОМОЩЬЮ WININSTALLER И ЗАЙМЕТ 3,5 часа. УБЕДИТЕСЬ, ЧТО ВАША БАТАРЕЯ ЗАРЯЖЕНА.**
 >
