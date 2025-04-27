@@ -19,17 +19,17 @@ adb push путь\к\magisk.apk /tmp/magisk.zip && adb shell twrp install /tmp/m
 ```
 
 #### Перезагрузка в Android
-> Если он не загружается, войдите в recovery и выполните **сброс к заводским настройкам**
+> Если он не загружается, войдите в режим **recovery** и выполните **сброс к заводским настройкам**
 ```cmd
 adb reboot
 ```
 
 ### Завершение настройки
-- Настройте своё устройство, затем скачайте и установите [Magisk](https://github.com/topjohnwu/Magisk/releases/latest), если он ещё не установлен.
+- Пройдите первоначальную настройку устройства, затем скачайте и установите [Magisk](https://github.com/topjohnwu/Magisk/releases/latest), если он ещё не установлен.
 - Откройте приложение **Magisk** и следуйте инструкциям на экране. Через несколько секунд ваше устройство перезагрузится.
 
 ### Создайте резервную копию загрузочного образа с правами суперпользователя
-> Перезагрузитесь в модифицированный образ восстановления, затем выполните приведенную ниже команду
+> Перезагрузитесь в модифицированный образ [recovery](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img), затем выполните приведенную ниже команду
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```
