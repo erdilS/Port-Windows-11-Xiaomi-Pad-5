@@ -35,15 +35,15 @@
 #### Создайте резервную копию рутированного boot-образа.
 > Она вам понадобится для возврата к Android, но вы можете пропустить этот шаг, если уже создали резервную копию.
 
-Используйте функцию `Backup Android boot` в приложении WOA Helper или загрузитесь в модифицированное рекавери и выполните команду
+Используйте функцию `РЕЗЕРВНОЕ КОПИРОВАНИЕ BOOT ОБРАЗА` в приложении WOA Helper или загрузитесь в модифицированное рекавери и выполните команду
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```
 
 #### Загрузитесь в рекавери
-> Замените <путь\к\recovery.img> на фактический путь к образу рекавери
+> Замените `путь\к\recovery.img` на фактический путь к образу рекавери
 ```cmd
-fastboot boot <путь\к\recovery.img>
+fastboot boot путь\к\recovery.img
 ```
 
 #### Активируйте режим mass storage
@@ -98,9 +98,9 @@ adb reboot bootloader
 ```
 
 #### Прошивка UEFI
-> Убедитесь, что вы используете UEFI без SecureBoot с этой страницы, замените <path\to\uefi-NoSecureboot-v3.img> на фактический путь к образу UEFI
+> Убедитесь, что вы используете UEFI без SecureBoot с этой страницы, замените `путь\к\uefi-NoSecureboot-v3.img` на фактический путь к образу UEFI
 ```cmd
-fastboot flash boot <path\to\uefi-NoSecureboot-v3.img>
+fastboot flash boot путь\к\uefi-NoSecureboot-v3.img
 ```
 
 > [!WARNING]
