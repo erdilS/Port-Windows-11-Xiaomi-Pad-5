@@ -11,7 +11,7 @@
 
 - [```platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
-> [!Важно]
+> [!Important]
 > Если вы хотите безопасно использовать Windows 24H2, выполните следующие действия, чтобы избежать проблем с EDL.
 
 > [!NOTE]
