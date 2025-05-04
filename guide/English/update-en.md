@@ -5,13 +5,15 @@
 ## Updating drivers
 
 ### Prerequisites
-- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+- [`ADB & Fastboot`](https://developer.android.com/studio/releases/platform-tools)
 
-- [Modified recovery image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [`Modified recovery image`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-- [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
+- [```DriveLetterAssigner Tool```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)
 
-- [Drivers](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
+- [`UEFI image`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
+
+- [`Drivers`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 
 ### Boot back into the modded recovery
 > Replace `path\to\recovery.img` with the actual path of the recovery image
@@ -25,26 +27,11 @@ fastboot boot path\to\recovery.img
 adb shell msc
 ```
 
-### Diskpart
-```cmd
-diskpart
-```
+### Assign letter to WINNABU 
+> [!NOTE]
+> You can skip this step if WINNABU already has a drive letter assigned 
 
-#### Select the Windows volume of the tablet
-> Use `list volume` to find it, replace "$" with the actual number of **WINNABU**
-```diskpart
-select volume $
-```
-
-#### Assign the letter X
-```diskpart
-assign letter x
-```
-
-#### Exit diskpart
-```diskpart
-exit
-```
+> Run the **DriveLetterAssigner** and click **`Assign Drive Letter X to Windows Volume Only`** to automatically assign the letter **X** to **WINNABU**
 
 ### Installing drivers
 > [!Note]
