@@ -124,9 +124,9 @@ won-deployer
 ### 준비물
 - [```Magisk 앱```](https://raw.githubusercontent.com/arkt-7/won-deployer/main/files/Magisk_stable.apk)
 
-- [```WoA Helper 앱```](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
+- [```WoA Helper 앱```](https://github.com/n00b69/woa-helper/releases/tag/APK)
 
-- [```UEFI 이미지```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+- [```UEFI 이미지```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
 
 ### 수동 설정 - 안드로이드
 - `Magisk` 앱을 다운로드하고 설치하세요.
