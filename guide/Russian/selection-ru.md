@@ -15,11 +15,11 @@
 
 | **Установите Windows вручную**                                                                       | **Установка Windows без ПК (wininstaller)**                                                 | **Установка Windows с помощью автоматических скриптов (WoN-deployer)**                                                                          |
 |----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| <p align="center"><a href="1-partition-en.md"><img src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="280"></a></p> | <p align="center"><a href="https://github.com/Kumar-Jy/Windows-in-NABU-Without-PC"><img src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="280"></a></p> | <p align="center"><a href="won-deployer-install-en.md"><img src="https://github.com/ArKT-7/won-deployer/blob/main/assets/Won-nabu-bg.png" width="280"></a></p> |
+| <p align="center"><a href="1-partition-ru.md"><img src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="280"></a></p> | <p align="center"><a href="https://github.com/Kumar-Jy/Windows-in-NABU-Without-PC/blob/main/guide/Russian/Installation-ru.md"><img src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="280"></a></p> | <p align="center"><a href="won-deployer-install-ru.md"><img src="https://github.com/ArKT-7/won-deployer/blob/main/assets/Won-nabu-bg.png" width="280"></a></p> |
 | - Сложнее и дольше | - Легко и быстро | - Легко и быстро                         |  |                    
 | - Нужен ПК | - ПК не нужен | - Нужен ПК
 | - Легко устранять ошибки в случае их возникновения | - Трудно устранять ошибки в случае их возникновения | - Трудно устранять ошибки в случае их возникновения
-| [**`Руководство по установке`**](1-partition-ru.md) |[**`WinInstaller гайд`**](https://github.com/Kumar-Jy/Windows-in-NABU-Without-PC) | [**```WoN-Deployer гайд```**](won-deployer-install-ru.md) | 
+| [**`Руководство по установке`**](1-partition-ru.md) |[**`WinInstaller гайд`**](https://github.com/Kumar-Jy/Windows-in-NABU-Without-PC/blob/main/guide/Russian/Installation-ru.md) | [**```WoN-Deployer гайд```**](won-deployer-install-ru.md) | 
 
 ---
 
