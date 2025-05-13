@@ -88,9 +88,9 @@ fastboot reboot
   <summary><strong>Способ 3 - Удаление с помощью "Nabu Fastboot Tool"</strong></summary>
 
 ### Предварительные условия
- **`Кабель`**` для подключения вашего `**`Xiaomi Pad 5`**` к `**`другому устройству`**`
+ **`Кабель для подключения вашего Xiaomi Pad 5 к другому устройству`**
 
- **`Любое другое устройство (Android, Windows, Mac или Linux)`**
+ **`Любое другое устройство (iOS, Android, Windows, Mac или Linux)`**
 
 ### Подключитесь к Fastboot Tool на веб-сайте
 - Откройте **[Nabu Fastboot Tool](https://arkt-7.github.io/nabu/)** в браузере любого устройства.
