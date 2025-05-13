@@ -159,7 +159,7 @@ adb shell mkfs.fat -F32 -s1 /dev/block/sda32 -n ESPNABU
 ### Исправление GPT
 > В противном случае Windows может превратить ваше устройство в кирпич
 ```cmd
-adb shell fix gpt
+adb shell fixgpt
 ```
 
 #### Перезагрузите свое устройство
