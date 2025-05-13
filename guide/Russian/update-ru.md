@@ -13,6 +13,13 @@
 
 - [Драйверы](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 
+> [!CAUTION]
+> ОБНОВЛЕНИЕ ДРАЙВЕРОВ ДО ВЕРСИИ v2501.27 ВОЗМОЖНО ТОЛЬКО ЧЕРЕЗ WININSTALLER!
+> 
+> [**Руководство по обновлению**](https://github.com/Kumar-Jy/Windows-in-NABU-Without-PC/blob/main/guide/Russian/DriverUpdate-ru.md)
+>
+> **❗️РЕКОМЕНДУЕТСЯ ПЕРЕУСТАНОВКА, ПОСКОЛЬКУ СЛЕДУЮЩЕЕ ОБНОВЛЕНИЕ ПОТРЕБУЕТ ПОВТОРНОЙ УСТАНОВКИ, ЕСЛИ ВЫ ОБНОВЛЯЛИСЬ С БОЛЕЕ СТАРЫХ ДРАЙВЕРОВ❗️**
+
 ### Загрузитесь в recovery
 > Замените `путь\к\recovery.img` на действительный путь к recovery.img
 ```cmd
