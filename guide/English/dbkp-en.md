@@ -10,14 +10,18 @@
 
 ### Setup - Android
 - Download and install the **WOA Helper** app, then open it and grant it root access.
-- Open **WOA Toolbox**, then press the **DUALBOOT KERNEL PATCHER** button.
+- Open **WOA Toolbox**, then press the **DUALBOOT KERNEL PATCHER** button and select the option you would like to use (dualboot using the **magnetic case**, or with **volume buttons**).
 - Wait for it to finish, then reboot your device.
 
-#### Booting into Windows
+#### Booting into Windows - Magnetic Case method
 - Close the **magnetic case** and reboot (or turn on) your device.
+
+#### Booting into Windows - Volume button method
+- Hold any **volume button** and reboot (or turn on) your device.
 
 #### Booting into Android
 - Open the **magnetic case** and reboot (or turn on) your device.
+- If you are using the **volume button** method, simply do not press any volume button while (re)booting the device.
 
 ## Finished!
 
@@ -29,7 +33,9 @@
 
 - [DualBoot Kernel Patcher](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/DualBootKernelPatcher.zip)
 
-- [.fd file](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/nabu.fd)
+- [.fd file (magnetic case method](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/nabu.fd)
+
+- [.fd file (volume button method](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/nabuVolumebuttons.fd)
 
 ### Opening CMD as an admin
 > Open CMD as an **administrator**, then run the below command, replacing `path\to\platform-tools` with the actual path to the platform-tools folder, for example **C:\platform-tools**.
@@ -59,12 +65,12 @@ adb pull /dev/block/by-name/boot_a boot.img
 ### Unpacking your boot image
 > Make sure **boot.img** is in the `platform-tools` folder.
 ```cmd
-./magiskboot unpack boot.img
+magiskboot unpack boot.img
 ```
 
 ### Patching your boot image
 ```cmd
-./DualBootKernelPatcher\bin\Windows\DualBootKernelPatcher-x86_64.exe ./kernel ./nabu.fd ./output ./DualBootKernelPatcher\Config\DualBoot.Sm8150.cfg ./DualBootKernelPatcher\ShellCode\ShellCode.Nabu.bin
+DualBootKernelPatcher\bin\Windows\DualBootKernelPatcher-x86_64.exe kernel nabu.fd output DualBootKernelPatcher\Config\DualBoot.Sm8150.cfg DualBootKernelPatcher\ShellCode\ShellCode.Nabu.bin
 ```
 
 ### Renaming the kernel file
@@ -73,7 +79,7 @@ adb pull /dev/block/by-name/boot_a boot.img
 ### Repacking your boot image
 > This will repack your patched boot image into a new file called **new_boot.img**
 ```cmd
-./magiskboot repack boot.img
+magiskboot repack boot.img
 ```
 
 ### Reboot to fastboot
@@ -95,11 +101,15 @@ fastboot flash boot_b path\to\new_boot.img
 fastboot reboot
 ```
 
-#### Booting into Windows
+#### Booting into Windows - Magnetic Case method
 - Close the **magnetic case** and reboot (or turn on) your device.
+
+#### Booting into Windows - Volume button method
+- Hold any **volume button** and reboot (or turn on) your device.
 
 #### Booting into Android
 - Open the **magnetic case** and reboot (or turn on) your device.
+- If you are using the **volume button** method, simply do not press any volume button while (re)booting the device.
 
 ## Finished!
 
