@@ -17,7 +17,7 @@
 - Close the **magnetic case** and reboot (or turn on) your device.
 
 #### Booting into Windows - Volume button method
-- Hold any **volume button** and reboot (or turn on) your device.
+- Reboot (or turn on) your device and hold any **volume button** once you see the unlock icon or the Aloha logo (upside down V).
 
 #### Booting into Android
 - Open the **magnetic case** and reboot (or turn on) your device.
@@ -105,7 +105,7 @@ fastboot reboot
 - Close the **magnetic case** and reboot (or turn on) your device.
 
 #### Booting into Windows - Volume button method
-- Hold any **volume button** and reboot (or turn on) your device.
+- Reboot (or turn on) your device and hold any **volume button** once you see the unlock icon or the Aloha logo (upside down V)
 
 #### Booting into Android
 - Open the **magnetic case** and reboot (or turn on) your device.
