@@ -5,7 +5,7 @@
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
 
 ## Language 
-[```Русский```](/guide/Russian/README-RU.md) | **```English```** | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | [```한국어```](/guide/Korean/README-KO.md)
+[```Русский```](/guide/Russian/README-RU.md) | **```English```** | [```Tiếng Việt```](/guide/Vietnamese/README-vi.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | [```한국어```](/guide/Korean/README-KO.md)
 
 ## ⚠️ Warning
 > [!NOTE]

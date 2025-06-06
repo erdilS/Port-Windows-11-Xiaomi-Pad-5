@@ -7,6 +7,7 @@
 ### Select your language
 
 - [**`English`**](English/unlock-bootloader-en.md)
+- [**`Tiếng Việt`**](Vietnamese/unlock-bootloader-vi.md)
 - ~~[**`Português`**](Portuguese/unlock-bootloader-pt.md)~~
 - ~~[**`Turkish`**](Turkish/unlock-bootloader-tr.md)~~
 - [**`Russian`**](Russian/unlock-bootloader-ru.md)
