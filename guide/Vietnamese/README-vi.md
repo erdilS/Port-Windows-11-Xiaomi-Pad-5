@@ -21,7 +21,7 @@
 >
 > **Nếu không, bạn sẽ có nguy cơ mất UFS BẤT CỨ LÚC NÀO KHÔNG CÓ LÝ DO GÌ!**
 >
-> [**Hướng dẫn cài lại**](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/Vietnamese/reinstall-vi.md)
+> [**Hướng dẫn cài lại**](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/reinstall-vi.md)
 >
 > [**Hướng dẫn cập nhật**](https://github.com/Kumar-Jy/Windows-in-NABU-Without-PC/blob/main/guide/DriverUpdate.md)
 >
@@ -41,34 +41,34 @@
 
 ## Bắt đầu thôi
 
-- [**```📖QUAN TRỌNG: ĐỌC TRƯỚC!```**](guide/Vietnamese/important.md)
+- [**```📖QUAN TRỌNG: ĐỌC TRƯỚC!```**](important.md)
 
-- [**`📊Tình trạng dự án`**](guide/Vietnamese/status.md)
+- [**`📊Tình trạng dự án`**](status.md)
 
-- [**`📥Cài đặt`**](guide/Vietnamese/installation-selection-vi.md)
+- [**`📥Cài đặt`**](installation-selection-vi.md)
 
-- [**`🗑️Gỡ cài đặt`**](guide/Vietnamese/uninstall-vi.md)
+- [**`🗑️Gỡ cài đặt`**](uninstall-vi.md)
 
 
 ## Mấy cái linh tinh
 
-- [**`🔓Hướng dẫn mở khóa Bootloader`**](guide/Vietnamese/unlock-bootloader-vi.md)
+- [**`🔓Hướng dẫn mở khóa Bootloader`**](unlock-bootloader-vi.md)
 
-- [**`🔀Cài đặt Dualboot`**](guide/Vietnamese/dualboot-selection2-vi.md)
+- [**`🔀Cài đặt Dualboot`**](dualboot-selection2-vi.md)
 
-- [**`🔧Khắc phục sự cố`**](guide/Vietnamese/troubleshooting-vi.md)
+- [**`🔧Khắc phục sự cố`**](troubleshooting-vi.md)
 
-- [**`🔄Cập nhật trình điều khiển / UEFI`**](guide/Vietnamese/update-vi.md)
+- [**`🔄Cập nhật trình điều khiển / UEFI`**](update-vi.md)
 
-- [**`♻️Cài lại`**](guide/Vietnamese/reinstall-vi.md)
+- [**`♻️Cài lại`**](reinstall-vi.md)
 
-- [**`📱Re-rooting Android`**](guide/Vietnamese/Re-rooting-vi.md)
+- [**`📱Re-rooting Android`**](Re-rooting-vi.md)
 
-- [**`📂Các ứng dụng và hướng dẫn hữu ích`**](guide/Vietnamese/Additional-materials-vi.md)
+- [**`📂Các ứng dụng và hướng dẫn hữu ích`**](Additional-materials-vi.md)
 
-- [**`🔧Khắc phục GPT để sử dụng Windows 24H2`**](guide/Vietnamese/fix-gpt-vi.md)
+- [**`🔧Khắc phục GPT để sử dụng Windows 24H2`**](fix-gpt-vi.md)
 
-- [**`🧱Khôi phục thiết bị ở chế độ EDL`**](guide/Vietnamese/edl.md)
+- [**`🧱Khôi phục thiết bị ở chế độ EDL`**](edl.md)
 
 
 
