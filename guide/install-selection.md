@@ -7,6 +7,7 @@
 ### Select your language
 
 - [**`English`**](English/installation-selection-en.md)
+- [**`Tiếng Việt`**](Vietnamese/installation-selection-vi.md)
 - ~~[`Português`](Portuguese/selection-pt.md)~~
 - ~~[`Turkish`](Turkish/selection-tr.md)~~
 - [**`Russian`**](Russian/selection-ru.md)

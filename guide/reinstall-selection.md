@@ -7,6 +7,7 @@
 ### Select your language
 
 - [**`English`**](English/reinstall-en.md)
+- [**`Tiếng Việt`**](Vietnamese/reinstall-vi.md)
 - ~~[**`Português`**](Portuguese/reinstall-pt.md)~~
 - ~~[**`Turkish`**](Turkish/reinstall-tr.md)~~
 - [**`Russian`**](Russian/reinstall-ru.md)

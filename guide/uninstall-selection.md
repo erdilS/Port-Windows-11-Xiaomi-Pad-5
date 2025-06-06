@@ -7,6 +7,7 @@
 ### Select your language
 
 - [**`English`**](English/uninstall-en.md)
+- [**`Tiếng Việt`**](Vietnamese/uninstall-vi.md)
 - ~~[**`Português`**](Portuguese/uninstall-pt.md)~~
 - ~~[**`Turkish`**](Turkish/uninstall-tr.md)~~
 - [**`Russian`**](Russian/uninstall-ru.md)
