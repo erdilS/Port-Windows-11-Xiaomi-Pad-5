@@ -7,7 +7,7 @@
 ### Chuẩn bị
 - ```Một máy tính bảng đã root với Windows được cài đặt```
 
-- [```Hình ảnh UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/UEFI)
+- [```UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/UEFI)
 
 - [```Ứng dụng WoA Helper```](https://github.com/n00b69/woa-helper/releases/tag/APK)
 
@@ -16,7 +16,7 @@
 
 ### Thiết lập - Android
 - Tải xuống và cài đặt ứng dụng **WOA Helper**, sau đó mở nó và cấp quyền root.
-- Tải xuống **Hình ảnh UEFI** và đặt nó vào thư mục có tên `UEFI` trong bộ nhớ trong của bạn.
+- Tải xuống **UEFI** và đặt nó vào thư mục có tên `UEFI` trong bộ nhớ trong của bạn.
 - Mở ứng dụng WOA Helper và sử dụng **STA CREATOR** trong **WOA TOOLBOX**.
 > [!Important]
 > Nếu `/sdcard/Windows` trống, rom của bạn không hỗ trợ mounting và bạn sẽ phải tạo một bản sao lưu boot.img bên trong ứng dụng, sau đó sao chép nó thủ công vào Windows khi bạn khởi động vào đó (ví dụ bằng cách tải nó lên một nơi nào đó và sau đó tải xuống trong khi khởi động vào Windows). Điều này cũng áp dụng cho các tệp StA, cũng được tạo trong bộ nhớ trong của bạn.
