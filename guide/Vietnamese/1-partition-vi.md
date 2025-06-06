@@ -7,7 +7,7 @@
 ### Chuẩn bị
 - ```Unlocked bootloader``` - (Nếu bootloader đang khoá và chưa biết mở khoá làm sao thì xem [hướng dẫn này](unlock-bootloader-vi.md))
 
-- ```Một cây vợt Pickleball```
+- ```🧠 Một cái đầu lạnh trước sóng gió của cuộc đời```
 
 - ```Windows 10 trở lên, PC/Laptop```
 
