@@ -21,7 +21,7 @@ If you are unable to move files to the Windows folder, it means you shut down Wi
 > [!WARNING]
 > Do not use a powered USB hub with host mode enabled, this can potentially break your device. If you use a powered USB hub, please use the [disable USB host mode guide](/guide/English/Additional-materials-en.md#Disabling-USB-host-mode)
 
-Charging in Windows only works on specific cables. Cables that have been known to work are the original Poco X3 Pro cable (identified by the additional orange/red pin in the USB-A port), the Nimaso 100W USB-C to USB-C fast charging cable, Samsung USB-C to USB-C cable.
+Charging in Windows only works on specific cables. Cables that have been known to work are the original Poco X3 Pro cable (identified by the additional orange/red pin in the USB-A port), original Xiaomi 33 W cable, the Nimaso 100W USB-C to USB-C fast charging cable, Samsung USB-C to USB-C cable.
 
 ##### Done!
 
