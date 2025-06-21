@@ -7,6 +7,7 @@
 ### Select your language
 
 - [**`English`**](English/dualboot-en.md)
+- [**`Tiếng Việt`**](Vietnamese/dualboot-vi.md)
 - ~~[**`Português`**](Portuguese/dualboot-pt.md)~~
 - ~~[**`Turkish`**](Turkish/dualboot-tr.md)~~
 - [**`Russian`**](Russian/dualboot-ru.md)
