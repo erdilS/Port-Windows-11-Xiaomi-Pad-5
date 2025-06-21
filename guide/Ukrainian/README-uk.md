@@ -4,7 +4,7 @@
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
 
 ## Мова
-[```Русский```](/guide/Russian/README-RU.md) | [```English```](/README.md) | **```Ukrainian```** | [```한국어```](/guide/Korean/README-KO.md)
+[```Русский```](/guide/Russian/README-RU.md) | [```English```](/README.md) | [```Tiếng Việt```](/guide/Vietnamese/README-vi.md) | **```Ukrainian```** | [```한국어```](/guide/Korean/README-KO.md)
 
 > [!Note]
 > - Ми не несемо відповідальності за заблоковані пристрої, відсутні розділи відновлення, мертві працівники заводу Xiaomi, мертві pmics, мертву оперативну пам'ять, мертві мікросхеми дисплея, мертві процесори, будь-які махінації xiaomi, мертвих кішок або собак, ядерні війни або звільнення, тому що ви забули завантажити Android назад для будильника.
