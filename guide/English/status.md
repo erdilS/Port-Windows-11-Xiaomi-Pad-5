@@ -6,35 +6,38 @@
 
 Stable. Almost everything works except for a few components.
 
-#### Features
+#### 📱 Components
 
-- [X] Suspend / Sleep Mode
 - [X] Audio
 - [X] Battery status
 - [X] Bluetooth
 - [X] Brightness
+- [ ] Camera
+- [ ] Flashlight
 - [x] Charging
 - [ ] Fast charging
 - [X] Display
 - [X] GPU
 - [X] Touchscreen
-- [X] UFS
-- [X] USB
-- [X] Wi-Fi
-- [X] Xiaomi Pen support
 - [X] Microphone
 - [X] Miracast
 - [X] Location
 - [X] Smart Case Mode
-- [X] Xiaomi Keyboard support
-- [ ] Xiaomi Pen charging support
-- [ ] Camera
-- [ ] Flashlight 
+- [X] Sleep Mode
+- [X] UFS
+- [X] USB
+- [X] Wi-Fi
 
-#### Sensors
+### ⌨️ Accessories
+- [X] Xiaomi Pen
+- [ ] Xiaomi Pen Charging
+- [X] [Other pens](https://t.me/nabuwoa/342769) 
+- [X] Xiaomi Keyboard
+
+#### 🧭 Sensors
 
 - [X] Accelerometer
 - [X] Gyroscope
+- [ ] Light sensor (no available anymore) 
 - [X] Magnetometer
 - [X] Proximity
-- [X] Light sensor
