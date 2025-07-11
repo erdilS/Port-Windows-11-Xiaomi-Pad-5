@@ -6,7 +6,7 @@
 이 부분은 MIUI/Hyper OS가 업데이트되어 루트가 제거되는 경우를 위한 재루팅 과정을 설명합니다.
 
 ### 준비
-- [```리커버리 이미지```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```리커버리 이미지```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
   
 - [```안드로이드 플랫폼 도구```](https://developer.android.com/studio/releases/platform-tools)
 

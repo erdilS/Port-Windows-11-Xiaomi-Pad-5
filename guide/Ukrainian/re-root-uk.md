@@ -6,7 +6,7 @@
 Цей розділ проведе вас через процес повторного рутування, коли MIUI/Hyper OS оновлюється та видаляє root
 
 ### Потрібні файли
-- [```Образ відновлення```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```Образ відновлення```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
 - [```Android platform-tools```](https://developer.android.com/studio/releases/platform-tools)
 

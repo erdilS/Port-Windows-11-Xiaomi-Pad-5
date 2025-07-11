@@ -11,7 +11,7 @@ If you don't like your Windows version or you've bricked your Windows install, o
 ### Prerequisites
 - ```Existing Windows and boot partitions``` (*If not met, [go back and just pretend this guide never existed](/guide/English/1-partition-en.md)*)
 
-- [```Recovery Image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```Recovery Image```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 

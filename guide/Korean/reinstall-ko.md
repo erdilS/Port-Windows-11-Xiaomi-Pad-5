@@ -11,7 +11,7 @@
 ### 준비물
 - ```이미 존재하는 Windows 및 boot 파티션``` (*해당 파티션들이 없는 경우, [돌아가서 이 가이드를 참고하세요](/guide/Korean/1-partition-ko.md)*)
 
-- [```리커버리 이미지```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```리커버리 이미지```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
 - [```안드로이드 플랫폼 도구```](https://developer.android.com/studio/releases/platform-tools)
 

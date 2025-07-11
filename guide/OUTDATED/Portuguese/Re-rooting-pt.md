@@ -6,7 +6,7 @@
 Este Guia é para quando uma atulizacão da MIUI/Hyper OS remove o root.
 
 ### Pré requisitos
-- [```Imagem do Recovery```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```Imagem do Recovery```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
   
 - [```Android Platform Tools```](https://developer.android.com/studio/releases/platform-tools)
 

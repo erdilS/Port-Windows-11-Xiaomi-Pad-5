@@ -6,7 +6,7 @@
 В этом разделе мы подробно рассмотрим процесс повторного получения root-прав на вашем устройстве после обновления MIUI/Hyper OS, либо другой прошивки, после которого root-доступ был утрачен.
 
 ### Требования
-- [```Образ рекавери```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```Образ рекавери```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
   
 - [```SDK Platform Tools```](https://developer.android.com/studio/releases/platform-tools)
 

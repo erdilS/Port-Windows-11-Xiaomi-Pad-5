@@ -30,7 +30,7 @@ adb reboot bootloader
 ### Предварительные условия
 - [```SDK platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
-- [```Моддифицированый образ recovery```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img) 
+- [```Моддифицированый образ recovery```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win) 
 
 #### Загрузка в моддифицированый recovery
 > Замените ```путь\к\recovery.img``` на физический путь к recovery.img
