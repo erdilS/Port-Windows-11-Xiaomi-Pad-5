@@ -13,7 +13,7 @@ Se você não gostou da sua versão do Windows, estragou sua instalação do Win
 ### Pré requesitos
 - ```Partições do Windows e inicialização``` (*Se não for o caso, [esqueça esse guia e use esse aqui](/guide/Portuguese/1-partition-pt.md)*)
 
-- [```Iamgem do Recovery```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```Iamgem do Recovery```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 

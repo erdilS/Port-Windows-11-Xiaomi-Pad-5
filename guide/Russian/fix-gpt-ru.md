@@ -7,7 +7,7 @@
 ### Требования:
 - [```Уже установленная Windows```](selection-ru.md)
 
-- [```Образ реквавери```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```Образ реквавери```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
 - [```platform tools```](https://developer.android.com/studio/releases/platform-tools)
 

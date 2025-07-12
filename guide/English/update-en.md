@@ -7,7 +7,7 @@
 ### Prerequisites
 - [`ADB & Fastboot`](https://developer.android.com/studio/releases/platform-tools)
 
-- [`Modified recovery image`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [`Modified recovery image`](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
 - [```DriveLetterAssigner Tool```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)
 

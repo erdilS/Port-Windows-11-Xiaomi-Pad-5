@@ -6,7 +6,7 @@
 Phần này sẽ hướng dẫn bạn quy trình khôi phục quyền root khi MIUI/Hyper OS cập nhật và bị mất root.
 
 ### Chuẩn bị
-- [```Recovery Image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```Recovery Image```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
   
 - [```Android Platform Tools```](https://developer.android.com/studio/releases/platform-tools)
 

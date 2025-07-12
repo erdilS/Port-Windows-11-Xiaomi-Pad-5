@@ -32,7 +32,7 @@ adb reboot bootloader
 ### Chuẩn bị
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
-- [```Modified Recovery Image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```Modified Recovery Image```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
 #### Khởi động recovery đã chỉnh sửa
 > Mở một cửa sổ CMD bên trong thư mục platform-tools, sau đó (trong khi máy tính bảng của bạn đang ở chế độ fastboot) chạy:

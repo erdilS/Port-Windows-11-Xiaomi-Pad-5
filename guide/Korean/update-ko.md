@@ -7,7 +7,7 @@
 ### 준비물
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [맞춤화된 리커버리 이미지](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [맞춤화된 리커버리 이미지](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
 - [UEFI 이미지](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
 

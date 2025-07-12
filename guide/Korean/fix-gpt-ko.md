@@ -7,7 +7,7 @@
 ### 준비물:
 - [```잘 설치된 윈도우```](selection-ko.md)
 
-- [```리커버리 이미지```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```리커버리 이미지```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
 - [```안드로이드 플랫폼 도구```](https://developer.android.com/studio/releases/platform-tools)
 

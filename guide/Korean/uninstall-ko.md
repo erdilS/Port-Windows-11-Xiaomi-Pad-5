@@ -30,7 +30,7 @@ adb reboot bootloader
 ### 준비물
 - [```안드로이드 플랫폼 도구```](https://developer.android.com/studio/releases/platform-tools)
   
-- [```맞춤화된 리커버리 이미지```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```맞춤화된 리커버리 이미지```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
 #### 맞춤화된 리커버리로 부팅합니다
 > platform-tools 폴더에서 CMD 창을 열고, 아래의 명령어를 실행합니다 (fastboot 모드에 진입하면 실행하세요)

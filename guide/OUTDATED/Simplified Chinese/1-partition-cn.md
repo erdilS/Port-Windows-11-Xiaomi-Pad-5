@@ -11,7 +11,7 @@
   
 -  运行 Windows 10（或更高）的计算机 / 笔记本电脑
   
-- [```Recovery 镜像```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```Recovery 镜像```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 

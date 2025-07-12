@@ -11,7 +11,7 @@ Nếu bạn không thích phiên bản Windows của mình hoặc bạn đã là
 ### Chuẩn bị
 - ```Đã có Windows và phân vùng boot``` (*Chưa có hả bà thơ? [Quuay lại và giả vờ chưa thấy gì hết nghee](/guide/Vietnamese/1-partition-vi.md)*)
 
-- [```Recovery Image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```Recovery Image```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 

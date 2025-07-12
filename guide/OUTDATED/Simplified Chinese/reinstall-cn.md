@@ -13,7 +13,7 @@
 
 - ```现有的 Windows 和启动分区``` (*如果未满足条件，[返回并假装这个指南从未存在过](/guide/Simplified%20Chinese/1-partition-cn.md)*)
 
-- [```恢复镜像```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [```恢复镜像```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
