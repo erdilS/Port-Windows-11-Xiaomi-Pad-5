@@ -11,6 +11,8 @@
 
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
+- [```PowerStateControl tool```](https://github.com/Misha803/My-Scripts/releases/tag/PowerStateControl)
+
 - [```Modified recovery image```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
 - [```Diskgenius app installed on your nabu```](https://www.diskgenius.com/download.php)
@@ -20,6 +22,40 @@
 > These actions will cause wipe of all **Android** data so make a backup if needed, windows data will be kept!
 > 
 > DO NOT REBOOT YOUR TABLET if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/nabuwoa)
+---
+### Disabling page file  
+> [!NOTE]  
+> You can skip this step if you already have page file disabled  
+
+#### Open System Properties  
+- Press **`Win + S`** and search for **`View advanced system settings`**  
+- Click the result to open **System Properties** window  
+
+#### Open Performance Options  
+- In the **Advanced** tab, click **`Settings`** under **Performance**  
+- This opens the **Performance Options** window  
+
+#### Disable page file  
+- Go to the **Advanced** tab  
+- Click **`Change...`** under **Virtual memory**  
+- Uncheck **`Automatically manage paging file size for all drives`**  
+- Select your **Windows drive** (usually C:)  
+- Choose **`No paging file`**  
+- Click **`Set`** → **`OK`**  
+> Do not confirm reboot dialog
+
+---
+
+### Disabling hibernation using PowerStateControl tool  
+> [!NOTE]  
+> You can skip this step if you already have hibernation disabled  
+
+#### Disable hibernation  
+- Run downloaded **`PowerStateControl`** tool   
+- Click **`HIBERNATION: ENABLED/DISABLED`** button once  
+- Click **`EXIT`** button, do not confirm reboot - click **`LATER`** button in reboot dialog
+
+---
 
 ### Flashing latest modded twrp:
 
@@ -45,19 +81,27 @@ adb reboot
 ```
 > Alternatively use **`Reboot`** - **`System`** option in twrp
 
+---
+
 ### Deleting userdata and resizing windows partition:
 #### Reboot to Windows 
 - Use **`QuickBoot`** button in WOA Helper app
 
-#### Delete userdata
-> [!WARNING]
-> Do not delete/modify any other partition than that one described in the steps below!
-> If you have any questions etc on this step please ask in [Telegram chat](https://t.me/nabuwoa) to avoid bricking your device
+#### Delete userdata  
+> [!WARNING]  
+> Do not delete/modify any other partition than that one described in the steps below!  
+> If you have any questions etc on this step please ask in [Telegram chat](https://t.me/nabuwoa) to avoid bricking your device  
 
-- Open **`Windows Disk Management`** app
-- Find the big partition at the **end of drive 0** - userdata
-- Delete it
-- Add some GB you want to Windows partition by using **`Extend Volume`** option
+- Open **`Windows Disk Management`** app  
+- Find the big partition at the **end of drive 0** — userdata  
+- Delete it  
+- Now resize your Windows partition:  
+  - If you want to **increase** Windows space, right-click the **WINNABU** partition and choose **`Extend Volume`**  
+  - If you want to **reduce** Windows space, right-click the **WINNABU** partition and choose **`Shrink Volume`**  
+  - Enter the amount of space to shrink or extend as needed  
+- After resizing, close **`Windows Disk Management`** app  
+
+---
 
 ### Creating new userdata and renaming it correctly:
 #### Create new userdata using DiskGenius app
@@ -77,6 +121,8 @@ adb reboot
 #### Save changes
 - Click **`Save All`** button from top panel
 - Click **`Yes`** in the dialog
+
+---
 
 ### Rebooting to Android and formatting data:
 - Use StA.exe to reboot to Android
