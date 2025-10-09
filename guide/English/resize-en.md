@@ -9,13 +9,9 @@
 
 -  ```Brain```
 
-- [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
-
 - [```PowerStateControl tool```](https://github.com/Misha803/My-Scripts/releases/tag/PowerStateControl)
 
-- [```Modified recovery image```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
-
-- [```Diskgenius app installed on your nabu```](https://www.diskgenius.com/download.php)
+- [```fixuserdataname.exe```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/fixuserdataname.exe)
 
 ### Notes:
 > [!Warning]
@@ -53,82 +49,53 @@
 #### Disable hibernation  
 - Run downloaded **`PowerStateControl`** tool   
 - Click **`HIBERNATION: ENABLED/DISABLED`** button once  
-- Click **`EXIT`** button, do not confirm reboot - click **`LATER`** button in reboot dialog
+- Click **`EXIT`** button and confirm reboot - click **`REBOOT NOW`** button in reboot dialog
 
 ---
 
-### Flashing latest modded twrp:
-
-#### Reboot to Android (using StA.exe)
-- Flash your android boot.img (Reboot to Android) by running StA.exe shortcut on your desktop
-
-#### Reboot into fastboot mode
-- Boot your NABU into **fastboot mode** by holding down the **`volume down`** button while rebooting with a USB cable connected
-
-#### Boot latest modded twrp
-> Use platform tools cmd (you can open it by opening platform tools folder in explorer and typing `cmd` in explorer path)
-> While in fastboot mode, replace `path\to\recovery.img` with the actual path of the recovery image
-```cmd
-fastboot boot "path\to\recovery.img"
-```
-
-#### Flash modded twrp you just booted 
-Go to **`Advanced`** tab - **`Flash current twrp`** option 
-
-#### Reboot
-```cmd
-adb reboot
-```
-> Alternatively use **`Reboot`** - **`System`** option in twrp
-
----
-
-### Deleting userdata and resizing windows partition:
-#### Reboot to Windows 
-- Use **`QuickBoot`** button in WOA Helper app
-
-#### Delete userdata  
+### Deleting userdata, resizing Windows partition, and creating new userdata:
 > [!WARNING]  
 > Do not delete/modify any other partition than that one described in the steps below!  
-> If you have any questions etc on this step please ask in [Telegram chat](https://t.me/nabuwoa) to avoid bricking your device  
+> If you have any questions etc on this step please ask in [Telegram chat](https://t.me/nabuwoa) to avoid bricking your device
+
+#### Deleting userdata
 
 - Open **`Windows Disk Management`** app  
 - Find the big partition at the **end of drive 0** — userdata  
-- Delete it  
+- Delete it
+
+#### Resizing Windows partition
 - Now resize your Windows partition:  
   - If you want to **increase** Windows space, right-click the **WINNABU** partition and choose **`Extend Volume`**  
   - If you want to **reduce** Windows space, right-click the **WINNABU** partition and choose **`Shrink Volume`**  
   - Enter the amount of space to shrink or extend as needed  
-- After resizing, close **`Windows Disk Management`** app  
 
----
+#### Creating new userdata using Windows Disk Management app  
+- Locate the **unallocated space** at the end of **Drive 0**  
+- Right-click the unallocated block → choose **`New Simple Volume`**  
+- Follow the wizard:  
+  - Skip drive letter assignment  
+  - Format as **NTFS**  
+  - Leave the volume label empty  
+- After creation, close **`Windows Disk Management`** app  
 
-### Creating new userdata and renaming it correctly:
-#### Create new userdata using DiskGenius app
-- Download and install DiskGenius app, then Open it
-- Click **`Partition`** at the top - **`Create New Partition(N)`**
-- Use Free space left to create new partition
-
-#### Rename partition you just created
-> [!IMPORTANT]
-> This step is very important as by default Windows names the partition "Basic Data Partition", which contains spaces - This breaks fastboot!
-- Select partition you just created (new userdata partition) from partitions list/blocks
-- Click **`Partition`** at the top - **`Modify Partition Parameters(F11)`** 
-- In **`Partition Name`** field carefully type **`userdata`**
-- Click **`Ok`** - **`Yes`**
-- Close DiskGenius app
-
-#### Save changes
-- Click **`Save All`** button from top panel
-- Click **`Yes`** in the dialog
-
+#### Fixing partition name using fixuserdataname.exe  
+> [!IMPORTANT]  
+> This step is very important as by default Windows labels the partition "Basic Data Partition", which contains spaces — this breaks fastboot!  
+- Download [`fixuserdataname.exe`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/fixuserdataname.exe)  
+- Run it by double-clicking it  
+> It will automatically detect and rename the newly created partition to **`userdata`**  
+- Wait for confirmation message (e.g. “Renamed successfully”)  
+- Close the tool  
 ---
 
 ### Rebooting to Android and formatting data:
 - Use StA.exe to reboot to Android
-- When mi logo appears press and hold **`Volume +`** button to boot twrp you flashed earlier
-- In twrp go to **`Wipe`** - **`Format Data`** - type **`Yes`**
-- Go to **`Reboot`** - **`System`**
-> If you couldn't format data via twrp you can use **`fastboot -w`** command in fastboot (connect nabu in fastboot to your PC and run this command via platform tools cmd)
+- When mi logo appears press and hold **`Volume +`** button to boot Android recovery
+- In recovery select **`Wipe Data`** - **`Wipe All Data`**
+- After Data is wiped successfully, Click **`Back To Main Menu`**
+- Click **`Reboot`** - **`Reboot to System`**
+
+> If you couldn't format data via recovery you can use **`fastboot -w`** command in fastboot (connect nabu in fastboot to your PC and run this command via platform tools cmd)
 
 ### Done!
