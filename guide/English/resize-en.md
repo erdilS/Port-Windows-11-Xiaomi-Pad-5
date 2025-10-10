@@ -81,7 +81,7 @@
 
 #### Fixing partition name using fixuserdataname.exe  
 > [!IMPORTANT]  
-> This step is very important as by default Windows labels the partition "Basic Data Partition", which contains spaces — this breaks fastboot!  
+> This step is very important as by default Windows labels the partition "Basic Data Partition", which is more than 16 symbols long — this breaks fastboot!  
 - Download [`fixuserdataname.exe`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/fixuserdataname.exe)  
 - Run it by double-clicking it  
 > It will automatically detect and rename the newly created partition to **`userdata`**  

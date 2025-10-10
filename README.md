@@ -9,7 +9,7 @@
 
 ## ⚠️ Warning
 > [!NOTE]
-> - We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline workers cowboys, dead pmics, dead ram, dead display ics, dead cpus, any xiaomi shenanigans, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back into android for the alarm.
+> - We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline ~workers~ cowboys, dead pmics, dead ram, dead display ics, dead cpus, any xiaomi shenanigans, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back into android for the alarm.
 > - This project is in late stages of development, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get. This is a delicate process, do it under your own risk and follow all the steps carefully.
 
 > [!WARNING]
@@ -62,9 +62,11 @@
 
 - [**`📱Re-rooting Android`**](guide/English/Re-rooting-en.md)
 
+- [**`💾Resizing Windows partition`**](guide/English/resize-en.md)
+
 - [**`📂Useful apps and instructions`**](guide/English/Additional-materials-en.md)
 
-- [**`🔧Fix GPT to Use Windows 24H2`**](guide/English/fix-gpt-en.md)
+- [**`🔧Fix GPT to Use Windows 24H2 and newer`**](guide/English/fix-gpt-en.md)
 
 - [**`🧱Restoring the Device in EDL Mode`**](guide/English/edl.md)
 

@@ -64,6 +64,8 @@
 
 - [**`📱Re-rooting Android`**](Re-rooting-vi.md)
 
+- [**`💾Resizing Windows partition`**](guide/English/resize-en.md)
+
 - [**`📂Các ứng dụng và hướng dẫn hữu ích`**](Additional-materials-vi.md)
 
 - [**`🔧Khắc phục GPT để sử dụng Windows 24H2`**](fix-gpt-vi.md)

@@ -62,6 +62,8 @@
 
 - [**`📱안드로이드 재루팅`**](Re-rooting-ko.md)
 
+- [**`💾Resizing Windows partition`**](guide/English/resize-en.md)
+
 - [**`📂유용한 앱 및 설명`**](Additional-materials-ko.md)
 
 - [**`🔧윈도우 24H2 사용을 위한 GPT 수정`**](fix-gpt-ko.md)

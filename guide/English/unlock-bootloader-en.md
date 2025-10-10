@@ -37,6 +37,13 @@
 
 **This method will Bypass the daily quota limit while appling in the Mi Community app.**
 
+### Add platfrom tools to PATH (for HyperSploit to work)
+- Open **`PowerShell`** as admin and run:
+```powershell
+irm https://s.tx0.su/getadb | iex
+```
+- Wait for it to complete then close PowerShell app.
+
 ### Apply to Unlock (HyperSploit)
 - Run **HyperSploit-Windows.exe** as Administrator.
 - When prompted on your device, tap **OK** to allow USB debugging.
