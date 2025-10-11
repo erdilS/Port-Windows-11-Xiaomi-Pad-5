@@ -28,9 +28,11 @@
 - Go to **Settings → Additional settings → Developer options**.
 - Enable **OEM unlocking** and **USB debugging**.
 
-### New method (For HyperOS/MIUI 14)
+### 🔓New method (For HyperOS/MIUI 14):
 <details>
   <summary><strong>Click to open</strong></summary>
+
+---
 
   <details>
    <summary><strong>Method 1: Using HyperSploit Bypass (Recommended) </strong></summary>
@@ -52,7 +54,9 @@ irm https://s.tx0.su/getadb | iex
 - Click on **Add account and device**, Once added, HyperSploit will confirm with **Successfully binded**
 
   </details>
-  
+
+---
+
   <details>
     <summary><strong>Method 2: Using the Time Trick </strong></summary>
     
@@ -68,10 +72,12 @@ irm https://s.tx0.su/getadb | iex
 - Click on **Add account and device**, After a successful addition, you will see **Added Successfully**.
 
   </details>
+
+---
   
 </details>
 
-### Regular method (for MIUI 13 and below)
+### 🔓Regular method (for MIUI 13 and below):
 <details>
   <summary><strong>Click to open</strong></summary>
 
