@@ -37,6 +37,26 @@
 > If you do, we will not be able to help you if you mess up.
 
 
+> [!TIP]
+> **Want to see Mi Pad 5 WoA actively maintained and updated?**
+>
+> **If anyone here is interested in keeping Mi Pad 5 WoA alive, there's a chance to make it happen:**  
+> A device could be sent to [@remtrik](https://github.com/remtrik) as a surprise — but someone would need to cover the cost.
+>
+> The sender doesn't own the device and has no reason to spend money on it personally, but is willing to coordinate the gift.
+>
+> **Estimated cost: $70–120**, depending on current listings when enough donations are collected.
+>
+> What this would mean:
+> - More driver and UEFI updates
+> - Potential performance improvements
+> - Surprises
+>
+> Donations can be made via [BuyMeACoffee](https://buymeacoffee.com/realfooking)  
+> Crypto also accepted — DM [the sog](https://t.me/realfooking) on Telegram for wallet address.
+
+
+
 ## Get Started
 
 - [**```📖IMPORTANT: READ FIRST!```**](guide/English/important.md)
@@ -103,3 +123,4 @@
 [<img alt="chiyuki0325" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/73830635?s=96&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/chiyuki0325)
 [<img alt="Kumar-Jy" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/20044626?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Kumar-Jy)
 [<img alt="ArKT-7" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/157277855?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/ArKT-7)
+
