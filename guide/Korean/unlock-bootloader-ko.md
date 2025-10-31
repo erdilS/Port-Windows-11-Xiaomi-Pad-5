@@ -9,7 +9,7 @@
 
 - [`🔧 Mi Unlock Tool`](https://miuirom.xiaomi.com/rom/u1106245679/6.5.224.28/miflash_unlock-en-6.5.224.28.zip).
 
-- [`🛠️ HyperSploit (우회 프로그램)`](https://github.com/TheAirBlow/HyperSploit/releases/download/1.0.0/HyperSploit-Windows.exe).
+- [`🛠️ HyperSploit (우회 프로그램)`](https://github.com/TheAirBlow/HyperSploit/releases/latest/download/HyperSploit-Windows.exe).
 
 > [!WARNING]
 >
