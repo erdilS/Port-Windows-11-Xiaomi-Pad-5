@@ -82,7 +82,14 @@
 
 ---
 
-### Rebooting to Android:
+### Rebooting to Android
 - Use StA.exe to reboot to Android
+
+### Setting up dualboot in Android after wipe
+- Complete the initial setup to enter the desktop  
+- Download and install [**Magisk**](https://github.com/topjohnwu/Magisk/releases/latest) app, then open it.
+- Download and install the [**WOA Helper**](https://github.com/n00b69/woa-helper/releases/tag/APK) app, then open it and grant it root access.
+- Download the **UEFI image** and place it inside the folder named `UEFI` in your internal storage.
+
 
 ### Done!
