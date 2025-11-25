@@ -7,7 +7,7 @@
 ### Потрібні файли:
 - [```Додаток Mi Community (лише для HyperOS/MIUI 14)```](https://apkpure.net/xiaomi-community/com.mi.global.bbs/download)
 
-- [`Mi Unlock Tool`](https://miuirom.xiaomi.com/rom/u1106245679/6.5.224.28/miflash_unlock-en-6.5.224.28.zip)
+- [`Mi Unlock Tool`](https://miuirom.xiaomi.com/rom/u1106245679/7.6.727.43/miflash_unlock_en_7.6.727.43.zip)
 
 > [!NOTE]
 >

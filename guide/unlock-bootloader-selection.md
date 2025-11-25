@@ -11,6 +11,6 @@
 - ~~[**`Português`**](Portuguese/unlock-bootloader-pt.md)~~
 - ~~[**`Turkish`**](Turkish/unlock-bootloader-tr.md)~~
 - [**`Russian`**](Russian/unlock-bootloader-ru.md)
-- [**`Ukrainian`**](Ukrainian/unlock-bootloader-uk.md)
+- ~[**`Ukrainian`**]~(Ukrainian/unlock-bootloader-uk(outdated).md)
 - [**`Korean`**](Korean/unlock-bootloader-ko.md)
 - ~~[**`Simplified Chinese`**](Simplified%20Chinese/unlock-bootloader-cn.md)~~
