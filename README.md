@@ -45,15 +45,17 @@
 >
 > The sender doesn't own the device and has no reason to spend money on it personally, but is willing to coordinate the gift.
 >
-> **Estimated cost: $70–120**, depending on current listings when enough donations are collected.
+> ~**Estimated cost: $70–120**, depending on current listings when enough donations are collected.~
 >
 > What this would mean:
 > - More driver and UEFI updates
 > - Potential performance improvements
 > - Surprises
 >
-> Donations can be made via [BuyMeACoffee](https://buymeacoffee.com/realfooking)  
-> Crypto also accepted — DM [the sog](https://t.me/realfooking) on Telegram for wallet address.
+> ~Donations can be made via [BuyMeACoffee](https://buymeacoffee.com/realfooking)  ~~
+> Crypto also accepted — DM [the sog](https://t.me/realfooking) on Telegram for wallet address.~
+>
+> **❤️‍🔥Thank you to everyone who donated. We reached our goal for the new device; it has been purchased and is on its way to the developer.**
 
 
 
@@ -123,4 +125,5 @@
 [<img alt="chiyuki0325" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/73830635?s=96&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/chiyuki0325)
 [<img alt="Kumar-Jy" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/20044626?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Kumar-Jy)
 [<img alt="ArKT-7" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/157277855?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/ArKT-7)
+
 
