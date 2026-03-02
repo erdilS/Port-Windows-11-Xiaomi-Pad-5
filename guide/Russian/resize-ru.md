@@ -5,44 +5,38 @@
 ## Resizing Windows partition after installation 
 
 ### Prerequisites
-- ```Windows installed on nabu```
+- ```Установленная Windows```
 
--  ```Brain```
+-  ```Мозг```
 
-- [```PowerStateControl tool```](https://github.com/Misha803/My-Scripts/releases/tag/PowerStateControl)
+- [```PowerStateControl```](https://github.com/Misha803/My-Scripts/releases/tag/PowerStateControl)
 
 - [```createandformatuserdata.exe```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/createandformatuserdata.exe)
 
 ### Notes:
 > [!Warning]
-> These actions will cause wipe of all **Android** data so make a backup if needed, windows data will be kept!
+> Это действие полностью сотрет данные **Android**, так что сделайте бэкап, если необходимо!
+> Однако это не затронет раздел Windows.
 > 
-> DO NOT REBOOT YOUR TABLET if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/nabuwoa)
+> НЕ ПЕРЕЗАГРУЖАЙТЕ ПЛАНШЕТ, если думаете, что совершили ошибку - лучше попросите помощи в [чате Telegram](https://t.me/nabuwoaru)
 ---
-### Disabling page file  
+### Отклычение файла подкачки 
 > [!NOTE]  
-> You can skip this step if you already have page file disabled  
+> Вы можете пропустить этот шаг, если файл подкачки уже отключён
 
-#### Open System Properties  
-- Press **`Win + S`** and search for **`View advanced system settings`**  
-- Click the result to open **System Properties** window  
-
-#### Open Performance Options  
-- In the **Advanced** tab, click **`Settings`** under **Performance**  
-- This opens the **Performance Options** window  
-
-#### Disable page file  
-- Go to the **Advanced** tab  
-- Click **`Change...`** under **Virtual memory**  
-- Uncheck **`Automatically manage paging file size for all drives`**  
-- Select your **Windows drive** (usually C:)  
-- Choose **`No paging file`**  
-- Click **`Set`** → **`OK`**  
-> Do not confirm reboot dialog
+#### Откройте Настройку представления и производительности системы
+- нажмите **`Win + S`** и найдите **`Настройка представления и производительности системы`**  
+- откройте вкладку **Дополнительно**
+- Нажмите кнопку **`Изменить...`** в **Виртуальная память**  
+- Снимите флажок с **`Автоматически выбирать размер файла подкачки`**  
+- Выберите диск **WINNABU** (обычно это C:)  
+- Выберите **`Без файлла подкачки`**  
+- Нажмите **`Задать`** → **`ОК`**  
+> Не соглашайтесь на перезагрузку в диалоге
 
 ---
 
-### Disabling hibernation using PowerStateControl tool  
+### Отключение гибернации с помощью PowerStateControl
 > [!NOTE]  
 > You can skip this step if you already have hibernation disabled  
 
