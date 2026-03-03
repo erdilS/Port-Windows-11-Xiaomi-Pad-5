@@ -2,9 +2,9 @@
 
 # Запуск Windows на Xiaomi Pad 5
 
-## Установка
+## Установка Windows
 
-### Предварительные условия
+### Требования
 - ```Мозг```
 
 - [```DriveLetterAssigner```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)
@@ -41,7 +41,7 @@ adb shell msc
 ```cmd
 dism /apply-image /ImageFile:путь\к\install.esd /index:6 /ApplyDir:X:\
 ```
-> Если вы получаете `Error 87`, проверьте индекс вашего образа с помощью `dism / get -imageinfo /ImageFile:путь\к\install.esd`, затем замените `index: 6` фактическим номером индекса **Windows 11 Pro** в вашем образе.
+> Если вы получаете `Error 87`, проверьте индекс вашего образа с помощью `dism /get-imageinfo /ImageFile:путь\к\install.esd`, затем замените `index: 6` фактическим номером индекса **Windows 11 Pro** в вашем образе.
 
 ### Копирование вашего boot.img в Windows
 - Перетащите файл **rooted_boot.img** из папки **platform-tools** на диск **WINNABU** в проводнике Windows, затем переименуйте его в **boot.img**.
@@ -74,25 +74,6 @@ fastboot boot путь\к\uefi.img
 ```
 
 ### Перезагрузка в Android
-- Ваше устройство должно перезагрузиться само по себе после +- 10 минут, после чего вы загрузитесь в Android для последнего шага.
+- Ваше устройство должно перезагрузиться само по себе после +- 10 минут, после чего вам нужно загрузится в Android для последнего шага.
 
 ## [Последний шаг: Настройка двойной загрузки](/guide/Russian/4-dualboot-ru.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
