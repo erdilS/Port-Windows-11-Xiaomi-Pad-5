@@ -6,7 +6,7 @@
 > [!NOTE]
 > **Если вы уже рутированы, просто пропустите этот шаг и перейдите на следующую страницу**
 
-### Предварительные условия
+### Требования
 - ```Мозг```
   
 - [```magisk.apk```](https://github.com/topjohnwu/Magisk/releases/latest)
@@ -35,16 +35,3 @@ adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.
 ```
 
 ### [Следующий шаг: Установка Windows](/guide/Russian/3-install-ru.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
