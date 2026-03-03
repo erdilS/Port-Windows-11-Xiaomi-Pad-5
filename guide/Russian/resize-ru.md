@@ -1,10 +1,10 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-# Running Windows on the Xiaomi Pad 5
+# Запуск Windows на Xiaomi Pad 5
 
-## Resizing Windows partition after installation 
+## Изменения размера раздела Windows после установки
 
-### Prerequisites
+### Требования
 - ```Установленная Windows```
 
 -  ```Мозг```
@@ -13,14 +13,14 @@
 
 - [```createandformatuserdata.exe```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/createandformatuserdata.exe)
 
-### Notes:
+### Примечания:
 > [!Warning]
 > Это действие полностью сотрет данные **Android**, так что сделайте бэкап, если необходимо!
 > Однако это не затронет раздел Windows.
 > 
-> НЕ ПЕРЕЗАГРУЖАЙТЕ ПЛАНШЕТ, если думаете, что совершили ошибку - лучше попросите помощи в [чате Telegram](https://t.me/nabuwoaru)
+> НЕ ПЕРЕЗАГРУЖАЙТЕ ПЛАНШЕТ, если думаете, что совершили ошибку - лучше попросите помощи в [чате Telegram](https://t.me/nabuwoaru)!
 ---
-### Отклычение файла подкачки 
+### Отключение файла подкачки 
 > [!NOTE]  
 > Вы можете пропустить этот шаг, если файл подкачки уже отключён
 
@@ -38,52 +38,52 @@
 
 ### Отключение гибернации с помощью PowerStateControl
 > [!NOTE]  
-> You can skip this step if you already have hibernation disabled  
+> Вы можете пропустить этот шаг, если гибернация уже отключена
 
-#### Disable hibernation  
-- Run downloaded **`PowerStateControl`** tool   
-- Click **`HIBERNATION: ENABLED/DISABLED`** button once  
-- Click **`EXIT`** button and confirm reboot - click **`REBOOT NOW`** button in reboot dialog
+#### Отключение гибернации  
+- Запустите скачанный **`PowerStateControl`**
+- Нажмите кнопку **`HIBERNATION: ENABLED/DISABLED`**
+- Нажмите кнопку **`EXIT`** и подтвердите перезагрузку - нажмите **`REBOOT NOW`** в диалоге
 
 ---
 
-### Deleting userdata, resizing Windows partition, and creating new userdata:
+### Удаление userdata, изменение размера раздела Windows, и создание новой userdata:
 > [!WARNING]  
-> Do not delete/modify any other partition than that one described in the steps below!  
-> If you have any questions etc on this step please ask in [Telegram chat](https://t.me/nabuwoa) to avoid bricking your device
+> Не удаляйте/изменяйте любой раздел, кроме тех, что тописаны в шагах ниже!  
+> Если у вас есть какие-либо вопросы/проблемы, вы можете обратиться в [чат Telegram](https://t.me/nabuwoaru) для предотвращения окирпичивания устройства
 
-#### Deleting userdata
+#### Удаление userdata
 
-- Open **`Windows Disk Management`** app  
-- Find the big partition at the **end of drive 0** — userdata  
-- Delete it
+- Откройте приложение **`Управление дисками`**
+- Найдите большой раздел в **конце диска 0** — userdata  
+- Удалите её
 
-#### Resizing Windows partition
-- Now resize your Windows partition:  
-  - If you want to **increase** Windows space, right-click the **WINNABU** partition and choose **`Extend Volume`**  
-  - If you want to **reduce** Windows space, right-click the **WINNABU** partition and choose **`Shrink Volume`**  
-  - Enter the amount of space to shrink or extend as needed
-  - Сlose the **`Windows Disk Management`** app  
+#### Изменение размера раздела Windows
+- Теперь измените размер вашего раздела Windows:  
+  - Если вы хотите **увеличить** размер Windows, ПКМ по разделу **WINNABU** и выберите **`Расширить том`**
+  - Если вы хотите **уменьшить** размер Windows, ПКМ по разделу **WINNABU** и выберите **`Сжать том`**  
+  - Введите количество места для увеличения или уменьшения раздела
+  - Закройте **`Управление дисками`**
 
-#### Creating new userdata using createandformatuserdata.exe
+#### Создание новой userdata с помощью createandformatuserdata.exe
 > [!IMPORTANT]  
-> This step important - Android will not boot if you'll skip it  
-- Download [`createandformatuserdata.exe`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/createandformatuserdata.exe)  
-- Run it by double-clicking it  
-> It will automatically detect free space left and create new **`userdata`**  partition
-- Wait for confirmation message (e.g. “Done”)  
-- Close the tool  
+> Этот шаг важен - без него Android не сможет запуститься
+- Скачайте [`createandformatuserdata.exe`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/createandformatuserdata.exe)  
+- Запустите это приложение
+> Оно автоматически увидит свободное место и создаст новый раздел **`userdata`**
+- Дождитесь сообщение о завершении (“Done”)  
+- Закройте приложение
 
 ---
 
-### Rebooting to Android
-- Use StA.exe to reboot to Android
+### Перезагрузка в Android
+- Используйте StA.exe для перезагрузки в Android
 
-### Setting up dualboot in Android after wipe
-- Complete the initial setup to enter the desktop  
-- Download and install [**Magisk**](https://github.com/topjohnwu/Magisk/releases/latest) app, then open it.
-- Download and install the [**WOA Helper**](https://github.com/n00b69/woa-helper/releases/tag/APK) app, then open it and grant it root access.
-- Download the **UEFI image** and place it inside the folder named `UEFI` in your internal storage.
+### Настройка дуалбута в Android
+- Завершите первоначальную настройку устройства
+- Скачайте и установите приложение [**Magisk**](https://github.com/topjohnwu/Magisk/releases/latest), затем откройте его.
+- Скачайте и установите [**WOA Helper**](https://github.com/n00b69/woa-helper/releases/tag/APK), затем откройте его для предоставления root-прав.
+- Скачайте **образ UEFI** и поместите его в папку `UEFI` во внутреннем хранилище.
 
 
-### Done!
+### Готово!
