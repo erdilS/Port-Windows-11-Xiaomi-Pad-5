@@ -4,7 +4,7 @@
 
 ##  Разблокировка загрузчика: пошаговое руководство для HyperOS/MIUI
 
-### Условия:
+### Требования
 - [`📲 Приложение Mi Community (только для HyperOS/MIUI 14)`](https://apkpure.net/xiaomi-community/com.mi.global.bbs/download).
 
 - [`🔧 Mi Unlock Tool`](https://miuirom.xiaomi.com/rom/u1106245679/7.6.727.43/miflash_unlock_en_7.6.727.43.zip).
@@ -114,4 +114,3 @@
 ### Благодарности
 
 - **Это руководство было протестировано и проверено** [@ArKT_7](https://t.me/ArKT_7)  **GitHub:** [@ArKT-7](https://github.com/ArKT-7)
-
