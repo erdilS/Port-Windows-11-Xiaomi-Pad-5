@@ -8,19 +8,6 @@
 
 - [**`English`**](English/Re-rooting-en.md)
 - [**`Tiếng Việt`**](Vietnamese/Re-rooting-vi.md)
-- ~~[**`Português`**](Portuguese/Re-rooting-pt.md)~~
-- ~~[**`Turkish`**](Turkish/Re-rooting-tr.md)~~
 - [**`Russian`**](Russian/Re-rooting-ru.md)
 - [**`Ukrainian`**](Ukrainian/re-root-uk.md)
 - [**`Korean`**](Korean/Re-rooting-ko.md)
-- ~~[**`Simplified Chinese`**](Simplified%20Chinese/re-rooting-cn.md)~~
-
-
-
-
-
-
-
-
-
-
