@@ -13,7 +13,7 @@ Stable. Almost everything works except for a few components.
 - [X] Bluetooth
 - [X] Brightness
 - [ ] Camera
-- [ ] Flashlight
+- [X] Flashlight (only in Camera app)
 - [x] Charging
 - [ ] Fast charging
 - [X] Display
