@@ -5,7 +5,10 @@
 ## Руководство по двойной загрузке (DualbootKernelPatcher)
 > Ниже перечислены два способа, первый из которых требует прав суперпользователя, а второй — нет. Используйте тот способ, который вам больше нравится, так как оба они выполняют одну и ту же функцию.
 
-### Предварительные требования (способ 1: требуется root-доступ)
+<details>
+  <summary><strong>Способ 1 (требуется root-доступ)</strong></summary>  
+  
+### Требования
 - [Приложение WOA Helper](https://github.com/n00b69/woa-helper/releases/tag/APK)
 
 ### Настройка — Android
@@ -21,8 +24,13 @@
 
 ## Готово!
 
+</details>
 
-### Предварительные условия (способ 2: не требует прав суперпользователя)
+
+<details>
+  <summary><strong>Способ 2 (не требует прав суперпользователя)</strong></summary>  
+  
+### Требования
 - [Модифицированный образ recovery](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
 - [Magiskboot](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/magiskboot.exe)
@@ -102,3 +110,5 @@ fastboot reboot
 - Откройте **магнитный чехол** и перезагрузите (или включите) устройство.
 
 ## Готово!
+
+</details>
