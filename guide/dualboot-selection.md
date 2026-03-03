@@ -8,9 +8,6 @@
 
 - [**`English`**](English/dualboot-en.md)
 - [**`Tiếng Việt`**](Vietnamese/dualboot-vi.md)
-- ~~[**`Português`**](Portuguese/dualboot-pt.md)~~
-- ~~[**`Turkish`**](Turkish/dualboot-tr.md)~~
 - [**`Russian`**](Russian/dualboot-ru.md)
 - [**`Ukrainian`**](Ukrainian/dualboot-uk.md)
 - [**`Korean`**](Korean/dualboot-ko.md)
-- ~~[**Simplified Chinese**](Simplified%20Chinese/dualboot-cn.md)~~
