@@ -21,9 +21,9 @@
 >
 > **В ПРОТИВНОМ СЛУЧАЕ ВАША UFS МОЖЕТ УМРЕТЬ В ЛЮБОЙ МОМЕНТ, НЕСМОТРЯ НИ НА ЧТО!**
 >
-> [**Руководство по переустановке**](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/Russian/reinstall-ru.md)
+> [**Руководство по переустановке**](reinstall-ru.md)
 >
-> [**Руководство по обновлению**](https://github.com/Kumar-Jy/Windows-in-NABU-Without-PC/blob/main/guide/Russian/DriverUpdate-ru.md)
+> [**Руководство по обновлению**](DriverUpdate-ru.md)
 >
 > **ОБНОВЛЕНИЕ ВОЗМОЖНО ТОЛЬКО С ПОМОЩЬЮ WININSTALLER И ЗАЙМЕТ 3,5 ЧАСА. УБЕДИТЕСЬ, ЧТО ВАША БАТАРЕЯ ЗАРЯЖЕНА.**
 >
@@ -35,24 +35,6 @@
 > 
 > Если вы всё же используете их, **мы не сможем вам помочь, если вы столкнётесь с проблемой**
 
-
-> [!TIP]
-> **Хотите, чтобы проект Mi Pad 5 WoA продолжал активно развиваться и обновляться?**
->
-> **Если кому-то здесь интересно сохранить жизнь Mi Pad 5 WoA — есть шанс это реализовать:**  
-> Устройство можно отправить [@remtrik'у](https://github.com/remtrik) в качестве сюрприза — но кто-то должен покрыть его стоимость.
->
-> Отправитель не владеет устройством и не имеет личной причины тратить на него деньги, но готов помочь с организацией подарка.
->
-> **Ориентировочная стоимость: $70–120**, в зависимости от актуальных предложений когда наберётся достаточное количестве донатов.
->
-> Что это даст:
-> - Больше обновлений драйверов и UEFI
-> - Потенциальные улучшения производительности
-> - Сюрпризы :)
->
-> Донат можно отправить через [BuyMeACoffee](https://buymeacoffee.com/realfooking)  
-> Также принимается криптовалюта — напишите [the sog'у](https://t.me/realfooking) в Telegram для получения адреса кошелька.
 
 ## Начнём
 
@@ -68,7 +50,7 @@
 
 - [**`🔓Руководство по разблокировке загрузчика`**](unlock-bootloader-ru.md)
 
-- [**`🔀Настройка двойной загрузки`**](dualboot-ru.md)
+- [**`🔀Настройка двойной загрузки`**](dualboot-selection-ru.md)
 
 - [**`🔧Исправление проблем`**](troubleshooting-ru.md)
   
@@ -78,13 +60,13 @@
 
 - [**`📱Ре-рутинг Android`**](Re-rooting-ru.md)
 
-- [**`💾Изменение размера раздела Windows`**](/guide/English/resize-en.md)
+- [**`💾Изменение размера раздела Windows`**](resize-ru.md)
 
 - [**`📂Полезные приложения и инструкции`**](Additional-materials-ru.md)
 
-- [**`🔧Исправление GPT для использования Windows 24H2 и новее`**](fix-gpt-ru.md)
+- [**`🔧Исправление GPT для использования Windows 11 24H2 и новее`**](fix-gpt-ru.md)
 
-- [**`🧱Восстановление устройства в режиме edl`**](edl-ru.md)
+- [**`🧱Восстановление устройства из режима edl`**](edl-ru.md)
 
 
 
@@ -119,3 +101,4 @@
 [<img alt="chiyuki0325" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/73830635?s=96&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/chiyuki0325)
 [<img alt="Kumar-Jy" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/20044626?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Kumar-Jy)
 [<img alt="ArKT-7" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/157277855?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/ArKT-7)
+[<img alt="Alexey-Proger" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/109160921?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Alexey-Proger)

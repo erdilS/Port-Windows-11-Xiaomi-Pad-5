@@ -62,10 +62,10 @@ irm https://s.tx0.su/getadb | iex
     
 **If your device is the global version, you can apply for the bootloader unlock at a specific time.**
 - Xiaomi allows **2,000 devices to unlock daily**.
-- The reset time for this daily limit is **7 PM Moscow time**.
+- The reset time for this daily limit is **4:00 PM UTC**.
 
 ### Apply to unlock
-- Align your local time with **7 PM Moscow time** and be ready at this time — timing is crucial.
+- Align your local time with **4:00 PM UTC** and be ready at this time — timing is crucial.
 - Open the **Xiaomi Community app**, set it to Global, and sign in with the same account as on your device.
 - Go to the **"Me"** tab, click on **"Unlock bootloader,"** then click on **"Apply"**.
 - Once granted access, go to **Settings → Additional settings → Developer options → Mi Unlock status**.

@@ -27,7 +27,7 @@ adb reboot bootloader
 <details>
   <summary><strong>Способ 1 - Удаление с помощью adb shell restore</strong></summary>
 
-### Предварительные условия
+### Требования
 - [```SDK platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
 - [```Моддифицированый образ recovery```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win) 
@@ -58,7 +58,7 @@ adb reboot
 <details>
   <summary><strong>Способ 2 - Удаление в fastboot</strong></summary>
 
-### Предварительные условия
+### Требования
 - [```SDK platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
 - [```gpt_both0.bin```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/gpt_both0.bin) 
@@ -87,7 +87,7 @@ fastboot reboot
 <details>
   <summary><strong>Способ 3 - Удаление с помощью "Nabu Fastboot Tool"</strong></summary>
 
-### Предварительные условия
+### Требования
  **`Кабель для подключения вашего Xiaomi Pad 5 к другому устройству`**
 
  **`Любое другое устройство (iOS, Android, Windows, Mac или Linux)`**
