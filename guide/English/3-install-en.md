@@ -34,7 +34,7 @@ adb shell msc
 > Make sure that you are running CMD/Powershell as an **Administrator**
 
 > [!Important]
-> For performance reasons, it is recommended to use Windows 11 24H2 (builds that start with 261XX, such as 26100.2454)
+> For performance reasons, it is recommended to use Windows 11 25H2 (builds that start with 262XX, such as 26200.7171)
 
 > Replace `path\to\install.esd` with the actual path of install.esd (it may also be named install.wim or 22631.2861.XXXXXXX.esd)
 

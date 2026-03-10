@@ -35,7 +35,7 @@ adb shell msc
 > Hãy chắc chắn rằng bạn đang chạy CMD/Powershell với quyền **Administrator**
 
 > [!Important]
-> Vì lý do hiệu suất, nên sử dụng Windows 11 24H2 (các bản dựng bắt đầu bằng 261XX, chẳng hạn như 26100.2454)
+> Vì lý do hiệu suất, nên sử dụng Windows 11 25H2 (các bản dựng bắt đầu bằng 261XX, chẳng hạn như 262XX.7171)
 
 > Thay `path\to\install.esd` bằng đường dẫn thực của file install.esd (nó cũng có thể được đặt tên là install.wim hoặc 22631.2861.XXXXXXX.esd)
 

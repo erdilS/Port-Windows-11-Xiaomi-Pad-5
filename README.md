@@ -74,7 +74,7 @@
 
 - [**`🔓Bootloader unlocking guide`**](guide/English/unlock-bootloader-en.md)
 
-- [**`🔀Dualboot setup`**](guide/English/dualboot-selection2-en.md)
+- [**`🔀Dualboot setup`**](guide/English/dualboot-selection-en.md)
 
 - [**`🔧Troubleshooting`**](guide/English/troubleshooting-en.md)
 

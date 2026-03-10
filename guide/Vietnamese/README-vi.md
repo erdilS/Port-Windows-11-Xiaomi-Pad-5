@@ -54,7 +54,7 @@
 
 - [**`🔓Hướng dẫn mở khóa Bootloader`**](unlock-bootloader-vi.md)
 
-- [**`🔀Cài đặt Dualboot`**](dualboot-selection2-vi.md)
+- [**`🔀Cài đặt Dualboot`**](dualboot-selection-vi.md)
 
 - [**`🔧Khắc phục sự cố`**](troubleshooting-vi.md)
 
