@@ -11,9 +11,8 @@
   
 - [```Windows ARM ESD```](https://arkt-7.github.io/woawin/)
     
-- [```Драйвера```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
+- [```Драйвера & Образ UEFI```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
 
-- [```Образ UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
 
 ### Опять загрузитесь в модифицированный recovery
 - Замените `путь\к\recovery.img` на актуальный путь к **recovery.img**

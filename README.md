@@ -93,7 +93,8 @@
 - [**`🧱Restoring the Device in EDL Mode`**](guide/English/edl.md)
 
 
-
+## Maintainers
+[<img alt="remtrik" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/69907487?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/remtrik)
 ## Contributors
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
 [<img alt="map220v" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/14368485?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/map220v)

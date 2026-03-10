@@ -11,9 +11,8 @@
   
 - [```ARM Windows ESD```](https://arkt-7.github.io/woawin/)
     
-- [```Drivers```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
+- [```Drivers & UEFI image```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
 
-- [```UEFI image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
 
 ### Boot back into the modded recovery
 > Replace `path\to\recovery.img` with the actual path of the recovery image

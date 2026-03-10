@@ -15,7 +15,7 @@
   
 - [```ARM 윈도우 ESD```](https://arkt-7.github.io/woawin/) (항목 선택 - Build:  ```빌드를 선택하세요``` Language:  ```원하는 언어를 선택하세요```)
 
-- [```드라이버```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
+- [```드라이버 & UEFI 이미지 ```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
 
 ---
 ### 메모:

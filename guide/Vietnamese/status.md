@@ -29,7 +29,7 @@
 - [X] Hỗ trợ bàn phím Xiaomi
 - [ ] Hỗ trợ sạc Xiaomi Pen
 - [ ] Camera
-- [ ] Đèn flash (chỉ trong ứng dụng máy ảnh)
+- [X] Đèn flash
 
 #### Cảm biến
 

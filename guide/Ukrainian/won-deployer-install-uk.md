@@ -13,9 +13,9 @@
 
 - [```Образ Windows ARM ESD```](https://arkt-7.github.io/woawin/) (ибрати - збірка: ```виберіть збірку```, мова: ```виберіть свою мову```)
                                                               
-- [```Драйвери```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
+- [```Драйвери```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
 
-- ```Розблокований завантажувач``` (якщо ваш завантажувач заблоковано, і ви не знаєте, як його розблокувати, скористайтеся [цим](/guide/English/unlock-bootloader-en.md) посібником (англ))
+- ```Розблокований завантажувач``` (якщо ваш завантажувач заблоковано, і ви не знаєте, як його розблокувати, скористайтеся [цим](/guide/Ukrainian/unlock-bootloader-uk.md) посібником)
 
 ### Примітки:
 > [!Note]

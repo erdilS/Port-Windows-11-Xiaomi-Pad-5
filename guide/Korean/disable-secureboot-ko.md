@@ -2,6 +2,9 @@
 
 # Xiaomi Pad 5 에서 윈도우 구동
 
+>[!WARNING]
+>이 가이드는 드라이버 버전이 2601.19 미만인 경우에만 적용됩니다.
+
 ## secureboot 비활성화
 > [!Important]
 > secureboot를 비활성화하려는 경우에만 이 가이드를 이용하세요.

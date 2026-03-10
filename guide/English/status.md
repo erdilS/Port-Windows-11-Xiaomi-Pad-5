@@ -21,7 +21,6 @@ Stable. Almost everything works except for a few components.
 - [X] Touchscreen
 - [X] Microphone
 - [X] Miracast
-- [X] Location
 - [X] Smart Case Mode
 - [X] Sleep Mode
 - [X] UFS
@@ -38,6 +37,6 @@ Stable. Almost everything works except for a few components.
 
 - [X] Accelerometer
 - [X] Gyroscope
-- [ ] Light sensor (no available anymore) 
+- [X] Light sensor 
 - [X] Magnetometer
 - [X] Proximity

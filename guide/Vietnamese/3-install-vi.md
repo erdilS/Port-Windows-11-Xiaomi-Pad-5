@@ -11,7 +11,7 @@
   
 - [```ARM Windows ESD```](https://arkt-7.github.io/woawin/)
     
-- [```Drivers```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
+- [```Drivers```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
 
 - [```UEFI image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
 

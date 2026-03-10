@@ -9,8 +9,8 @@
 If you installed Windows on your NABU before 07.12.2024 and have not applied the GPT fix, please do so now using [this guide](fix-gpt-en.md) to avoid EDl issues.
 
 ## White line issues
-In some extremely rare cases, your screen may display white lines after putting it to sleep in Windows. This is a hardware issue caused by Xiaomi shipping out screens with incompatible display configurations.
+In some extremely rare cases, your screen may display white lines after putting it to sleep in Windows. 
 
 If you see white lines after sleeping in Windows, **REBOOT IMMEDIATELY!!**. These lines can become permanent if they stay on the screen for too long.
 
-Currently the only solution is to either never put your device to sleep in Windows, or to sell your nabu and buy a new one.
+

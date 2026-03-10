@@ -68,8 +68,8 @@
 
 - [**`🧱Восстановление устройства из режима edl`**](edl-ru.md)
 
-
-
+## Мейнтейнеры
+[<img alt="remtrik" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/69907487?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/remtrik)
 ## Соавторы 
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
 [<img alt="map220v" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/14368485?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/map220v)
