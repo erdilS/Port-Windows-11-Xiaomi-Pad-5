@@ -2,6 +2,10 @@
 
 # Running Windows on the Xiaomi Pad 5
 
+> [!CAUTION]
+> This guide **is not intended for updating drivers to version 2601.19**.  
+> Using it for this version may result in errors or system instability.
+
 ## Updating drivers
 
 ### Prerequisites

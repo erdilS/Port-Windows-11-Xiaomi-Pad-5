@@ -2,6 +2,10 @@
 
 # Chạy Windows trên Xiaomi Pad 5
 
+> [!CAUTION]
+> Hướng dẫn này **không предназначен để cập nhật driver lên phiên bản 2601.19**.  
+> Việc sử dụng cho phiên bản này có thể gây lỗi hoặc làm hệ thống không ổn định.
+
 ## Cập nhật drivers
 
 ### Chuẩn bị

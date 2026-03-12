@@ -4,6 +4,10 @@
 
 ## 드라이버 업데이트
 
+> [!CAUTION]
+> 이 안내서는 **드라이버를 2601.19 버전으로 업데이트하기 위한 것이 아닙니다**.  
+> 이 버전에 대해 사용할 경우 오류나 시스템 불안정이 발생할 수 있습니다.
+
 ### 준비물
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
