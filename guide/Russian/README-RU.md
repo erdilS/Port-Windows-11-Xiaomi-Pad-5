@@ -102,3 +102,7 @@
 [<img alt="Kumar-Jy" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/20044626?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Kumar-Jy)
 [<img alt="ArKT-7" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/157277855?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/ArKT-7)
 [<img alt="Alexey-Proger" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/109160921?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Alexey-Proger)
+
+## Специальная благодарность
+***К сожалению, невозможно найти и упомянуть всех людей, которые участвовали в разработке драйверов и UEFI, программ, а также всех тех, кто финансово и морально поддерживал проект. Поэтому мы можем лишь поблагодарить всех участников — вы лучшие <3 Спасибо!***
+
