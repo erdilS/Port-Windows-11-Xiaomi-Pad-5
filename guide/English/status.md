@@ -21,6 +21,7 @@ Stable. Almost everything works except for a few components.
 - [X] Touchscreen
 - [X] Microphone
 - [X] Miracast
+- [X] Location
 - [X] Smart Case Mode
 - [X] Sleep Mode
 - [X] UFS
