@@ -36,5 +36,4 @@
 - [X] Gia tốc kế
 - [X] Con quay hồi chuyển
 - [X] Nam châm kế
-- [X] Cảm biến khoảng cách
 - [X] Cảm biến ánh sáng
