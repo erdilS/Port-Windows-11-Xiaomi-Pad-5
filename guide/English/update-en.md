@@ -15,9 +15,7 @@
 
 - [```DriveLetterAssigner Tool```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)
 
-- [`UEFI image`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
-
-- [`Drivers`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
+- [`UEFI image & Drivers`](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
 
 ### Boot back into the modded recovery
 > Replace `path\to\recovery.img` with the actual path of the recovery image

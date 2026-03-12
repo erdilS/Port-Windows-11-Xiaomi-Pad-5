@@ -15,9 +15,9 @@
 
 - [```DriveLetterAssigner Tool```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)
 
-- [`UEFI image`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
+- [`UEFI image & Drivers`](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
 
-- [`Drivers`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
+
 
 ### Khởi động vào chế độ recovery đã chỉnh sửa
 > Thay thế `path\to\recovery.img` bằng đường dẫn thực tế của recovery

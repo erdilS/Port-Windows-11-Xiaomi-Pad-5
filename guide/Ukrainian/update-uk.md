@@ -11,9 +11,8 @@
 ### Необхідні файли
 - [```Recovery```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
   
-- [```UEFI образ```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
-  
-- [```Драйвері```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+- [```UEFI образ & Драйвері``](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
+
 
 ### Запустіть Recovery за допомогою завантажувача
 ```cmd

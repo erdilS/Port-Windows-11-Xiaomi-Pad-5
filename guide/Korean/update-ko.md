@@ -13,9 +13,7 @@
 
 - [맞춤화된 리커버리 이미지](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
-- [UEFI 이미지](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
-
-- [드라이버](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
+- [UEFI 이미지 & 드라이버](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
 
 ### 맞춤화된 리커버리로 부팅합
 > `path\to\recovery.img`를 리커버리 이미지의 실제 경로로 변경하세요
