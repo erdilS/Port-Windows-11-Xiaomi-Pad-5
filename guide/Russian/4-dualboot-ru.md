@@ -7,7 +7,7 @@
 ### Требования
 - [```Magisk```](https://github.com/topjohnwu/Magisk/releases/latest)
 
-- [```Образ UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
+- [```Образ UEFI```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
 
 - [```Приложение WOA Helper```](https://github.com/n00b69/woa-helper/releases/tag/APK)
 
