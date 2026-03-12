@@ -14,6 +14,16 @@
 ## Thiết lập ứng dụng dualboot
 > Hướng dẫn này chỉ dành cho máy đã root, nếu chưa, hãy làm theo hướng dẫn [root guide](2-rootguide-vi.md) trước
 
+### Sao lưu boot image
+
+> Trước khi thiết lập dual boot, bạn cần tạo bản sao lưu của boot image hiện tại.
+
+- Mở **WOA Helper**.
+- Đi tới **Back up boot image**.
+- Chọn **Windows** làm mục tiêu.
+
+> Thao tác này sẽ tạo bản sao lưu boot image của Android để thiết bị có thể chuyển đổi đúng cách giữa Android và Windows khi sử dụng dual boot.
+
 ### Thiết lập - Android
 - Tải xuống và cài đặt ứng dụng **WOA Helper**, sau đó mở nó và cấp quyền root.
 - Tải xuống **UEFI image** và chép nó vào thư mục có tên `UEFI` trong máy của bạn.

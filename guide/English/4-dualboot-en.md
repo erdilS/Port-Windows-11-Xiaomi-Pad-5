@@ -14,7 +14,18 @@
 ## Setting up the dualboot app
 > This guide assumes you are rooted, if you aren't, please follow the [root guide](2-rootguide-en.md) first
 
+### Back Up the Boot Image
+
+> Before setting up dual boot, you need to create a backup of the current boot image.
+
+- Open **WOA Helper**.
+- Go to **Back up boot image**.
+- Select **Windows** as the target.
+
+> This will create a backup of the Android boot image so the device can properly switch between Android and Windows during dual-boot.
+
 ### Setup - Android
+
 - Download and install the **WOA Helper** app, then open it and grant it root access.
 - Download the **UEFI image** and place it inside the folder named `UEFI` in your internal storage.
 - Open the WOA Helper app and press the **QUICKBOOT TO WINDOWS** button.
