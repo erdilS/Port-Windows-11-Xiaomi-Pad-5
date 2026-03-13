@@ -96,8 +96,8 @@
 
 | Feature                | Notes                                       | Status         |
 |------------------------|---------------------------------------------|----------------|
-| 🛡️ TPM                 | Software-backed. Doesn't support versions below Windows 11 22H2, or above Windows 11 24H2 26100.7171 | ✅            |
-| 🛡️ Security processor      | Unavailable                          | ❌            |
+| 🛡️ TPM                 |  | ❌            |
+| 🛡️ Security processor      | Unavailable                          |             |
 | 🔒 BitLocker      | Available but not recommended                              | ✅            |
 | 🛡️ Secure Boot      |                           | ✅            |
 | 🛡️ Windows Hello Biometrics      | Requires working fingerprint scanner                          | ❌            |
