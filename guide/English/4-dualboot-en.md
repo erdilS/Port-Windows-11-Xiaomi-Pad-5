@@ -16,6 +16,8 @@
 > This guide assumes you are rooted, if you aren't, please follow the [root guide](2-rootguide-en.md) first
 
 ### Back Up the Boot Image
+> [!NOTE]
+> Only do this step if you just changed your Android ROM and are setting up dualboot again. If you just installed Windows and are setting up dualboot for the first time, you can skip this step.
 
 > Before setting up dual boot, you need to create a backup of the current boot image.
 
