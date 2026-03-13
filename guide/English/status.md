@@ -44,7 +44,6 @@
 |------------------------|-------------------------------------|----------------|
 | 🔆 Brightness control  |                                                     | ✅            |
 | 🎆 x64 emulation      |  Only in Windows 11                          | ✅            |
-| 🖥 Miracast                 |                                                 | ✅            |
 
 
 ## 🪵 USB & Charging
@@ -58,6 +57,16 @@
 | 🪵 USB-Host (OTG)              | Some of the features are work in progress (USB Powerless Dongles) | ⚠️            |
 | 🔌 Charging (USB)             | Slow charging only, only in USB-Fn mode                           | ✅            |
 | 🔌 Charging (Wireless)             | Slow charging only, only in USB-Fn mode                           | ✅            |
+
+
+## 🌐 Wi-Fi
+
+| Feature                | Notes                               | Status         |
+|------------------------|-------------------------------------|----------------|
+| 🌐 Wi-Fi (2.4 Ghz)   |                             | ✅            |
+| 🌐 Wi-Fi (5 Ghz)     |                             | ✅            |
+| 📡 Wi-Fi Direct      |                             | ✅            |
+| 🖥 Miracast           |                            | ✅            |
 
 
 ## ⌨️ Side buttons
