@@ -89,7 +89,7 @@
 | 🖋 Third-party pen buttons    | Only if Bluetooth             | ⚠️            |
 | ⌨️ Xiaomi Keyboard        |                                             | ✅            |
 | 💻 Smart Cover Mode           | Puts device to sleep when magnetic case is closed      | ✅            |
-| 💻 Smart Cover Mode           | Puts device to sleep when DualScreen is closed      | ❌            |
+
 
 
 ## 🛡️ Security
