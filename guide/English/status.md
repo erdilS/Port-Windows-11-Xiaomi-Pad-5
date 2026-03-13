@@ -56,7 +56,6 @@
 | 🪵 USB-Fn (Charging & MTP)   | **[Default]**                                                     | ✅            |
 | 🪵 USB-Host (OTG)              | Some of the features are work in progress (USB Powerless Dongles) | ⚠️            |
 | 🔌 Charging (USB)             | Slow charging only, only in USB-Fn mode                           | ✅            |
-| 🔌 Charging (Wireless)             | Slow charging only, only in USB-Fn mode                           | ✅            |
 
 
 ## 🌐 Wi-Fi
