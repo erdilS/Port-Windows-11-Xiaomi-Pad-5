@@ -18,7 +18,7 @@
 > [!Warning]
 > 전원이 공급되지 않는 USB 장치는 작동하지 않습니다
 
-- [USB Host Mode Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control)을 실행하여 USB 호스트 모드를 활성화/비활성화하세요. USB 호스트 모드를 비활성화/활성화할지 확인하세요
+- [USB Host Mode Control](https://github.com/n00b69/usbhostmode)을 실행하여 USB 호스트 모드를 활성화/비활성화하세요. USB 호스트 모드를 비활성화/활성화할지 확인하세요
 - If USB host mode is currently enabled and USB does not work, turn it off, then back on.
 
 #### 끝!
