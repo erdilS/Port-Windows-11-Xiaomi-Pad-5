@@ -14,7 +14,7 @@
 > **ЯКЩО ВАМ НЕЗРУЧНО МОДИФІКУВАТИ СВІЙ ПЛАНШЕТ АБО ЙОГО ТАБЛИЦЮ РОЗДІЛІВ, АБО ВИ ПАРАНОЇДАЄТЕСЯ ЗЛАМАТИ СВІЙ СВІЙ ПРИСТРІЙ, БУДЬ ЛАСКА ПОКИНЬТЕ ЦЮ СТОРІНКУ ЗАРАЗ!! ВАС ПОПЕРЕДИЛИ, ВИ БУДЕТЕ ВИННІ САМІ, ЯКЩО ЗЛАМАЄТЕ СВІЙ ПРИСТРІЙ!!! ВАС ПОПЕРЕДИЛИ!!!**
 
 > [!CAUTION]
-> **❗For everyone who using drivers lower than v2501.27 and UEFI you MUST update or reinstall Windows and use the [latest release](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases), update is not recommended by developer❗**
+> **❗Якщо ви використовуєте драйвери старіші за v2501.27 разом із UEFI, необхідно перевстановити Windows, використовуючи [останній реліз](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases). Оновлення зі старих версій загалом не рекомендується розробником.❗**
 >
 > **Otherwise you have a constant risk of your UFS DYING AT ANY TIME NO MATTER WHAT!**
 >
