@@ -8,6 +8,7 @@
 - [```Magisk```](https://github.com/topjohnwu/Magisk/releases/latest)
 
 - [```UEFI image```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
+> Để tải xuống, hãy cuộn xuống cuối trang, tìm tệp cần thiết và nhấp vào tệp đó để bắt đầu tải xuống.
 
 - [```WoA Helper app```](https://github.com/n00b69/woa-helper/releases/tag/APK)
 

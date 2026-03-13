@@ -12,6 +12,7 @@
 - [```ARM Windows ESD```](https://arkt-7.github.io/woawin/)
     
 - [```Drivers & UEFI image```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
+> To download the drivers, scroll down to the bottom of the page and find the required file. Click on it to start the download.
 
 
 ### Boot back into the modded recovery

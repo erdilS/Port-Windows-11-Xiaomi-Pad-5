@@ -17,7 +17,7 @@
 > **Nhưng bro, bạn sợ à? Quá trình này rất đơn giản, ngay cả những người mới bắt đầu cũng có thể xử lý được. Chỉ cần làm theo hướng dẫn cẩn thận, và bạn sẽ ổn thôi.**
 
 > [!CAUTION]
-> **❗Đối với mọi người không sử dụng trình điều khiển và UEFI mới nhất, bạn PHẢI cập nhật hoặc cài đặt lại Windows và sử dụng [phiên bản mới nhất](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers) (v2501.27)❗**
+> **❗Đối với mọi người không sử dụng trình điều khiển và UEFI mới nhất, bạn PHẢI cập nhật hoặc cài đặt lại Windows và sử dụng [phiên bản mới nhất](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)❗**
 >
 > **Nếu không, bạn sẽ có nguy cơ mất UFS BẤT CỨ LÚC NÀO KHÔNG CÓ LÝ DO GÌ!**
 >

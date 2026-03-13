@@ -11,9 +11,8 @@
   
 - [```ARM Windows ESD```](https://arkt-7.github.io/woawin/)
     
-- [```Drivers```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
-
-- [```UEFI image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
+- [```Drivers & UEFI image```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
+> Để tải xuống, hãy cuộn xuống cuối trang, tìm tệp cần thiết và nhấp vào tệp đó để bắt đầu tải xuống.
 
 ### Khởi động vào modded recovery
 > Thay `path\to\recovery.img` bằng đường dẫn thực của file recovery

@@ -17,7 +17,7 @@
 
 
 > [!CAUTION]
-> **❗For everyone not using latest drivers and UEFI you MUST update or reinstall Windows and use the [latest release](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers) (v2501.27)❗**
+> **❗For everyone who using drivers lower than v2501.27 and UEFI you MUST update or reinstall Windows and use the [release](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases), update is not recommended by developer❗**
 >
 > **Otherwise you have a constant risk of your UFS DYING AT ANY TIME NO MATTER WHAT!**
 >

@@ -14,7 +14,7 @@
 > **ЯКЩО ВАМ НЕЗРУЧНО МОДИФІКУВАТИ СВІЙ ПЛАНШЕТ АБО ЙОГО ТАБЛИЦЮ РОЗДІЛІВ, АБО ВИ ПАРАНОЇДАЄТЕСЯ ЗЛАМАТИ СВІЙ СВІЙ ПРИСТРІЙ, БУДЬ ЛАСКА ПОКИНЬТЕ ЦЮ СТОРІНКУ ЗАРАЗ!! ВАС ПОПЕРЕДИЛИ, ВИ БУДЕТЕ ВИННІ САМІ, ЯКЩО ЗЛАМАЄТЕ СВІЙ ПРИСТРІЙ!!! ВАС ПОПЕРЕДИЛИ!!!**
 
 > [!CAUTION]
-> **❗For everyone not using latest drivers and UEFI you MUST update or reinstall Windows and use the [latest release](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers) (v2501.27)❗**
+> **❗For everyone who using drivers lower than v2501.27 and UEFI you MUST update or reinstall Windows and use the [latest release](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases), update is not recommended by developer❗**
 >
 > **Otherwise you have a constant risk of your UFS DYING AT ANY TIME NO MATTER WHAT!**
 >
@@ -25,7 +25,6 @@
 > **UPDATING IS ONLY POSSIBLE WITH WININSTALLER AND WILL TAKE 3.5 HOURS. MAKE SURE YOUR BATTERY IS FULL.**
 >
 >
-> **❗️REINSTALLING IS RECOMMENDED BECAUSE THE NEXT UPDATE WILL REQUIRE A REINSTALL IF YOU UPDATED FROM OLDER DRIVERS❗️**
 
 > [!WARNING]
 > **БУДЬ ЛАСКА, НЕ ВИКОРИСТОВУЙТЕ ВІДЕО ПОСІБНИКИ НА YOUTUBE АБО ІНШІЙ ПЛАТФОРМІ! ЦІ ВІДЕО ЗАСТАРІЛИ, І ВИ МОЖЕТЕ ЗЛАМАТИ СВІЙ ПРИСТРІЙ!**

@@ -14,6 +14,7 @@
 - [맞춤화된 리커버리 이미지](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
 - [UEFI 이미지 & 드라이버](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
+> 다운로드하려면 페이지 맨 아래로 스크롤한 뒤 필요한 파일을 찾아 클릭하여 다운로드를 시작하세요.
 
 ### 맞춤화된 리커버리로 부팅합
 > `path\to\recovery.img`를 리커버리 이미지의 실제 경로로 변경하세요

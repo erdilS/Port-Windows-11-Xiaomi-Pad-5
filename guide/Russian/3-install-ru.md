@@ -12,6 +12,7 @@
 - [```Windows ARM ESD```](https://arkt-7.github.io/woawin/)
     
 - [```Драйвера & Образ UEFI```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
+> Чтобы скачать, пролистните страницу вниз, найдите нужный файл и нажмите на него, чтобы начать загрузку.
 
 
 ### Опять загрузитесь в модифицированный recovery

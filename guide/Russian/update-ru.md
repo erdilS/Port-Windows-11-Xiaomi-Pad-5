@@ -10,6 +10,7 @@
 - [Образ recovery](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
 - [Образ UEFI & Драйверы](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
+> Чтобы скачать, пролистните страницу вниз, найдите нужный файл и нажмите на него, чтобы начать загрузку.
 
 
 > [!CAUTION]
