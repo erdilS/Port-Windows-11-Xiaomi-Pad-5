@@ -45,7 +45,6 @@ adb shell msc
 > If it asks you to enter a letter, enter the drive letter of **WINNABU** (which should be **X**), then press enter
 
 ### Reboot your device to bootloader
-> [!Warning].
 ```cmd
 adb reboot bootloader
 ```
