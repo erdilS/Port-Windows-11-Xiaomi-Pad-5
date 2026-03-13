@@ -16,7 +16,8 @@
 > **태블릿이나 파티션 테이블을 개조하는 것이 불편하거나 장치를 벽돌로 만드는 것이 걱정된다면 돌아가셔도 좋습니다. 다만 이 과정은 간단하므로 초보자도 할 수 있습니다. 설명대로 잘 따라하기만 한다면 과정을 완료할 수 있을 것입니다.**
 
 > [!CAUTION]
-> **❗If you are using drivers older than v2501.27 with UEFI, you must reinstall Windows using the [latest release](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases). Updating existing installations is not recommended by the developer.❗**
+> **❗v2501.27 이전의 드라이버와 UEFI를 사용 중인 경우, [최신 릴리스](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)를 사용하여 Windows를 반드시 업데이트하거나 재설치해야 합니다. ❗**
+> ***기존 설치를 업데이트하는 것도 가능하며 작동할 수 있지만, 개발자는 권장하지 않습니다.***
 >
 > **Otherwise you have a constant risk of your UFS DYING AT ANY TIME NO MATTER WHAT!**
 >
