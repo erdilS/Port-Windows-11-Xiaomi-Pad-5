@@ -49,7 +49,7 @@
 ## 🪵 USB & Charging
 
 > [!Note]
-> On **SM8150** devices, the device is incapable of switching the USB-mode in Windows, and a [USB Host Mode Switch tool](https://github.com/n00b69/usbhostmode) is required to do so
+> On **SM8150** devices, the device is incapable of switching the USB-mode in Windows, and a [USB Host Mode Switch tool](https://github.com/Misha803/My-Scripts/releases/tag/boot.img-Auto-Flasher) is required to do so
 
 | Feature                         | Notes                                                            | Status         |
 |---------------------------------|------------------------------------------------------------------|----------------|
