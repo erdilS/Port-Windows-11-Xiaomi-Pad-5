@@ -17,7 +17,7 @@
 
 
 > [!CAUTION]
-> **❗For everyone who using drivers lower than v2501.27 and UEFI you MUST update or reinstall Windows and use the [release](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases), update is not recommended by developer❗**
+> **❗If you are using drivers older than v2501.27 with UEFI, you must reinstall Windows using the [latest release](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases). Updating existing installations is not recommended by the developer.❗**
 >
 > **Otherwise you have a constant risk of your UFS DYING AT ANY TIME NO MATTER WHAT!**
 >

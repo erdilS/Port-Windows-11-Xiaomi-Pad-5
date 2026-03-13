@@ -44,6 +44,12 @@ adb shell msc
 
 > If it asks you to enter a letter, enter the drive letter of **WINNABU** (which should be **X**), then press enter
 
+### Boot into the UEFI
+> Replace `path\to\nabu-uefi.img` with the actual path of the UEFI image
+```cmd
+fastboot boot path\to\nabu-uefi.img
+```
+
 #### Reboot your device
 > [!Warning]
 > Make sure to also change the UEFI image in Android, otherwise you may face a "blue screen of death" (BSoD) when booting Windows later.
@@ -51,7 +57,7 @@ adb shell msc
 adb reboot
 ```
 
-## Finished!
+### [Setting up dualboot](/guide/English/dualboot-selection-en.md)
 
 
 

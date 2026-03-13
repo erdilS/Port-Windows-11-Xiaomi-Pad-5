@@ -57,13 +57,22 @@ exit
 
 > 프로그램이 문자를 입력하라고 하는 경우, **WINNABU** (기본적으로 **X** 입니다) 의 드라이브 문자를 입력하고, enter 키를 입력하세요
 
-#### 기기를 재부팅합니다
-> 안드로이드에서도 UEFI 이미지를 변경했는지 확인하세요. 그렇지 않으면 이후 윈도우로 부팅할 때 "블루 스크린" (BSoD) 이 표시될 수 있습니다.
+### fastboot로 재부팅
 ```cmd
-adb reboot
+adb reboot bootloader
 ```
 
-## 끝!
+#### UEFI로 부팅
+> `path\to\nabu-uefi.img`를 UEFI 이미지의 실제 경로로 변경하세요
+```cmd
+fastboot boot path\to\nabu-uefi.img
+```
+
+### 안드로이드로 재부팅
+기기가 약 10분 후 자동으로 재부팅되고, 안드로이드로 부팅되면 마지막 단계로 이동할 수 있습니다.
+
+### [ 듀얼부팅 설정](/guide/Korean/dualboot-selection-ko.md)
+
 
 
 

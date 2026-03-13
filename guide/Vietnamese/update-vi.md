@@ -45,11 +45,19 @@ adb shell msc
 
 > Nếu nó yêu cầu bạn nhập một ký tự, hãy nhập ký tự ổ đĩa của **WINNABU** (nên là **X**), sau đó nhấn enter
 
-#### Khởi động lại thiết bị của bạn
-> [!Warning]
-> Hãy chắc chắn cũng thay đổi UEFI trong Android, nếu không bạn có thể gặp phải "màn hình xanh chết chóc" (BSoD) khi khởi động Windows sau này.
+### Khởi động vào fastboot
 ```cmd
-adb reboot
+adb reboot bootloader
 ```
 
-## Hoàn tất!
+#### Khởi động vào UEFI
+> Thay `path\to\nabu-uefi.img` bằng đường dẫn thực của file UEFI
+```cmd
+fastboot boot path\to\nabu-uefi.img
+```
+
+### Khởi động vào Android
+> Thiết bị của bạn sẽ tự động khởi động lại sau khoảng 10 phút chờ đợi, sau đó bạn sẽ được khởi động vào Android, và chúng ta đến bước cuối cùng.
+
+## [Thiết lập dualboot](/guide/Vietnamese/dualboot-selection-vi.md)
+

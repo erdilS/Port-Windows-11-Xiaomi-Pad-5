@@ -60,4 +60,16 @@ adb shell msc
 adb reboot
 ```
 
-## Готово!
+### Перезагрузка в fastboot
+```cmd
+adb reboot bootloader
+```
+
+#### Загрузка в UEFI
+- Замените `путь\к\uefi.img` на актуальный путь к образу UEFI
+```cmd
+fastboot boot путь\к\uefi.img
+```
+
+## [Настройка двойной загрузки](/guide/Russian/4-dualboot-ru.md)
+
