@@ -35,8 +35,6 @@
 
 - [.fd file (magnetic case method](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/nabu.fd)
 
-- [.fd file (volume button method](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/nabuVolumebuttons.fd)
-
 ### Opening CMD as an admin
 > Open CMD as an **administrator**, then run the below command, replacing `path\to\platform-tools` with the actual path to the platform-tools folder, for example **C:\platform-tools**.
 >

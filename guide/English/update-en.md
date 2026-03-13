@@ -2,6 +2,10 @@
 
 # Running Windows on the Xiaomi Pad 5
 
+> [!NOTE]
+> This guide **is not recommended for updating drivers to version 2601.19**.  
+> Using it for this version may result in errors or system instability as the maintainer says.
+
 ## Updating drivers
 
 ### Prerequisites
@@ -11,9 +15,8 @@
 
 - [```DriveLetterAssigner Tool```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)
 
-- [`UEFI image`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
-
-- [`Drivers`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
+- [`UEFI image & Drivers`](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
+> To download, scroll down to the bottom of the page and find the required file. Click on it to start the download.
 
 ### Boot back into the modded recovery
 > Replace `path\to\recovery.img` with the actual path of the recovery image
@@ -41,6 +44,12 @@ adb shell msc
 
 > If it asks you to enter a letter, enter the drive letter of **WINNABU** (which should be **X**), then press enter
 
+### Boot into the UEFI
+> Replace `path\to\nabu-uefi.img` with the actual path of the UEFI image
+```cmd
+fastboot boot path\to\nabu-uefi.img
+```
+
 #### Reboot your device
 > [!Warning]
 > Make sure to also change the UEFI image in Android, otherwise you may face a "blue screen of death" (BSoD) when booting Windows later.
@@ -48,7 +57,7 @@ adb shell msc
 adb reboot
 ```
 
-## Finished!
+### [Setting up dualboot](/guide/English/dualboot-selection-en.md)
 
 
 

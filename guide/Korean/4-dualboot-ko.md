@@ -7,12 +7,22 @@
 ### 준비물
 - [```Magisk```](https://github.com/topjohnwu/Magisk/releases/latest)
   
-- [```UEFI 이미지```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
+- [```UEFI 이미지```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
   
 - [```WoA Helper 앱```](https://github.com/n00b69/woa-helper/releases/tag/APK)
 
 ## 듀얼부팅 가이드
 > 이 가이드는 태블릿이 루팅되어있다고 가정하므로 루팅하지 않았다면 [해당 가이드](2-rootguide-ko.md)를 먼저 보시기 바랍니다.
+
+### 부트 이미지 백업
+
+> 듀얼 부팅을 설정하기 전에 현재 부트 이미지를 백업해야 합니다.
+
+- **WOA Helper**를 실행합니다.
+- **Back up boot image** 메뉴로 이동합니다.
+- 대상(target)으로 **Windows**를 선택합니다.
+
+> 이렇게 하면 Android 부트 이미지의 백업이 생성되어 장치가 Android와 Windows 사이에서 듀얼 부팅을 올바르게 전환할 수 있습니다.
 
 ### 설정 - 안드로이드
 - **WOA Helper** 앱을 다운로드 및 설치하시고, 앱을 열고 루트 권한을 허용하세요.

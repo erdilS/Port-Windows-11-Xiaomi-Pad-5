@@ -11,9 +11,8 @@
   
 - [```ARM 윈도우 esd```](https://arkt-7.github.io/woawin/)
     
-- [```드라이버```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
-
-- [```UEFI 이미지```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
+- [```드라이버 & UEFI 이미지```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
+> 다운로드하려면 페이지 맨 아래로 스크롤한 뒤 필요한 파일을 찾아 클릭하여 다운로드를 시작하세요.
 
 ### 맞춤화된 리커버리로 부팅
 > `path\to\recovery.img`를 리커버리 이미지의 실제 경로로 변경하세요
@@ -35,7 +34,7 @@ adb shell msc
 > CMD/Powershell이 **관리자 권한**으로 실행되고 있는지 확인하세요
 
 > [!Important]
-> 성능상의 이유로, Windows 11 24H2를 사용하는 것을 권장합니다 (26100.2454 처럼 261XX로 시작하는 빌드)
+> 성능상의 이유로, Windows 11 25H2를 사용하는 것을 권장합니다 (26100.2454 처럼 261XX로 시작하는 빌드)
 
 > `path\to\install.esd`를 install.esd의 실제 경로로 변경하세요 (파일 이름이 install.wim 또는 22631.2861.XXXXXXX.esd 일 수도 있습니다)
 

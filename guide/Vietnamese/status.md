@@ -29,12 +29,11 @@
 - [X] Hỗ trợ bàn phím Xiaomi
 - [ ] Hỗ trợ sạc Xiaomi Pen
 - [ ] Camera
-- [ ] Đèn flash (chỉ trong ứng dụng máy ảnh)
+- [X] Đèn flash (chỉ trong ứng dụng máy ảnh)
 
 #### Cảm biến
 
 - [X] Gia tốc kế
 - [X] Con quay hồi chuyển
 - [X] Nam châm kế
-- [X] Cảm biến khoảng cách
 - [X] Cảm biến ánh sáng

@@ -17,18 +17,16 @@
 > Если вы боитесь модифицировать планшет, изменять его таблицу разделов или получить кирпич, самое время прекратить чтение. Однако установка Windows достачно проста, и даже новички смогут разобраться в ней: просто внимательно следуйте инструкции, и всё получится!
 
 > [!CAUTION]
-> **❗Всем, кто не использует последние версии драйверов и UEFI, необходимо обновить или переустановить Windows и использовать [ПОСЛЕДНЮЮ версию драйверов](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers) (v2501.27)❗**
+> **❗Всем, кто не использует последние версии драйверов и UEFI, необходимо обновить или переустановить Windows и использовать [ПОСЛЕДНЮЮ версию драйверов](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases), обновление не рекомендуется разработчиком❗**
 >
 > **В ПРОТИВНОМ СЛУЧАЕ ВАША UFS МОЖЕТ УМРЕТЬ В ЛЮБОЙ МОМЕНТ, НЕСМОТРЯ НИ НА ЧТО!**
 >
 > [**Руководство по переустановке**](reinstall-ru.md)
 >
-> [**Руководство по обновлению**](DriverUpdate-ru.md)
+> [**Руководство по обновлению**](update-ru.md)
 >
 > **ОБНОВЛЕНИЕ ВОЗМОЖНО ТОЛЬКО С ПОМОЩЬЮ WININSTALLER И ЗАЙМЕТ 3,5 ЧАСА. УБЕДИТЕСЬ, ЧТО ВАША БАТАРЕЯ ЗАРЯЖЕНА.**
 >
->
-> **❗️РЕКОМЕНДУЕТСЯ ПЕРЕУСТАНОВКА, ПОСКОЛЬКУ СЛЕДУЮЩЕЕ ОБНОВЛЕНИЕ ПОТРЕБУЕТ ПОВТОРНОЙ УСТАНОВКИ, ЕСЛИ ВЫ ОБНОВЛЯЛИСЬ С БОЛЕЕ СТАРЫХ ДРАЙВЕРОВ❗️**
 
 > [!WARNING]
 > **НЕ ИСПОЛЬЗУЙТЕ ВИДЕОИНСТРУКЦИИ НА YOUTUBE ИЛИ ДРУГИХ ПЛАТФОРМАХ! ЭТИ МАТЕРИАЛЫ НЕ ЯВЛЯЮТСЯ АКТУАЛЬНЫМИ, И ИХ ИСПОЛЬЗОВАНИЕ МОЖЕТ ПРИВЕСТИ К 🧱🧱🧱 ВАШЕГО УСТРОЙСТВА.**
@@ -68,8 +66,8 @@
 
 - [**`🧱Восстановление устройства из режима edl`**](edl-ru.md)
 
-
-
+## Мейнтейнеры
+[<img alt="remtrik" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/69907487?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/remtrik)
 ## Соавторы 
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
 [<img alt="map220v" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/14368485?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/map220v)
@@ -102,3 +100,7 @@
 [<img alt="Kumar-Jy" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/20044626?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Kumar-Jy)
 [<img alt="ArKT-7" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/157277855?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/ArKT-7)
 [<img alt="Alexey-Proger" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/109160921?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Alexey-Proger)
+
+## Специальная благодарность
+***К сожалению, невозможно найти и упомянуть всех людей, которые участвовали в разработке драйверов и UEFI, программ, а также всех тех, кто финансово и морально поддерживал проект. Поэтому мы можем лишь поблагодарить всех участников — вы лучшие <3 Спасибо!***
+

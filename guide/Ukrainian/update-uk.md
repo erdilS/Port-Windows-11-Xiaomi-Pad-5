@@ -2,14 +2,18 @@
 
 # Запуск Windows на Xiaomi Pad 5
 
+> [!CAUTION]
+> Ця інструкція **не рекомендується для оновлення драйверів до версії 2601.19**.  
+> Використання її для цієї версії може призвести до помилок або нестабільної роботи системи як каже мейнтейнера.
+
 ## Оновлення драйверів у Windows
 
 ### Необхідні файли
 - [```Recovery```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
   
-- [```UEFI образ```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
-  
-- [```Драйвері```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+- [```UEFI образ & Драйвері``](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
+> Щоб завантажити, прокрутіть сторінку вниз до самого кінця, знайдіть потрібний файл і натисніть на нього, щоб почати завантаження.
+
 
 ### Запустіть Recovery за допомогою завантажувача
 ```cmd

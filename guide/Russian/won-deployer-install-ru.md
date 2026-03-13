@@ -11,9 +11,9 @@
 
 - [```Драйверы ADB, установленные на вашем ПК```](https://dl.google.com/android/repository/usb_driver_r13-windows.zip)
 
-- [```ARM Windows ESD```](https://arkt-7.github.io/woawin/) (По соображениям производительности рекомендуется использовать Windows 11 24H2 (сборки, начинающиеся с 261XX, например 26100.2454))
+- [```ARM Windows ESD```](https://arkt-7.github.io/woawin/) (По соображениям производительности рекомендуется использовать Windows 11 25H2 (сборки, начинающиеся с 262XX, например 26100.7171))
 
-- [```Драйверы```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
+- [```Драйверы & Образ UEFI```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
 
 - ```Разблокированный загрузчик``` (Если ваш загрузчик заблокирован и вы не знаете, как его разблокировать, воспользуйтесь [этим](unlock-bootloader-ru.md) руководством)
 

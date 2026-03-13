@@ -14,7 +14,7 @@
 > **ЯКЩО ВАМ НЕЗРУЧНО МОДИФІКУВАТИ СВІЙ ПЛАНШЕТ АБО ЙОГО ТАБЛИЦЮ РОЗДІЛІВ, АБО ВИ ПАРАНОЇДАЄТЕСЯ ЗЛАМАТИ СВІЙ СВІЙ ПРИСТРІЙ, БУДЬ ЛАСКА ПОКИНЬТЕ ЦЮ СТОРІНКУ ЗАРАЗ!! ВАС ПОПЕРЕДИЛИ, ВИ БУДЕТЕ ВИННІ САМІ, ЯКЩО ЗЛАМАЄТЕ СВІЙ ПРИСТРІЙ!!! ВАС ПОПЕРЕДИЛИ!!!**
 
 > [!CAUTION]
-> **❗For everyone not using latest drivers and UEFI you MUST update or reinstall Windows and use the [latest release](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers) (v2501.27)❗**
+> **❗Якщо ви використовуєте драйвери старіші за v2501.27 разом із UEFI, необхідно перевстановити Windows, використовуючи [останній реліз](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases). Оновлення зі старих версій загалом не рекомендується розробником.❗**
 >
 > **Otherwise you have a constant risk of your UFS DYING AT ANY TIME NO MATTER WHAT!**
 >
@@ -25,10 +25,9 @@
 > **UPDATING IS ONLY POSSIBLE WITH WININSTALLER AND WILL TAKE 3.5 HOURS. MAKE SURE YOUR BATTERY IS FULL.**
 >
 >
-> **❗️REINSTALLING IS RECOMMENDED BECAUSE THE NEXT UPDATE WILL REQUIRE A REINSTALL IF YOU UPDATED FROM OLDER DRIVERS❗️**
 
 > [!WARNING]
-> **БУДЬ ЛАСКА, НЕ ВИКОРИСТОВУЙТЕ ВІДЕО ПОСІБНИКИ НА YOUTUBE АБО ІНШІЙ ПЛАТФОРМІ! ЦІ ВІДЕО ЗАСТАРІЛИ, І ВИ МОЖЕТЕ ЗЛАМАТИ СВІЙ ПРИСТРІЙ! 
+> **БУДЬ ЛАСКА, НЕ ВИКОРИСТОВУЙТЕ ВІДЕО ПОСІБНИКИ НА YOUTUBE АБО ІНШІЙ ПЛАТФОРМІ! ЦІ ВІДЕО ЗАСТАРІЛИ, І ВИ МОЖЕТЕ ЗЛАМАТИ СВІЙ ПРИСТРІЙ!**
 
 ## Початок
 - [**`📖ВАЖЛИВО: ПРОЧИТАЙТЕ ПЕРШИМ!`**](important.md)
@@ -42,7 +41,7 @@
 ## Різне
 - [**`🔓Розблокування завантажувача`**](unlock-bootloader-uk.md)
 
-- [**`🔀Налаштування подвійного завантаження`**](dualboot-uk.md)
+- [**`🔀Налаштування подвійного завантаження`**](4-dualboot-uk.md)
   
 - [**`🔧Вирішення проблем`**](troubleshooting-uk.md)
   

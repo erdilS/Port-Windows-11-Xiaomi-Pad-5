@@ -15,7 +15,8 @@
 
 - [```ARM Windows ESD```](https://arkt-7.github.io/woawin/) (Select - Build:  ```select build``` Language:  ```select your language```)
     
-- [```Drivers```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
+- [```Drivers & UEFI```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
+> Để tải xuống, hãy cuộn xuống cuối trang, tìm tệp cần thiết và nhấp vào tệp đó để bắt đầu tải xuống.
 
 
 ---

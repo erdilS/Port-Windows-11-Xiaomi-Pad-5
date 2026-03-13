@@ -16,7 +16,7 @@
 > **태블릿이나 파티션 테이블을 개조하는 것이 불편하거나 장치를 벽돌로 만드는 것이 걱정된다면 돌아가셔도 좋습니다. 다만 이 과정은 간단하므로 초보자도 할 수 있습니다. 설명대로 잘 따라하기만 한다면 과정을 완료할 수 있을 것입니다.**
 
 > [!CAUTION]
-> **❗For everyone not using latest drivers and UEFI you MUST update or reinstall Windows and use the [latest release](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers) (v2501.27)❗**
+> **❗If you are using drivers older than v2501.27 with UEFI, you must reinstall Windows using the [latest release](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases). Updating existing installations is not recommended by the developer.❗**
 >
 > **Otherwise you have a constant risk of your UFS DYING AT ANY TIME NO MATTER WHAT!**
 >
@@ -50,13 +50,11 @@
 
 - [**`🔓부트로더 언락 가이드`**](unlock-bootloader-ko.md)
 
-- [**`🔀듀얼부팅 설정`**](dualboot-selection2-ko.md)
+- [**`🔀듀얼부팅 설정`**](dualboot-selection-ko.md)
 
 - [**`🔧문제 해결`**](troubleshooting-ko.md)
 
 - [**`🔄드라이버 업데이트`**](update-ko.md)
-
-- [**`🔄UEFI 업데이트`**](UEFI-updating-ko.md)
 
 - [**`♻️재설치`**](reinstall-ko.md)
 
@@ -101,3 +99,4 @@
 [<img alt="chiyuki0325" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/73830635?s=96&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/chiyuki0325)
 [<img alt="Kumar-Jy" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/20044626?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Kumar-Jy)
 [<img alt="ArKT-7" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/157277855?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/ArKT-7)
+

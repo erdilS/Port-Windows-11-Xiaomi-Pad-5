@@ -9,9 +9,9 @@
 
 - [Образ recovery](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
-- [Образ UEFI](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
+- [Образ UEFI & Драйверы](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
+> Чтобы скачать, пролистните страницу вниз, найдите нужный файл и нажмите на него, чтобы начать загрузку.
 
-- [Драйверы](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 
 > [!CAUTION]
 > **❗️ОБНОВЛЕНИЕ ДРАЙВЕРОВ ДО ВЕРСИИ v2501.27 ВОЗМОЖНО ТОЛЬКО ЧЕРЕЗ WININSTALLER И ЗАЙМЁТ 3.5 ЧАСА❗️**
@@ -22,6 +22,10 @@
 > [**Руководство по обновлению**](https://github.com/Kumar-Jy/Windows-in-NABU-Without-PC/blob/main/guide/Russian/DriverUpdate-ru.md)
 >
 > **❗️РЕКОМЕНДУЕТСЯ ПЕРЕУСТАНОВКА, ПОСКОЛЬКУ СЛЕДУЮЩЕЕ ОБНОВЛЕНИЕ ПОТРЕБУЕТ ПОВТОРНОЙ УСТАНОВКИ, ЕСЛИ ВЫ ОБНОВЛЯЛИСЬ С БОЛЕЕ СТАРЫХ ДРАЙВЕРОВ❗️**
+
+> [!NOTE]
+> ❗️Эта инструкция **не рекомендуется для обновления драйверов до версии 2601.19**.❗️  
+> Использование её для этой версии **может привести к ошибкам или неработоспособности системы** по заявлению мейнтейнера.
 
 ### Загрузитесь в recovery
 > Замените `путь\к\recovery.img` на действительный путь к recovery.img
@@ -56,4 +60,16 @@ adb shell msc
 adb reboot
 ```
 
-## Готово!
+### Перезагрузка в fastboot
+```cmd
+adb reboot bootloader
+```
+
+#### Загрузка в UEFI
+- Замените `путь\к\uefi.img` на актуальный путь к образу UEFI
+```cmd
+fastboot boot путь\к\uefi.img
+```
+
+## [Настройка двойной загрузки](/guide/Russian/4-dualboot-ru.md)
+

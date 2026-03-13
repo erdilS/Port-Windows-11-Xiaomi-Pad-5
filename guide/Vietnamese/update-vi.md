@@ -2,6 +2,10 @@
 
 # Chạy Windows trên Xiaomi Pad 5
 
+> [!CAUTION]
+> Hướng dẫn này **không предназначен để cập nhật driver lên phiên bản 2601.19**.  
+> Việc sử dụng cho phiên bản này có thể gây lỗi hoặc làm hệ thống không ổn định.
+
 ## Cập nhật drivers
 
 ### Chuẩn bị
@@ -11,9 +15,9 @@
 
 - [```DriveLetterAssigner Tool```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)
 
-- [`UEFI image`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
+- [`UEFI image & Drivers`](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
+> Để tải xuống, hãy cuộn xuống cuối trang, tìm tệp cần thiết và nhấp vào tệp đó để bắt đầu tải xuống.
 
-- [`Drivers`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 
 ### Khởi động vào chế độ recovery đã chỉnh sửa
 > Thay thế `path\to\recovery.img` bằng đường dẫn thực tế của recovery
@@ -41,11 +45,19 @@ adb shell msc
 
 > Nếu nó yêu cầu bạn nhập một ký tự, hãy nhập ký tự ổ đĩa của **WINNABU** (nên là **X**), sau đó nhấn enter
 
-#### Khởi động lại thiết bị của bạn
-> [!Warning]
-> Hãy chắc chắn cũng thay đổi UEFI trong Android, nếu không bạn có thể gặp phải "màn hình xanh chết chóc" (BSoD) khi khởi động Windows sau này.
+### Khởi động vào fastboot
 ```cmd
-adb reboot
+adb reboot bootloader
 ```
 
-## Hoàn tất!
+#### Khởi động vào UEFI
+> Thay `path\to\nabu-uefi.img` bằng đường dẫn thực của file UEFI
+```cmd
+fastboot boot path\to\nabu-uefi.img
+```
+
+### Khởi động vào Android
+> Thiết bị của bạn sẽ tự động khởi động lại sau khoảng 10 phút chờ đợi, sau đó bạn sẽ được khởi động vào Android, và chúng ta đến bước cuối cùng.
+
+## [Thiết lập dualboot](/guide/Vietnamese/dualboot-selection-vi.md)
+

@@ -11,9 +11,8 @@
   
 - [```ARM Windows ESD```](https://arkt-7.github.io/woawin/)
     
-- [```Drivers```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
-
-- [```UEFI image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
+- [```Drivers & UEFI image```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
+> Để tải xuống, hãy cuộn xuống cuối trang, tìm tệp cần thiết và nhấp vào tệp đó để bắt đầu tải xuống.
 
 ### Khởi động vào modded recovery
 > Thay `path\to\recovery.img` bằng đường dẫn thực của file recovery
@@ -35,7 +34,7 @@ adb shell msc
 > Hãy chắc chắn rằng bạn đang chạy CMD/Powershell với quyền **Administrator**
 
 > [!Important]
-> Vì lý do hiệu suất, nên sử dụng Windows 11 24H2 (các bản dựng bắt đầu bằng 261XX, chẳng hạn như 26100.2454)
+> Vì lý do hiệu suất, nên sử dụng Windows 11 25H2 (các bản dựng bắt đầu bằng 261XX, chẳng hạn như 262XX.7171)
 
 > Thay `path\to\install.esd` bằng đường dẫn thực của file install.esd (nó cũng có thể được đặt tên là install.wim hoặc 22631.2861.XXXXXXX.esd)
 

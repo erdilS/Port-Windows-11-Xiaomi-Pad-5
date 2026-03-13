@@ -11,9 +11,9 @@
   
 - [```ARM Windows ESD```](https://arkt-7.github.io/woawin/)
     
-- [```Drivers```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
+- [```Drivers & UEFI image```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
+> To download the drivers, scroll down to the bottom of the page and find the required file. Click on it to start the download.
 
-- [```UEFI image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
 
 ### Boot back into the modded recovery
 > Replace `path\to\recovery.img` with the actual path of the recovery image
@@ -35,7 +35,7 @@ adb shell msc
 > Make sure that you are running CMD/Powershell as an **Administrator**
 
 > [!Important]
-> For performance reasons, it is recommended to use Windows 11 24H2 (builds that start with 261XX, such as 26100.2454)
+> For performance reasons, it is recommended to use Windows 11 25H2 (builds that start with 262XX, such as 26200.7171)
 
 > Replace `path\to\install.esd` with the actual path of install.esd (it may also be named install.wim or 22631.2861.XXXXXXX.esd)
 
