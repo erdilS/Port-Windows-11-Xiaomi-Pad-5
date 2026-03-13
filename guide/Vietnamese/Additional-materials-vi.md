@@ -40,7 +40,7 @@
 > [!Warning]
 > Tắt USB host mode nếu bạn sử dụng một bộ chia USB có nguồn điện, vì điều này có thể gây hư hỏng thiết bị của bạn. Nếu bạn không sử dụng một bộ chia USB có nguồn điện, hãy bật USB host mode hoặc bạn sẽ không thể sử dụng bất kỳ thiết bị USB nào.
 
-- Chạy [USB Host Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) để bật/tắt USB host mode, sau đó xác nhận rằng bạn muốn tắt/bật USB host mode.
+- Chạy [USB Host Control](https://github.com/n00b69/usbhostmode) để bật/tắt USB host mode, sau đó xác nhận rằng bạn muốn tắt/bật USB host mode.
 - Nếu USB host mode hiện đang được bật và USB không hoạt động, hãy tắt nó đi, sau đó bật lại.
 
 #### Hoàn tất!
