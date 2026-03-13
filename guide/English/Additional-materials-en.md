@@ -40,7 +40,7 @@
 > [!Warning]
 > Disable USB host mode if you use a powered USB hub, as this can irreversibly damage your device. If you don't use a powered USB hub, enable USB host mode or you will not be able to use any USB devices.
 
-- Run [USB Host Control](https://github.com/n00b69/usbhostmode) to enable/disable USB host mode, then confirm that you want to disable/enable USB host mode.
+- Run [USB Host Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) to enable/disable USB host mode, then confirm that you want to disable/enable USB host mode.
 - If USB host mode is currently enabled and USB does not work, turn it off, then back on.
 
 #### Finished!
