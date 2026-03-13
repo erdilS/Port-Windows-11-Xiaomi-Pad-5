@@ -43,7 +43,7 @@
 | Feature                | Notes                               | Status         |
 |------------------------|-------------------------------------|----------------|
 | 🔆 Brightness control  |                                                     | ✅            |
-| 🎆 x64 emulation      |  Only in Windows 11                          | ✅            |
+| 🎆 x64 emulation      |  Only in Windows 11 or in [special build Windows 10](https://www.mediafire.com/file/aw39x1ayrz3kqkw/Fixed_Windows_10_ARM64_21354_P2.wim/file)                         | ✅            |
 
 
 ## 🪵 USB & Charging
