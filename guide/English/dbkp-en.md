@@ -13,15 +13,11 @@
 - Open **WOA Toolbox**, then press the **DUALBOOT KERNEL PATCHER** button and select the option you would like to use (dualboot using the **magnetic case**, or with **volume buttons**).
 - Wait for it to finish, then reboot your device.
 
-#### Booting into Windows - Magnetic Case method
+#### Booting into Windows
 - Close the **magnetic case** and reboot (or turn on) your device.
-
-#### Booting into Windows - Volume button method
-- Reboot (or turn on) your device and hold any **volume button** once you see the unlock icon or the Aloha logo (upside down V).
 
 #### Booting into Android
 - Open the **magnetic case** and reboot (or turn on) your device.
-- If you are using the **volume button** method, simply do not press any volume button while (re)booting the device.
 
 ## Finished!
 
@@ -33,9 +29,7 @@
 
 - [DualBoot Kernel Patcher](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/DualBootKernelPatcher.zip)
 
-- [.fd file (magnetic case method](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/nabu.fd)
-
-- [.fd file (volume button method](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/nabuVolumebuttons.fd)
+- [.fd file](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/nabu.fd)
 
 ### Opening CMD as an admin
 > Open CMD as an **administrator**, then run the below command, replacing `path\to\platform-tools` with the actual path to the platform-tools folder, for example **C:\platform-tools**.
@@ -101,15 +95,11 @@ fastboot flash boot_b path\to\new_boot.img
 fastboot reboot
 ```
 
-#### Booting into Windows - Magnetic Case method
+#### Booting into Windows
 - Close the **magnetic case** and reboot (or turn on) your device.
-
-#### Booting into Windows - Volume button method
-- Reboot (or turn on) your device and hold any **volume button** once you see the unlock icon or the Aloha logo (upside down V)
 
 #### Booting into Android
 - Open the **magnetic case** and reboot (or turn on) your device.
-- If you are using the **volume button** method, simply do not press any volume button while (re)booting the device.
 
 ## Finished!
 

@@ -29,7 +29,7 @@
 ### Thiết lập Android boot.img auto-flashing
 
 >[!NOTE]
-> Setup Android boot.img auto-flashing trên Windows boot hoặc khi pin thấp (<15%) để tránh tình trạng pin chết khi uefi.img đã được flash.
+> Setup Android boot.img auto-flashing trên Windows boot hoặc khi pin thấp (<15%/20%) để tránh tình trạng pin chết khi uefi.img đã được flash.
 
 - Tải xuống **boot.img auto-flasher** [here](https://github.com/Misha803/My-Scripts/releases/tag/boot.img-Auto-Flasher).
 - Chạy nó, nhấp vào nút **INSTALL**, chọn thời điểm nào nên tự động flash Android boot.img (trên Windows boot/Pin thấp) và chờ quá trình cài đặt hoàn tất.

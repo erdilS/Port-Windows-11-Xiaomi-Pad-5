@@ -17,7 +17,8 @@
 > **Nhưng bro, bạn sợ à? Quá trình này rất đơn giản, ngay cả những người mới bắt đầu cũng có thể xử lý được. Chỉ cần làm theo hướng dẫn cẩn thận, và bạn sẽ ổn thôi.**
 
 > [!CAUTION]
-> **❗Đối với mọi người không sử dụng trình điều khiển và UEFI mới nhất, bạn PHẢI cập nhật hoặc cài đặt lại Windows và sử dụng [phiên bản mới nhất](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers) (v2501.27)❗**
+> **❗Nếu bạn đang sử dụng driver và UEFI cũ hơn v2501.27, bạn PHẢI cập nhật hoặc cài lại Windows bằng [phiên bản mới nhất](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases). ❗**
+> ***Xin lưu ý rằng việc cập nhật các cài đặt hiện có là khả thi và có thể hoạt động, nhưng nhà phát triển không khuyến nghị.***
 >
 > **Nếu không, bạn sẽ có nguy cơ mất UFS BẤT CỨ LÚC NÀO KHÔNG CÓ LÝ DO GÌ!**
 >
@@ -54,7 +55,7 @@
 
 - [**`🔓Hướng dẫn mở khóa Bootloader`**](unlock-bootloader-vi.md)
 
-- [**`🔀Cài đặt Dualboot`**](dualboot-selection2-vi.md)
+- [**`🔀Cài đặt Dualboot`**](dualboot-selection-vi.md)
 
 - [**`🔧Khắc phục sự cố`**](troubleshooting-vi.md)
 

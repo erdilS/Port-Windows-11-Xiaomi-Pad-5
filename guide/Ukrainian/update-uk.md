@@ -2,14 +2,17 @@
 
 # Запуск Windows на Xiaomi Pad 5
 
+> [!NOTE]
+> Ця інструкція **не рекомендується для оновлення драйверів до версії 2601.19**.  
+> Використання її для оновлення до цієї версії може призвести до проблем або нестабільної роботи системи як каже мейнтейнера.
+
 ## Оновлення драйверів у Windows
 
 ### Необхідні файли
 - [```Recovery```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
   
-- [```UEFI образ```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
-  
-- [```Драйвері```](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+- [```UEFI образ & Драйвері``](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
+
 
 ### Запустіть Recovery за допомогою завантажувача
 ```cmd
@@ -43,25 +46,19 @@ assign letter=x
 ```diskpart
 exit
 ```
-
 ### Встановлення драйверів
-> Якщо написано `"Automatic WINNABU detection failed! Enter Drive Letter manually"` введіть **`X`**
->
-> Відкрийте папку драйверів і запустіть ```OfflineUpdater.cmd```
+> [!Note]
+> Цей процес займе від 3 до 6 годин, не хвилюйтеся, це нормально.
 
+- Розпакуйте архів з драйверами, потім відкрийте файл `OfflineUpdater.cmd` (якщо виникне помилка, натомість запустіть `OfflineUpdaterFix.cmd`)
 
-### Перезавантаження до fastboot для прошивки UEFI
-> Ви також можете використовувати програму WOA Helper, у цьому випадку ви можете перезавантажити за допомогою ```adb reboot```
->
-> Переконайтеся, що ви використовуєте останню версію UEFI, тому що Windows може не завантажитися, якщо оновити драйвери без оновлення UEFI
+> Якщо з'явиться запит на введення літери, введіть літеру диска **WINNABU** (це має бути **X**), а потім натисніть Enter
+
+#### Перезавантажте пристрій
+> [!Warning]
+> Не забудьте також змінити образ UEFI в Android, інакше під час завантаження Windows ви можете зіткнутися з "blue/black screen of death" (BSoD).
 ```cmd
-adb reboot bootloader
-```
-
-#### Завантаження з завантажувальним образом UEFI Windows
-> Замініть <uefi.img> на фактичний шлях до образу UEFI
-```cmd
-fastboot flash boot <uefi.img>
+adb reboot
 ```
 
 ## Готово!

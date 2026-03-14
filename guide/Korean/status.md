@@ -1,40 +1,120 @@
-<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
+# Project status
 
-# Xiaomi Pad 5 에서 윈도우 구동
+- Current **Driver** version: **v2601.19**
+- Current **UEFI** version: **v2601.19**
 
-## 프로젝트 지원 상태
+# Simple status
 
-안정적입니다. 몇몇 요소를 제외한 거의 모든 것이 작동합니다.
+| Feature                | Notes                                           | Status         |
+|------------------------|-------------------------------------------------|----------------|
+| 🔊 Audio               |                                                 | ✅            |
+| 🔋 Battery             |                                                 | ✅            |
+| 🎆 GPU                 |                                                 | ✅            |
+| 👆 Touch               | 10-point Multi-touch                            | ✅            |
+| 🪵 USB                 |                                                 | ✅            |
+| 🔌 Charging            | Slow charging only                              | ⚠️            |
+| 🔵 Bluetooth           |                                                 | ✅            |
+| 🛜 Wi-Fi               |                                                 | ✅            |
+| ⌨️ Side buttons        |                                                 | ✅            |
+| 🖊 Accessories         | Mostly working, with some limitations           | ⚠️            |
+| 🛡️ Security            | Partial                                         | ⚠️            |
+| 🛰️ Location            |                                                 | ✅            |
+| 🧭 Sensors             |                                                 | ✅            |
+| 🔦 Flashlight          | Partial                                         | ⚠️            |
+| 💽 Virtualization      | Only WSL 1                                      | ❌            |
+| 📷 Camera              |                                                 | ❌            |
 
-#### 기능
 
-- [X] 절전 / 슬립 모드
-- [X] 오디오
-- [X] 배터리 잔량
-- [X] 블루투스
-- [X] 밝기
-- [x] 충전
-- [ ] 고속 충전
-- [X] 디스플레이
-- [X] GPU
-- [X] 터치스크린
-- [X] UFS
-- [X] USB
-- [X] Wi-Fi
-- [X] Xiaomi 펜 지원
-- [X] 마이크
-- [X] Miracast
-- [X] 위치
-- [X] 스마트 케이스 모드
-- [X] Xiaomi 키보드 지원
-- [ ] Xiaomi 펜 충전 지원
-- [ ] 카메라
-- [ ] 플래시 (카메라 앱에서만)
+# Detailed status
 
-#### 센서
+## 🔊 Audio
 
-- [X] 가속도센서
-- [X] 자이로스코프
-- [X] 지자기센서
-- [X] 근접센서
-- [X] 광센서
+| Feature                | Notes                                       | Status         |
+|------------------------|---------------------------------------------|----------------|
+| 🔉 Bottom speakers     |                                             | ✅            |
+| 🔉 Top speakers        |                                             | ✅            |
+| 🎙️ Internal top mic    |                                             | ✅            |
+| 🎙️ Internal bottom mic |                                             | ✅            |
+
+
+## 🎆 GPU
+
+| Feature                | Notes                               | Status         |
+|------------------------|-------------------------------------|----------------|
+| 🔆 Brightness control  |                                     | ✅            |
+| 🎆 x64 emulation       |  Only in Windows 11                 | ✅            |
+
+
+## 🪵 USB & Charging
+
+> [!Note]
+> On **SM8150** devices, the device is incapable of switching the USB-mode in Windows, and a [USB Mode Control tool](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) (newer) or [usbhostmodenative tool](https://github.com/n00b69/usbhostmode) is required to do so
+
+| Feature                         | Notes                                                            | Status         |
+|---------------------------------|------------------------------------------------------------------|----------------|
+| 🪵 USB-Fn (Charging & MTP)     | **[Default]**                                                     | ✅            |
+| 🪵 USB-Host (OTG)              | Some of the features are work in progress (USB Powerless Dongles) | ⚠️            |
+| 🔌 Charging (USB)              | Slow charging only, only in USB-Fn mode                           | ⚠️            |
+
+
+## 🌐 Wi-Fi
+
+| Feature                | Notes                               | Status         |
+|------------------------|-------------------------------------|----------------|
+| 🌐 Wi-Fi (2.4 Ghz)   |                             | ✅            |
+| 🌐 Wi-Fi (5 Ghz)     |                             | ✅            |
+| 📡 Wi-Fi Direct      |                             | ✅            |
+| 🖥 Miracast           |                            | ✅            |
+
+
+## ⌨️ Side buttons
+
+| Feature                | Notes                                       | Status         |
+|------------------------|---------------------------------------------|----------------|
+| ⌨️ Volume up button    |                                             | ✅            |
+| ⌨️ Volume down button  |                                             | ✅            |
+| ⌨️ Power button        |                                             | ✅            |
+
+
+## 🖊 Accessories
+
+| Feature                | Notes                                       | Status         |
+|------------------------|---------------------------------------------|----------------|
+| 🖋 Xiaomi Pen          |                                             | ✅            |
+| 🖋 Xiaomi Pen buttons  |                                             | ✅            |
+| 🔌 Xiaomi Pen charging |                                             | ❌            |
+| 🖋 Third-party pens    | Only pens compatible with Wacom WGP digitizers will work properly   |    ⚠️        |
+| 🖋 Third-party pen buttons   | Only if Bluetooth                     | ⚠️            |
+| ⌨️ Xiaomi Keyboard     |                                             | ✅            |
+| 💻 Smart Cover Mo      | Puts device to sleep when magnetic case is closed | ✅            |
+
+
+
+## 🛡️ Security
+
+| Feature                | Notes                                       | Status         |
+|------------------------|---------------------------------------------|----------------|
+| 🛡️ TPM                 |                                             | ❌            |
+| 🛡️ Security processor  | Unavailable                                 |               |
+| 🔒 BitLocker           | Available but not recommended               | ✅            |
+| 🛡️ Secure Boot         |                                             | ✅            |
+| 🛡️ Windows Hello Biometrics      | Requires working fingerprint scanner  | ❌            |
+
+
+## 🧭 Sensors
+
+| Feature                | Notes                                       | Status         |
+|------------------------|---------------------------------------------|----------------|
+| 🧭 Accelerometer       |                                             | ✅            |
+| 🧭 Gyroscope           |                                             | ✅            |
+| 🧭 Light sensor        |                                             | ✅            |
+| 🧭 Magnetometer        |                                             | ✅            |
+| 🧭 Proximity           |                                             | ✅            |
+
+
+## 🔦 Flashlight
+
+| Feature                | Notes                                       | Status         |
+|------------------------|---------------------------------------------|----------------|
+| 🔦 Flashlight          | Accessible only from the Windows Camera app | ⚠️            |
+| 📸 Camera flash        |                                             | ❌            |

@@ -3,6 +3,11 @@
 # Running Windows on the Xiaomi Pad 5
 
 ## Disabling secureboot
+
+> [!WARNING]
+> This guide is only for driver versions lower than 2601.19.
+
+
 > [!Important]
 > Follow this guide only if you want to disable secureboot.
 

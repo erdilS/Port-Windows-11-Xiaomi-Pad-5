@@ -7,12 +7,24 @@
 ### Chuẩn bị
 - [```Magisk```](https://github.com/topjohnwu/Magisk/releases/latest)
 
-- [```UEFI image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
+- [```UEFI image```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases/download/2601.19/MiPad5.UEFI-v2601-19.img)
 
 - [```WoA Helper app```](https://github.com/n00b69/woa-helper/releases/tag/APK)
 
 ## Thiết lập ứng dụng dualboot
 > Hướng dẫn này chỉ dành cho máy đã root, nếu chưa, hãy làm theo hướng dẫn [root guide](2-rootguide-vi.md) trước
+
+### Sao lưu boot image
+> [!NOTE]
+> Only do this step if you just changed your Android ROM and are setting up dualboot again. If you just installed Windows and are setting up dualboot for the first time, you can skip this step.
+
+> Trước khi thiết lập dual boot, bạn cần tạo bản sao lưu của boot image hiện tại.
+
+- Mở **WOA Helper**.
+- Đi tới **Back up boot image**.
+- Chọn **Windows** làm mục tiêu.
+
+> Thao tác này sẽ tạo bản sao lưu boot image của Android để thiết bị có thể chuyển đổi đúng cách giữa Android và Windows khi sử dụng dual boot.
 
 ### Thiết lập - Android
 - Tải xuống và cài đặt ứng dụng **WOA Helper**, sau đó mở nó và cấp quyền root.

@@ -2,6 +2,10 @@
 
 # Chạy Windows trên Xiaomi Pad 5
 
+> [!NOTE]
+> This guide **is not recommended for updating drivers to version 2601.19**.  
+> Using it to update to this version may result in issues or system instability as the maintainer says.
+
 ## Cập nhật drivers
 
 ### Chuẩn bị
@@ -11,9 +15,8 @@
 
 - [```DriveLetterAssigner Tool```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)
 
-- [`UEFI image`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
+- [`UEFI image & Drivers`](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
 
-- [`Drivers`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 
 ### Khởi động vào chế độ recovery đã chỉnh sửa
 > Thay thế `path\to\recovery.img` bằng đường dẫn thực tế của recovery
@@ -41,11 +44,11 @@ adb shell msc
 
 > Nếu nó yêu cầu bạn nhập một ký tự, hãy nhập ký tự ổ đĩa của **WINNABU** (nên là **X**), sau đó nhấn enter
 
-#### Khởi động lại thiết bị của bạn
+#### Reboot your device
 > [!Warning]
-> Hãy chắc chắn cũng thay đổi UEFI trong Android, nếu không bạn có thể gặp phải "màn hình xanh chết chóc" (BSoD) khi khởi động Windows sau này.
+> Make sure to also change the UEFI image in Android, otherwise you may face a "blue/black screen of death" (BSoD) when booting Windows later.
 ```cmd
 adb reboot
 ```
 
-## Hoàn tất!
+## Finished!

@@ -9,8 +9,7 @@
 Nếu bạn đã cài đặt Windows trên NABU của mình trước ngày 07.12.2024 và chưa áp dụng bản sửa lỗi GPT, vui lòng làm như vậy ngay bây giờ bằng cách sử dụng [hướng dẫn này](fix-gpt-vi.md) để tránh các vấn đề EDL.
 
 ## White line issues
-Trong một số trường hợp cực kỳ hiếm, màn hình của bạn có thể hiển thị các đường trắng sau khi máy vào chế độ sleep trong Windows. Đây là một vấn đề phần cứng do Xiaomi sử dụng các màn hình với cấu hình hiển thị không tương thích.
-
+Trong một số trường hợp cực kỳ hiếm, màn hình của bạn có thể hiển thị các đường trắng sau khi máy vào chế độ sleep trong Windows. 
 Nếu bạn thấy các đường trắng sau khi vào chế độ sleep trong Windows, **HÃY KHỞI ĐỘNG LẠI NGAY LẬP TỨC!!**. Những đường này có thể trở thành vĩnh viễn nếu chúng ở trên màn hình quá lâu.
 
-Hiện tại, giải pháp duy nhất là không bao giờ đưa thiết bị của bạn vào chế độ sleep trong Windows, hoặc bán nabu của bạn và mua một cái mới.
+

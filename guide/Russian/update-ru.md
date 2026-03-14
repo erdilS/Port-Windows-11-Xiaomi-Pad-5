@@ -4,24 +4,17 @@
 
 ## Обновление драйверов
 
+> [!NOTE]
+> Эта инструкция **не рекомендуется для обновления драйверов до версии 2601.19**.
+> Использование её для обновления до этой версии **может привести к проблемам или неработоспособности системы** по заявлению мейнтейнера.
+
 ### Требования
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
 - [Образ recovery](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
-- [Образ UEFI](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
+- [Образ UEFI & Драйверы](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
 
-- [Драйверы](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
-
-> [!CAUTION]
-> **❗️ОБНОВЛЕНИЕ ДРАЙВЕРОВ ДО ВЕРСИИ v2501.27 ВОЗМОЖНО ТОЛЬКО ЧЕРЕЗ WININSTALLER И ЗАЙМЁТ 3.5 ЧАСА❗️**
-> **❗️УБЕДИТЕСЬ, ЧТО ВАША БАТАРЕЯ ЗЯРЯЖЕНА❗️**
-> 
-> [**Руководство по переустановке**](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/Russian/reinstall-ru.md)
-> 
-> [**Руководство по обновлению**](https://github.com/Kumar-Jy/Windows-in-NABU-Without-PC/blob/main/guide/Russian/DriverUpdate-ru.md)
->
-> **❗️РЕКОМЕНДУЕТСЯ ПЕРЕУСТАНОВКА, ПОСКОЛЬКУ СЛЕДУЮЩЕЕ ОБНОВЛЕНИЕ ПОТРЕБУЕТ ПОВТОРНОЙ УСТАНОВКИ, ЕСЛИ ВЫ ОБНОВЛЯЛИСЬ С БОЛЕЕ СТАРЫХ ДРАЙВЕРОВ❗️**
 
 ### Загрузитесь в recovery
 > Замените `путь\к\recovery.img` на действительный путь к recovery.img
@@ -51,9 +44,8 @@ adb shell msc
 
 #### Перезагрузите ваше устройство
 > [!Warning]
-> Также убедитесь, что вы обновили образ UEFI в Android, иначе вы можете столкнуться с "blue screen of death" (BSoD) при загрузке в Windows.
+> Также убедитесь, что вы обновили образ UEFI в Android, иначе вы можете столкнуться с "blue/black screen of death" (BSoD) при загрузке в Windows.
 ```cmd
 adb reboot
 ```
-
 ## Готово!

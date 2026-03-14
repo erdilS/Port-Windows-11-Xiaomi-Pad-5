@@ -11,9 +11,9 @@
   
 - [```Windows ARM ESD```](https://arkt-7.github.io/woawin/)
     
-- [```Драйвера```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
+- [```Драйвера & Образ UEFI```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
 
-- [```Образ UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
+
 
 ### Опять загрузитесь в модифицированный recovery
 - Замените `путь\к\recovery.img` на актуальный путь к **recovery.img**
@@ -35,7 +35,7 @@ adb shell msc
 > Убедитесь, что вы используете командную строку от имени администратора
 
 > [!Important]
-> По соображениям производительности рекомендуется использовать Windows 11 24H2 (сборки, начинающиеся с 261XX, например 26100.2454)
+> По соображениям производительности рекомендуется использовать Windows 11 25H2 (сборки, начинающиеся с 262XX, например 26200.7171)
 
 - Замените `путь\к\install.esd` на фактический путь к **install.esd** (он также может называться install.wim или 22631.2861.XXXXXXX.esd)
 ```cmd

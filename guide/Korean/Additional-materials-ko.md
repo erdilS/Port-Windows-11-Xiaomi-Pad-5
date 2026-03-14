@@ -18,7 +18,7 @@
 > [!Warning]
 > 전원이 공급되지 않는 USB 장치는 작동하지 않습니다
 
-- [USB Host Mode Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control)을 실행하여 USB 호스트 모드를 활성화/비활성화하세요. USB 호스트 모드를 비활성화/활성화할지 확인하세요
+- [USB Mode Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control)을 실행하여 USB 호스트 모드를 활성화/비활성화하세요. USB 호스트 모드를 비활성화/활성화할지 확인하세요
 - If USB host mode is currently enabled and USB does not work, turn it off, then back on.
 
 #### 끝!
@@ -37,14 +37,6 @@
 
 #### 끝!
 
-
-### Making the keyboard float
-> [!WARNING]  
-> Make sure these steps are done on the device running Windows, not your computer!
-
-- Open CMD as an administrator and run ```reg delete HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Scaling /v MonitorSize```
-- Press `y` then enter.
-- Reboot your device.
 
 #### 끝!
 

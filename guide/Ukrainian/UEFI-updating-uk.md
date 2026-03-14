@@ -3,16 +3,15 @@
 # Запуск Windows на Xiaomi Pad 5
 
 ## Оновлення UEFI
-> [!Warning]
-> Якщо ви оновлюєтеся зі старого UEFI (15 січня або раніше) до UEFI-V3, вам також потрібно оновити драйвери, що ви можете зробити за допомогою [Посібника з оновлення драйверів](update-uk.md)
+
 ###  Навіщо потрібен цей посібник?
 
 Я не знаю, але деякі люди запитують про це 
 
 ### Передумови
-- [```WOA Helper```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
+- [```WOA Helper```](https://github.com/n00b69/woa-helper/releases/tag/APK)
   
-- [```Найновіші версії UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
+- [```Найновіші версії UEFI```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases/download/2601.19/MiPad5.UEFI-v2601-19.img)
 
 ## Замініть старий UEFI на новий
 > Якщо ви ще не налаштували подвійне завантаження, дотримуйтесь [посібника з подвійного завантаження](/guide/Ukrainian/dualboot-uk.md) щоб правильно налаштувати WOA Helper 

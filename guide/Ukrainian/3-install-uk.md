@@ -11,9 +11,8 @@
 
 - [```DriveLetterAssinger```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)  
 
-- [```Драйвери```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
+- [```Драйвери & UEFI образ```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
 
-- [```UEFI образ```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
 
 ### Завантажте відновлення, щоб розпочати встановлення Windows
 ```cmd
