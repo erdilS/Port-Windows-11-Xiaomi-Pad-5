@@ -5,6 +5,9 @@
 ## Hướng dẫn Dualboot (DualbootKernelPatcher)
 > Có hai phương pháp được liệt kê dưới đây, phương pháp đầu tiên yêu cầu root, phương pháp thứ hai thì không. Sử dụng phương pháp nào phù hợp nhất với bạn, vì cả hai đều thực hiện cùng một việc.
 
+> [!Warning]
+> Dualboot Kernelpatcher currently does not work for 50% of users (Windows does not boot). If this applies to you, restore your original boot.img and use [the WOA Helper method](/guide/English/4-dualboot-en.md) to dualboot Windows and Android.
+
 ### Chuẩn bị (phương pháp 1: yêu cầu root)
 - [WOA Helper app](https://github.com/n00b69/woa-helper/releases/tag/APK)
 
