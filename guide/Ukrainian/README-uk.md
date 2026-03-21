@@ -6,29 +6,31 @@
 ## Мова
 [```Русский```](/guide/Russian/README-RU.md) | [```English```](/README.md) | [```Tiếng Việt```](/guide/Vietnamese/README-vi.md) | **```Ukrainian```** | [```한국어```](/guide/Korean/README-KO.md)
 
-> [!Note]
+> [!NOTE]
 > - Ми не несемо відповідальності за заблоковані пристрої, відсутні розділи відновлення, мертві працівники заводу Xiaomi, мертві pmics, мертву оперативну пам'ять, мертві мікросхеми дисплея, мертві процесори, будь-які махінації xiaomi, мертвих кішок або собак, ядерні війни або звільнення, тому що ви забули завантажити Android назад для будильника.
 > - Цей проект знаходиться на стадії розробки, всі файли тут були створені іншими користувачами, тут ви знайдете гайд з робочими файлами, які нам вдалося отримати. Це делікатний процес, робіть це на свій страх і ризик і уважно виконуйте всі кроки.
 
-> [!Warning]
-> **ЯКЩО ВАМ НЕЗРУЧНО МОДИФІКУВАТИ СВІЙ ПЛАНШЕТ АБО ЙОГО ТАБЛИЦЮ РОЗДІЛІВ, АБО ВИ ПАРАНОЇДАЄТЕСЯ ЗЛАМАТИ СВІЙ СВІЙ ПРИСТРІЙ, БУДЬ ЛАСКА ПОКИНЬТЕ ЦЮ СТОРІНКУ ЗАРАЗ!! ВАС ПОПЕРЕДИЛИ, ВИ БУДЕТЕ ВИННІ САМІ, ЯКЩО ЗЛАМАЄТЕ СВІЙ ПРИСТРІЙ!!! ВАС ПОПЕРЕДИЛИ!!!**
+> [!WARNING]
+> **Якщо вам некомфортно модифікувати свій планшет або його таблицю розділів, або ви переживаєте що можете зламати пристрій — це нормально зробити крок назад. Але процес простий, тому навіть початківці можуть з ним впоратися. Просто уважно дотримуйтесь інструкцій.**
 
 > [!CAUTION]
->> **❗Якщо ви використовуєте драйвери та UEFI старіші за v2501.27, необхідно оновити або перевстановити Windows, використовуючи [останній реліз](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases). ❗**
+> **❗Якщо ви використовуєте драйвери та UEFI старіші за v2501.27, необхідно оновити або перевстановити Windows, використовуючи [останній реліз](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases). ❗**
 > ***Зверніть увагу, що оновлення існуючих установок можливе та може працювати, але розробник цього не рекомендує.***
 >
-> **Otherwise you have a constant risk of your UFS DYING AT ANY TIME NO MATTER WHAT!**
+> **Інакше ваш UFS може вийти з ладу В БУДЬ-ЯКИЙ МОМЕНТ НЕЗАЛЕЖНО НІ ВІД ЧОГО!**
 >
-> [**Reinstall guide**](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/English/reinstall-en.md)
+> [**Гайд з перевстановлення**](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/English/reinstall-en.md)
 >
-> [**Update guide**](https://github.com/Kumar-Jy/Windows-in-NABU-Without-PC/blob/main/guide/DriverUpdate.md)
+> [**Гайд з оновлення**](https://github.com/Kumar-Jy/Windows-in-NABU-Without-PC/blob/main/guide/DriverUpdate.md)
 >
-> **UPDATING IS ONLY POSSIBLE WITH WININSTALLER AND WILL TAKE 3.5 HOURS. MAKE SURE YOUR BATTERY IS FULL.**
+> **ОНОВЛЕННЯ МОЖЛИВЕ ЛИШЕ ЧЕРЕЗ WININSTALLER І ЗАЙМЕ 3.5 ГОДИНИ. ПЕРЕКОНАЙТЕСЬ ЩО БАТАРЕЯ ЗАРЯДЖЕНА.**
 >
->
+> **❗️ПЕРЕВСТАНОВЛЕННЯ РЕКОМЕНДУЄТЬСЯ, БО НАСТУПНЕ ОНОВЛЕННЯ ВИМАГАТИМЕ ПЕРЕВСТАНОВЛЕННЯ, ЯКЩО ВИ ОНОВИЛИСЬ ЗІ СТАРИХ ДРАЙВЕРІВ❗️**
 
 > [!WARNING]
-> **БУДЬ ЛАСКА, НЕ ВИКОРИСТОВУЙТЕ ВІДЕО ПОСІБНИКИ НА YOUTUBE АБО ІНШІЙ ПЛАТФОРМІ! ЦІ ВІДЕО ЗАСТАРІЛИ, І ВИ МОЖЕТЕ ЗЛАМАТИ СВІЙ ПРИСТРІЙ!**
+> **НЕ ВИКОРИСТОВУЙТЕ ВІДЕОГІДИ!**
+>
+> Якщо ви це зробите, ми не зможемо вам допомогти якщо щось піде не так.
 
 ## Початок
 - [**`📖ВАЖЛИВО: ПРОЧИТАЙТЕ ПЕРШИМ!`**](important.md)
@@ -36,31 +38,32 @@
 - [**`📊Статус проекту`**](status.md)
 
 - [**`📥Встановлення Windows`**](selection-uk.md)
-    
+
 - [**`🗑️Видалення Windows`**](uninstall-uk.md)
 
 ## Різне
 - [**`🔓Розблокування завантажувача`**](unlock-bootloader-uk.md)
 
 - [**`🔀Налаштування подвійного завантаження`**](4-dualboot-uk.md)
-  
+
 - [**`🔧Вирішення проблем`**](troubleshooting-uk.md)
-  
-- [**`🔄Оновлення драйверів`**](update-uk.md)
-  
-- [**`🔄Оновлення UEFI`**](UEFI-updating-uk.md)
+
+- [**`🔄Оновлення драйверів / UEFI`**](update-uk.md)
 
 - [**`♻️Перевстановлення`**](reinstall-uk.md)
 
 - [**`📱Отримання root-прав знову`**](re-root-uk.md)
 
-- [**`💾Зміна розміру розділу Windows`**](guide/English/resize-en.md)
-  
+- [**`💾Зміна розміру розділу Windows`**](resize-uk.md)
+
 - [**`📂Корисні програми та інструкції`**](/guide/Ukrainian/Additional-materials-uk.md)
 
-- [**`🔧Виправлення GPT для використовування Windows 11 24H2 і новіше`**](/guide/Ukrainian/fixgpt.md)
+- [**`🔧Виправлення GPT для використання Windows 11 24H2 і новіше`**](/guide/Ukrainian/fixgpt.md)
 
 - [**`🧱Відновлення пристрою у EDL режимі`**](/guide/Ukrainian/edl.md)
+
+## Мейнтейнер
+[<img alt="remtrik" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/69907487?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/remtrik)
 
 ## Вкладачі
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
@@ -94,15 +97,5 @@
 [<img alt="Kumar-Jy" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/20044626?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Kumar-Jy)
 [<img alt="ArKT-7" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/157277855?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/ArKT-7)
 
-
-
-
-
-
-
-
-
-
-
-
-
+## Інші учасники
+***На жаль, неможливо знайти та згадати всіх людей, які брали участь у розробці драйверів, UEFI та пов'язаного програмного забезпечення, а також усіх, хто фінансово та морально підтримував проект. Тому ми можемо лише подякувати всім учасникам — ви найкращі, дякуємо <3***
