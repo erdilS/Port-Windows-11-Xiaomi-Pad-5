@@ -11,6 +11,8 @@
 
 - [```Драйверы ADB, установленные на вашем ПК```](https://dl.google.com/android/repository/usb_driver_r13-windows.zip)
 
+- ```Windows 10 (Или выше) PC/Laptop```
+
 - [```ARM Windows ESD```](https://arkt-7.github.io/woawin/) (По соображениям производительности рекомендуется использовать Windows 11 25H2 (сборки, начинающиеся с 262XX, например 26100.7171))
 
 - [```Драйверы & Образ UEFI```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
@@ -28,21 +30,19 @@
 >
 > **ПОЖАЛУЙСТА, НЕ ИСПОЛЬЗУЙТЕ НИКАКИЕ ВИДЕОРУКОВОДСТВА НА YOUTUBE ИЛИ ЛЮБОЙ ДРУГОЙ ПЛАТФОРМЕ! ЭТИ МАТЕРИАЛЫ НЕ ЯВЛЯЮТСЯ АКТУАЛЬНЫМИ**
 
-### Запустите WoN Deployer (Установщик Windows on Nabu)
-- Откройте **`PowerShell/Терминал`** от имени администратора и выполните следующую команду:
 
-```shell
-powershell.exe -C "irm https://rb.gy/msq1tz | iex"
-```
+---
 
-> [!NOTE]
-> Если указанная выше команда не работает, попробуйте:
+### 1. Скачать WoN Deployer (Windows on Nabu Installer)
+- Откройте **`Terminal/PowerShell`** от имени администратора и пропишите эту команду:
+
 
 ```shell
 powershell.exe -C "irm https://raw.githubusercontent.com/arkt-7/won-deployer/main/GetWON.ps1 | iex"
 ```
 
-**Проверка правильности установки WoN Deployer**
+<details>
+<summary><b><strong>**Проверка правильности установки WoN Deployer**</strong></b></summary>
 
 1. Закройте **`PowerShell/Terminal`**, который вы открыли ранее
 
@@ -54,7 +54,9 @@ won-deployer -h
 > [!NOTE]
 > Если вы правильно установили WoN Deployer, он предоставит вам информацию о приложении. Если появится ошибка, перезапустите установку.
 
-## 2. Как установить/переустановить Windows на Nabu 
+</details>
+
+### 2. Как установить/переустановить Windows на Nabu 
 
 <a href="won-deployer-install-ru.md"><img src="https://github.com/ArKT-7/won-deployer/blob/main/assets/Won-nabu-bg.png" width="280"></a>
 
@@ -79,8 +81,8 @@ won-deployer
 <!-- ${\color{Magenta}[y/n] \space \color{cyan}(n): }$ -->
 
 ### Выбор драйверов
-- **Введите путь к файлу [```nabu-drivers.zip```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)**
-- Скопируйте путь к файлу nabu-drivers.zip и вставьте его здесь.
+- **Введите путь к файлу [```MiPad5-Drivers.7z```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)**
+- Скопируйте путь к файлу MiPad5-Drivers.7z и вставьте его здесь.
 **`Введите путь к ZIP-файлу драйвера (Копировать как путь)::`**
 
 - **Следуйте инструкциям на экране**
@@ -88,8 +90,11 @@ won-deployer
 - **`Удачи`**.
 
 > [!IMPORTANT]
-> Если вы столкнулись с какой-либо ошибкой, выполните команду ниже и отправьте снимок экрана [@ArKT_7](https://telegram.me/ArKT_7) или попросите о помощи в [Официальной группе Telegram](https://telegram.me/nabuwoa)
-### перезапустите программу с подробным выводом логов
+> Если вы столкнулись с какой-либо ошибкой, выполните команду ниже и создайте issue co снимком экрана в [репозитории](https://github.com/ArKT-7/won-deployer) или попросите о помощи в [официальной группе Telegram](https://telegram.me/nabuwoaru)
+
+
+<details>
+<summary><b><strong> перезапустите программу с подробным выводом логов </strong></b></summary>
 
 1. Закройте PowerShell/Терминал, который вы открыли ранее
 
@@ -98,6 +103,9 @@ won-deployer
 ```shell
 won-deployer --debug
 ```
+
+</details>
+
 ## 3. Настройка Dualboot
 
 ### Требования
@@ -111,7 +119,7 @@ won-deployer --debug
 - Откройте новое приложение `Won deployer setup`, установите оба приложения и образ UEFI (следуйте инструкциям на экране).
 - Закройте все и снова откройте приложение `Magisk`, нажмите `OK`, чтобы завершить дополнительную настройку.
 - После перезагрузки откройте приложение `WOA Helper` и предоставьте ему root-доступ.
-- Нажмите `РЕЗЕРВНОЕ КОПИРОВАНИЕ BOOT ОБРАЗА` > `Windows` > OK Готово!
+- Нажмите `РЕЗЕРВНОЕ КОПИРОВАНИЕ BOOT ОБРАЗА` > `Windows` > `OK` Готово!
 - Теперь используйте приложение WOA Helper и нажмите кнопку **БЫСТРАЯ ПЕРЕЗАГРУЗКА В WINDOWS**.
 
 <details>
@@ -144,7 +152,7 @@ won-deployer --debug
 
 ## Готово!
 
-### Визуальный гайд
+### Наглядный гайд
 
 - Вот наглядный способ установки и проверки правильности установки Won-Deployer:
 
