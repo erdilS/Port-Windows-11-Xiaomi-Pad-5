@@ -4,7 +4,8 @@
 
 ## Руководство по двойной загрузке (DualbootKernelPatcher)
 > Ниже перечислены два способа, первый из которых требует прав суперпользователя, а второй — нет. Используйте тот способ, который вам больше нравится, так как оба они выполняют одну и ту же функцию.
-
+> [!WARNING]
+> Dualboot KernelPatcher в данный момент не работает на части планшетов (Windows не загружается). Если вы раньше использовали этот метод, восстановите ваш оригинальный boot.img и используйте метод с [WOA Helper](/guide/Russian/4-dualboot-ru.md) для двойной загрузки Windows и Android.
 <details>
   <summary><strong>Способ 1 (требуется root-доступ)</strong></summary>  
   
@@ -70,7 +71,7 @@ adb pull /dev/block/by-name/boot_a boot.img
 ./magiskboot unpack boot.img
 ```
 
-### Исправление загрузочного образа
+### Патч загрузочного образа
 ```cmd
 ./DualBootKernelPatcher\bin\Windows\DualBootKernelPatcher-x86_64.exe ./kernel ./nabu.fd ./output ./DualBootKernelPatcher\Config\DualBoot.Sm8150.cfg ./DualBootKernelPatcher\ShellCode\ShellCode.Nabu.bin
 ```
