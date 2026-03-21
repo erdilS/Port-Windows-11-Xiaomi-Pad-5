@@ -1,14 +1,12 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-# Running Windows on the Xiaomi Pad 5
+# Запуск Windows на Xiaomi Pad 5
 
 ## Отримання root 
 > [!NOTE]
 > **Якщо у вас уже є root, просто пропустіть цей крок і перейдіть до наступної сторінки**
 
-### Передумови
-- Мозок
-  
+### Вимоги
 - [```Magisk.apk```](https://github.com/topjohnwu/Magisk/releases/latest)
 
 ### Прошивка Magisk
@@ -25,7 +23,7 @@ adb reboot
 ```
 
 ### Завершення налаштування
-- Налаштуйте свій пристрій, а потім завантажте та інсталюйте [Magisk](https://github.com/topjohnwu/Magisk/releases/latest), якщо він ще не встановлений
+- Налаштуйте свій пристрій, а потім завантажте та встановіть [Magisk](https://github.com/topjohnwu/Magisk/releases/latest), якщо він ще не встановлений
 - Відкрийте програму **Magisk** і дотримуйтесь інструкцій на екрані, потім ваш пристрій має перезавантажитися через кілька секунд
 
 ### Зробіть резервну копію вашого root.img

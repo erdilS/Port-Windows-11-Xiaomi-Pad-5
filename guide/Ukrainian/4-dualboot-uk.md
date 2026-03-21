@@ -1,17 +1,17 @@
-<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Працює на Xiaomi Pad 5">
+<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 # Запуск Windows на Xiaomi Pad 5
 
 ## Інструкція з подвійного завантаження
 
-### Передумови
+### Вимоги
 - [```Magisk```](https://github.com/topjohnwu/Magisk/releases/latest)
 
 - [```Образ UEFI```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases/download/2601.19/MiPad5.UEFI-v2601-19.img)
 
 - [```Додаток WoA Helper```](https://github.com/n00b69/woa-helper/releases/tag/APK)
 
-## Інструкція з подвійного завантаження
+## Налаштування додатку для подвійного завантаження
 У цьому посібнику припускається, що ви маєте root права. Якщо ні, спершу дотримуйтеся [цього посібника](2-rootguide-uk.md).
 
 ### Резервне копіювання boot-образу
@@ -29,11 +29,6 @@
 ### Налаштування - Android
 - Завантажте та встановіть програму **WOA Helper**, потім відкрийте її та надайте їй root доступ.
 - Завантажте **образ UEFI** і помістіть його в папку під назвою `UEFI` у внутрішній пам'яті.
-- Відкрийте програму WOA Helper і використовуйте **STA CREATOR** у **WOA TOOLBOX**.
-> [!Important]
-> Якщо `/sdcard/Windows` порожній, ваш ПЗУ не підтримує монтування, і вам доведеться створити резервну копію boot.img у програмі, а потім скопіювати його вручну до Windows після завантаження (наприклад, завантаживши його кудись, а потім завантажити його під час завантаження Windows). Те саме стосується файлів StA, які також генеруються у вашій внутрішній пам’яті.
->
-> Зробіть те саме, якщо папка доступна лише для читання.
 - Відкрийте програму WOA Helper і натисніть кнопку **QUICKBOOT TO WINDOWS**.
 
 ### Налаштування - Windows
@@ -45,9 +40,5 @@
 
 #### Завантаження Windows
 - Натисніть **QUICKBOOT TO WINDOWS** у програмі або скористайтеся новоствореним перемикачем на панелі швидких налаштувань
-- Перейдіть до `C:\sta` і створіть ярлик **sta.exe** на робочому столі, якщо його ще немає
 
 ## Готово!
-
-> [!Tip]
-> Не забудьте переглянути сторінку [**```Корисні програми та інструкції```**](Additional-materials-uk.md). Ви знайдете посібник із активації Windows, а також іншу корисну інформацію
