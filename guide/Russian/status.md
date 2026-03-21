@@ -1,120 +1,118 @@
 # Project status
 
-- Current **Driver** version: **v2601.19**
-- Current **UEFI** version: **v2601.19**
+- Текущая версия **драйверов**: **v2601.19**
+- Текущая версия **UEFI**: **v2601.19**
 
-# Simple status
+# Общий статус
 
-| Feature                | Notes                                           | Status         |
+| Устройство               | Заметка                                           | Статус         |
 |------------------------|-------------------------------------------------|----------------|
-| 🔊 Audio               |                                                 | ✅            |
-| 🔋 Battery             |                                                 | ✅            |
-| 🎆 GPU                 |                                                 | ✅            |
-| 👆 Touch               | 10-point Multi-touch                            | ✅            |
+| 🔊 Аудио               |                                                 | ✅            |
+| 🔋 Батарея             |                                                 | ✅            |
+| 🎆 Видеокарта                 |                                                 | ✅            |
+| 👆 Сенсорный экран               | 10-точечный мульти тач                         | ✅            |
 | 🪵 USB                 |                                                 | ✅            |
-| 🔌 Charging            | Slow charging only                              | ⚠️            |
+| 🔌 Зарядка            | Только медленная зарядка                            | ⚠️            |
 | 🔵 Bluetooth           |                                                 | ✅            |
 | 🛜 Wi-Fi               |                                                 | ✅            |
-| ⌨️ Side buttons        |                                                 | ✅            |
-| 🖊 Accessories         | Mostly working, with some limitations           | ⚠️            |
-| 🛡️ Security            | Partial                                         | ⚠️            |
-| 🛰️ Location            |                                                 | ✅            |
-| 🧭 Sensors             |                                                 | ✅            |
-| 🔦 Flashlight          | Partial                                         | ⚠️            |
-| 💽 Virtualization      | Only WSL 1                                      | ❌            |
-| 📷 Camera              |                                                 | ❌            |
+| ⌨️ Боковые кнопки        |                                                 | ✅            |
+| 🖊 Аксессуары          | Обычно работает, с некоторыми ограничениями           | ⚠️            |
+| 🛡️ Модули безопастности            | Частично                                         | ⚠️            |
+| 🛰️ Геолокация            |                                                 | ✅            |
+| 🧭 Сенсоры             |                                                 | ✅            |
+| 🔦 Фонарик          | Частично                                         | ⚠️            |
+| 💽 Виртуализация      | Только WSL 1                                      | ❌            |
+| 📷 Камера              |                                                 | ❌            |
 
 
-# Detailed status
+# Детальный статус
 
-## 🔊 Audio
+## 🔊 Аудио
 
-| Feature                | Notes                                       | Status         |
-|------------------------|---------------------------------------------|----------------|
-| 🔉 Bottom speakers     |                                             | ✅            |
-| 🔉 Top speakers        |                                             | ✅            |
-| 🎙️ Internal top mic    |                                             | ✅            |
-| 🎙️ Internal bottom mic |                                             | ✅            |
+| Заметка                | Статус         |
+|------------------------|----------------|
+| 🔉 Нижние динамики     | ✅            |
+| 🔉 Верхние динамики    | ✅            |
+| 🎙️ Верхний микрофон    | ✅            |
+| 🎙️ Нижний микрофон     | ✅            |
 
 
 ## 🎆 GPU
 
-| Feature                | Notes                               | Status         |
+|   Устройство              | Заметка                              | Статус         |
 |------------------------|-------------------------------------|----------------|
-| 🔆 Brightness control  |                                     | ✅            |
-| 🎆 x64 emulation       |  Only in Windows 11                 | ✅            |
+| 🔆 Изменение яркости  |                                     | ✅            |
+| 🎆 Эмуляция x64       |  Только в Windows 11                 | ✅            |
 
 
-## 🪵 USB & Charging
+## 🪵 USB & Зарядка
 
 > [!Note]
-> On **SM8150** devices, the device is incapable of switching the USB-mode in Windows, and a [USB Mode Control tool](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) (newer) or [usbhostmodenative tool](https://github.com/n00b69/usbhostmode) is required to do so
+> На устройствах **SM8150**, нет поддержки автоматическго режима переключения режима USB, поэтому [USB Mode Control tool](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) (новый) или [usbhostmodenative tool](https://github.com/n00b69/usbhostmode) необходимы для этого
 
-| Feature                         | Notes                                                            | Status         |
+| Устройство                         | Заметка                                                            | Статус         |
 |---------------------------------|------------------------------------------------------------------|----------------|
 | 🪵 USB-Fn (Charging & MTP)     | **[Default]**                                                     | ✅            |
-| 🪵 USB-Host (OTG)              | Some of the features are work in progress (USB Powerless Dongles) | ⚠️            |
-| 🔌 Charging (USB)              | Slow charging only, only in USB-Fn mode                           | ⚠️            |
+| 🪵 USB-Host (OTG)              |  Иногда может не работать, нужна перезагрузка                      | ⚠️            |
+| 🔌 Charging (USB)              | Медленная зарядка, только в USB-Fn моде                           | ⚠️            |
 
 
 ## 🌐 Wi-Fi
 
-| Feature                | Notes                               | Status         |
-|------------------------|-------------------------------------|----------------|
-| 🌐 Wi-Fi (2.4 Ghz)   |                             | ✅            |
-| 🌐 Wi-Fi (5 Ghz)     |                             | ✅            |
-| 📡 Wi-Fi Direct      |                             | ✅            |
-| 🖥 Miracast           |                            | ✅            |
+| Устройство                | Статус         |
+|------------------------||----------------|
+| 🌐 Wi-Fi (2.4 Ghz)   | ✅            |
+| 🌐 Wi-Fi (5 Ghz)     |  | ✅            |
+| 📡 Wi-Fi Direct      |    ✅            |
+| 🖥 Miracast           |    ✅            |
 
 
-## ⌨️ Side buttons
+## ⌨️ Боковые кнопки
 
-| Feature                | Notes                                       | Status         |
-|------------------------|---------------------------------------------|----------------|
-| ⌨️ Volume up button    |                                             | ✅            |
-| ⌨️ Volume down button  |                                             | ✅            |
-| ⌨️ Power button        |                                             | ✅            |
+| Устройство                   | Заметка                                       | Статус         |
+|---------------------------|---------------------------------------------|----------------|
+| ⌨️ Кнопка громкости вверх    |                                             | ✅            |
+| ⌨️ Кнопка громкости вниз  |                                             | ✅            |
+| ⌨️ Кнопка питания        |                                             | ✅            |
 
 
-## 🖊 Accessories
+## 🖊 Аксессуары
 
-| Feature                | Notes                                       | Status         |
+| Устройство                |Заметка                                       | Статус        |
 |------------------------|---------------------------------------------|----------------|
 | 🖋 Xiaomi Pen          |                                             | ✅            |
-| 🖋 Xiaomi Pen buttons  |                                             | ✅            |
-| 🔌 Xiaomi Pen charging |                                             | ❌            |
-| 🖋 Third-party pens    | Only pens compatible with Wacom WGP digitizers will work properly   |    ⚠️        |
-| 🖋 Third-party pen buttons   | Only if Bluetooth                     | ⚠️            |
+| 🖋 Кнопки Xiaomi Pen  |                                             | ✅            |
+| 🔌 Зарядка Xiaomi Pen |                                             | ❌            |
+| 🖋 Сторонние стилусы    | Работает только совместисые с Wacom WGP digitizers  |    ⚠️        |
+| 🖋 Кнопки сторроних стилусов  | Only if Bluetooth                     | ⚠️            |
 | ⌨️ Xiaomi Keyboard     |                                             | ✅            |
-| 💻 Smart Cover Mo      | Puts device to sleep when magnetic case is closed | ✅            |
+| 💻 Smart Cover      | переводит устройство в режим сна при закрытии | ✅            |
 
 
 
-## 🛡️ Security
+## 🛡️ Безопастность 
 
-| Feature                | Notes                                       | Status         |
+| Устройство                | Заметка                                  | Статус         |
 |------------------------|---------------------------------------------|----------------|
 | 🛡️ TPM                 |                                             | ❌            |
 | 🛡️ Security processor  | Unavailable                                 |               |
 | 🔒 BitLocker           | Available but not recommended               | ✅            |
 | 🛡️ Secure Boot         |                                             | ✅            |
-| 🛡️ Windows Hello Biometrics      | Requires working fingerprint scanner  | ❌            |
 
 
 ## 🧭 Sensors
 
+| устройство              | Status         |
+|-----------------------|----------------|
+| 🧭 Акселерометр       | ✅            |
+| 🧭 Гироскоп           |      ✅            |
+| 🧭 Сенсор яркости        |       ✅            |
+| 🧭 Магнитометр        |     ✅            |
+
+
+## 🔦 Фонарик
+
 | Feature                | Notes                                       | Status         |
 |------------------------|---------------------------------------------|----------------|
-| 🧭 Accelerometer       |                                             | ✅            |
-| 🧭 Gyroscope           |                                             | ✅            |
-| 🧭 Light sensor        |                                             | ✅            |
-| 🧭 Magnetometer        |                                             | ✅            |
-| 🧭 Proximity           |                                             | ✅            |
-
-
-## 🔦 Flashlight
-
-| Feature                | Notes                                       | Status         |
-|------------------------|---------------------------------------------|----------------|
-| 🔦 Flashlight          | Accessible only from the Windows Camera app | ⚠️            |
-| 📸 Camera flash        |                                             | ❌            |
+| 🔦 фонарик          | Доступо только из приложения камеры | ⚠️            |
+| 📸 подсветка камеры        |                                             | ❌            |
