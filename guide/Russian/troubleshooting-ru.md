@@ -29,7 +29,7 @@
 ### Требования:
 - [Android platform tools](https://developer.android.com/studio/releases/platform-tools)
 
-- [SHRP Recovery](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/SHRP.img)
+- [TWRP Recovery](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
 > [!Important]
 > Это сработает, только если у вас есть root-доступ. Если нет, единственный способ восстановить — прошить устройство из EDL с помощью [MrAuthTool](https://mrauthtool.com/)
