@@ -11,7 +11,7 @@
 ### Необхідні файли
 - [```Recovery```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
   
-- [UEFI образ & Драйвері](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
+- [`UEFI образ & Драйвері`](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
 
 
 ### Запустіть Recovery за допомогою завантажувача
