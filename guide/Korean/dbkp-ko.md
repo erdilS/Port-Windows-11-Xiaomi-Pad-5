@@ -5,6 +5,9 @@
 ## 듀얼부팅 가이드 (DualbootKernelPatcher)
 > 아래에 두 가지 방법이 있습니다. 첫 번째 방법은 루트 권한이 필요하고, 두 번째 방법은 필요하지 않습니다. 두 방법 모두 동일하게 작동하므로, 두 가지 중 더 적합한 방법을 사용하면 됩니다.
 
+>  [!Warning]
+> Dualboot Kernelpatcher currently does not work for 50% of users (Windows does not boot). If this applies to you, restore your original boot.img and use [the WOA Helper method](/guide/English/4-dualboot-en.md) to dualboot Windows and Android.
+
 ### 준비물 (방법 1: 루트 권한 필요)
 - [WOA Helper 앱](https://github.com/n00b69/woa-helper/releases/tag/APK)
 

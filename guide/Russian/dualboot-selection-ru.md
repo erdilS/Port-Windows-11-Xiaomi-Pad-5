@@ -7,6 +7,7 @@
 | <a href="4-dualboot-en.md"><img src="https://github.com/n00b69/woa-op7/blob/main/guide/zsta.png" width="80"></a> | <a href="dbkp-en.md"><img src="https://github.com/n00b69/woa-op7/blob/main/guide/zdbkp.png" width="80"></a>
 | - нужен ROOT | - ROOT не нужен
 | - использование приоложения для DualBoot | - использование магнитного чехла для DualBoot
+|                                          | - Не работает на части планшетов
 | [Классический гайд](4-dualboot-ru.md) | [DBKP гайд](dbkp-ru.md)
 
 

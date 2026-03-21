@@ -5,8 +5,9 @@
 | **기존 방법** | **듀얼부팅 커널패치**
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------
 | <a href="4-dualboot-ko.md"><img src="https://github.com/n00b69/woa-op7/blob/main/guide/zsta.png" width="80"></a> | <a href="dbkp-ko.md"><img src="https://github.com/n00b69/woa-op7/blob/main/guide/zdbkp.png" width="80"></a>
-| - 루트 권한 필요 | - 루트 권한 불필요
+| - 루트 권한 필요        | - 루트 권한 불필요
 | - 앱을 사용하여 듀얼부팅 | - 마그네틱 케이스를 사용하여 듀얼부팅
+|                        | - Note: This dualboot method does not work for 50% of users
 | [Classic guide](4-dualboot-ko.md) | [DBKP guide](dbkp-ko.md)
 
 
