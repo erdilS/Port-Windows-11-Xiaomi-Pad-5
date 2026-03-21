@@ -2,14 +2,14 @@
 
 # Running Windows on the Xiaomi Pad 5
 
-## Installation using WoN-deployer
+## Installation using WoN Deployer
 
 ### Prerequisites
 - ```A functioning brain (seriously, you'll need to think!)```
 
-- ```Unlocked bootloader``` (If your bootloader is locked and you don't know how to unlock it use [this](unlock-bootloader-en.md) guide)
+- ```Unlocked bootloader``` (If your bootloader is locked and you don't know how to unlock it, use [this](unlock-bootloader-en.md) guide)
 
-- ```Windows 10(or higher) PC/Laptop```
+- ```Windows 10 (or higher) PC/Laptop```
   
 - [```ADB drivers installed on your PC```](https://dl.google.com/android/repository/usb_driver_r13-windows.zip)
   
@@ -21,11 +21,11 @@
 ---
 ### Notes:
 > [!NOTE]
-> It’s better to flash stock MIUI or HyperOS for the First time install.
+> It’s better to flash stock MIUI or HyperOS for the first-time install.
 >
-> If you're re-installing Windows, make sure to first boot into Android, then reboot into fastboot mode, then proceeding with the installation.
+> If you're re-installing Windows, make sure to first boot into Android, then reboot into fastboot mode before proceeding with the installation.
 > 
-> If you need any help, please contact us in [Telegram chat](https://t.me/nabuwoa)
+> If you need any help, please contact us in the [Telegram chat](https://t.me/nabuwoa).
 
 > [!Warning]
 > All your data will be erased! Back up now if needed.
@@ -36,34 +36,31 @@
 - Open **`Terminal/PowerShell`** as an Administrator and run the following command:
 
 ```shell
-powershell.exe -C "irm https://rb.gy/msq1tz | iex"
-```
-
-> [!NOTE]
-> If the above command doesn't work, try:
-
-```shell
 powershell.exe -C "irm https://raw.githubusercontent.com/arkt-7/won-deployer/main/GetWON.ps1 | iex"
 ```
 
-**Checking if WoN Deployer was installed properly**
+<details>
+<summary><b><strong>To check if WoN Deployer was installed properly</strong></b></summary>
 
-   1. Close the **`Terminal/PowerShell`** you have opened earlier
+   1. Close the **`Terminal/PowerShell`** you opened earlier.
 
    2. Open **`Terminal/PowerShell`** as an Administrator again and run the following command:
 
 ```shell
 won-deployer -h
 ```
-> [!NOTE]
+
 > If you installed WoN Deployer properly, it will give you information about the app. If an error appears, restart the installation.
 
-## 2. How to install/re-install windows on Nabu 
+</details>
 
-<a href="won-deployer-install-en.md"><img src="https://github.com/ArKT-7/won-deployer/blob/main/assets/Won-nabu-bg.png" width="280"></a>
+---
+## 2. How to install/re-install Windows on Nabu 
 
-### Reboot to fastboot mode 
-- Boot your NABU into **fastboot** mode by holding down the **`volume down`** + **`power`** buttons, or by running `adb reboot bootloader` while booted into Android.
+<a href="prepare-en.md"><img src="https://github.com/ArKT-7/won-deployer/blob/main/assets/Won-nabu-bg.png" width="300"></a>
+
+### Reboot to Fastboot mode 
+- Boot your Nabu into **fastboot** mode by holding down the **`Volume Down`** + **`Power`** buttons, or by running `adb reboot bootloader` while booted into Android.
 
 ### Run the WoN Deployer
 - Open **`Terminal`** or **`PowerShell`** as an Administrator.
@@ -74,28 +71,31 @@ won-deployer
 ```
 
 ### Selecting the Windows image
-- **Enter Windows ESD or WIM file path and select edition**
-> For Windows 10, press and hold  `shift ` + `right mouse button` to show `copy as path` option.
+- **Enter the Windows ESD or WIM file path and select the edition**
+> For Windows 10, press and hold `Shift` + `Right-click` to show the `Copy as path` option.
 - Copy the path of your Windows ESD/WIM file and paste it here.
 **`Enter the path of Windows ESD (Copy as path) ::`**
-- Enter the index number of which edition of Windows you want to Install.
+- Enter the index number of the edition of Windows you want to install.
 **`Please enter the index number of the edition you want to use:`**
 <!-- ${\color{Magenta}[y/n] \space \color{cyan}(n): }$ -->
 
 ### Selecting the drivers
-- **Enter [```nabu-drivers.zip```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers) file path**
-- Copy the path of your nabu-drivers.zip file and paste it here.
+- **Enter the [```MiPad5-Drivers.7z```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases) file path**
+- Copy the path of your MiPad5-Drivers.7z file and paste it here.
 **`Enter the path of the driver ZIP file (Copy as path) ::`**
 
-### Next, Follow the on-screen Instruction
+### Next, follow the on-screen instructions
 
    - **`Good Luck`**.
 
 > [!IMPORTANT]
-> If you faced any error please run the below command and share the screenshot to [@ArKT_7](https://telegram.me/ArKT_7) or ask for help in the [Offcial Telegram Group](https://telegram.me/nabuwoa)
-### re-run program with detailed log output (in case of error only)
+> If you face any errors, please run the command below and share the screenshot with [@ArKT_7](https://telegram.me/ArKT_7) or ask for help in the [Official Telegram Group](https://telegram.me/nabuwoa).
 
-   1. Close the `Terminal/PowerShell` you have open earlier
+
+<details>
+<summary><b><strong>How to get a detailed error log (Only if the installation fails)</strong></b></summary>
+
+   1. Close the `Terminal/PowerShell` you opened earlier.
 
    2. Open `Terminal/PowerShell` as an Administrator again and run the following command:
 
@@ -103,57 +103,56 @@ won-deployer
    won-deployer --debug
    ```
 
+</details>
+
+---
 ## 3. Dualboot setup
 
 ### Prerequisites
-- ```Internet connected in nabu (it is required as it will download files!)```
+- ```Internet connection on the tablet (it is required as it will download files!)```
   
 ### Setup - Android 
-- After completeing android setup restart your nabu once.
-- Open `Magisk` dummy app which is pre-insatlled.
-- Click ok and then install the new `Won deployer setup` app. (retry once if fails)
-- now close `Magisk` dummy app and make sure to clear it from ram/recents.
-- Open new `Won deployer setup` app and install both apps from there and UEFI image. (follow on screen instructions)
-- now close everything and open `Magisk` app, then click `Ok` to addition setup and complete it.
-- after Restart done open `WOA Helper` app, then grant it root access.
-- click `BACKUP BOOT IMAGE` > `Windows` > OK Done!
-- Now Use WOA Helper app and press the **QUICKBOOT TO WINDOWS** button.
+- After completing the Android setup, restart your tablet (Nabu) once.
+- Open the `Won-deployer Setup` app, which is pre-installed.
+- Click on each button 1 by 1 and follow the on-screen instructions.
+- Now open the `Magisk` app (if it doesn't auto-open), click `OK` when prompted for additional setup, and let it complete.
+- After the restart, open the `Magisk` app again. If it still asks for additional setup, click `OK` and reboot again.
+- After the final restart is done, open the `WOA Helper` app and grant it root access.
+- Click `BACKUP BOOT IMAGE` > `Windows` > `OK`. Done!
+- Now use the `WOA Helper` app and press the **QUICKBOOT TO WINDOWS** button.
 
 <details>
-<summary><b><strong>If you faced any issue with the above method, then you can do dualboot setup from here:</strong></b></summary>
+<summary><b><strong>If you face any issues with the above method, you can perform the dualboot setup from here:</strong></b></summary>
 
 ### Prerequisites
 - [```Magisk app```](https://raw.githubusercontent.com/arkt-7/won-deployer/main/files/Magisk_stable.apk)
 
 - [```WoA Helper app```](https://github.com/n00b69/woa-helper/releases/tag/APK)
 
-- [```UEFI image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
+- [```UEFI image```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
   
-### Setup - Android Manually
-- Download and install the `Magisk` app.
+### Setup - Android (Manual)
+- Download and install/update the `Magisk` app.
 - Download and install the `WOA Helper` app, then open it and grant it root access.
 - Download the `UEFI image` and place it inside the folder named `UEFI` in your internal storage.
 - Open the WOA Helper app and press the **QUICKBOOT TO WINDOWS** button.
 
-  </summary>
 </details>
-
-
 
 ### Setup - Windows
 > [!Tip]
-> If this is your first time booting Windows and you wish to skip the Microsoft Account login, press the **I don't have internet** button in the WiFi page, then when prompted, press the **Continue with limited setup** button.
+> If this is your first time booting Windows and you wish to skip the Microsoft Account login, press the **I don't have internet** button on the Wi-Fi page, then when prompted, press the **Continue with limited setup** button.
 
 #### Booting to Android
-- Run the new shortcut named `Android` on your desktop (you can also pin it to your start menu / taskbar for ease of access)
+- Run the new shortcut named `Android` on your desktop (you can also pin it to your Start menu/taskbar for ease of access).
 
 #### Booting to Windows
-- Press **QUICKBOOT TO WINDOWS** inside the app, or use the newly created toggle in your quick settings panel
+- Press **QUICKBOOT TO WINDOWS** inside the app, or use the newly created toggle in your Quick Settings panel.
 
 ## Finished!
-
+---
 ### Visual Guide
 
-- Here’s a visual method for installing and verifying the correct installation of Won-Deployer:
+- Here’s a visual method for installing and verifying the correct installation of WoN Deployer:
 
 <img align="left" src="https://github.com/ArKT-7/won-deployer/blob/main/assets/tool-insatllation1.gif" width="720" alt="Installation Guide">
