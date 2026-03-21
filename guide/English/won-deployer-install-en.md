@@ -89,7 +89,7 @@ won-deployer
    - **`Good Luck`**.
 
 > [!IMPORTANT]
-> If you face any errors, please run the command below and share the screenshot with [@ArKT_7](https://telegram.me/ArKT_7) or ask for help in the [Official Telegram Group](https://telegram.me/nabuwoa).
+> If you face any errors, please run the command below and create issue with screenshot on [github repo](https://github.com/ArKT-7/won-deployer) or ask for help in the [Official Telegram Group](https://telegram.me/nabuwoa).
 
 
 <details>
