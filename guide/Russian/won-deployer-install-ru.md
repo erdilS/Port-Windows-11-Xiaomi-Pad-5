@@ -7,13 +7,13 @@
 ### Требования
 - ```Наличие функционирующего мозга (серьёзно, вам нужно будет думать!)```
 
-- [```Инструменты платформы Android```](https://developer.android.com/studio/releases/platform-tools)
-
-- [```Драйверы ADB, установленные на вашем ПК```](https://dl.google.com/android/repository/usb_driver_r13-windows.zip)
+ - ```Разблокированный загрузчик``` (Если ваш загрузчик заблокирован и вы не знаете, как его разблокировать, воспользуйтесь [этим](unlock-bootloader-ru.md) руководством)
 
 - ``` Компьютер/Ноутбук с Windows 10 (Или выше)```
 
-- [```ARM Windows ESD```](https://arkt-7.github.io/woawin/) (По соображениям производительности рекомендуется использовать Windows 11 25H2 (сборки, начинающиеся с 262XX, например 26100.7171))
+- [```Драйверы ADB, установленные на вашем ПК```](https://dl.google.com/android/repository/usb_driver_r13-windows.zip)
+
+- [```ARM Windows ESD```](https://arkt-7.github.io/woawin/) (Выберите - Версия: `select build` Язык: `select your language`)
 
 - [```Драйверы & Образ UEFI```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
 
@@ -22,10 +22,10 @@
 ### Примечания:
 > [!NOTE]
 > Вы можете использовать любую прошивку Android для дуалбута - MIUI, HyperOS или любую другую
->
+> Если вы переустанaвливаете Windows, сперва перезагрузитесь в Android, после чего продолжайте следовать инструкции
 > Если вам нужна помощь, попросите помощи в [Telegram чате](https://t.me/nabuwoaru)
 
-> [!NOTE]
+> [!WARNING]
 > Все ваши данные будут удалены! Сделайте резервную копию сейчас, если необходимо.
 >
 > **ПОЖАЛУЙСТА, НЕ ИСПОЛЬЗУЙТЕ НИКАКИЕ ВИДЕОРУКОВОДСТВА НА YOUTUBE ИЛИ ЛЮБОЙ ДРУГОЙ ПЛАТФОРМЕ! ЭТИ МАТЕРИАЛЫ НЕ ЯВЛЯЮТСЯ АКТУАЛЬНЫМИ**
@@ -127,7 +127,7 @@ won-deployer --debug
 
 - [```Приложение WoA Helper```](https://github.com/n00b69/woa-helper/releases/tag/APK)
 
-- [```Образ UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
+- [```Образ UEFI```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
 
 ### Настройка - Android вручную
 - Скачайте и установите приложение `Magisk`.
