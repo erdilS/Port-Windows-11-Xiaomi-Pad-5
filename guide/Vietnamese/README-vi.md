@@ -57,7 +57,7 @@
 
 - [**`🔀Cài đặt Dualboot`**](dualboot-selection-vi.md)
 
-- [**`Tắt khởi động an toàn`**](disable-secureboot-vi.md)
+- [**`🔓Tắt secureboot`**](disable-secureboot-vi.md)
 
 - [**`🔧Khắc phục sự cố`**](troubleshooting-vi.md)
 
