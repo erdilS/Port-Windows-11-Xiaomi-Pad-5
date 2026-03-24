@@ -63,7 +63,7 @@
 
 - [**`💾Resizing Windows partition`**](guide/English/resize-en.md)
 
-- [**`보안 부팅 끄기`**](disable-secureboot-ko.md)
+- [**`🔓secureboot 비활성화`**](disable-secureboot-ko.md)
 
 - [**`📂유용한 앱 및 설명`**](Additional-materials-ko.md)
 
