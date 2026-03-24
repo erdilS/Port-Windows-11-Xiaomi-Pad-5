@@ -48,6 +48,8 @@
 
 - [**`🔧Вирішення проблем`**](troubleshooting-uk.md)
 
+- [**`Вимкнути secure boot`**](disable-secureboot-uk.md)
+
 - [**`🔄Оновлення драйверів / UEFI`**](update-uk.md)
 
 - [**`♻️Перевстановлення`**](reinstall-uk.md)
