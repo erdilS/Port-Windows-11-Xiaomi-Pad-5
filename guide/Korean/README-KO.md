@@ -63,6 +63,8 @@
 
 - [**`💾Resizing Windows partition`**](guide/English/resize-en.md)
 
+- [**`보안 부팅 끄기`**](disable-secureboot-ko.md)
+
 - [**`📂유용한 앱 및 설명`**](Additional-materials-ko.md)
 
 - [**`🔧윈도우 24H2 사용을 위한 GPT 수정`**](fix-gpt-ko.md)
