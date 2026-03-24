@@ -65,7 +65,7 @@
 
 - [**`🔧Исправление GPT для использования Windows 11 24H2 и новее`**](fix-gpt-ru.md)
 
-- [**`Выключение Secure Boot`**](disable-secureboot-ru.md)
+- [**`🔓Выключение Secure Boot`**](disable-secureboot-ru.md)
 
 - [**`🧱Восстановление устройства из режима edl`**](edl-ru.md)
 
