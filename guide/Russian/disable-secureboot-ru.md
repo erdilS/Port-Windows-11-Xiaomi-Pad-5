@@ -16,7 +16,7 @@
 
 - [```Образ рекавери```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
-- [```Образ UEFI с выключенным SecureBoot```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/XXXnabu-NoSecureboot-v4.img)
+- [```Образ UEFI с выключенным SecureBoot```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/2501.27/nabu-uefi-v4-fixed_NOSB.img)
 
 ## Плюсы и минусы SecureBoot
 > По умолчанию, SecureBoot включен в этом гайде

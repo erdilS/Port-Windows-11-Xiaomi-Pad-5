@@ -66,6 +66,8 @@
 
 - [**`📱Re-rooting Android`**](guide/English/Re-rooting-en.md)
 
+- [**`🔓Disabling Secure Boot`**](guide/English/disable-secureboot-en.md)
+
 - [**`💾Resizing Windows partition`**](guide/English/resize-en.md)
 
 - [**`📂Useful apps and instructions`**](guide/English/Additional-materials-en.md)
