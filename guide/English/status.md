@@ -53,7 +53,7 @@
 | Feature                         | Notes                                                            | Status         |
 |---------------------------------|------------------------------------------------------------------|----------------|
 | 🪵 USB-Fn (Charging & MTP)     | **[Default]**                                                     | ✅            |
-| 🪵 USB-Host (OTG)              | Some of the features are work in progress (USB Powerless Dongles) | ⚠️            |
+| 🪵 USB-Host (OTG)              | May can not work, need reboot or [this instruction](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/English/Additional-materials-en.md#toggling-usb-host-mode) | ✅            |
 | 🔌 Charging (USB)              | Slow charging only, only in USB-Fn mode                           | ⚠️            |
 
 
@@ -109,7 +109,6 @@
 | 🧭 Gyroscope           |                                             | ✅            |
 | 🧭 Light sensor        |                                             | ✅            |
 | 🧭 Magnetometer        |                                             | ✅            |
-| 🧭 Proximity           |                                             | ✅            |
 
 
 ## 🔦 Flashlight
