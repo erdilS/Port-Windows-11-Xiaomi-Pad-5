@@ -52,9 +52,9 @@
 
 | Feature                         | Notes                                                            | Status         |
 |---------------------------------|------------------------------------------------------------------|----------------|
-| 🪵 USB-Fn (Charging & MTP)     | **[Default]**                                                     | ✅            |
-| 🪵 USB-Host (OTG)              | It may not work, you need to reboot or [this instruction](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/English/Additional-materials-en.md#toggling-usb-host-mode) | ✅|
-| 🔌 Charging (USB)              | Slow charging only, only in USB-Fn mode                           | ⚠️            |
+| 🪵 USB-Fn (Charging & MTP)     | **[Default]**                                                     | ✅             |
+| 🪵 USB-Host (OTG)              | Sometimes it may not work until you reboot or reenable USB-Host   | ✅             |
+| 🔌 Charging (USB)              | Slow charging only, only in USB-Fn mode                           | ⚠️             |
 
 
 ## 🌐 Wi-Fi
