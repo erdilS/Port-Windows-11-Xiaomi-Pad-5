@@ -109,6 +109,7 @@
 | 🧭 Gyroscope           |                                             | ✅            |
 | 🧭 Light sensor        |                                             | ✅            |
 | 🧭 Magnetometer        |                                             | ✅            |
+| 🧭 Proxymity           | Combined with light sensor                  | ✅            |
 
 
 ## 🔦 Flashlight
