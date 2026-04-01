@@ -48,7 +48,7 @@
 ## 🪵 USB & Зарядка
 
 > [!Note]
-> На устройствах с **SM8150**, нет поддержки автоматическго режима переключения режима USB, поэтому нужен [USB Mode Control tool](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) (новый) или [usbhostmodenative tool](https://github.com/n00b69/usbhostmode) для ручного переключения режимов
+> На устройствах с SM8150 отсутствует поддержка автоматического переключения USB-режимов. Для ручного управления воспользуйтесь [USB Mode Control tool](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) (новее) или [usbhostmodenative tool](https://github.com/n00b69/usbhostmode).
 
 | Функция                         | Заметка                                                            | Статус         |
 |---------------------------------|------------------------------------------------------------------|----------------|
