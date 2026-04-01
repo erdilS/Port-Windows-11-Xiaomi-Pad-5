@@ -8,7 +8,7 @@
 | Feature                | Notes                                           | Status         |
 |------------------------|-------------------------------------------------|----------------|
 | 🔊 Audio               |                                                 | ✅            |
-| 🔋 Battery             |                                                 | ✅            |
+| 🔋 Battery             | Sometimes it may give incorrect values                                                | ✅            |
 | 🎆 GPU                 |                                                 | ✅            |
 | 👆 Touch               | 10-point Multi-touch                            | ✅            |
 | 🪵 USB                 |                                                 | ✅            |
@@ -86,7 +86,7 @@
 | 🖋 Third-party pens    | Only pens compatible with Wacom WGP digitizers will work properly   |    ⚠️        |
 | 🖋 Third-party pen buttons   | Only if Bluetooth                     | ⚠️            |
 | ⌨️ Xiaomi Keyboard     |                                             | ✅            |
-| 💻 Smart Cover Mo      | Puts device to sleep when magnetic case is closed | ✅            |
+| 💻 Smart Cover       | Puts device to sleep when magnetic case is closed | ✅            |
 
 
 
@@ -95,7 +95,7 @@
 | Feature                | Notes                                       | Status         |
 |------------------------|---------------------------------------------|----------------|
 | 🛡️ TPM                 |                                             | ❌            |
-| 🛡️ Security processor  | Unavailable                                 |               |
+| 🛡️ Security processor  | Unavailable                                 | ❌              |
 | 🔒 BitLocker           | Available but not recommended               | ✅            |
 | 🛡️ Secure Boot         |                                             | ✅            |
 | 🛡️ Windows Hello Biometrics      |   | ❌            |
