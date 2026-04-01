@@ -8,7 +8,7 @@
 | Feature                | Notes                                           | Status         |
 |------------------------|-------------------------------------------------|----------------|
 | 🔊 Audio               |                                                 | ✅            |
-| 🔋 Battery             | Sometimes it may give incorrect values                                                | ✅            |
+| 🔋 Battery             | May occasionally report incorrect values                                                | ✅            |
 | 🎆 GPU                 |                                                 | ✅            |
 | 👆 Touch               | 10-point Multi-touch                            | ✅            |
 | 🪵 USB                 |                                                 | ✅            |
