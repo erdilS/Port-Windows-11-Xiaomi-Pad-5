@@ -8,7 +8,7 @@
 | Feature                | Notes                                           | Status         |
 |------------------------|-------------------------------------------------|----------------|
 | 🔊 Audio               |                                                 | ✅            |
-| 🔋 Battery             |                                                 | ✅            |
+| 🔋 Battery             | May occasionally report incorrect values        | ✅            |
 | 🎆 GPU                 |                                                 | ✅            |
 | 👆 Touch               | 10-point Multi-touch                            | ✅            |
 | 🪵 USB                 |                                                 | ✅            |
@@ -50,21 +50,21 @@
 > [!Note]
 > On **SM8150** devices, the device is incapable of switching the USB-mode in Windows, and a [USB Mode Control tool](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) (newer) or [usbhostmodenative tool](https://github.com/n00b69/usbhostmode) is required to do so
 
-| Feature                         | Notes                                                            | Status         |
-|---------------------------------|------------------------------------------------------------------|----------------|
-| 🪵 USB-Fn (Charging & MTP)     | **[Default]**                                                     | ✅            |
-| 🪵 USB-Host (OTG)              | Some of the features are work in progress (USB Powerless Dongles) | ⚠️            |
-| 🔌 Charging (USB)              | Slow charging only, only in USB-Fn mode                           | ⚠️            |
+| Feature                        | Notes                                                            | Status         |
+|--------------------------------|------------------------------------------------------------------|----------------|
+| 🪵 USB-Fn (Charging & MTP)     | **[Default]**                                                    | ✅             |
+| 🪵 USB-Host (OTG)              | May require a system reboot or toggling USB Host mode to function| ⚠️            |
+| 🔌 Charging (USB)              | Slow charging only, only in USB-Fn mode                          | ⚠️             |
 
 
 ## 🌐 Wi-Fi
 
 | Feature                | Notes                               | Status         |
 |------------------------|-------------------------------------|----------------|
-| 🌐 Wi-Fi (2.4 Ghz)   |                             | ✅            |
-| 🌐 Wi-Fi (5 Ghz)     |                             | ✅            |
-| 📡 Wi-Fi Direct      |                             | ✅            |
-| 🖥 Miracast           |                            | ✅            |
+| 🌐 Wi-Fi (2.4 Ghz)     |                                      | ✅            |
+| 🌐 Wi-Fi (5 Ghz)       |                                      | ✅            |
+| 📡 Wi-Fi Direct        |                                      | ✅            |
+| 🖥 Miracast             |                                      | ✅            |
 
 
 ## ⌨️ Side buttons
@@ -78,15 +78,15 @@
 
 ## 🖊 Accessories
 
-| Feature                | Notes                                       | Status         |
-|------------------------|---------------------------------------------|----------------|
-| 🖋 Xiaomi Pen          |                                             | ✅            |
-| 🖋 Xiaomi Pen buttons  |                                             | ✅            |
-| 🔌 Xiaomi Pen charging |                                             | ❌            |
-| 🖋 Third-party pens    | Only pens compatible with Wacom WGP digitizers will work properly   |    ⚠️        |
-| 🖋 Third-party pen buttons   | Only if Bluetooth                     | ⚠️            |
-| ⌨️ Xiaomi Keyboard     |                                             | ✅            |
-| 💻 Smart Cover Mo      | Puts device to sleep when magnetic case is closed | ✅            |
+| Feature                | Notes                                                               | Status         |
+|------------------------|---------------------------------------------------------------------|----------------|
+| 🖋 Xiaomi Pen          |                                                                     | ✅             |
+| 🖋 Xiaomi Pen buttons  |                                                                     | ✅             |
+| 🔌 Xiaomi Pen charging |                                                                     | ❌             |
+| 🖋 Third-party pens    | Only pens compatible with Wacom WGP digitizers will work properly   |    ⚠️          |
+| 🖋 Third-party pen buttons   | Only if Bluetooth                                             | ⚠️             |
+| ⌨️ Xiaomi Keyboard     |                                                                     | ✅             |
+| 💻 Smart Cover         | Puts device to sleep when magnetic case is closed                   |  ✅            |
 
 
 
@@ -95,10 +95,10 @@
 | Feature                | Notes                                       | Status         |
 |------------------------|---------------------------------------------|----------------|
 | 🛡️ TPM                 |                                             | ❌            |
-| 🛡️ Security processor  | Unavailable                                 |               |
+| 🛡️ Security processor  | Unavailable                                 | ❌              |
 | 🔒 BitLocker           | Available but not recommended               | ✅            |
 | 🛡️ Secure Boot         |                                             | ✅            |
-| 🛡️ Windows Hello Biometrics      | Requires working fingerprint scanner  | ❌            |
+| 🛡️ Windows Hello Biometrics      |   | ❌            |
 
 
 ## 🧭 Sensors
@@ -109,7 +109,7 @@
 | 🧭 Gyroscope           |                                             | ✅            |
 | 🧭 Light sensor        |                                             | ✅            |
 | 🧭 Magnetometer        |                                             | ✅            |
-| 🧭 Proximity           |                                             | ✅            |
+| 🧭 Proxymity           | Combined with light sensor                  | ✅            |
 
 
 ## 🔦 Flashlight

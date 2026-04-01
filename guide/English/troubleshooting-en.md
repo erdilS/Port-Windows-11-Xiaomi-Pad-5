@@ -9,26 +9,19 @@
 If you are unable to move files to the Windows folder, it means you shut down Windows instead of restarting it. To fix this issue, boot back to Windows and use restart, then as it restarts boot to fastboot and use it to return to Android
 
 ##### Done!
-## Device is not recognized in fastboot or recovery
+## Device is not recognized in fastboot or recovery mode by my PC/Laptop what should I do?
 > This likely means you don't have (proper) USB drivers installed
 - Download [QUD.zip](https://github.com/n00b69/woa-betalm/releases/download/Qfil/QUD.zip) here and extract it.
-- Open Device Manager and find an unknown device or device with errors that may be called **Android**, **ADB Interface**, or **QUSB_BULK**.
-- Right click this device, select "Update Drivers" > "Browse files", then select the **QUD folder** you extracted before.
+- Open Device Manager and find an **`⚠️Unknown Device`** or device with errors that may be called **Android**, **ADB Interface**, or **QUSB_BULK**.
+- Right click this device, select **```Update Drivers```** → **`Browse files`**, then select the **QUD folder** you extracted before.
 
-##### Finished!
+##### Done!
 
 ## Charging in Windows does not work
 > [!WARNING]
 > Do not use a powered USB hub with host mode enabled, this can potentially break your device. If you use a powered USB hub, please use the [disable USB host mode guide](/guide/English/Additional-materials-en.md#Disabling-USB-host-mode)
 
 Charging in Windows only works on specific cables. Cables that have been known to work are the original Xiaomi 33W cable (identified by the additional orange/red pin in the USB-A port), the Nimaso 100W USB-C to USB-C fast charging cable, Samsung USB-C to USB-C cable.
-
-##### Done!
-
-## NABU in fastboot is not detected by my PC/Laptop, what should I do?
-- Download [**`QUD.zip`**](https://github.com/n00b69/woa-betalm/releases/download/Qfil/QUD.zip) and extract it.
-- Open Device Manager and find an unknown device or device with errors that may be called Android or QUSB_BULK.
-- Right click it, select **```Update Drivers```** → **`Browse files`**, then select the QUD folder you extracted before.
 
 ##### Done!
 
