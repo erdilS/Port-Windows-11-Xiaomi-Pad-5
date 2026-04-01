@@ -98,7 +98,7 @@
 | 🛡️ Security processor  | Unavailable                                 |               |
 | 🔒 BitLocker           | Available but not recommended               | ✅            |
 | 🛡️ Secure Boot         |                                             | ✅            |
-| 🛡️ Windows Hello Biometrics      | Requires working fingerprint scanner  | ❌            |
+| 🛡️ Windows Hello Biometrics      |   | ❌            |
 
 
 ## 🧭 Sensors
