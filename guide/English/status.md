@@ -8,7 +8,7 @@
 | Feature                | Notes                                           | Status         |
 |------------------------|-------------------------------------------------|----------------|
 | 🔊 Audio               |                                                 | ✅            |
-| 🔋 Battery             | May occasionally report incorrect values                                                | ✅            |
+| 🔋 Battery             | May occasionally report incorrect values        | ✅            |
 | 🎆 GPU                 |                                                 | ✅            |
 | 👆 Touch               | 10-point Multi-touch                            | ✅            |
 | 🪵 USB                 |                                                 | ✅            |
@@ -16,7 +16,7 @@
 | 🔵 Bluetooth           |                                                 | ✅            |
 | 🛜 Wi-Fi               |                                                 | ✅            |
 | ⌨️ Side buttons        |                                                 | ✅            |
-| 🖊 Accessories         | Mostly working, with some limitations           | ⚠️            |
+| 🖊 Accessories          | Mostly working, with some limitations           | ⚠️            |
 | 🛡️ Security            | Partial                                         | ⚠️            |
 | 🛰️ Location            |                                                 | ✅            |
 | 🧭 Sensors             |                                                 | ✅            |
@@ -53,7 +53,7 @@
 | Feature                         | Notes                                                            | Status         |
 |---------------------------------|------------------------------------------------------------------|----------------|
 | 🪵 USB-Fn (Charging & MTP)     | **[Default]**                                                     | ✅             |
-| 🪵 USB-Host (OTG)              | May require a system reboot or toggling USB Host mode to function | ✅            |
+| 🪵 USB-Host (OTG)              | May require a system reboot or toggling USB Host mode to function | ⚠️            |
 | 🔌 Charging (USB)              | Slow charging only, only in USB-Fn mode                           | ⚠️             |
 
 
