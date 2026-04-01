@@ -53,7 +53,7 @@
 | Feature                         | Notes                                                            | Status         |
 |---------------------------------|------------------------------------------------------------------|----------------|
 | 🪵 USB-Fn (Charging & MTP)     | **[Default]**                                                     | ✅             |
-| 🪵 USB-Host (OTG)              | May require a system reboot or toggling USB Host mode to function | ⚠️            |
+| 🪵 USB-Host (OTG)              | May require a system reboot or toggling USB Host mode to function | ✅            |
 | 🔌 Charging (USB)              | Slow charging only, only in USB-Fn mode                           | ⚠️             |
 
 
