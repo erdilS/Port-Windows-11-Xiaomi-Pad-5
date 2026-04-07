@@ -6,7 +6,10 @@
 If you don't like your Windows version or you've bricked your Windows install, or anything else, you would probably just reinstall Windows. Thankfully this process is very easy.
 
 > [!IMPORTANT]
-> Quite obviously, this will erase all of your Windows files. If you'd like to back up any of them, you can do so by mounting Windows using the [WOA Helper](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk) app and manually copying any files you wish to keep
+> Quite obviously, this will erase all of your Windows files. If you'd like to back up any of them, you can do so by mounting Windows using the [WOA Helper](https://github.com/n00b69/woa-helper/releases/tag/APK) app and manually copying any files you wish to keep
+
+> [!Warning]
+> Make sure you have Android boot.img flashed before proceeding, if you have uefi.img flashed and don't have boot.img backup of your current Android ROM, you may need to extract it from your ROM package, if you're on HyperOS/MIUI, you can download rooted via magisk with TWRP inbuilt boot.img for your version of HyperOS/MIUI [Here](https://github.com/ArKT-7/nabu/releases/tag/Nabu-boot-with-twrp)
 
 ### Prerequisites
 - ```Existing Windows and boot partitions``` (*If not met, [go back and just pretend this guide never existed](/guide/English/1-partition-en.md)*)
@@ -26,6 +29,11 @@ adb reboot bootloader
 > Replace `path\to\recovery.img` with the actual path of the modded recovery image
 ```cmd
 fastboot boot path\to\recovery.img
+```
+
+### Back up your boot.img
+```cmd
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```
 
 ### Format the partitions
