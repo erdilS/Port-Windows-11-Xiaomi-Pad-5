@@ -9,7 +9,7 @@ If you don't like your Windows version or you've bricked your Windows install, o
 > Quite obviously, this will erase all of your Windows files. If you'd like to back up any of them, you can do so by mounting Windows using the [WOA Helper](https://github.com/n00b69/woa-helper/releases/tag/APK) app and manually copying any files you wish to keep
 
 > [!Warning]
-> Reboot into Android before proceeding
+> Make sure you have Android boot.img flashed before proceeding, if you have uefi.img flashed and don't have boot.img backup of your current Android ROM, you may need to extract it from your ROM package, if you're on HyperOS/MIUI, you can download rooted via magisk with TWRP inbuilt boot.img for your version of HyperOS/MIUI [Here](https://github.com/ArKT-7/nabu/releases/tag/Nabu-boot-with-twrp)
 
 ### Prerequisites
 - ```Existing Windows and boot partitions``` (*If not met, [go back and just pretend this guide never existed](/guide/English/1-partition-en.md)*)
