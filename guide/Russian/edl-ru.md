@@ -46,9 +46,9 @@ fastboot oem edl
 ## Способ 1: Бесплатный способ
 
 ### Предварительные условия
-- [`Патченый MiFlash Tool`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/MiFlashPatched.zip)
+- [`Патченый MiFlash Tool`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/MiFlashPatched.zip)
 
-- [`Пропатченный файл firehose (.elf)`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/prog_ufs_firehose_sm7150_ddr.elf)
+- [`Пропатченный файл firehose (.elf)`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/prog_ufs_firehose_sm7150_ddr.elf)
 
 - `Распакованная` [`fastboot прошивка для NABU`](http://xmfirmwareupdater.com/miui/nabu/) 
 

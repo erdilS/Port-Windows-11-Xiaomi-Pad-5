@@ -30,7 +30,7 @@
 ### 先决条件：
 - [Android 平台工具](https://developer.android.com/studio/releases/platform-tools)
 
-- [SHRP 恢复镜像](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/SHRP.img)
+- [SHRP 恢复镜像](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/SHRP.img)
 
 > [!IMPORTANT]
 > 这只有在你已经获得 root 权限的情况下才有效。如果没有，唯一的恢复方法是使用 [MrAuthTool](https://mrauthtool.com/) 通过 EDL (9008) 深刷。

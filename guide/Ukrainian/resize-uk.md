@@ -7,7 +7,7 @@
 ### Вимоги
 - ```Windows встановлена на nabu```
 - [```PowerStateControl tool```](https://github.com/Misha803/My-Scripts/releases/tag/PowerStateControl)
-- [```createandformatuserdata.exe```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/createandformatuserdata.exe)
+- [```createandformatuserdata.exe```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/createandformatuserdata.exe)
 
 ### Примітки:
 > [!Warning]
@@ -71,7 +71,7 @@
 #### Створення нового userdata за допомогою createandformatuserdata.exe
 > [!IMPORTANT]
 > Цей крок обов'язковий — Android не завантажиться якщо його пропустити
-- Завантажте [`createandformatuserdata.exe`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/createandformatuserdata.exe)
+- Завантажте [`createandformatuserdata.exe`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/createandformatuserdata.exe)
 - Запустіть його подвійним кліком
 > Він автоматично визначить вільний простір і створить новий розділ **`userdata`**
 - Зачекайте повідомлення про завершення (наприклад "Done")

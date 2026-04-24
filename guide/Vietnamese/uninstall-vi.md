@@ -63,7 +63,7 @@ adb reboot
 ### Chuẩn bị
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
-- [```gpt_both0.bin```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/gpt_both0.bin)
+- [```gpt_both0.bin```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/gpt_both0.bin)
 
 ### Khôi phục bảng phân vùng
 > Thay thế ```path\to\gpt_both0.bin``` bằng đường dẫn đến tệp gpt_both0.bin.

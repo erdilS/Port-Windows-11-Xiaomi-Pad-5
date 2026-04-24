@@ -28,11 +28,11 @@
 ### Вимоги (метод 2: root не потрібен)
 - [Модифікований образ recovery](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
-- [Magiskboot](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/magiskboot.exe)
+- [Magiskboot](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/magiskboot.exe)
 
-- [DualBoot Kernel Patcher](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/DualBootKernelPatcher.zip)
+- [DualBoot Kernel Patcher](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/DualBootKernelPatcher.zip)
 
-- [.fd файл](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/nabu.fd)
+- [.fd файл](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/nabu.fd)
 
 ### Відкриття CMD від імені адміністратора
 > Відкрийте CMD від імені **адміністратора**, потім виконайте команду нижче, замінивши `path\to\platform-tools` на фактичний шлях до папки platform-tools, наприклад **C:\platform-tools**.

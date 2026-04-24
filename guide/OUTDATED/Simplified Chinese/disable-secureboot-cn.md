@@ -15,7 +15,7 @@
 
 - [```Recovery 镜像```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
-- [```无安全启动的 UEFI 镜像```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/XXXnabu-NoSecureboot-v4.img)
+- [```无安全启动的 UEFI 镜像```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/XXXnabu-NoSecureboot-v4.img)
 
 ## 安全启动的利弊
 > 默认情况下，本指南中启用了安全启动

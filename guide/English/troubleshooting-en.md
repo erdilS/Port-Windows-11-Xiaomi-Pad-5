@@ -33,7 +33,7 @@ Charging in Windows only works on specific cables. Cables that have been known t
 
 - [Android platform tools](https://developer.android.com/studio/releases/platform-tools)
 
-- [SHRP Recovery](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/SHRP.img)
+- [SHRP Recovery](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/SHRP.img)
 
 #### If you have access to Android:
 - Install **Termux** and grant it root access.

@@ -11,7 +11,7 @@
 
 - [```PowerStateControl```](https://github.com/Misha803/My-Scripts/releases/tag/PowerStateControl)
 
-- [```createandformatuserdata.exe```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/createandformatuserdata.exe)
+- [```createandformatuserdata.exe```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/createandformatuserdata.exe)
 
 ### Примечания:
 > [!Warning]
@@ -68,7 +68,7 @@
 #### Создание новой userdata с помощью createandformatuserdata.exe
 > [!IMPORTANT]  
 > Этот шаг важен - без него Android не сможет запуститься
-- Скачайте [`createandformatuserdata.exe`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/createandformatuserdata.exe)  
+- Скачайте [`createandformatuserdata.exe`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/createandformatuserdata.exe)  
 - Запустите это приложение
 > Оно автоматически увидит свободное место и создаст новый раздел **`userdata`**
 - Дождитесь сообщение о завершении (“Done”)  

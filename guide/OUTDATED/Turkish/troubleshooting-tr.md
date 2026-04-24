@@ -19,7 +19,7 @@ Windows'ta şarj etme yalnızca belirli kablolarla olabilmektedir. Çalıştığ
 ### Gerekli Dosyalar:
 - [Android platform araçları](https://developer.android.com/studio/releases/platform-tools)
 
-- [SHRP Recovery](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/SHRP.img)
+- [SHRP Recovery](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/SHRP.img)
 
 > [!Important]
 > Bu işlem, sadece rootluysanız çalışacaktır. Rootlu değilseniz, cihazı kurtarmanın tek yolu EDL yoluyla flashlamadır [MrAuthTool](https://mrauthtool.com/)
