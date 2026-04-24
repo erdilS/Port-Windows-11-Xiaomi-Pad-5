@@ -40,7 +40,7 @@
 
 - [안드로이드 플랫폼 도구](https://developer.android.com/studio/releases/platform-tools)
 
-- [SHRP 리커버리](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/SHRP.img)
+- [SHRP 리커버리](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/SHRP.img)
 
 #### 안드로이드로 접근 가능할 때:
 - **Termux** 를 설치하고 루트 권한을 부여합니다.

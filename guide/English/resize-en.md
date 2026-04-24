@@ -11,7 +11,7 @@
 
 - [```PowerStateControl tool```](https://github.com/Misha803/My-Scripts/releases/tag/PowerStateControl)
 
-- [```createandformatuserdata.exe```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/createandformatuserdata.exe)
+- [```createandformatuserdata.exe```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/createandformatuserdata.exe)
 
 ### Notes:
 > [!Warning]
@@ -74,7 +74,7 @@
 #### Creating new userdata using createandformatuserdata.exe
 > [!IMPORTANT]  
 > This step important - Android will not boot if you'll skip it  
-- Download [`createandformatuserdata.exe`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/createandformatuserdata.exe)  
+- Download [`createandformatuserdata.exe`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/createandformatuserdata.exe)  
 - Run it by double-clicking it  
 > It will automatically detect free space left and create new **`userdata`**  partition
 - Wait for confirmation message (e.g. “Done”)  

@@ -40,7 +40,7 @@ Sạc trong Windows chỉ hoạt động với các cáp cụ thể. Các cáp �
 
 - [Android platform tools](https://developer.android.com/studio/releases/platform-tools)
 
-- [SHRP Recovery](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/SHRP.img)
+- [SHRP Recovery](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/SHRP.img)
 
 #### Nếu bạn có quyền truy cập vào Android:
 - Cài đặt **Termux** và cấp quyền root cho nó.

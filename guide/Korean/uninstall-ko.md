@@ -61,7 +61,7 @@ adb reboot
 ### 준비물
 - [```안드로이드 플랫폼 도구```](https://developer.android.com/studio/releases/platform-tools)
 
-- [```gpt_both0.bin```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/gpt_both0.bin) 
+- [```gpt_both0.bin```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/gpt_both0.bin) 
 
 ### 파티션 테이블 복원
 > ```path\to\gpt_both0.bin```를 gpt_both0.bin 파일의 경로로 교체하세요.

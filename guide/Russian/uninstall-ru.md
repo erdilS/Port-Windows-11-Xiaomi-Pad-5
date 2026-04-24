@@ -61,7 +61,7 @@ adb reboot
 ### Требования
 - [```SDK platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
-- [```gpt_both0.bin```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/gpt_both0.bin) 
+- [```gpt_both0.bin```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/gpt_both0.bin) 
 
 ### Восстановление таблицы разделов   
 > Замените ```путь\к\gpt_both0.bin``` на физический путь к gpt_both0.bin

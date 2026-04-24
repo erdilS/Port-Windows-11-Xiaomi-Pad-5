@@ -46,9 +46,9 @@ fastboot oem edl
 ## 방법 1: 무료 방법
 
 ### 준비물
-- [`패치된 MiFlash 도구`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/MiFlashPatched.zip)
+- [`패치된 MiFlash 도구`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/MiFlashPatched.zip)
 
-- [`패치된 firehose (.elf) 파일`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/prog_ufs_firehose_sm7150_ddr.elf)
+- [`패치된 firehose (.elf) 파일`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/prog_ufs_firehose_sm7150_ddr.elf)
 
 - `추출된` [`Nabu의 fastboot 롬`](http://xmfirmwareupdater.com/miui/nabu/) 
 
