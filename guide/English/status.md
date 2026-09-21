@@ -22,7 +22,7 @@
 | 🧭 Sensors             |                                                 | ✅            |
 | 🔦 Flashlight          | Partial                                         | ⚠️            |
 | 💽 Virtualization      | Only WSL 1                                      | ❌            |
-| 📷 Camera              |                                                 | ❌            |
+| 📷 Camera              | Working, but image quality is currently below Android quality; requires [additional setup](Additional-materials-en.md#camera-drivers) | ⚠️            |
 
 
 # Detailed status

@@ -110,6 +110,7 @@
 [<img alt="chiyuki0325" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/73830635?s=96&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/chiyuki0325)
 [<img alt="Kumar-Jy" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/20044626?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Kumar-Jy)
 [<img alt="ArKT-7" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/157277855?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/ArKT-7)
+[<img alt="deskcj" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/225964731?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/deskcj)
 
 ## Other peoples
 ***Unfortunately, it's impossible to find and mention all the people who participated in the development of the drivers, UEFI, and related software, as well as all those who financially and morally supported the project. So, we can say thank you to all the participants—you're the best thank you <3***

@@ -14,6 +14,17 @@
 #### Finished!
 
 
+### Installing Camera Drivers <a id="camera-drivers"></a>
+> The Xiaomi Pad 5 cameras now work on Windows 11, but image quality is currently not as good as on Android. The drivers are experimental and test-signed, so use them at your own risk.
+
+- Disable Secure Boot and enable **Windows Test Mode** on your Xiaomi Pad 5 by following [this guide](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/English/disable-secureboot-en.md).
+- Download the latest available package from the [community driver project](https://github.com/deskcj/xiaomi-pad5-windows11-camera).
+- Extract the ZIP archive.
+- Right-click `Install-AV137.cmd` and select **Run as administrator**.
+- Wait for the green success message, then test both cameras in Windows Camera. If the installer requests a restart, restart Windows and run it again.
+
+#### Enjoy!
+
 ### Disable adaptive brightness
 - Open Windows 11 Settings by pressing **`Win + I`** or by right-clicking the Start button and selecting "Settings".
 - Navigate to the **`System`** section from the left sidebar.
