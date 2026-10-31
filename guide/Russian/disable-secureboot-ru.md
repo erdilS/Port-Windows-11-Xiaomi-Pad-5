@@ -39,6 +39,9 @@
 > Она вам понадобится для возврата к Android, но вы можете пропустить этот шаг, если уже создали резервную копию.
 
 Используйте функцию `РЕЗЕРВНОЕ КОПИРОВАНИЕ BOOT ОБРАЗА` в приложении WOA Helper или загрузитесь в модифицированное recovery и выполните команду
+
+> [!NOTE]
+> Выполните эту команду в **командной строке (CMD)**. В PowerShell она не работает.
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```

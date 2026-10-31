@@ -38,6 +38,9 @@
 > 需要提取 boot 镜像才能从 Windows 重启到安卓，但如果在先前的指南中已经进行了此步，则可以跳过
 
 在 WOA Helper 中可以提取 boot 镜像。也可以启动修改后的 recovery 镜像然后运行下面的命令：
+
+> [!NOTE]
+> 请在 **命令提示符 (CMD)** 中运行此命令，它在 PowerShell 中无法运行。
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```

@@ -15,7 +15,8 @@
 - [`magisk.apk`](https://github.com/topjohnwu/Magisk/releases/latest) PC/노트북에서 다운로드합니다 
 > `path\to\magisk.apk`를 magisk.apk의 실제 경로로 변경하세요
 ```cmd
-adb push path\to\magisk.apk /tmp/magisk.zip && adb shell twrp install /tmp/magisk.zip
+adb push path\to\magisk.apk /tmp/magisk.zip
+adb shell twrp install /tmp/magisk.zip
 ```
 
 #### 안드로이드로 재부팅합니다
@@ -30,6 +31,9 @@ adb reboot
 
 ### 루팅된 boot.img 백업
 > 맞춤화된 리커버리 이미지로 재부팅한 후 아래의 명령어를 실행하세요
+
+> [!NOTE]
+> 이 명령은 **명령 프롬프트(CMD)** 에서 실행하세요. PowerShell에서는 작동하지 않습니다.
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```

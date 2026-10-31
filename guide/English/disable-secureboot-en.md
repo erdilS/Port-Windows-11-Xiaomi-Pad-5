@@ -40,6 +40,9 @@
 > You will need this to return to Android, but you can skip this step if you've already made a backup
 
 Use the `Backup Android boot` function in the WOA Helper app, or boot to the modded recovery and run
+
+> [!NOTE]
+> Run this command in **Command Prompt (CMD)**. It does not work in PowerShell.
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```

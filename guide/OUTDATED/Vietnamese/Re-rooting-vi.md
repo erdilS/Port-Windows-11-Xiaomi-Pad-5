@@ -27,7 +27,8 @@ fastboot boot path\to\recovery.img
 - Tải xuống [`magisk.apk`](https://github.com/topjohnwu/Magisk/releases/latest) vào PC/Laptop của bạn
 > Thay thế `path\to\magisk.apk` bằng đường dẫn thực tế của magisk.apk
 ```cmd
-adb push path\to\magisk.apk /tmp/magisk.zip && adb shell twrp install /tmp/magisk.zip
+adb push path\to\magisk.apk /tmp/magisk.zip
+adb shell twrp install /tmp/magisk.zip
 ```
 
 #### Khởi động lại vào Android
