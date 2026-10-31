@@ -33,7 +33,7 @@
 - [SHRP 恢复镜像](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/SHRP.img)
 
 > [!IMPORTANT]
-> 这只有在你已经获得 root 权限的情况下才有效。如果没有，唯一的恢复方法是使用 [MrAuthTool](https://mrauthtool.com/) 通过 EDL (9008) 深刷。
+> 这只有在你已经获得 root 权限的情况下才有效。如果没有，唯一的恢复方法是按照 [EDL 指南](/guide/English/edl.md) 通过 EDL (9008) 深刷。
 
 - 从内部存储的 **UEFI** 文件夹中删除 **UEFI** 镜像，然后将 **SHRP 恢复镜像** 放入此处。
 - 在 WOA Helper 应用中按下 `QUICKBOOT TO WINDOWS`。

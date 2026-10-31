@@ -3,77 +3,69 @@
 # Xiaomi Pad 5'te Windows Çalıştırma
 
 ## Cihazı EDL Modda Geri Yükleme
-> Bu işlem, cihazınız EDL moduna kendi kendine boot ettiğinde ya da başka yollarla geri yükleyemediğinizde son çare olarak yapılı
 
-### Prerequisites
-- $5 USDT olan bir kripto cüzdan
+### EDL moduna girme
+> Xiaomi Pad 5'i **EDL moduna** almanın iki yolu vardır. Size uygun olanı kullanın.
 
-- [Bir Telegram hesabı](https://telegram.org)
-
-- [MrAuthTool 2.0](https://mrauthtool.com/)
-
-- [Stok fastboot rom](https://xiaomifirmwareupdater.com/miui/nabu/)
-
-### MrAuthTool'u ayarlayın
-- Bir MrAuthTool hesabı oluşturun [buradan](https://mrauthtool.com/Sing_Up.php)
-- MrAuthTool ana sayfasından **MR 2.0**'ı indirin, **Mr_Auth_Tool_2.0.exe** dosyasını arşivden çıkarın ve açın
-- Oluşturduğunuz hesaba bağlanın
-
-### Kredi satın alın
-> Kredi satın almak için Telegram'daki MrAuthTool ana sayfasında listelenen yetkili satıcılardan biriyle iletişime geçin.
+> [!NOTE]
 >
-> Birden fazla kişiyle iletişime geçmekten imtina etmeyin, çünkü bazılarının yanıt vermesi uzun sürebilir.
-> 
-> Bu aracı kullanarak cihazınızı flashlamak için **5** krediye ihtiyacınız olacaktır.
+> ▶️ Menüyü açmak için tıklayın.
 
-### EDL modda boot edin
-> [!Note]
-> Eğer zaten EDL modundaysanız, bu adımı atlayın ve "cihazınızı flashlayın" adımına geçin
-- Bootloader kilidiniz açıksa ve fastboot moduna erişiminiz varsa, EDL moduna boot etmek için ```fastboot oem edl``` komutunu çalıştırın
+<details>
+  <summary><strong>Yöntem 1: Bootloader kilidi açık</strong></summary>
 
-> Bootloader'ınız kilitliyse veya Android boot etmiyorsa ve fastboot moduna hiçbir şekilde erişemiyorsanız, EDL test noktalarını kısa devre yapmak için cihazınızın arkasını çıkarmanız veya bir EDL kablosu kullanmanız gerekecektir
->
-> (Her EDL kablosu çalışacak diye bir şey yoktur, yani çalışmayan bir kabloya para harcama riskiniz olabilir, fakat bu yine de cihazınızı açmak zorunda olmaktan daha iyidir)
-- Adında **V2** olan bir kablo arayın, örneğin **Hydra V2 EDL Cable** veya **V2 EDL Pro Cable**. Kablonun USB-C cihazları için olduğundan emin olun
-- Kabloyu cihazınıza takın, ardından kablo üzerindeki [bunun gibi](https://t.me/nabuwoa/204867) görünen düğmeyi basılı tutun
-- Cihaz şimdi EDL moda boot etmeli
+> Bootloader kilidiniz açıksa, **fastboot modunda** şu komutu çalıştırın
+```cmd
+fastboot oem edl
+```
 
-### Cihazınızı flashlayın
-- Cihazınız için stok fastboot romunu indirin ve MrAuthTool'da seçin
-- **flash**'a basın
-- Wait until it finishes flashing, then reboot.
-> [!Note]
-> Araç takılı kalır ve flashlama yapmazsa, bilgisayarınızda USB bağlantı kesilme sesini duyana kadar **güç** düğmesine (yaklaşık 30 saniye) basılı tutup cihazınızı yeniden başlatın (işe yaramazsa **güç** + **ses kısma ya da açma** düğmelerinin bir kombinasyonunu kullanmanız gerekebilir)
+</details>
 
-### MiFlash ile yeniden rom flashlayın
+<details>
+  <summary><strong>Yöntem 2: Bootloader kilitli veya cihaz açılmıyor</strong></summary>
+
+- **EDL kablonuz** varsa cihazınıza takın ve **EDL moduna** girmek için kablonun üzerindeki düğmeye basın.
+> İşe yarayan EDL kablolarının adında genellikle V2 bulunur, örneğin **Hydra V2 EDL Cable**.
+- Alternatif olarak **test noktalarını kısa devre yapın** (bunun için tableti ekran tarafından sökmeniz gerekir, talimatları YouTube'da bulabilirsiniz).
+
+</details>
+
+### Cihazı kontrol edin
+- Bilgisayarınızda **Aygıt Yöneticisi**'ni açın ve **Qualcomm HS-USB QDLoader 9008** gibi yeni bir aygıt arayın.
+- Aygıtın adı **QUSB_BULK_CID** ise ve/veya **Aygıt Yöneticisi**'nde sarı bir uyarı ⚠️ görünüyorsa sürücüleri kurmanız/güncellemeniz gerekir.
+- Bunun için **[QUD.zip](https://github.com/n00b69/woa-betalm/releases/download/Qfil/QUD.zip)** dosyasını indirip arşivden çıkarın, Aygıt Yöneticisi'nde hatalı aygıtı seçin, **Sürücüyü güncelleştir**'e tıklayın ve çıkardığınız **QUD** klasörünü seçin.
+
+## MiFlash ile flashlama
+
+### Gerekli Dosyalar
+- [`Yamalı MiFlash Tool`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/MiFlashPatched.zip)
+
+- [`Yamalı firehose (.elf) dosyası`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/prog_ufs_firehose_sm7150_ddr.elf)
+
+- [`Nabu için fastboot ROM`](https://xiaomifirmwareupdater.com/hyperos/nabu/)
+
+### Dosyaları hazırlayın
+- Xiaomi Pad 5 için indirdiğiniz **fastboot ROM**'u arşivden çıkarın.
+- İndirdiğiniz **MiFlashPatched.zip** dosyasını arşivden çıkarın.
+- İndirdiğiniz **firehose (.elf)** dosyasını, çıkardığınız **fastboot ROM** içindeki **images** klasörüne kopyalayın ve mevcut dosyanın üzerine yazın.
+
+#### MiFlash Tool'u açın
+- Çıkardığınız **MiFlashPatched.zip** içindeki **MiFlash** klasörüne gidin.
+- **XiaoMiFlash.exe** dosyasını yönetici olarak çalıştırın.
+
+### ROM'u flashlayın
+- **MiFlash**'ta **Select** düğmesine tıklayın ve **fastboot ROM**'u çıkardığınız klasörü seçin (**firehose.elf** dosyasını değiştirdiğiniz klasör).
+- **MiFlash**'ta **Clean All** seçeneğinin işaretli olduğundan emin olun.
+- Cihazın bağlı olduğunu doğrulamak için **MiFlash**'ta **Refresh**'e tıklayın.
+- Cihazınız algılandıktan ve **Clean All** seçiliyken flashlamayı başlatmak için **Flash**'a tıklayın.
+
 > [!Important]
-> Bu araç yalnızca bir slota rom flashlar, eğer cihazınız slot değiştirirse, yeniden EDL moda düşebilirisinz.
-- Fastboot moda reboot et
-- Ya **MiFlash** kullanarak ya da romdaki **flash_all.bat** dosyası ile ikinci kez rom flashlayın
-- Flashlama bittiğinde yeniden başlatın
+> 2 dakika içinde kaybolmayan bir hata görürseniz cihazı yeniden **EDL moduna** alın, ardından tekrar denemek için yine **Refresh** ve **Flash**'a tıklayın.
 
-## Bitti!
+#### Cihazı yeniden başlatın
+- Flashlama bittiğinde cihazı yeniden başlatmak için **Reboot** düğmesine tıklayın.
 
+---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#### Bitti!
+Xiaomi Pad 5'iniz artık orijinal çalışır durumuna geri yüklenmiş olmalı!

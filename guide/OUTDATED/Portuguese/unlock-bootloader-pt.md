@@ -78,4 +78,4 @@
 #### Créditos e Reconhecimentos:
 Este guia foi testado por: [@ArKT_7](https://t.me/ArKT_7), [@I914900HX](https://t.me/I914900HX), [@Samponnporlsak](https://t.me/Samponnporlsak)
 
-Agradecimentos especiais para [@hxruofficial](https://t.me/hxruofficial) por compartilhar o truque do horário na HyperOS/miui-14. Ele é especializado em Qualcomm flashing, EDL, e FDL. Veja as ferramentas e serviços dele em [HXRU Tool](https://hxrutool.com/).
+Agradecimentos especiais para [@hxruofficial](https://t.me/hxruofficial) por compartilhar o truque do horário na HyperOS/miui-14.
