@@ -62,12 +62,12 @@ adb pull /dev/block/by-name/boot_a boot.img
 ### boot 이미지 언팩
 > **boot.img** 가 `platform-tools` 폴더에 있는지 확인하세요.
 ```cmd
-./magiskboot unpack boot.img
+magiskboot unpack boot.img
 ```
 
 ### boot 이미지 패치
 ```cmd
-./DualBootKernelPatcher\bin\Windows\DualBootKernelPatcher-x86_64.exe ./kernel ./nabu.fd ./output ./DualBootKernelPatcher\Config\DualBoot.Sm8150.cfg ./DualBootKernelPatcher\ShellCode\ShellCode.Nabu.bin
+DualBootKernelPatcher\bin\Windows\DualBootKernelPatcher-x86_64.exe kernel nabu.fd output DualBootKernelPatcher\Config\DualBoot.Sm8150.cfg DualBootKernelPatcher\ShellCode\ShellCode.Nabu.bin
 ```
 
 ### 커널 파일 이름 변경
@@ -76,7 +76,7 @@ adb pull /dev/block/by-name/boot_a boot.img
 ### boot 이미지 리팩
 > 이 과정을 통해 패치된 boot 이미지를 새로운 파일 **new_boot.img** 로 리팩합니다
 ```cmd
-./magiskboot repack boot.img
+magiskboot repack boot.img
 ```
 
 ### fastboot로 재부팅
