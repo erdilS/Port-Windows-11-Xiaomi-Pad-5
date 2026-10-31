@@ -4,7 +4,6 @@
 
 ## Обновление драйверов
 
-
 ### Требования
 - [`Android platform-tools`](troubleshooting-ru.md#adb-fastboot-not-recognized-ru)
 

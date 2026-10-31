@@ -2,9 +2,6 @@
 
 # Running Windows on the Xiaomi Pad 5
 
-> [!NOTE]
-> This guide is not recommended for updating an installation from an older driver release. Updating an older installation may result in an incorrect configuration or system instability.
-
 ## Updating drivers
 
 ### Prerequisites
