@@ -54,8 +54,11 @@ fastboot reboot
 > Cihazınız açıldıktan sonra
 
 - Shell için bir superuser isteği cihazınızın ekranında belirebilir. Eğer belirirse, yetkiyi verin.
+
+> [!NOTE]
+> Bu komutu **Komut İstemi (CMD)** içinde çalıştırın. PowerShell'de çalışmaz.
 ```cmd
-adb shell "su -c cp /dev/block/by-name/boot$(getprop grep ro.boot.slot_suffix) /sdcard/rooted_boot.img" & adb pull /sdcard/rooted_boot.img
+adb shell "su -c cp /dev/block/by-name/boot$(getprop ro.boot.slot_suffix) /sdcard/rooted_boot.img" && adb pull /sdcard/rooted_boot.img
 ```
 
 ### [Sıradaki Aşama: Windows kurulumu](/guide/Turkish/3-install-tr.md)

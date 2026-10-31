@@ -15,7 +15,8 @@
 - Download [`magisk.apk`](https://github.com/topjohnwu/Magisk/releases/latest) onto your PC/Laptop 
 > Replace `path\to\magisk.apk` with the actual path of the magisk.apk
 ```cmd
-adb push path\to\magisk.apk /tmp/magisk.zip && adb shell twrp install /tmp/magisk.zip
+adb push path\to\magisk.apk /tmp/magisk.zip
+adb shell twrp install /tmp/magisk.zip
 ```
 
 #### Reboot into Android
@@ -30,6 +31,9 @@ adb reboot
 
 ### Back up your rooted boot.img
 > Reboot into the modified recovery image, then run the below command
+
+> [!NOTE]
+> Run this command in **Command Prompt (CMD)**. It does not work in PowerShell.
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```

@@ -51,6 +51,8 @@ fastboot boot path\to\recovery.img
 ```
 
 ### Make a backup of your existing boot image
+> [!NOTE]
+> Run this command in **Command Prompt (CMD)**. It does not work in PowerShell.
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
 ```

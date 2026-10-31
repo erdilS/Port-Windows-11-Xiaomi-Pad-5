@@ -49,6 +49,8 @@ fastboot boot path\to\recovery.img
 ```
 
 ### Tạo bản sao lưu cho boot image hiện tại
+> [!NOTE]
+> Chạy lệnh này trong **Command Prompt (CMD)**. Lệnh không hoạt động trong PowerShell.
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
 ```

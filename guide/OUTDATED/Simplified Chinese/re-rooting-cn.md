@@ -23,6 +23,8 @@ fastboot boot path\to\recovery.img
 ```
 
 #### 备份当前的 boot 分区
+> [!NOTE]
+> 请在 **命令提示符 (CMD)** 中运行此命令，它在 PowerShell 中无法运行。
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
 ```

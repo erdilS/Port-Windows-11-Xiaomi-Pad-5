@@ -15,7 +15,8 @@
 - Tải [`magisk.apk`](https://github.com/topjohnwu/Magisk/releases/latest) xuống PC/Laptop của bạn
 > Thay `path\to\magisk.apk` bằng đường dẫn thực của file magisk.apk
 ```cmd
-adb push path\to\magisk.apk /tmp/magisk.zip && adb shell twrp install /tmp/magisk.zip
+adb push path\to\magisk.apk /tmp/magisk.zip
+adb shell twrp install /tmp/magisk.zip
 ```
 
 #### Khởi động vào Android
@@ -30,6 +31,9 @@ adb reboot
 
 ### Sao lưu boot.img đã root
 > Khởi động vào recovery đã chỉnh sửa, sau đó chạy lệnh bên dưới
+
+> [!NOTE]
+> Chạy lệnh này trong **Command Prompt (CMD)**. Lệnh không hoạt động trong PowerShell.
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```

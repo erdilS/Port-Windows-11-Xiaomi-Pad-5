@@ -37,6 +37,9 @@
 > Você vai precisar iniciar o Android, se já fez um backup, pode pular esse passo
 
 Use a função `Backup Android boot` no app WOA Helper, ou inicie o recovery e execute
+
+> [!NOTE]
+> Execute este comando no **Prompt de Comando (CMD)**. Ele não funciona no PowerShell.
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```

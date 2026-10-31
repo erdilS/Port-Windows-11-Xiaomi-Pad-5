@@ -16,6 +16,8 @@ fastboot boot <recovery.img>
 ```
 
 ### Mevcut boot imajınızın yedeğini alın
+> [!NOTE]
+> Bu komutu **Komut İstemi (CMD)** içinde çalıştırın. PowerShell'de çalışmaz.
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
 ```

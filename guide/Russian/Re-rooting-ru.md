@@ -27,7 +27,8 @@ fastboot boot путь\к\recovery.img
 - Скачайте [`magisk.apk`](https://github.com/topjohnwu/Magisk/releases/latest) на ваш ПК/Ноутбук
 > Замените `путь\к\magisk.apk` на актуальный путь к magisk.apk
 ```cmd
-adb push путь\к\magisk.apk /tmp/magisk.zip && adb shell twrp install /tmp/magisk.zip
+adb push путь\к\magisk.apk /tmp/magisk.zip
+adb shell twrp install /tmp/magisk.zip
 ```
 
 #### Перезагрузка в Android

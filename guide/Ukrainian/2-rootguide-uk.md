@@ -13,7 +13,8 @@
 - Завантажте [`magisk.apk`](https://github.com/topjohnwu/Magisk/releases/latest) на свій ПК/ноутбук
 > Замініть `path\to\magisk.apk` на фактичний шлях до magisk.apk
 ```cmd
-adb push path\to\magisk.apk /tmp/magisk.zip && adb shell twrp install /tmp/magisk.zip
+adb push path\to\magisk.apk /tmp/magisk.zip
+adb shell twrp install /tmp/magisk.zip
 ```
 
 #### Перезавантажте Android
@@ -28,6 +29,9 @@ adb reboot
 
 ### Зробіть резервну копію вашого root.img
 > Перезавантажтеся у TWRP, а потім виконайте наведену нижче команду
+
+> [!NOTE]
+> Виконайте цю команду в **командному рядку (CMD)**. У PowerShell вона не працює.
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```

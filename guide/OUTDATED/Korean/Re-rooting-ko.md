@@ -27,7 +27,8 @@ fastboot boot path\to\recovery.img
 - [`magisk.apk`](https://github.com/topjohnwu/Magisk/releases/latest) PC/노트북에서 다운로드합니다 
 > `path\to\magisk.apk`를 magisk.apk의 실제 경로로 변경하세요
 ```cmd
-adb push path\to\magisk.apk /tmp/magisk.zip && adb shell twrp install /tmp/magisk.zip
+adb push path\to\magisk.apk /tmp/magisk.zip
+adb shell twrp install /tmp/magisk.zip
 ```
 
 #### 안드로이드로 재부팅합니다
