@@ -22,7 +22,7 @@ Windows'ta şarj etme yalnızca belirli kablolarla olabilmektedir. Çalıştığ
 - [SHRP Recovery](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/SHRP.img)
 
 > [!Important]
-> Bu işlem, sadece rootluysanız çalışacaktır. Rootlu değilseniz, cihazı kurtarmanın tek yolu EDL yoluyla flashlamadır [MrAuthTool](https://mrauthtool.com/)
+> Bu işlem, sadece rootluysanız çalışacaktır. Rootlu değilseniz, cihazı kurtarmanın tek yolu [EDL modunda flashlamaktır](edl-tr.md).
 
 - Dahili depolamanızdaki UEFI klasöründen **UEFI** dosyasını silin,  **SHRP recovery** imajını yerleştirin
 - WoA Helper uygulamasında `QUICKBOOT TO WINDOWS` butonuna basın

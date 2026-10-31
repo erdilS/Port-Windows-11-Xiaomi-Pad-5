@@ -73,4 +73,4 @@
 #### Teşekkürler ve Takdirler:
 Bu kılavuz, [@ArKT_7](https://t.me/ArKT_7), [@I914900HX](https://t.me/I914900HX), [@Samponnporlsak](https://t.me/Samponnporlsak) tarafından test edilmiştir.
 
-Özellikle HyperOS/miui-14'te uygulama zaman hilesini paylaşan [@hxruofficial](https://t.me/hxruofficial)'e teşekkür ederiz. Kendisi Qualcomm flashlama, EDL ve FDL konularında uzmandır. Araçlarını ve hizmetlerini [HXRU Tool](https://hxrutool.com/) adresinden inceleyebilirsiniz.
+Özellikle HyperOS/miui-14'te uygulama zaman hilesini paylaşan [@hxruofficial](https://t.me/hxruofficial)'e teşekkür ederiz.

@@ -39,6 +39,9 @@
 > 안드로이드로 돌아오기 위해 이 파일이 필요하지만, 이미 백업했다면 이 단계를 건너뛸 수 있습니다
 
 WOA Helper 앱에서 `Backup Android boot` 기능을 사용하거나, 커스텀 리커버리로 부팅하여 아래의 명령어를 입력하세요
+
+> [!NOTE]
+> 이 명령은 **명령 프롬프트(CMD)** 에서 실행하세요. PowerShell에서는 작동하지 않습니다.
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```

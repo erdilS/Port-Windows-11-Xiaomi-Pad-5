@@ -15,7 +15,8 @@
 - Скачайте [`magisk.apk`](https://github.com/topjohnwu/Magisk/releases/latest) на свой ПК/ноутбук.
 > Замените `путь\к\magisk.apk` на фактический путь к файлу magisk.apk.
 ```cmd
-adb push путь\к\magisk.apk /tmp/magisk.zip && adb shell twrp install /tmp/magisk.zip
+adb push путь\к\magisk.apk /tmp/magisk.zip
+adb shell twrp install /tmp/magisk.zip
 ```
 
 #### Перезагрузка в Android
@@ -30,6 +31,9 @@ adb reboot
 
 ### Создание резервной копии рутированного boot.img
 > Перезагрузитесь в модифицированное recovery, затем выполните приведённую ниже команду.
+
+> [!NOTE]
+> Выполните эту команду в **командной строке (CMD)**. В PowerShell она не работает.
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```

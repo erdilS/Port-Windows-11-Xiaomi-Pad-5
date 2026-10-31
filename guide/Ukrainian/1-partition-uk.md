@@ -49,6 +49,8 @@ fastboot boot шлях\до\recovery.img
 ```
 
 ### Резервна копія поточного образу boot
+> [!NOTE]
+> Виконайте цю команду в **командному рядку (CMD)**. У PowerShell вона не працює.
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
 ```

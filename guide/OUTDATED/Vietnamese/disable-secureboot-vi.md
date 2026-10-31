@@ -36,6 +36,9 @@
 > Bạn sẽ cần cái này để quay lại Android, nhưng bạn có thể bỏ qua bước này nếu bạn đã tạo một bản sao lưu
 
 Sử dụng chức năng `Backup Android boot` trong ứng dụng WOA Helper, hoặc khởi động vào recovery đã chỉnh sửa và chạy
+
+> [!NOTE]
+> Chạy lệnh này trong **Command Prompt (CMD)**. Lệnh không hoạt động trong PowerShell.
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```

@@ -49,6 +49,8 @@ fastboot boot path\to\recovery.img
 ```
 
 ### 기존 boot 이미지 백업
+> [!NOTE]
+> 이 명령은 **명령 프롬프트(CMD)** 에서 실행하세요. PowerShell에서는 작동하지 않습니다.
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
 ```

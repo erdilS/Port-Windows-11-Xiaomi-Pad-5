@@ -36,6 +36,9 @@
 > Android'e geri dönmek için buna ihtiyacınız olacak, ancak zaten bir yedek aldıysanız bu adımı atlayabilirsiniz
 
 WOA Helper uygulamasındaki `Android önyükleme yedeği` işlevini kullanın veya modifiye edilmiş kurtarma moduna önyükleme yapın ve şu komutu çalıştırın:
+
+> [!NOTE]
+> Bu komutu **Komut İstemi (CMD)** içinde çalıştırın. PowerShell'de çalışmaz.
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```

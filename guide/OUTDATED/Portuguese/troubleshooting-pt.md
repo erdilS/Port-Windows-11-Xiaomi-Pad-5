@@ -21,7 +21,7 @@ O carregamento no Windows funciona apenas com alguns cabos específicos. Alguns 
 > [!WARNING]
  Provavelmente isso não vai ajudar muito, já que o Xiaomi Pad 5 não tem um custom recovery que funcione perfeitamente. E também como a maioria dos dispositivos com o esquema A/B não temos um instalador do TWRP em zip etc. E você não vai conseguir iniciar uma imagem de recovery, devido o bootloader quebrado. Se você já tem uma rom AOSP, provavelmente a mesma vai ter um recovery AOSP instalado que você pode acessar, assim você pode seguir os seguintes passos. Se você usa a MIUI sem root, esses guia não vai te ajudar.
 >
-> Então por favor não use nomes com espaços e caracteres especiais nos seus discos e partições internas, e se possível use apenas os nomes ESPNABU e WINNABU, que já foram testados milhares de vezes. Se você perdeu o fastboot por usar nomes diferenciados ou usa a MIUI sem root, você só vai conseguir recuperar ao estado de fábrica usando o modo EDL, que apenas funciona com uma conta autorizada, que é um serviço pago.
+> Então por favor não use nomes com espaços e caracteres especiais nos seus discos e partições internas, e se possível use apenas os nomes ESPNABU e WINNABU, que já foram testados milhares de vezes. Se você perdeu o fastboot por usar nomes diferenciados ou usa a MIUI sem root, você só vai conseguir recuperar ao estado de fábrica usando o modo EDL ([guia](/guide/English/edl.md)).
 
 
 Isso é causado pelo fato do fastboot não suportar certos formatos de nomes usados nas partições, para consertar:

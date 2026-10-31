@@ -3,7 +3,6 @@
 # Chạy Windows trên Xiaomi Pad 5
 
 ## Phục hồi máy trong chế độ EDL
-> Hướng dẫn này bao gồm hai phương pháp để flash thiết bị của bạn, nếu phương pháp 1 không thành công, hãy sử dụng phương pháp 2
 
 ### Nhập chế độ EDL
 > Có hai phương pháp để khởi động Xiaomi Pad 5 của bạn vào **chế độ EDL**. Sử dụng phương pháp nào phù hợp với bạn.
@@ -41,16 +40,16 @@ fastboot oem edl
 > ▶️ Nhấn để mở rộng menu.
 
 <details>
-  <summary><strong>Phương pháp 1: Cách miễn phí</strong></summary>
+  <summary><strong>Flash bằng MiFlash</strong></summary>
 
-## Phương pháp 1: Đồ chùa
+## Flash bằng MiFlash
 
 ### Chuẩn bị
 - [`Patched MiFlash Tool`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/MiFlashPatched.zip)
 
 - [`Patched firehose (.elf) file`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/prog_ufs_firehose_sm7150_ddr.elf)
 
-- `Đã giải nén` [`fastboot ROM for Nabu`](http://xmfirmwareupdater.com/miui/nabu/) 
+- `Đã giải nén` [`fastboot ROM for Nabu`](https://xiaomifirmwareupdater.com/hyperos/nabu/) 
 
 ### Chuẩn bị trước các files quan trọng
 - Giải nén **fastboot ROM** cho Xiaomi Pad 5 của bạn.
@@ -74,46 +73,6 @@ fastboot oem edl
 - Sau khi quá trình flash hoàn tất, nhấn nút **Reboot** để khởi động lại thiết bị.
 
 </details>
-
-<details>
-  <summary><strong>Phương pháp 2: Cách trả phí</strong></summary>
-
-## Phương pháp 2: Flash trả phí qua công cụ HXRU
-
-### Chuẩn bị
-- `$3 USDT` và một ví tiền điện tử để mua tín dụng (một số tài khoản ngân hàng Nga cũng được chấp nhận)
-
-- `Tài khoản Telegram` để liên lạc với hỗ trợ HXRU
-
-- [`MiFlash HXRU Tool`](https://hxrutool.net/tool/Xiaomi_Auth_Tool_v9.0.0.5_mtk.zip)
-
-- [`Stock fastboot ROM for Nabu`](http://xmfirmwareupdater.com/miui/nabu/)
-### Thiết lập công cụ HXRU
-- Tạo một tài khoản trên **[HXRU dashboard](https://dashboard.hxrutool.com/Register)**.
-- Tải xuống và giải nén công cụ **MiFlash HXRU**.
-
-#### Mua tín dụng
-- Liên hệ với **@hxruofficial** trên Telegram để mua **5 tín dụng** (khoảng **$3**). Bạn cần những tín dụng này để tiếp tục quá trình flash thiết bị của mình.
-
-### Flashing your device
-- Mở **XiaoMiFlash.exe** và cấp quyền quản trị cho nó.
-- Tải xuống fastboot rom gốc cho thiết bị của bạn (nên có phần mở rộng .tgz) và mở nó. Bên trong sẽ có một tệp .tar. Giải nén nội dung của tệp .tar này vào bất kỳ thư mục nào.
-- Nhấn nút **select** trong **XiaoMiFlash** và chọn thư mục này.
-- Nhấn **flash**.
-- Nếu bạn nhận được lỗi `write time out`, hãy giữ nút **power** + **volume down** trong khoảng 30 giây để khởi động lại EDL. Sau đó nhấn nút **flash** một lần nữa.
-- Sau vài giây, một cửa sổ đăng nhập sẽ xuất hiện. Nhập thông tin tài khoản HRXU của bạn vào đây và nhấn **Request Auth Flashing**.
-
-#### Khởi động lại thiết bị
-- Sau khi nó hiển thị **flash done**, hãy khởi động lại thiết bị của bạn bằng cách giữ nút **power** trong khoảng 14 giây.
-
-</details>
-
-### Reflashing your rom with MiFlash
-> [!Warning]
-> Đống tools này sẽ flash rom về 1 slot. Nếu thiết bị của bạn chuyển đổi slot, nó sẽ khởi động lại vào EDL một lần nữa.
-- Khởi động lại vào fastboot mode.
-- Flash lại fastboot rom lần thứ hai bằng cách sử dụng **MiFlash** hoặc với tệp **flash_all.bat** trong rom.
-- Khởi động lại sau khi quá trình flash hoàn tất.
 
 #### Thành công!
 Xiaomi Pad 5 của bạn bây giờ đã được reflash như ban đầu.

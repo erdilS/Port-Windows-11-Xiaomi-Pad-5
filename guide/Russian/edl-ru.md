@@ -49,7 +49,7 @@ fastboot oem edl
 
 - [`Пропатченный файл firehose (.elf)`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/prog_ufs_firehose_sm7150_ddr.elf)
 
-- `Распакованная` [`fastboot-прошивка для Nabu`](https://hyperos.fans/en/devices/nabu)
+- `Распакованная` [`fastboot-прошивка для Nabu`](https://xiaomifirmwareupdater.com/hyperos/nabu/)
 
 ### Подготовка необходимых файлов
 - Распакуйте **fastboot ROM** для вашего Xiaomi Pad 5.
