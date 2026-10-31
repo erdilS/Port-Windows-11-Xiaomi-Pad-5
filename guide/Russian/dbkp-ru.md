@@ -71,12 +71,12 @@ adb pull /dev/block/by-name/boot_a boot.img
 ### Распаковка загрузочного образа
 > Убедитесь, что **boot.img** находится в папке `platform-tools`.
 ```cmd
-./magiskboot unpack boot.img
+magiskboot unpack boot.img
 ```
 
 ### Патч загрузочного образа
 ```cmd
-./DualBootKernelPatcher\bin\Windows\DualBootKernelPatcher-x86_64.exe ./kernel ./nabu.fd ./output ./DualBootKernelPatcher\Config\DualBoot.Sm8150.cfg ./DualBootKernelPatcher\ShellCode\ShellCode.Nabu.bin
+DualBootKernelPatcher\bin\Windows\DualBootKernelPatcher-x86_64.exe kernel nabu.fd output DualBootKernelPatcher\Config\DualBoot.Sm8150.cfg DualBootKernelPatcher\ShellCode\ShellCode.Nabu.bin
 ```
 
 ### Переименование файла ядра
@@ -85,7 +85,7 @@ adb pull /dev/block/by-name/boot_a boot.img
 ### Переупаковка загрузочного образа
 > Это позволит переупаковать исправленный загрузочный образ в новый файл под названием **new_boot.img**
 ```cmd
-./magiskboot repack boot.img
+magiskboot repack boot.img
 ```
 
 ### Перезагрузка в режиме fastboot
