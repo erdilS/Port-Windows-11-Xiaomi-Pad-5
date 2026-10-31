@@ -3,7 +3,6 @@
 # Запуск Windows на Xiaomi Pad 5
 
 ## Відновлення пристрою в режимі EDL
-> Цей посібник містить два способи прошивки пристрою. Якщо спосіб 1 не працює, скористайтеся способом 2.
 
 ## Введення планшету у режим EDL
 > Існує два способи завантажити Xiaomi Pad 5 у режим **EDL**. Використайте той, який вам підходить.
@@ -41,9 +40,9 @@ fastboot oem edl
 > ▶️ Натисніть, щоб розгорнути меню.
 
 <details>
-  <summary><strong>Метод 1: Безкоштовний метод</strong></summary>
+  <summary><strong>Прошивка за допомогою MiFlash</strong></summary>
 
-## Метод 1: Безкоштовний метод
+## Прошивка за допомогою MiFlash
 
 ### Передумови
 - [`Пропатчений MiFlash Tool`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/MiFlashPatched.zip)
@@ -74,22 +73,6 @@ fastboot oem edl
 - Після завершення прошивки натисніть кнопку **Reboot**, щоб перезапустити пристрій.
 
 ---
-
-</details>
-
-<details>
-  <summary><strong>Метод 2: Платний EDL-метод</strong></summary>
-
-## Метод 2: Платна прошивка за допомогою @antoshkagsm
-
-### Передумови
-- `7 USDT` і криптогаманець для оплати
-
-- `Telegram-акаунт` для зв'язку
-
-- [`Стокова fastboot-прошивка для Nabu`](https://hyperos.fans/en/devices/nabu)
-
-### Зв'яжіться з [@antoshkagsm](https://t.me/antoshkagsm), щоб відновити пристрій
 
 </details>
 

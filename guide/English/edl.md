@@ -3,7 +3,6 @@
 # Running Windows on the Xiaomi Pad 5
 
 ## Restoring the Device in EDL Mode
-> This guide includes two methods to flash your device in, if method 1 fails, use method 2
 
 ### Entering EDL Mode
 > There are two methods for booting your Xiaomi Pad 5 into **EDL mode**. Use whichever one applies to you.
@@ -41,9 +40,9 @@ fastboot oem edl
 > ▶️ Click to expand the menu.
 
 <details>
-  <summary><strong>Method 1: Free method</strong></summary>
+  <summary><strong>Flashing with MiFlash</strong></summary>
 
-## Method 1: Free method
+## Flashing with MiFlash
 
 ### Prerequisites
 - [`Patched MiFlash Tool`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/MiFlashPatched.zip)
@@ -74,22 +73,6 @@ fastboot oem edl
 - Once the flashing is complete, click the **Reboot** button to restart the device.
 
 ---
-
-</details>
-
-<details>
-  <summary><strong>Method 2: Paid EDL method</strong></summary>
-
-## Method 2: Paid flashing with @antoshkagsm
-
-### Prerequisites
-- `7 USDT` and a crypto wallet for payment
-
-- `Telegram account` for communication
-
-- [`Stock fastboot ROM for Nabu`](https://hyperos.fans/en/devices/nabu)
-
-### Contact [@antoshkagsm](https://t.me/antoshkagsm) to restore your device
 
 </details>
 
