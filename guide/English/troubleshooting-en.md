@@ -29,11 +29,10 @@ winget install Google.PlatformTools
 
 ##### Done!
 
-## Charging in Windows does not work
-> [!WARNING]
-> Do not use a powered USB hub with host mode enabled, this can potentially break your device. If you use a powered USB hub, please use the [disable USB host mode guide](/guide/English/Additional-materials-en.md#Disabling-USB-host-mode)
+## Charging in Windows is slow or does not work
+The v2611.21 release makes charging functional with most chargers and cables, without requiring a Xiaomi charger, but charging is currently limited to 18 W. Compatibility still varies between chargers and cables.
 
-Charging in Windows only works on specific cables. Cables that have been known to work are the original Xiaomi 33W cable (identified by the additional orange/red pin in the USB-A port), the Nimaso 100W USB-C to USB-C fast charging cable, Samsung USB-C to USB-C cable.
+Some high-power chargers may not work properly and can trigger foldback protection, causing the charging indicator to blink. If this happens, try a different charger.
 
 ##### Done!
 
@@ -91,18 +90,6 @@ adb shell parted /dev/block/sda
 
 ##### Done!
 
-## fsa4480.sys BSOD on boot
-- Open driver folder
-
-- Remove the ```<DriverPackageFile Path="$(mspackageroot)\components\QC8150\Device\DEVICE.SOC_QC8150.NABU\Drivers\USB" Name="fsa4480.inf" ID="fsa4480"/>``` line from NABU.xml
-
-- Reinstall the driver
-
-- Boot UEFI
-> [!NOTE]
-> If you are still getting a BSOD, use the `reinstall` guide and use this driver package 
-
-##### Done!
 
 ## Bootloop after switching to Android 
 - Boot to fastboot

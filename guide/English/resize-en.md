@@ -19,29 +19,6 @@
 > 
 > DO NOT REBOOT YOUR TABLET if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/nabuwoa)
 ---
-### Disabling page file  
-> [!NOTE]  
-> You can skip this step if you already have page file disabled  
-
-#### Open System Properties  
-- Press **`Win + S`** and search for **`View advanced system settings`**  
-- Click the result to open **System Properties** window  
-
-#### Open Performance Options  
-- In the **Advanced** tab, click **`Settings`** under **Performance**  
-- This opens the **Performance Options** window  
-
-#### Disable page file  
-- Go to the **Advanced** tab  
-- Click **`Change...`** under **Virtual memory**  
-- Uncheck **`Automatically manage paging file size for all drives`**  
-- Select your **Windows drive** (usually C:)  
-- Choose **`No paging file`**  
-- Click **`Set`** → **`OK`**  
-> Do not confirm reboot dialog
-
----
-
 ### Disabling Hibernation and Page File using PowerStateControl
 > [!NOTE]  
 > You can skip this step if you already have hibernation and the page file disabled.

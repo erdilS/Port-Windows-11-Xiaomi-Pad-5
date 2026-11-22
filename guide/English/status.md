@@ -1,7 +1,7 @@
 # Project status
 
-- Current **Driver** version: **v2608.03**
-- Current **UEFI** version: **v2608.03**
+- Current **Driver** version: **[v2611.21](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases/tag/2611.21)**
+- Current **UEFI** version: **[v2611.21](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases/tag/2611.21)**
 
 # Simple status
 
@@ -12,7 +12,7 @@
 | 🎆 GPU                 |                                                 | ✅            |
 | 👆 Touch               | 10-point Multi-touch                            | ✅            |
 | 🪵 USB                 |                                                 | ✅            |
-| 🔌 Charging            | Slow charging only                              | ⚠️            |
+| 🔌 Charging            | Works with most chargers; limited to 18 W       | ⚠️            |
 | 🔵 Bluetooth           |                                                 | ✅            |
 | 🛜 Wi-Fi               |                                                 | ✅            |
 | ⌨️ Side buttons        |                                                 | ✅            |
@@ -48,13 +48,13 @@
 ## 🪵 USB & Charging
 
 > [!Note]
-> On **SM8150** devices, the device is incapable of switching the USB-mode in Windows, and a [USB Mode Control tool](https://github.com/Misha803/WOA-Tools/releases/tag/USB-Host-Mode-Control) (newer) or [usbhostmodenative tool](https://github.com/n00b69/usbhostmode) is required to do so
+> Driver and UEFI v2611.21 improve USB-C OTG and dual-role operation; manually switching between USB device and host modes is generally no longer needed.
 
 | Feature                        | Notes                                                            | Status         |
 |--------------------------------|------------------------------------------------------------------|----------------|
-| 🪵 USB-Fn (Charging & MTP)     | **[Default]**                                                    | ✅             |
-| 🪵 USB-Host (OTG)              | May require a system reboot or toggling USB Host mode to function| ⚠️            |
-| 🔌 Charging (USB)              | Slow charging only, only in USB-Fn mode                          | ⚠️             |
+| 🪵 USB-Fn (Charging & MTP)     | Device role                                                     | ✅             |
+| 🪵 USB-Host (OTG)              | Host role; dual-role operation works without manual switching    | ✅             |
+| 🔌 Charging (USB)              | Works with most chargers; limited to 18 W, compatibility varies  | ⚠️             |
 
 
 ## 🌐 Wi-Fi

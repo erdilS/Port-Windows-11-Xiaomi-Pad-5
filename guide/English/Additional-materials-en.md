@@ -49,12 +49,9 @@
 
 #### Finished! 
 
-### Toggling USB host mode
-> [!Warning]
-> Disable USB host mode if you use a powered USB hub, as this can irreversibly damage your device. If you don't use a powered USB hub, enable USB host mode or you will not be able to use any USB devices.
+### USB dual-role mode
+> The v2611.21 driver and UEFI release improve USB-C OTG and the overall USB experience. USB device and host roles work without manually toggling modes; the [USB Mode Control tool](https://github.com/Misha803/WOA-Tools/releases/tag/USB-Host-Mode-Control) or [usbhostmodenative](https://github.com/n00b69/usbhostmode) are only needed with older releases.
 
-- Run [USB Mode Control tool](https://github.com/Misha803/WOA-Tools/releases/tag/USB-Host-Mode-Control) (newer) or [usbhostmodenative tool](https://github.com/n00b69/usbhostmode) to toggle USB mode between HOST and DEVICE (enable or disable USB host mode).
-- If USB is currently in HOST mode and USB does not work, switch it to DEVICE, then back to HOST.
 
 #### Finished!
 

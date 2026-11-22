@@ -30,6 +30,8 @@ adb shell msc
 ### Assign letters to WINNABU and ESPNABU
 > Run the **DriveLetterAssigner** and click **`YES`** to automatically assign the letters **X** and **Y** to **WINNABU** and **ESPNABU**
 
+> Alternatively, you can assign **X:** to **WINNABU** and **Y:** to **ESPNABU** manually using DiskPart.
+
 ### Installing Windows
 > [!Important]
 > Make sure that you are running CMD/Powershell as an **Administrator**

@@ -5,7 +5,7 @@
 ## Disabling secureboot
 
 > [!WARNING]
-> The latest driver and UEFI release, [v2608.03](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases/tag/2608.03), includes a noSB UEFI image. If you are using an older driver release, use the noSB UEFI image that matches that release. Do not mix UEFI and driver versions.
+> The latest driver and UEFI release, [v2611.21](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases/tag/2611.21), includes a noSB UEFI image. If you are using an older driver release, use the noSB UEFI image that matches that release. Do not mix UEFI and driver versions.
 
 > [!IMPORTANT]
 > Follow this guide only if you want to disable Secure Boot.
@@ -17,7 +17,7 @@
 
 - [```Recovery Image```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
-- [```UEFI image (Secure Boot off)```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases/download/2608.03/MiPad5.UEFI-v2608.03_nSB.img)
+- [```UEFI image (Secure Boot off)```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases/download/2611.21/XiaomiPad5.UEFI-v2611.21_nSB.img)
 
 ## Pros and cons of secureboot
 > By default, secureboot is enabled in this guide
@@ -107,9 +107,9 @@ adb reboot bootloader
 #### Flashing the UEFI
 > Make sure you use the matching noSB UEFI image from this page.
 >
-> For v2608.03, replace `<path\to\MiPad5.UEFI-v2608.03_nSB.img>` with the actual path to the image. If you use an older driver release, use its matching noSB UEFI filename instead.
+> For v2611.21, replace `<path\to\XiaomiPad5.UEFI-v2611.21_nSB.img>` with the actual path to the image. If you use an older driver release, use its matching noSB UEFI filename instead.
 ```cmd
-fastboot flash boot <path\to\MiPad5.UEFI-v2608.03_nSB.img>
+fastboot flash boot <path\to\XiaomiPad5.UEFI-v2611.21_nSB.img>
 ```
 
 > [!Important]

@@ -12,6 +12,8 @@
 
 - [`Образ recovery`](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
+- [```DriveLetterAssigner Tool```](https://github.com/Misha803/WOA-Tools/releases/tag/DriveLetterAssigner)
+
 - [`Образ UEFI & Драйверы`](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
 
 
@@ -37,7 +39,7 @@ adb shell msc
 > [!Note]
 > Обновление займёт от 3 до 6 часов, не волнуйтесь, это нормально. 
 
-- Распакуйте архив с драйверами, затем откройте файл `OfflineUpdater.cmd` (если появляется ошибка, запустите вместо него `OfflineUpdaterFix.cmd `)
+- Распакуйте архив с драйверами, затем откройте файл `OfflineUpdater.cmd` (если появляется ошибка, запустите вместо него `OfflineUpdaterFix.cmd`)
 
 > Если он попросит вас ввести букву, введите букву диска **WINNABU** (которая должна быть **X**), затем нажмите enter
 

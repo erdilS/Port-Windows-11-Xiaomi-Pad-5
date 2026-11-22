@@ -45,12 +45,9 @@
 
 #### Готово!
 
-### Вимкнення режиму USB-хоста
-> [!Warning]
-> Вимкніть режим USB-хосту, якщо ви маєте USB-хаб з зовнішнім живленням, оскільки це може незворотно пошкодити ваш пристрій. Якщо ви не використовуєте USB-концентратор із живленням, увімкніть режим USB-хосту, інакше ви не зможете використовувати жодні USB-пристрої
+### Режим USB dual-role
+> Драйвери та UEFI v2611.21 покращують роботу USB-C OTG і USB загалом. Режими USB-пристрою та USB-хоста працюють без ручного перемикання; [USB Mode Control](https://github.com/Misha803/WOA-Tools/releases/tag/USB-Host-Mode-Control) або [usbhostmodenative](https://github.com/n00b69/usbhostmode) потрібні лише для старіших випусків.
 
-- Запустіть [USB Mode Control](https://github.com/Misha803/WOA-Tools/releases/tag/USB-Host-Mode-Control) або [usbhostmodenative](https://github.com/n00b69/usbhostmode) щоб увімкнути/вимкнути режим USB-хоста.
-- Якщо режим USB-хоста наразі ввімкнено, а USB не працює, вимкніть його, а потім увімкніть знову
 
 ## Встановлення Microsoft Office
 - Перейдіть на [сторінку інсталятора Office від Gravesoft](https://gravesoft.dev/office_c2r_links).

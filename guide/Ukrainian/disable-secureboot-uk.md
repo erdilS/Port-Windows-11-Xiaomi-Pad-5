@@ -5,7 +5,7 @@
 ## Вимкнення безпечного завантаження
 
 > [!WARNING]
-> Останній випуск драйверів і UEFI [v2608.03](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases/tag/2608.03) містить образ UEFI з вимкненим Secure Boot. Якщо ви використовуєте старішу версію драйверів, використовуйте відповідний їй образ UEFI з вимкненим Secure Boot. Не змішуйте версії UEFI та драйверів.
+> Останній випуск драйверів і UEFI [v2611.21](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases/tag/2611.21) містить образ UEFI з вимкненим Secure Boot. Якщо ви використовуєте старішу версію драйверів, використовуйте відповідний їй образ UEFI з вимкненим Secure Boot. Не змішуйте версії UEFI та драйверів.
 
 > [!IMPORTANT]
 > Дотримуйтеся цього посібника, лише якщо хочете вимкнути Secure Boot.
@@ -17,7 +17,7 @@
 
 - [```Образ відновлення```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
-- [```Образ UEFI з вимкненим Secure Boot```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases/download/2608.03/MiPad5.UEFI-v2608.03_nSB.img)
+- [```Образ UEFI з вимкненим Secure Boot```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases/download/2611.21/XiaomiPad5.UEFI-v2611.21_nSB.img)
 
 ## Плюси та мінуси безпечного завантаження
 > За умовчанням безпечне завантаження ввімкнено в цьому посібнику
@@ -107,9 +107,9 @@ adb reboot bootloader
 #### Прошивка UEFI
 > Переконайтеся, що ви використовуєте відповідний образ UEFI з вимкненим Secure Boot із цієї сторінки.
 >
-> Для v2608.03 замініть `<шлях\до\MiPad5.UEFI-v2608.03_nSB.img>` на фактичний шлях до образу. Якщо ви використовуєте старішу версію драйверів, використовуйте відповідне їй ім’я noSB UEFI.
+> Для v2611.21 замініть `<шлях\до\XiaomiPad5.UEFI-v2611.21_nSB.img>` на фактичний шлях до образу. Якщо ви використовуєте старішу версію драйверів, використовуйте відповідне їй ім’я noSB UEFI.
 ```cmd
-fastboot flash boot <шлях\до\MiPad5.UEFI-v2608.03_nSB.img>
+fastboot flash boot <шлях\до\XiaomiPad5.UEFI-v2611.21_nSB.img>
 ```
 > [!IMPORTANT]
 > Обов’язково замініть свій старий UEFI у папці UEFI у внутрішній пам’яті Android, щоб випадково не перепрошити його наступного разу, коли спробуєте перейти на Windows з Android

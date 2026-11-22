@@ -4,7 +4,7 @@
 
 ## Отключение SecureBoot 
 > [!WARNING]
-> В последний выпуск драйверов и UEFI [v2608.03](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases/tag/2608.03) входит образ UEFI с отключённым Secure Boot. Если вы используете более старую версию драйверов, используйте соответствующий ей образ UEFI с отключённым Secure Boot. Не смешивайте версии UEFI и драйверов.
+> В последний выпуск драйверов и UEFI [v2611.21](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases/tag/2611.21) входит образ UEFI с отключённым Secure Boot. Если вы используете более старую версию драйверов, используйте соответствующий ей образ UEFI с отключённым Secure Boot. Не смешивайте версии UEFI и драйверов.
 
 > [!IMPORTANT]
 > Следуйте этому руководству, только если хотите отключить Secure Boot.
@@ -16,7 +16,7 @@
 
 - [```Образ рекавери```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
-- [```Образ UEFI с отключённым Secure Boot```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases/download/2608.03/MiPad5.UEFI-v2608.03_nSB.img)
+- [```Образ UEFI с отключённым Secure Boot```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases/download/2611.21/XiaomiPad5.UEFI-v2611.21_nSB.img)
 
 ## Плюсы и минусы SecureBoot
 > По умолчанию, SecureBoot включен в этом гайде
@@ -106,9 +106,9 @@ adb reboot bootloader
 #### Прошивка UEFI
 > Убедитесь, что вы используете соответствующий образ UEFI без Secure Boot с этой страницы.
 >
-> Для v2608.03 замените `<путь\к\MiPad5.UEFI-v2608.03_nSB.img>` на фактический путь к образу. Если вы используете более старую версию драйверов, используйте соответствующее ей имя noSB UEFI.
+> Для v2611.21 замените `<путь\к\XiaomiPad5.UEFI-v2611.21_nSB.img>` на фактический путь к образу. Если вы используете более старую версию драйверов, используйте соответствующее ей имя noSB UEFI.
 ```cmd
-fastboot flash boot путь\к\MiPad5.UEFI-v2608.03_nSB.img
+fastboot flash boot путь\к\XiaomiPad5.UEFI-v2611.21_nSB.img
 ```
 
 > [!WARNING]

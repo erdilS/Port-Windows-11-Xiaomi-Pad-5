@@ -11,7 +11,7 @@
 ### Передумови
 - [```WOA Helper```](https://github.com/n00b69/woa-helper/releases/tag/APK)
   
-- [```Найновіша версія UEFI```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases/download/2608.03/MiPad5.UEFI-v2608.03.img)
+- [```Найновіша версія UEFI```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases/download/2611.21/XiaomiPad5.UEFI-v2611.21.img)
 
 ## Замініть старий UEFI на новий
 > Якщо ви ще не налаштували подвійне завантаження, дотримуйтесь [посібника з подвійного завантаження](/guide/Ukrainian/dualboot-uk.md) щоб правильно налаштувати WOA Helper 

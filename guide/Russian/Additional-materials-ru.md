@@ -56,12 +56,11 @@
 
 #### Готово!
 
-### Переключение режима USB хоста
-> [!WARNING]
-> Выключите режим USB хоста, если вы используете USB-хаб с питанием,посколько он может сломать ваш порт. Если вы не используете такой хаб, включите режим USB хоста, иначе ни одно устройство USB не будет работать.
+### Режим USB dual-role
+> Драйверы и UEFI v2611.21 улучшают работу USB-C OTG и USB в целом. Режимы USB-устройства и USB-хоста работают без ручного переключения; [USB Mode Control](https://github.com/Misha803/WOA-Tools/releases/tag/USB-Host-Mode-Control) или [usbhostmodenative](https://github.com/n00b69/usbhostmode) нужны только для более старых выпусков.
 
-- Запустите [USB Mode Control](https://github.com/Misha803/WOA-Tools/releases/tag/USB-Host-Mode-Control) (новее) или [usbhostmodenative tool](https://github.com/n00b69/usbhostmode) для включения или отключения режима USB хоста.
-- Если режим USB хоста включен,но устройства USB всё равно не работают, выключите режим USB хоста и включите занаво.
+
+
 
 #### Готово!
 

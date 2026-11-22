@@ -28,6 +28,8 @@ adb shell msc
 ### Призначення літер для WINNABU і ESPNABU
 > Запустіть DriveLetterAssigner і натисніть **`YES`** для автоматичного призначення літер X і Y розділам WINNABU і ESPNABU
 
+> Також можна вручну призначити **WINNABU** літеру **X:**, а **ESPNABU** - **Y:** за допомогою DiskPart.
+
 ### Встановлення Windows
 > [!Important]
 > Переконайтесь що запустили cmd/PowerShell від імені **адміністратора**

@@ -9,8 +9,8 @@
 If you installed Windows on your NABU before 07.12.2024 and have not applied the GPT fix, please do so now using [this guide](fix-gpt-en.md) to avoid EDl issues.
 
 ## White line issues
-In some extremely rare cases, your screen may display white lines after putting it to sleep in Windows. 
+White lines after waking from sleep have been reported with older driver/UEFI releases. The [v2611.21 release](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases/tag/2611.21) includes a fix for display artifacts after waking from sleep.
 
-If you see white lines after sleeping in Windows, **REBOOT IMMEDIATELY!!**. These lines can become permanent if they stay on the screen for too long.
+If you still see white lines after waking Windows, **REBOOT IMMEDIATELY!!** These lines can become permanent if they stay on the screen for too long.
 
 
